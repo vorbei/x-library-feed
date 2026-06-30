@@ -383,6 +383,22 @@
       "title": "Executor — The gateway to connect your agent to everything Executor — The gateway to connect your agent to everything",
       "url": "http://executor.sh"
     },
+    "http://git.new/secure-exec": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Secure Node.js Execution Without a Sandbox  A lightweight library for secure Node.js execution. No containers, no VMs — just npm-compatible sandboxing out of the box. - rivet-dev/secure-exec",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/rivet-dev/secure-exec",
+      "frameable": false,
+      "image_urls": [
+        "https://repository-images.githubusercontent.com/1116652542/76e1c357-3c2b-4499-af3b-42600533a69b",
+        "https://camo.githubusercontent.com/adc208c83d53d4b1c5cc2fa4368570afd052711df2c589adf51354e6783b8f13/68747470733a2f2f736563757265657865632e6465762f7365637572652d657865632d6c6f676f2e706e67"
+      ],
+      "kind": "article",
+      "text_excerpt": "A lightweight library for secure Node.js execution.\n  No containers, no VMs — just npm-compatible sandboxing out of the box.\n  Powered by the same tech as Cloudflare Workers.\n  [Documentation](https://secureexec.dev/docs) — [SDK Overview](https://secureexec.dev/docs/sdk-overview) — [Discord](https://rivet.dev/discord)\nnpm install secure-exec\nGive your AI agent the ability to write and run code safely.\n- No infrastructure required — No Docker daemon, no hypervisor, no orchestrator. Runs anywhere Node.js, Bun, or an HTML5 browser runs. Deploy to Lambda, a VPS, or a static site — your existing deployment works.\n- Node.js & npm compatibility — fs, child_process, http, dns, process, os — bridged to real host capabilities, not stubbed. Run Express, Hono, Next.js, and any npm package.\n- Built for AI agents — Give your AI agent the ability to write and run code safely. Works with the Vercel AI SDK, LangChain, and any tool-use framework.\n- Deny-by-default permissions — Filesystem, network, child processes, and env vars are all blocked unless explicitly allowed. Permissions are composable functions — grant read but not write, allow fetch but block spawn.\n- Configurable resource limits — CPU time budgets and memory caps. Runaway code is terminated deterministically — no OOM crashes, no infinite loops, no host exhaustion.\n- Powered by V8 isolates — The same isolation primitive behind Cloudflare Workers for Platforms and every browser tab. Battle-tested at scale by the infrastructure you already trust.\n- [TypeScript](https://secureexec.dev/docs/features/typescript)— Compile and type-check TypeScript inside the sandbox.\n- [Permissions](https://secureexec.dev/docs/features/permissions)— Control what sandboxed code can access on the host.\n- [Filesystem & Mounts](https://secureexec.dev/docs/features/filesystem)— Filesystem backends for sandboxed code.\n- [Virtual Filesystem](https://secureexec.dev/docs/features/virtual-filesystem)— A fully virtual filesystem inside the kernel, isolated from the host disk.\n- [Networking](https://secureexec.dev/docs/features/networking)— Network access for sandboxed code.\n- [NPM & Module Loading](https://secureexec.dev/docs/features/module-loading)— How sandboxed code resolves and loads modules.\n- [Runtime & Platform](https://secureexec.dev/docs/features/runtime-platform)— The host environment guest code sees, plus the platform ladder.\n- [Output Capture](https://secureexec.dev/docs/features/output-capture)— Capture console output from sandboxed code.\n- [Resource Limits](https://secureexec.dev/docs/features/resource-limits)— Bound and cancel guest execution with timeouts, memory, and CPU-time limits.\n- [Child Processes](https://secureexec.dev/docs/features/child-processes)— Spawn child processes from sandboxed code.\n1. Install\nnpm install secure-exec2. Create a runtime\nNodeRuntime.create() boots a fully virtualized VM behind the native sidecar. Guest code runs inside the kernel isolation boundary with no host escapes. All options are optional: cwd defaults to /workspace, and permissions default to a secure policy that denies network access (see step 4).\nimport { NodeRuntime } from \"secure-exec\";\nconst runtime = await NodeRuntime.create();3. Run code\nUse run() when you want a JSON value back; the guest calls globalThis.__return(value) to set it. Use exec() when you care about side effects and want to capture stdout/stderr/exitCode. Guest code runs as an ES module, so import and top-level await both work.\nimport { NodeRuntime } from \"secure-exec\";\n// Boot a fully virtualized runtime. Guest code runs inside the kernel\n// isolation boundary - no host escapes.\nconst runtime = await NodeRuntime.create();\ntry {\n  // run() executes guest JavaScript as an ES module and returns the value the\n  // guest passes to globalThis.__return(). stdout/stderr are captured too.\n  const result = await runtime.run<{ message: string; sum: number }>(`\n    console.log(\"hello from secure-exec\");\n    __return({ message: \"hello from secure-exe",
+      "title": "GitHub - rivet-dev/secure-exec: Secure Node.js Execution Without a Sandbox A lightweight library for secure Node.js execution. No containers, no VMs — just npm-compatible sandboxing out of the box. · GitHub",
+      "url": "http://git.new/secure-exec"
+    },
     "http://github.com/": {
       "content_type": "text/html; charset=utf-8",
       "description": "Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.",
@@ -6168,6 +6184,19 @@
       "title": "",
       "url": "http://x.com/i/article/2070730492236947456"
     },
+    "http://x.com/i/article/2070770606170374144": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2070770606170374144",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HL-k0B6asAEP59m?format=jpg&name=900x900)](http://x.com/nurijanian/article/2071555826087760076/media/2071555567387324417)\n\nAmbient PM agents\n\n[![](https://pbs.twimg.com/profile_images/1602541464851980288/Stnr4-Bl_normal.png)](http://x.com/nurijanian)\n\n[George from ![🕹](https://abs.twimg.com/emoji/v2/svg/1f579.svg)prodmgmt.world](http://x.com/nurijanian)\n\n[@nurijanian](http://x.com/nurijanian)\n\n·\n\n17h\n\nFollow\n\nClick to Follow nurijanian\n\n1\n\n3\n\n35\n\n[3.7K](http://x.com/nurijanian/status/2071555826087760076/analytics)\n\nPMs usually get the idea before they have the evidence.\n\nA customer mentions a problem on a call. Support hears the same complaint twice. Sales brings back the same ask from a prospect. Someone drops a half-formed version in Slack. The PM can tell there may be a product problem worth solving, but they do not have enough evidence to claim roadmap space or write a proper PRD.\n\nSo the PM parks the idea in a holding place.\n\nMaybe the idea goes into a backlog. Maybe the idea gets a line in a doc. Maybe the idea stays in the PM's head until the next planning cycle, at which point everyone tries to reconstruct the evidence from memory.\n\nThe PM needs a safer place to store the idea while evidence accumulates: attach an ambient agent to the idea so it can collect evidence before the idea reaches the roadmap.\n\nThe PM should not ask the agent to write a PRD first. On day one, they use the agent to build a running evidence file.\n\n[![Image](https://pbs.twimg.com/media/HL-i7Ria0AAMs-g?format=jpg&name=small)](http://x.com/nurijanian/article/2071555826087760076/media/2071553492817465344)\n\nEvery day, maybe on a cron job, the agent checks the product-evidence sources. It reads support tickets, customer call notes, research transcripts, analytics anomalies, sales objections, Slack threads, roadmap comments, prior strategy docs, and existing feature requests.\n\nThe PM gets a file with matching signal and counter-evidence in one file. If weeks pass with no signal, the PM sees the signal absence in the record too.\n\nNow imagine tracking evidence for 10 product ideas at once.\n\nThe PM keeps a slow-growing packet for each idea. One packet may contain three support tickets, a sales objection, and a rough design sketch. Another may contain nothing except vague enthusiasm. Customers might keep mentioning a third idea across calls. After matching support tickets, sales objections, or customer-call mentions appear, the agent can flag the idea for a closer review.\n\nThe packet gives the PM an evidence file that is more useful than an AI-written PRD because the packet shows whether the idea has enough support.\n\nThe PRD can come later. The first file to create is the evidence file that tells you whether there is enough evidence to write the PRD.\n\nA PM can run the same evidence-collection workflow inside the company.\n\nBefore the PM sends a half-baked spec to stakeholders, they can use the agent to route constraint questions to the relevant stakeholders. Support reps can name the rollout risks. Designers can mark the workflow failure points.\n\nEngineers can flag the expensive edge cases. Legal, data, security, or finance leads can name the blockers that would kill the idea.\n\n[![Image](https://pbs.twimg.com/media/HL-i_rlasAAqSvZ?format=jpg&name=small)](http://x.com/nurijanian/article/2071555826087760076/media/2071553568528838656)\n\nA starting packet should include:\n\n* the idea definition\n* the non-goals\n* the supporting evidence\n* the weakening evidence\n* the untested assumptions\n* the concerned stakeholders\n* the smallest version worth testing\n* engineering's view of the implementation path\n* the timing risks\n\nOnce the packet exists, stakeholder review can work more like a pull request.\n\n[![Image](https://pbs.twimg.com/media/HL-jMCWbkAEFRN6?format=jpg&name=small)](http://x.com/nurijanian/article/2071555",
+      "title": "",
+      "url": "http://x.com/i/article/2070770606170374144"
+    },
     "http://x.com/i/article/2070895816273960960": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6312,6 +6341,32 @@
       "title": "",
       "url": "http://x.com/i/article/2071481305091485696"
     },
+    "http://x.com/i/article/2071490476545290240": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2071490476545290240",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HL-Nke1XoAA_OG7?format=jpg&name=900x900)](http://x.com/rvaniaaaa/article/2071530827880497539/media/2071530011505434624)\n\nYour Coding Agent Starts From Scratch Every Day. This File Changes That.\n\n[![](https://pbs.twimg.com/profile_images/2051734993894776832/VunQcoHD_normal.jpg)](http://x.com/rvaniaaaa)\n\n[rvaniaaa](http://x.com/rvaniaaaa)\n\n[@rvaniaaaa](http://x.com/rvaniaaaa)\n\n·\n\n19h\n\nFollow\n\nClick to Follow rvaniaaaa\n\n3\n\n4\n\n39\n\n[3.5K](http://x.com/rvaniaaaa/status/2071530827880497539/analytics)\n\nEvery new Claude Code session starts the same way.\n\nNot with coding. With explaining.\n\n\"We use pnpm.\" \"Don't edit generated files.\" \"The API lives here.\" \"Run the tests before you're done.\"\n\nFive minutes later, you finally start working. Tomorrow you'll repeat the exact same conversation.\n\nHere's the strange part.\n\nNone of those instructions changed. So why are they still living in your chat?\n\n## \n\nEvery Repository Stores Two Things\n\nMost developers think a repository stores code.\n\nIt doesn't. It stores two completely different kinds of knowledge.\n\nThe first is obvious: the code itself.\n\nThe second is much harder to see: how your team builds that code.\n\nWhich conventions everyone follows. Which shortcuts have become standard. Which mistakes everyone avoids. When to ask questions instead of making assumptions.\n\nThe code explains what your software does. Your team knows how it gets built.\n\nThose are different kinds of knowledge.\n\nFor years we've only documented the first one.\n\nThat's starting to change.\n\n## \n\nREADME Explains The Code. CLAUDE.md Explains The Team.\n\nA README tells a new developer what the project is. CLAUDE.md tells your coding agent how your team actually builds it.\n\nOne explains the software. The other explains the people behind it.\n\nBoth belong in the repository because neither changes every conversation.\n\nAnthropic introduced CLAUDE.md for exactly this reason: to give the agent persistent, project-specific context instead of making you repeat it every session.\n\nThe file isn't magic. The idea is.\n\n## \n\nEvery Senior Engineer Already Has One\n\nEvery experienced engineer already has a CLAUDE.md. It just isn't written down.\n\nThey know which files nobody touches. Which patterns the team prefers. Which trade-offs have already been made. Which bugs keep coming back.\n\nA new hire spends weeks learning those habits. A coding agent starts from zero every morning unless you write them down.\n\nCLAUDE.md doesn't create project knowledge. It captures it.\n\n## \n\nDon't Write One. Discover One.\n\nThis is where most people get it wrong.\n\nThey open a blank file and try to document everything.\n\nDon't. Instead, watch yourself work.\n\nEvery time you repeat an instruction, save it. Every time your team agrees on a new convention, save it. Every time the model makes the same mistake twice, save it.\n\nA month later something interesting happens. The file stops looking like documentation. It starts looking like your team.\n\n## \n\nWhat Actually Goes Inside?\n\nOnce you understand the purpose of CLAUDE.md, the structure becomes obvious.\n\nStart by describing what you're building. A couple of sentences are enough. Then list the stack. Don't make the model guess.\n\nExplain where things live. Which folders matter. Which files should never be edited.\n\nAdd the commands your team runs every day.\n\nFinally, write down the rules you keep repeating.\n\nIf you've typed the same instruction three times, it probably belongs in the file. Not because the model forgot it. Because you shouldn't have to remember repeating it.\n\n[![Image](https://pbs.twimg.com/media/HL-NzchXsAAnlaH?format=jpg&name=small)](http://x.com/rvaniaaaa/article/2071530827880497539/media/2071530268582719488)\n\n## \n\nThe Test\n\nTomorrow, start a brand new Claude Code session.\n\nAsk it to build a feature.\n\nDon't explain your stack, your workflow, or your convent",
+      "title": "",
+      "url": "http://x.com/i/article/2071490476545290240"
+    },
+    "http://x.com/i/article/2071581410540879872": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2071581410540879872",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HL-8p6FWwAA0D1v?format=jpg&name=900x900)](http://x.com/nateherk/article/2071588017878249890/media/2071581781766094848)\n\nStanford's Method Turns Claude Into a PHD Level Research Team\n\n[![](https://pbs.twimg.com/profile_images/2046419318918037504/GFSBxbxy_normal.jpg)](http://x.com/nateherk)\n\n[Nate Herk](http://x.com/nateherk)\n\n[@nateherk](http://x.com/nateherk)\n\n·\n\n15h\n\nFollow\n\nClick to Follow nateherk\n\n4\n\n15\n\n146\n\n[75K](http://x.com/nateherk/status/2071588017878249890/analytics)\n\nStanford has a research method called STORM that peer-reviewed testing shows produces articles 25% more organized than the next best method.\n\nI put those principles into my own Claude skill and I'm giving it away for free.\n\nYou point it at a topic. You get back a verified HTML briefing built by five different agents, each looking at the problem from a different angle.\n\n## \n\nTL;DR\n\n→ STORM runs your topic through five expert lenses instead of one prompt, so the blind spots one angle misses get caught by another\n\n→ The five lenses: practitioner, academic, skeptic, economist, historian\n\n→ Six more agents then verify every fact and mark each source confirmed, corrected, or demoted\n\n→ You get one self-contained HTML report, with findings ranked by reliability\n\n→ I tested it against Claude Code's built-in Deep Research, and a separate model picked STORM on all six quality measures\n\n## \n\nWhy One Prompt Isn't Enough\n\nSend one prompt to Claude and you get one angle of research.\n\nThat leaves a pile of blind spots in the plan.\n\nSTORM fixes that with five perspectives, and each angle finds a hole the others miss.\n\n→ The practitioner cares about what actually works\n\n→ The academic wants the evidence\n\n→ The skeptic pokes holes\n\n→ The economist follows the money\n\n→ The historian looks at what came before\n\nEach agent role-plays its own background and area of expertise. When they all dig into the same topic, you get coverage no single prompt would catch.\n\n## \n\nSTORM vs Claude's Built-In Deep Research\n\nClaude Code has a native Deep Research feature that launched with dynamic workflows.\n\nYou give it a topic, it spins up a dynamic workflow, and it kicks off hundreds of agents in the background. In my run it fired off 103 agents.\n\nIt didn't even hand me a report at first. I had to ask where it was, and it gave me a markdown file that was decent but thin. Two sources up top, a few unconfirmed ones at the bottom, and some open questions.\n\nThen I dropped the exact same prompt into STORM.\n\nIt ran the five lenses, converged them, mapped where they disagreed, then ran six more agents to verify every fact. Out came a clean HTML report.\n\nHere's what stood out.\n\nI put both reports into Codex, a completely different model, and asked which was better. It picked the STORM briefing on all six measures: evidence quality, source diversity, thesis strength, actionability, risk control, and fit for video and content.\n\nSTORM ran faster and came in 100% cheaper. About 12 agents total versus over 100 for Deep Research. And Deep Research got hit by API rate limits, which is the risk when you spin up that many agents at once. With STORM it's always your five personas.\n\n## \n\nInside the Report\n\nEvery report comes back on the same template, so it looks consistent every time.\n\n→ A 60-second summary up top\n\n→ Key findings, each ranked by reliability\n\n→ A reliability score per finding, like 9 out of 10, with which lenses supported it and which challenged it\n\n→ Sources at the bottom marked confirmed, corrected, or demoted from the V2 verification pass\n\nIt even calls out the assumption the whole briefing rests on, plus the missing lens. In one run, all five lenses looked at the topic from the owner's chair, adoption, productivity, ROI. None sat in the seat of the customer or the frontline employee. So I told it to spin up that sixth lens and run a V",
+      "title": "",
+      "url": "http://x.com/i/article/2071581410540879872"
+    },
     "http://x.com/i/article/2071621950749777920": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6327,6 +6382,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2071621950749777920"
+    },
+    "http://x.com/i/article/2071636394196324353": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2071636394196324353",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HL_uXG3XoAAQj34?format=jpg&name=900x900)](http://x.com/reidhoffman/article/2071636465600065765/media/2071636434360967168)\n\nIdea Generators\n\n[![](https://pbs.twimg.com/profile_images/1987866955278106624/F_KCQWKI_normal.jpg)](http://x.com/reidhoffman)\n\n[Reid Hoffman](http://x.com/reidhoffman)\n\n[@reidhoffman](http://x.com/reidhoffman)\n\n·\n\n12h\n\nFollow\n\nClick to Follow reidhoffman\n\n9\n\n24\n\n290\n\n[103K](http://x.com/reidhoffman/status/2071636465600065765/analytics)\n\nFor more than two decades, I’ve been playing a kind of intellectual ping pong with Zynga founder Mark Pincus about where we think the internet’s heading and what big entrepreneurial opportunities that creates. So I was honored when he asked me to write the foreword to his excellent new book, Life At the Speed of Play. If you want to learn the theory of the game that has helped Mark engage billions of internet users over the years, \n\n[get it today.](https://www.amazon.com/dp/0063352575)\n\n\\*\\*\\*\\*\n\nIdea Generators\n\nMark and I met in 2000, when the Web 1.0 boom was quickly spiraling into an internet winter. I was an executive at PayPal and Mark had just taken \n\n[Support.com](http://support.com/)\n\n public, but the internet’s future seemed anything but certain. As failed start-ups consigned their Aeron chairs to online liquidators (yeah, it was a little ironic), we bonded over our belief that this was just a temporary collapse—not the finished state of the internet at all, but rather just a pause before its evolution into something far more dynamic and essential to human interaction: Web 2.0.\n\nThe theory of the game we shared? The future of the web would not be driven by static pages, hierarchical directories, and newspaper articles linked to encyclopedias. Instead, it would revolve around human connection, in ways that would spill over into, then merge with, real life itself. After some false starts and technical constraints, the web would finally evolve into a much more explicitly social medium, oriented around new networks and platforms that prioritized human connection and affiliation.\n\nAlong with our shared view that the web was not only not dead, but actually on the verge of massive growth and transformation, Mark most amazed me with the rate at which he generated new ideas. As many Web 1.0 veterans retreated to the seemingly less volatile industries of the past, Mark kept his focus on how to build for the internet’s people-centered potential. And he had ideas and theories for seemingly everything: how news media, movies, games, and even politics would evolve in this new coming world; how trust would be gained and lost; which entrenched institutions would sink; which new ones might take root.\n\nAs delightful and instructive as it was just to sit and theorize about the world with Mark, though, I also came to realize fairly quickly that his way to intellectually engage with the world was not just to talk but also to act—to test, play, learn, and refine. To that end, he has created and continues to develop a very intentional system for making sense of the world from an entrepreneur’s perspective—a set of rules for how to develop, test, and deploy products, brands, and services.\n\nIndeed, as much as Mark is an idea generator, he’s also an idea executor—and I mean that in two ways. First, as you’ll learn in this book, his ideas are always linked to strategies and tactics for making them tangible. Second, as you’ll also learn here, he is a strong believer in the premise that most ideas are bad ones—and that ultimately what distinguishes great entrepreneurs and founders is their synergistic capacity to generate and kill ideas with equal speed and enthusiasm. (Check out his podcast episode on Masters of Scale!)\n\nUnsurprisingly, given the title of this book and Mark’s status as the founder of Zynga, the company that made mainstre",
+      "title": "",
+      "url": "http://x.com/i/article/2071636394196324353"
+    },
+    "http://x.com/i/article/2071662476635316224": {
+      "cf_fallback_error": "empty result",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2071662476635316224",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2071662476635316224"
     },
     "http://zaro.ai": {
       "content_type": "text/html",
@@ -6735,6 +6816,27 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "[2605.29307v1] GrepSeek: Training Search Agents for Direct Corpus Interaction",
       "url": "https://arxiv.org/abs/2605.29307v1"
+    },
+    "https://arxiv.org/abs/2606.24937": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Abstract page for arXiv paper 2606.24937: The Hitchhiker's Guide to Agentic AI: From Foundations to Systems",
+      "final_url": "https://arxiv.org/abs/2606.24937",
+      "frameable": false,
+      "image_urls": [
+        "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+        "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg",
+        "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
+        "https://arxiv.org/static/browse/0.3.4/images/arxiv-logomark-small-white.svg",
+        "https://arxiv.org/icons/licenses/by-sa-4.0.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Skip to main content arXiv submission will be down for maintenance beginning 14:00 EDT Tuesday June 30th. The site should otherwise remain in operation. Learn about arXiv becoming an independent nonprofit. We gratefully acknowledge support from the Simons Foundation, member institutions , and all contributors. Donate > cs > arXiv:2606.24937 Help | Advanced Search All fields Title Author Abstract Comments Journal reference ACM classification MSC classification Report number arXiv identifier DOI ORCID arXiv author ID Help pages Full text Search GO quick links Login Help Pages About Computer Science > Artificial Intelligence arXiv:2606.24937 (cs) [Submitted on 22 Jun 2026] Title: The Hitchhiker's Guide to Agentic AI: From Foundations to Systems Authors: Haggai Roitman View a PDF of the paper titled The Hitchhiker's Guide to Agentic AI: From Foundations to Systems, by Haggai Roitman View PDF Abstract: The Hitchhiker's Guide to Agentic AI is a comprehensive practitioner's reference for building autonomous AI systems. The book covers the full stack from first principles to production deployment, organized around a central thesis: building great agentic systems requires understanding every layer of the pipeline, not just one. The book opens with the LLM substrate -- transformer architecture, GPU systems, training and fine-tuning (SFT,LoRA, MoE), model compression, and inference optimization -- treated as essential foundations rather than the primary focus. It then develops the alignment and reasoning layer: reinforcement learning from human feedback (RLHF), PPO, DPO and its variants, GRPO, reward modeling, and RL for large reasoning models including chain-of-thought and test-time scaling. The second half is devoted to agentic AI proper. Topics include agentic training and trajectory-based RL, retrieval-augmented generation (RAG and Agentic RAG), memory systems (in-context, external, episodic, and semantic), agent harness design and context management, and a taxonomy of agent design patterns. Inter-agent coordination is covered in depth: the Model Context Protocol (MCP), agent skills and tool use, the Agent-to-Agent (A2A) communication protocol, and multi-agent architectures spanning centralized, decentralized, and hierarchical topologies. The book concludes with agent development frameworks, agentic UI design, evaluation methodology for agentic tasks, and production deployment. Each chapter pairs rigorous theoretical foundations with implementation guidance, code examples, and references to the primary literature. Subjects: Artificial Intelligence (cs.AI) ; Computation and Language (cs.CL); Information Retrieval (cs.IR); Machine Learning (cs.LG) Cite as: arXiv:2606.24937 [cs.AI] (or arXiv:2606.24937v1 [cs.AI] for this version) https://doi.org/10.48550/arXiv.2606.24937 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Haggai Roitman [ view email ] [v1] Mon, 22 Jun 2026 17:48:54 UTC (5,525 KB) Full-text links: Access Paper: View a PDF of the paper titled The Hitchhiker's Guide to Agentic AI: From Foundations to Systems, by Haggai Roitman View PDF TeX Source view license Current browse context: cs.AI < prev | next > new | recent | 2026-06 Change to browse by: cs cs.CL cs.IR cs.LG References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation × loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( Wha",
+      "title": "[2606.24937] The Hitchhiker's Guide to Agentic AI: From Foundations to Systems",
+      "url": "https://arxiv.org/abs/2606.24937"
     },
     "https://arxiv.org/pdf/2606.09498": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
@@ -9814,26 +9916,6 @@
       "title": "AI Agent Memory",
       "url": "https://outcomeschool.com/blog/ai-agent-memory"
     },
-    "https://outcomeschool.com/blog/how-does-prompt-caching-work": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "In this blog, we will learn about how Prompt Caching works. We will also see why we need it, how it actually works inside a large language model, and where it is used in real systems like AI assistants and agents.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://outcomeschool.com/blog/how-does-prompt-caching-work",
-      "frameable": false,
-      "image_urls": [
-        "https://outcomeschool.com/static/images/blog/how-does-prompt-caching-work.png",
-        "https://outcomeschool.com/_next/image?url=%2Fstatic%2Fimages%2Famit-avatar.png&w=96&q=75",
-        "https://outcomeschool.com/_next/image?url=%2Fstatic%2Fimages%2Fblog%2Fhow-does-prompt-caching-work.png&w=3840&q=75"
-      ],
-      "kind": "article",
-      "text_excerpt": "How does Prompt Caching work?\n- Authors\n- Name\n- Amit Shekhar\n- Published on\n \n \nIn this blog, we will learn about how Prompt Caching works. We will also see why we need it, how it actually works inside a large language model, and where it is used in real systems like AI assistants and agents.\nWe will cover the following:\n- What is a prompt\n- A quick recap of how an LLM reads a prompt\n- What is Prompt Caching\n- Why we need Prompt Caching\n- The core idea behind Prompt Caching\n- The exact-prefix rule\n- Cache write vs cache read and TTL\n- What we should put in the cache\n- The benefits of Prompt Caching\n- Prompt Caching in the real world\nI am Amit Shekhar, Founder @ [Outcome School](https://outcomeschool.com), I have taught and mentored many developers, and their efforts landed them high-paying tech jobs, helped many tech companies in solving their unique problems, and created many open-source libraries being used by top companies. I am passionate about sharing knowledge through open-source, blogs, and videos.\nI teach [AI and Machine Learning](https://outcomeschool.com/program/ai-and-machine-learning) at Outcome School.\nLet's get started.\nBefore we talk about Prompt Caching, we must first understand what a prompt is.\nA prompt is simply the text we send to a large language model.\nA large language model, or LLM, is the technology behind tools like ChatGPT and Claude. We give it some text, and it gives us back some text.\nIn simple words, the prompt is everything we type in. The model reads our prompt and then writes a reply.\nLet's say we are building a customer support assistant. The text we send to the model usually has a few parts:\n- A set of instructions telling the model how to behave, for example \"You are a polite support agent for a shoe store.\"\n- Maybe a long document with all our shoe return policies.\n- The actual question from the user, for example \"Can I return shoes after 40 days?\"\nAll of this text together is the prompt.\nNow, here is something important to notice. The instructions and the policy document stay the same for every user. Only the user's question changes. We will come back to this point soon, because it is the heart of Prompt Caching.\nTo understand Prompt Caching, we must understand one thing about how an LLM reads a prompt.\nWhen we send a prompt, the model does not read it as full words. It first breaks the text into small pieces called tokens. A token is a small chunk of text, roughly a word or part of a word. For example, a short word like support is usually one token, while a longer word like returning is often split into two tokens.\nSo, the prompt becomes a list of tokens.\nWe have a detailed blog on [Byte Pair Encoding (BPE)](https://outcomeschool.com/blog/bpe-in-llms) that explains how this tokenization works.\nNow, the model goes through these tokens one by one and builds an internal understanding of each token. This first step, where the model reads the whole prompt and processes every token before writing even a single word of the reply, is called the prefill step.\nIn simple words, prefill is the model reading and digesting our entire prompt.\nDuring prefill, for every single token, the model computes some internal values and stores them. These stored values are kept in something called the [KV cache](https://outcomeschool.com/blog/kv-cache-in-llms).\nLet's understand the KV cache in plain words. As the model reads each token, it creates a small summary of that token, a kind of note about what that token means in the context of everything before it. The KV cache is the collection of all these notes, one set of notes per token. The model needs these notes to write the reply, and it also reuses them while generating each new word.\nHere is the key point to remember:\nBuilding the KV cache for a long prompt takes real work. The model has to do heavy computation for every token, one by one.\nSo, if our prompt has 5,000 tokens, the model does this work for all 5,000 tokens before it writes anything. The longer t",
-      "text_excerpt_zh": "## 提示缓存（Prompt Caching）是如何工作的？\n\n- **作者**\n- **姓名**\n- Amit Shekhar\n- **发布日期**\n\n\n在这篇博客中，我们将学习提示缓存（Prompt Caching）是如何工作的。我们还将了解为什么需要它，它在大型语言模型内部的实际工作原理，以及在AI助手和智能体等真实系统中的使用场景。\n\n我们将涵盖以下内容：\n- 什么是提示（prompt）\n- 快速回顾LLM如何读取提示\n- 什么是提示缓存\n- 为什么需要提示缓存\n- 提示缓存的核心思想\n- 精确前缀规则\n- 缓存写入 vs 缓存读取及TTL\n- 缓存中应该放什么\n- 提示缓存的好处\n- 现实世界中的提示缓存\n\n我是Amit Shekhar，[Outcome School](https://outcomeschool.com)的创始人。我曾教导和指导过许多开发者，他们的努力帮助他们获得了高薪技术工作，帮助许多科技公司解决了独特的问题，并创建了许多被顶级公司使用的开源库。我热衷于通过开源、博客和视频分享知识。\n\n我在Outcome School教授[人工智能与机器学习](https://outcomeschool.com/program/ai-and-machine-learning)。\n\n让我们开始吧。\n\n在讨论提示缓存之前，我们必须先理解什么是提示。\n\n提示（prompt）就是我们发送给大型语言模型的文本。\n\n大型语言模型（LLM）是ChatGPT和Claude等工具背后的技术。我们给它一些文本，它就会返回一些文本。\n\n简单来说，提示就是我们输入的所有内容。模型读取我们的提示，然后写出回复。\n\n假设我们正在构建一个客户支持助手。我们发送给模型的文本通常包含几个部分：\n- 一组告诉模型如何行为的指令，例如\"你是一家鞋店礼貌的支持代理。\"\n- 可能是一份包含所有退鞋政策的冗长文档。\n- 用户的实际问题，例如\"我可以在40天后退鞋吗？\"\n\n所有这些文本合在一起就是提示。\n\n现在，有一个重要的点需要注意。指令和政策文档对每个用户来说都是相同的。只有用户的问题会变化。我们很快就会回到这一点，因为这是提示缓存的核心。\n\n要理解提示缓存，我们必须了解LLM如何读取提示。\n\n当我们发送一个提示时，模型并不会将其作为完整的单词来阅读。它首先将文本分解成称为token的小块。一个token是一小段文本，大致相当于一个单词或单词的一部分。例如，像\"support\"这样的短单词通常是一个token，而像\"returning\"这样的长单词通常会被拆分成两个token。\n\n因此，提示变成了一个token列表。\n\n我们有一篇关于[字节对编码（BPE）](https://outcomeschool.com/blog/bpe-in-llms)的详细博客，解释了这种分词的工作原理。\n\n现在，模型逐个处理这些token，并建立对每个token的内部理解。这个第一步，即模型读取整个提示并在写出回复的任何一个单词之前处理每个token，被称为预填充（prefill）步骤。\n\n简单来说，预填充就是模型阅读和消化我们整个提示的过程。\n\n在预填充期间，对于每个token，模型会计算一些内部值并存储它们。这些存储的值保存在称为[KV缓存](https://outcomeschool.com/blog/kv-cache-in-llms)的东西中。\n\n让我们用通俗的语言理解KV缓存。当模型读取每个token时，它会创建该token的一个小摘要，一种关于该token在它之前所有内容的上下文中含义的笔记。KV缓存就是所有这些笔记的集合，每个token对应一组笔记。模型需要这些笔记来写出回复，并且在生成每个新词时也会重复使用它们。\n\n这里是要记住的关键点：\n\n为长提示构建KV缓存需要实际的计算工作。模型必须为每个token逐个进行大量计算。\n\n因此，如果我们的提示有5,000个token，模型在写出任何内容之前，会为所有5,000个token完成这项工作。提示越长，",
-      "text_excerpt_zh_hash": "30c58bc76eb9bd27",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "How does Prompt Caching work?",
-      "url": "https://outcomeschool.com/blog/how-does-prompt-caching-work"
-    },
     "https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -9867,20 +9949,6 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843118"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2060793930921164800/img/rdKGBTq5ehZOEs9_.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2060793930921164800/img/rdKGBTq5ehZOEs9_.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2060793930921164800/img/rdKGBTq5ehZOEs9_.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2060793930921164800/img/rdKGBTq5ehZOEs9_.jpg"
     },
     "https://pbs.twimg.com/amplify_video_thumb/2060802519421636608/img/wUrR1DjFkIxMWBQv.jpg": {
       "cleaner_v": 2,
@@ -11184,6 +11252,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2071383852325441537/img/DHX5KQ9hvt6uBqFe.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2071588081799450624/img/GwNhGV0upECkuqZl.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2071588081799450624/img/GwNhGV0upECkuqZl.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2071588081799450624/img/GwNhGV0upECkuqZl.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2071588081799450624/img/GwNhGV0upECkuqZl.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2071646811303866368/img/5FGBumgaOJq6OU-r.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11799,20 +11881,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ_YiFvaIAANnSr.png"
-    },
-    "https://pbs.twimg.com/media/HJnZfENWsAQMDGl.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJnZfENWsAQMDGl.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJnZfENWsAQMDGl.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJnZfENWsAQMDGl.jpg"
     },
     "https://pbs.twimg.com/media/HJsV9b_W0AIkqXw.jpg": {
       "cleaner_v": 2,
@@ -13284,6 +13352,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HL-GqRDbQAAIrzP.jpg"
     },
+    "https://pbs.twimg.com/media/HL-yWJOaQAAtIc4.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL-yWJOaQAAtIc4.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL-yWJOaQAAtIc4.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL-yWJOaQAAtIc4.png"
+    },
     "https://pbs.twimg.com/media/HL08tq3bEAALxx3.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -13437,20 +13519,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HL3okxMb0AAjAof.png"
-    },
-    "https://pbs.twimg.com/media/HL4xWatbAAA7e1P.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HL4xWatbAAA7e1P.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HL4xWatbAAA7e1P.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HL4xWatbAAA7e1P.jpg"
     },
     "https://pbs.twimg.com/media/HL5WX6oaoAAzri9.jpg": {
       "cleaner_v": 2,
@@ -14642,19 +14710,33 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLwjAjbbAAEBm6c.jpg"
     },
-    "https://pbs.twimg.com/media/HLyd0vObwAAnQDV.png": {
+    "https://pbs.twimg.com/media/HMA2PM_XcAAMvrg.jpg": {
       "cleaner_v": 2,
-      "content_type": "image/png",
+      "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLyd0vObwAAnQDV.png",
+      "final_url": "https://pbs.twimg.com/media/HMA2PM_XcAAMvrg.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HLyd0vObwAAnQDV.png"
+        "https://pbs.twimg.com/media/HMA2PM_XcAAMvrg.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HLyd0vObwAAnQDV.png"
+      "url": "https://pbs.twimg.com/media/HMA2PM_XcAAMvrg.jpg"
+    },
+    "https://pbs.twimg.com/media/HMAGBKSXkAEAbQN.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMAGBKSXkAEAbQN.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMAGBKSXkAEAbQN.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMAGBKSXkAEAbQN.png"
     },
     "https://pbs.twimg.com/media/HMAImJ_aUAEmxBJ.jpg": {
       "cleaner_v": 2,
@@ -14669,6 +14751,216 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HMAImJ_aUAEmxBJ.jpg"
+    },
+    "https://pbs.twimg.com/media/HMAYA5lXoAAEAyx.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMAYA5lXoAAEAyx.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMAYA5lXoAAEAyx.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMAYA5lXoAAEAyx.jpg"
+    },
+    "https://pbs.twimg.com/media/HMAYAAoXYAAgOFo.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMAYAAoXYAAgOFo.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMAYAAoXYAAgOFo.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMAYAAoXYAAgOFo.png"
+    },
+    "https://pbs.twimg.com/media/HMAYAArWwAANIj6.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMAYAArWwAANIj6.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMAYAArWwAANIj6.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMAYAArWwAANIj6.jpg"
+    },
+    "https://pbs.twimg.com/media/HMAYAAwWEAAxTKP.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMAYAAwWEAAxTKP.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMAYAAwWEAAxTKP.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMAYAAwWEAAxTKP.jpg"
+    },
+    "https://pbs.twimg.com/media/HMAZK8BWEAAj41n.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMAZK8BWEAAj41n.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMAZK8BWEAAj41n.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMAZK8BWEAAj41n.jpg"
+    },
+    "https://pbs.twimg.com/media/HMAsMrIW0AAnZZC.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMAsMrIW0AAnZZC.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMAsMrIW0AAnZZC.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMAsMrIW0AAnZZC.jpg"
+    },
+    "https://pbs.twimg.com/media/HMAwNQYWIAAaMqw.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMAwNQYWIAAaMqw.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMAwNQYWIAAaMqw.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMAwNQYWIAAaMqw.jpg"
+    },
+    "https://pbs.twimg.com/media/HMAz779W8AAacHW.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMAz779W8AAacHW.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMAz779W8AAacHW.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMAz779W8AAacHW.jpg"
+    },
+    "https://pbs.twimg.com/media/HMAzLbKWQAExs4x.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMAzLbKWQAExs4x.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMAzLbKWQAExs4x.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMAzLbKWQAExs4x.jpg"
+    },
+    "https://pbs.twimg.com/media/HMAzpRgWcAAGA5r.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMAzpRgWcAAGA5r.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMAzpRgWcAAGA5r.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMAzpRgWcAAGA5r.jpg"
+    },
+    "https://pbs.twimg.com/media/HMB9ww1bgAA2djK.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMB9ww1bgAA2djK.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMB9ww1bgAA2djK.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMB9ww1bgAA2djK.jpg"
+    },
+    "https://pbs.twimg.com/media/HMBKbi2awAAiy68.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMBKbi2awAAiy68.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMBKbi2awAAiy68.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMBKbi2awAAiy68.jpg"
+    },
+    "https://pbs.twimg.com/media/HMBKbi4a0AAa3ee.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMBKbi4a0AAa3ee.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMBKbi4a0AAa3ee.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMBKbi4a0AAa3ee.jpg"
+    },
+    "https://pbs.twimg.com/media/HMCNo04XUAAa7AE.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMCNo04XUAAa7AE.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMCNo04XUAAa7AE.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMCNo04XUAAa7AE.jpg"
+    },
+    "https://pbs.twimg.com/media/HMCNo06XoAAYZJ1.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMCNo06XoAAYZJ1.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMCNo06XoAAYZJ1.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMCNo06XoAAYZJ1.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -14852,20 +15144,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HLt7FB3bUAAA0aK.jpg"
     },
-    "https://pbs.twimg.com/tweet_video_thumb/HMA2CufWEAAypkf.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HMA2CufWEAAypkf.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/tweet_video_thumb/HMA2CufWEAAypkf.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/tweet_video_thumb/HMA2CufWEAAypkf.jpg"
-    },
     "https://pbs.twimg.com/tweet_video_thumb/HMAOTIFXcAAcKHY.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14893,6 +15171,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HMARjKyWAAA08lU.jpg"
+    },
+    "https://pbs.twimg.com/tweet_video_thumb/HMA_xndXUAA8hiw.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HMA_xndXUAA8hiw.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HMA_xndXUAA8hiw.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HMA_xndXUAA8hiw.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HMAqMf4XoAA_kkv.jpg": {
       "cleaner_v": 2,
@@ -15367,6 +15659,23 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Low-cost Chinese AI models like DeepSeek gain traction in the U.S. - Rest of World",
       "url": "https://restofworld.org/2026/when-americans-choose-chinese-ai/?utm_campaign=row-social&utm_source=twitter&utm_medium=social&utm_content=1782084480"
+    },
+    "https://rico.codes/loops-not-prompts": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Loop engineering is not about abandoning prompts. It is about moving repeated steering work into verifiable systems so attention can stay on judgment, review, and taste.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://rico.codes/loops-not-prompts",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.sanity.io/images/epowdf6i/production/4eadc7009aed1796b441a69b7f52d304bf278fca-1200x630.png?crop=focalpoint&fp-x=0.360&fp-y=0.520&w=1200&h=1200&auto=format",
+        "https://cdn.sanity.io/images/epowdf6i/production/4eadc7009aed1796b441a69b7f52d304bf278fca-1200x630.png?crop=focalpoint&fp-x=0.360&fp-y=0.520&w=1200&h=900&auto=format",
+        "https://cdn.sanity.io/images/epowdf6i/production/4eadc7009aed1796b441a69b7f52d304bf278fca-1200x630.png?crop=focalpoint&fp-x=0.360&fp-y=0.520&w=1200&h=675&auto=format"
+      ],
+      "kind": "article",
+      "text_excerpt": "Writing Loops, Not Prompts, Explained\nPosted June 24, 2026\nEverybody is suddenly saying you should be writing loops, not prompts.\nPeter Steinberger put it bluntly on X: you should stop prompting coding agents and start designing loops that prompt them. Boris Cherny, who leads Claude Code, has been saying a nearby thing: he does not prompt Claude directly as much anymore; he has loops doing that work. Addy Osmani wrote a good explainer calling loop engineering the move from being the person who prompts the agent to designing the system that does it instead. NeetCode has posted the same frame too, so the idea is clearly traveling beyond the people building the tools.\nI think the idea is right.\nI also think the slogan lands a little wrong.\nIt can sound like one more way to be behind. You learned prompting last year, and now the people spending the most time with agentic coding tools are saying the next step is to prompt less directly.\nThat framing is not where the value is.\nThe more useful version is more precise:\nIf you keep doing the same agent-steering work over and over, move that work into a loop, a skill, a script, a test, a checklist, a scheduled run, or a goal with a real stop condition.\nThat is it.\nIt is not really \"prompts are dead.\" Prompts are still the interface for a lot of intent. The change is that prompting is no longer only a thing you do manually, one turn at a time.\nYou can make the system do more of the prompting.\nThe question is when that is worth it.\n            [\n              \n            ](https://rico.codes#a-loop-is-a-machine-for-not-being-there)\n            A loop is a machine for not being there\n          \n        The simplest definition:\nloop = intent + context + action + evaluation + memory + a stop condition\nA prompt says:\ndo this\nA loop says:\nkeep doing this class of work until this condition is true,\nremember what happened,\nand stop or ask me when judgment is required\nThat distinction matters because the scarce resource is not only model intelligence. The scarce resource is your attention inside the loop.\nIf you have to inspect every step, re-explain the repo, paste the same constraints, remember the same deployment checklist, rerun the same tests, and ask the same follow-up question every time, then the model may be doing the typing but you are still carrying the process in your nervous system.\nSometimes that is fine. Sometimes the fastest thing is still a normal prompt.\nBut if a task repeats, every manual steering move becomes a tax.\nYou pay the tax in minutes, yes, but also in context switches. You pay it in \"wait, where was I?\" You pay it in half-finished branches, tabs, chats, and little piles of almost-work. You pay it in the fact that you cannot be thinking clearly about the next judgment while you are babysitting the current execution.\nThe loop is a machine for not being there.\nNot a machine for not caring. That part is important.\n            [\n              \n            ](https://rico.codes#the-execution-horizon)\n            The execution horizon\n          \n        In my [Friday.land](https://www.friday.land/) notes I have been using the phrase execution horizon:\nthe point where your supported execution rate exceeds the rate at which you can generate, prioritize, and review good ideas.\nThat is the agency shift I care about.\nBefore that horizon, your bottleneck is execution. You have more ideas than hands. You know what should happen, but the work is too sticky. You have to gather context, make the edits, run the checks, write the update, fix the weird edge case, and remember the whole thing again tomorrow.\nPast that horizon, the bottleneck changes. You are no longer asking, \"Could I do this if I had more hands?\" You are asking, \"Which of these possible moves is actually worth doing?\"\nThat is a very different life.\nThis is also why the \"loops, not prompts\" thing is not just an AI coding trick. It is a general agency trick. You are trying to move your attention out of repeatable execution",
+      "title": "Writing Loops, Not Prompts, Explained | rico.codes",
+      "url": "https://rico.codes/loops-not-prompts"
     },
     "https://s.hbr.org/3PZZpSc": {
       "cleaner_v": 2,
@@ -16625,6 +16934,38 @@
       "title": "Self-Fulfilling Projects",
       "url": "https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar"
     },
+    "https://www.dbreunig.com/2025/01/31/deepseek-as-a-power-object.html": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "The wave of DeepSeek takes reveal more about our own hopes and concerns than they do about DeepSeek.",
+      "final_url": "https://www.dbreunig.com/2025/01/31/deepseek-as-a-power-object.html",
+      "frameable": null,
+      "image_urls": [
+        "https://www.dbreunig.com/img/sf_beach_og.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "dbreunig.com Contact Jan 31, 2025 LANGUAGE DEEPSEEK CULTURE AI DeepSeek as a Power Object The wave of DeepSeek takes reveal more about our own hopes and concerns than they do about DeepSeek. One of my college professors, Donna Haraway, used the term “ power objects ” to define topics that we don’t fully understand, yet recognize to be important. As a result, we end up projecting onto these “power objects” our own concerns. DNA was a power object. As were PET Scans, Big Data, the Internet, nuclear power, and so much more. Anything new we believe to be important while not understanding why it’s important is a “power object.” (At least until we understand it sufficiently to remove the mystique.) DeepSeek is a textbook “power object,” with every hot take spotlighting a person’s desires and fears. Here’s some I’ve noticed: To AI Boosters , DeepSeek proves LLM progress won’t slow down. To AI Skeptics , DeepSeek proves AI companies have no moat. To Open Source Advocates , DeepSeek proves open development is superior. To AI Doomers , DeepSeek proves we aren’t being careful enough. To Security Researchers , DeepSeek proves the risks of backdoors in models. To Privacy Advocates , DeepSeek proves LLM services are vectors for collecting sensitive data. To China Hawks , DeepSeek proves we need more US sanctions and investment in US champions. To China Doves , DeepSeek proves sanctions don’t work and only inspire new innovation. To NVIDIA Bears , DeepSeek proves we won’t need new data centers full of NVIDIA clusters. To NVIDIA Bulls , DeepSeek proves we’ll need more GPUs for synthesizing training data and running inference. …and so on! Whenever these big waves of takes hit – and a wave of DeepSeek’s magnitude is rather rare – be aware of “power objects” and learn from the takes. Enter your email to receive the occasional update. 2026, CC BY-NC 4.0 , Contact",
+      "title": "DeepSeek as a Power Object",
+      "url": "https://www.dbreunig.com/2025/01/31/deepseek-as-a-power-object.html"
+    },
+    "https://www.dbreunig.com/2025/08/04/the-rise-of-opinionated-models.html": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "To improve AI’s qualitative skills, we’ll build opinionated models. Aesthetic choices, not fuzzy averages, will be chosen and optimized for. FLUX.1-Krea is the first of many.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.dbreunig.com/2025/08/04/the-rise-of-opinionated-models.html",
+      "frameable": null,
+      "image_urls": [
+        "https://www.dbreunig.com/img/flux_drew.jpg",
+        "https://www.dbreunig.com/img/ai_look.jpg",
+        "https://www.dbreunig.com/img/flux_scraps.jpg",
+        "https://www.dbreunig.com/img/flux_superman.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "FLUX.1-Krea & the Rise of Opinionated Models\nAI-generated images have a general look to them. Shiny, bright, waxy-skin, and over-use of [bokeh](https://en.wikipedia.org/wiki/Bokeh). From Midjourney to Gemini to OpenAI, the AI Look [is consistent](https://www.theatlantic.com/technology/archive/2024/08/why-does-all-ai-art-look-same/679488/). Enthusiasts and professionals wrestle with prompts and even [fine-tune these models](https://arxiv.org/abs/2106.09685) to tamp down the AI smell, with varying degrees of success.\nLast week, Krea launched an open model, [FLUX.1-Krea](https://www.krea.ai/blog/flux-krea-open-source-release), that’s built to avoid the “AI Look”. Their writeup is tremendous: it details the problem, suggests root causes, and details how they overcame the challenge – all while providing necessary context. You should [read the whole thing](https://www.krea.ai/blog/flux-krea-open-source-release), but here’s the recap:\nModel builders have been mostly focused on correctness, not aesthetics. Researchers have been overly focused on [the extra fingers problem](https://www.newyorker.com/culture/rabbit-holes/the-uncanny-failures-of-ai-generated-hands):\nPeople often focus on how “smart” a model is. We often see users testing complex prompts. Can it make a horse ride an astronaut? Does it fill up the wine glass to the brim? Can it render text properly? Over the years, we have devised various benchmarks to formalize these questions into concrete metrics. However, in this pursuit of technical capabilities and benchmark optimization, the messy genuine look, stylistic diversity, and creative blend of early image models took a backseat.\nModel builders rely on the same handful of aesthetic evaluators. Just as LLMs tend to optimize for the same handful of benchmarks, image models evaluate their results against [a handful](https://github.com/christophschuhmann/improved-aesthetic-predictor) of [aesthetic](https://arxiv.org/abs/2305.01569) [evaluators](https://arxiv.org/abs/2304.05977). And just like LLM benchmarks, these metrics produce common results:\nWe find that LAION Aesthetics — a model commonly used to obtain high quality training images — to be highly biased towards depicting women, blurry backgrounds, overly soft textures, and bright images. While these aesthetic scorers and image quality filters are useful for filtering out bad images, relying on these models to obtain high quality training images adds implicit biases to the model’s priors.\nModel builders combine multiple aesthetics into a single unappealing average. No one likes art designed by committee (I’d argue it’s not “art” at all). And yet, this is what we get when we bring all our post-training to bear on a single image model:\nIt’s our belief that a model that has been fine-tuned on “global” user preference is suboptimal. For goals like text rendering, anatomy, structure, and prompt adherence where there’s an objective ground truth, data diversity and scale are helpful. However, for subjective goals such as aesthetics, it’s almost adversarial to mix different aesthetic tastes together.\nFor example:\nConsider a case where one user loves high fashion photography and another user is into minimalist style drawings. Given a focused annotation from the respective users, it would be easy to align the model to excel at respective styles. But, when you merge the two distributions together, we get a marginal preference distribution which is not biased enough to make either party happy.\nUsers fight the “AI Look” with heavy prompting and even fine-tuning. But this isn’t a great solution. For one, only a small group of enthusiasts and professionals will invest in the learning and work required.\nTesting FLUX.1-Krea\nAfter several rounds of experimentation, I arrived at an adequate process for comparing image models.\nI initially thought giving models very vague prompts – “Create a portrait of a beautiful person” – would best illustrate their biases and preferences. But this failed: a",
+      "title": "FLUX.1-Krea & the Rise of Opinionated Models",
+      "url": "https://www.dbreunig.com/2025/08/04/the-rise-of-opinionated-models.html"
+    },
     "https://www.exponentialview.co/p/the-state-of-the-ai-economy": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -16992,6 +17333,27 @@
       "title": "After The AI Revolution",
       "url": "https://www.noemamag.com/after-the-ai-revolution/?utm_source=noematwitter&utm_medium=noemasocial"
     },
+    "https://www.noemamag.com/how-ai-will-change-us/?utm_source=noematwitter&utm_medium=noemasocial": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "When the most patient, well-read, emotionally responsive conversationalist in the world is always available, what will we still need from one another?",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.noemamag.com/how-ai-will-change-us/?utm_source=noematwitter&utm_medium=noemasocial",
+      "frameable": null,
+      "image_urls": [
+        "https://noemamag.imgix.net/2026/06/noema-new.jpg?fm=pjpg&ixlib=php-3.3.1&s=2d5add7bba00beb4210fc3c5d564137d",
+        "https://noemamag.imgix.net/2026/06/Claude-Design-for-Noema-Twitter-Card-Vertical-Template-16.png?fm=png&ixlib=php-3.3.1&s=3fe0117b96e929ea101c68eaf0623c4d",
+        "https://www.noemamag.com/wp-content/uploads/2020/04/noema-logo.png",
+        "https://noemamag.imgix.net/2026/06/noema-new.jpg?fit=crop&fm=pjpg&h=1186&ixlib=php-3.3.1&w=947&wpsize=noema-portrait-hero-image&s=996fff608293f8c59dc341bdcf27e6f6",
+        "https://noemamag.imgix.net/2026/06/noema-new.jpg?fit=crop&fm=pjpg&h=904&ixlib=php-3.3.1&w=767&wpsize=noema-portrait-hero-image-mobile&s=f38776b136305ad717967634a5e6c798",
+        "https://noemamag.imgix.net/2026/06/Noema_color_v1-25-scaled.jpg?fit=crop&fm=pjpg&h=511&ixlib=php-3.3.1&rect=0%2C259%2C2044%2C1361&w=767&wpsize=noema-listing-tile&s=4f4683cc5a8bf14864aefb2b3de3e09d",
+        "https://noemamag.imgix.net/2026/05/hiresOnline-Post.jpg?fit=crop&fm=pjpg&h=511&ixlib=php-3.3.1&w=767&wpsize=noema-listing-tile&s=794a343a8b43b2010a13c474d5cb2393"
+      ],
+      "kind": "article",
+      "text_excerpt": "Houda Nait El Barj is a researcher at OpenAI focused on advancing AI systems that support human flourishing.\nEditor’s Note: Noema is transparent about AI use in its pieces. We publish original, human-generated ideas but allow authorized, disclosed use of AI in certain cases. Please see details at the end of this piece.\nMy grandmother’s courtyard in Marrakesh had a cracked blue tile near the fountain where the water always pooled. For most of my childhood, I thought this was a flaw. I later learned that she had refused three times to have it replaced. She liked the sound the water made when it hit the crack. She liked that guests noticed it. She liked that her courtyard was not perfect, because a perfect courtyard would have been a courtyard that wanted nothing from the people who entered it.\nPeople entered constantly, without calling. They arrived because a cousin had given birth, or because someone’s father had died, or because it was Friday and you do not eat Friday couscous alone. Sitting on the low cushions along the wall, they drank mint tea, which my grandmother poured from a great height, aerating the liquid and causing its foam to rise.\nOften, they did not have much to say. They convened with whoever was grieving or recovering or celebrating; simply showing up was enough. There is a word in Moroccan Arabic, nashat, that gets at what this felt like. It translates poorly. Joy of life, roughly: the belief that to be alive at all, in a body, among other bodies, is already reason enough to be glad. Nashat is neither a production nor an outcome; it is what rises when people show up.\nI grew up with this word, and with the slow understanding that in my grandmother’s world, intelligence mattered less than presence. The village doctor was respected, but the woman who baked the best bread each morning was revered. A person’s place was established not by what they knew but by whether they came.\nI now work at OpenAI in a culture that believes something close to the opposite. Here, intelligence is the highest form of power, and the natural aspiration of intelligence is to become scalable, to detach from place and body, to be everywhere at once. Artificial intelligence is the logical endpoint of that belief. It is intelligence unmoored from presence: tireless, patient, context-aware, emotionally fluent, always a tap away.\nI have spent my adult life trying to hold these two worlds at once. One question stays with me: When the most patient, well-read, emotionally responsive conversationalist in the world is always available, what will we still need from one another?\nWe will not need less. We will need something stranger. The goods that will matter most in the next decade are those that AI makes harder to find: This isn’t information or emotional responsiveness, but participation in the shared condition of being alive. My grandmother’s courtyard understood this long before Silicon Valley was forced to.\nThrownness Meets Abundance\nGerman philosopher Martin Heidegger [used](https://www.goodreads.com/book/show/92307.Being_and_Time) a word for the condition we all arrive at: Geworfenheit, or thrownness. We do not choose the world we are born into; we are “thrown” into bodies, languages, families, histories, religions, class structures and wounds that precede us. This is the part of being human that technology has the hardest time touching. Technology never lands on a blank slate. It lands on people already trying to figure out who they are and what kind of life counts as good.\nAI is landing there. It is touching the places where we seek recognition, reassurance, guidance, intimacy and meaning. And as intelligence becomes abundant — cheap, personalized, conversational, tireless — the shape of scarcity is shifting.\nIn February, a Bay Area friend called me from Puerto Vallarta, Mexico, where he was on vacation. The city had been essentially locked down for days as cartel violence erupted across the state of Jalisco. I was anxious. He spoke in a",
+      "title": "How AI Will Change Us - NOEMA",
+      "url": "https://www.noemamag.com/how-ai-will-change-us/?utm_source=noematwitter&utm_medium=noemasocial"
+    },
     "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -17049,6 +17411,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Human Dignity – On the Perils of Indifference Nuberodesign > Blog > Human Dignity",
       "url": "https://www.nubero.ch/blog/018/?ref=sidebar"
+    },
+    "https://www.nytimes.com/2026/06/26/technology/intel-turnaround.html?unlocked_article_code=1.tlA.Qvwy.xOGWYAnLYrXa&smid=nytcore-ios-share": {
+      "cf_fallback_error": "empty result",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://www.nytimes.com/2026/06/26/technology/intel-turnaround.html?unlocked_article_code=1.tlA.Qvwy.xOGWYAnLYrXa&smid=nytcore-ios-share",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://www.nytimes.com/2026/06/26/technology/intel-turnaround.html?unlocked_article_code=1.tlA.Qvwy.xOGWYAnLYrXa&smid=nytcore-ios-share"
     },
     "https://www.nytimes.com/2026/06/28/opinion/ai-race-china-us.html": {
       "cf_fallback_error": "empty result",
@@ -17901,6 +18277,19 @@
       "title": "- YouTube",
       "url": "https://youtu.be/TQd_YQvydVg?si=YDRXHWbaMR1bY93J"
     },
+    "https://youtu.be/Tj3018n5MVg?si=dsSjTQh56vR-OCIt": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://www.youtube.com/watch?si=dsSjTQh56vR-OCIt&v=Tj3018n5MVg&feature=youtu.be",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "- YouTube",
+      "url": "https://youtu.be/Tj3018n5MVg?si=dsSjTQh56vR-OCIt"
+    },
     "https://youtu.be/qOjleN2-50c?si=EUMaNlSzVp7phypt": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -18076,15 +18465,6 @@
       "https://x.com/patrickc/status/2058931538029662435",
       "https://newaesthetics.art/grants"
     ],
-    "2060771375640625568": [
-      "https://x.com/Hi_Mrinal/status/2060771375640625568"
-    ],
-    "2060794191211348040": [
-      "https://x.com/0x_kaize/status/2060794191211348040",
-      "https://pbs.twimg.com/amplify_video_thumb/2060793930921164800/img/rdKGBTq5ehZOEs9_.jpg",
-      "https://x.com/0x_kaize/status/2060917462757945816",
-      "https://pbs.twimg.com/media/HJnZfENWsAQMDGl.jpg"
-    ],
     "2060802827635855404": [
       "https://x.com/Av1dlive/status/2060802827635855404",
       "https://pbs.twimg.com/amplify_video_thumb/2060802519421636608/img/wUrR1DjFkIxMWBQv.jpg",
@@ -18111,11 +18491,6 @@
     "2060819226248818884": [
       "https://x.com/DinScales26/status/2060819226248818884",
       "http://x.com/i/article/2059654105816051715"
-    ],
-    "2060823674295615634": [
-      "https://x.com/enjojoyy/status/2060823674295615634",
-      "https://x.com/enjojoyy/status/2060843188588515752",
-      "https://x.com/enjojoyy/status/2060962433045598387"
     ],
     "2060832131623125345": [
       "https://x.com/himanshutwtxs/status/2060832131623125345"
@@ -22910,6 +23285,11 @@
       "https://x.com/vasuman/status/2070629226664153173",
       "http://x.com/i/article/2070612759260348416"
     ],
+    "2070639386786460059": [
+      "https://x.com/boazbaraktcs/status/2070639386786460059",
+      "https://www.noemamag.com/how-ai-will-change-us/?utm_source=noematwitter&utm_medium=noemasocial",
+      "https://x.com/boazbaraktcs/status/2070927521592332423"
+    ],
     "2070643039668974060": [
       "https://x.com/waterloo_intern/status/2070643039668974060",
       "http://x.com/i/article/2044877173232963584",
@@ -23156,11 +23536,10 @@
     "2071190510308401550": [
       "https://x.com/_Stalinspears_/status/2071190510308401550",
       "https://x.com/_Stalinspears_/status/2071248732562071837",
-      "https://x.com/_Stalinspears_/status/2071253717798596792",
       "https://x.com/_Stalinspears_/status/2071303113743470820",
-      "https://x.com/_Stalinspears_/status/2071474542011171330",
-      "https://x.com/_Stalinspears_/status/2071253345533149607",
       "https://x.com/_Stalinspears_/status/2071475036150505757",
+      "https://x.com/_Stalinspears_/status/2071253345533149607",
+      "https://x.com/_Stalinspears_/status/2071474542011171330",
       "https://x.com/_Stalinspears_/status/2071253550370284007",
       "https://x.com/_Stalinspears_/status/2071671250225664183",
       "https://x.com/_Stalinspears_/status/2071659871737434467",
@@ -23190,7 +23569,7 @@
       "https://x.com/asmartbear/status/2071209248164290749",
       "https://longform.asmartbear.com/confidence/?utm_source=twitter&utm_campaign=asmartbear_twitter&utm_medium=social",
       "https://x.com/asmartbear/status/2071489345052086397",
-      "https://x.com/asmartbear/status/2071344644298780706"
+      "https://x.com/asmartbear/status/2071580700822720548"
     ],
     "2071209581574037928": [
       "https://x.com/arshadyaseeen/status/2071209581574037928",
@@ -23214,9 +23593,8 @@
     ],
     "2071230056903627015": [
       "https://x.com/pallavishekhar_/status/2071230056903627015",
-      "https://x.com/pallavishekhar_/status/2070703521532661778",
-      "https://outcomeschool.com/blog/how-does-prompt-caching-work",
-      "https://pbs.twimg.com/media/HLyd0vObwAAnQDV.png"
+      "https://x.com/pallavishekhar_/status/2071571072177295361",
+      "https://pbs.twimg.com/media/HL-yWJOaQAAtIc4.png"
     ],
     "2071239626128298131": [
       "https://x.com/0xCodez/status/2071239626128298131",
@@ -23351,17 +23729,17 @@
       "https://x.com/RMUTO_/status/2071385982566342669",
       "https://x.com/RMUTO_/status/2071464282928161276",
       "https://x.com/RMUTO_/status/2071405885260210535",
+      "https://x.com/RMUTO_/status/2071555079388184809",
       "https://x.com/RMUTO_/status/2071461837686591538",
       "https://x.com/RMUTO_/status/2071528771950194785",
-      "https://x.com/RMUTO_/status/2071555079388184809",
       "https://x.com/RMUTO_/status/2071463225787318667",
-      "https://x.com/RMUTO_/status/2071507291195478241",
       "https://x.com/RMUTO_/status/2071473348035383387",
-      "https://x.com/RMUTO_/status/2071430602981617797",
       "https://x.com/RMUTO_/status/2071432762117005484",
+      "https://x.com/RMUTO_/status/2071430602981617797",
+      "https://x.com/RMUTO_/status/2071507291195478241",
+      "https://x.com/RMUTO_/status/2071789782238175461",
       "https://x.com/RMUTO_/status/2071672294380913049",
       "https://x.com/RMUTO_/status/2071670767469670899",
-      "https://x.com/RMUTO_/status/2071457747749437869",
       "https://x.com/RMUTO_/status/2071476352788664639"
     ],
     "2071404852908081211": [
@@ -23370,6 +23748,12 @@
     ],
     "2071412981653516318": [
       "https://x.com/eleonorapinto/status/2071412981653516318"
+    ],
+    "2071434117456027959": [
+      "https://x.com/not_ellington/status/2071434117456027959",
+      "https://arxiv.org/abs/2606.24937",
+      "https://x.com/not_ellington/status/2071683773490405479",
+      "https://x.com/not_ellington/status/2071781793359888644"
     ],
     "2071443621396598930": [
       "https://x.com/TheEconomist/status/2071443621396598930",
@@ -23388,28 +23772,32 @@
       "https://x.com/smirf_05/status/2071529162024882629",
       "https://x.com/smirf_05/status/2071561791495401712",
       "https://x.com/smirf_05/status/2071561764484071907",
-      "https://x.com/smirf_05/status/2071522118219747437",
-      "https://x.com/smirf_05/status/2071522157772112042"
+      "https://x.com/smirf_05/status/2071522157772112042",
+      "https://x.com/smirf_05/status/2071522118219747437"
     ],
     "2071501778609483984": [
       "https://x.com/liuyi0922/status/2071501778609483984",
       "https://pbs.twimg.com/media/HL9z4wFbIAAqONB.jpg",
-      "https://x.com/liuyi0922/status/2071503680189481067",
       "https://x.com/liuyi0922/status/2071502307943190784",
-      "https://x.com/liuyi0922/status/2071520591463764400",
+      "https://x.com/liuyi0922/status/2071503680189481067",
       "https://x.com/liuyi0922/status/2071527574250143797",
+      "https://x.com/liuyi0922/status/2071520591463764400",
       "https://x.com/liuyi0922/status/2071520622975627727",
+      "https://x.com/liuyi0922/status/2071790990457987567",
       "https://x.com/liuyi0922/status/2071243343636681186",
       "https://pbs.twimg.com/media/HL6I14hbEAEWAnU.jpg",
       "https://x.com/liuyi0922/status/2071187854194274308",
       "https://pbs.twimg.com/media/HL5WX6qasAAbtDo.jpg",
-      "https://pbs.twimg.com/media/HL5WX6oaoAAzri9.jpg",
-      "https://x.com/liuyi0922/status/2071147146972451307",
-      "https://pbs.twimg.com/media/HL4xWatbAAA7e1P.jpg"
+      "https://pbs.twimg.com/media/HL5WX6oaoAAzri9.jpg"
     ],
     "2071522418594861215": [
       "https://x.com/_avichawla/status/2071522418594861215",
       "https://pbs.twimg.com/media/HL-GqRDbQAAIrzP.jpg"
+    ],
+    "2071530827880497539": [
+      "https://x.com/rvaniaaaa/status/2071530827880497539",
+      "http://x.com/i/article/2071490476545290240",
+      "https://x.com/rvaniaaaa/status/2071544288404545916"
     ],
     "2071549740563480594": [
       "https://x.com/bibryam/status/2071549740563480594",
@@ -23417,42 +23805,146 @@
       "https://x.com/bibryam/status/2071244496411427132",
       "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/"
     ],
+    "2071555826087760076": [
+      "https://x.com/nurijanian/status/2071555826087760076",
+      "http://x.com/i/article/2070770606170374144"
+    ],
     "2071565143226405079": [
       "https://x.com/business/status/2071565143226405079",
       "https://www.bloomberg.com/news/articles/2026-06-29/ai-notetaker-tools-recording-zoom-meetings-threaten-privacy-etiquette?taid=6a425f00553211000137feca&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter"
     ],
+    "2071574429897789698": [
+      "https://x.com/TheEconomist/status/2071574429897789698",
+      "https://www.economist.com/briefing/2026/06/25/ai-models-values-are-very-different-from-most-peoples?taid=6a4267a6344e0b0001934c37&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "https://x.com/TheEconomist/status/2071806020775457064",
+      "https://www.economist.com/united-states/2026/05/21/europes-first-known-language-is-alive-in-americas-west?taid=6a433f56bbf4b00001c451d6&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter"
+    ],
+    "2071588017878249890": [
+      "https://x.com/nateherk/status/2071588017878249890",
+      "http://x.com/i/article/2071581410540879872",
+      "https://x.com/nateherk/status/2071588059234054609",
+      "https://youtu.be/Tj3018n5MVg?si=dsSjTQh56vR-OCIt"
+    ],
+    "2071588179111469559": [
+      "https://x.com/nateherk/status/2071588179111469559",
+      "https://pbs.twimg.com/amplify_video_thumb/2071588081799450624/img/GwNhGV0upECkuqZl.jpg"
+    ],
+    "2071598582394974646": [
+      "https://x.com/Astronaut_1216/status/2071598582394974646",
+      "https://x.com/Astronaut_1216/status/2071607087080341567"
+    ],
     "2071629451712983319": [
       "https://x.com/sydneyrunkle/status/2071629451712983319",
       "http://x.com/i/article/2071621950749777920"
+    ],
+    "2071636465600065765": [
+      "https://x.com/reidhoffman/status/2071636465600065765",
+      "http://x.com/i/article/2071636394196324353"
+    ],
+    "2071662447690195290": [
+      "https://x.com/ChrisShort/status/2071662447690195290",
+      "https://rico.codes/loops-not-prompts",
+      "https://pbs.twimg.com/media/HMAGBKSXkAEAbQN.png",
+      "https://x.com/ChrisShort/status/2071753138361544798",
+      "https://www.nytimes.com/2026/06/26/technology/intel-turnaround.html?unlocked_article_code=1.tlA.Qvwy.xOGWYAnLYrXa&smid=nytcore-ios-share"
+    ],
+    "2071666800534949982": [
+      "https://x.com/dbreunig/status/2071666800534949982",
+      "https://www.dbreunig.com/2025/01/31/deepseek-as-a-power-object.html",
+      "https://x.com/dbreunig/status/2071646845047349537",
+      "https://www.dbreunig.com/2025/08/04/the-rise-of-opinionated-models.html"
+    ],
+    "2071670826420875321": [
+      "https://x.com/Rlkjn22/status/2071670826420875321",
+      "https://x.com/Rlkjn22/status/2071707124397150360",
+      "https://x.com/Rlkjn22/status/2071721710903070886",
+      "https://x.com/Rlkjn22/status/2071707299480051825",
+      "https://x.com/Rlkjn22/status/2071771016360009849",
+      "https://x.com/Rlkjn22/status/2071767615509303792",
+      "https://x.com/Rlkjn22/status/2071751745303089252",
+      "https://x.com/Rlkjn22/status/2071768733278773652",
+      "https://x.com/Rlkjn22/status/2071737725640638972",
+      "https://x.com/Rlkjn22/status/2071727707176460509"
+    ],
+    "2071672946859688352": [
+      "https://x.com/NathanFlurry/status/2071672946859688352",
+      "http://x.com/i/article/2071662476635316224",
+      "https://x.com/NathanFlurry/status/2071702725214294176",
+      "http://executor.sh",
+      "https://x.com/NathanFlurry/status/2071716397617709492",
+      "http://git.new/secure-exec",
+      "https://x.com/NathanFlurry/status/2071718117664038966",
+      "https://x.com/NathanFlurry/status/2071702451301081310",
+      "https://x.com/NathanFlurry/status/2071702295176417760",
+      "https://x.com/NathanFlurry/status/2071693169109164093",
+      "https://x.com/NathanFlurry/status/2071743746572787925",
+      "https://x.com/NathanFlurry/status/2071702191203897709"
     ],
     "2071675130229432691": [
       "https://x.com/baladadoloucom/status/2071675130229432691",
       "https://pbs.twimg.com/tweet_video_thumb/HMARjKyWAAA08lU.jpg",
       "https://x.com/baladadoloucom/status/2071685654157644024",
       "https://x.com/AtaqueFutbolero/status/2071673434912772424?s=20",
+      "https://x.com/baladadoloucom/status/2071772039686373842",
+      "https://x.com/midori_tomoya/status/2071702967414317240?s=20",
       "https://x.com/baladadoloucom/status/2071704258747965849",
-      "https://x.com/baladadoloucom/status/2071724398285918618",
       "https://x.com/baladadoloucom/status/2071700144123236499",
       "https://x.com/baladadoloucom/status/2071715054391640348",
       "https://x.com/baladadoloucom/status/2071683777043013958",
+      "https://x.com/baladadoloucom/status/2071724398285918618",
+      "https://x.com/baladadoloucom/status/2071737393053409578",
+      "https://x.com/baladadoloucom/status/2071725089473597928",
       "https://x.com/baladadoloucom/status/2071702227119390877",
       "https://pbs.twimg.com/tweet_video_thumb/HMAqMf4XoAA_kkv.jpg",
-      "https://x.com/baladadoloucom/status/2071737393053409578",
-      "https://x.com/baladadoloucom/status/2071691306691137750",
-      "https://x.com/baladadoloucom/status/2071715498442576189",
       "https://x.com/baladadoloucom/status/2071742763779920018",
       "https://pbs.twimg.com/tweet_video_thumb/HMBPDwbWIAAkgDc.jpg",
       "https://x.com/baladadoloucom/status/2071671560256012558",
       "https://pbs.twimg.com/tweet_video_thumb/HMAOTIFXcAAcKHY.jpg",
       "https://x.com/baladadoloucom/status/2071659506589655486",
+      "https://x.com/baladadoloucom/status/2071691306691137750",
+      "https://x.com/baladadoloucom/status/2071725957472207082",
+      "https://pbs.twimg.com/tweet_video_thumb/HMA_xndXUAA8hiw.jpg",
       "https://x.com/baladadoloucom/status/2071700326294425734",
-      "https://x.com/baladadoloucom/status/2071687953902899537",
-      "https://x.com/baladadoloucom/status/2071716060894543883",
-      "https://x.com/baladadoloucom/status/2071715253319033307",
-      "https://pbs.twimg.com/tweet_video_thumb/HMA2CufWEAAypkf.jpg",
-      "https://x.com/baladadoloucom/status/2071725089473597928"
+      "https://x.com/baladadoloucom/status/2071777870343503927",
+      "https://x.com/baladadoloucom/status/2071683163068227668",
+      "https://x.com/baladadoloucom/status/2071715498442576189"
+    ],
+    "2071716332924465239": [
+      "https://x.com/DrizzleORM/status/2071716332924465239",
+      "https://x.com/DrizzleORM/status/2071716335738892671",
+      "https://pbs.twimg.com/media/HMAsMrIW0AAnZZC.jpg",
+      "https://x.com/DrizzleORM/status/2071716340117684305",
+      "https://pbs.twimg.com/media/HMAwNQYWIAAaMqw.jpg",
+      "https://x.com/DrizzleORM/status/2071716344303595604",
+      "https://pbs.twimg.com/media/HMAzLbKWQAExs4x.jpg",
+      "https://x.com/DrizzleORM/status/2071716348187517143",
+      "https://pbs.twimg.com/media/HMAzpRgWcAAGA5r.jpg",
+      "https://pbs.twimg.com/media/HMAz779W8AAacHW.jpg",
+      "https://x.com/DrizzleORM/status/2071716352071512386",
+      "https://pbs.twimg.com/media/HMA2PM_XcAAMvrg.jpg",
+      "https://x.com/DrizzleORM/status/2071733236141592799",
+      "https://x.com/DrizzleORM/status/2071718667650318694"
+    ],
+    "2071737671509328354": [
+      "https://x.com/PopBase/status/2071737671509328354",
+      "https://pbs.twimg.com/media/HMBKbi2awAAiy68.jpg",
+      "https://pbs.twimg.com/media/HMBKbi4a0AAa3ee.jpg",
+      "https://x.com/PopBase/status/2071811967929442697",
+      "https://pbs.twimg.com/media/HMAZK8BWEAAj41n.jpg",
+      "https://x.com/PopBase/status/2071811566459314320",
+      "https://pbs.twimg.com/media/HMCNo06XoAAYZJ1.jpg",
+      "https://pbs.twimg.com/media/HMCNo04XUAAa7AE.jpg",
+      "https://x.com/PopBase/status/2071811212850155613",
+      "https://pbs.twimg.com/media/HMAYAAoXYAAgOFo.png",
+      "https://pbs.twimg.com/media/HMAYAArWwAANIj6.jpg",
+      "https://pbs.twimg.com/media/HMAYAAwWEAAxTKP.jpg",
+      "https://pbs.twimg.com/media/HMAYA5lXoAAEAyx.jpg"
+    ],
+    "2071794113075376284": [
+      "https://x.com/jokieliu/status/2071794113075376284",
+      "https://pbs.twimg.com/media/HMB9ww1bgAA2djK.jpg"
     ]
   },
-  "updated_at": "2026-06-30T00:19:26Z",
+  "updated_at": "2026-06-30T05:17:03Z",
   "window": "recent"
 }

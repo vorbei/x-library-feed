@@ -17861,6 +17861,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2060453192148627465/img/QhDEOjP6Fa8q8eNZ.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2060793930921164800/img/rdKGBTq5ehZOEs9_.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2060793930921164800/img/rdKGBTq5ehZOEs9_.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2060793930921164800/img/rdKGBTq5ehZOEs9_.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2060793930921164800/img/rdKGBTq5ehZOEs9_.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -25812,6 +25826,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJgw6erX0AU3lVX.jpg"
+    },
+    "https://pbs.twimg.com/media/HJnZfENWsAQMDGl.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJnZfENWsAQMDGl.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJnZfENWsAQMDGl.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJnZfENWsAQMDGl.jpg"
     },
     "https://pbs.twimg.com/media/HJp-GaMbwAAITO8.jpg": {
       "cleaner_v": 2,
@@ -40749,8 +40777,22 @@
       "http://x.com/i/article/2060729909690224640",
       "https://x.com/EXM7777/status/2060736696438976593",
       "http://weeklyaiops.com"
+    ],
+    "2060771375640625568": [
+      "https://x.com/Hi_Mrinal/status/2060771375640625568"
+    ],
+    "2060794191211348040": [
+      "https://x.com/0x_kaize/status/2060794191211348040",
+      "https://pbs.twimg.com/amplify_video_thumb/2060793930921164800/img/rdKGBTq5ehZOEs9_.jpg",
+      "https://x.com/0x_kaize/status/2060917462757945816",
+      "https://pbs.twimg.com/media/HJnZfENWsAQMDGl.jpg"
+    ],
+    "2060823674295615634": [
+      "https://x.com/enjojoyy/status/2060823674295615634",
+      "https://x.com/enjojoyy/status/2060843188588515752",
+      "https://x.com/enjojoyy/status/2060962433045598387"
     ]
   },
-  "updated_at": "2026-06-30T00:19:26Z",
+  "updated_at": "2026-06-30T05:17:03Z",
   "window": "archive"
 }
