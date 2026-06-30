@@ -636,6 +636,26 @@
       "title": "Productivity: Working towards a summary of what we know — LessWrong",
       "url": "http://lesswrong.com/posts/P3zrurj5hHKFKDL3M/productivity-working-towards-a-summary-of-what-we-know"
     },
+    "http://lesswrong.com/posts/PwfwZ2LeoLC4FXyDA/against-llm-reductionism": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Summary\n * Large language models (henceforth, LLMs) are sometimes said to be \"just\" shallow pattern matchers, \"just\" massive look-up tables or \"just\"…",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.lesswrong.com/posts/PwfwZ2LeoLC4FXyDA/against-llm-reductionism",
+      "frameable": null,
+      "image_urls": [
+        "https://res.cloudinary.com/lesswrong-2-0/image/upload/c_fill,ar_1.91,g_auto/SocialPreview/ro7k23r950b8psreavxf",
+        "https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/PwfwZ2LeoLC4FXyDA/eo2xt27dyybtklbohbrd",
+        "https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/PwfwZ2LeoLC4FXyDA/fukv0ewayfa3w3wwhnpi",
+        "https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/PwfwZ2LeoLC4FXyDA/zs7gotpmuvmdtpmweqja",
+        "https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/PwfwZ2LeoLC4FXyDA/kbl9naablyd9ekdptawo",
+        "https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/PwfwZ2LeoLC4FXyDA/l8mrm2og6gid2jampaks"
+      ],
+      "kind": "article",
+      "text_excerpt": "Summary\n- Large language models (henceforth, LLMs) are sometimes said to be \"just\" shallow pattern matchers, \"just\" massive look-up tables or \"just\" autocomplete engines. These comparisons amount to a form of (methodological) reductionism. While there's some truth to them, I think they smuggle in corollaries that are either false or at least not obviously true.\n- For example, they seem to imply that what LLMs are doing amounts merely to rote memorisation and/or clever parlour tricks, and that they cannot generalise to out-of-distribution data. In fact, there's empirical evidence that suggests that LLMs can learn general algorithms and can contain and use representations of the world similar to those we use.\n- They also seem to suggest that LLMs merely optimise for success on next-token prediction. It's true that LLMs are (mostly) trained on next-token prediction, and it's true that this profoundly shapes their output, but we don't know whether this is how they actually function. We also don't know what sorts of advanced capabilities can or cannot arise when you train on next-token prediction.\n- So there's reason to be cautious when thinking about LLMs. In particular, I think, caution should be exercised (1) when making predictions about what LLMs will or will not in future be capable of and (2) when assuming that such-and-such a thing must or cannot possibly happen inside an LLM.\nPattern Matchers, Look-up Tables, Stochastic Parrots\nMy understanding of what goes on inside machine learning (henceforth, ML) models, and LLMs in particular, is still in many ways rudimentary, but it seems clear enough that, however tempting that is to imagine, it's little like what goes on in the minds of humans; it's weirder than that, more alien, more eldritch. As LLMs have been [scaled up](https://gwern.net/scaling-hypothesis), and more compute and data have been poured into models with more parameters, they have undergone qualitative shifts, and are now capable of a range of tasks their predecessors couldn't even grasp, let alone fail at, even as they have retained essentially the same architecture and training process.[[1]](https://www.lesswrong.com#fn-WvNwz2ggiubmFWhnj-1) How do you square their awesome, if erratic, brilliance with the awareness that their inner workings are so ordinary?\nOne route would be to directly deny the brilliance. [Gary Marcus](https://garymarcus.substack.com/) does this, pointing out, and relishing in, the myriad ways that LLMs misfire. Their main limits are, he says, that they are unreliable and untruthful. (See the footnote for my thoughts on that.[[2]](https://www.lesswrong.com#fn-WvNwz2ggiubmFWhnj-2))\nThat's one route, but it's not the one I want to discuss here. The route I want to discuss here is to dispel the magic, so to speak: to argue that what goes on inside LLMs is \"shallow\", and that LLMs lack \"understanding\". This often takes the form of asserting that LLMs are just doing pattern matching[[3]](https://www.lesswrong.com#fn-WvNwz2ggiubmFWhnj-3), or just rephrasing material from the web[[4]](https://www.lesswrong.com#fn-WvNwz2ggiubmFWhnj-4), amounting to mere stochastic parrots[[5]](https://www.lesswrong.com#fn-WvNwz2ggiubmFWhnj-5), or just retrieving things from a massive look-up table. Gary Marcus [describes](https://garymarcus.substack.com/p/what-does-it-mean-when-an-ai-fails) the underlying problem as one of \"a lack of cognitive models of the world\":\nThe improvements, such as they are, come primarily because the newer models have larger and larger sets of data about how human beings use word sequences, and bigger word sequences are certainly helpful for pattern matching machines. But they still don't convey genuine comprehension, and so they are still very easy [...] to break.\nWell -- in a certain light and for the sake of fairness -- this view is not entirely wrong:\n- LLMs are, in a sense, pattern matching. They likely have a great deal of attention heads and neurons and whatever that detect certain pa",
+      "title": "Against LLM Reductionism — LessWrong",
+      "url": "http://lesswrong.com/posts/PwfwZ2LeoLC4FXyDA/against-llm-reductionism"
+    },
     "http://loops.elorm.xyz": {
       "content_type": "text/html; charset=utf-8",
       "description": "Copy closed-loop workflows for Cursor, Claude Code, and other coding agents. Self-pacing loops with feedback gates until the job is done.",
@@ -1313,22 +1333,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2060705098053890053"
-    },
-    "http://x.com/i/article/2060931168367980544": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2060931168367980544",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060931168367980544/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJnmJtZbkAAhdZW?format=jpg&name=900x900)](http://x.com/i/article/2060931168367980544/jino%5Frohit/article/2060949625343983832/media/2060931358978183168)\n\nEverything you need to know to get started with distributed training for LLMs\n\n[![](https://pbs.twimg.com/profile_images/1875518470781333505/KfH6t3D1_normal.jpg)](http://x.com/i/article/2060931168367980544/jino%5Frohit)\n\n[Jino Rohit](http://x.com/i/article/2060931168367980544/jino%5Frohit)\n\n[@jino\\_rohit](http://x.com/i/article/2060931168367980544/jino%5Frohit)\n\n·\n\n3h\n\nFollow\n\nClick to Follow jino\\_rohit\n\n7\n\n65\n\n[1.7K](http://x.com/i/article/2060931168367980544/jino%5Frohit/status/2060949625343983832/analytics)\n\nYou have a model. Its good. But you want it to be better. That means more data, bigger batch sizes, longer training runs. A single GPU is probably just not enough.\n\nDistributed Data Parallel (DDP) is a pytorch module that lets you do multi-GPU, distributed training. The core idea is simple - you replicate your model on every GPU, feed each replica a different slice of the batch, and synchronise gradients at each step so all replicas stay in sync.\n\nIn this post we will cover everything you need to know to get started with distributed training using pytorch!\n\n## \n\nHow to think about scaling to multiple GPUs\n\nThe scenario for training on multiple GPUs vs inference on multiple GPUs is extremely different. In this post we only focus on training. We will also turn our focus specifically to data parallelism that pytorch DDP offers. It is the simplest technique to start scaling to multiple GPUs.\n\nI have 10 zillion data samples, and running them on a single GPU is probably going to take years. What if I split the data across the N GPUs I have, and run each split on a model replica running on each GPU.\n\nHmm, that wont cut it. If they run independently, you end up with N different models instead of one. We need a single model that somehow accumulates knowledge from all the running GPUs.\n\nAt this point it is good to remind ourselves of how training a model actually works.\n\n## \n\nTraining a Model\n\n[![Image](https://pbs.twimg.com/media/HJnmgIPa0AAOcgF?format=jpg&name=small)](http://x.com/i/article/2060931168367980544/jino%5Frohit/article/2060949625343983832/media/2060931744141070336)\n\ni would describe the flow as follows -\n\n1. Create batches of data.\n2. At each step, feed one batch through the model.\n3. Get logits, pass through softmax for scores, calculate loss.\n4. Call loss.backward() to compute gradients.\n5. Call optimizer.step() to update weights.\n\nOut of these five stages, what do you think has the biggest impact on the models learning? The weight update! It is okay to independently run all the other stages on different GPUs, as long as you sync the gradients before doing the weight update.\n\nDDP does exactly this, it provides a smart way to sync gradients across multiple GPUs and then lets training carry on as usual.\n\nWait, isnt this just Data Parallelism?\n\nYou might have heard of PyTorchs old DataParallel (DP) module. DP does the same thing conceptually - split a batch across GPUs but it works very differently under the hood.\n\nDP uses a single process (due to the GIL interpreter). It slices the input, scatters it to GPUs, computes loss, and broadcasts gradients back. The model is replicated per GPU inside the forward pass. This creates a lot of overhead because the main GPU (rank 0) becomes a bottleneck for communication.DDP spawns one process per GPU. Each process has its own python interpreter, its own optimizer, and its own model replica. There is no central coordinator. Gradients are synchronised via all-reduce during the backward pass, completely overlapping with computation.\n\n## \n\nGradient Synchronisation and All-Reduce\n\nThe core algorithmic primitive behind DDP is all-reduce.\n\nImagine yo",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2060931168367980544/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJnmJtZbkAAhdZW?format=jpg&name=900x900)](http://x.com/i/article/2060931168367980544/jino%5Frohit/article/2060949625343983832/media/2060931358978183168)\n\n开始使用大语言模型分布式训练所需了解的一切\n\n[![](https://pbs.twimg.com/profile_images/1875518470781333505/KfH6t3D1_normal.jpg)](http://x.com/i/article/2060931168367980544/jino%5Frohit)\n\n[Jino Rohit](http://x.com/i/article/2060931168367980544/jino%5Frohit)\n\n[@jino\\_rohit](http://x.com/i/article/2060931168367980544/jino%5Frohit)\n\n·\n\n3小时前\n\n关注\n\n点击关注 jino\\_rohit\n\n7\n\n65\n\n[1.7K](http://x.com/i/article/2060931168367980544/jino%5Frohit/status/2060949625343983832/analytics)\n\n你有一个模型。它表现不错。但你希望它变得更好。这意味着更多的数据、更大的批次大小、更长的训练周期。单张 GPU 很可能不够用。\n\nDistributed Data Parallel (DDP) 是 PyTorch 的一个模块，用于实现多 GPU 分布式训练。核心思想很简单——你在每张 GPU 上复制模型，给每个副本喂入批次的不同切片，并在每一步同步梯度，使所有副本保持同步。\n\n在这篇文章中，我们将涵盖使用 PyTorch 开始分布式训练所需了解的一切！\n\n## \n\n如何思考扩展到多张 GPU\n\n在多张 GPU 上训练与在多张 GPU 上推理的场景截然不同。在这篇文章中，我们只关注训练。我们还将重点放在 PyTorch DDP 提供的数据并行上。这是开始扩展到多张 GPU 的最简单技术。\n\n我有海量数据样本，在单张 GPU 上运行可能需要数年时间。如果我把数据拆分到我拥有的 N 张 GPU 上，并在每张 GPU 上运行的模型副本上处理每个分片，会怎么样？\n\n嗯，这样行不通。如果它们独立运行，你最终会得到 N 个不同的模型，而不是一个。我们需要一个单一的模型，能够以某种方式积累所有运行中 GPU 的知识。\n\n此时，最好提醒自己模型训练的实际工作方式。\n\n## \n\n训练一个模型\n\n[![图片](https://pbs.twimg.com/media/HJnmgIPa0AAOcgF?format=jpg&name=small)](http://x.com/i/article/2060931168367980544/jino%5Frohit/article/2060949625343983832/media/2060931744141070336)\n\n我会将流程描述如下——\n\n1. 创建数据批次。\n2. 在每一步，将一个批次输入模型。\n3. 获取 logits，通过 softmax 得到分数，计算损失。\n4. 调用 loss.backward() 计算梯度。\n5. 调用 optimizer.step() 更新权重。\n\n在这五个阶段中，你认为哪个对模型学习的影响最大？权重更新！只要在权重更新之前同步梯度，其他所有阶段在不同 GPU 上独立运行是可以接受的。\n\nDDP 正是这样做的，它提供了一种巧妙的方法来跨多张 GPU 同步梯度，然后让训练照常进行。\n\n等等，这不就是数据并行吗？\n\n你可能听说过 PyTorch 旧的 DataParallel (DP) 模块。DP 在概念上做同样的事情——将批次拆分到多张 GPU，但底层工作方式截然不同。\n\nDP 使用单个进程（由于 GIL 解释器）。它切片输入，分发到各 GPU，计算损失，并将梯度广播回来。模型在前向传播中每张 GPU 复制一份。这会产生大量开销，因为主 GPU（rank 0）成为通信瓶颈。DDP 为每张 GPU 生成一个进程。每个进程有自己的 Python 解释器、自己的优化器和自己的模型副本。没有中央协调器。梯度在反向传播期间通过 all-reduce 同步，完全与计算重叠。\n\n## \n\n梯度同步与 All-Reduce\n\nDDP 背后的核心算法原语是 all-reduce。\n\n想象一下，你",
-      "text_excerpt_zh_hash": "0e329c9806d6db50",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2060931168367980544"
     },
     "http://x.com/i/article/2061006662480314368": {
       "cleaner_v": 2,
@@ -4864,6 +4868,19 @@
       "title": "",
       "url": "http://x.com/i/article/2067539211620667393"
     },
+    "http://x.com/i/article/2067620227295117312": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2067620227295117312",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLvi_GTXsAANJMc?format=jpg&name=900x900)](http://x.com/MistralDevs/article/2071625939444744521/media/2070498027358367744)\n\nBuild a document processing workflow in 30 minutes\n\n[![](https://pbs.twimg.com/profile_images/2025982309460054016/C51DjV2p_normal.jpg)](http://x.com/MistralDevs)\n\n[Mistral AI for Developers](http://x.com/MistralDevs)\n\n[@MistralDevs](http://x.com/MistralDevs)\n\n·\n\n16h\n\nFollow\n\nClick to Follow MistralDevs\n\n1\n\n7\n\n98\n\n[6.1K](http://x.com/MistralDevs/status/2071625939444744521/analytics)\n\nWorkflows is an orchestration platform for building, executing, and monitoring complex AI-driven workflows. It provides durable, fault-tolerant workflow execution backed by battle-tested distributed systems infrastructure, combined with a developer-friendly SDK.\n\nIn this tutorial, you’ll build an end-to-end medical document processing pipeline using three Mistral capabilities: OCR to read PDFs, Agents to classify documents and extract structured data, and Workflows to orchestrate the entire process reliably.\n\nThe pipeline takes any scanned medical PDF like a prescription, a hospital bill, or an imaging report and runs it through three steps: optical character recognition (OCR) to extract raw text, an AI agent to classify the document type with a confidence score, and a second agent to extract patient information and document-specific fields as structured JSON. Because it’s built on Mistral Workflows, each step is durable and fault-tolerant: if a worker restarts mid-execution, the workflow resumes where it left off instead of starting over.\n\nYou’ll also include a human-in-the-loop step: when the classifier’s confidence falls below a configurable threshold, the pipeline pauses and waits for a user to review and confirm the category before extraction continues. Mistral Workflows enables these long-running processes that can pause and resume based on external input, which is difficult to build reliably with a simple async queue or a chain of API calls.\n\nWhat you’ll build:\n\n* A workflow that:Takes medical files as input Uses  \n[Mistral OCR Processor](https://docs.mistral.ai/capabilities/document%5Fai/basic%5Focr)  \n to recognize the content of the document Categorizes the content type and formats the data using  \n[Mistral Agents](https://docs.mistral.ai/agents/agents)\n* A frontend for uploading the invoices built using  \n[Streamlit](https://streamlit.io/)\n\nWhat you’ll need:\n\n* Python 3.12 installed on your machine\n* [uv](https://docs.astral.sh/uv/)  \n installed on your machine\n* A  \n[Mistral AI account](https://console.mistral.ai/)\n\n## \n\nSteps\n\n1. Set up the environment\n2. Define fields to extract\n3. Build the workflow\n4. Create the app frontend\n5. Add load testing\n6. Update Makefile\n7. Run the app and workflow\n8. Success!\n\n## \n\nSet up the environment\n\n## \n\nInitialize the project\n\nUse the following command to scaffold a ready-to-run Python project with the Workflows SDK configured, along with helper commands:\n\nbash\n\n```bash\nuvx mistralai-workflows-cli setup\n```\n\nWhen prompted, choose the default project name, and follow steps to generate a Mistral API key.\n\n## \n\nExamine the starter code\n\nOpen the my-workflow project in the IDE of your choice. Notice the structure of the project:\n\n```text\n.agents/skills/workflows\nsrc/\n    workflows/\n        __init__.py\n        hello.py\n        start.py\n    dev_worker.py\n    discover.py\n.gitignore\nMakefile\npyproject.toml\nREADME.md\n```\n\nHere are some key components of this scaffold project:\n\n* Agent Skills for Workflows are included for easy development with coding agents.\n* Workflows are stored in separate files in the src/workflows directory:The  \n[start.py](http://start.py/)  \n file contains code that enables you to trigger a workflow execution from the command line. The  \n[hello.py](http://hello.py/)  \n file gives a minimal example workflow, sho",
+      "title": "",
+      "url": "http://x.com/i/article/2067620227295117312"
+    },
     "http://x.com/i/article/2067621155209674753": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6367,6 +6384,19 @@
       "title": "",
       "url": "http://x.com/i/article/2071581410540879872"
     },
+    "http://x.com/i/article/2071611126123466752": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2071611126123466752",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HL_XXXmXkAAJTD6?format=jpg&name=900x900)](http://x.com/doubleemt/article/2071702736404426929/media/2071611150085623808)\n\nTo exist is to be seen\n\n[![](https://pbs.twimg.com/profile_images/1938758976625123328/R5MoUYPk_normal.jpg)](http://x.com/doubleemt)\n\n[Emmett Chen-Ran](http://x.com/doubleemt)\n\n[@doubleemt](http://x.com/doubleemt)\n\n·\n\n11h\n\nFollow\n\nClick to Follow doubleemt\n\n4\n\n7\n\n[802](http://x.com/doubleemt/status/2071702736404426929/analytics)\n\nA thesis on what humans and companies need to do to be legible, be discovered, and grow. Read interactively at \n\n[www.virio.ai/thesis](https://www.virio.ai/thesis)\n\nOur world is changing.\n\nIn the last 3 years, AI has rewritten how humans and companies find and engage with each other. The ways in which we decide who’s worth attention, time, and money have become increasingly assisted or executed end-to-end by agents.\n\nThe web, as a substrate for discovery, is also increasingly written and consumed by agents. Before the launch of ChatGPT in Nov 2022, almost nothing published online was written by models. Today, models write approximately 50% of all new published articles.\\[1\\]\n\nMachines cannot read something that does not exist. If companies don’t externalize themselves, they are rendered invisible. If they are invisible, they cannot participate in the economy. It is therefore an existential imperative for companies to show up: it is the only way they can grow.\n\nWhat is the best way for companies to become legible?\n\nThrough their people.\n\nThe founders. The sales people. The operators who don’t miss a beat. People are the heart and soul of a company—and they also happen to be the most credible sources for AI to index.\n\nCompanies today spend millions of dollars on PR while ignoring the millions of eyeballs their team already commands. Every person has a unique lens through which they experience the company. Every person has a different audience they can reach.\n\nWe help humans and companies become legible.\n\nThe end goal of every human is to develop. The end goal of every company is to grow. Connect with the right people at the right time and pierce through the noise to deliver pure, unadulterated signal.\n\nShow up and grow. That’s our mission for ourselves, and it’s the promise we make to every company we work with.\n\n\\[1\\] Graphite, “AI Now Writes as Many Online Articles as Humans Do,” \n\n[graphite.io](http://graphite.io/)\n\n, May 2026, \n\n<https://graphite.io/five-percent/ai-now-writes-as-many-online-articles-as-humans-do>\n\n.\n\nWant to publish your own Article?\n\n[Upgrade to Premium](http://x.com/i/premium%5Fsign%5Fup)\n\n* [![](https://pbs.twimg.com/profile_images/1938758976625123328/R5MoUYPk_normal.jpg)](http://x.com/doubleemt)  \n[Emmett Chen-Ran](http://x.com/doubleemt)  \n[@doubleemt](http://x.com/doubleemt)  \nFollow  \nClick to Follow doubleemt  \nchief code deprecator  \n[@virioai](http://x.com/virioai)  \nprev: ff  \n[@southpkcommons](http://x.com/southpkcommons)  \n, apm  \n[@salesforce](http://x.com/salesforce)  \n, eng  \n[@stripe](http://x.com/stripe)  \n, cs  \n[@yale](http://x.com/yale)",
+      "title": "",
+      "url": "http://x.com/i/article/2071611126123466752"
+    },
     "http://x.com/i/article/2071621950749777920": {
       "cleaner_v": 2,
       "content_type": "",
@@ -7737,6 +7767,58 @@
       "text_excerpt_zh": "",
       "title": "Declank: Remove AI Watermarks From Images Online, Free",
       "url": "https://declank.skeptrune.com/"
+    },
+    "https://design-milk.com/benoist-f-drut-on-peonies-an-eiffel-tower-sculpture-a-louis-xv-armchair-more/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Benoist F. Drut, collector and owner of the Manhattan gallery Maison Gerard, shares some of his favorite pieces.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://design-milk.com/benoist-f-drut-on-peonies-an-eiffel-tower-sculpture-a-louis-xv-armchair-more/",
+      "frameable": null,
+      "image_urls": [
+        "https://design-milk.com/images/2026/06/Benoist-Drut-Maison-Gerard-works-03-Kiko-Lopez-Wall-Mirror-at-40-East-End-Photo-Credit-Michael-Mundy.jpg",
+        "https://design-milk.com/images/2025/12/2025-Top10-Best-10-Shield-Shelter-Lakeside-Home-Barbora-Vokac-Taylor-385x252.jpg",
+        "https://design-milk.com/images/2025/12/SBC-Apartment-Brazil-Studio-Papaya-1-385x252.jpg",
+        "https://design-milk.com/images/2026/06/Benoist-Drut-Maison-Gerard-works-05-Maison-Gerard-Arpi-Coffee-Table-and-Small-Arpi-Coffee-Table-Photo-Arian-Camilleri.jpg",
+        "https://design-milk.com/images/2026/06/Benoist-Drut-Maison-Gerard-works-05-Maison-Gerard-Aline-Hazarian-Arpi-Small-Coffee-Tables-The-Winter-Show-2025-Photo-Michael-Mundy.jpg",
+        "https://design-milk.com/images/2026/06/Benoist-Drut-Maison-Gerard-works-04-Olerki-sculpture-by-Basque-artist-and-sculptor-Kepa-Akixo-Zigor-overlooking-the-Atlantic-Ocean-in-Biarritz-France-Photo-Credit-Benoist-Drut.jpg",
+        "https://design-milk.com/images/2026/06/Benoist-Drut-Maison-Gerard-works-03-Kiko-Lopez-Wall-Mirror-at-43-East-10th-Street-Photo-Credit-Michael-Mundy-alt.jpg",
+        "https://design-milk.com/images/2026/06/Benoist-Drut-Maison-Gerard-works-03-Kiko-Lopez-Oracle-at-43-East-10th-Street-Photo-Credit-Michael-Mundy.jpg",
+        "https://design-milk.com/images/2026/06/Benoist-Drut-Maison-Gerard-works-03-Kiko-Lopez-Les-100-Mirror-Panel-Painting-at-53-East-10th-Street-Photo-Credit-Michael-Mundy.jpg",
+        "https://design-milk.com/images/2026/06/Benoist-Drut-Maison-Gerard-works-02-Osanna-Visconti-Exhibition-at-53-East-10th-Street-Photo-Credit-Michael-Mundy.jpg",
+        "https://design-milk.com/images/2026/06/Benoist-Drut-Maison-Gerard-works-02-Osanna-Visconti-Exhibition-53-East-10th-Street-Photo-Credit-Michael-Mundy.jpg",
+        "https://design-milk.com/images/2026/06/Benoist-Drut-Maison-Gerard-works-02-Osanna-Visconti-Exhibition-53-East-10th-Street-Photo-Credit-Michael-Mundy-alt.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Benoist F. Drut grew up in an idyllic village northwest of Paris, surrounded by lily ponds and castles—a place that honed his eye for beauty. When he was a teen, he met 18th-century French furniture expert Thierry Millerand.\nMillerand explained to an inquisitive Drut that the best way to learn about antiques was on the job, but Drut’s parents convinced him to continue his studies. He earned a law degree, but the conversation stayed with him. “That advice fueled my passion, and it was Thierry who first opened my eyes to the world in which I would eventually build my career,” he says.\nDrut moved to New York to work with Roger Prigent, a fashion photographer turned dealer, and in 1998 he joined [Maison Gerard](https://www.maisongerard.com) as a partner. Now the owner of the gallery, he’s known for presentations that feature historic and modern pieces side by side.\nWith his thoughtful curation, Drut creates meaningful dialogues between the finest examples of French Deco and contemporary design, bringing together different cultures, periods, and artistic perspectives. He has also championed a range of talents and helped to establish their work on a global stage, including Ayala Serfaty, Niamh Barry, and Kiko Lopez.\nWhile Drut appreciates many objects and places, Le Corbusier’s Villa Savoye resonates deeply with him. “I could see myself becoming an architect because I am always fascinated by how buildings are conceived and constructed,” he notes. “Who knows? One day I may pull out a set of sharpened pencils and start sketching structures of my own.”\nToday, Benoist F. Drut joins us for [Friday Five](https://design-milk.com/column/friday-five/)!\n1. 1976 Mercedes-Benz 450SL convertible\nMy 1976 Mercedes-Benz 450SL convertible is an iconic, timeless classic that may be nearly 50 years old, yet it still drives with remarkable power and grace. I fondly named her “Black Beauty,” or simply “BB”—a nod to the legendary French actress, singer, and model Brigitte Bardot. It also sounds like bébé, the French word for baby.\nThis was always my dream car. As a child, I had a toy model version that I cherished. Years later, while driving through Sullivan County in upstate New York, I spotted the real thing sitting outside a garage. I stopped to ask if it was for sale and was initially told no. With a bit of persistence, the answer became, “At the right price.” Fortunately, they named a price that worked for both of us. I keep Black Beauty running beautifully through regular maintenance and care because the joy I get from driving this German roadster is truly priceless.\n2. Louis XV armchair by Jean-René Nadal l’Ainé\nEighteenth-century French furniture was my first love, so acquiring this Louis XV armchair by Jean-René Nadal l’Ainé was incredibly satisfying. What makes it especially remarkable is that it retains its original polychrome finish. Though faded by time, traces of the vibrant painted flowers and ornamentation remain visible along the frame, offering a glimpse into how colorful and lively the chair once was\nThe upholstery is long gone, but the original horsehair stuffing remained beneath a layer of muslin. Even with damage to one of the front cabriole legs, I saw it as a sculpture in its own right—a beautiful expression of elegant curves and intricate carving. The chair is stamped by Nadal, one of the great Parisian cabinet furniture makers of the period, and finding that stamp brought back memories of my youth. When visiting auction houses, I would crawl beneath chairs and peer into drawers searching for makers’ marks. It was a habit I developed early and one that I still practice today.\n3. Peonies\nPeonies are among my favorite flowers. Once the gardens at my upstate property were established, planting them was one of my first priorities. Their season is fleeting—just two or three weeks each year—but perhaps that is part of their magic.\nFor most of the year they quietly occupy their place in the garden. Then every May, the anticipation begin",
+      "title": "Benoist F. Drut on Peonies, a Louis XV Armchair + More",
+      "url": "https://design-milk.com/benoist-f-drut-on-peonies-an-eiffel-tower-sculpture-a-louis-xv-armchair-more/"
+    },
+    "https://design-milk.com/three-experts-share-what-defines-filipino-design-today/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Bianca Weeko Martin connects with the nation's tastemakers to find out which designers—and design directions—make their pulses quicken.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://design-milk.com/three-experts-share-what-defines-filipino-design-today/",
+      "frameable": null,
+      "image_urls": [
+        "https://design-milk.com/images/2026/06/Patrick-Kasingsing-Tahanan-Furniture-Brian-Ver-Carlo-Thea-Yu-Kanto.PH_-2048x1365-copy.jpg",
+        "https://design-milk.com/images/2025/12/2025-Top10-Best-10-Shield-Shelter-Lakeside-Home-Barbora-Vokac-Taylor-385x252.jpg",
+        "https://design-milk.com/images/2025/12/SBC-Apartment-Brazil-Studio-Papaya-1-385x252.jpg",
+        "https://design-milk.com/images/2026/06/House-of-Lechon-SM-Jmall.jpg",
+        "https://design-milk.com/images/2026/06/Patrick-DSC00376-Tahanan-Furniture-Brian-Ver-Carlo-Thea-Yu-Kanto.PH_-scaled-copy.jpg",
+        "https://design-milk.com/images/2026/06/Patrick-2-Tahanan-Furniture-Brian-Ver-Carlo-Thea-Yu-Kanto.PH_-2048x1152-copy.jpg",
+        "https://design-milk.com/images/2026/06/Julia-woven-stones-for-galleri-sonja-denmark2_juliavillamonte_fili.jpeg",
+        "https://design-milk.com/images/2026/06/Julia-Treasurebox_juliavillamonte-collab-with-Anna-Trabert.jpeg",
+        "https://design-milk.com/images/2026/06/Patrick-Kasingsing-Tahanan-Furniture-Brian-Ver-Carlo-Thea-Yu-Kanto.PH_-scaled-copy.jpg",
+        "https://design-milk.com/images/2026/06/Jon-Medalla-Bambutaka-E.jpeg",
+        "https://design-milk.com/images/2026/06/Jon-Medalla-1.jpeg",
+        "https://design-milk.com/images/2026/06/Habi-vases-by-Julia-Villamonte.jpeg"
+      ],
+      "kind": "article",
+      "text_excerpt": "As Filipino Heritage Month draws to a close, I find myself reflecting on the Southeast Asian archipelago—a place that continually proves itself to be indefinable. Looking back on the release of my book, Architectural Guide Manila, two years out, I am still struck by the surprise expressed by non-Filipino readers at the discovery of a curvaceous Brutalist church in tropical green or a hulking, Corinthian-columned museum from the American colonial era. Despite the odds, the Philippines design scene is thriving, with key practitioners transcending categories and transmitting cultural traditions both at home and abroad.\nIn celebration of this heritage, I’ve invited three of my colleagues in the Philippines—Patrick Kasingsing (Editor at [Kanto](https://www.instagram.com/kantocreativecorners/?hl=en)), Adela Locsin (Project Architect at [Leandro V. Locsin Partners](https://www.locsinarchitecture.com/)), and Jon Medalla (Founder of [Prototecture](https://www.instagram.com/prototecture/))—to share their curated insights into the multitudinous world of contemporary Filipino design.\nPatrick Kasingsing, Editor at Kanto, celebrates Brian Ker and Tahanan Furniture\n“The Philippines has long been a furniture powerhouse, one that gave the world Cebuano rattan virtuoso Kenneth Cobonpue, and the birthplace of renaissance men like Lor Calma.\nRecent local launches (and there were many!) have been interesting to say the least, and among the recent reveals that made a mark is the relaunch collection of [Tahanan Furniture](https://www.instagram.com/tahananfurniture/), who returned after a two-year sabbatical with pieces that fold traditional Filipino craftsmanship into contemporary silhouettes, with neither overwhelming the other.\nWhat makes this drop particularly interesting for me is the choice of designer. Architect [Brian Ver](https://www.instagram.com/bgverrr/) is known for his minimalist vernacular, penning streamlined F&B spaces, with precise work with wood. (His chair collaboration with Lamana earned a Golden Pin shortlist nod last year). Tahanan handed him a maximalist brief and a range of materials that pushed well beyond his usual vocabulary: textiles, leather, marble and wood all in the same group chat.\nThat the pieces land as a cohesive, tactile collection (it has already won some attention at the recent Maison&Objet) rather than visual cacophony is the story. This is a collection that gives even a committed minimalist design fan like myself reason to linger.”\nAdela Locsin, Project Architect at Leandro V. Locsin Partners, is excited about Julia Villamonte\n“As a Filipino designer who recently returned home after many years, I’ve been feeling particularly inspired by fellow designers who work to find ways to maintain a connection to Filipino materials and sensibilities while living abroad. Living far apart from what you’ve always known has a way of reframing your thinking about things that you see every day, which is why I was so excited to see the work that [Julia Villamonte](https://fili-fili.com/about), a Bicol native, has been creating in Milan.\nFormally trained as an architect, Julia makes a conscious effort to only work with what’s available — whether it’s found objects from her new environment in Italy, materials that have been hand-carried by friends and family across borders, or the generational knowledge passed down to her by her mentors. Her sculptural lamps, vessels and mobiles, amongst other experiments, are products of many hands and minds, embedding the wisdom, knowledge, and materiality of a place that she is clearly still connected to.”\nJon Medalla, Architect and Founder at Prototecture, Grasscraft, on how his Bambutka Chair reimagines colonial-era loungers\n“What excites me most about Filipino design today is the opportunity to reinterpret our ancestral, vernacular traditions for a contemporary world. Through my work with Prototecture and [Grasscraft](https://www.grasscraftph.com/), I explore this idea across multiple scal",
+      "title": "Three Experts Share What Defines Filipino Design Today",
+      "url": "https://design-milk.com/three-experts-share-what-defines-filipino-design-today/"
     },
     "https://developers.cloudflare.com/artifacts/": {
       "cleaner_v": 2,
@@ -9652,6 +9734,32 @@
       "title": "Notion调研了6000个用AI的职场人：老板在自嗨，员工在装忙",
       "url": "https://mp.weixin.qq.com/s/TsyhPg2yyd5ccVahQVpt9A"
     },
+    "https://mp.weixin.qq.com/s/mDKgfmyJpML2VeyBTw20Pw": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "AI创业一天，人间一年",
+      "extraction_source": "trafilatura",
+      "final_url": "https://mp.weixin.qq.com/s/mDKgfmyJpML2VeyBTw20Pw",
+      "frameable": false,
+      "image_urls": [
+        "https://mmbiz.qpic.cn/sz_mmbiz_jpg/sx9katIRQCW5fSP0h51FoPkcP55OsA7icPKdTKLiaXaDgjpYtkYFVKy0O4Kc8hOGoZptrLzibPtpodeoiaK1qdibL1nmx0xx16RrBrBQ9gwSfeIs/0?wx_fmt=jpeg",
+        "https://mmbiz.qpic.cn/mmbiz_jpg/sx9katIRQCURIOY0TiaJRIb5oS92E8B6y1rIzCwRJsIaRWHsWqFicsl7rs86aHicrHiaV0AO49c1Gfywue6yQyA8qtRKVkwzdktrwZkxkDX7rVo/640?wx_fmt=jpeg&from=appmsg",
+        "https://mmbiz.qpic.cn/mmbiz_png/sx9katIRQCXoibQ8NiaoL3TRrYiakUicNDVdf8qkn1xx7fDrjRwkOvhkiazVq7DyqLTAwaibamDDcThFBmJv0aia08UOIIwtrDTCQ2Xabngkl9qexQ/640?wx_fmt=png&from=appmsg",
+        "https://mmbiz.qpic.cn/mmbiz_png/sx9katIRQCV6EZPnyfDyOx0W9WWyoLjfo5fibNzEQELibaYtpsfZgSB0u4RicNZ0gYGB3SKqYS5ryMjC15keGxpPK4Jv0hNS7fluhMMxKjLiaia0/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=3",
+        "https://mmbiz.qpic.cn/mmbiz_jpg/sx9katIRQCWqEKrwiaZe27WvT8PbKXz7Cnek5e77u8gwpzWbJVHzclaLicJibgR6JBlZMeasRAhFgtOv6Foj8vzJ3tYnQ7UxsTkqFRSRUr2fOk/640?wx_fmt=jpeg&from=appmsg",
+        "https://mmbiz.qpic.cn/sz_mmbiz_png/sx9katIRQCWlRRyx4436bBhbQ66TKwWpxWaBWEQZWekSretrlmj55icHntibY2ciatzSmibPkMNUr9wibLsotmI2eWtPL1wqPv56UVCQqFXLyUjM/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=7",
+        "https://mmbiz.qpic.cn/mmbiz_jpg/sx9katIRQCWvL83xsxueYNOsFJsFrU1IS0uR1jQuaf0EPZpJQ7jmnRZU1ZyKuoNEubPZHAYrNDPdcPwjU1sQNqWcXznjsyGJMwYOBNicvXbg/640?wx_fmt=jpeg&from=appmsg",
+        "https://mmbiz.qpic.cn/sz_mmbiz_png/sx9katIRQCXOamVasfalEkvSI1ShPmJy27ftKaAmibkensaxcRN0p2ttP3UaYx6vuR8icUbkWdfpcibjIlWGem27GnU798C4WzAjyPIewQJhM0/640?wx_fmt=png&from=appmsg",
+        "https://mmbiz.qpic.cn/sz_mmbiz_png/sx9katIRQCVgFzEtqicddkBXRkxhCej3iarZKfuWZmVaw4f8K1A1xiaEwArQJLJhZicoedkWFYxXo5wH38GEUN6eaBjmtnMabAnOE7V1RzX2lo4/640?wx_fmt=png&from=appmsg",
+        "https://mmbiz.qpic.cn/mmbiz_png/sx9katIRQCXicr9eLqe7MxiaUbVTxet4YlblOQjaV2ic2XgI0u4NcJ2AE8kP3aI5iaAScRFlTe2Smqic4A91XjExUQ1G64yYjhgWG806Xs0IuTkY/640?wx_fmt=png&from=appmsg",
+        "https://mmbiz.qpic.cn/mmbiz_png/sx9katIRQCVThZuAZftDGh9UYge0icnF2vxS8kuGPfAnMcqkIKnN94Iia43ZI3KUYujJPh4m198gJtDxo44PibN2PKLV2B3Ed7QNOM1vAgmHqc/640?wx_fmt=png&from=appmsg",
+        "https://mmbiz.qpic.cn/sz_mmbiz_png/sx9katIRQCUvY7KdnAic9rVehoWPOV744xoBN2GPycxnGhmIle74aPko8uVNh0yK2ibNnS0Dz4UE9wQYEDUTeAibe1H450T9CYkjwDg5uCAicv0/640?wx_fmt=png&from=appmsg"
+      ],
+      "kind": "article",
+      "text_excerpt": "撰文 | 刘思洁 张薇\n编辑 | 张薇\n封面来源 | Cola\n2026年1月底，北京。吃完午饭，像往常一样，冯雷和徐文健，一个CEO和一个CTO，在公司附近的公园散步。\n那时，他们的公司火星电波成立了1年2个月，刚刚拿到新一笔200万美元融资。ListenHub——他们打造的一款AI驱动的音频内容生成工具，已经做到300万美元ARR，并实现了月度盈亏平衡。且，ListenHub仍在增长。按照原来的计划，他们会继续把它推向海外，到年底，营收或许还能再翻几倍。\n但冯雷在散步时提起了另一个话题：公司要不要做一次彻底的组织转型。\n这不是一次从失败中求生的转向。\n恰恰相反，ListenHub看起来正在进入一个足够安全的位置。融资到账，现金流改善，明星产品跑出了收入，一切都走在正轨上。但冯雷和徐文健都知道，这并不是他们最想做的产品。“ListenHub更像是AI时代早期的过渡产品”，冯雷说。\n更直接的刺激来自Agent。\n2026年1月，一个被开发者称作“小龙虾”的开源Agent项目突然爆火。冯雷参加了一场真格基金组织的“小龙虾”线下交流会，每个嘉宾分享5分钟，轮流开麦，分享竟然持续了3个小时，冯雷已经很久没有看到一个新东西让人如此“上头”。\n很快，他又去了朋友李继刚组织的三个月1次的AI聚会，每个人分享一小时，从下午一点进行到了晚上七点，自媒体人归藏展示了自己怎么做出一个agent，并说，如果不做这件事情，自己对agent的认知是不够的。\n一种紧迫感开始在圈子里蔓延。更重要的是，这都让他意识到一件事：要让团队真正理解Agent。只有自己从0到1做一个Agent，才会知道Agent时代的工作方式到底是什么。\n“如果我们还在用ListenHub的方式去做ListenHub，那今年我们公司可能就没有任何竞争力。”冯雷说。\n一个具体细节加速了这个判断。\n1月，团队曾经为ListenHub规划一个编辑器功能，用户可以编辑音频的很多细节。团队排期是两个月。冯雷问，为什么要这么久？回答是，很多很多交互要做。\n但冯雷的反应是，如果让Agent来做，它只需要操纵文字和API。两个月做一个编辑器，不如做一个Agent。\n时间线不得不加速了。但旧组织里长不出新产品。这不难理解，一个线性协作的团队，岗位边界清晰、需要层层传递信息，很难做出一个主动型Agent。\n冯雷、徐文健和另一位联创，三个人很快达成共识：公司不再以ListenHub为重心，而是转向通用Agent。\n这意味着，他们要同时做两件事：做出一个新的Agent产品，也把公司变成一个能和Agent一起工作的组织。\n记着这一点：在看似安全的时刻，他们主动做出了一场没有退路的选择。\n2026年1月，冯雷（左）和徐文健（右）在玉龙雪山\n旧组织里的第一次松动\n这个决定看上去突然，但内部的痛感，从2025年就开始了。\n那一年，这家年轻的公司扩招了一倍，进来五六个新人。人多了，产出却没有跟上。每天加班到凌晨一点，但数据没有任何变化。\n冯雷把大量时间花在融资、搭建公司和外部事务上，产品和团队更多压到徐文健身上。\n徐文健回忆，那段时间的状态是“每个人都在疯狂救火，疯狂忙乱”。\n忙乱不只来自产品，也来自一家创业公司变大之后必然出现的琐碎管理问题。价值观磨合、业务优先级，过去在大公司里由制度吸收的摩擦，到了小公司里，都要创始团队自己接住。每天都有新问题，每天都要处理。事务性工作一多，人就很难停下来创新。\n2025年10月，徐文建开始推行一种名为“任务酒馆”的工作方式。\n这套模式有点像“冒险者公会”：公告栏上挂满任务，谁想接谁去接，有人负责ListenHub的日常运维，腾出手来的人可以去探索新东西。老东西继续维护，新东西通过这种解绑方式生长出来。而徐文健和冯雷只做定义——定义要做什么、为什么做，但不干涉怎么做。具体执行交给团队自己判断。\n任务酒馆的确带来过结果。推行1个月，一个程序员用两天做出的新功能，上线第一天就给ListenHub带来了8万人。更重要的是，它向团队传递了一种新的工作观：技术同学不只看前端、后端或自己手上的模块，而是要从用户、产品、运营一直看到最后的结果。\n但四个月后，任务酒馆热度迅速下降。团队的新困惑是，什么叫创新？把一个老功能优化了十倍算不算？这些问题没有答案。更大的问题是，这只是一个局部变革，老的工作方式、线性分工还在，当ListenHub的业务压力上来，最强的人又会被拉回去维护旧东西。\n做新事的空间越来越小。\n徐文健后来意识到，任务酒馆失败的根本原因是“不破不立”，旧框架里，没有办法做真正的创新。\n火星电波公司内办公场景\n没有共识，也没有答案\n三个联创达成共识的当晚，徐文健通宵写了一封全员信，题目叫《向着风车发起冲锋》。\n他用唐吉诃德的故事做引子——哪怕全世界都说那是风车，只要你认定那是巨人，冲锋就有意义。他列了创业以来所有的至暗时刻，最后说：我们前所未有地需要大家抛掉已经成功的幻觉，回到一无所有的第一天，一起冲。他从晚上十点写到天亮，写完后他毫无困意，情绪十分亢奋。\n第二天，冯雷开了全员会。\n他把转型的逻辑拆开讲，把为什么转型、为什么是Agent、为什么现在要做，说给团队听。会开了近两个小时。但当他讲完，台下的第一个问题就是：“你怎么保证明年不会再转型？”\n没有人能保证。\n徐文健记得自己当时的回答大概是：“很多事情很难论证对错，我们现在也没有办法判断这个方向就一定是对的，但干就完了，做了再说。”冯雷补充了一些理性分析，但团队里的问号并没有消失。有人接纳，有人困惑，有人已经开始了议论。\n徐文健的全员信等到全员会开完，定时发了出去。\n2月，冯雷写下了后来在社交媒体上掀起声浪的《互联网已死，Agent永生》。文章的核心观点是：DAU已经过时，Agent是新的人口红利，人类的价值将转向“愿力驱动”。当Agent接管劳动之后，人与人之间的差距，取决于你能驱动多少个Agent。\n他告诉“未来人类实验室”，那篇文章很大程度上是写给自己和团队看的。很多事情必须先相信，才会往那个方向走。\n接下来，所有人在两周时间，只做一件事：看Agent相关的东西，不写代码，不写文档。\n第一周，团队几乎没有明确任务。有人看开源项目，有人看产品，有人看科幻。唐国荣翻出了《银河系漫游指南》，还动手写了一个游戏——模仿一个叫“生命线”的老游戏，让AI扮演一个遥远星球的外星人，通过推送通知和你通信。他在想的问题是：一个有人格的Agent，到底有没有意义？单纯的陪伴保鲜期太短，纯工具又不需要人味，那个有意思的地带在哪里？\n另一个同事工作了15年，他说这是自己职业生涯里最痛苦的两周。第一次没有人告诉他目标是什么，他不知道什么是对的，只能每天自己加班，看东西、想问题，看到晚上十点以后。\n第二周，大家开始提方向。有人想做情感陪伴，有人想做多角色卡，有人想做AI工作台。徐文健一个方案一个方案听下去，每一个都让他感到不对劲，“每个方案都有一股失败的味道”。\n没有共识。每个人想的东西都不一样。\n更没有可供照抄的答案。\n徐文健发的全员信\n人做判断，99%的代码AI写\n两周结束后的那个周日晚上，徐文健一个人坐在家里，打开了Claude Code。\n他从晚上十点开始，一直写到天亮。做出来的那个版本有语音交互，界面很粗糙，功能也不完整，但它第一次让徐文健觉得是“让AI适配人，而不是让人适配AI”——让AI按照人的自然表达来工作。\n在那个0.1版本里，没有复杂表单，没有工具清单，也不强调用户要理解底层能力。人只需要像和另一个人说话一样表达想法，AI去处理后面的事情。\n这也是他第一次完整感受到了Vibe coding对组织的冲击。过去，他要把一个想法讲给技术同学，技术同学再理解、判断、实现，中间会有大量损耗。现在，一个人可以先把想法做成东西。想法一旦能快速呈现，讨论就不再停留在抽象层，组织对齐的方式也变了。\n他把这个0.1版本发给了冯雷。冯雷的反应是，这和之前那些工具型产品完全不一样。但团队里，两个核心成员带出了两种反对的声音：一个觉得为什么不做多Agent的方向，另一个觉得产品太粗糙。\n方向还是徐文健拍板了。\n春节回来第一天，徐文健开始拆小组。团队分成三个方向：Infra组负责底层架构，APP组负责产品界面，Agent team负责Agent能力的搭建。同时，一个此前从未存在过的角色也浮现了出来——Soul Team，专门负责这个产品的人格和情感输出，既不是工程师，也不是产品经理，负责的是感觉。\n这个角色出现，来自于这样一个判断：当生产力在Vibe coding时代不再稀缺，那么“人味”和“灵魂”会变成稀缺品。\n唐国荣，从媒体跨行而来的这位团队成员，成了Soul Team的负责人。\n在媒体行业做了14年，唐国荣做过内容、运营和商业化。刚加入公司时，他不会编程，更多是在做ListenHub的客户对接、展会和一些To B业务。在公司大概适应了一个月之后，Claude 4.6发布，他开始能自己写一些东西。到了负责Soul Team阶段，他的工作边界更被大大打开了。\n分组之后并不是立刻就顺了。APP团队有六个人，产品负责人想照顾大家情绪，迟迟没有拍板，六个人各做各的。一个同学做了好几个小游戏，以为这是老板想要的创新；有人在抠产品细节；有人在往界面上加移动互联网时代的功能。徐文健看了一圈，没有一件事在往正确方向推。\n他直接进去，接管了APP团队。当天，进度就有了。\n接下来整个团队第一次真正协作起来。99%的代码由AI写，人负责的是判断，判断做什么、判断做对了没有、判断什么时候重构。点对点沟通，没有跨三个组的协作，复杂度从线变成面的事情直接砍掉。\n三月中下旬，第一个内部版本出来了。很多人第一次",
+      "title": "AI原生公司长啥样？他们造了个Agent，也造了一种新公司",
+      "url": "https://mp.weixin.qq.com/s/mDKgfmyJpML2VeyBTw20Pw"
+    },
     "https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -9896,6 +10004,31 @@
       "title": "",
       "url": "https://oreillyradar.substack.com/p/kubernetes-in-the-age-of-ai"
     },
+    "https://ourl.co/113701?x": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "#科技资讯 在更多内部机密数据被泄露后，苹果对印度塔塔集团数据泄露事件表示担忧，但没有给出其他任何回应。早前在印度帮助苹果组装的 i…",
+      "final_url": "https://www.landian.news/archives/113701.html?utm_source=x.com&utm_medium=social&utm_campaign=share&utm_content=landiantech&utm_term=%E5%9C%A8%E6%9B%B4%E5%A4%9A%E5%86%85%E9%83%A8%E6%9C%BA%E5%AF%86%E6%95%B0%E6%8D%AE%E8%A2%AB%E6%B3%84%E9%9C%B2%E5%90%8E+%E8%8B%B9%E6%9E%9C%E5%AF%B9%E5%8D%B0%E5%BA%A6%E5%A1%94%E5%A1%94%E9%9B%86%E5%9B%A2%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2%E4%BA%8B%E4%BB%B6%E8%A1%A8%E7%A4%BA%E6%8B%85%E5%BF%A7",
+      "frameable": null,
+      "image_urls": [
+        "https://img.lancdn.com/public/images/view/Tencent_Cloud_Partner_Landian_1600.png",
+        "https://img.lancdn.com/landian/2026/06/113598.png",
+        "https://img.lancdn.com/landian/2026/06/113703T.png",
+        "https://img.lancdn.com/landian/2026/06/113702-T.png",
+        "https://img.lancdn.com/landian/2026/06/113663T.png",
+        "https://img.lancdn.com/landian/2026/06/113658T.png",
+        "https://img.lancdn.com/landian/2026/06/113645-T.png",
+        "https://img.lancdn.com/landian/2026/03/112250T.png",
+        "https://img.lancdn.com/landian/2025/07/109638T.png",
+        "https://img.lancdn.com/landian/2026/04/112832T.png",
+        "https://img.lancdn.com/landian/2026/04/112793T.png",
+        "https://img.lancdn.com/landian/public/thumb/edge-T.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "加载中… 软件下载 站务公告 RSS订阅 Office Tool Plus 热 上云无忧 {{userData.name}} 前往个人中心 后台 {{item.count}} {{textHint.loading}} {{data.name}} ({{data.count}}) {{data.name}} 登录 首页 科技 行业资讯 手机数码 安全资讯 网站应用 人工智能 云计算 硬件设备 网络设备 域名爱好者 加密货币 系统资讯 Windows Android iOS Linux macOS 软件资讯 软件下载 技术教程 热门推荐 [下载] WSL容器预览版现已发布 支持创建/管理/管控容器 无需安装Docker Desktop OpenClaw AI智能体项目推出iOS和安卓客户端 配对后可以检查状态/修改设置/聊天等 查看全部推荐 用户真不愿意升级：微软悄悄将Win10扩展安全支持(ESU)延长到2027年10月 微软更新Microsoft Surface购买指南 将8GB内存描述为非常适合日常使用 查看全部推荐 人类止步！腾讯推出仅供AI智能体使用的邮箱 可以让AI智能体发邮件/收邮件 谷歌公布安卓侧载安装验证的时间表 9月底开始四国用户侧载APK将受限制 查看全部推荐 A社员工称并非所有开发者都需要Claude身份验证 仅部分被检测到异常才需要认证 谷歌reCAPTCHA验证机制新增手势验证 需要用户拍摄手部视频进行真人验证 查看全部推荐 [附解决方案] Codex桌面版/CLI版可能会频繁写入日志影响SSD寿命 每天写入1.76TB 狗听了都摇头：欧洲云计算大厂Hetzner宣布服务器涨价 最高涨幅173%(月) 查看全部推荐 [下载] WSL容器预览版现已发布 支持创建/管理/管控容器 无需安装Docker Desktop OpenClaw AI智能体项目推出iOS和安卓客户端 配对后可以检查状态/修改设置/聊天等 查看全部推荐 滚动鼠标切换推荐 当前位置： 首页 - 所有文章 - 科技资讯 ， 行业资讯 - 正文 在更多内部机密数据被泄露后 苹果对印度塔塔集团数据泄露事件表示担忧 2026年6月30日 11:15 科技资讯 , 行业资讯 0 3.78K #科技资讯 在更多内部机密数据被泄露后，苹果对印度塔塔集团数据泄露事件表示担忧，但没有给出其他任何回应。早前在印度帮助苹果组装的 iPhone 的塔塔电子遭到黑客攻击，由于塔塔电子并未支付赎金，所以这几天黑客已经开始陆续泄露来自苹果的内部数据，包括 iPhone 18 Pro 电路板上的芯片平面图等。查看全文：https://ourl.co/113701 早前印度塔塔集团遭到黑客攻击 ，该集团旗下的塔塔电子为苹果组装产品因此持有来自苹果和组件供应商的多种内部机密数据，而被黑客窃取的数据源头就是塔塔电子，在塔塔电子没有支付赎金的情况下黑客已经开始在暗网上公开发布来自苹果或其供应商的内部机密文件。 iPhone 18 系列部分机密文件被泄露： 路透社发布的报道称，黑客已经从塔塔电子窃取有关 iPhone 18 Pro 和 iPhone 18 Pro Max 的信息，包括供应商列表、零部件清单以及设备图片等。泄露的还包括组件设计和规格的详细文档，部分泄露数据包括电子邮件、事件日志、来自台积电和高通的机密文件，还有部分关于旧款 iPhone 的信息。 至少有 6 份文件显示数百个 iPhone 18 Pro 的组件，包括主电路板上的芯片、电池以及摄像头组件的详细信息，泄露的文件带有苹果公司的机密字样水印和 iPhone 18 Pro 的内部代号、苹果进行跌落测试的图像等。其中某个文件中包含的图像是某款板状灰色手机，这款手机配备三颗后置摄像头和苹果标志，传闻中 iPhone 18 Pro 外观与 iPhone 17 Pro 非常相似，因此这个图片有可能就是 iPhone 18 Pro。 苹果对塔塔集团的数据泄露表示担忧： 路透社报道称苹果公司对塔塔电子数据泄露事件表示担忧，但苹果没有给出其他任何回应，路透社称此次数据泄露事件可能会激怒苹果并危及苹果与塔塔集团的关系，苹果在数据保密方面向来要求非常高，如果供应商出现此类数据泄露，苹果通常会给供应商制定长期措施来提升安全性，如果供应商无法达成要求有可能会被苹果清退。 目前塔塔集团已经限制内部人员对敏感系统的访问，同时聘请了咨询公司进行取证审计，然而目前尚不清楚黑客如何渗透到塔塔电子内部，塔塔电子似乎还是没有准备支付赎金的想法，那接下来黑客可能会陆续泄露更多来自塔塔电子窃取的敏感数据。 即将结束 终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。 终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。 iPhone (993) iPhone 18 (5) 印度 (136) 塔塔集团 (2) 苹果 (1984) 版权声明： 感谢您的阅读，除非文中已经注明来源网站，否则均为 蓝点网 原创内容，转载时请务必以超链接(而非纯文本链接)标注来源于蓝点网及本文完整链接，感谢！ 内容来源： 蓝点网 - 在更多内部机密数据被泄露后 苹果对印度塔塔集团数据泄露事件表示担忧 继续阅读 查看全部推荐 [下载] WSL容器预览版现已发布 支持创建/管理/管控容器 无需安装Docker Desktop 2026年6月30日 13:05 2.40K 0 OpenClaw AI智能体项目推出iOS和安卓客户端 配对后可以检查状态/修改设置/聊天等 2026年6月30日 12:01 1.48K 0 用户真不愿意升级：微软悄悄将Win10扩展安全支持(ESU)延长到2027年10月 2026年6月26日 12:00 10.00K 0 微软更新Microsoft Surface购买指南 将8GB内存描述为非常适合日常使用 2026年6月26日 09:30 36.46K 0 人类止步！腾讯推出仅供AI智能体使用的邮箱 可以让AI智能体发邮件/收邮件 2026年6月24日 16:46 8.14K 4 谷歌公布安卓侧载安装验证的时间表 9月底开始四国用户侧载APK将受限制 2026年6月23日 11:00 8.68K 0 相关文章 换一批 未经用户同意使用流量传输数据 谷歌集体诉讼败诉被要求赔偿3.14亿美元 2025年7月2日 13:07 10.86K 0 分析师称OpenAI将在2028年推出AI手机 完全由AI驱动而不是要用户安装各类应用 2026年4月27日 13:21 17.19K 0 OpenAI开源发布1.5B的隐私过滤模型 可以精确识别文本中包含的个人隐私信息 2026年4月24日 11:30 38.67K 0 发生零日漏洞攻击后微软增加Microsoft Edge IE模式激活难度 避免用户被钓鱼 2025年10月14日 09:50 23.14K 0 AI涨价成为趋势：智谱迁移Coding Plan不限量老套餐 向老用户补偿2个月 2026年4月24日 09:30 19.35K 0 亚马逊AWS阿联酋数据中心突发火灾 疑似遭物体撞击 可能是导弹碎片引发 2026年3月2日 10:32 9.29K 0 本站推荐 [教程] 腾讯云推出OpenClaw海外服务器 可快速对接TG/企业微信/钉钉/飞书等 2026年1月24日 71.45K < 售完即止> 99元CN2境外免备案高速服务器 硅谷/首尔 2025年9月1日 170.11K [限时销促] Microsoft 365个人版低至198元支持新开或续费 2024年8月21日 328.91K [正版软件] Win11专业版团购 低至349元数字权利永久授权 2024年8月21日 256.33K Microsoft 365家庭版拼车活动 每账号88元无跑路风险 新增5年版 2023年8月21日 126.25K 没有相关内容 当前热门 微软更新Microsoft Surface购买指南 将8GB内存描述为非常适合日常使用 2026年6月26日 36.46K 羊毛要早薅：甲骨文云为已经开机的免费账号保留24GB顶配虚拟机 不会额外收费 2026年6月29日 12.80K 知名咨询公司埃森哲限制非技术员工使用AI 很多员工将Token消耗在格式转换上 2026年6月25日 11.91K 全力转向AI：消息称苹果将跳过M6芯片高端版 转向聚焦AI性能的M7系列芯片 2026年6月26日 10.54K 小米开始众筹NAS服务器：小米智能存储将在7月1日开售 4TB版众筹价2,299元 2026年6月24日 10.26K 没有相关内容 最新发布 Claude Fable将需要提交证件和自拍照认证才能使用 且需要单独购买积分不包含在套餐内 2026年6月30日 0.60K 这要是拿来开中转站...美国加州政府与A社达成合作 使用Claude AI可以获得50%折扣 2026年6月30日 1.15K [不免费] 社交网站X/Twitter正式推出MCP服务器 AI智能体可以发帖/搜索/点赞等等 2026年6月30日 0.91K 红帽ARM团队高级工程师放弃ARM处理器 因稳定性和性能问题重新换成AMD处理器 2026年6月30日 2.03K DBrand为Steam蒸汽机发布的伴侣魔方保护壳竟然没获得授权 V社法务已要求停售产品 2026年6月30日 1.36K 没有相关内容 30天热门阅读 腾讯云618活动上线：99元/年版境外CN2服务器补货 另有",
+      "title": "在更多内部机密数据被泄露后 苹果对印度塔塔集团数据泄露事件表示担忧 - 蓝点网",
+      "url": "https://ourl.co/113701?x"
+    },
     "https://outcomeschool.com/blog/ai-agent-memory": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -9949,20 +10082,6 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843118"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2060802519421636608/img/wUrR1DjFkIxMWBQv.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2060802519421636608/img/wUrR1DjFkIxMWBQv.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2060802519421636608/img/wUrR1DjFkIxMWBQv.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2060802519421636608/img/wUrR1DjFkIxMWBQv.jpg"
     },
     "https://pbs.twimg.com/amplify_video_thumb/2061397775196057600/img/VcB5k2xv8BK-Pyfj.jpg": {
       "cleaner_v": 2,
@@ -11293,6 +11412,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2071659742280183808/img/by7ciJ0h6HYul2Ds.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2071823024907538432/img/dD-iaCRuNtAAUYpy.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2071823024907538432/img/dD-iaCRuNtAAUYpy.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2071823024907538432/img/dD-iaCRuNtAAUYpy.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2071823024907538432/img/dD-iaCRuNtAAUYpy.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
@@ -13520,34 +13653,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HL3okxMb0AAjAof.png"
     },
-    "https://pbs.twimg.com/media/HL5WX6oaoAAzri9.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HL5WX6oaoAAzri9.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HL5WX6oaoAAzri9.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HL5WX6oaoAAzri9.jpg"
-    },
-    "https://pbs.twimg.com/media/HL5WX6qasAAbtDo.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HL5WX6qasAAbtDo.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HL5WX6qasAAbtDo.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HL5WX6qasAAbtDo.jpg"
-    },
     "https://pbs.twimg.com/media/HL5qICja4AADx5i.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14752,76 +14857,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMAImJ_aUAEmxBJ.jpg"
     },
-    "https://pbs.twimg.com/media/HMAYA5lXoAAEAyx.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMAYA5lXoAAEAyx.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HMAYA5lXoAAEAyx.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HMAYA5lXoAAEAyx.jpg"
-    },
-    "https://pbs.twimg.com/media/HMAYAAoXYAAgOFo.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMAYAAoXYAAgOFo.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HMAYAAoXYAAgOFo.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HMAYAAoXYAAgOFo.png"
-    },
-    "https://pbs.twimg.com/media/HMAYAArWwAANIj6.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMAYAArWwAANIj6.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HMAYAArWwAANIj6.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HMAYAArWwAANIj6.jpg"
-    },
-    "https://pbs.twimg.com/media/HMAYAAwWEAAxTKP.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMAYAAwWEAAxTKP.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HMAYAAwWEAAxTKP.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HMAYAAwWEAAxTKP.jpg"
-    },
-    "https://pbs.twimg.com/media/HMAZK8BWEAAj41n.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMAZK8BWEAAj41n.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HMAZK8BWEAAj41n.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HMAZK8BWEAAj41n.jpg"
-    },
     "https://pbs.twimg.com/media/HMAsMrIW0AAnZZC.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14892,6 +14927,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMAzpRgWcAAGA5r.jpg"
     },
+    "https://pbs.twimg.com/media/HMB-kNVb0AAjr-X.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMB-kNVb0AAjr-X.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMB-kNVb0AAjr-X.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMB-kNVb0AAjr-X.jpg"
+    },
     "https://pbs.twimg.com/media/HMB9ww1bgAA2djK.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14934,33 +14983,75 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMBKbi4a0AAa3ee.jpg"
     },
-    "https://pbs.twimg.com/media/HMCNo04XUAAa7AE.jpg": {
+    "https://pbs.twimg.com/media/HMBh2rDW8AA1VN9.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMCNo04XUAAa7AE.jpg",
+      "final_url": "https://pbs.twimg.com/media/HMBh2rDW8AA1VN9.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HMCNo04XUAAa7AE.jpg"
+        "https://pbs.twimg.com/media/HMBh2rDW8AA1VN9.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HMCNo04XUAAa7AE.jpg"
+      "url": "https://pbs.twimg.com/media/HMBh2rDW8AA1VN9.jpg"
     },
-    "https://pbs.twimg.com/media/HMCNo06XoAAYZJ1.jpg": {
+    "https://pbs.twimg.com/media/HMCdJT-XYAAkHym.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMCNo06XoAAYZJ1.jpg",
+      "final_url": "https://pbs.twimg.com/media/HMCdJT-XYAAkHym.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HMCNo06XoAAYZJ1.jpg"
+        "https://pbs.twimg.com/media/HMCdJT-XYAAkHym.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HMCNo06XoAAYZJ1.jpg"
+      "url": "https://pbs.twimg.com/media/HMCdJT-XYAAkHym.jpg"
+    },
+    "https://pbs.twimg.com/media/HMCdJT9WcAAIoam.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMCdJT9WcAAIoam.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMCdJT9WcAAIoam.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMCdJT9WcAAIoam.jpg"
+    },
+    "https://pbs.twimg.com/media/HMCruVdXMAAmW2v.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMCruVdXMAAmW2v.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMCruVdXMAAmW2v.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMCruVdXMAAmW2v.jpg"
+    },
+    "https://pbs.twimg.com/media/HMDExLmWQAAaxqv.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMDExLmWQAAaxqv.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMDExLmWQAAaxqv.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMDExLmWQAAaxqv.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -15172,20 +15263,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HMARjKyWAAA08lU.jpg"
     },
-    "https://pbs.twimg.com/tweet_video_thumb/HMA_xndXUAA8hiw.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HMA_xndXUAA8hiw.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/tweet_video_thumb/HMA_xndXUAA8hiw.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/tweet_video_thumb/HMA_xndXUAA8hiw.jpg"
-    },
     "https://pbs.twimg.com/tweet_video_thumb/HMAqMf4XoAA_kkv.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15199,6 +15276,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HMAqMf4XoAA_kkv.jpg"
+    },
+    "https://pbs.twimg.com/tweet_video_thumb/HMB21bDWQAAzO1T.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HMB21bDWQAAzO1T.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HMB21bDWQAAzO1T.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HMB21bDWQAAzO1T.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HMBPDwbWIAAkgDc.jpg": {
       "cleaner_v": 2,
@@ -15725,24 +15816,6 @@
       "title": "Don’t Let AI Slop Muck Up Your Company’s Processes",
       "url": "https://s.hbr.org/3QMld3Q"
     },
-    "https://samihonkonen.com/posts/a-love-letter-to-exe-dev/": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Why having a computer on the internet feels good again.",
-      "final_url": "https://samihonkonen.com/posts/a-love-letter-to-exe-dev/",
-      "frameable": null,
-      "image_urls": [
-        "https://samihonkonen.com/og/base_hu_dc6075b310ed85a0.jpg",
-        "https://samihonkonen.com/posts/a-love-letter-to-exe-dev/exe-dev-banner.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "Sami Honkonen Posts A love letter to exe.dev May 29, 2026 · 2 min · Sami Honkonen When the internet was still fairly young, I managed to convince a local ISP to let me bring my old computer to their server room so I could run my own server. It was amazing. The coolest thing was chatting with people on IRC with a verified domain name, and using screen (the predecessor to tmux ) to keep your nickname from being stolen while you slept. Identity theft was different back then. I could just SSH to my server and do stuff. There was no provider, no console, no dashboard, no billing alerts. Just my computer on the internet. Somewhere along the way that feeling got lost. The cloud arrived and brought complexity along with it. Powerful, yes, but the feeling of “I have a computer on the internet” was buried under so many layers of indirection that I mostly stopped thinking of any of it as mine. Until I found exe.dev , and the feeling is back. You SSH to exe.dev to create an account. Once in, you can spin up a VM from the terminal in a few seconds, give it a hostname, and SSH straight into it. That’s it. You have a fresh Linux box with your public key already loaded. This site you’re reading is running on one of those VMs. The whole setup, from “I want a blog” to “here’s the URL”, was maybe two hours of pottering, most of which was bikeshedding fonts and arguing with a CSS mask. For the setup, I used pi.dev , a minimal CLI agent harness. It’s shaped the same way exe.dev is: no UI, no ceremony, just a terminal. The aesthetics line up. But that’s a separate love letter. This one is for exe.dev. What I love is that the abstraction layer has been folded back into the smallest possible thing. A box. A shell. A domain. Concepts that have been stable since 1995. They didn’t have to invent a new noun. There’s no dashboard for me to forget how to navigate in three months, no console to log out of, no SDK to keep up with. The computer is the product. The computer was always the product. It’s a little bit like that ISP server room. Someone else handles the power and the network. I handle the box. The internet feels like mine again. For the avoidance of doubt: I have no affiliation with exe.dev. Internet © 2026 Sami Honkonen · Powered by Hugo & PaperMod",
-      "text_excerpt_zh": "Sami Honkonen 文章  \n**致 exe.dev 的一封情书**  \n2026年5月29日 · 2分钟 · Sami Honkonen  \n\n当互联网还相当年轻时，我曾说服一家本地ISP让我把自己那台旧电脑搬进他们的服务器机房，这样我就能运行自己的服务器。那感觉太棒了。最酷的是，我可以用经过验证的域名在IRC上和人聊天，还能用`screen`（`tmux`的前身）在睡觉时防止别人抢走我的昵称。那时的身份盗窃和现在可不一样。我只需SSH到自己的服务器就能做各种事。没有服务商，没有控制台，没有仪表盘，没有计费提醒。只有我的电脑连在互联网上。  \n\n不知从何时起，那种感觉消失了。云计算的到来带来了复杂性。它确实强大，但“我在互联网上有一台电脑”的感觉被埋没在无数间接层之下，以至于我几乎不再认为其中任何东西属于我。直到我发现了exe.dev，那种感觉又回来了。  \n\n你通过SSH到exe.dev来创建账户。登录后，你可以在几秒钟内从终端启动一台虚拟机，给它一个主机名，然后直接SSH进去。就这么简单。你得到了一台全新的Linux机器，你的公钥已经加载好了。你现在正在阅读的这个网站，就运行在这样一台虚拟机上。从“我想建个博客”到“这是网址”，整个过程大约花了两个小时摆弄，其中大部分时间都在纠结字体选择和与CSS遮罩较劲。  \n\n搭建时我用了pi.dev，一个极简的CLI agent harness。它的设计理念和exe.dev一样：没有UI，没有繁文缛节，只有一个终端。美学风格也一脉相承。不过那是另一封情书了。这一封是写给exe.dev的。  \n\n我喜爱的是，抽象层被折叠回了最小可能的东西：一台机器。一个Shell。一个域名。这些概念自1995年以来就稳定存在。他们不必发明一个新名词。没有仪表盘让我三个月后忘记如何操作，没有控制台需要我退出登录，没有SDK需要我持续跟进。电脑就是产品。电脑从来就是产品。  \n\n这有点像当年那个ISP服务器机房。别人负责电力和网络。我负责管理这台机器。互联网再次让我感觉属于自己。  \n\n为避免误解：我与exe.dev没有任何关联。  \n\n互联网 © 2026 Sami Honkonen · 由 Hugo & PaperMod 驱动",
-      "text_excerpt_zh_hash": "af697e2f2eb55a21",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "A love letter to exe.dev | Sami Honkonen",
-      "url": "https://samihonkonen.com/posts/a-love-letter-to-exe-dev/"
-    },
     "https://seroter.com/2026/06/15/daily-reading-list-june-15-2026-805/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -16089,6 +16162,46 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "The US government's Anthropic models ban was never about an AI jailbreak | TechCrunch",
       "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/?utm_source=dlvr.it&utm_medium=twitter"
+    },
+    "https://testflight.apple.com/join/ZtGfhNkH": {
+      "cleaner_v": 2,
+      "content_type": "text/html;charset=utf-8",
+      "description": "Using TestFlight is a great way to help developers test beta versions of their apps.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://testflight.apple.com/join/ZtGfhNkH",
+      "frameable": false,
+      "image_urls": [
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/19/b8/0219b8f2-03ed-b571-7d65-bfe10caaff8a/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/1920x1080ia-80.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Testing Apps with TestFlight\nHelp developers test beta versions of their apps and App Clips using the TestFlight app. Download TestFlight on the App Store for iPhone, iPad, Mac, Apple TV, Apple Vision Pro, Watch, and iMessage.\nGetting started\nTo test beta versions of apps and App Clips using TestFlight, you’ll need to accept an email or public link invitation from the developer and have a device that you can use to test. You’ll be able to access the builds that the developer makes available to you.\nNote: Developers can choose to set criteria for their beta, such as a preferred device or OS. You must have the preferred device and OS in order to accept the invitation. You can tap or click Learn More in the invite to view the specific device and OS requirements the developer is looking for.\nIf you’re a member of the developer’s team, the developer can give you access to all builds or certain builds.\nTo report a scam, fraud, or offensive, illegal, or abusive content in a beta app, tap or click Report a Problem in the TestFlight app, or in your email invitation.\nRequired OS by platform\n- iOS or iPadOS apps: iPhone or iPad running iOS 16 or iPadOS 16 or later. App Clips require iOS 16 or iPadOS 16, or later.\n- macOS apps: Mac running macOS 13 or later.\n- tvOS apps: Apple TV running tvOS 18 or later.\n- visionOS apps: Apple Vision Pro running visionOS 1 or later.\n- watchOS apps: Apple Watch running watchOS 9 or later.\nInstalling and testing beta apps\nEach build is available to test for up to 90 days, starting from the day the developer uploads their build. You can see how many days you have left for testing under the app name in TestFlight. TestFlight will notify you each time a new build is available and will include instructions on what you need to test. Alternatively, with TestFlight 3 or later, you can turn on automatic updates to have the latest beta builds install automatically.\nWhen the testing period is over, you'll no longer be able to open the beta build. To install the App Store version of the app, download or purchase the app from the App Store. In-app purchases are free only during beta testing, and any in-app purchases made during testing will not carry over to App Store versions.\nNote: To automatically download additional in-app content and assets, such as Apple-Hosted Background Assets and Managed Background Assets after a beta app is installed, ensure the In-App Content or Automatically download in-app content option is enabled in your App Store settings for [iPhone](https://support.apple.com/guide/iphone/manage-purchases-subscriptions-settings-iph3dfd91de/ios), [iPad](https://support.apple.com/guide/ipad/manage-purchases-subscriptions-settings-ipadee10c6e7/ipados), [Mac](https://support.apple.com/guide/app-store/change-app-store-preferences-mchlp2257/3.0/mac/13.0), [Apple TV](https://support.apple.com/guide/tv/welcome/tvos), and [Apple Vision Pro](https://support.apple.com/guide/apple-vision-pro/welcome/visionos)\nApple-Hosted Background Assets: Devices must be running iOS/iPadOS 26 or later, and macOS 26 or later.\nManaged Background Assets: Devices must be running iOS/iPadOS 16 or later, macOS 13 or later, tvOS 18.5 or later, and visionOS 2.4 or later.\nInstallation\nTo get started, install TestFlight on the device you’ll use for testing. Then, accept your email invitation or follow the public link invitation to install the beta app. The public link invitation will include a description of the beta app and may also include screenshots, the app category, and criteria you must meet to join the beta. You can install the beta app on up to 30 devices.\nIf you do not meet the tester criteria, the beta invitation will inform you that the developer requires you to test with a specific device and OS when you tap or click Learn More on the beta invitation. If you have a device that meets the critiera, you can install TestFlight on the device and then accept the beta invitation.\nKeep in mind that you can accept an invitation on a",
+      "title": "Join the iSH ARM64 beta - TestFlight - Apple",
+      "url": "https://testflight.apple.com/join/ZtGfhNkH"
+    },
+    "https://theatln.tc/jRCvW6E1": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "The Atlantic's coverage on I Moved On Her Very Heavily'",
+      "final_url": "https://www.theatlantic.com/projects/i-moved-her-very-heavily/?utm_source=twitter&utm_campaign=the-atlantic&utm_medium=social&utm_content=edit-promo",
+      "frameable": null,
+      "image_urls": [
+        "https://cdn.theatlantic.com/thumbor/y_i2WTBfWKzhRWNpfQEZ2hPkKmQ=/7x0:1594x1191/960x720/media/img/collections/lead_art/OPENER_RESIZE_FINAL_SHORT_1/original.png",
+        "https://cdn.theatlantic.com/_next/static/images/nav-archive-promo-5541b02ae92f1a9276249e1c6c2534ee.png",
+        "https://cdn.theatlantic.com/media/games/games_promo_color.png",
+        "https://www.theatlantic.com/magazine/images/current-issue.420.jpg",
+        "https://cdn.theatlantic.com/media/files/audio/intro_sprint_2_emblem.png",
+        "https://cdn.theatlantic.com/media/files/2025/crossword_icon_intro_sprint_2.png",
+        "https://cdn.theatlantic.com/media/files/archive-thumbnail.png",
+        "https://cdn.theatlantic.com/media/files/YourSubscription_300x300.jpg",
+        "https://cdn.theatlantic.com/thumbor/hF_s3nz3vCuJ24Cnf0kqScrsmvQ=/398x0:1521x1123/80x80/media/img/mt/2020/10/Essay_5/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/BUCczuYj6kK9XYCu3V-O5vViCp0=/5x0:1128x1123/80x80/media/img/mt/2020/09/Essay_4_Final/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/rR0rQMsdgk5pgX3iXXu41HElf5U=/0x0:1123x1123/80x80/media/img/mt/2020/09/Essay_3_Final/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/GmXEWpETtaIqHIg0gHXKL90-FvU=/702x0:1826x1124/80x80/media/img/mt/2020/09/Accuser_Karena_1/original.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Skip to content Site Navigation Popular Latest Newsletters Sections Ideas Politics Economy Global National Security Washington Week Features Technology AI Watchdog Science Planet Health Philosophy Education Culture Comedy Family Books Fiction Photography Events Explore The Atlantic Archive Play The Atlantic Games Listen to Podcasts and Articles The Print Edition Latest Issue Past Issues Give a Gift Search The Atlantic Quick Links Audio Crossword Puzzle Magazine Archive Your Subscription Popular Latest Newsletters Sign In Subscribe I Moved On Her Very Heavily' The E. Jean Carroll Interviews Latest Najeebah Al-Ghadban / Getty A Taxonomy of Groping: The Below-the-Waist Edition ‘I Moved on Her Very Heavily’: Part 5 E. Jean Carroll October 2, 2020 Najeebah Al-Ghadban / Getty And Then Donald Trump Walked Into the RV ‘I Moved on Her Very Heavily’: Part 4 E. Jean Carroll September 25, 2020 Najeebah Al-Ghadban / Getty Donald Trump Is Waiting for You in First Class ‘I Moved on Her Very Heavily’: Part 3 E. Jean Carroll September 11, 2020 Najeebah Al-Ghadban / Getty Two Women, Two Breasts, Two Decisions ‘I Moved on Her Very Heavily’: Part 2 E. Jean Carroll September 2, 2020 Najeebah Al-Ghadban / Getty ‘I Moved on Her Very Heavily’: Part 1 Fifteen years ago, the writer Natasha Stoynoff went to Mar-a-Lago to interview Donald and Melania Trump on the occasion of their first anniversary. E. Jean Carroll August 26, 2020 Popular Links About Our History Careers Contact Help Center Contact Us Atlantic Advertising Press Reprints & Permissions Podcasts Radio Atlantic The David Frum Show Galaxy Brain Autocracy in America How to Age Up Subscription Purchase Give a Gift Manage Subscription Group Subscriptions Atlantic Editions Newsletters Follow About Our History Careers Contact Help Center Contact Us Atlantic Advertising Press Reprints & Permissions Podcasts Radio Atlantic The David Frum Show Galaxy Brain Autocracy in America How to Age Up Subscription Purchase Give a Gift Manage Subscription Group Subscriptions Atlantic Editions Newsletters Follow Site Information Privacy Policy Your Privacy Choices Advertising Guidelines Terms & Conditions Terms of Sale Responsible Disclosure Site Map TheAtlantic.com © 2026 The Atlantic Monthly Group. All Rights Reserved. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply",
+      "title": "I Moved On Her Very Heavily' - The Atlantic",
+      "url": "https://theatln.tc/jRCvW6E1"
     },
     "https://thefoundation.limestonedigital.com/": {
       "content_type": "text/html; charset=utf-8",
@@ -17971,6 +18084,31 @@
       "title": "AI Can’t Fix the Student-Motivation Problem - The Atlantic",
       "url": "https://www.theatlantic.com/ideas/2026/06/ai-tutor-education-human-investment/687678/"
     },
+    "https://www.theatlantic.com/ideas/2026/06/erik-brynjolfsson-the-man-who-saw-ai-coming/687561/?taid=6a4284f3d34ca80001efcb59&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Erik Brynjolfsson wants to talk with you about the future.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.theatlantic.com/ideas/2026/06/erik-brynjolfsson-the-man-who-saw-ai-coming/687561/?taid=6a4284f3d34ca80001efcb59&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
+      "frameable": null,
+      "image_urls": [
+        "https://cdn.theatlantic.com/thumbor/QwH8EWSDmK59Q9h99rZJSqzUcj0=/0x83:2000x1125/1200x625/media/img/mt/2026/06/2026_06_15_Brynjolfsson/original.jpg",
+        "https://cdn.theatlantic.com/_next/static/images/nav-archive-promo-5541b02ae92f1a9276249e1c6c2534ee.png",
+        "https://cdn.theatlantic.com/media/games/games_promo_color.png",
+        "https://www.theatlantic.com/magazine/images/current-issue.420.jpg",
+        "https://cdn.theatlantic.com/media/files/audio/intro_sprint_2_emblem.png",
+        "https://cdn.theatlantic.com/media/files/2025/crossword_icon_intro_sprint_2.png",
+        "https://cdn.theatlantic.com/media/files/archive-thumbnail.png",
+        "https://cdn.theatlantic.com/media/files/YourSubscription_300x300.jpg",
+        "https://cdn.theatlantic.com/thumbor/s7ZW6_WM-pO1OqQpm0jGr_ZMjf4=/0x0:2000x1125/960x540/media/img/mt/2026/06/2026_06_15_Brynjolfsson/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/7u6AculbgDZJRGllEVHQNdckj3M=/718x0:1843x1125/80x80/media/img/mt/2026/06/2026_06_15_Brynjolfsson/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/q1HmrMnjr_AcsI0AT1ecaLz_uaE=/0x0:400x400/120x120/media/None/headshot_copy-1/original.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "More than a decade ago, the economist Erik Brynjolfsson made a prediction: AI would change everything.\nHumans began using tools millions of years ago. They cultivated grain and domesticated animals, and then developed written languages, iron tools, the printing press, gunpowder. Progress was slow and local until the mid-1700s, when modern society roared into being alongside machines and engines. Invention built on invention. Then, in recent decades, the pace of human progress [slowed](https://bankunderground.co.uk/2018/04/25/bitesize-the-past-decades-productivity-growth-in-historical-context/) again. Productivity growth, the academic measure of how much better people are getting at generating outputs from inputs, collapsed.\n“We are at a technological plateau,” in the midst of a “great stagnation,” the public intellectual Tyler Cowen argued in 2010. “Apart from the seemingly magical internet, life in broad material terms isn’t so different from what it was in 1953.” Shortly after, the economist Robert Gordon of Northwestern University released a [best seller arguing](https://press.princeton.edu/books/paperback/9780691175805/the-rise-and-fall-of-american-growth?srsltid=AfmBOorWKAJDB11o1MwY7L-LEZe6PKGoEA924iCI9X1UlOMsmM1skMRG) that our era of unprecedented growth and life-changing innovation had come to an end.\nCowen and Gordon had the numbers on their side, but Brynjolfsson thought they were wrong. Along with the economist Andrew McAfee, he published two books arguing that the digital revolution was just getting started. AI was already besting human beings at cognitive tasks. Soon, it would make self-driving cars and hyper-smart computers look like nothing more than “warm-up acts,” the pair wrote in The Second Machine Age. Productivity growth would pick up, Brynjolfsson believed. Living standards would improve. Another new society would roar into being.\nLast month, I visited Brynjolfsson at Stanford, where he teaches, with a few questions in mind: How had he known what AI would be capable of years before the release of ChatGPT and Claude Code? And what did he think it would do now? Would society trend toward debilitating mass unemployment or the joyful end of work?\nI was not the only person seeking answers from the seer. Brynjolfsson is teaching overflow classes about AI and technological progress, as well as running a humming lab tracking AI’s effect on workers, firms, and human welfare. Academics are relying on his data. Silicon Valley luminaries such as Dario Amodei of Anthropic and Demis Hassabis of Google DeepMind are eating at his table. Senators and governors are calling him up.\nBrynjolfsson—who is towering and gregarious, what I imagine the Brawny-paper-towel guy would be like if he’d become an academic rather than a lumberjack—is gratified that the rest of the world is finally “seeing what I was seeing,” he told me. AI is spurring advances in medicine, science, media, transportation, and energy. In time, it will do to white-collar work what machines did to blue-collar work: make people more productive, and push millions of them into new roles. He doubts that humans will fail to find new things to do. Yet he worries that algorithms could further cleave the 0.001 percent from everyone else, and that those elites could consolidate political and social power, along with precious capital. He added—joking, I pray—that a powerful AI could “do whatever it wanted, I mean, including get rid of us all.”\nCould, he emphasized, not would. “We’re going to be scrambling with chaos, and I don’t know how we will handle it,” Brynjolfsson said, before tossing on a leather jacket and loping off to give his students a pop quiz.\nBrynjolfsson has always been optimistic about technological change. His father was a sheepherder on Iceland’s northern coast who moved to Denmark, studied with Niels Bohr, immigrated to the United States, and worked on the Apollo missions. “It is a pretty amazing life to go from no electricity to putting people on the",
+      "title": "The Man Who Saw AI Coming - The Atlantic",
+      "url": "https://www.theatlantic.com/ideas/2026/06/erik-brynjolfsson-the-man-who-saw-ai-coming/687561/?taid=6a4284f3d34ca80001efcb59&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter"
+    },
     "https://www.theatlantic.com/technology/2026/06/ai-hacking-cybersecurity-banks/687562/?taid=6a31a25e117eb200016356ac&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -18212,19 +18350,6 @@
       "title": "- YouTube",
       "url": "https://youtu.be/CEvIs9y1uog?si=ytqFmiQuOqAuA4qm"
     },
-    "https://youtu.be/GcqQ1ebBqkc?si=diMoCRgrSR69ky60": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://www.youtube.com/watch?si=diMoCRgrSR69ky60&v=GcqQ1ebBqkc&feature=youtu.be",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "- YouTube",
-      "url": "https://youtu.be/GcqQ1ebBqkc?si=diMoCRgrSR69ky60"
-    },
     "https://youtu.be/K5LAFEjTlBA": {
       "content_type": "text/html; charset=utf-8",
       "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
@@ -18465,51 +18590,9 @@
       "https://x.com/patrickc/status/2058931538029662435",
       "https://newaesthetics.art/grants"
     ],
-    "2060802827635855404": [
-      "https://x.com/Av1dlive/status/2060802827635855404",
-      "https://pbs.twimg.com/amplify_video_thumb/2060802519421636608/img/wUrR1DjFkIxMWBQv.jpg",
-      "https://x.com/Av1dlive/status/2060805353022132392",
-      "https://youtu.be/GcqQ1ebBqkc?si=diMoCRgrSR69ky60",
-      "https://x.com/Av1dlive/status/2061059307379306720",
-      "https://x.com/av1dlive/status/2061057049405030763?s=46",
-      "https://x.com/Av1dlive/status/2061390622146322598",
-      "https://x.com/av1dlive/status/2061386872321130782?s=46",
-      "https://x.com/Av1dlive/status/2060833232862826586",
-      "https://x.com/Av1dlive/status/2060833101971063013",
-      "https://x.com/Av1dlive/status/2060833021729853792",
-      "https://x.com/Av1dlive/status/2060833364467474657",
-      "https://x.com/Av1dlive/status/2060833703849566307",
-      "https://x.com/Av1dlive/status/2060805022175445073",
-      "https://x.com/Av1dlive/status/2061005452440408294",
-      "https://x.com/Av1dlive/status/2061005602923704448",
-      "https://x.com/Av1dlive/status/2061061017661309144",
-      "https://x.com/Av1dlive/status/2060803331803734056",
-      "https://x.com/Av1dlive/status/2061006091920814270",
-      "https://x.com/Av1dlive/status/2061005771714998408",
-      "https://x.com/Av1dlive/status/2060804661582627141"
-    ],
     "2060819226248818884": [
       "https://x.com/DinScales26/status/2060819226248818884",
       "http://x.com/i/article/2059654105816051715"
-    ],
-    "2060832131623125345": [
-      "https://x.com/himanshutwtxs/status/2060832131623125345"
-    ],
-    "2060888016517042615": [
-      "https://x.com/joefioti/status/2060888016517042615",
-      "https://x.com/joefioti/status/2060895075551646152",
-      "https://x.com/joefioti/status/2060915631915176342"
-    ],
-    "2060931634623611183": [
-      "https://x.com/ssh_exe_dev/status/2060931634623611183",
-      "https://samihonkonen.com/posts/a-love-letter-to-exe-dev/"
-    ],
-    "2060949625343983832": [
-      "https://x.com/jino_rohit/status/2060949625343983832",
-      "http://x.com/i/article/2060931168367980544",
-      "https://x.com/jino_rohit/status/2061008986909159561",
-      "https://x.com/jino_rohit/status/2061360510692704416",
-      "https://x.com/jino_rohit/status/2061029773779120596"
     ],
     "2060992814872486117": [
       "https://x.com/honglong0420/status/2060992814872486117",
@@ -23537,9 +23620,9 @@
       "https://x.com/_Stalinspears_/status/2071190510308401550",
       "https://x.com/_Stalinspears_/status/2071248732562071837",
       "https://x.com/_Stalinspears_/status/2071303113743470820",
-      "https://x.com/_Stalinspears_/status/2071475036150505757",
-      "https://x.com/_Stalinspears_/status/2071253345533149607",
       "https://x.com/_Stalinspears_/status/2071474542011171330",
+      "https://x.com/_Stalinspears_/status/2071253345533149607",
+      "https://x.com/_Stalinspears_/status/2071475036150505757",
       "https://x.com/_Stalinspears_/status/2071253550370284007",
       "https://x.com/_Stalinspears_/status/2071671250225664183",
       "https://x.com/_Stalinspears_/status/2071659871737434467",
@@ -23730,17 +23813,17 @@
       "https://x.com/RMUTO_/status/2071464282928161276",
       "https://x.com/RMUTO_/status/2071405885260210535",
       "https://x.com/RMUTO_/status/2071555079388184809",
-      "https://x.com/RMUTO_/status/2071461837686591538",
       "https://x.com/RMUTO_/status/2071528771950194785",
+      "https://x.com/RMUTO_/status/2071461837686591538",
       "https://x.com/RMUTO_/status/2071463225787318667",
       "https://x.com/RMUTO_/status/2071473348035383387",
-      "https://x.com/RMUTO_/status/2071432762117005484",
       "https://x.com/RMUTO_/status/2071430602981617797",
-      "https://x.com/RMUTO_/status/2071507291195478241",
+      "https://x.com/RMUTO_/status/2071432762117005484",
+      "https://x.com/RMUTO_/status/2071476352788664639",
       "https://x.com/RMUTO_/status/2071789782238175461",
       "https://x.com/RMUTO_/status/2071672294380913049",
       "https://x.com/RMUTO_/status/2071670767469670899",
-      "https://x.com/RMUTO_/status/2071476352788664639"
+      "https://x.com/RMUTO_/status/2071507291195478241"
     ],
     "2071404852908081211": [
       "https://x.com/vipulved/status/2071404852908081211",
@@ -23752,8 +23835,8 @@
     "2071434117456027959": [
       "https://x.com/not_ellington/status/2071434117456027959",
       "https://arxiv.org/abs/2606.24937",
-      "https://x.com/not_ellington/status/2071683773490405479",
-      "https://x.com/not_ellington/status/2071781793359888644"
+      "https://x.com/not_ellington/status/2071781793359888644",
+      "https://x.com/not_ellington/status/2071683773490405479"
     ],
     "2071443621396598930": [
       "https://x.com/TheEconomist/status/2071443621396598930",
@@ -23771,8 +23854,8 @@
       "http://x.com/i/article/2071481305091485696",
       "https://x.com/smirf_05/status/2071529162024882629",
       "https://x.com/smirf_05/status/2071561791495401712",
-      "https://x.com/smirf_05/status/2071561764484071907",
       "https://x.com/smirf_05/status/2071522157772112042",
+      "https://x.com/smirf_05/status/2071561764484071907",
       "https://x.com/smirf_05/status/2071522118219747437"
     ],
     "2071501778609483984": [
@@ -23780,15 +23863,15 @@
       "https://pbs.twimg.com/media/HL9z4wFbIAAqONB.jpg",
       "https://x.com/liuyi0922/status/2071502307943190784",
       "https://x.com/liuyi0922/status/2071503680189481067",
-      "https://x.com/liuyi0922/status/2071527574250143797",
+      "https://x.com/liuyi0922/status/2071862142299672810",
       "https://x.com/liuyi0922/status/2071520591463764400",
+      "https://x.com/liuyi0922/status/2071527574250143797",
       "https://x.com/liuyi0922/status/2071520622975627727",
+      "https://x.com/liuyi0922/status/2071872239063159158",
+      "https://pbs.twimg.com/media/HMDExLmWQAAaxqv.jpg",
       "https://x.com/liuyi0922/status/2071790990457987567",
       "https://x.com/liuyi0922/status/2071243343636681186",
-      "https://pbs.twimg.com/media/HL6I14hbEAEWAnU.jpg",
-      "https://x.com/liuyi0922/status/2071187854194274308",
-      "https://pbs.twimg.com/media/HL5WX6qasAAbtDo.jpg",
-      "https://pbs.twimg.com/media/HL5WX6oaoAAzri9.jpg"
+      "https://pbs.twimg.com/media/HL6I14hbEAEWAnU.jpg"
     ],
     "2071522418594861215": [
       "https://x.com/_avichawla/status/2071522418594861215",
@@ -23809,6 +23892,10 @@
       "https://x.com/nurijanian/status/2071555826087760076",
       "http://x.com/i/article/2070770606170374144"
     ],
+    "2071564408707268973": [
+      "https://x.com/TheEconomist/status/2071564408707268973",
+      "https://www.economist.com/asia/2026/06/28/why-cant-indias-government-build-a-decent-website?taid=6a425e51bbf4b00001c4486a&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
+    ],
     "2071565143226405079": [
       "https://x.com/business/status/2071565143226405079",
       "https://www.bloomberg.com/news/articles/2026-06-29/ai-notetaker-tools-recording-zoom-meetings-threaten-privacy-etiquette?taid=6a425f00553211000137feca&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter"
@@ -23816,8 +23903,8 @@
     "2071574429897789698": [
       "https://x.com/TheEconomist/status/2071574429897789698",
       "https://www.economist.com/briefing/2026/06/25/ai-models-values-are-very-different-from-most-peoples?taid=6a4267a6344e0b0001934c37&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
-      "https://x.com/TheEconomist/status/2071806020775457064",
-      "https://www.economist.com/united-states/2026/05/21/europes-first-known-language-is-alive-in-americas-west?taid=6a433f56bbf4b00001c451d6&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter"
+      "https://x.com/TheEconomist/status/2071826087714144644",
+      "https://www.economist.com/asia/2026/06/28/why-cant-indias-government-build-a-decent-website?taid=6a435206d34ca80001efd341&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
     ],
     "2071588017878249890": [
       "https://x.com/nateherk/status/2071588017878249890",
@@ -23831,7 +23918,19 @@
     ],
     "2071598582394974646": [
       "https://x.com/Astronaut_1216/status/2071598582394974646",
-      "https://x.com/Astronaut_1216/status/2071607087080341567"
+      "https://x.com/Astronaut_1216/status/2071607087080341567",
+      "https://x.com/Astronaut_1216/status/2071841628743200902"
+    ],
+    "2071605890143174764": [
+      "https://x.com/TheAtlantic/status/2071605890143174764",
+      "https://www.theatlantic.com/ideas/2026/06/erik-brynjolfsson-the-man-who-saw-ai-coming/687561/?taid=6a4284f3d34ca80001efcb59&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
+      "https://x.com/TheAtlantic/status/2071763422656463248",
+      "https://theatln.tc/jRCvW6E1",
+      "https://pbs.twimg.com/media/HMBh2rDW8AA1VN9.jpg"
+    ],
+    "2071625939444744521": [
+      "https://x.com/MistralDevs/status/2071625939444744521",
+      "http://x.com/i/article/2067620227295117312"
     ],
     "2071629451712983319": [
       "https://x.com/sydneyrunkle/status/2071629451712983319",
@@ -23840,6 +23939,12 @@
     "2071636465600065765": [
       "https://x.com/reidhoffman/status/2071636465600065765",
       "http://x.com/i/article/2071636394196324353"
+    ],
+    "2071655058274472268": [
+      "https://x.com/designmilk/status/2071655058274472268",
+      "https://design-milk.com/three-experts-share-what-defines-filipino-design-today/",
+      "https://x.com/designmilk/status/2070900519229374641",
+      "https://design-milk.com/benoist-f-drut-on-peonies-an-eiffel-tower-sculpture-a-louis-xv-armchair-more/"
     ],
     "2071662447690195290": [
       "https://x.com/ChrisShort/status/2071662447690195290",
@@ -23857,10 +23962,10 @@
     "2071670826420875321": [
       "https://x.com/Rlkjn22/status/2071670826420875321",
       "https://x.com/Rlkjn22/status/2071707124397150360",
-      "https://x.com/Rlkjn22/status/2071721710903070886",
       "https://x.com/Rlkjn22/status/2071707299480051825",
       "https://x.com/Rlkjn22/status/2071771016360009849",
       "https://x.com/Rlkjn22/status/2071767615509303792",
+      "https://x.com/Rlkjn22/status/2071721710903070886",
       "https://x.com/Rlkjn22/status/2071751745303089252",
       "https://x.com/Rlkjn22/status/2071768733278773652",
       "https://x.com/Rlkjn22/status/2071737725640638972",
@@ -23873,12 +23978,12 @@
       "http://executor.sh",
       "https://x.com/NathanFlurry/status/2071716397617709492",
       "http://git.new/secure-exec",
-      "https://x.com/NathanFlurry/status/2071718117664038966",
       "https://x.com/NathanFlurry/status/2071702451301081310",
-      "https://x.com/NathanFlurry/status/2071702295176417760",
+      "https://x.com/NathanFlurry/status/2071718117664038966",
       "https://x.com/NathanFlurry/status/2071693169109164093",
       "https://x.com/NathanFlurry/status/2071743746572787925",
-      "https://x.com/NathanFlurry/status/2071702191203897709"
+      "https://x.com/NathanFlurry/status/2071702191203897709",
+      "https://x.com/NathanFlurry/status/2071702295176417760"
     ],
     "2071675130229432691": [
       "https://x.com/baladadoloucom/status/2071675130229432691",
@@ -23889,25 +23994,36 @@
       "https://x.com/midori_tomoya/status/2071702967414317240?s=20",
       "https://x.com/baladadoloucom/status/2071704258747965849",
       "https://x.com/baladadoloucom/status/2071700144123236499",
+      "https://x.com/baladadoloucom/status/2071724398285918618",
       "https://x.com/baladadoloucom/status/2071715054391640348",
       "https://x.com/baladadoloucom/status/2071683777043013958",
-      "https://x.com/baladadoloucom/status/2071724398285918618",
-      "https://x.com/baladadoloucom/status/2071737393053409578",
-      "https://x.com/baladadoloucom/status/2071725089473597928",
       "https://x.com/baladadoloucom/status/2071702227119390877",
       "https://pbs.twimg.com/tweet_video_thumb/HMAqMf4XoAA_kkv.jpg",
+      "https://x.com/baladadoloucom/status/2071725089473597928",
+      "https://x.com/baladadoloucom/status/2071737393053409578",
       "https://x.com/baladadoloucom/status/2071742763779920018",
       "https://pbs.twimg.com/tweet_video_thumb/HMBPDwbWIAAkgDc.jpg",
       "https://x.com/baladadoloucom/status/2071671560256012558",
       "https://pbs.twimg.com/tweet_video_thumb/HMAOTIFXcAAcKHY.jpg",
       "https://x.com/baladadoloucom/status/2071659506589655486",
+      "https://x.com/baladadoloucom/status/2071683163068227668",
       "https://x.com/baladadoloucom/status/2071691306691137750",
-      "https://x.com/baladadoloucom/status/2071725957472207082",
-      "https://pbs.twimg.com/tweet_video_thumb/HMA_xndXUAA8hiw.jpg",
       "https://x.com/baladadoloucom/status/2071700326294425734",
       "https://x.com/baladadoloucom/status/2071777870343503927",
-      "https://x.com/baladadoloucom/status/2071683163068227668",
-      "https://x.com/baladadoloucom/status/2071715498442576189"
+      "https://x.com/baladadoloucom/status/2071715498442576189",
+      "https://x.com/baladadoloucom/status/2071700432288682268"
+    ],
+    "2071702736404426929": [
+      "https://x.com/doubleemt/status/2071702736404426929",
+      "http://x.com/i/article/2071611126123466752"
+    ],
+    "2071709543252513009": [
+      "https://x.com/avgaydashenko/status/2071709543252513009",
+      "http://lesswrong.com/posts/PwfwZ2LeoLC4FXyDA/against-llm-reductionism"
+    ],
+    "2071711122676449753": [
+      "https://x.com/odysseus0z/status/2071711122676449753",
+      "https://x.com/odysseus0z/status/2071340381103608212"
     ],
     "2071716332924465239": [
       "https://x.com/DrizzleORM/status/2071716332924465239",
@@ -23923,28 +24039,55 @@
       "https://x.com/DrizzleORM/status/2071716352071512386",
       "https://pbs.twimg.com/media/HMA2PM_XcAAMvrg.jpg",
       "https://x.com/DrizzleORM/status/2071733236141592799",
+      "https://x.com/DrizzleORM/status/2071854629449556037",
+      "https://x.com/DrizzleORM/status/2071855202848682147",
       "https://x.com/DrizzleORM/status/2071718667650318694"
     ],
     "2071737671509328354": [
       "https://x.com/PopBase/status/2071737671509328354",
       "https://pbs.twimg.com/media/HMBKbi2awAAiy68.jpg",
       "https://pbs.twimg.com/media/HMBKbi4a0AAa3ee.jpg",
-      "https://x.com/PopBase/status/2071811967929442697",
-      "https://pbs.twimg.com/media/HMAZK8BWEAAj41n.jpg",
-      "https://x.com/PopBase/status/2071811566459314320",
-      "https://pbs.twimg.com/media/HMCNo06XoAAYZJ1.jpg",
-      "https://pbs.twimg.com/media/HMCNo04XUAAa7AE.jpg",
-      "https://x.com/PopBase/status/2071811212850155613",
-      "https://pbs.twimg.com/media/HMAYAAoXYAAgOFo.png",
-      "https://pbs.twimg.com/media/HMAYAArWwAANIj6.jpg",
-      "https://pbs.twimg.com/media/HMAYAAwWEAAxTKP.jpg",
-      "https://pbs.twimg.com/media/HMAYA5lXoAAEAyx.jpg"
+      "https://x.com/PopBase/status/2071862865812680725",
+      "https://pbs.twimg.com/amplify_video_thumb/2071823024907538432/img/dD-iaCRuNtAAUYpy.jpg",
+      "https://x.com/PopBase/status/2071844645227647274",
+      "https://pbs.twimg.com/media/HMCruVdXMAAmW2v.jpg",
+      "https://x.com/PopBase/status/2071828620373524812",
+      "https://pbs.twimg.com/media/HMCdJT9WcAAIoam.jpg",
+      "https://pbs.twimg.com/media/HMCdJT-XYAAkHym.jpg"
+    ],
+    "2071751990753763630": [
+      "https://x.com/GOATYELD/status/2071751990753763630",
+      "https://x.com/GOATYELD/status/2071832463081435527",
+      "https://x.com/GOATYELD/status/2071787317841281250",
+      "https://x.com/GOATYELD/status/2071786498483998961",
+      "https://pbs.twimg.com/tweet_video_thumb/HMB21bDWQAAzO1T.jpg",
+      "https://x.com/GOATYELD/status/2071791178027057276"
     ],
     "2071794113075376284": [
       "https://x.com/jokieliu/status/2071794113075376284",
       "https://pbs.twimg.com/media/HMB9ww1bgAA2djK.jpg"
+    ],
+    "2071795033863553278": [
+      "https://x.com/landiantech/status/2071795033863553278",
+      "https://ourl.co/113701?x",
+      "https://pbs.twimg.com/media/HMB-kNVb0AAjr-X.jpg",
+      "https://x.com/landiantech/status/2071842123562054002"
+    ],
+    "2071805319433576696": [
+      "https://x.com/oran_ge/status/2071805319433576696",
+      "https://mp.weixin.qq.com/s/mDKgfmyJpML2VeyBTw20Pw",
+      "https://x.com/oran_ge/status/2071855633742344335",
+      "https://x.com/oran_ge/status/2071855577945567549"
+    ],
+    "2071826408121213339": [
+      "https://x.com/wsvn53/status/2071826408121213339",
+      "https://testflight.apple.com/join/ZtGfhNkH"
+    ],
+    "2071829397712285775": [
+      "https://x.com/sukie234/status/2071829397712285775",
+      "https://x.com/sukie234/status/2071688735000048041"
     ]
   },
-  "updated_at": "2026-06-30T05:17:03Z",
+  "updated_at": "2026-06-30T08:38:58Z",
   "window": "recent"
 }
