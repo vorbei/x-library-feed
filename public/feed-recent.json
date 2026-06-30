@@ -326,20 +326,6 @@
       "title": "Build production-ready documentation from Markdown in seconds",
       "url": "http://docmd.io"
     },
-    "http://econ.st/4uWKzu4": {
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "fetch_error": "HTTP Error 403: Forbidden",
-      "final_url": "http://econ.st/4uWKzu4",
-      "frameable": null,
-      "image_urls": [],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "",
-      "url": "http://econ.st/4uWKzu4"
-    },
     "http://emulate.dev": {
       "content_type": "text/html; charset=utf-8",
       "description": "Local drop-in replacement services for CI and no-network sandboxes. Fully stateful, production-fidelity API emulation. Not mocks.",
@@ -9219,6 +9205,21 @@
       "title": "",
       "url": "https://lckhd.eu/Tpx5K5"
     },
+    "https://leighanne.os.fan/sign-up": {
+      "content_type": "text/html",
+      "description": "Sign up",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://leighanne.os.fan/sign-up",
+      "frameable": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dimyv3wy5/image/upload/c_fill,w_1200,c_limit/v1762435327/6f6aa3c4-d35e-49e6-bdd1-aa51da361fda/ttjeflzy0evb1sqoivo2.jpg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Leigh-Anne Openstage",
+      "url": "https://leighanne.os.fan/sign-up"
+    },
     "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -11459,20 +11460,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2071659742280183808/img/by7ciJ0h6HYul2Ds.jpg"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2071823024907538432/img/dD-iaCRuNtAAUYpy.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2071823024907538432/img/dD-iaCRuNtAAUYpy.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2071823024907538432/img/dD-iaCRuNtAAUYpy.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2071823024907538432/img/dD-iaCRuNtAAUYpy.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
@@ -13728,20 +13715,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HL661b2WsAEs0FA.jpg"
     },
-    "https://pbs.twimg.com/media/HL6I14hbEAEWAnU.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HL6I14hbEAEWAnU.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HL6I14hbEAEWAnU.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HL6I14hbEAEWAnU.jpg"
-    },
     "https://pbs.twimg.com/media/HL6Xvs3WIAAYczT.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -15030,62 +15003,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMBKbi4a0AAa3ee.jpg"
     },
-    "https://pbs.twimg.com/media/HMBh2rDW8AA1VN9.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMBh2rDW8AA1VN9.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HMBh2rDW8AA1VN9.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HMBh2rDW8AA1VN9.jpg"
-    },
-    "https://pbs.twimg.com/media/HMCdJT-XYAAkHym.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMCdJT-XYAAkHym.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HMCdJT-XYAAkHym.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HMCdJT-XYAAkHym.jpg"
-    },
-    "https://pbs.twimg.com/media/HMCdJT9WcAAIoam.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMCdJT9WcAAIoam.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HMCdJT9WcAAIoam.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HMCdJT9WcAAIoam.jpg"
-    },
-    "https://pbs.twimg.com/media/HMCruVdXMAAmW2v.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMCruVdXMAAmW2v.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HMCruVdXMAAmW2v.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HMCruVdXMAAmW2v.jpg"
-    },
     "https://pbs.twimg.com/media/HMDExLmWQAAaxqv.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15114,19 +15031,89 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMDXDpVWwAAHr9t.jpg"
     },
-    "https://pbs.twimg.com/media/HMDosR4XYAAPz5Z.jpg": {
+    "https://pbs.twimg.com/media/HMETR1NWoAAo--r.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMDosR4XYAAPz5Z.jpg",
+      "final_url": "https://pbs.twimg.com/media/HMETR1NWoAAo--r.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HMDosR4XYAAPz5Z.jpg"
+        "https://pbs.twimg.com/media/HMETR1NWoAAo--r.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HMDosR4XYAAPz5Z.jpg"
+      "url": "https://pbs.twimg.com/media/HMETR1NWoAAo--r.jpg"
+    },
+    "https://pbs.twimg.com/media/HMETR1PWYAAk_vU.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMETR1PWYAAk_vU.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMETR1PWYAAk_vU.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMETR1PWYAAk_vU.jpg"
+    },
+    "https://pbs.twimg.com/media/HMEU-2VXsAAKmXy.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMEU-2VXsAAKmXy.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMEU-2VXsAAKmXy.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMEU-2VXsAAKmXy.jpg"
+    },
+    "https://pbs.twimg.com/media/HMEUpy_WEAAj8g_.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMEUpy_WEAAj8g_.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMEUpy_WEAAj8g_.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMEUpy_WEAAj8g_.jpg"
+    },
+    "https://pbs.twimg.com/media/HMEUpzCW8AARxV5.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMEUpzCW8AARxV5.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMEUpzCW8AARxV5.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMEUpzCW8AARxV5.jpg"
+    },
+    "https://pbs.twimg.com/media/HMEbFTcWoAArIWH.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMEbFTcWoAArIWH.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMEbFTcWoAArIWH.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMEbFTcWoAArIWH.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -15310,6 +15297,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HLt7FB3bUAAA0aK.jpg"
     },
+    "https://pbs.twimg.com/tweet_video_thumb/HMA2CufWEAAypkf.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HMA2CufWEAAypkf.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HMA2CufWEAAypkf.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HMA2CufWEAAypkf.jpg"
+    },
     "https://pbs.twimg.com/tweet_video_thumb/HMAOTIFXcAAcKHY.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15337,6 +15338,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HMARjKyWAAA08lU.jpg"
+    },
+    "https://pbs.twimg.com/tweet_video_thumb/HMA_xndXUAA8hiw.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HMA_xndXUAA8hiw.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HMA_xndXUAA8hiw.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HMA_xndXUAA8hiw.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HMB21bDWQAAzO1T.jpg": {
       "cleaner_v": 2,
@@ -16244,34 +16259,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Join the iSH ARM64 beta - TestFlight - Apple",
       "url": "https://testflight.apple.com/join/ZtGfhNkH"
-    },
-    "https://theatln.tc/jRCvW6E1": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "The Atlantic's coverage on I Moved On Her Very Heavily'",
-      "final_url": "https://www.theatlantic.com/projects/i-moved-her-very-heavily/?utm_source=twitter&utm_campaign=the-atlantic&utm_medium=social&utm_content=edit-promo",
-      "frameable": null,
-      "image_urls": [
-        "https://cdn.theatlantic.com/thumbor/y_i2WTBfWKzhRWNpfQEZ2hPkKmQ=/7x0:1594x1191/960x720/media/img/collections/lead_art/OPENER_RESIZE_FINAL_SHORT_1/original.png",
-        "https://cdn.theatlantic.com/_next/static/images/nav-archive-promo-5541b02ae92f1a9276249e1c6c2534ee.png",
-        "https://cdn.theatlantic.com/media/games/games_promo_color.png",
-        "https://www.theatlantic.com/magazine/images/current-issue.420.jpg",
-        "https://cdn.theatlantic.com/media/files/audio/intro_sprint_2_emblem.png",
-        "https://cdn.theatlantic.com/media/files/2025/crossword_icon_intro_sprint_2.png",
-        "https://cdn.theatlantic.com/media/files/archive-thumbnail.png",
-        "https://cdn.theatlantic.com/media/files/YourSubscription_300x300.jpg",
-        "https://cdn.theatlantic.com/thumbor/hF_s3nz3vCuJ24Cnf0kqScrsmvQ=/398x0:1521x1123/80x80/media/img/mt/2020/10/Essay_5/original.jpg",
-        "https://cdn.theatlantic.com/thumbor/BUCczuYj6kK9XYCu3V-O5vViCp0=/5x0:1128x1123/80x80/media/img/mt/2020/09/Essay_4_Final/original.jpg",
-        "https://cdn.theatlantic.com/thumbor/rR0rQMsdgk5pgX3iXXu41HElf5U=/0x0:1123x1123/80x80/media/img/mt/2020/09/Essay_3_Final/original.jpg",
-        "https://cdn.theatlantic.com/thumbor/GmXEWpETtaIqHIg0gHXKL90-FvU=/702x0:1826x1124/80x80/media/img/mt/2020/09/Accuser_Karena_1/original.jpg"
-      ],
-      "kind": "article",
-      "text_excerpt": "Skip to content Site Navigation Popular Latest Newsletters Sections Ideas Politics Economy Global National Security Washington Week Features Technology AI Watchdog Science Planet Health Philosophy Education Culture Comedy Family Books Fiction Photography Events Explore The Atlantic Archive Play The Atlantic Games Listen to Podcasts and Articles The Print Edition Latest Issue Past Issues Give a Gift Search The Atlantic Quick Links Audio Crossword Puzzle Magazine Archive Your Subscription Popular Latest Newsletters Sign In Subscribe I Moved On Her Very Heavily' The E. Jean Carroll Interviews Latest Najeebah Al-Ghadban / Getty A Taxonomy of Groping: The Below-the-Waist Edition ‘I Moved on Her Very Heavily’: Part 5 E. Jean Carroll October 2, 2020 Najeebah Al-Ghadban / Getty And Then Donald Trump Walked Into the RV ‘I Moved on Her Very Heavily’: Part 4 E. Jean Carroll September 25, 2020 Najeebah Al-Ghadban / Getty Donald Trump Is Waiting for You in First Class ‘I Moved on Her Very Heavily’: Part 3 E. Jean Carroll September 11, 2020 Najeebah Al-Ghadban / Getty Two Women, Two Breasts, Two Decisions ‘I Moved on Her Very Heavily’: Part 2 E. Jean Carroll September 2, 2020 Najeebah Al-Ghadban / Getty ‘I Moved on Her Very Heavily’: Part 1 Fifteen years ago, the writer Natasha Stoynoff went to Mar-a-Lago to interview Donald and Melania Trump on the occasion of their first anniversary. E. Jean Carroll August 26, 2020 Popular Links About Our History Careers Contact Help Center Contact Us Atlantic Advertising Press Reprints & Permissions Podcasts Radio Atlantic The David Frum Show Galaxy Brain Autocracy in America How to Age Up Subscription Purchase Give a Gift Manage Subscription Group Subscriptions Atlantic Editions Newsletters Follow About Our History Careers Contact Help Center Contact Us Atlantic Advertising Press Reprints & Permissions Podcasts Radio Atlantic The David Frum Show Galaxy Brain Autocracy in America How to Age Up Subscription Purchase Give a Gift Manage Subscription Group Subscriptions Atlantic Editions Newsletters Follow Site Information Privacy Policy Your Privacy Choices Advertising Guidelines Terms & Conditions Terms of Sale Responsible Disclosure Site Map TheAtlantic.com © 2026 The Atlantic Monthly Group. All Rights Reserved. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply",
-      "text_excerpt_zh": "‘我猛烈地扑向她’：E·让·卡罗尔访谈系列\n\n最新文章\n\n纳杰巴·阿尔-加德班/盖蒂图片社\n\n《猥亵分类学：腰部以下版》\n\n‘我猛烈地扑向她’：第5部分\n\nE·让·卡罗尔\n\n2020年10月2日\n\n纳杰巴·阿尔-加德班/盖蒂图片社\n\n《然后唐纳德·特朗普走进了房车》\n\n‘我猛烈地扑向她’：第4部分\n\nE·让·卡罗尔\n\n2020年9月25日\n\n纳杰巴·阿尔-加德班/盖蒂图片社\n\n《唐纳德·特朗普在头等舱等你》\n\n‘我猛烈地扑向她’：第3部分\n\nE·让·卡罗尔\n\n2020年9月11日\n\n纳杰巴·阿尔-加德班/盖蒂图片社\n\n《两个女人，两对乳房，两个决定》\n\n‘我猛烈地扑向她’：第2部分\n\nE·让·卡罗尔\n\n2020年9月2日\n\n纳杰巴·阿尔-加德班/盖蒂图片社\n\n‘我猛烈地扑向她’：第1部分\n\n十五年前，作家娜塔莎·斯托伊诺夫前往海湖庄园，采访唐纳德和梅拉尼娅·特朗普，正值他们结婚一周年之际。\n\nE·让·卡罗尔\n\n2020年8月26日",
-      "text_excerpt_zh_hash": "5d4cfef020129e21",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "I Moved On Her Very Heavily' - The Atlantic",
-      "url": "https://theatln.tc/jRCvW6E1"
     },
     "https://thefoundation.limestonedigital.com/": {
       "content_type": "text/html; charset=utf-8",
@@ -18190,6 +18177,31 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "The Man Who Saw AI Coming - The Atlantic",
       "url": "https://www.theatlantic.com/ideas/2026/06/erik-brynjolfsson-the-man-who-saw-ai-coming/687561/?taid=6a4284f3d34ca80001efcb59&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter"
+    },
+    "https://www.theatlantic.com/politics/2026/06/trump-250-pardons-250th-birthday/687736/?taid=6a43b6d07177c90001d8c384&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "The idea has set off a frenzy of appeals for clemency.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.theatlantic.com/politics/2026/06/trump-250-pardons-250th-birthday/687736/?taid=6a43b6d07177c90001d8c384&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter",
+      "frameable": null,
+      "image_urls": [
+        "https://cdn.theatlantic.com/thumbor/2y_Uy5EDfKTcwplv98peq2Bzmn8=/5x0:3932x2045/1200x625/media/img/mt/2026/06/2026_06_29_250_Pardons/original.jpg",
+        "https://cdn.theatlantic.com/_next/static/images/nav-archive-promo-5541b02ae92f1a9276249e1c6c2534ee.png",
+        "https://cdn.theatlantic.com/media/games/games_promo_color.png",
+        "https://www.theatlantic.com/magazine/images/current-issue.420.jpg",
+        "https://cdn.theatlantic.com/media/files/audio/intro_sprint_2_emblem.png",
+        "https://cdn.theatlantic.com/media/files/2025/crossword_icon_intro_sprint_2.png",
+        "https://cdn.theatlantic.com/media/files/archive-thumbnail.png",
+        "https://cdn.theatlantic.com/media/files/YourSubscription_300x300.jpg",
+        "https://cdn.theatlantic.com/thumbor/BBjhxcFay0j1lCi9a-EwFBVzje0=/0x0:3932x2212/960x540/media/img/mt/2026/06/2026_06_29_250_Pardons/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/SxCAFenSxfZLyyDO4D4-Bfm6cvs=/1986x0:3933x1947/80x80/media/img/mt/2026/06/2026_06_29_250_Pardons/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/zjj2uVhlUaV_UismkNzJSpIvpKo=/0x177:3024x3201/120x120/media/img/authors/2025/02/Michael_Scherer_Headshot/original.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "The White House Considers Granting 250 Pardons for the Nation’s Birthday\nThe idea has set off a frenzy of appeals for clemency.\nPresidents have generally treated their pardon power like an embarrassing secret, closely held among only a few trusted aides and exercised quietly in the final days of an administration. Some have signed clemency warrants just hours before boarding Marine One for their final flight.\nBut not Donald Trump.\nSince returning to the White House for his second term, Trump has wielded his authority to grant clemency with abandon. He issued pardons or commuted the sentences of nearly 1,600 people associated with the January 6 Capitol riot on his first day back in office and has publicly mused since about preemptively pardoning aides and allies. Now the White House is discussing a possible announcement of presidential pardons as a centerpiece of the nation’s semiquincentennial celebrations over the Fourth of July weekend, according to 14 people familiar with the conversations. The idea has been described as “250 pardons for 250 years,” an initiative that would put one of the most politically fraught constitutional powers at the forefront of the country’s birthday festivities.\nThe president had not been presented with the proposal as of Friday, and the idea may never rise to his level, a White House official told us. Trump’s advisers are still split on whether mass pardons for the anniversary of American independence would be a good idea. One adviser said there had been polling that suggested that a mass pardon could benefit the president, but any action was unlikely by Independence Day. [The Wall Street Journal](https://www.wsj.com/politics/policy/white-house-explores-250-pardons-to-mark-americas-250th-20fccfbc) reported last month that 250 pardons were being considered.\nAdvocates for the plan say that it would both underscore the president’s singular authority and reinforce an image he has long sought to cultivate: “Trump the merciful,” as a person close to the White House described it to us recently. Meanwhile, the prospect of a mass pardon has set off an international frenzy of lobbying and dealmaking, in which even slight proximity to the president can be monetized.\nFive current and former administration officials and nine private-sector lawyers, lobbyists, and other individuals with ties to Trump’s orbit told us that the jockeying among those seeking clemency for past crimes has been intense. One criminal-defense attorney called it “a three-ring circus,” and a former administration official said that it was “batshit crazy.” One lobbyist told us that he had started turning off his cellphone as the ”“aggressive” requests from clients intensified in recent weeks. All spoke with us on the condition of anonymity to discuss sensitive matters with high stakes in the days ahead.\nOne former Trump associate who had been approached to help facilitate a pardon described the push to be included in the possible 250 for the celebration of American independence as distinctly different from what had occurred in Trump’s first term. “Everything is now out in the open,” he told me, drawing a contrast to previous attempts to keep plans under wraps and disguise the appearance of selling access. For those hoping to obtain a presidential pardon or other form of clemency, this person said, “now is the time.”\nThe White House did not respond in detail to the reporting in this story. “President Trump takes his absolute constitutional power to issue pardons and commutations seriously,” White House Press Secretary Karoline Leavitt told us in a statement. “That’s why we have a rigorous review process involving the Department of Justice and the White House Counsel’s Office—a team of elite lawyers who carefully evaluate every request before it reaches the President’s desk, and he serves as the final decision maker.”\nAttorneys and lobbyists told us that they had been inundated with requests to take on pardon cases in recent weeks as word",
+      "title": "The White House Considers 250 Pardons for the 250th - The Atlantic",
+      "url": "https://www.theatlantic.com/politics/2026/06/trump-250-pardons-250th-birthday/687736/?taid=6a43b6d07177c90001d8c384&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter"
     },
     "https://www.theatlantic.com/technology/2026/06/ai-hacking-cybersecurity-banks/687562/?taid=6a31a25e117eb200016356ac&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter": {
       "cleaner_v": 2,
@@ -23704,8 +23716,8 @@
       "https://x.com/_Stalinspears_/status/2071253717798596792",
       "https://x.com/_Stalinspears_/status/2071303113743470820",
       "https://x.com/_Stalinspears_/status/2071474542011171330",
-      "https://x.com/_Stalinspears_/status/2071253345533149607",
       "https://x.com/_Stalinspears_/status/2071475036150505757",
+      "https://x.com/_Stalinspears_/status/2071253345533149607",
       "https://x.com/_Stalinspears_/status/2071253550370284007",
       "https://x.com/_Stalinspears_/status/2071671250225664183",
       "https://x.com/_Stalinspears_/status/2071659871737434467",
@@ -23893,20 +23905,20 @@
     ],
     "2071385982566342669": [
       "https://x.com/RMUTO_/status/2071385982566342669",
-      "https://x.com/RMUTO_/status/2071405885260210535",
-      "https://x.com/RMUTO_/status/2071555079388184809",
-      "https://x.com/RMUTO_/status/2071528771950194785",
-      "https://x.com/RMUTO_/status/2071463225787318667",
-      "https://x.com/RMUTO_/status/2071461837686591538",
       "https://x.com/RMUTO_/status/2071464282928161276",
+      "https://x.com/RMUTO_/status/2071405885260210535",
+      "https://x.com/RMUTO_/status/2071933991104516118",
+      "https://x.com/RMUTO_/status/2071528771950194785",
+      "https://x.com/RMUTO_/status/2071555079388184809",
+      "https://x.com/RMUTO_/status/2071461837686591538",
+      "https://x.com/RMUTO_/status/2071463225787318667",
       "https://x.com/RMUTO_/status/2071473348035383387",
-      "https://x.com/RMUTO_/status/2071507291195478241",
-      "https://x.com/RMUTO_/status/2071430602981617797",
       "https://x.com/RMUTO_/status/2071432762117005484",
+      "https://x.com/RMUTO_/status/2071430602981617797",
       "https://x.com/RMUTO_/status/2071789782238175461",
       "https://x.com/RMUTO_/status/2071672294380913049",
       "https://x.com/RMUTO_/status/2071670767469670899",
-      "https://x.com/RMUTO_/status/2071476352788664639"
+      "https://x.com/RMUTO_/status/2071507291195478241"
     ],
     "2071404852908081211": [
       "https://x.com/vipulved/status/2071404852908081211",
@@ -23946,16 +23958,16 @@
       "https://pbs.twimg.com/media/HL9z4wFbIAAqONB.jpg",
       "https://x.com/liuyi0922/status/2071502307943190784",
       "https://x.com/liuyi0922/status/2071503680189481067",
-      "https://x.com/liuyi0922/status/2071862142299672810",
       "https://x.com/liuyi0922/status/2071520591463764400",
       "https://x.com/liuyi0922/status/2071899471345270922",
+      "https://x.com/liuyi0922/status/2071862142299672810",
       "https://x.com/liuyi0922/status/2071527574250143797",
       "https://x.com/liuyi0922/status/2071520622975627727",
+      "https://x.com/liuyi0922/status/2071967088374415615",
+      "https://pbs.twimg.com/media/HMEbFTcWoAArIWH.jpg",
       "https://x.com/liuyi0922/status/2071872239063159158",
       "https://pbs.twimg.com/media/HMDExLmWQAAaxqv.jpg",
-      "https://x.com/liuyi0922/status/2071790990457987567",
-      "https://x.com/liuyi0922/status/2071243343636681186",
-      "https://pbs.twimg.com/media/HL6I14hbEAEWAnU.jpg"
+      "https://x.com/liuyi0922/status/2071790990457987567"
     ],
     "2071522418594861215": [
       "https://x.com/_avichawla/status/2071522418594861215",
@@ -23987,9 +23999,8 @@
     "2071574429897789698": [
       "https://x.com/TheEconomist/status/2071574429897789698",
       "https://www.economist.com/briefing/2026/06/25/ai-models-values-are-very-different-from-most-peoples?taid=6a4267a6344e0b0001934c37&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
-      "https://x.com/TheEconomist/status/2071911680351568367",
-      "http://econ.st/4uWKzu4",
-      "https://pbs.twimg.com/media/HMDosR4XYAAPz5Z.jpg"
+      "https://x.com/TheEconomist/status/2071951922618130707",
+      "https://www.economist.com/the-americas/2026/06/28/how-will-america-respond-to-venezuelas-deadly-quakes?taid=6a43c73763792900018a11cc&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
     ],
     "2071588017878249890": [
       "https://x.com/nateherk/status/2071588017878249890",
@@ -24004,14 +24015,13 @@
     "2071598582394974646": [
       "https://x.com/Astronaut_1216/status/2071598582394974646",
       "https://x.com/Astronaut_1216/status/2071607087080341567",
-      "https://x.com/Astronaut_1216/status/2071841628743200902"
+      "https://x.com/Astronaut_1216/status/2071920925818188202"
     ],
     "2071605890143174764": [
       "https://x.com/TheAtlantic/status/2071605890143174764",
       "https://www.theatlantic.com/ideas/2026/06/erik-brynjolfsson-the-man-who-saw-ai-coming/687561/?taid=6a4284f3d34ca80001efcb59&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
-      "https://x.com/TheAtlantic/status/2071763422656463248",
-      "https://theatln.tc/jRCvW6E1",
-      "https://pbs.twimg.com/media/HMBh2rDW8AA1VN9.jpg"
+      "https://x.com/TheAtlantic/status/2071934310345523631",
+      "https://www.theatlantic.com/politics/2026/06/trump-250-pardons-250th-birthday/687736/?taid=6a43b6d07177c90001d8c384&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter"
     ],
     "2071625939444744521": [
       "https://x.com/MistralDevs/status/2071625939444744521",
@@ -24019,7 +24029,8 @@
     ],
     "2071629451712983319": [
       "https://x.com/sydneyrunkle/status/2071629451712983319",
-      "http://x.com/i/article/2071621950749777920"
+      "http://x.com/i/article/2071621950749777920",
+      "https://x.com/sydneyrunkle/status/2071943331123212754"
     ],
     "2071636465600065765": [
       "https://x.com/reidhoffman/status/2071636465600065765",
@@ -24047,15 +24058,15 @@
     "2071670826420875321": [
       "https://x.com/Rlkjn22/status/2071670826420875321",
       "https://x.com/Rlkjn22/status/2071707124397150360",
+      "https://x.com/Rlkjn22/status/2071721710903070886",
       "https://x.com/Rlkjn22/status/2071707299480051825",
       "https://x.com/Rlkjn22/status/2071908437261234522",
       "https://x.com/Rlkjn22/status/2071771016360009849",
-      "https://x.com/Rlkjn22/status/2071721710903070886",
       "https://x.com/Rlkjn22/status/2071767615509303792",
       "https://x.com/Rlkjn22/status/2071751745303089252",
-      "https://x.com/Rlkjn22/status/2071901755420352738",
-      "https://x.com/Rlkjn22/status/2071768733278773652",
-      "https://x.com/Rlkjn22/status/2071737725640638972"
+      "https://x.com/Rlkjn22/status/2071966099395035498",
+      "https://x.com/Rlkjn22/status/2071942781807874368",
+      "https://x.com/Rlkjn22/status/2071901755420352738"
     ],
     "2071672946859688352": [
       "https://x.com/NathanFlurry/status/2071672946859688352",
@@ -24066,9 +24077,9 @@
       "http://executor.sh",
       "https://x.com/NathanFlurry/status/2071702451301081310",
       "https://x.com/NathanFlurry/status/2071718117664038966",
-      "https://x.com/NathanFlurry/status/2071743746572787925",
       "https://x.com/NathanFlurry/status/2071702295176417760",
       "https://x.com/NathanFlurry/status/2071693169109164093",
+      "https://x.com/NathanFlurry/status/2071743746572787925",
       "https://x.com/NathanFlurry/status/2071702191203897709"
     ],
     "2071673309746639190": [
@@ -24081,23 +24092,26 @@
       "https://x.com/baladadoloucom/status/2071772039686373842",
       "https://x.com/midori_tomoya/status/2071702967414317240?s=20",
       "https://x.com/baladadoloucom/status/2071704258747965849",
-      "https://x.com/baladadoloucom/status/2071700144123236499",
       "https://x.com/baladadoloucom/status/2071715054391640348",
+      "https://x.com/baladadoloucom/status/2071700144123236499",
       "https://x.com/baladadoloucom/status/2071724398285918618",
       "https://x.com/baladadoloucom/status/2071683777043013958",
       "https://x.com/baladadoloucom/status/2071725089473597928",
       "https://x.com/baladadoloucom/status/2071737393053409578",
-      "https://x.com/baladadoloucom/status/2071691306691137750",
       "https://x.com/baladadoloucom/status/2071683163068227668",
+      "https://x.com/baladadoloucom/status/2071691306691137750",
       "https://x.com/baladadoloucom/status/2071742763779920018",
       "https://pbs.twimg.com/tweet_video_thumb/HMBPDwbWIAAkgDc.jpg",
       "https://x.com/baladadoloucom/status/2071671560256012558",
       "https://pbs.twimg.com/tweet_video_thumb/HMAOTIFXcAAcKHY.jpg",
       "https://x.com/baladadoloucom/status/2071659506589655486",
       "https://x.com/baladadoloucom/status/2071777870343503927",
+      "https://x.com/baladadoloucom/status/2071715253319033307",
+      "https://pbs.twimg.com/tweet_video_thumb/HMA2CufWEAAypkf.jpg",
       "https://x.com/baladadoloucom/status/2071715498442576189",
-      "https://x.com/baladadoloucom/status/2071716060894543883",
       "https://x.com/baladadoloucom/status/2071765580189692110",
+      "https://x.com/baladadoloucom/status/2071725957472207082",
+      "https://pbs.twimg.com/tweet_video_thumb/HMA_xndXUAA8hiw.jpg",
       "https://x.com/baladadoloucom/status/2071687953902899537"
     ],
     "2071702736404426929": [
@@ -24126,10 +24140,10 @@
       "https://pbs.twimg.com/media/HMAz779W8AAacHW.jpg",
       "https://x.com/DrizzleORM/status/2071716352071512386",
       "https://pbs.twimg.com/media/HMA2PM_XcAAMvrg.jpg",
+      "https://x.com/DrizzleORM/status/2071718667650318694",
       "https://x.com/DrizzleORM/status/2071854629449556037",
       "https://x.com/DrizzleORM/status/2071733236141592799",
       "https://x.com/DrizzleORM/status/2071855202848682147",
-      "https://x.com/DrizzleORM/status/2071718667650318694",
       "https://x.com/DrizzleORM/status/2071892291921346608",
       "https://pbs.twimg.com/media/HMDXDpVWwAAHr9t.jpg"
     ],
@@ -24137,18 +24151,20 @@
       "https://x.com/PopBase/status/2071737671509328354",
       "https://pbs.twimg.com/media/HMBKbi2awAAiy68.jpg",
       "https://pbs.twimg.com/media/HMBKbi4a0AAa3ee.jpg",
-      "https://x.com/PopBase/status/2071862865812680725",
-      "https://pbs.twimg.com/amplify_video_thumb/2071823024907538432/img/dD-iaCRuNtAAUYpy.jpg",
-      "https://x.com/PopBase/status/2071844645227647274",
-      "https://pbs.twimg.com/media/HMCruVdXMAAmW2v.jpg",
-      "https://x.com/PopBase/status/2071828620373524812",
-      "https://pbs.twimg.com/media/HMCdJT9WcAAIoam.jpg",
-      "https://pbs.twimg.com/media/HMCdJT-XYAAkHym.jpg"
+      "https://x.com/PopBase/status/2071960380369203362",
+      "https://leighanne.os.fan/sign-up",
+      "https://pbs.twimg.com/media/HMEU-2VXsAAKmXy.jpg",
+      "https://x.com/PopBase/status/2071960018220355594",
+      "https://pbs.twimg.com/media/HMEUpy_WEAAj8g_.jpg",
+      "https://pbs.twimg.com/media/HMEUpzCW8AARxV5.jpg",
+      "https://x.com/PopBase/status/2071958508820447584",
+      "https://pbs.twimg.com/media/HMETR1NWoAAo--r.jpg",
+      "https://pbs.twimg.com/media/HMETR1PWYAAk_vU.jpg"
     ],
     "2071751990753763630": [
       "https://x.com/GOATYELD/status/2071751990753763630",
-      "https://x.com/GOATYELD/status/2071832463081435527",
       "https://x.com/GOATYELD/status/2071787317841281250",
+      "https://x.com/GOATYELD/status/2071832463081435527",
       "https://x.com/GOATYELD/status/2071786498483998961",
       "https://pbs.twimg.com/tweet_video_thumb/HMB21bDWQAAzO1T.jpg",
       "https://x.com/GOATYELD/status/2071791178027057276"
@@ -24181,6 +24197,6 @@
       "https://x.com/sukie234/status/2071688735000048041"
     ]
   },
-  "updated_at": "2026-06-30T11:50:12Z",
+  "updated_at": "2026-06-30T14:43:03Z",
   "window": "recent"
 }
