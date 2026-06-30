@@ -44,6 +44,9 @@
       "category": "Social",
       "created_at": "2026-06-30T14:42:53.952386Z",
       "description": "🚨 SCOOP: Claude Sonnet 5 is releasing later today:- Knowledge cutoff January 2026- Launching at $2/$10 per Mtok promotional rate*- 1M context variant available*Some changes have been made behind the scenes to prepare for a promo price offering, preliminary values",
+      "description_zh": "🚨 独家消息：Claude Sonnet 5 将于今日晚些时候发布：\n- 知识截止日期为 2026 年 1 月\n- 以每百万 token 2 美元 / 10 美元的促销价*推出\n- 提供 100 万上下文版本*\n- 幕后已进行了一些调整，为促销定价做准备，以上为初步数值",
+      "description_zh_hash": "50d47f3ad99fdfbe",
+      "description_zh_translator_v": 2,
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17103bkabcj4ra50tx6dggqvs89mc4j",
@@ -66,6 +69,9 @@
         }
       ],
       "title": "leo 🐾 (@synthwavedd) on X",
+      "title_zh": "leo 🐾 (@synthwavedd) 在 X 平台",
+      "title_zh_hash": "69932ab688f2f1e9",
+      "title_zh_translator_v": 2,
       "url": "https://x.com/synthwavedd/status/2071952099802308756",
       "x_status_id": "2071952099802308756"
     },
@@ -78,6 +84,9 @@
       "category": "Crypto",
       "created_at": "2026-06-30T14:53:16.839864Z",
       "description": "The first stablecoin designed as open infrastructure. Open USD (OUSD) gives businesses the economics, governance, and reliability they need to move money.",
+      "description_zh": "首个作为开放基础设施设计的稳定币。Open USD（OUSD）为企业提供其资金流转所需的经济性、治理能力和可靠性。",
+      "description_zh_hash": "6406c7eef091c6eb",
+      "description_zh_translator_v": 2,
       "domain": "joinopenstandard.com",
       "embed_type": "",
       "id": "k17ekte86c3f883xbm3km6rpkd89n7k4",
@@ -100,6 +109,9 @@
         }
       ],
       "title": "Open USD (OUSD) Stablecoin | Open Standard",
+      "title_zh": "Open USD (OUSD) 稳定币 | 开放标准",
+      "title_zh_hash": "f4fadb6cc9d0d74e",
+      "title_zh_translator_v": 2,
       "url": "https://joinopenstandard.com/",
       "x_status_id": null
     },
@@ -69637,6 +69649,9 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_text": "[Sign in](https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://labs.google.com/cc/&followup=https://labs.google.com/cc/&ec=GAZAhwY)",
+      "article_text_zh": "[Sign in](https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://labs.google.com/cc/&followup=https://labs.google.com/cc/&ec=GAZAhwY)",
+      "article_text_zh_hash": "3e9700b0370fe36c",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "CC",
       "category": "Tools",
       "cleaner_v": 2,
