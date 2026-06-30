@@ -4364,7 +4364,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-23T22:03:01.961999Z",
+      "article_fetch_attempted_at": "2026-06-30T22:03:16.249895Z",
       "article_image_urls": [
         "https://prd-mktg-konghq-com.imgix.net/images/2026/03/69ca7138-kong-thumbnail-2026.png?auto=format",
         "https://assets.prd.mktg.konghq.com/images/2026/05/69fa5c0e-product-menu-heading-icon.svg",
@@ -4454,7 +4454,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-23T22:03:01.961999Z",
+      "article_fetch_attempted_at": "2026-06-30T22:03:16.249895Z",
       "article_image_urls": [
         "https://agihouse.org/imgs/AGIHouseThumbnail2.jpg",
         "https://www.agihouse.org/imgs/logos/AGIHouseFullLogo.svg",
@@ -11876,7 +11876,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-23T22:03:01.961999Z",
+      "article_fetch_attempted_at": "2026-06-30T22:03:16.249895Z",
       "article_image_urls": [
         "https://factory.strongdm.ai/images/og-image.png",
         "https://factory.strongdm.ai/images/growth.jpeg",
@@ -11926,13 +11926,13 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-23T22:03:01.961999Z",
+      "article_fetch_attempted_at": "2026-06-30T22:03:16.249895Z",
       "article_image_urls": [
         "https://turbopuffer.com/og/turbopuffer.png",
         "https://turbopuffer.com/_next/static/media/logo_header_darkbg.435dd040.svg",
-        "https://turbopuffer.com/_next/image?url=%2Fimages%2Faman_sanger.jpeg&w=64&q=75&dpl=dpl_AWPARwkGyN3noZxQqmYHpF6cGcdx",
-        "https://turbopuffer.com/_next/image?url=%2Fimages%2Fakshay-kothari.jpg&w=64&q=75&dpl=dpl_AWPARwkGyN3noZxQqmYHpF6cGcdx",
-        "https://turbopuffer.com/_next/image?url=%2Fimages%2Fjori_lallo.jpg&w=64&q=75&dpl=dpl_AWPARwkGyN3noZxQqmYHpF6cGcdx",
+        "https://turbopuffer.com/_next/image?url=%2Fimages%2Faman_sanger.jpeg&w=64&q=75&dpl=dpl_AqwiC3nrQeTGVf3rvb1QSrbVEn4Y",
+        "https://turbopuffer.com/_next/image?url=%2Fimages%2Fakshay-kothari.jpg&w=64&q=75&dpl=dpl_AqwiC3nrQeTGVf3rvb1QSrbVEn4Y",
+        "https://turbopuffer.com/_next/image?url=%2Fimages%2Fjori_lallo.jpg&w=64&q=75&dpl=dpl_AqwiC3nrQeTGVf3rvb1QSrbVEn4Y",
         "https://turbopuffer.com/_next/static/media/lockup_transparent.6092c7ef.svg",
         "https://px.ads.linkedin.com/collect/?pid=8553810&fmt=gif"
       ],
@@ -107939,5 +107939,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-30T18:30:08.280398Z"
+  "updated_at": "2026-06-30T22:03:18.446596Z"
 }
