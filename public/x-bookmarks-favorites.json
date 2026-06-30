@@ -55,6 +55,9 @@
         "bookmark@chumsdock"
       ],
       "text": "This is the Skill that powers feature development on our open-source repository.\n\nIf you want to try spec-driven development in your own projects, we've open-sourced a Skill for your agent to it up as an automation:\n\n/oz-cloud-factory-demo",
+      "text_zh": "这就是驱动我们开源仓库功能开发的技能。\n\n如果你想在自己的项目中尝试规范驱动开发，我们已开源了一项技能，供你的代理将其设置为自动化功能：\n\n/oz-cloud-factory-demo",
+      "text_zh_hash": "26f85ae74f003ecd",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/warpdotdev/status/2071673309746639190"
     },
     {
