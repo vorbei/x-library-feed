@@ -169,24 +169,6 @@
       "title": "ai-cli",
       "url": "http://ai-cli.dev"
     },
-    "http://aisolo.beehiiv.com/subscribe": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "I help non-technical people make more money with AI agents. Easy-to-follow workflows you can copy-paste into your own business.",
-      "final_url": "https://aisolo.beehiiv.com/subscribe",
-      "frameable": null,
-      "image_urls": [
-        "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/publication/thumbnail/9421fc76-ff87-4e9e-acc4-f37b434324c8/landscape_clean_Gemini_Generated_Image_qcr62uqcr62uqcr6.png?v=1780110440",
-        "https://media.beehiiv.com/cdn-cgi/image/format=auto,fit=scale-down,onerror=redirect/uploads/publication/logo/9421fc76-ff87-4e9e-acc4-f37b434324c8/aisolopreneurlogo.jpeg"
-      ],
-      "kind": "article",
-      "text_excerpt": "The AI Solopreneur I help non-technical people make more money with AI agents. Easy-to-follow workflows you can copy-paste into your own business. Join free By subscribing, you agree to our Privacy Policy and Terms of Service. Let me read it first FAQ FAQ Impressum Impressum Fynnster Limited director: Ole Lehmann Anthypolochagou Georgiou M. Savva, 26, SHOP 1-2 Geroskipou, 8201, Paphos, Cyprus VAT ID: CY10426252R Email: [email protected] Registered as a Limited Liability Company in Cyprus Company Registration Number: HE123456",
-      "text_excerpt_zh": "AI Solopreneur 我帮助非技术人士通过AI智能体赚更多钱。易于遵循的工作流程，可直接复制粘贴到你的业务中。免费加入 订阅即表示你同意我们的隐私政策和服务条款。让我先阅读一下 常见问题 常见问题 法律声明 法律声明 Fynnster Limited 董事：Ole Lehmann Anthypolochagou Georgiou M. Savva, 26, SHOP 1-2 Geroskipou, 8201, Paphos, Cyprus 增值税号：CY10426252R 邮箱：[email protected] 在塞浦路斯注册为有限责任公司 公司注册号：HE123456",
-      "text_excerpt_zh_hash": "ecfcf4add5161ca2",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Subscribe | The AI Solopreneur",
-      "url": "http://aisolo.beehiiv.com/subscribe"
-    },
     "http://aitdk.com": {
       "content_type": "text/html; charset=utf-8",
       "description": "Explore free AI SEO tools and generators to enhance your search optimization strategies. Elevate your website's visibility and rankings with AI technology.",
@@ -6330,6 +6312,19 @@
       "title": "",
       "url": "http://x.com/i/article/2071481305091485696"
     },
+    "http://x.com/i/article/2071621950749777920": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2071621950749777920",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HL_hOlAW0AANztH?format=png&name=900x900)](http://x.com/sydneyrunkle/article/2071629451712983319/media/2071621994181742592)\n\nIntroducing Dynamic Subagents in Deep Agents\n\n[![](https://pbs.twimg.com/profile_images/1955622250629021696/WOrOq2Mw_normal.jpg)](http://x.com/sydneyrunkle)\n\n[Sydney Runkle![](https://pbs.twimg.com/profile_images/2028336270431453184/jRRpLAdG_bigger.jpg)](http://x.com/sydneyrunkle)\n\n[@sydneyrunkle](http://x.com/sydneyrunkle)\n\n·\n\n8h\n\nFollow\n\nClick to Follow sydneyrunkle\n\n8\n\n40\n\n164\n\n[74K](http://x.com/sydneyrunkle/status/2071629451712983319/analytics)\n\nAs agents take on more ambitious tasks, they have a hard time:\n\n1. Reliably completing work at scale\n2. Managing their own context\n\nWe’ve been experimenting with how to handle these challenges in the form of what we’re calling \n\n[dynamic subagents](https://docs.langchain.com/oss/python/deepagents/dynamic-subagents)\n\n: instead of issuing subagent tasks through generic tool calling, the agent writes a short script that drives subagent execution. This means models can rely on code patterns it’s good at writing (like looping, branching, or concurrency) to write orchestration logic fit to the task.\n\n# \n\nWhy dynamic subagents?\n\nDeep Agents already supports \n\n[subagents](https://docs.langchain.com/oss/python/deepagents/subagents)\n\n. They isolate context, let the main agent delegate discrete units of work, and keep intermediate results out of the main context window. So why do we need dynamic subagents?\n\nWith normal subagents, they are called one at a time, by the main model invoking them directly. That works at small scale. It breaks down when you need to spawn hundreds of subagents, or when the orchestration logic is conditional or multi-phase.\n\nDynamic subagents solve this with programmatic orchestration. Instead of making tool calls turn-by-turn, the agent writes a short script that orchestrates and calls subagents, and runs it in a lightweight interpreter.\n\nThe canonical example: one subagent per page of a 300-page document. Rather than calling the subagent tool 300 times, the agent writes a loop:\n\njavascript\n\n```javascript\nconst results = await Promise.all(pages.map(page =>\n  task({ description: `Summarize page ${page.number}`, subagentType: \"summarizer\" })\n));\n```\n\nThis unlocks two things that tool-call-based orchestration can't reliably deliver:\n\nDeterministic coverage at scale. Without structure, agents make judgment calls about scope, screening 75 of 500 items and calling it done. A dispatch loop doesn't. Coverage becomes a structural guarantee, not a prompt engineering problem.\n\nReliable complex orchestration. Writing orchestration as code is more reliable than having the model reproduce it as a sequence of tool calls, especially for fan-out + synthesis, multi-phase pipelines, or conditional branching.\n\nThis is the same idea behind \n\n[workflows in Claude Code](https://code.claude.com/docs/en/workflows)\n\n and \n\n[Recursive Language Models (RLMs)](https://arxiv.org/abs/2512.24601)\n\n: a model writes code, and that code dispatches more agents.\n\n# \n\nQuickstart\n\nDynamic subagents require two things: \n\n[subagents](https://docs.langchain.com/oss/python/deepagents/subagents)\n\n to dispatch work to, and a \n\n[code interpreter](https://docs.langchain.com/oss/python/deepagents/interpreters)\n\n: a secure, lightweight runtime where the model writes and executes orchestration code. Deep Agents includes an optional code interpreter based on QuickJS. To use it, install the QuickJS middleware package, then pass CodeInterpreterMiddleware via the middleware argument on \n\n[create\\_deep\\_agent](https://docs.langchain.com/oss/python/deepagents/harness)\n\n.\n\nbash\n\n```bash\npip install -U \"deepagents[quickjs]\"\n```\n\npython\n\n```python\nfrom deepagents import create_deep_agent\nfrom langchain_quickjs import CodeInterpreterMiddleware\n\nagen",
+      "title": "",
+      "url": "http://x.com/i/article/2071621950749777920"
+    },
     "http://zaro.ai": {
       "content_type": "text/html",
       "description": "Stop using tools, start running a system. Zaro builds the agents and apps your company runs on - generated from your existing data, just by describing what you need.",
@@ -7838,24 +7833,6 @@
       "title": "Emily Campbell - The Layers of AI experience",
       "url": "https://emilycampbell.co/writing/layers-of-ai-experience?ref=sidebar"
     },
-    "https://emunahessays.com": {
-      "content_type": "text/html; charset=UTF-8",
-      "description": "The Emuna Essays is a living archive of essays on faith, God, Jewish thought, and the inner life.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://emunahessays.com",
-      "frameable": null,
-      "image_urls": [
-        "https://emunahessays.com/images/emuna_tikkun_cinematic.webp",
-        "https://emunahessays.com/images/emuna_belief_default_cinematic.webp",
-        "https://emunahessays.com/images/emuna_omniscience_cinematic.webp",
-        "https://emunahessays.com/images/meka_akedah.webp"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "The Emuna Essays",
-      "url": "https://emunahessays.com"
-    },
     "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -8064,6 +8041,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://ft.trib.al/Mt0u2VP"
+    },
+    "https://ft.trib.al/qvxOKv9": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://ft.trib.al/qvxOKv9",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "https://ft.trib.al/qvxOKv9"
     },
     "https://ft.trib.al/s1xKc6c": {
       "content_type": "",
@@ -8487,32 +8478,6 @@
       "text_excerpt_zh": "",
       "title": "GitHub - hexo-ai/sia: SIA is a Self Improving AI framework to autonomously improve the performance of any AI system (Model / Agent) on a benchmark task. · GitHub",
       "url": "https://github.com/hexo-ai/sia"
-    },
-    "https://github.com/hugohe3/ppt-master": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He - hugohe3/ppt-master",
-      "extraction_source": "trafilatura",
-      "final_url": "https://github.com/hugohe3/ppt-master",
-      "frameable": false,
-      "image_urls": [
-        "https://opengraph.githubassets.com/0c490ab83d9c7b40a88bb38418462f9a0ed218ca827064d810f35a069d6f2ff1/hugohe3/ppt-master",
-        "https://camo.githubusercontent.com/9929ce18dd25009b975f967fa216e22346fd807ef0318eea9f18f2ad0e2a89d9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f76657273696f6e2d76322e382e302d626c75652e737667",
-        "https://camo.githubusercontent.com/fdf2982b9f5d7489dcf44570e714e3a15fce6253e0cc6b5aa61a075aac2ff71b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f772e737667",
-        "https://camo.githubusercontent.com/18867fcad117f0424f5797f4718cec31a2f0c95459346a8bd99a3228e1785380/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6875676f6865332f7070742d6d61737465722e737667",
-        "https://camo.githubusercontent.com/5160591084419db9b02450e8a356926b3667b049d639651eede1bcef0be8528c/68747470733a2f2f61746f6d6769742e636f6d2f6875676f6865332f7070742d6d61737465722f737461722f62616467652e737667",
-        "https://github.com/hugohe3/ppt-master/raw/main/docs/assets/sponsors/packycode.png",
-        "https://github.com/hugohe3/ppt-master/raw/main/docs/assets/sponsors/apikey-fun.png",
-        "https://github.com/hugohe3/ppt-master/raw/main/docs/assets/screenshots/preview_pritzker_2026.png",
-        "https://github.com/hugohe3/ppt-master/raw/main/docs/assets/screenshots/preview_global_ai_capital.png",
-        "https://github.com/hugohe3/ppt-master/raw/main/docs/assets/screenshots/preview_swiss_grid.png",
-        "https://github.com/hugohe3/ppt-master/raw/main/docs/assets/screenshots/preview_glassmorphism_demo.png",
-        "https://github.com/hugohe3/ppt-master/raw/main/docs/assets/screenshots/preview_sugar_rush_memphis.png"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "GitHub - hugohe3/ppt-master: AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He · GitHub",
-      "url": "https://github.com/hugohe3/ppt-master"
     },
     "https://github.com/langchain-ai/deepagents": {
       "content_type": "text/html; charset=utf-8",
@@ -11230,6 +11195,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2071646811303866368/img/5FGBumgaOJq6OU-r.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2071659742280183808/img/by7ciJ0h6HYul2Ds.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2071659742280183808/img/by7ciJ0h6HYul2Ds.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2071659742280183808/img/by7ciJ0h6HYul2Ds.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2071659742280183808/img/by7ciJ0h6HYul2Ds.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11818,20 +11797,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ_YiFvaIAANnSr.png"
     },
-    "https://pbs.twimg.com/media/HJfzr7yaAAAP20H.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJfzr7yaAAAP20H.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJfzr7yaAAAP20H.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJfzr7yaAAAP20H.jpg"
-    },
     "https://pbs.twimg.com/media/HJnZfENWsAQMDGl.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11845,20 +11810,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJnZfENWsAQMDGl.jpg"
-    },
-    "https://pbs.twimg.com/media/HJp-GaMbwAAITO8.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJp-GaMbwAAITO8.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJp-GaMbwAAITO8.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJp-GaMbwAAITO8.jpg"
     },
     "https://pbs.twimg.com/media/HJsV9b_W0AIkqXw.jpg": {
       "cleaner_v": 2,
@@ -13484,6 +13435,48 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HL3okxMb0AAjAof.png"
     },
+    "https://pbs.twimg.com/media/HL4xWatbAAA7e1P.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL4xWatbAAA7e1P.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL4xWatbAAA7e1P.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL4xWatbAAA7e1P.jpg"
+    },
+    "https://pbs.twimg.com/media/HL5WX6oaoAAzri9.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL5WX6oaoAAzri9.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL5WX6oaoAAzri9.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL5WX6oaoAAzri9.jpg"
+    },
+    "https://pbs.twimg.com/media/HL5WX6qasAAbtDo.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL5WX6qasAAbtDo.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL5WX6qasAAbtDo.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL5WX6qasAAbtDo.jpg"
+    },
     "https://pbs.twimg.com/media/HL5qICja4AADx5i.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -13511,6 +13504,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HL661b2WsAEs0FA.jpg"
+    },
+    "https://pbs.twimg.com/media/HL6I14hbEAEWAnU.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL6I14hbEAEWAnU.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL6I14hbEAEWAnU.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL6I14hbEAEWAnU.jpg"
     },
     "https://pbs.twimg.com/media/HL6Xvs3WIAAYczT.png": {
       "cleaner_v": 2,
@@ -13581,6 +13588,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HL7vwhGX0AAZl2z.png"
+    },
+    "https://pbs.twimg.com/media/HL9z4wFbIAAqONB.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL9z4wFbIAAqONB.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL9z4wFbIAAqONB.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL9z4wFbIAAqONB.jpg"
     },
     "https://pbs.twimg.com/media/HLBSu2aWMAAAEvC.jpg": {
       "cleaner_v": 2,
@@ -13931,6 +13952,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLYRmYXbMAAywlL.jpg"
+    },
+    "https://pbs.twimg.com/media/HL_ORKeW8AAUdMI.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL_ORKeW8AAUdMI.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL_ORKeW8AAUdMI.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL_ORKeW8AAUdMI.jpg"
     },
     "https://pbs.twimg.com/media/HL_PQQ2agAA8Sbe.jpg": {
       "cleaner_v": 2,
@@ -14604,20 +14639,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLwjAjbbAAEBm6c.jpg"
     },
-    "https://pbs.twimg.com/media/HLxUb34WQAAKeMD.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLxUb34WQAAKeMD.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLxUb34WQAAKeMD.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLxUb34WQAAKeMD.jpg"
-    },
     "https://pbs.twimg.com/media/HLyd0vObwAAnQDV.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -14631,6 +14652,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLyd0vObwAAnQDV.png"
+    },
+    "https://pbs.twimg.com/media/HMAImJ_aUAEmxBJ.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMAImJ_aUAEmxBJ.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMAImJ_aUAEmxBJ.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMAImJ_aUAEmxBJ.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -14813,6 +14848,76 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HLt7FB3bUAAA0aK.jpg"
+    },
+    "https://pbs.twimg.com/tweet_video_thumb/HMA2CufWEAAypkf.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HMA2CufWEAAypkf.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HMA2CufWEAAypkf.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HMA2CufWEAAypkf.jpg"
+    },
+    "https://pbs.twimg.com/tweet_video_thumb/HMAOTIFXcAAcKHY.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HMAOTIFXcAAcKHY.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HMAOTIFXcAAcKHY.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HMAOTIFXcAAcKHY.jpg"
+    },
+    "https://pbs.twimg.com/tweet_video_thumb/HMARjKyWAAA08lU.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HMARjKyWAAA08lU.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HMARjKyWAAA08lU.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HMARjKyWAAA08lU.jpg"
+    },
+    "https://pbs.twimg.com/tweet_video_thumb/HMAqMf4XoAA_kkv.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HMAqMf4XoAA_kkv.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HMAqMf4XoAA_kkv.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HMAqMf4XoAA_kkv.jpg"
+    },
+    "https://pbs.twimg.com/tweet_video_thumb/HMBPDwbWIAAkgDc.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HMBPDwbWIAAkgDc.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HMBPDwbWIAAkgDc.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HMBPDwbWIAAkgDc.jpg"
     },
     "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown": {
       "cleaner_v": 2,
@@ -17967,26 +18072,6 @@
     "2058931538029662435": [
       "https://x.com/patrickc/status/2058931538029662435",
       "https://newaesthetics.art/grants"
-    ],
-    "2060383294374793606": [
-      "https://x.com/itsolelehmann/status/2060383294374793606",
-      "https://pbs.twimg.com/media/HJfzr7yaAAAP20H.jpg",
-      "https://x.com/itsolelehmann/status/2060388464164827198",
-      "http://aisolo.beehiiv.com/subscribe",
-      "https://x.com/itsolelehmann/status/2061339189237493837",
-      "https://x.com/itsolelehmann/status/2061339128583643246",
-      "https://x.com/itsolelehmann/status/2061339390308200804"
-    ],
-    "2060661948669440379": [
-      "https://x.com/Pineapp95857268/status/2060661948669440379",
-      "https://github.com/hugohe3/ppt-master",
-      "https://x.com/Pineapp95857268/status/2060860811154018574",
-      "https://x.com/Pineapp95857268/status/2060860753205452960",
-      "https://x.com/Pineapp95857268/status/2061098543453274208",
-      "https://pbs.twimg.com/media/HJp-GaMbwAAITO8.jpg"
-    ],
-    "2060702252831236215": [
-      "https://x.com/neural_avb/status/2060702252831236215"
     ],
     "2060771375640625568": [
       "https://x.com/Hi_Mrinal/status/2060771375640625568"
@@ -23057,11 +23142,27 @@
       "https://x.com/AtharvaXDevs/status/2071200664580190434",
       "https://x.com/AtharvaXDevs/status/2071299856048779775",
       "https://x.com/AtharvaXDevs/status/2071274705869574484",
-      "https://x.com/AtharvaXDevs/status/2071200693214724435"
+      "https://x.com/AtharvaXDevs/status/2071200693214724435",
+      "https://x.com/AtharvaXDevs/status/2071665293374668852",
+      "https://pbs.twimg.com/media/HMAImJ_aUAEmxBJ.jpg"
     ],
     "2071188760318836796": [
       "https://x.com/VoltexGar/status/2071188760318836796",
       "https://pbs.twimg.com/amplify_video_thumb/2070822449525010432/img/eS3keLM1iesDI-cr.jpg"
+    ],
+    "2071190510308401550": [
+      "https://x.com/_Stalinspears_/status/2071190510308401550",
+      "https://x.com/_Stalinspears_/status/2071248732562071837",
+      "https://x.com/_Stalinspears_/status/2071253717798596792",
+      "https://x.com/_Stalinspears_/status/2071303113743470820",
+      "https://x.com/_Stalinspears_/status/2071474542011171330",
+      "https://x.com/_Stalinspears_/status/2071253345533149607",
+      "https://x.com/_Stalinspears_/status/2071475036150505757",
+      "https://x.com/_Stalinspears_/status/2071253550370284007",
+      "https://x.com/_Stalinspears_/status/2071671250225664183",
+      "https://x.com/_Stalinspears_/status/2071659871737434467",
+      "https://pbs.twimg.com/amplify_video_thumb/2071659742280183808/img/by7ciJ0h6HYul2Ds.jpg",
+      "https://x.com/_Stalinspears_/status/2071651496731533639"
     ],
     "2071200096075575302": [
       "https://x.com/TomSolidPM/status/2071200096075575302",
@@ -23105,8 +23206,8 @@
     "2071227151634911415": [
       "https://x.com/TheEconomist/status/2071227151634911415",
       "https://www.economist.com/finance-and-economics/2026/06/25/will-ai-lower-interest-rates?taid=6a4124394ea26f00017bfa50&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
-      "https://x.com/TheEconomist/status/2071642578089357342",
-      "https://www.economist.com/britain/2026/06/29/is-andy-burnham-more-than-just-a-smart-casual-keir-starmer?taid=6a42a71ebbf4b00001c44bb7&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
+      "https://x.com/TheEconomist/status/2071740523145007190",
+      "https://www.economist.com/united-states/2026/06/25/americas-pro-israel-lobby-considers-next-steps?taid=6a43025655321100013804ae&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
     ],
     "2071230056903627015": [
       "https://x.com/pallavishekhar_/status/2071230056903627015",
@@ -23117,9 +23218,9 @@
     "2071239626128298131": [
       "https://x.com/0xCodez/status/2071239626128298131",
       "https://pbs.twimg.com/amplify_video_thumb/2071238253672300546/img/h8RvrvXOKn-m3BKN.jpg",
-      "https://x.com/0xCodez/status/2071242196209078276",
-      "https://x.com/0xCodez/status/2071247311129186633",
       "https://x.com/0xCodez/status/2071257337239584944",
+      "https://x.com/0xCodez/status/2071247311129186633",
+      "https://x.com/0xCodez/status/2071242196209078276",
       "https://x.com/0xCodez/status/2071258141950382200",
       "https://x.com/0xCodez/status/2071257534598349292"
     ],
@@ -23142,7 +23243,8 @@
     ],
     "2071262054518825179": [
       "https://x.com/jonkomet/status/2071262054518825179",
-      "http://x.com/i/article/2070560734388359168"
+      "http://x.com/i/article/2070560734388359168",
+      "https://x.com/jonkomet/status/2071708872050393592"
     ],
     "2071267194898620685": [
       "https://x.com/HarivanshRathi/status/2071267194898620685",
@@ -23167,9 +23269,7 @@
     ],
     "2071297810717110326": [
       "https://x.com/AY_Orbach/status/2071297810717110326",
-      "https://x.com/AY_Orbach/status/2070623474117128686",
-      "https://emunahessays.com",
-      "https://pbs.twimg.com/media/HLxUb34WQAAKeMD.jpg"
+      "https://x.com/AY_Orbach/status/2071697392051552580"
     ],
     "2071298319897211020": [
       "https://x.com/h100envy/status/2071298319897211020",
@@ -23201,14 +23301,14 @@
       "https://x.com/geoffreylitt/status/2071328567372501048",
       "https://x.com/geoffreylitt/status/2071361083722682870",
       "https://x.com/geoffreylitt/status/2071353874360009177",
+      "https://x.com/geoffreylitt/status/2071329112216793534",
       "https://x.com/geoffreylitt/status/2071363098137788569",
       "https://pbs.twimg.com/media/HL71eOvbQAAx2h6.png",
       "https://x.com/geoffreylitt/status/2071602234773606591",
       "https://dailypapert.com/wp-content/uploads/2016/08/papert_microWorlds_chapter.pdf",
       "https://pbs.twimg.com/media/HL_PQQ2agAA8Sbe.jpg",
-      "https://x.com/geoffreylitt/status/2071329112216793534",
-      "https://x.com/geoffreylitt/status/2071357283297263961",
-      "https://x.com/geoffreylitt/status/2071366347528024275"
+      "https://x.com/geoffreylitt/status/2071366347528024275",
+      "https://x.com/geoffreylitt/status/2071357283297263961"
     ],
     "2071323617485353446": [
       "https://x.com/rgmcgrath/status/2071323617485353446",
@@ -23233,6 +23333,7 @@
       "https://pbs.twimg.com/media/HL7vwhGX0AAZl2z.png",
       "https://x.com/MarcJSchmidt/status/2071560279247253509",
       "https://x.com/MarcJSchmidt/status/2071509795618615316",
+      "https://x.com/MarcJSchmidt/status/2071719067623346556",
       "https://x.com/MarcJSchmidt/status/2071632399021023432",
       "https://x.com/MarcJSchmidt/status/2071609720931000555",
       "https://x.com/MarcJSchmidt/status/2071525163183559154"
@@ -23242,6 +23343,23 @@
       "https://pbs.twimg.com/amplify_video_thumb/2071383852325441537/img/DHX5KQ9hvt6uBqFe.jpg",
       "https://x.com/0xPure_eth/status/2071646877125124353",
       "https://pbs.twimg.com/amplify_video_thumb/2071646811303866368/img/5FGBumgaOJq6OU-r.jpg"
+    ],
+    "2071385982566342669": [
+      "https://x.com/RMUTO_/status/2071385982566342669",
+      "https://x.com/RMUTO_/status/2071464282928161276",
+      "https://x.com/RMUTO_/status/2071405885260210535",
+      "https://x.com/RMUTO_/status/2071461837686591538",
+      "https://x.com/RMUTO_/status/2071528771950194785",
+      "https://x.com/RMUTO_/status/2071555079388184809",
+      "https://x.com/RMUTO_/status/2071463225787318667",
+      "https://x.com/RMUTO_/status/2071507291195478241",
+      "https://x.com/RMUTO_/status/2071473348035383387",
+      "https://x.com/RMUTO_/status/2071430602981617797",
+      "https://x.com/RMUTO_/status/2071432762117005484",
+      "https://x.com/RMUTO_/status/2071672294380913049",
+      "https://x.com/RMUTO_/status/2071670767469670899",
+      "https://x.com/RMUTO_/status/2071457747749437869",
+      "https://x.com/RMUTO_/status/2071476352788664639"
     ],
     "2071404852908081211": [
       "https://x.com/vipulved/status/2071404852908081211",
@@ -23256,16 +23374,35 @@
     ],
     "2071450531344642221": [
       "https://x.com/FT/status/2071450531344642221",
-      "https://ft.trib.al/49Ixgcf"
+      "https://ft.trib.al/49Ixgcf",
+      "https://x.com/FT/status/2071601159261802861",
+      "https://ft.trib.al/qvxOKv9",
+      "https://pbs.twimg.com/media/HL_ORKeW8AAUdMI.jpg"
     ],
     "2071484080181625145": [
       "https://x.com/smirf_05/status/2071484080181625145",
       "http://x.com/i/article/2071481305091485696",
       "https://x.com/smirf_05/status/2071529162024882629",
       "https://x.com/smirf_05/status/2071561791495401712",
-      "https://x.com/smirf_05/status/2071522157772112042",
+      "https://x.com/smirf_05/status/2071561764484071907",
       "https://x.com/smirf_05/status/2071522118219747437",
-      "https://x.com/smirf_05/status/2071561764484071907"
+      "https://x.com/smirf_05/status/2071522157772112042"
+    ],
+    "2071501778609483984": [
+      "https://x.com/liuyi0922/status/2071501778609483984",
+      "https://pbs.twimg.com/media/HL9z4wFbIAAqONB.jpg",
+      "https://x.com/liuyi0922/status/2071503680189481067",
+      "https://x.com/liuyi0922/status/2071502307943190784",
+      "https://x.com/liuyi0922/status/2071520591463764400",
+      "https://x.com/liuyi0922/status/2071527574250143797",
+      "https://x.com/liuyi0922/status/2071520622975627727",
+      "https://x.com/liuyi0922/status/2071243343636681186",
+      "https://pbs.twimg.com/media/HL6I14hbEAEWAnU.jpg",
+      "https://x.com/liuyi0922/status/2071187854194274308",
+      "https://pbs.twimg.com/media/HL5WX6qasAAbtDo.jpg",
+      "https://pbs.twimg.com/media/HL5WX6oaoAAzri9.jpg",
+      "https://x.com/liuyi0922/status/2071147146972451307",
+      "https://pbs.twimg.com/media/HL4xWatbAAA7e1P.jpg"
     ],
     "2071522418594861215": [
       "https://x.com/_avichawla/status/2071522418594861215",
@@ -23280,8 +23417,39 @@
     "2071565143226405079": [
       "https://x.com/business/status/2071565143226405079",
       "https://www.bloomberg.com/news/articles/2026-06-29/ai-notetaker-tools-recording-zoom-meetings-threaten-privacy-etiquette?taid=6a425f00553211000137feca&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter"
+    ],
+    "2071629451712983319": [
+      "https://x.com/sydneyrunkle/status/2071629451712983319",
+      "http://x.com/i/article/2071621950749777920"
+    ],
+    "2071675130229432691": [
+      "https://x.com/baladadoloucom/status/2071675130229432691",
+      "https://pbs.twimg.com/tweet_video_thumb/HMARjKyWAAA08lU.jpg",
+      "https://x.com/baladadoloucom/status/2071685654157644024",
+      "https://x.com/AtaqueFutbolero/status/2071673434912772424?s=20",
+      "https://x.com/baladadoloucom/status/2071704258747965849",
+      "https://x.com/baladadoloucom/status/2071724398285918618",
+      "https://x.com/baladadoloucom/status/2071700144123236499",
+      "https://x.com/baladadoloucom/status/2071715054391640348",
+      "https://x.com/baladadoloucom/status/2071683777043013958",
+      "https://x.com/baladadoloucom/status/2071702227119390877",
+      "https://pbs.twimg.com/tweet_video_thumb/HMAqMf4XoAA_kkv.jpg",
+      "https://x.com/baladadoloucom/status/2071737393053409578",
+      "https://x.com/baladadoloucom/status/2071691306691137750",
+      "https://x.com/baladadoloucom/status/2071715498442576189",
+      "https://x.com/baladadoloucom/status/2071742763779920018",
+      "https://pbs.twimg.com/tweet_video_thumb/HMBPDwbWIAAkgDc.jpg",
+      "https://x.com/baladadoloucom/status/2071671560256012558",
+      "https://pbs.twimg.com/tweet_video_thumb/HMAOTIFXcAAcKHY.jpg",
+      "https://x.com/baladadoloucom/status/2071659506589655486",
+      "https://x.com/baladadoloucom/status/2071700326294425734",
+      "https://x.com/baladadoloucom/status/2071687953902899537",
+      "https://x.com/baladadoloucom/status/2071716060894543883",
+      "https://x.com/baladadoloucom/status/2071715253319033307",
+      "https://pbs.twimg.com/tweet_video_thumb/HMA2CufWEAAypkf.jpg",
+      "https://x.com/baladadoloucom/status/2071725089473597928"
     ]
   },
-  "updated_at": "2026-06-29T18:23:31Z",
+  "updated_at": "2026-06-30T00:19:26Z",
   "window": "recent"
 }

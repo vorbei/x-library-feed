@@ -1384,6 +1384,24 @@
       "title": "Hostinger Horizons",
       "url": "http://aiandtheattorney.com"
     },
+    "http://aisolo.beehiiv.com/subscribe": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "I help non-technical people make more money with AI agents. Easy-to-follow workflows you can copy-paste into your own business.",
+      "final_url": "https://aisolo.beehiiv.com/subscribe",
+      "frameable": null,
+      "image_urls": [
+        "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/publication/thumbnail/9421fc76-ff87-4e9e-acc4-f37b434324c8/landscape_clean_Gemini_Generated_Image_qcr62uqcr62uqcr6.png?v=1780110440",
+        "https://media.beehiiv.com/cdn-cgi/image/format=auto,fit=scale-down,onerror=redirect/uploads/publication/logo/9421fc76-ff87-4e9e-acc4-f37b434324c8/aisolopreneurlogo.jpeg"
+      ],
+      "kind": "article",
+      "text_excerpt": "The AI Solopreneur I help non-technical people make more money with AI agents. Easy-to-follow workflows you can copy-paste into your own business. Join free By subscribing, you agree to our Privacy Policy and Terms of Service. Let me read it first FAQ FAQ Impressum Impressum Fynnster Limited director: Ole Lehmann Anthypolochagou Georgiou M. Savva, 26, SHOP 1-2 Geroskipou, 8201, Paphos, Cyprus VAT ID: CY10426252R Email: [email protected] Registered as a Limited Liability Company in Cyprus Company Registration Number: HE123456",
+      "text_excerpt_zh": "AI Solopreneur 我帮助非技术人士通过AI智能体赚更多钱。易于遵循的工作流程，可直接复制粘贴到你的业务中。免费加入 订阅即表示你同意我们的隐私政策和服务条款。让我先阅读一下 常见问题 常见问题 法律声明 法律声明 Fynnster Limited 董事：Ole Lehmann Anthypolochagou Georgiou M. Savva, 26, SHOP 1-2 Geroskipou, 8201, Paphos, Cyprus 增值税号：CY10426252R 邮箱：[email protected] 在塞浦路斯注册为有限责任公司 公司注册号：HE123456",
+      "text_excerpt_zh_hash": "ecfcf4add5161ca2",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "Subscribe | The AI Solopreneur",
+      "url": "http://aisolo.beehiiv.com/subscribe"
+    },
     "http://appmotion.design": {
       "content_type": "",
       "description": "",
@@ -9930,6 +9948,32 @@
       "text_excerpt_zh": "",
       "title": "GitHub - huginn/huginn: Create agents that monitor and act on your behalf. Your agents are standing by! · GitHub",
       "url": "https://github.com/huginn/huginn"
+    },
+    "https://github.com/hugohe3/ppt-master": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He - hugohe3/ppt-master",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/hugohe3/ppt-master",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/0c490ab83d9c7b40a88bb38418462f9a0ed218ca827064d810f35a069d6f2ff1/hugohe3/ppt-master",
+        "https://camo.githubusercontent.com/9929ce18dd25009b975f967fa216e22346fd807ef0318eea9f18f2ad0e2a89d9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f76657273696f6e2d76322e382e302d626c75652e737667",
+        "https://camo.githubusercontent.com/fdf2982b9f5d7489dcf44570e714e3a15fce6253e0cc6b5aa61a075aac2ff71b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f772e737667",
+        "https://camo.githubusercontent.com/18867fcad117f0424f5797f4718cec31a2f0c95459346a8bd99a3228e1785380/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6875676f6865332f7070742d6d61737465722e737667",
+        "https://camo.githubusercontent.com/5160591084419db9b02450e8a356926b3667b049d639651eede1bcef0be8528c/68747470733a2f2f61746f6d6769742e636f6d2f6875676f6865332f7070742d6d61737465722f737461722f62616467652e737667",
+        "https://github.com/hugohe3/ppt-master/raw/main/docs/assets/sponsors/packycode.png",
+        "https://github.com/hugohe3/ppt-master/raw/main/docs/assets/sponsors/apikey-fun.png",
+        "https://github.com/hugohe3/ppt-master/raw/main/docs/assets/screenshots/preview_pritzker_2026.png",
+        "https://github.com/hugohe3/ppt-master/raw/main/docs/assets/screenshots/preview_global_ai_capital.png",
+        "https://github.com/hugohe3/ppt-master/raw/main/docs/assets/screenshots/preview_swiss_grid.png",
+        "https://github.com/hugohe3/ppt-master/raw/main/docs/assets/screenshots/preview_glassmorphism_demo.png",
+        "https://github.com/hugohe3/ppt-master/raw/main/docs/assets/screenshots/preview_sugar_rush_memphis.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - hugohe3/ppt-master: AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He · GitHub",
+      "url": "https://github.com/hugohe3/ppt-master"
     },
     "https://github.com/hxdflying/EvoPaw": {
       "content_type": "text/html; charset=utf-8",
@@ -25699,6 +25743,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJfa2jPWgAEWAFc.jpg"
     },
+    "https://pbs.twimg.com/media/HJfzr7yaAAAP20H.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJfzr7yaAAAP20H.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJfzr7yaAAAP20H.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJfzr7yaAAAP20H.jpg"
+    },
     "https://pbs.twimg.com/media/HJgD00KWoAIbz_u.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -25754,6 +25812,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJgw6erX0AU3lVX.jpg"
+    },
+    "https://pbs.twimg.com/media/HJp-GaMbwAAITO8.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJp-GaMbwAAITO8.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJp-GaMbwAAITO8.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJp-GaMbwAAITO8.jpg"
     },
     "https://pbs.twimg.com/media/HJuSUJhbcAEVkhx.png": {
       "cleaner_v": 2,
@@ -40553,6 +40625,15 @@
       "https://x.com/antirez/status/2060375845110223007",
       "https://x.com/antirez/status/2060376095338168679"
     ],
+    "2060383294374793606": [
+      "https://x.com/itsolelehmann/status/2060383294374793606",
+      "https://pbs.twimg.com/media/HJfzr7yaAAAP20H.jpg",
+      "https://x.com/itsolelehmann/status/2060388464164827198",
+      "http://aisolo.beehiiv.com/subscribe",
+      "https://x.com/itsolelehmann/status/2061339189237493837",
+      "https://x.com/itsolelehmann/status/2061339128583643246",
+      "https://x.com/itsolelehmann/status/2061339390308200804"
+    ],
     "2060399898798018696": [
       "https://x.com/RianSweetDoris/status/2060399898798018696",
       "http://x.com/i/article/2060357382052454403"
@@ -40644,9 +40725,20 @@
       "https://x.com/eng_khairallah1/status/2060659546201391526",
       "https://x.com/eng_khairallah1/status/2060656465661313442"
     ],
+    "2060661948669440379": [
+      "https://x.com/Pineapp95857268/status/2060661948669440379",
+      "https://github.com/hugohe3/ppt-master",
+      "https://x.com/Pineapp95857268/status/2060860811154018574",
+      "https://x.com/Pineapp95857268/status/2060860753205452960",
+      "https://x.com/Pineapp95857268/status/2061098543453274208",
+      "https://pbs.twimg.com/media/HJp-GaMbwAAITO8.jpg"
+    ],
     "2060675167152648270": [
       "https://x.com/systematicls/status/2060675167152648270",
       "https://x.com/systematicls/status/2060729732413747471"
+    ],
+    "2060702252831236215": [
+      "https://x.com/neural_avb/status/2060702252831236215"
     ],
     "2060708326829170785": [
       "https://x.com/bibryam/status/2060708326829170785",
@@ -40659,6 +40751,6 @@
       "http://weeklyaiops.com"
     ]
   },
-  "updated_at": "2026-06-29T18:23:31Z",
+  "updated_at": "2026-06-30T00:19:26Z",
   "window": "archive"
 }
