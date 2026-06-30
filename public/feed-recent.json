@@ -6532,6 +6532,24 @@
       "title": "Loop Engineering AddyOsmani.com - Loop Engineering",
       "url": "https://addyosmani.com/blog/loop-engineering/"
     },
+    "https://agentos-sdk.dev/docs/js-runtime/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "How agentOS runs guest JavaScript: native V8 acceleration, low memory overhead, and Node.js compatibility.",
+      "final_url": "https://agentos-sdk.dev/docs/js-runtime/",
+      "frameable": null,
+      "image_urls": [
+        "https://agentos-sdk.dev/images/agent-os/agentos-hero-logo.svg",
+        "https://agentos-sdk.dev/images/registry/pi.svg",
+        "https://agentos-sdk.dev/images/registry/claude-code.svg",
+        "https://agentos-sdk.dev/images/registry/codex.svg",
+        "https://agentos-sdk.dev/images/registry/opencode.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Skip to main content Toggle navigation menu Documentation Cookbooks Use Cases Registry Deploy Search... Search... K GitHub Documentation Cookbooks Introduction General Quickstart Crash Course agentOS vs Sandbox Agent Agents Pi ClaudeCode Beta Codex Beta OpenCode Custom Agents Sessions & Transcripts Approvals LLM Credentials LLM Gateway Coming Soon Operating System Software Filesystem Bindings Processes & Shell Networking & Previews Cron Jobs Sandbox Mounting Beta JavaScript Runtime Permissions Resource Limits Orchestration Authentication Webhooks Multiplayer & Realtime Agent-to-Agent Workflows Reference API Reference Deploy Custom Software Definition Building Binaries Request Software Architecture Overview Security Model Limitations Advanced Agent Sessions Agent SDK Snapshots Sessions & Persistence Processes Filesystem Networking POSIX Syscalls Compiler Toolchain Limits & Observability System Prompt Persistence & Sleep More Core SDK Debugging Benchmarks Cost Evaluation Copy Markdown Operating System JavaScript Runtime How agentOS runs guest JavaScript: native V8 acceleration, low memory overhead, and Node.js compatibility. The JavaScript runtime is powered by the Rivet Secure Exec project, which provides the isolated V8 runtime that agentOS runs guest code in. Every guest VM executes its JavaScript inside this runtime, fully sandboxed from the host. JavaScript Acceleration JavaScript is unusually slow as WebAssembly : unlike most software, JavaScript pays a heavy penalty when compiled to WebAssembly, because so much engineering has gone into JIT-compiling JavaScript directly in V8. Native V8, full JIT : agentOS therefore runs guest JavaScript on the native V8 engine with its full JIT compiler, not through a WASM translation layer. We call this JavaScript Acceleration . Native-speed execution : guest JavaScript runs at native speed while staying inside the isolation boundary, with normal Node.js semantics. Comparison to Node.js efficiency Isolate model, not processes : agentOS runs each agent inside a V8 isolate rather than spawning a full Node.js process per agent. Low memory overhead : an isolate carries far less per-agent memory overhead than a full Node.js process, so many agents fit in the footprint that a process-per-agent model would spend on a handful. Benchmarks : see the Secure Exec benchmarks for cold start, warm execution, and reuse measurements. Node.js compatibility Guest code runs as Node.js (reporting process.version as v22.0.0 ), but it never touches the host runtime. Every node: builtin resolves to a kernel-backed bridge or an in-isolate polyfill, never the real host module. For the full builtin matrix ( fs , net , http , crypto , undici-backed fetch , and more), see the Secure Exec Node.js Compatibility reference. npm packages By default the VM has no npm packages installed. Mount a host node_modules directory to give guest code access to real packages: the nodeModulesMount helper projects it read-only at /root/node_modules , and the in-kernel resolver walks it exactly like Node.js does, with no bundling or patching. Full Example Copy import { agentOS , setup , nodeModulesMount } from \"@rivet-dev/agentos\" ; const vm = agentOS ({ // Project a host node_modules tree into the VM (read-only by default). mounts : [ nodeModulesMount ( \"/absolute/path/to/node_modules\" )] , }) ; export const registry = setup ({ use : { vm } }) ; registry . start () ; Resolution matches naive Node.js over the mounted tree: the ancestor node_modules walk, package.json exports / imports and conditions, and realpath /symlink following (so pnpm and yarn layouts resolve too). Both ESM import and CommonJS require work. See the Secure Exec module loading guide for the full model. Edit this page JavaScript Acceleration Comparison to Node.js efficiency Node.js compatibility npm packages A portable open-source operating system for agents. Discord GitHub Twitter Product Use Cases Registry Developers Documentation Changelog GitHub © 2026 agentOS.",
+      "title": "JavaScript Runtime - agentOS",
+      "url": "https://agentos-sdk.dev/docs/js-runtime/"
+    },
     "https://ailayoffs.rajnandan.com/?ref=sidebar": {
       "content_type": "text/html; charset=utf-8",
       "description": "Interactive simulation of Hemenway Falk & Tsoukalas (2026): competitive firms over-automate because each captures the full cost saving but only 1/N of the demand destruction.",
@@ -14968,76 +14986,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMDXDpVWwAAHr9t.jpg"
     },
-    "https://pbs.twimg.com/media/HME1qX7XgAAuUYW.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HME1qX7XgAAuUYW.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HME1qX7XgAAuUYW.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HME1qX7XgAAuUYW.jpg"
-    },
-    "https://pbs.twimg.com/media/HME50QWWkAAIwVd.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HME50QWWkAAIwVd.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HME50QWWkAAIwVd.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HME50QWWkAAIwVd.jpg"
-    },
-    "https://pbs.twimg.com/media/HME50QfXYAAfD-t.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HME50QfXYAAfD-t.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HME50QfXYAAfD-t.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HME50QfXYAAfD-t.jpg"
-    },
-    "https://pbs.twimg.com/media/HME7ZDJaQAANHx7.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HME7ZDJaQAANHx7.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HME7ZDJaQAANHx7.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HME7ZDJaQAANHx7.jpg"
-    },
-    "https://pbs.twimg.com/media/HME7ZDMasAAh6PC.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HME7ZDMasAAh6PC.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HME7ZDMasAAh6PC.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HME7ZDMasAAh6PC.jpg"
-    },
     "https://pbs.twimg.com/media/HME8FdAa0AAue4j.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15051,6 +14999,90 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HME8FdAa0AAue4j.jpg"
+    },
+    "https://pbs.twimg.com/media/HMFW40_aMAAX1BC.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMFW40_aMAAX1BC.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMFW40_aMAAX1BC.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMFW40_aMAAX1BC.jpg"
+    },
+    "https://pbs.twimg.com/media/HMFWiu-aYAAx5uT.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMFWiu-aYAAx5uT.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMFWiu-aYAAx5uT.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMFWiu-aYAAx5uT.jpg"
+    },
+    "https://pbs.twimg.com/media/HMFWyU7bAAAF73S.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMFWyU7bAAAF73S.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMFWyU7bAAAF73S.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMFWyU7bAAAF73S.jpg"
+    },
+    "https://pbs.twimg.com/media/HMFWyUwbQAAC4qO.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMFWyUwbQAAC4qO.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMFWyUwbQAAC4qO.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMFWyUwbQAAC4qO.jpg"
+    },
+    "https://pbs.twimg.com/media/HMFYm-BXoAAs81_.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMFYm-BXoAAs81_.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMFYm-BXoAAs81_.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMFYm-BXoAAs81_.jpg"
+    },
+    "https://pbs.twimg.com/media/HMFYm99XIAAOUJ5.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMFYm99XIAAOUJ5.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMFYm99XIAAOUJ5.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMFYm99XIAAOUJ5.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -16411,25 +16443,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Design Systems 2.0 | v0 Docs",
       "url": "https://v0.app/docs/design-systems-2"
-    },
-    "https://variety.com/2026/tv/news/dylan-obrien-hulu-comedy-pilot-lex-1236799265/": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=UTF-8",
-      "description": "Dylan O'Brien is set for the lead role in the Hulu comedy pilot \"Lex,\" Variety has learned.",
-      "final_url": "https://variety.com/2026/tv/news/dylan-obrien-hulu-comedy-pilot-lex-1236799265/",
-      "frameable": true,
-      "image_urls": [
-        "https://variety.com/wp-content/uploads/2026/06/Dylan-OBrien.jpg?w=1000&h=563&crop=1",
-        "https://sb.scorecardresearch.com/p?c1=2&c2=6035310&c4=&cv=3.9&cj=1",
-        "https://variety.com/wp-content/uploads/2026/06/Dylan-OBrien.jpg?w=1000&h=667&crop=1",
-        "https://variety.com/wp-content/themes/pmc-variety-2020/assets/public/lazyload-fallback.gif",
-        "https://pixel.quantserve.com/pixel?a.1=&a.2=p-31f3D02tYU8zY",
-        "https://px.ads.linkedin.com/collect/?pid=1429113&fmt=gif"
-      ],
-      "kind": "article",
-      "text_excerpt": "Plus Icon Film Plus Icon TV Plus Icon What To Watch Plus Icon Music Plus Icon Docs Plus Icon Digital & Gaming Plus Icon Global Plus Icon Awards Circuit Plus Icon Video Plus Icon What To Hear Plus Icon Click to expand the Mega Menu Plus Icon Click to Expand Search Input Got a Tip? Newsletters Switch edition between U.S. Edition Asia Edition Global Edition U.S. Asia Global Variety Plus Icon Click to expand the Mega Menu Plus Icon Click to Expand Search Input Variety Plus Icon Read Next: ‘Paris & Pups’ Producer HappyNest Entertainment Expands Slate With New R.L. Stine Series, ‘Louie and Bear’ Adaptation and Space Camp Franchise (EXCLUSIVE) Home TV News Jun 30, 2026 9:30am PT Dylan O’Brien to Play Disgraced Reality Star in Hulu Comedy Pilot ‘Lex’ By Joe Otterson Plus Icon Joe Otterson TV Reporter joeotterson Latest ‘Dutton Ranch’ Taps ‘SEAL Team’ Creator Benjamin Cavell as Season 2 Showrunner 18 minutes ago Dylan O’Brien to Play Disgraced Reality Star in Hulu Comedy Pilot ‘Lex’ 31 minutes ago ‘Reacher’ Spinoff ‘Neagley’ Sets Amazon Release Date, Drops First-Look Images 2 hours ago See All Getty Images for The Walt Disney Dylan O’Brien is set for the lead role in the Hulu comedy pilot “Lex,” Variety has learned. The pilot order for the project was originally announced in March . The logline for the show states that it follows Lex (O’Brien), “a disgraced former reality star who accidentally films a murder in the background of a $20 Cameo video, and finds himself at the center of a global conspiracy — and on the run from powerful forces who want him dead. Using the skills he acquired navigating reality TV’s toxic social dynamics, Lex must fight to not get killed, to expose the truth, and most importantly… to get back on TV.” Related Stories 'House of the Dragon' Season 3 Debuts With 21.5 Million Viewers in Three Days, Down Slightly From Season 2 'Life, Larry, and the Pursuit of Unhappiness': Isla Fisher and Jane Krakowski to Guest Star in HBO Sketch Series (EXCLUSIVE) Should “Lex” go to series, it would be O’Brien’s first regular television role since his time on the popular MTV series “Teen Wolf,” on which he starred for six seasons. He has primarily been seen in films, including leading the “Maze Runner” franchise and recent features like “Send Help” opposite Rachel McAdams, “Saturday Night” from Jason Reitman, and “Ponyboi.” He will next be seen in the upcoming Apple drama “Being Heumann.” Popular on Variety He is repped by WME, Principal Entertainment LA, and Lichter Grossman. O’Brien is an executive producer on “Lex” in addition to starring. Sean Clements is the writer and executive producer, with Paul Simms also executive producing. 20th Television is the studio. “Lex” is one of several pilots that Hulu currently has in contention. Most recently, the streamer announced a pilot pickup for the drama “Young Americans” from Chris Hutton & Eddie O’Keefe. currently prepping pilots for “Southern Bastards” starring Kevin Bacon, Erin Kellyman and Tim McGraw, “Durango” starring Cooper Hoffman and Kathryn Newton , and “Chicks” starring Ellen Pompeo among others. Hulu’s Onyx Collective also has Ryan Coogler’s “X-Files” reboot pilot in the works starring Danielle Deadwyler and Himesh Patel. Read More About: Dylan O'Brien, Hulu Jump to Comments More from Variety Ice Cube and Nia Long Reunite for ‘Are We There Yet?’ Sequel ‘Are They Gone Yet?’ for Skydance Sports Loading comments... Most Popular Daveigh Chase, Voice of Lilo in ‘Lilo & Stitch,’ Died of AIDS Ranbir Kapoor and Yash’s ‘Ramayana’ Tops IMDb’s Most Anticipated Indian Movies List for Second Half of 2026 (EXCLUSIVE) ‘Supergirl’ Braces for $100 Million Loss: What DC Studios Should Learn From Its Box Office Bomb Armie Hammer's ‘Citizen Vigilante’ Secures Worldwide Distribution Following Dramatic Elon Musk Intervention (EXCLUSIVE) Louis C.K. Re-Enters the Mainstream With Caustic Netflix Special ‘Ridiculous’: TV Review Bruce Springsteen Goes to PBS for Half-Hour Conversation With ‘NewsHou",
-      "title": "Dylan O'Brien to Play Disgraced Reality Star in Hulu Pilot 'Lex' Dylan O'Brien to Play Disgraced Reality Star in Hulu Pilot 'Lex'",
-      "url": "https://variety.com/2026/tv/news/dylan-obrien-hulu-comedy-pilot-lex-1236799265/"
     },
     "https://vercel.com/blog/introducing-eve": {
       "cleaner_v": 2,
@@ -18235,32 +18248,6 @@
       "text_excerpt_zh": "",
       "title": "UI Skills for Design Engineers | Curated Skill Directory",
       "url": "https://www.ui-skills.com/?ref=sidebar"
-    },
-    "https://www.vanityfair.com/story/katseye": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "‘VF’ goes backstage with Sophia Laforteza, Yoonchae Jeung, Daniela Avanzini, Megan Skiendiel, and Lara Raj as their global girl group prepares for world domination.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://www.vanityfair.com/story/katseye",
-      "frameable": null,
-      "image_urls": [
-        "https://media.vanityfair.com/photos/6a3c0b469ab3ea31074328c0/16:9/w_1280,c_limit/0726-Katseye-storycrop.jpg",
-        "https://media.vanityfair.com/photos/6a3c0b469ab3ea31074328c0/16:9/w_1280,c_limit/0726-Katseye-storycrop.jpg?mbid=social_retweet",
-        "https://media.vanityfair.com/photos/6a3c0b469ab3ea31074328c0/master/w_2560%2Cc_limit/0726-Katseye-storycrop.jpg",
-        "https://media.vanityfair.com/photos/6a3c0b46d73fd6af499dc9d7/master/w_1600%2Cc_limit/0726-Katseye%2520-embed%25202crop.jpg",
-        "https://media.vanityfair.com/photos/6a32edc165b461a0a68a1995/1:1/w_200%2Cc_limit/0720-Lisa-Story.jpg",
-        "https://media.vanityfair.com/photos/6a32f4ad1caeea337ab52fea/master/w_1600%2Cc_limit/0720-Katseye-embed%25201.jpg",
-        "https://media.vanityfair.com/photos/6a3403bc5dfffe1a97f6b7f5/1:1/w_200%2Cc_limit/0726-Lisa-embed-3.jpg",
-        "https://media.vanityfair.com/photos/62fe7adad5aecb907114563d/1:1/w_90%2Cc_limit/A_Headshots_DanielaTijerina_Revise.png",
-        "https://media.vanityfair.com/photos/6a31556a69c098b9a73efd05/4:3/w_1200%2Cc_limit/undefined",
-        "https://media.vanityfair.com/photos/6a3a97da60c205bb9b3981ba/4:3/w_1200%2Cc_limit/undefined",
-        "https://media.vanityfair.com/photos/6a3451c3ff3aba7148cd6645/4:3/w_1200%2Cc_limit/undefined",
-        "https://media.vanityfair.com/photos/6a209ad5722d7eaf1c782982/4:3/w_1200%2Cc_limit/undefined"
-      ],
-      "kind": "article",
-      "text_excerpt": "They look like life-size Bratz dolls fresh from the box, dressed in custom coordinating ensembles, each in different hues of cotton candy. They’re [Katseye](https://www.vanityfair.com/story/editors-letter-summer-issue-2026): the record-breaking [Grammy-nominated](https://www.vanityfair.com/topic) global girl group composed of Sophia Laforteza, 23; Daniela Avanzini, 22; Lara Raj, 20; Megan Skiendiel, 20; and Yoonchae Jeung, 18. Just moments from now, they’re going to make their [Coachella debut](https://www.vanityfair.com/culture/story/coachella).\nA massive crowd mills before the Sahara Stage as the women of Katseye are expertly wrangled through vocal warm-ups, last-minute choreo run-throughs, glam touch-ups, wardrobe changes, photo ops with everyone from Becky G to [Snoop Dogg](https://www.vanityfair.com/style/2022/01/snoop-dogg-answers-the-proust-questionnaire), and filming content with [Huntr/x](https://www.vanityfair.com/hollywood/story/kpop-demon-hunters-golden-ejae-interview), the fictional band from [KPop Demon Hunters](https://www.vanityfair.com/hollywood/story/kpop-demon-hunters-most-watched-netflix-history), which will later join them onstage.\nIt’s a constant, overstimulating tug of war for time and attention. “Me and Lara were like, ‘We have to find a corner and hide,’ ” Skiendiel later tells me. When they actually tried to, they were found within five minutes.\nAs cameras flash, Gatorades are sipped and shared, and meticulously placed rhinestones are swept away by the desert wind, the awestruck crowd backstage looks raptly at the Katseye machine at work—including [Trent Reznor](https://archive.vanityfair.com/article/2011/3/hot-tracks-trent-reznor), who’s standing to my right with two kids in tow.\nFinally, they take the stage. Lyrics like “Us against the world, shaking ass in the parking lot” reverberate through the desert, soaring over the crowd’s roars as they nail a precise, adrenaline-fueled set. Later, Skiendiel decodes a giddy moment of shared eye contact between the group onstage: “We were like, ‘We fucking ate that.’ ”\nBut not all of Katseye was eating. Twenty-four-year-old Manon Bannerman has been spotted roaming the festival grounds but she isn’t performing with her bandmates, because she’s been on hiatus from the group since February. A statement released by the entertainment conglomerate Hybe and Geffen Records said that Bannerman took a pause from Katseye to focus on her “health and wellbeing”; she did not participate in this interview. The weekend after Katseye’s show, she made headlines for jumping onstage while [PinkPantheress](https://www.vanityfair.com/culture/story/coachella-favorite-pinkpantheress) performed at Coachella.\n“I’m really happy that she’s able to enjoy things like that,” says Laforteza. “And have fun,” interjects Raj.\nThe rest of the group remains in lockstep, united in their dedication to Katseye—and the band’s shared narrative of sisterhood. “We’re actually best friends,” says Skiendiel with a convincing smile. “We know everything about each other,” Laforteza adds. “Every small thing, every big thing,” Skiendiel returns.\nWhen Katseye makes their way back to their artist compound, they’re showered with applause and met with an impressive parade of well-wishers: [Laufey](https://www.youtube.com/watch?v=3w_1HSTkCBA), [Young Miko](https://www.vanityfair.com/style/story/celebrity-cameos-la-casita-bad-bunny-super-bowl-2026-halftime-show), Diplo, their creative director Humberto Leon, and a sea of teary-eyed mothers, fathers, sisters, and boyfriends. When they finally cut through the crowd, they collapse into a group hug with Huntr/x.\nTheir Coachella experience wasn’t just an “I made it” moment, but a teaching moment. Watching Karol G, the festival’s first-ever Latina headliner, deliver a history-making set reminded the group just how high the bar is for young women of color in their industry.\n“Women really have to do the most. We have to go above and beyond to get 1 percent of the recogniti",
-      "title": "Katseye Is Ready to Talk About Manon, Coachella, and Everything Else | Vanity Fair",
-      "url": "https://www.vanityfair.com/story/katseye"
     },
     "https://www.wired.com/story/anthropic-restores-access-to-fable/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev": {
       "cleaner_v": 2,
@@ -23401,8 +23388,7 @@
     ],
     "2070639386786460059": [
       "https://x.com/boazbaraktcs/status/2070639386786460059",
-      "https://www.noemamag.com/how-ai-will-change-us/?utm_source=noematwitter&utm_medium=noemasocial",
-      "https://x.com/boazbaraktcs/status/2070927521592332423"
+      "https://www.noemamag.com/how-ai-will-change-us/?utm_source=noematwitter&utm_medium=noemasocial"
     ],
     "2070643039668974060": [
       "https://x.com/waterloo_intern/status/2070643039668974060",
@@ -23652,10 +23638,10 @@
       "https://x.com/_Stalinspears_/status/2071248732562071837",
       "https://x.com/_Stalinspears_/status/2071253717798596792",
       "https://x.com/_Stalinspears_/status/2071303113743470820",
-      "https://x.com/_Stalinspears_/status/2071474542011171330",
       "https://x.com/_Stalinspears_/status/2071475036150505757",
-      "https://x.com/_Stalinspears_/status/2071253345533149607",
+      "https://x.com/_Stalinspears_/status/2071474542011171330",
       "https://x.com/_Stalinspears_/status/2071253550370284007",
+      "https://x.com/_Stalinspears_/status/2071253345533149607",
       "https://x.com/_Stalinspears_/status/2072001005693116781",
       "https://x.com/_Stalinspears_/status/2071995803900498385",
       "https://x.com/_Stalinspears_/status/2071988575382491346"
@@ -23841,20 +23827,20 @@
     ],
     "2071385982566342669": [
       "https://x.com/RMUTO_/status/2071385982566342669",
-      "https://x.com/RMUTO_/status/2071464282928161276",
-      "https://x.com/RMUTO_/status/2071405885260210535",
       "https://x.com/RMUTO_/status/2071933991104516118",
+      "https://x.com/RMUTO_/status/2071464282928161276",
+      "https://x.com/RMUTO_/status/2071432762117005484",
       "https://x.com/RMUTO_/status/2071555079388184809",
       "https://x.com/RMUTO_/status/2071528771950194785",
+      "https://x.com/RMUTO_/status/2071507291195478241",
       "https://x.com/RMUTO_/status/2071473348035383387",
+      "https://x.com/RMUTO_/status/2071405885260210535",
       "https://x.com/RMUTO_/status/2071461837686591538",
-      "https://x.com/RMUTO_/status/2071463225787318667",
-      "https://x.com/RMUTO_/status/2071432762117005484",
       "https://x.com/RMUTO_/status/2071430602981617797",
       "https://x.com/RMUTO_/status/2071975993519071662",
       "https://x.com/RMUTO_/status/2071789782238175461",
       "https://x.com/RMUTO_/status/2071672294380913049",
-      "https://x.com/RMUTO_/status/2071507291195478241"
+      "https://x.com/RMUTO_/status/2071463225787318667"
     ],
     "2071404852908081211": [
       "https://x.com/vipulved/status/2071404852908081211",
@@ -23885,9 +23871,9 @@
       "http://x.com/i/article/2071481305091485696",
       "https://x.com/smirf_05/status/2071529162024882629",
       "https://x.com/smirf_05/status/2071561791495401712",
+      "https://x.com/smirf_05/status/2071522157772112042",
       "https://x.com/smirf_05/status/2071561764484071907",
-      "https://x.com/smirf_05/status/2071522118219747437",
-      "https://x.com/smirf_05/status/2071522157772112042"
+      "https://x.com/smirf_05/status/2071522118219747437"
     ],
     "2071501778609483984": [
       "https://x.com/liuyi0922/status/2071501778609483984",
@@ -23930,8 +23916,8 @@
     "2071574429897789698": [
       "https://x.com/TheEconomist/status/2071574429897789698",
       "https://www.economist.com/briefing/2026/06/25/ai-models-values-are-very-different-from-most-peoples?taid=6a4267a6344e0b0001934c37&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
-      "https://x.com/TheEconomist/status/2071973320472359038",
-      "https://www.economist.com/business/2026/06/30/donald-trumps-ai-regime-is-opaque-unpredictable-and-unsustainable?taid=6a43db257177c90001d8c4fe&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
+      "https://x.com/TheEconomist/status/2071997224855167366",
+      "https://www.economist.com/the-americas/2026/06/28/how-will-america-respond-to-venezuelas-deadly-quakes?taid=6a43f16863792900018a1382&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
     ],
     "2071588017878249890": [
       "https://x.com/nateherk/status/2071588017878249890",
@@ -23990,9 +23976,9 @@
       "https://x.com/Rlkjn22/status/2071707124397150360",
       "https://x.com/Rlkjn22/status/2071908437261234522",
       "https://x.com/Rlkjn22/status/2071771016360009849",
-      "https://x.com/Rlkjn22/status/2071721710903070886",
-      "https://x.com/Rlkjn22/status/2071767615509303792",
       "https://x.com/Rlkjn22/status/2071707299480051825",
+      "https://x.com/Rlkjn22/status/2071767615509303792",
+      "https://x.com/Rlkjn22/status/2071721710903070886",
       "https://x.com/Rlkjn22/status/2071751745303089252",
       "https://x.com/Rlkjn22/status/2071968107455791253",
       "https://x.com/Rlkjn22/status/2071942781807874368",
@@ -24001,16 +23987,20 @@
     "2071672946859688352": [
       "https://x.com/NathanFlurry/status/2071672946859688352",
       "http://x.com/i/article/2071662476635316224",
-      "https://x.com/NathanFlurry/status/2071716397617709492",
-      "http://git.new/secure-exec",
+      "https://x.com/NathanFlurry/status/2072032858437513584",
+      "https://pbs.twimg.com/media/HMFW40_aMAAX1BC.jpg",
+      "https://x.com/NathanFlurry/status/2072033652360589585",
+      "https://agentos-sdk.dev/docs/js-runtime/",
       "https://x.com/NathanFlurry/status/2071702725214294176",
       "http://executor.sh",
-      "https://x.com/NathanFlurry/status/2071702451301081310",
+      "https://x.com/NathanFlurry/status/2071716397617709492",
+      "http://git.new/secure-exec",
       "https://x.com/NathanFlurry/status/2071718117664038966",
+      "https://x.com/NathanFlurry/status/2071743746572787925",
       "https://x.com/NathanFlurry/status/2071702295176417760",
       "https://x.com/NathanFlurry/status/2071693169109164093",
-      "https://x.com/NathanFlurry/status/2071743746572787925",
-      "https://x.com/NathanFlurry/status/2071702191203897709"
+      "https://x.com/NathanFlurry/status/2071702191203897709",
+      "https://x.com/NathanFlurry/status/2071702451301081310"
     ],
     "2071673309746639190": [
       "https://x.com/warpdotdev/status/2071673309746639190",
@@ -24022,10 +24012,10 @@
       "https://x.com/baladadoloucom/status/2071772039686373842",
       "https://x.com/midori_tomoya/status/2071702967414317240?s=20",
       "https://x.com/baladadoloucom/status/2071700144123236499",
-      "https://x.com/baladadoloucom/status/2071737393053409578",
-      "https://x.com/baladadoloucom/status/2071683163068227668",
       "https://x.com/baladadoloucom/status/2071691306691137750",
-      "https://x.com/baladadoloucom/status/2071998675312644221",
+      "https://x.com/baladadoloucom/status/2071683163068227668",
+      "https://x.com/baladadoloucom/status/2071737393053409578",
+      "https://x.com/baladadoloucom/status/2071724398285918618",
       "https://x.com/baladadoloucom/status/2071700724761719156",
       "https://x.com/baladadoloucom/status/2071777870343503927",
       "https://x.com/baladadoloucom/status/2071742763779920018",
@@ -24033,16 +24023,16 @@
       "https://x.com/baladadoloucom/status/2071671560256012558",
       "https://pbs.twimg.com/tweet_video_thumb/HMAOTIFXcAAcKHY.jpg",
       "https://x.com/baladadoloucom/status/2071659506589655486",
-      "https://x.com/baladadoloucom/status/2071724398285918618",
+      "https://x.com/baladadoloucom/status/2071998675312644221",
       "https://x.com/baladadoloucom/status/2071715054391640348",
-      "https://x.com/baladadoloucom/status/2071760972759380145",
-      "https://x.com/baladadoloucom/status/2071761374854705601",
-      "https://x.com/baladadoloucom/status/2071725089473597928",
       "https://x.com/baladadoloucom/status/2071716823863607451",
       "https://pbs.twimg.com/tweet_video_thumb/HMA3eCJWkAA3Qkz.jpg",
-      "https://x.com/baladadoloucom/status/2071762750762623121",
+      "https://x.com/baladadoloucom/status/2071760972759380145",
+      "https://x.com/baladadoloucom/status/2071761374854705601",
       "https://x.com/baladadoloucom/status/2071761682020335929",
-      "https://x.com/baladadoloucom/status/2071778147322736750"
+      "https://x.com/baladadoloucom/status/2071762750762623121",
+      "https://x.com/baladadoloucom/status/2071725089473597928",
+      "https://x.com/baladadoloucom/status/2071715498442576189"
     ],
     "2071702736404426929": [
       "https://x.com/doubleemt/status/2071702736404426929",
@@ -24070,10 +24060,10 @@
       "https://pbs.twimg.com/media/HMAz779W8AAacHW.jpg",
       "https://x.com/DrizzleORM/status/2071716352071512386",
       "https://pbs.twimg.com/media/HMA2PM_XcAAMvrg.jpg",
-      "https://x.com/DrizzleORM/status/2071733236141592799",
       "https://x.com/DrizzleORM/status/2071718667650318694",
       "https://x.com/DrizzleORM/status/2071854629449556037",
       "https://x.com/DrizzleORM/status/2071855202848682147",
+      "https://x.com/DrizzleORM/status/2071733236141592799",
       "https://x.com/DrizzleORM/status/2071892291921346608",
       "https://pbs.twimg.com/media/HMDXDpVWwAAHr9t.jpg"
     ],
@@ -24081,16 +24071,14 @@
       "https://x.com/PopBase/status/2071737671509328354",
       "https://pbs.twimg.com/media/HMBKbi2awAAiy68.jpg",
       "https://pbs.twimg.com/media/HMBKbi4a0AAa3ee.jpg",
-      "https://x.com/PopBase/status/2072002608345371119",
-      "https://pbs.twimg.com/media/HME7ZDJaQAANHx7.jpg",
-      "https://pbs.twimg.com/media/HME7ZDMasAAh6PC.jpg",
-      "https://x.com/PopBase/status/2072000879008370804",
-      "https://www.vanityfair.com/story/katseye",
-      "https://pbs.twimg.com/media/HME50QfXYAAfD-t.jpg",
-      "https://pbs.twimg.com/media/HME50QWWkAAIwVd.jpg",
-      "https://x.com/PopBase/status/2071996319753716042",
-      "https://variety.com/2026/tv/news/dylan-obrien-hulu-comedy-pilot-lex-1236799265/",
-      "https://pbs.twimg.com/media/HME1qX7XgAAuUYW.jpg"
+      "https://x.com/PopBase/status/2072034734771737062",
+      "https://pbs.twimg.com/media/HMFYm-BXoAAs81_.jpg",
+      "https://pbs.twimg.com/media/HMFYm99XIAAOUJ5.jpg",
+      "https://x.com/PopBase/status/2072032730318348476",
+      "https://pbs.twimg.com/media/HMFWyUwbQAAC4qO.jpg",
+      "https://pbs.twimg.com/media/HMFWyU7bAAAF73S.jpg",
+      "https://x.com/PopBase/status/2072032461555708273",
+      "https://pbs.twimg.com/media/HMFWiu-aYAAx5uT.jpg"
     ],
     "2071751990753763630": [
       "https://x.com/GOATYELD/status/2071751990753763630",
@@ -24135,6 +24123,6 @@
       "http://x.com/i/article/2071936101921767424"
     ]
   },
-  "updated_at": "2026-06-30T17:15:54Z",
+  "updated_at": "2026-06-30T19:09:10Z",
   "window": "recent"
 }
