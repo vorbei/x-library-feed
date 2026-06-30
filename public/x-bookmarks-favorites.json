@@ -97,6 +97,9 @@
         "favorite@chumsdock"
       ],
       "text": "Nós Brasileiros 🇧🇷 somos melhores amigos dos Chineses 🇨🇳❤️ e amamos eles pq eles são comunistas, diferente de vocês Japoneses que só votam em políticos de direita que fazem o país de vocês piorar cada dia mais",
+      "text_zh": "我们巴西人 🇧🇷 是中国人 🇨🇳❤️ 最好的朋友，我们爱他们，因为他们是共产主义者，不像你们日本人，只会投票给那些让你们国家一天比一天更糟的右翼政客。",
+      "text_zh_hash": "1b0deebe4a394390",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/GOATYELD/status/2071751990753763630"
     },
     {
@@ -135,6 +138,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Humanity’s ability to innovate “outpaces” its ability to adapt, argues Carson Block. Workers made obsolete by AI will struggle to develop the skills to use it as a tool, rather than compete with it, he warns https://www.economist.com/asia/2026/06/28/why-cant-indias-government-build-a-decent-website?taid=6a425e51bbf4b00001c4486a&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "text_zh": "Carson Block认为，人类的创新能力\"超越\"了适应能力。他警告称，被人工智能淘汰的劳动者将难以掌握将其作为工具而非竞争对手的技能。",
+      "text_zh_hash": "60ff8b50c768d12d",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheEconomist/status/2071564408707268973"
     },
     {
@@ -221,6 +227,9 @@
         "favorite@chumsdock"
       ],
       "text": "⚡ iSH arm64 is now available on TestFlight https://testflight.apple.com/join/ZtGfhNkH",
+      "text_zh": "⚡ iSH arm64 现已可通过 TestFlight 获取 https://testflight.apple.com/join/ZtGfhNkH",
+      "text_zh_hash": "0770df26c0787d97",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/wsvn53/status/2071826408121213339"
     },
     {
@@ -263,6 +272,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "“More than a decade ago, the economist Erik Brynjolfsson made a prediction: AI would change everything,” Annie Lowrey writes. She spoke with him about how he came to the prediction and where he thinks society is headed: https://www.theatlantic.com/ideas/2026/06/erik-brynjolfsson-the-man-who-saw-ai-coming/687561/?taid=6a4284f3d34ca80001efcb59&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
+      "text_zh": "“十多年前，经济学家埃里克·布林约尔松曾做出预测：人工智能将改变一切，”安妮·洛瑞写道。她与他探讨了他是如何得出这一预测的，以及他认为社会将走向何方：https://www.theatlantic.com/ideas/2026/06/erik-brynjolfsson-the-man-who-saw-ai-coming/687561/?taid=6a4284f3d34ca80001efcb59&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
+      "text_zh_hash": "4f4490ba0249e5f9",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheAtlantic/status/2071605890143174764"
     },
     {
@@ -356,6 +368,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "What defines Filipino design today? Bianca Weeko Martin asks three tastemakers which designers—and directions—are quickening the nation’s creative pulse.\n\nhttps://design-milk.com/three-experts-share-what-defines-filipino-design-today/",
+      "text_zh": "今日的菲律宾设计由何定义？Bianca Weeko Martin 邀请三位品味引领者，探讨哪些设计师与方向正加速这个国家的创意脉搏。",
+      "text_zh_hash": "bce9d9da1b0c8de2",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/designmilk/status/2071655058274472268"
     },
     {
@@ -396,6 +411,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "people still say LLMs are \"just matrix multiplications\" (the AI version of saying humans are \"just electrochemical signals\"... technically true, completely uninformative)\n\nthis LW post from 2023 made the case against reductionism with what was available then: a small transformer learning discrete Fourier transforms to solve modular addition, evidence of internal board representations in Othello-trained models, ~50% on the MATH competition dataset after fine-tuning\n\nthree years later the delta is so hard to overstate: GPT-5 now scores 100% on AIME 2026 (the benchmark that replaced MATH because MATH got saturated), GPT-5.5 scores 95% on ARC-AGI (a benchmark specifically designed to resist pattern matching and test fluid reasoning), frontier models resolve real GitHub issues end-to-end at ~80% on SWE-bench\n\nand there's now a growing body of research and also AI neolabs specifically studying whether LLMs build internal spatial world models, and finding evidence that they do implicitly encode spatial and temporal relationships\n\nthe \"just pattern matching\" crowd keeps moving the goalposts as each previous goal gets cleared 🙄\n\nthough I do think that at some point everyone will convergre to an explanation that something real is happening inside these systems, even if we don't fully understand what\n\nhttp://lesswrong.com/posts/PwfwZ2LeoLC4FXyDA/against-llm-reductionism",
+      "text_zh": "人们仍说大语言模型“不过是矩阵乘法”（这就像说人类“不过是电化学信号”……技术上正确，但毫无信息量）。\n\n这篇2023年的LW文章用当时已有的证据反驳了还原论：一个小型Transformer通过学习离散傅里叶变换来解决模加法、在奥赛罗训练模型中存在内部棋盘表征的证据、微调后在MATH竞赛数据集上达到约50%的准确率。\n\n三年后的差距简直难以言表：GPT-5在AIME 2026上已取得100%的分数（该基准取代了因饱和而被淘汰的MATH），GPT-5.5在ARC-AGI上达到95%（一个专门设计来对抗模式匹配、测试流体推理的基准），前沿模型在SWE-bench上以约80%的成功率端到端解决真实的GitHub问题。\n\n而且现在有越来越多的研究以及AI新实验室专门探究大语言模型是否构建内部空间世界模型，并发现证据表明它们确实隐式编码了空间和时间关系。\n\n“不过是模式匹配”的那群人，每当上一个目标被攻克，就不断把球门往后移🙄。\n\n不过我确实认为，到了某个时候，所有人都会达成共识：这些系统内部确实在发生某种真实的事情，即使我们尚未完全理解它是什么。\n\nhttp://lesswrong.com/posts/PwfwZ2LeoLC4FXyDA/against-llm-reductionism",
+      "text_zh_hash": "74b7494e7fc5560a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/avgaydashenko/status/2071709543252513009"
     },
     {
@@ -557,6 +575,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Probably 10x better than any of the eduslopppp bullshit you'll find in the 15 min threads with 2k bookmarks that have been put out in the past year truth be told. The best way to learn will always be to just sit down and read and reread and reread again\n\nhttps://arxiv.org/abs/2606.24937",
+      "text_zh": "说实话，这很可能比过去一年里那些15分钟长、2000人收藏的帖子里充斥的“教育垃圾”要好上10倍。最好的学习方法永远是坐下来，一遍又一遍地读、再读、反复读。\n\nhttps://arxiv.org/abs/2606.24937",
+      "text_zh_hash": "b549d590adb57db8",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/not_ellington/status/2071434117456027959"
     },
     {
@@ -611,6 +632,9 @@
         "favorite@chumsdock"
       ],
       "text": "“I am Chinese but I hate China I don’t understand why Brazilians would like china” https://t.co/7R2VqdZgQf",
+      "text_zh": "“我是中国人，但我讨厌中国，我不明白为什么巴西人会喜欢中国” https://t.co/7R2VqdZgQf",
+      "text_zh_hash": "d45e1b5afdd30be6",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/jokieliu/status/2071794113075376284"
     },
     {
@@ -688,6 +712,9 @@
         "favorite@chumsdock"
       ],
       "text": "Essa vitória do Brasil contra o Japão foi em homenagem a todo o povo da China, da Coreia do Sul e da Coreia do Norte, que anos atrás sofreram horrores nas mãos do Império Japonês. Sintam-se vingados, os negadores do genocídio estão eliminados. É O BRASIL PORRAAAAAA",
+      "text_zh": "巴西战胜日本，是为了致敬中国、韩国和朝鲜人民——他们多年前曾遭受日本帝国的恐怖暴行。愿你们感到慰藉，那些否认大屠杀的人已被淘汰。这就是巴西，操！",
+      "text_zh_hash": "e5800848bb730e77",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Rlkjn22/status/2071670826420875321"
     },
     {
@@ -728,6 +755,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Beautiful piece in @NoemaMag  by @Houda_nait\n\n\"in my grandmother’s world, intelligence mattered less than presence... What the phones cannot do is sit. They cannot stay. They cannot make nashat, that joy that rose when people showed up.\"\n\nhttps://www.noemamag.com/how-ai-will-change-us/?utm_source=noematwitter&utm_medium=noemasocial",
+      "text_zh": "@NoemaMag 上 @Houda_nait 的精彩文章\n\n\"在我祖母的世界里，智慧不如在场重要……手机做不到的是静坐。它们无法停留。它们无法制造那种当人们出现时升起的喜悦——纳沙特。\"\n\nhttps://www.noemamag.com/how-ai-will-change-us/?utm_source=noematwitter&utm_medium=noemasocial",
+      "text_zh_hash": "0b8d7ffc10855a94",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/boazbaraktcs/status/2070639386786460059"
     },
     {
@@ -791,6 +821,9 @@
         "favorite@chumsdock"
       ],
       "text": "Paraguay has eliminated Germany from the World Cup. https://t.co/5krCrS5p7d",
+      "text_zh": "巴拉圭已将德国淘汰出世界杯。https://t.co/5krCrS5p7d",
+      "text_zh_hash": "b3fa489223091698",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/PopBase/status/2071737671509328354"
     },
     {
@@ -834,6 +867,9 @@
         "bookmark@chumsdock"
       ],
       "text": "When agents met Drizzle\ndrizzle-orm@1.0.0-rc.4 is out 🚀\n\n▪︎ Effect nerds, you now have native support for MySQL and SQLite drivers\n▪︎ LLM agents can now use drizzle-kit CLI and SDK to manage your schema and migrations\n▪︎ drizzke-kit now has MCP server and skills\n▪︎ new github action to manage multi-branch migrations in teams or concurrent agent development\n▪︎ next release is a v1 👀\n\n🧵",
+      "text_zh": "当智能体遇上 Drizzle\n\ndrizzle-orm@1.0.0-rc.4 已发布 🚀\n\n▪︎ Effect 爱好者们，现在原生支持 MySQL 和 SQLite 驱动\n▪︎ LLM 智能体现在可以使用 drizzle-kit CLI 和 SDK 来管理你的 schema 和迁移\n▪︎ drizzle-kit 现在拥有 MCP 服务器和技能\n▪︎ 新增 GitHub Action，用于在团队或并发智能体开发中管理多分支迁移\n▪︎ 下一个版本就是 v1 👀\n\n🧵",
+      "text_zh_hash": "1bf4e87490b6ac39",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/DrizzleORM/status/2071716332924465239"
     },
     {
@@ -888,6 +924,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "This one skill instantly levels up Claude's ability to research. \n\nGive this a 3 min read. https://t.co/peDCCs8ePU",
+      "text_zh": "这一技能能瞬间提升Claude的研究能力。\n\n花3分钟阅读。https://t.co/peDCCs8ePU",
+      "text_zh_hash": "90d4e215f7bfff32",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/nateherk/status/2071588179111469559"
     },
     {
@@ -970,6 +1009,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "GLM 5.2 is really good, but when these apparently disruptive moments arrive it’s important to remember the nature of “power objects”: when we know something is important but don’t fully know how it works, it becomes a bucket for all our pet issues. https://www.dbreunig.com/2025/01/31/deepseek-as-a-power-object.html",
+      "text_zh": "GLM 5.2 确实非常出色，但当这些看似颠覆性的时刻来临时，重要的是要记住“权力对象”的本质：当我们知道某物很重要，却不完全了解其运作方式时，它就会成为我们所有执念问题的容器。https://www.dbreunig.com/2025/01/31/deepseek-as-a-power-object.html",
+      "text_zh_hash": "a3f1974b0cfc4603",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/dbreunig/status/2071666800534949982"
     },
     {
@@ -1023,6 +1065,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Writing Loops, Not Prompts, Explained #devopsish https://rico.codes/loops-not-prompts https://t.co/9OLaO3H8vT",
+      "text_zh": "编写循环，而非提示词，详解 #devopsish https://rico.codes/loops-not-prompts https://t.co/9OLaO3H8vT",
+      "text_zh_hash": "e3484cda989447a3",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ChrisShort/status/2071662447690195290"
     },
     {
@@ -1101,6 +1146,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Users have to trust a handful of firms to be instilling appropriate values in their AI models.\nWe investigated 25 frontier AI models’ responses to a big opinion survey. Register for free to explore our findings https://www.economist.com/briefing/2026/06/25/ai-models-values-are-very-different-from-most-peoples?taid=6a4267a6344e0b0001934c37&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "text_zh": "用户不得不信任少数几家公司，让它们为AI模型灌输恰当的价值观。  \n我们调查了25个前沿AI模型对一项大型民意调查的回应。免费注册，探索我们的发现：  \nhttps://www.economist.com/briefing/2026/06/25/ai-models-values-are-very-different-from-most-peoples?taid=6a4267a6344e0b0001934c37&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "text_zh_hash": "27fceb23e7f74f3f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheEconomist/status/2071574429897789698"
     },
     {
