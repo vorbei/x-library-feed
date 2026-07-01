@@ -1292,22 +1292,6 @@
       "title": "",
       "url": "http://x.com/i/article/2059705598988701696"
     },
-    "http://x.com/i/article/2059942499565838336": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2059942499565838336",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059942499565838336/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJqMqc8aQAA0nyJ?format=jpg&name=900x900)](http://x.com/i/article/2059942499565838336/MichLieben/article/2061114475797946764/media/2061114440427388928)\n\nThe 7 APIs That Turn Claude Code Into A Full Cold Email Engine\n\n[![](https://pbs.twimg.com/profile_images/2032185394473955329/sT3lY5XL_normal.jpg)](http://x.com/i/article/2059942499565838336/MichLieben)\n\n[Michel Lieben](http://x.com/i/article/2059942499565838336/MichLieben)\n\n[@MichLieben](http://x.com/i/article/2059942499565838336/MichLieben)\n\n·\n\nMay 31\n\nFollow\n\nClick to Follow MichLieben\n\n3\n\n12\n\n44\n\n[8.4K](http://x.com/i/article/2059942499565838336/MichLieben/status/2061114475797946764/analytics)\n\nMost cold email stacks look like a Rube Goldberg machine. You export a list from Apollo, paste it into Clay, run waterfall enrichment, sanity-check the data, push to Lemlist, then jump back to Smartlead to monitor analytics. Five tabs open at once, three CSV exports done by hand, two manual joins to align lead IDs. By the time the campaign is live, the person who built it can't remember which step had stale data.\n\nThat model still runs most outbound teams. It works, but every tool is its own walled garden, and the operator spends more time moving CSVs around than thinking about who they're actually targeting.\n\nThe new way is different. The whole stack collapses into one place. A terminal window running Claude Code, with API access to every data provider you'd normally bounce between in a browser. You type what you want in plain English. The agent loads the right skill, calls the right API, pipes the result into the next one, and hands you a launched campaign at the end.\n\nWe've been running this exact setup at ColdIQ for client work after spending the last two years stitching together every flavor of GTM stack on the market across 400+ B2B companies. The article below is the full breakdown. Which 7 APIs to plug in and why each one. How to wire them as Claude Code skills. And the feedback loop that makes the system get smarter every campaign you launch.\n\n## \n\nWhy the browser-first GTM stack is hitting a wall\n\nClay solved a real problem when it launched. It gave operators a place to enrich, score, and reshape lead data without writing code. The trade-off was that everything still lives inside a spreadsheet UI. You're clicking, dragging columns, building tables. The cognitive load isn't gone. It just moved from CSVs to webhook chains.\n\nWhat changes with Claude Code is that the orchestration layer becomes a chat. You stop building the spreadsheet. You describe the outcome you want, and the agent figures out which APIs to call in which order. The APIs themselves haven't changed. The way you talk to them has.\n\nThere's a second shift that matters more. Every step the agent takes leaves an artifact. The company list, the signal results, the contact list, the enrichment outputs, the campaign push. All of it lands in the working directory as files. Next campaign, the agent has full memory of what was targeted, what data we already have, and what worked.\n\nThat's the piece no GUI tool gives you. The stack remembers.\n\n# \n\nThe 7-API stack at a glance\n\nHere's the pipeline we built for a recent walkthrough with Kenny on our YouTube channel. Each API does exactly one job. Together they take you from a vague targeting idea to a launched campaign with mobile numbers attached.\n\n[![Image](https://pbs.twimg.com/media/HJZlp5aaMAAgj8T?format=jpg&name=small)](http://x.com/i/article/2059942499565838336/MichLieben/article/2061114475797946764/media/2059945650029211648)\n\nPipeline flow\n\nThe seven providers, in order of where they show up in the workflow:\n\n* AI Ark: company-level database with 70M+ companies. The starting point for list building. Strong API for filters like employee count, industry, funding stage, and location. Has",
-      "text_excerpt_zh": "## 7个API让Claude Code变身完整的冷邮件引擎\n\n大多数冷邮件工具链看起来像一台鲁布·戈德堡机器。你从Apollo导出一个列表，粘贴到Clay中，运行瀑布式数据丰富，检查数据准确性，推送到Lemlist，然后跳回Smartlead监控分析。同时打开五个标签页，手动完成三次CSV导出，两次手动合并以对齐线索ID。等到活动上线时，构建它的人已经记不清哪个步骤的数据是过时的。\n\n这种模式仍然支撑着大多数外联团队。它确实能用，但每个工具都是自己的围墙花园，操作者花在搬运CSV上的时间比思考真正要瞄准谁的时间还多。\n\n新方式完全不同。整个工具链浓缩到一个地方。一个运行Claude Code的终端窗口，通过API访问你平时在浏览器里来回切换的每个数据提供商。你用自然语言输入需求。智能体加载正确的技能，调用正确的API，将结果传递给下一个，最后交给你一个已启动的活动。\n\n在ColdIQ，我们为客户的业务一直在运行这套配置。过去两年里，我们在400多家B2B公司中拼接过市场上各种类型的GTM工具链。下面的文章是完整的拆解：要接入哪7个API以及为什么选它们；如何将它们配置为Claude Code技能；以及让系统在你每次启动活动时都变得更智能的反馈循环。\n\n## 为什么浏览器优先的GTM工具链正在碰壁\n\nClay在推出时解决了一个真实问题。它让操作者无需编写代码就能丰富、评分和重塑线索数据。代价是，所有操作仍然在一个电子表格UI中进行。你点击、拖拽列、构建表格。认知负担并没有消失，只是从CSV转移到了Webhook链。\n\nClaude Code带来的变化是，编排层变成了一个聊天界面。你不再构建电子表格。你描述想要的结果，智能体自行决定按什么顺序调用哪些API。API本身没有变，但你和它们对话的方式变了。\n\n还有第二个更重要的转变。智能体执行的每一步都会留下一个工件。公司列表、信号结果、联系人列表、丰富后的输出、活动推送——所有这些都作为文件存放在工作目录中。下一次活动时，智能体拥有完整的记忆：之前瞄准了什么、我们已经拥有哪些数据、以及什么方法有效。\n\n这是任何图形界面工具都无法提供的。工具链会记住。\n\n## 7个API工具链一览\n\n以下是我们最近在YouTube频道上与Kenny一起演示时构建的管道。每个API只做一件事。它们合在一起，能让你从一个模糊的定位想法，直接走到一个已启动且附带手机号码的活动。\n\n管道流程\n\n按工作流中出现的顺序，这七个提供商是：\n\n- **AI Ark**：拥有7000万+公司的企业级数据库。列表构建的起点。提供强大的API过滤器，如员工数量、行业、融资阶段和地理位置。",
-      "text_excerpt_zh_hash": "16b42e4d2e34acaf",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2059942499565838336"
-    },
     "http://x.com/i/article/2060109453488455680": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1369,22 +1353,6 @@
       "title": "",
       "url": "http://x.com/i/article/2060705098053890053"
     },
-    "http://x.com/i/article/2061117982340730882": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2061117982340730882",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061117982340730882/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJqRBwfX0AI5cpf?format=jpg&name=900x900)](http://x.com/i/article/2061117982340730882/dimitarangg/article/2061119279177638025/media/2061119238857805826)\n\nhow we use borderline illegal methods to scrape B2B leads\n\n[![](https://pbs.twimg.com/profile_images/1986433387662356480/FsPWe7_p_normal.jpg)](http://x.com/i/article/2061117982340730882/dimitarangg)\n\n[Dimitar Angelov](http://x.com/i/article/2061117982340730882/dimitarangg)\n\n[@dimitarangg](http://x.com/i/article/2061117982340730882/dimitarangg)\n\n·\n\nMay 31\n\nFollow\n\nClick to Follow dimitarangg\n\n1\n\n4\n\n27\n\n[3.5K](http://x.com/i/article/2061117982340730882/dimitarangg/status/2061119279177638025/analytics)\n\nthe best leads in B2B outreach come from places that most people either don't know about or are too afraid to scrape\n\nhere's every method we use to find leads across databases that our competitors have never touched, producing lead lists that get 2-3x higher reply rates than anything you'll pull from Apollo\n\n## \n\nthe apollo problem and why we abandoned it\n\napollo has 250 million contacts and is the first tool every cold outreach person buys, which means every meaningful decision-maker has been pitched dozens of times by agencies pulling from the same database\n\nwe stopped using Apollo as our primary source two years ago and haven't looked back, our reply rates doubled within the first month of switching to alternative sources\n\n## \n\nmethod 1: google maps scraping at scale\n\nGoogle Maps contains every local and regional business with verified operating data, the scraping uses either Apify's Google Maps scraper or custom Python scripts with the Google Places API\n\nthe workflow: search for \\[business type\\] in \\[city\\], extract business name, address, phone, website, reviews, and rating, filter for established businesses (20+ reviews, 4+ stars, 10+ years), then enrich with decision-maker emails through web scraping and Hunter\n\none client targeting insurance agencies scraped 3,200 businesses across 50 cities and got reply rates of 4.8% compared to 1.5% on Apollo lists, the leads had never been pitched by cold email agencies because nobody thinks to scrape Maps for B2B outreach\n\n## \n\nmethod 2: linkedin behavioral scraping\n\nbeyond demographic filters on Sales Navigator, we scrape behavioral signals that indicate buying intent\n\njob changers in the last 90 days using Phantombuster to extract profiles, these people reply at 45% because they're rebuilding their tech stack, LinkedIn post engagement scraping to find people who commented on content related to your offer topic, hiring signal scraping from LinkedIn Jobs to identify companies actively investing in functions related to your service\n\n## \n\nmethod 3: twitter/X engagement and follower scraping\n\nscraping commenters and likers from niche tweets reveals people who self-identified as interested in your topic, reply rates on X-engagement-sourced lists run 6-8% compared to 2% from demographic-only sources\n\nfollower graph scraping: extracting followers of 5-10 niche authority accounts gives you tens of thousands of self-qualified prospects who follow content about your service area\n\ngiveaway participant scraping from niche giveaways (not mainstream ones that attract low-quality followers) produces concentrated pools of your exact ICP\n\n## \n\nmethod 4: crunchbase funding data scraping\n\nrecently funded companies have fresh budget, growth mandates, and maximum openness to cold outreach\n\nwe query Crunchbase for companies that received funding in the last 90 days in specific verticals, export founding team and executive profiles, and enrich with email addresses\n\nthe personalization hook is built in: \"saw the Series A announcement, congrats, curious how you're handling \\[problem\\] now that you're scaling\"\n\n(we deploy these scraping methods as part of our full outbound sy",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2061117982340730882/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJqRBwfX0AI5cpf?format=jpg&name=900x900)](http://x.com/i/article/2061117982340730882/dimitarangg/article/2061119279177638025/media/2061119238857805826)\n\n我们如何使用接近违法的手段抓取B2B线索\n\n[![](https://pbs.twimg.com/profile_images/1986433387662356480/FsPWe7_p_normal.jpg)](http://x.com/i/article/2061117982340730882/dimitarangg)\n\n[迪米塔尔·安格洛夫](http://x.com/i/article/2061117982340730882/dimitarangg)\n\n[@dimitarangg](http://x.com/i/article/2061117982340730882/dimitarangg)\n\n·\n\n5月31日\n\n关注\n\n点击关注 dimitarangg\n\n1\n\n4\n\n27\n\n[3.5K](http://x.com/i/article/2061117982340730882/dimitarangg/status/2061119279177638025/analytics)\n\nB2B外展中最好的线索来自那些大多数人要么不知道、要么不敢抓取的地方\n\n以下是我们用来在竞争对手从未触及的数据库中寻找线索的每一种方法，生成的线索列表回复率比从Apollo拉取的数据高出2-3倍\n\n## \n\nApollo的问题以及我们为何放弃它\n\nApollo拥有2.5亿联系人，是每个冷外联人员购买的第一个工具，这意味着每个有意义的决策者已经被使用同一数据库的机构推销过几十次\n\n我们两年前就停止将Apollo作为主要来源，并且再也没有回头，改用替代来源后的第一个月，我们的回复率就翻了一番\n\n## \n\n方法1：大规模抓取谷歌地图\n\n谷歌地图包含所有本地和区域企业及其经过验证的运营数据，抓取使用Apify的谷歌地图抓取器或基于谷歌Places API的自定义Python脚本\n\n工作流程：在\\[城市\\]中搜索\\[业务类型\\]，提取企业名称、地址、电话、网站、评论和评分，筛选出成熟企业（20+评论、4+星、10+年），然后通过网络抓取和Hunter丰富决策者的电子邮件\n\n一个针对保险机构的客户抓取了50个城市的3200家企业，回复率达到4.8%，而Apollo列表仅为1.5%，这些线索从未被冷邮件机构推销过，因为没人想到抓取地图用于B2B外展\n\n## \n\n方法2：LinkedIn行为抓取\n\n除了Sales Navigator的人口统计筛选器，我们还抓取表明购买意图的行为信号\n\n使用Phantombuster提取过去90天内换工作的人的资料，这些人回复率高达45%，因为他们正在重建技术栈；抓取LinkedIn帖子互动，找到评论与你产品主题相关的人；从LinkedIn招聘信息中抓取招聘信号，识别正在积极投资与你服务相关职能的公司\n\n## \n\n方法3：Twitter/X互动和粉丝抓取\n\n抓取小众推文的评论者和点赞者，可以揭示那些自我标识为对你的主题感兴趣的人，基于X互动来源的列表回复率在6-8%，而仅基于人口统计的来源仅为2%\n\n粉丝图谱抓取：提取5-10个小众权威账号的粉丝，可以获得数万个自我筛选的潜在客户，他们关注与你服务领域相关的内容\n\n小众赠品参与者抓取（非主流赠品，后者会吸引低质量粉丝）可以产生高度集中的理想客户画像池\n\n## \n\n方法4：Crunchbase融资数据抓取\n\n近期获得融资的公司拥有新鲜预算、增长任务和对外展的最大开放度\n\n我们查询Crunchbase获取过去90天内特定垂直领域获得融资的公司，导出创始团队和高管资料，并丰富电子邮件地址\n\n个性化钩子已内置：\"看到A轮融资公告，恭喜，好奇你们在扩张时如何处理\\[问题\\]\"\n\n（我们将这些抓取方法作为我们完整外展系统的一部分部署）",
-      "text_excerpt_zh_hash": "709d6d0e39898b51",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2061117982340730882"
-    },
     "http://x.com/i/article/2061125977577529344": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1400,22 +1368,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2061125977577529344"
-    },
-    "http://x.com/i/article/2061176923531984896": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2061176923531984896",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061176923531984896/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJrG44FbUAA7hiu?format=jpg&name=900x900)](http://x.com/i/article/2061176923531984896/garrytan/article/2061454423034110372/media/2061178459905544192)\n\nStop building Foxconn factories for your agents\n\n[![](https://pbs.twimg.com/profile_images/1922894268403941377/-dGWAt3N_normal.jpg)](http://x.com/i/article/2061176923531984896/garrytan)\n\n[Garry Tan![](https://pbs.twimg.com/profile_images/1623777064821358592/9CApQWXe_bigger.png)](http://x.com/i/article/2061176923531984896/garrytan)\n\n[@garrytan](http://x.com/i/article/2061176923531984896/garrytan)\n\n·\n\n3h\n\n·\n\nFollow\n\nClick to Follow garrytan\n\n44\n\n37\n\n366\n\n[108K](http://x.com/i/article/2061176923531984896/garrytan/status/2061454423034110372/analytics)\n\nIn January I got back into coding and I built \n\n[Garry's List](https://garryslist.org/)\n\n. Over five hundred thousand lines of Rails and the tests to police it.\n\nI was proud of it. I shouldn't have been. The thing worth being proud of wasn't the app. It was the setup that came out of building it. \n\n[GStack](https://github.com/garrytan/gstack)\n\n, the way I code with agents, grew out of the work of building Garry's List, and I gave it away. It's one of the hundred most-starred open source projects in GitHub history, about 105,000 stars in under three months. The half-million lines were the product. The setup was the byproduct. The byproduct is the part that mattered.\n\nHere is what 540,000 lines of code wrapped around an LLM actually is.\n\nIt is a Foxconn factory. Built for an hyper-intelligent AI worker who doesn't need hyper-vigilance. We built it anyway. \n\nLittle booties at the door. Up at 6am. Calisthenics. A life so hard you have to erect netting around high floors of every building, because... well, it's not a life you want to live. The same line of the assembly belt forever. Every test, every guardrail, every retry loop, an inch of cage bolted onto a worker who can already do the job and a thousand things you didn't ask for.\n\nHumans and agents both contain multitudes but Foxconn factories are built to squeeze intelligence and work out of beautiful beings that could do all that work and 1000x more if we let them. \n\nI built the factory. Everyone builds these today. I'm telling you not to.\n\n## \n\nThe time traveler\n\nWhat I actually did with my 539k LOC written was prove I could perfectly impersonate a time traveler. A 2013 Web 2.0 engineer (me, the last time I was a true software engineer) dropped into 2026 with modern tools, building the only way he knew how. More code. Always more code. The tools had changed. My instincts hadn't.\n\nThe 2013 engineer believes one thing in his bones: capability equals lines of code. That belief was correct for decades, until now. Hand me Codex or Claude Code and I'll do the work of 100 to 1000 engineers. Same map, faster engine, fastest possible route to the what is now the wrong place.\n\nThis is where almost everyone building with AI is right now. They upgraded the tool and kept the 2013 mental model. The trap doesn't feel like a trap, because the code works. Garry's List shipped. It felt like the most productive month of my life.\n\nIt was productivity in the service of an obsolete idea.\n\n## \n\nLLMs were expensive so we had to harness them\n\nThe old economics for many years through 2025: LLM calls were expensive and code was cheap. So you wrote code to ration the model, to harness it, to call it carefully and sparingly. The architecture was lots of software wrapped protectively around a few precious model calls.\n\nBoth halves of that equation have flipped.\n\nThe model is now becoming cheap and getting cheaper every quarter, and it's so smart that the value-cost ratio flipped. And the model can write usable code. So you stop writing code to babysit the model. You can now instruct the model in plain language, and you let it write",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2061176923531984896/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJrG44FbUAA7hiu?format=jpg&name=900x900)](http://x.com/i/article/2061176923531984896/garrytan/article/2061454423034110372/media/2061178459905544192)\n\n别再为你的 agent 建造富士康工厂了\n\n[![](https://pbs.twimg.com/profile_images/1922894268403941377/-dGWAt3N_normal.jpg)](http://x.com/i/article/2061176923531984896/garrytan)\n\n[Garry Tan![](https://pbs.twimg.com/profile_images/1623777064821358592/9CApQWXe_bigger.png)](http://x.com/i/article/2061176923531984896/garrytan)\n\n[@garrytan](http://x.com/i/article/2061176923531984896/garrytan)\n\n·\n\n3小时前\n\n·\n\n关注\n\n点击关注 garrytan\n\n44\n\n37\n\n366\n\n[108K](http://x.com/i/article/2061176923531984896/garrytan/status/2061454423034110372/analytics)\n\n今年一月我重新开始写代码，构建了 [Garry's List](https://garryslist.org/)。超过五十万行的 Rails 代码以及用于监管它的测试。\n\n我曾为此感到自豪。但我不该如此。真正值得自豪的不是这个应用本身，而是构建过程中产生的那个设置。[GStack](https://github.com/garrytan/gstack)，即我与 agent 协作编码的方式，源于构建 Garry's List 的工作，我把它开源了。它是 GitHub 历史上最受星标的开源项目之一，在不到三个月内获得了约 105,000 颗星。那五十万行代码是产品，而这个设置是副产品。副产品才是真正重要的部分。\n\n那么，围绕一个 LLM 构建的 54 万行代码实际上是什么？\n\n它是一个富士康工厂。为一个不需要高度警惕的超智能 AI 工人而建。但我们还是建了。\n\n门口的鞋套。早上 6 点起床。体操。一种艰难到需要在每栋高楼的高层架设防护网的生活，因为……嗯，这不是你想过的生活。永远在同一条流水线上。每一个测试、每一条护栏、每一个重试循环，都是给一个已经能胜任工作、并且能做你未曾要求的千百件事的工人，加上的又一层牢笼。\n\n人类和 agent 都蕴含着无限可能，但富士康工厂的建造是为了从那些美丽的生命身上榨取智力和劳动——如果我们允许，它们本可以完成所有这些工作，甚至多出 1000 倍。\n\n我建造了这座工厂。如今每个人都在建造这样的工厂。我告诉你们：不要这样做。\n\n## \n\n时间旅行者\n\n我写下的 53.9 万行代码，实际上证明了我能完美地扮演一个时间旅行者。一个 2013 年的 Web 2.0 工程师（也就是我，上一次我真正做软件工程师的时候）带着现代工具空降到 2026 年，用他唯一知道的方式构建东西：更多的代码。永远是更多的代码。工具变了，但我的本能没有。\n\n2013 年的工程师骨子里相信一件事：能力等于代码行数。这个信念在几十年来都是正确的，直到现在。给我 Codex 或 Claude Code，我能完成 100 到 1000 个工程师的工作。同样的地图，更快的引擎，通往现在错误地方的最快路线。\n\n这就是现在几乎所有用 AI 构建的人所处的状态。他们升级了工具，却保留了 2013 年的思维模式。这个陷阱感觉不像陷阱，因为代码能跑通。Garry's List 上线了。那感觉像是我一生中最有效率的一个月。\n\n这是一种为过时的理念服务的效率。\n\n## \n\nLLM 曾经很贵，所以我们不得不 harness 它们\n\n直到 2025 年，多年的旧经济学是这样的：LLM 调用很贵，而代码很便宜。所以你写代码来配给模型，来 harness 它，来小心而节约地调用它。架构是大量软件包裹着少量珍贵的模型调用。\n\n这个方程式的两边都已经翻转了。\n\n模型现在正在变得便宜，并且每个季度都在变得更便宜，而且它如此智能，以至于价值成本比已经翻转。而且模型能写出可用的代码。所以你不再需要写代码来 babysit 模型。你现在可以用自然语言指令模型，让它自己写代码。",
-      "text_excerpt_zh_hash": "0f6c7a893f1d4de4",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2061176923531984896"
     },
     "http://x.com/i/article/2061324501170688000": {
       "cleaner_v": 2,
@@ -7460,22 +7412,6 @@
       "title": "A Python Program To Scrape Any Website",
       "url": "https://browser-use.com/posts/fetch-use"
     },
-    "https://calendly.com/synergyaisolutions/discovery-call": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://calendly.com/synergyaisolutions/discovery-call",
-      "frameable": true,
-      "image_urls": [
-        "https://d3v0px0pttie1i.cloudfront.net/uploads/user/logo/47960481/opengraph_db994ee4.png?source=opengraph",
-        "https://d3v0px0pttie1i.cloudfront.net/uploads/user/logo/47960481/twitter_db994ee4.png?source=opengraph"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "Calendly",
-      "url": "https://calendly.com/synergyaisolutions/discovery-call"
-    },
     "https://career-research.mynavi.jp/column/20260615_111639/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -7585,35 +7521,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "How Claude Code works in large codebases: Best practices and where to start | Claude",
       "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start"
-    },
-    "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Dynamic workflows in Claude Code let Claude tackle the most challenging tasks by executing across 10s to 100s of parallel subagents, and checking its work before anything reaches you.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
-      "frameable": false,
-      "image_urls": [
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1871a9d0a0bd93c860cda7_og-dynamic-workflows.jpg",
-        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a186b2e070156fbb2df90ad_166befe7.png",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a186eb7c527a0f35719a37b_Klarna-light.svg",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a186eb3a5f68864d977de69_Klarna-dark.svg",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a186fa3128d757bc62363f8_cyberagent-light.svg",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a186faafd2bd2ff345e25ec_cyberagent-dark.svg",
-        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg"
-      ],
-      "kind": "article",
-      "text_excerpt": "- May 28, 2026\n- 5min\nToday we're introducing dynamic workflows in Claude Code, helping Claude take on the most challenging tasks end-to-end. Work you'd normally plan in quarters now finishes in days. Claude dynamically writes orchestration scripts that run tens to hundreds of parallel subagents in a single session, checking its work before anything reaches you.\nSome problems are too big for one pass by a single agent, especially in complex, legacy codebases: a bug hunt across an entire service, a migration that touches hundreds of files, a plan you want stress-tested from every angle before you commit to it. Dynamic workflows can handle all of these end-to-end.\nDynamic workflows are available today in research preview in the Claude Code CLI, Desktop, and the VS code extension for Max, Team, and Enterprise (if admin enabled) plans, as well as on the Claude API, on Amazon Bedrock, Vertex AI, and Microsoft Foundry.\nNote: Dynamic workflows can consume substantially more tokens than a typical Claude Code session, so we recommend starting on a scoped task to get a feel for usage in your work.\nFor the best experience, turn on auto mode when using dynamic workflows. From there, you have two ways to start a workflow:\n- Ask Claude to create a dynamic workflow directly (e.g., “Create a workflow”), or\n- Switch on a new Claude Code-specific setting called\nultracode\n. This is accessible through the effort menu and it sets the effort level to xhigh, while letting Claude decide automatically when to use a workflow to handle your task.\nDynamic workflows in action\nEarly access users and teams inside Anthropic have been using dynamic workflows for a wide range of use cases, including:\n- Codebase-wide bug hunts, profiler-guided optimization audits, and security audits: Claude searches a service or repo in parallel, then runs independent verification on every finding so the report surfaces real issues. The same shape works for hardening passes: auth checks, input validation, and unsafe patterns across an entire codebase.\n- Large migrations and modernization efforts: Claude can handle framework swaps, API deprecations, language ports that span thousands of files end-to-end.\n- Critical work you need checked twice: When the cost of a wrong answer is high, a workflow gives Claude independent attempts at the problem and adversarial agents working to break the result before you see it.\nRewriting Bun with dynamic workflows\nAn example of what dynamic workflows can unlock at scale is the recent rewrite of Bun. Jarred Sumner used dynamic workflows to port Bun from Zig to Rust with 99.8% of the existing test suite passing, roughly 750,000 lines of Rust, and eleven days from first commit to merge. One workflow mapped the right Rust lifetime for every struct field in the Zig codebase. The next wrote every .rs file as a behavior-identical port of its .zig counterpart, hundreds of agents working in parallel with two reviewers on each file. A fix loop then drove the build and test suite until both ran clean. After the port landed, an overnight workflow addressed unnecessary data copies and opened a PR for each for final review. While not yet in production, all of this was handled by dynamic workflows. Jarred will be writing about this more in the future.\nHow it works\nWhen a workflow kicks off, Claude plans dynamically based on your prompt, breaks it into subtasks, and fans the work out across subagents running in parallel. Results are checked before they're folded in, and you come back to a single, coordinated answer. Agents address the problem from independent angles, other agents try to refute what they found, and the run keeps iterating until the answers converge—which is how a workflow reaches results a single pass can't.\nDynamic workflows are built for parallel and long-running work that can extend into hours and days, doing the most complex engineering work that previously would have taken weeks. Progress is saved as the run goes, so a job that's interrupt",
-      "text_excerpt_zh": "- 2026年5月28日\n- 5分钟阅读\n\n今天，我们在 Claude Code 中引入了动态工作流，帮助 Claude 端到端地处理最具挑战性的任务。那些通常需要按季度规划的工作，现在只需几天就能完成。Claude 会动态编写编排脚本，在单个会话中运行数十到数百个并行子代理，并在任何结果交付给你之前自行检查工作。\n\n有些问题对于单次单代理处理来说过于庞大，尤其是在复杂、遗留的代码库中：跨整个服务的 Bug 排查、涉及数百个文件的迁移、或是在你最终决策前需要从各个角度进行压力测试的方案。动态工作流可以端到端地处理所有这些任务。\n\n动态工作流现已在研究预览版中推出，适用于 Claude Code CLI、桌面版、VS Code 扩展（Max、Team 和 Enterprise 计划，需管理员启用），以及 Claude API、Amazon Bedrock、Vertex AI 和 Microsoft Foundry。\n\n注意：动态工作流消耗的 token 量可能远超典型的 Claude Code 会话，因此我们建议从范围明确的任务开始，以了解其在工作中的使用情况。\n\n为获得最佳体验，请在使用动态工作流时开启自动模式。之后，你有两种方式启动工作流：\n- 直接要求 Claude 创建动态工作流（例如，“创建一个工作流”），或\n- 启用一个名为 `ultracode` 的新 Claude Code 专属设置。该设置可通过努力程度菜单访问，它将努力程度设为 xhigh，同时让 Claude 自动决定何时使用工作流来处理你的任务。\n\n### 动态工作流实战\n\n早期访问用户和 Anthropic 内部的团队已将动态工作流用于多种场景，包括：\n- **全代码库 Bug 排查、性能分析器引导的优化审计和安全审计**：Claude 并行搜索服务或仓库，然后对每个发现进行独立验证，确保报告只呈现真实问题。同样的模式也适用于加固检查：跨整个代码库的认证检查、输入验证和不安全模式。\n- **大规模迁移和现代化改造**：Claude 可以处理框架替换、API 弃用、跨数千个文件的端到端语言移植。\n- **需要双重检查的关键工作**：当错误答案的代价很高时，工作流会让 Claude 独立尝试解决问题，并安排对抗性代理在你看到结果之前尝试推翻它。\n\n### 用动态工作流重写 Bun\n\n动态工作流在规模上能解锁的能力，一个例子是近期对 Bun 的重写。Jarred Sumner 使用动态工作流将 Bun 从 Zig 移植到 Rust，现有测试套件通过率达 99.8%，生成了约 75 万行 Rust 代码，从首次提交到合并仅用十一天。一个工作流为 Zig 代码库中每个结构体字段映射了正确的 Rust 生命周期。下一个工作流将每个 `.zig` 文件编写为行为一致的 `.rs` 文件移植版本，数百个代理并行工作，每个文件配备两名审查者。随后一个修复循环驱动构建和测试套件，直到两者都干净运行。移植完成后，一个通宵工作流处理了不必要的数据拷贝，并为每个拷贝打开一个 PR 供最终审查。虽然尚未投入生产，但所有这些都由动态工作流处理。Jarred 未来将对此进行更详细的介绍。\n\n### 工作原理\n\n当工作流启动时，Claude 会根据你的提示动态规划，将其分解为子任务，并将工作分发给并行运行的子代理。结果在整合前会经过检查，你最终会得到一个统一的、协调的答案。代理从独立角度处理问题，其他代理尝试反驳它们的发现，运行会持续迭代直到答案收敛——这就是工作流如何达到单次处理无法企及的结果。\n\n动态工作流专为可延续数小时甚至数天的并行和长时间运行任务而构建，处理那些以前需要数周的最复杂工程工作。运行过程中会保存进度，因此可中断的任务也能从中断处继续。",
-      "text_excerpt_zh_hash": "bb83792748c2be88",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Introducing dynamic workflows | Claude",
-      "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code"
     },
     "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills": {
       "cleaner_v": 2,
@@ -7977,34 +7884,30 @@
       "title": "Declank: Remove AI Watermarks From Images Online, Free",
       "url": "https://declank.skeptrune.com/"
     },
-    "https://design-milk.com/dailyobjects-layer-node-loft-charging-collections/": {
+    "https://design-milk.com/polaroid-go-generation-3-instant-camera/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
-      "description": "DailyObjects and LAYER introduce Node and Loft, two design-forward charging collections with modular wireless charging and desktop power.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://design-milk.com/dailyobjects-layer-node-loft-charging-collections/",
+      "description": "The Polaroid Go Generation 3 updates the world’s smallest instant camera with a new lens, stronger flash, selfie mirror, and 5 fresh colors.",
+      "final_url": "https://design-milk.com/polaroid-go-generation-3-instant-camera/",
       "frameable": null,
       "image_urls": [
-        "https://design-milk.com/images/2026/06/12-1280x900-1.jpg",
+        "https://design-milk.com/images/2026/06/GoGen3-Polaroid-0.jpg",
         "https://design-milk.com/images/2025/12/2025-Top10-Best-10-Shield-Shelter-Lakeside-Home-Barbora-Vokac-Taylor-385x252.jpg",
         "https://design-milk.com/images/2025/12/SBC-Apartment-Brazil-Studio-Papaya-1-385x252.jpg",
-        "https://design-milk.com/images/2026/06/13-1280x1600-2.jpg",
-        "https://design-milk.com/images/2026/06/2-1280x1600-2.jpg",
-        "https://design-milk.com/images/2026/06/14-1280x1600-1.jpg",
-        "https://design-milk.com/images/2026/06/13-1280x1600-1.jpg",
-        "https://design-milk.com/images/2026/06/DO_NODE_16-1280x900-1.jpg",
-        "https://design-milk.com/images/2026/06/DO_NODE_04-1280x900-1.jpg",
-        "https://design-milk.com/images/2026/06/DO_NODE_10-1280x1600-1.jpg",
-        "https://design-milk.com/images/2026/06/11-1280x1600-1.jpg",
-        "https://design-milk.com/images/2026/06/10-1280x1600-1.jpg"
+        "https://design-milk.com/images/2026/06/GoGen3-Polaroid-7.jpg",
+        "https://design-milk.com/images/2026/06/GoGen3-Polaroid-6.jpg",
+        "https://design-milk.com/images/2026/06/GoGen3-Polaroid-5.jpg",
+        "https://design-milk.com/images/2026/06/GoGen3-Polaroid-4.jpg",
+        "https://design-milk.com/images/2026/06/GoGen3-Polaroid-3.jpg",
+        "https://design-milk.com/images/2026/06/GoGen3-Polaroid-2.jpg",
+        "https://design-milk.com/images/2026/06/GoGen3-Polaroid-1.jpg",
+        "https://design-milk.com/images/2026/06/GoGen3-Polaroid-1-810x810.jpg",
+        "https://design-milk.com/images/2026/06/GoGen3-Polaroid-3-810x456.jpg"
       ],
       "kind": "article",
-      "text_excerpt": "For DailyObjects, joy is found in daily rituals. Since 2021, the [Indian lifestyle brand](https://www.dailyobjects.us/) has been putting a design-forward spin on the [tech](https://design-milk.com/category/technology/) accessories and everyday essentials that we all use. From desktop organizers and phone cases to tote bags and notebooks, DailyObjects brings thoughtful design to busy lives. Its latest collections—Node and Loft—are no exception.\nTo devise Node and Loft, DailyObjects teamed up with London experience and design agency [LAYER](https://layerdesign.com/). “From the outset, there was a strong alignment in how both teams think about technology, design, and creating products that are both useful and emotionally engaging,” LAYER founder Benjamin Hubert says of his studio’s first collaboration with DailyObjects.\nWorking closely together, the two brands first explored a range of product categories to identify where there was “a genuine opportunity to rethink technology accessories.” What they found was a gap in the charging sector—specifically, a lack of “originality, flexibility, and personality” in personal device charging. Despite charging stations being used every day by just about everyone, they are often devoid of any personality, opting instead for mere functionality. Hubert and his team have changed that Node and Loft, with two independent but complementary product families.\nA modular wireless “ecosystem,” Node adapts to how people move throughout the day, giving them a tether-free point of contact built around a one-wire setup. The pill-shaped magnetic base is sleek and streamlined and can be configured as a two-in-one or three-in-one docking system to support four interchangeable wireless modules: a charging phone stand, a charging disk, an Apple Watch charging stand, and a portable lamp. The display-worthy modules can move from the docking base to the bedside, a desk, or anywhere with no charging interruptions. Wireless means complete freedom.\nWanting Node to be more than a collection of charging solutions, LAYER included the portable lamp as a complementary element. With a built-in eight-hour battery, the petite lantern emits soft illumination and offers three dimming modes to create ambiance in any setting.\nThe individual pieces in Node are made from a carefully selected mix of materials (including plastic, metal, glass, textiles, and soft-touch materials) that are well-suited to their function and provide a lustrous feel and strong character.\n“Rather than relying on a single material, every module has been designed to deliver the right balance of weight, durability, tactility, and quality,” Hubert says. “Together, this varied material palette creates a visually rich ecosystem in which every object has its own identity while remaining part of a cohesive family.”\nJust as functional, the Loft desktop charging station packs a ton of power in its compact form. Angled and forward-facing, the system can handle up to four devices at once via two fast-charging main ports (for laptops, standing tables, and phones) and two USB-C ports. Slightly elevated, the Loft station makes it easy to plug in what needs powering, and its pared-back, yet attractive design keeps visual clutter to an absolute minimum. The base is made of silicone, so it grips surfaces securely, and the braided nylon cord adds a premium finish.\nWhat links Node and Loft is sculpturally arched silhouettes, a considered touch that evolved from the idea of bringing the point of interaction closer to the user.\n“Rather than treating the charging surface or power port as something you have to search for or reach towards, we wanted the product to present it to you,” says Hubert of the two collections. The slight ergonomic angle invites while also giving the modules a striking architectural character.\nBoth Node and Loft are offered in a palette of four soft colors that intentionally subvert the ubiquitous metallic finishes and monochrome hues found in other charg",
-      "text_excerpt_zh": "对于 DailyObjects 而言，快乐蕴藏于日常仪式之中。自 2021 年起，这家[印度生活方式品牌](https://www.dailyobjects.us/)便致力于为[科技](https://design-milk.com/category/technology/)配件及我们日常使用的必需品注入前卫设计。从桌面收纳盒、手机壳到托特包和笔记本，DailyObjects 将深思熟虑的设计带入忙碌的生活。其最新系列——Node 和 Loft——也不例外。\n\n为打造 Node 和 Loft，DailyObjects 与伦敦体验与设计机构 [LAYER](https://layerdesign.com/) 展开了合作。“从一开始，双方团队在如何看待科技、设计以及创造既实用又能引发情感共鸣的产品上，就有着高度一致的共识，”LAYER 创始人 Benjamin Hubert 谈及他的工作室与 DailyObjects 的首次合作时说道。\n\n两个品牌紧密协作，首先探索了一系列产品类别，以确定在哪些领域存在“重新思考科技配件的真正机遇”。他们发现充电领域存在一个缺口——具体而言，个人设备充电缺乏“原创性、灵活性和个性”。尽管充电站几乎人人每天都在使用，但它们往往毫无个性可言，仅仅追求功能性。Hubert 和他的团队通过 Node 和 Loft 这两个独立但互补的产品系列改变了这一现状。\n\nNode 是一个模块化无线“生态系统”，能够适应人们一天中的移动方式，通过单线设置，为用户提供一个摆脱线缆束缚的接触点。其药丸形状的磁性底座设计流畅、线条简洁，可配置为二合一或三合一扩展坞系统，支持四种可互换的无线模块：充电手机支架、充电圆盘、Apple Watch 充电支架和便携式灯具。这些值得展示的模块可以从扩展底座移至床头、书桌或任何地方，且充电不会中断。无线意味着完全自由。\n\n为了让 Node 不仅仅是充电解决方案的集合，LAYER 将便携式灯具作为补充元素纳入其中。这款小巧的灯笼内置八小时续航电池，可发出柔和光线，并提供三种调光模式，在任何环境中营造氛围。\n\nNode 的各个部件采用精心挑选的混合材料（包括塑料、金属、玻璃、织物和触感柔软的材料）制成，这些材料非常适合其功能，并提供光泽的质感和鲜明的个性。\n\n“并非依赖单一材料，每个模块的设计都旨在实现重量、耐用性、触感和品质之间的恰当平衡，”Hubert 说道。“这种多样化的材料组合共同创造了一个视觉丰富的生态系统，其中每个物体都拥有自己的身份，同时仍是一个和谐家族的一部分。”\n\n同样功能强大的 Loft 桌面充电站，以其紧凑的形态蕴含巨大能量。该系统采用倾斜且面向用户的设计，可通过两个快速充电主端口（用于笔记本电脑、平板和手机）和两个 USB-C 端口同时处理最多四个设备。略微抬高的 Loft 充电站使插入需要充电的设备变得轻而易举，而其简约而富有吸引力的设计则将视觉杂乱降至最低。底座采用硅胶材质，可牢固抓握表面，编织尼龙线则增添了高级质感。\n\n连接 Node 和 Loft 的是雕塑般的拱形轮廓，这是一种经过深思熟虑的触感，源于将交互点更贴近用户的理念。\n\n“我们不想让充电表面或电源端口成为需要用户去寻找或伸手去够的东西，而是希望产品能主动将其呈现给你，”Hubert 在谈到这两个系列时说道。轻微的符合人体工学的倾斜角度不仅具有邀请感，同时也赋予了模块引人注目的建筑特征。\n\nNode 和 Loft 均提供四种柔和色彩可选，有意颠覆其他充电产品中常见的金属饰面和单色色调。",
-      "text_excerpt_zh_hash": "8d690b29a8d58b50",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "DailyObjects and LAYER Launch Wireless Charging Collections",
-      "url": "https://design-milk.com/dailyobjects-layer-node-loft-charging-collections/"
+      "text_excerpt": "Read Design Milk Topics Architecture Art Commercial Home Furnishings Interior Design Lifestyle Pets Style + Fashion Tech Travel Columns Designer Desktops Destination Design Fresh Milk Friday Five Get Out! Skim Milk Take 5 Taste Unframed Architecture Best of the Best! Top 10 Posts of 2025 Interior Design Studio Papaya's SBC Apartment Showcases Small Space and Smart Design New Arrivals DM Exclusives Under $50 Under $100 Sale Gifting Customer Service Track Your Order Buy a Gift Card Home + Outdoor Art Bed + Bath Candles + Diffusers Clocks Cushions + Throws Furniture Home Decor Lighting Mirrors Planters, Pots + Vases Rugs + Flooring Shelving Storage + Organization Outdoor Kitchen + Dining Barware Blenders Coffee + Tea Cookware Cups + Mugs Glassware Kitchen Organization Knives + Cutting Board Plates + Bowls Serveware Table Linens Tools + Gadgets Water Bottles Pets Beds Bowls + Feeders Toys Walk + Ride Wear + Coat Care Office + Tech Desk Accessories Headphones Keyboards Notebooks + Stationery Speakers Tech Accessories Tech Chargers Writing Tools Fun + Recreation Games Pools Puzzles Smoking Accessories Toys Style + Wellness Accessories Bags Footwear Jewelry Meditation Vibrators Watches Wellness Search Search Search Trending Articles This New Restaurant in Arizona Takes its Cues From Italian Modernism IKEA PS 2026 Is a Love Letter to Playful Functionality The Craft of Kawai Kanjiro: Locating Truth and Beauty in Japanese Folk Pottery Old Wine Tanks Become Suites at this Ionian Sea Resort A Quieter Stay, 1 Hotel Copenhagen Actually Embodies the Hygge Mindset Search Read About Us Our Mission Investor Relations Privacy Policy Terms of Service Read Architecture Art Commercial Home Furnishings Interior Design Lifestyle Pets Style + Fashion Tech Travel Columns Columns Designer Desktops Destination Design Fresh Milk Friday Five Get Out! Skim Milk Take 5 Taste Unframed Shop Home + Outdoor Kitchen + Dining Pets Office + Tech Fun + Recreation Style + Wellness Home + Outdoor Art Bed + Bath Candles + Diffusers Clocks Cushions + Throws Furniture Home Decor Lighting Mirrors Planters, Pots + Vases Rugs + Flooring Shelving Storage + Organization Outdoor Kitchen + Dining Barware Blenders Coffee + Tea Cookware Cups + Mugs Glassware Kitchen Organization Knives + Cutting Board Plates + Bowls Serveware Table Linens Tools + Gadgets Water Bottles Pets Beds Bowls + Feeders Toys Walk + Ride Wear + Coat Care Office + Tech Desk Accessories Headphones Keyboards Notebooks + Stationery Speakers Tech Accessories Tech Chargers Writing Tools Fun + Recreation Games Pools Puzzles Smoking Accessories Toys Style + Wellness Accessories Bags Footwear Jewelry Meditation Vibrators Watches Wellness Technology The Tiny Polaroid Go Generation 3 Packs Big Analog Energy 06.30.26 | By Aria Lee Share on Facebook Share on Pinterest Share on Twitter Share via Email View Slideshow The Tiny Polaroid Go Generation 3 Packs Big Analog Energy Share on Facebook Share on Pinterest Share on Twitter Share via Email 1/8 Photos 2/8 Photos 3/8 Photos 4/8 Photos 5/8 Photos 6/8 Photos 7/8 Photos 8/8 Photos You’re scrolling through the tens of thousands of pictures on your phone, but somehow, nothing seems quite right. The illusion of choice tells us that more is better—but in our modern age, something isn’t quite tracking. A digital image can be manipulated, retouched, and transfigured to the point that it becomes a different thing entirely. In a world where nothing is exactly what it seems, a Polaroid is forever. Meet the new Polaroid Go Generation 3 , more than ready to capture your real memories, taken in real time with real people. The Polaroid camera features we know and love are back and better than ever: The selfie mirror, strong flash, and double-exposure mode all help to compose a great shot. No more waiting until the picture develops to realize you cut off someone from the group shot. The selfie mirror sits to the right of the camera lens for easy composition. The lens itself is updated fo",
+      "title": "Polaroid Go Generation 3 Brings Better Photos to Life",
+      "url": "https://design-milk.com/polaroid-go-generation-3-instant-camera/"
     },
     "https://design-milk.com/three-experts-share-what-defines-filipino-design-today/": {
       "cleaner_v": 2,
@@ -8738,24 +8641,6 @@
       "title": "GitHub - byoungd/English-level-up-tips: An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语 · GitHub",
       "url": "https://github.com/byoungd/English-level-up-tips"
     },
-    "https://github.com/crimx/agentic-markdown": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "Render agent-specific Markdown from conditional HTML comment blocks. - crimx/agentic-markdown",
-      "final_url": "https://github.com/crimx/agentic-markdown",
-      "frameable": false,
-      "image_urls": [
-        "https://opengraph.githubassets.com/ad9150c6077af30ffea640fa84d2e8ae56f2973536a6fe85fbc1dfb8fa94c32a/crimx/agentic-markdown",
-        "https://github.com/crimx/agentic-markdown/actions/workflows/build.yml/badge.svg",
-        "https://camo.githubusercontent.com/171f34d964bec1aa7fdf887def20f6ab6c16b63a2ef893cb3749c7ac847287cd/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f6167656e7469632d6d61726b646f776e2e737667",
-        "https://camo.githubusercontent.com/65890260dfb79e3e36e862df2e28ee2c2ab05160478ac48462d9f72c00466b82/68747470733a2f2f6372696d782e6769746875622e696f2f6167656e7469632d6d61726b646f776e2f636f7665726167652d6261646765732f6167656e7469632d6d61726b646f776e2e737667",
-        "https://camo.githubusercontent.com/493485a6528400c724d41e535f6b63654bd6ffd8abaac4e95f9c2946e32bc801/68747470733a2f2f64656e6f2e62756e646c656a732e636f6d2f62616467653f713d6167656e7469632d6d61726b646f776e26747265657368616b653d2535422a253544"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "GitHub - crimx/agentic-markdown: Render agent-specific Markdown from conditional HTML comment blocks. · GitHub",
-      "url": "https://github.com/crimx/agentic-markdown"
-    },
     "https://github.com/danielmiessler/Personal_AI_Infrastructure": {
       "content_type": "text/html; charset=utf-8",
       "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities. - danielmiessler/Personal_AI_Infrastructure",
@@ -8978,24 +8863,6 @@
       "text_excerpt_zh": "",
       "title": "GitHub - ngaut/agent-git-service: Reimplement GitHub for Agents. · GitHub",
       "url": "https://github.com/ngaut/agent-git-service"
-    },
-    "https://github.com/peteromallet/arnold": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "General-purpose planning and execution harness for LLMs — structured phases, critique, gating, and review - peteromallet/arnold",
-      "extraction_source": "trafilatura",
-      "final_url": "https://github.com/peteromallet/arnold",
-      "frameable": false,
-      "image_urls": [
-        "https://opengraph.githubassets.com/6e46eb3d7adea654de9ca157159a957076f0302733e1abb2a94ee3d2ce8d180a/peteromallet/arnold",
-        "https://github.com/peteromallet/arnold/raw/main/docs/assets/megaplan-pipeline-hero.png",
-        "https://github.com/peteromallet/arnold/raw/main/docs/assets/scribble-routing-fan.png",
-        "https://github.com/peteromallet/arnold/raw/main/docs/assets/scorecard.png"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "GitHub - peteromallet/arnold: General-purpose planning and execution harness for LLMs — structured phases, critique, gating, and review · GitHub",
-      "url": "https://github.com/peteromallet/arnold"
     },
     "https://github.com/revfactory/harness": {
       "content_type": "text/html; charset=utf-8",
@@ -9642,26 +9509,6 @@
       "title": "996 | Armin Ronacher's Thoughts and Writings",
       "url": "https://lucumr.pocoo.org/2025/9/4/996/"
     },
-    "https://lucumr.pocoo.org/2026/1/31/pi/": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "A gentle introduction to the Pi coding agent and why I think it’s a glimpse into the future of software.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://lucumr.pocoo.org/2026/1/31/pi/",
-      "frameable": null,
-      "image_urls": [
-        "https://lucumr.pocoo.org/social/2026-01-31-pi-social.png",
-        "https://lucumr.pocoo.org/static/pi-answer.png",
-        "https://lucumr.pocoo.org/static/pi-review.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "written on January 31, 2026\nIf you haven’t been living under a rock, you will have noticed this week that a\nproject of my friend Peter [went viral on the\ninternet](https://en.wikipedia.org/wiki/OpenClaw). It went by many names. The\nmost recent one is [OpenClaw](https://openclaw.ai/) but in the news you might\nhave encountered it as ClawdBot or MoltBot depending on when you read about it.\nIt is an agent connected to a communication channel of your choice that [just\nruns code](https://lucumr.pocoo.org/2025/7/3/tools/).\nWhat you might be less familiar with is that what’s under the hood of OpenClaw\nis a little coding agent called [Pi](https://github.com/badlogic/pi-mono/). And\nPi happens to be, at this point, the coding agent that I use almost exclusively.\nOver the last few weeks I became more and more of a shill for the little agent.\nAfter I gave a talk on this recently, I realized that I did not actually write\nabout Pi on this blog yet, so I feel like I might want to give some context on\nwhy I’m obsessed with it, and how it relates to OpenClaw.\nPi is written by [Mario Zechner](https://mariozechner.at/) and unlike Peter, who\naims for “sci-fi with a touch of madness,” [1](https://lucumr.pocoo.org#fn-1) Mario is very grounded. Despite\nthe differences in approach, both OpenClaw and Pi follow the same idea: LLMs are\nreally good at writing and running code, so embrace this. In some ways I think\nthat’s not an accident because Peter got me and Mario hooked on this idea, and\nagents last year.\nSo Pi is a coding agent. And there are many coding agents. Really, I think you can pick effectively anyone off the shelf at this point and you will be able to experience what it’s like to do agentic programming. In reviews on this blog I’ve positively talked about AMP and one of the reasons I resonated so much with AMP is that it really felt like it was a product built by people who got both addicted to agentic programming but also had tried a few different things to see which ones work and not just to build a fancy UI around it.\nPi is interesting to me because of two main reasons:\n- First of all, it has a tiny core. It has the shortest system prompt of any agent that I’m aware of and it only has four tools: Read, Write, Edit, Bash.\n- The second thing is that it makes up for its tiny core by providing an extension system that also allows extensions to persist state into sessions, which is incredibly powerful.\nAnd a little bonus: Pi itself is written like excellent software. It doesn’t flicker, it doesn’t consume a lot of memory, it doesn’t randomly break, it is very reliable and it is written by someone who takes great care of what goes into the software.\nPi also is a collection of little components that you can build your own agent\non top. That’s how OpenClaw is built, and that’s also how I built my own little\nTelegram bot and how Mario built his\n[mom](https://github.com/badlogic/pi-mono/tree/main/packages/mom). If you want\nto build your own agent, connected to something, Pi when pointed to itself and\nmom, will conjure one up for you.\nAnd in order to understand what’s in Pi, it’s even more important to understand\nwhat’s not in Pi, why it’s not in Pi and more importantly: why it won’t be in\nPi. The most obvious omission is support for MCP. There is no MCP support in\nit. While you could build an extension for it, you can also do what OpenClaw\ndoes to support MCP which is to use\n[mcporter](https://github.com/steipete/mcporter). mcporter exposes MCP calls via\na CLI interface or TypeScript bindings and maybe your agent can do something\nwith it. Or not, I don’t know :)\nAnd this is not a lazy omission. This is from the philosophy of how Pi works. Pi’s entire idea is that if you want the agent to do something that it doesn’t do yet, you don’t go and download an extension or a skill or something like this. You ask the agent to extend itself. It celebrates the idea of code writing and running code.\nThat’s not to say that you cannot download extensions. It is",
-      "text_excerpt_zh": "发布于2026年1月31日\n\n如果你不是与世隔绝，这周你应该已经注意到，我朋友 Peter 的一个项目在互联网上[爆火](https://en.wikipedia.org/wiki/OpenClaw)。它有过很多名字。最近的一个是 [OpenClaw](https://openclaw.ai/)，但在新闻中，根据你阅读的时间，你可能见过它叫 ClawdBot 或 MoltBot。它是一个连接到你所选通信渠道的 agent，[只管运行代码](https://lucumr.pocoo.org/2025/7/3/tools/)。\n\n你可能不太熟悉的是，OpenClaw 的底层是一个名为 [Pi](https://github.com/badlogic/pi-mono/) 的小型编码 agent。而 Pi 恰好是我目前几乎唯一使用的编码 agent。过去几周，我越来越成为这个小 agent 的拥趸。最近我为此做了一次演讲后，意识到我还没有在这个博客上写过关于 Pi 的文章，所以我觉得应该提供一些背景，解释为什么我对它如此着迷，以及它与 OpenClaw 的关系。\n\nPi 由 [Mario Zechner](https://mariozechner.at/) 编写。与 Peter 追求“带点疯狂的科幻感”不同，[1](https://lucumr.pocoo.org#fn-1) Mario 非常务实。尽管方法不同，OpenClaw 和 Pi 都遵循同一个理念：LLM 非常擅长编写和运行代码，所以拥抱这一点。在某种程度上，我认为这并非偶然，因为去年 Peter 让我和 Mario 都迷上了这个想法和 agent。\n\n所以 Pi 是一个编码 agent。而编码 agent 有很多。真的，我认为你现在随便从市面上挑一个，都能体验到 agent 编程的感觉。在这个博客的评测中，我曾积极评价过 AMP，而我如此共鸣于 AMP 的原因之一是，它感觉像是由一群既沉迷于 agent 编程，又尝试过不同方法以找出哪些有效、而不仅仅是构建一个花哨 UI 的人打造的产品。\n\nPi 之所以让我感兴趣，主要有两个原因：\n\n- 首先，它的核心非常精简。它拥有我所知的所有 agent 中最短的系统提示词，并且只有四个工具：Read、Write、Edit、Bash。\n- 其次，它通过提供一个扩展系统来弥补核心的精简，这个系统还允许扩展将状态持久化到会话中，这非常强大。\n\n还有一个小优点：Pi 本身的代码质量非常高。它不会闪烁，不消耗大量内存，不会随机崩溃，非常可靠，并且由一位对软件质量极其用心的人编写。\n\nPi 也是一组小组件的集合，你可以在此基础上构建自己的 agent。OpenClaw 就是这样构建的，我也是这样构建了我自己的小 Telegram 机器人，Mario 也是这样构建了他的 [mom](https://github.com/badlogic/pi-mono/tree/main/packages/mom)。如果你想构建自己的 agent 并连接到某个东西，Pi 在指向自身和 mom 时，会为你生成一个。\n\n为了理解 Pi 中有什么，更重要的是理解 Pi 中没有什么，为什么没有，以及更重要的：为什么它不会有。最明显的缺失是对 MCP 的支持。它里面没有 MCP 支持。虽然你可以为它构建一个扩展，但你也可以像 OpenClaw 那样，使用 [mcporter](https://github.com/steipete/mcporter) 来支持 MCP。mcporter 通过 CLI 接口或 TypeScript 绑定暴露 MCP 调用，也许你的 agent 可以用它做点什么。或者不能，我不知道 :)\n\n这并非懒惰的遗漏。这源于 Pi 的工作哲学。Pi 的核心理念是，如果你想让 agent 做它目前还不会做的事情，你不会去下载一个扩展或技能之类的东西。你会让 agent 自我扩展。它推崇代码编写和运行代码的理念。\n\n这并不是说你不能下载扩展。它",
-      "text_excerpt_zh_hash": "fcbceb4357fa4205",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Pi: The Minimal Agent Within OpenClaw | Armin Ronacher's Thoughts and Writings",
-      "url": "https://lucumr.pocoo.org/2026/1/31/pi/"
-    },
     "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -10190,20 +10037,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "https://open.substack.com/pub/airstreet/p/europe-ai-sovereignty"
-    },
-    "https://open.substack.com/pub/bradstulberg/p/the-enhanced-self-is-the-enemy-of": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "fetch_error": "HTTP Error 403: Forbidden",
-      "final_url": "https://open.substack.com/pub/bradstulberg/p/the-enhanced-self-is-the-enemy-of",
-      "frameable": null,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "[![Brad Stulberg](https://substackcdn.com/image/fetch/$s_!Wa1y!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83bb491b-b511-4f36-b8e4-79d46aed4b17_1280x1280.png)](/)\n\n# [Brad Stulberg](/)\n\nSubscribeSign in\n\n# The Enhanced Self is the Enemy of a Good Life\n\n### Optimization culture is destroying a generation\n\n[![Brad Stulberg's avatar](https://substackcdn.com/image/fetch/$s_!q2iC!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F15d17a6c-d978-4a79-ba4c-42ca00a33e6c_1858x1858.jpeg)](https://substack.com/@bradstulberg)\n\n[Brad Stulberg](https://substack.com/@bradstulberg)\n\nJun 30, 2026\n\n61\n\n22\n\n8\n\nShare\n\n[![](https://substackcdn.com/image/fetch/$s_!n8Mv!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ad37232-6ebc-4cf5-81e0-d92d10bbbfd3_2400x1400.png)](https://substackcdn.com/image/fetch/$s%5F!n8Mv!,f%5Fauto,q%5Fauto:good,fl%5Fprogressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ad37232-6ebc-4cf5-81e0-d92d10bbbfd3%5F2400x1400.png)\n\nGuy Billout\n\nThe enhanced, optimized self has fully arrived. We have metrics for everything: sleep scores, heart rate variability, glucose, recovery, and readiness. We track not only our biomarkers but also our social and professional markers: subscribers, followers, shares, views, likes. Investors compare deals on PitchBook. Athletes compare run paces on Strava. Authors compare sales ranks on Amazon. Everything is quantified in real time. Everything revolves around the self—and how it stacks up.\n\nOur inclination to track and compare is nothing new. Uncertainty is uncomfortable. Metrics give us a sense of control over things like our health, however illusory that control may be. We’re also the most social creatures in the planet’s history. We crave benchmarks and reference points. We exist as individuals—and derive meaning in our lives—only in relation to others.\n\nWhat is new, however, is the all-encompassing, technologically enabled, 24-7 nature of everything we track.\n\nUntil recently, you received health metrics once a year at your annual physical. You understood your social circle based on the number of people who showed up at weddings, birthdays, and holiday parties. Professional success was measured on yearly lists. Athletes knew where they ranked based on a few events they peaked for every season. We still measured and compared, but there were long stretches of time between those measurements and comparisons. And in those long stretches of time, we could forget about ourselves and how we stacked up. That is no longer the case.\n\nTo be fair, people must believe there is at least some utility to all this tracking; otherwise they wouldn’t do it. For instance, when it comes to biomarkers, people often claim you catch maladies that might go unnoticed between annual physicals. While this can be the case, it’s also true that biometric tracking generates[ false positives and plenty of noise](https://www.nature.com/articles/s41746-020-0226-6), leading to anxiety and even medical errors.[ Research](https://link.springer.com/article/10.5664/jcsm.6472) indicates that, for many, monitoring one’s sleep can worsen sleep quality and quantity, due to the stress of tracking. Scientists call this _orthosomnia_, the ongoing quest for perfect sleep metrics that produces the very insomnia it’s meant to prevent. While people are finally beginning to consider the unintended consequences of optimization on our bodies, the broader and more serious cost, as we’ll see, is to our psyches and souls.\n\n### **How The Self Gets in The Way**\n\nIn 1990, the psychologist Mihaly Csikszentmihalyi published the book _Flow_. In it, he describes experiences when we fully enter the zone and become immersed in what we are doing. You can enter a flow state in almost anythi",
-      "title": "",
-      "url": "https://open.substack.com/pub/bradstulberg/p/the-enhanced-self-is-the-enemy-of"
     },
     "https://open.substack.com/pub/derekthompson/p/ai-isnt-coming-for-your-job-its-coming?r=alhs&utm_medium=ios": {
       "cleaner_v": 2,
@@ -11912,6 +11745,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/ext_tw_video_thumb/2071987140435566593/pu/img/woCNb_ZxyckDbfww.jpg"
     },
+    "https://pbs.twimg.com/ext_tw_video_thumb/2072349518301937664/pu/img/MGS76zJ33bzxb9fh.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/ext_tw_video_thumb/2072349518301937664/pu/img/MGS76zJ33bzxb9fh.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/ext_tw_video_thumb/2072349518301937664/pu/img/MGS76zJ33bzxb9fh.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/ext_tw_video_thumb/2072349518301937664/pu/img/MGS76zJ33bzxb9fh.jpg"
+    },
     "https://pbs.twimg.com/media/HIxGk5mWoAAfDeu.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -12163,20 +12010,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ1ek7OaAAAaLbx.png"
-    },
-    "https://pbs.twimg.com/media/HJ2HX1-W8AAWxkm.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ2HX1-W8AAWxkm.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ2HX1-W8AAWxkm.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ2HX1-W8AAWxkm.jpg"
     },
     "https://pbs.twimg.com/media/HJ2fEgYa0AAqc56.jpg": {
       "cleaner_v": 2,
@@ -12486,20 +12319,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJsV9b_W0AIkqXw.jpg"
     },
-    "https://pbs.twimg.com/media/HJt67HdXEAIKikA.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJt67HdXEAIKikA.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJt67HdXEAIKikA.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJt67HdXEAIKikA.jpg"
-    },
     "https://pbs.twimg.com/media/HJu3n8bWUAAMEeV.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -12514,20 +12333,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJu3n8bWUAAMEeV.jpg"
     },
-    "https://pbs.twimg.com/media/HJvKcGkXsAAfaHJ.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJvKcGkXsAAfaHJ.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJvKcGkXsAAfaHJ.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJvKcGkXsAAfaHJ.png"
-    },
     "https://pbs.twimg.com/media/HJvWmCHagAAnTxQ.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -12541,20 +12346,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJvWmCHagAAnTxQ.jpg"
-    },
-    "https://pbs.twimg.com/media/HJvtY2MXEAAfyFI.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJvtY2MXEAAfyFI.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJvtY2MXEAAfyFI.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJvtY2MXEAAfyFI.jpg"
     },
     "https://pbs.twimg.com/media/HJvxG6jaEAEQj2j.png": {
       "cleaner_v": 2,
@@ -15692,20 +15483,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMJNqkCbcAAgFO7.jpg"
     },
-    "https://pbs.twimg.com/media/HMJlw3NWsAAieRV.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMJlw3NWsAAieRV.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HMJlw3NWsAAieRV.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HMJlw3NWsAAieRV.jpg"
-    },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -16896,31 +16673,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Join the iSH ARM64 beta - TestFlight - Apple",
       "url": "https://testflight.apple.com/join/ZtGfhNkH"
-    },
-    "https://theatln.tc/60TCBMTQ": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Tightwads drag around a phantom limb of poverty, no matter what their bank account says.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://www.theatlantic.com/ideas/archive/2024/08/spending-money-finance-anxiety-tightwads/679373/?utm_campaign=the-atlantic&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
-      "frameable": null,
-      "image_urls": [
-        "https://cdn.theatlantic.com/thumbor/FYDVQIpsMehM53_1uFZHM7fZg3c=/0x43:2000x1085/1200x625/media/img/mt/2024/08/money/original.jpg",
-        "https://cdn.theatlantic.com/_next/static/images/nav-archive-promo-5541b02ae92f1a9276249e1c6c2534ee.png",
-        "https://cdn.theatlantic.com/media/games/games_promo_color.png",
-        "https://www.theatlantic.com/magazine/images/current-issue.420.jpg",
-        "https://cdn.theatlantic.com/media/files/audio/intro_sprint_2_emblem.png",
-        "https://cdn.theatlantic.com/media/files/2025/crossword_icon_intro_sprint_2.png",
-        "https://cdn.theatlantic.com/media/files/archive-thumbnail.png",
-        "https://cdn.theatlantic.com/media/files/YourSubscription_300x300.jpg",
-        "https://cdn.theatlantic.com/thumbor/FXJuEuIz9bGEZVV3_J8eo0vQWJk=/0x0:2000x1125/960x540/media/img/mt/2024/08/money/original.jpg",
-        "https://cdn.theatlantic.com/thumbor/pzJCDqm7cassZiRHoE_teJ6kXwU=/438x0:1563x1125/80x80/media/img/mt/2024/08/money/original.jpg",
-        "https://cdn.theatlantic.com/thumbor/-iTgRKUQmh8VgW0-QcfrFAHoEEY=/229x0:3698x3469/120x120/media/None/Olga_Khazan199492_1_1-1/original.jpg"
-      ],
-      "kind": "article",
-      "text_excerpt": "The Well-Off People Who Can’t Spend Money\nTightwads drag around a phantom limb of poverty, no matter what their bank account says.\nDavid Fox has plenty of savings. He earns hundreds of thousands of dollars each year. Recently, he allocated $60,000 to buying a new car—but when he arrived at the dealership, he could bring himself to spend only $30,000 on a used model.\nDespite making a conservative choice, he had panic attacks for a week afterward. “I have this feeling that the bottom is gonna fall out,” Fox told me. “What if there’s not enough? What if, what if, what if … So instead of going out and enjoying my success, I kind of just batten down the hatches and prepare for the worst.”\nFox falls into a category of people that the University of Michigan marketing professor Scott Rick has spent years studying: “tightwads,” or people who have trouble spending their money. In [various studies](https://www.amazon.com/dp/1250280079/?tag=theatl0c-20) that he’s conducted, Rick has found that tightwads do not scrimp because they lack money. They are not any poorer than spendthrifts (people who overspend); tightwads actually have better credit scores and more money in savings. (Perhaps because they never spend it.) Instead, they’re afraid to spend money that they do have. Tightwads’ issues reveal how our financial choices can be more psychological than economic. If you feel anxiety about your finances, it might not be relieved by making more money.\nIrrational stinginess is a strange problem to have, akin to complaining about being too beautiful. Some tightwads are hesitant to talk about their issues, because when they do, people react by saying, “Poor little rich boy,” as Fox put it. In a society with so much income inequality, it’s obviously better to be well-off and anxious than to be poor and desperate. But the tightwads I spoke with have very real agita—panic, guilt, stress—over their financial situation, even though there’s no real reason for them to worry. They drag around a phantom limb of poverty, burdened with the sneaking sense that something isn’t right, no matter what their bank account says.\n“Our spending, in some cases, is tied with our identities,” Abigail Sussman, a marketing professor at the University of Chicago, told me. “And so, if I think of myself as somebody who doesn’t splurge on things, spending on something like a new couch that maybe would make my life more comfortable … could interfere with my perception of my own identity.”\nTightwads seem especially attuned to the opportunity costs of spent money—they’re always thinking about how many months of rent they could afford with the money they blew on a tropical vacation. Darius Foroux, a financial blogger, [recently struggled for a year](https://dariusforoux.com/spend-more/) to buy a bicycle. When he was redecorating his condo, he told me, “I was noticing myself bargaining with myself, like, Oh, well, maybe this couch could last for another year or so.”\nForoux said that he often compares potential purchases with other things he could spend his money on. “Oh, I could buy a new iPhone, or I could put that money in an S&P 500 index fund,” he told me. He did finally buy a bike, but a cheaper one than he’d originally planned.\nMany tightwads experienced financial precarity earlier in life, Rick discovered, and though they may no longer be poor, the stress of deprivation is never far from view. “Anxiety about spending became a protective response to make sure you don’t go overboard,” Rick told me.\nDamon Young, the author of the memoir [What Doesn’t Kill You Makes You Blacker](https://bookshop.org/a/12476/9780062684318), calls this feeling “post-brokeness stress disorder.” In a [2018 essay](https://www.nytimes.com/2018/06/09/opinion/sunday/i-have-post-brokeness-stress-disorder.html), he described the terror he felt when he heard a truck backing up on his street: For a moment, he was seized with the fear that it was a tow truck coming to repossess his car—even though he had",
-      "title": "The Anxiety of Spending Money You Definitely Have - The Atlantic",
-      "url": "https://theatln.tc/60TCBMTQ"
     },
     "https://thefoundation.limestonedigital.com/": {
       "content_type": "text/html; charset=utf-8",
@@ -18899,6 +18651,30 @@
       "title": "The Man Who Saw AI Coming - The Atlantic",
       "url": "https://www.theatlantic.com/ideas/2026/06/erik-brynjolfsson-the-man-who-saw-ai-coming/687561/?taid=6a4284f3d34ca80001efcb59&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter"
     },
+    "https://www.theatlantic.com/national-security/2026/07/putin-russia-ukraine-war/687753/?taid=6a45360368410d0001191e5e&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "The Russian dictator remains obsessed with his war in Ukraine but doesn’t seem to comprehend how badly it’s going.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.theatlantic.com/national-security/2026/07/putin-russia-ukraine-war/687753/?taid=6a45360368410d0001191e5e&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter",
+      "frameable": null,
+      "image_urls": [
+        "https://cdn.theatlantic.com/thumbor/bcZR-1eAHqirZJyOKI95JIAYU4g=/0x85:3994x2165/1200x625/media/img/mt/2026/06/2026_07_01_Putin_Faces_The_Biggest_Ukrainian_Drone_Attack_Yet_Simon_Shuster/original.jpg",
+        "https://cdn.theatlantic.com/_next/static/images/nav-archive-promo-5541b02ae92f1a9276249e1c6c2534ee.png",
+        "https://cdn.theatlantic.com/media/games/games_promo_color.png",
+        "https://www.theatlantic.com/magazine/images/current-issue.420.jpg",
+        "https://cdn.theatlantic.com/media/files/audio/intro_sprint_2_emblem.png",
+        "https://cdn.theatlantic.com/media/files/2025/crossword_icon_intro_sprint_2.png",
+        "https://cdn.theatlantic.com/media/files/archive-thumbnail.png",
+        "https://cdn.theatlantic.com/media/files/YourSubscription_300x300.jpg",
+        "https://cdn.theatlantic.com/thumbor/_AVQY7DhRuxiUsFV2ybhqXHBhUY=/0x0:4000x2250/960x540/media/img/mt/2026/06/2026_07_01_Putin_Faces_The_Biggest_Ukrainian_Drone_Attack_Yet_Simon_Shuster/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/ugaWIe8m5XBEVtL1Bha1XDIeXFc=/0x0:5464x5464/120x120/media/img/authors/2025/11/Simon_Shuster/original.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Putin Is Slipping Into Delusion\nThe Russian dictator remains obsessed with his war in Ukraine but doesn’t seem to comprehend how badly it’s going.\nWhen things get dicey in Moscow, Vladimir Putin tends to drop out of sight for a while, retreating to one of his residences and canceling public events. Only his closest aides know how he spends his time during these absences, which can go on for days even in the middle of a national crisis. The Kremlin does its best to fill the vacant airtime on state TV with pretaped footage of the president, waiting for him to reemerge and declare that everything remains under his control.\nSince the end of last year, when Ukraine intensified its campaign of drone and missile strikes on Russian cities, Putin has taken a few of these breaks. Two of them lasted for more than a week. He has mostly avoided talking about the Ukrainian strikes, even as they caused fuel shortages across Russia, destroyed infrastructure, and shattered the sense of stability that Putin offers his people in exchange for their loyalty. His first detailed response to the threat came on Monday, and he did his best to seem unmoved.\nIn a carefully scripted interview on state TV, Putin looked bored with the details of governing Russia and managing the frustrations of his citizens, but he did not appear tired of his war in Ukraine. He spent most of the 19-minute conversation with a Russian news anchor dissecting the minutiae of the fighting, even naming a particular street in one small town in the region of Donetsk where, according to Putin, his forces had managed to gain a bit of ground. The performance seemed designed to suggest that, away from the cameras, the Russian leader spends his time hunched over maps of the battlefield.\nThe Russian people, by contrast, have run out of patience with the war their leader seems so eager to continue. A [survey released](https://meduza.io/en/news/2026/06/30/81-of-russians-support-ending-the-war-as-early-as-tomorrow-highest-share-in-four-years-kyiv-based-institute-says) on the same day as Putin’s interview found that 81 percent of Russians want the war to end “as early as tomorrow.” The number of respondents who want the fighting to continue until Russia’s victory, no matter how long it takes, dropped in the survey to 9 percent, the lowest level ever recorded by the Institute for Conflict Studies and Analysis of Russia, which has conducted 10 rounds of polling since the start of the war, in 2022.\nIts most recent survey matched up with the images and complaints that have flooded Russian social networks in the past few weeks, showing long lines at gas stations in Moscow and trucks stalled without fuel on the roadside. “There’s no gasoline in the city,” one man [posted](https://www.youtube.com/shorts/DvB_K4D5fxc) from a suburb of Moscow. “And the TV is silent about it.”\nIf Putin cares about such problems, he has done a decent job of hiding it. “Everything is working stably and with a big reserve of strength,” he said in Monday’s interview, referring to the fuel shortages spreading through Russia. His tone reminded me of Putin’s attitude toward the war in Syria, where Russian forces intervened in 2015 to save the regime in Damascus from a revolution. Back then, Putin still held regular meetings in Moscow with Russian businesspeople and corporate executives, hearing out their concerns about high interest rates, slow economic growth, and other matters of concern for the state.\nOne of the regular guests at those meetings described to me how Putin had trouble sitting through them. Obviously distracted, he would fidget in his seat and doodle in his notebook. When the conversation turned to the subject of war, however, the president would come alive, describing the kinds of fighter jets Russia used to bombard rebel positions in Syria and naming towns with stubborn pockets of resistance. “This was his passion,” the businessman told me. “Nothing else interested him the same way.”\nA decade later, and more",
+      "title": "Putin Is Slipping Into Delusion - The Atlantic",
+      "url": "https://www.theatlantic.com/national-security/2026/07/putin-russia-ukraine-war/687753/?taid=6a45360368410d0001191e5e&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter"
+    },
     "https://www.theatlantic.com/technology/2026/06/ai-hacking-cybersecurity-banks/687562/?taid=6a31a25e117eb200016356ac&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -19393,37 +19169,9 @@
       "https://x.com/patrickc/status/2058931538029662435",
       "https://newaesthetics.art/grants"
     ],
-    "2061114475797946764": [
-      "https://x.com/MichLieben/status/2061114475797946764",
-      "http://x.com/i/article/2059942499565838336"
-    ],
-    "2061119279177638025": [
-      "https://x.com/dimitarangg/status/2061119279177638025",
-      "http://x.com/i/article/2061117982340730882",
-      "https://x.com/dimitarangg/status/2061122207523201504",
-      "https://calendly.com/synergyaisolutions/discovery-call",
-      "https://x.com/dimitarangg/status/2061464109715968122",
-      "https://pbs.twimg.com/media/HJvKcGkXsAAfaHJ.png"
-    ],
-    "2061140237753995743": [
-      "https://x.com/croloris/status/2061140237753995743",
-      "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
-      "https://x.com/croloris/status/2061166943596323039"
-    ],
     "2061216087744946656": [
       "https://x.com/RichardSSutton/status/2061216087744946656",
       "https://youtu.be/K5LAFEjTlBA"
-    ],
-    "2061235017565810851": [
-      "https://x.com/alswl/status/2061235017565810851"
-    ],
-    "2061247081730146659": [
-      "https://x.com/peterom/status/2061247081730146659",
-      "https://github.com/peteromallet/arnold",
-      "https://x.com/peterom/status/2061436145360064756",
-      "https://x.com/peterom/status/2061390998014509182",
-      "https://x.com/peterom/status/2061502695723143203",
-      "https://pbs.twimg.com/media/HJvtY2MXEAAfyFI.jpg"
     ],
     "2061265412051083562": [
       "https://x.com/GoSailGlobal/status/2061265412051083562",
@@ -19431,50 +19179,16 @@
       "https://pbs.twimg.com/media/HJsV9b_W0AIkqXw.jpg",
       "https://x.com/GoSailGlobal/status/2061398509392171129"
     ],
-    "2061273347648868412": [
-      "https://x.com/KatiMichel/status/2061273347648868412",
-      "https://lucumr.pocoo.org/2026/1/31/pi/",
-      "https://x.com/KatiMichel/status/2061632574582145480"
-    ],
-    "2061275459812212870": [
-      "https://x.com/AgrawalArian/status/2061275459812212870",
-      "https://x.com/AgrawalArian/status/2061443792671314424"
-    ],
-    "2061324571148751259": [
-      "https://x.com/Free_BlackHole/status/2061324571148751259",
-      "https://github.com/crimx/agentic-markdown"
-    ],
-    "2061340816975749472": [
-      "https://x.com/benhylak/status/2061340816975749472",
-      "https://x.com/benhylak/status/2061695314944508367"
-    ],
-    "2061374590501224938": [
-      "https://x.com/PawelHuryn/status/2061374590501224938",
-      "https://x.com/PawelHuryn/status/2061953379182559648",
-      "https://pbs.twimg.com/media/HJ2HX1-W8AAWxkm.jpg"
-    ],
-    "2061376598977216558": [
-      "https://x.com/gemchange_ltd/status/2061376598977216558",
-      "https://pbs.twimg.com/media/HJt67HdXEAIKikA.jpg",
-      "https://x.com/gemchange_ltd/status/2061378101481714114"
-    ],
     "2061399196209447241": [
       "https://x.com/0xMortyx/status/2061399196209447241",
       "https://pbs.twimg.com/amplify_video_thumb/2061397775196057600/img/VcB5k2xv8BK-Pyfj.jpg",
       "https://x.com/0xMortyx/status/2061414458862313892",
       "https://x.com/0xMortyx/status/2061414393804423280"
     ],
-    "2061420405298987090": [
-      "https://x.com/SergioPaniego/status/2061420405298987090"
-    ],
     "2061435378024739198": [
       "https://x.com/Kpaxs/status/2061435378024739198",
       "http://x.com/i/article/2061324501170688000",
       "https://x.com/Kpaxs/status/2062012292145803646"
-    ],
-    "2061454423034110372": [
-      "https://x.com/garrytan/status/2061454423034110372",
-      "http://x.com/i/article/2061176923531984896"
     ],
     "2061465585599263169": [
       "https://x.com/Voxyz_ai/status/2061465585599263169",
@@ -24710,9 +24424,8 @@
     "2071605890143174764": [
       "https://x.com/TheAtlantic/status/2071605890143174764",
       "https://www.theatlantic.com/ideas/2026/06/erik-brynjolfsson-the-man-who-saw-ai-coming/687561/?taid=6a4284f3d34ca80001efcb59&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
-      "https://x.com/TheAtlantic/status/2072330671884779557",
-      "https://theatln.tc/60TCBMTQ",
-      "https://pbs.twimg.com/media/HMJlw3NWsAAieRV.jpg"
+      "https://x.com/TheAtlantic/status/2072345767193284703",
+      "https://www.theatlantic.com/national-security/2026/07/putin-russia-ukraine-war/687753/?taid=6a45360368410d0001191e5e&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter"
     ],
     "2071625939444744521": [
       "https://x.com/MistralDevs/status/2071625939444744521",
@@ -24730,8 +24443,8 @@
     "2071655058274472268": [
       "https://x.com/designmilk/status/2071655058274472268",
       "https://design-milk.com/three-experts-share-what-defines-filipino-design-today/",
-      "https://x.com/designmilk/status/2072048036193128648",
-      "https://design-milk.com/dailyobjects-layer-node-loft-charging-collections/"
+      "https://x.com/designmilk/status/2072379800774168788",
+      "https://design-milk.com/polaroid-go-generation-3-instant-camera/"
     ],
     "2071662447690195290": [
       "https://x.com/ChrisShort/status/2071662447690195290",
@@ -24917,19 +24630,23 @@
     ],
     "2071934737053372833": [
       "https://x.com/rickyho_1989/status/2071934737053372833",
-      "https://x.com/rickyho_1989/status/2072286131442569361",
-      "https://x.com/rickyho_1989/status/2071940572588519428"
+      "https://x.com/rickyho_1989/status/2071940572588519428",
+      "https://x.com/rickyho_1989/status/2072286131442569361"
     ],
     "2071936749194907999": [
       "https://x.com/BStulberg/status/2071936749194907999",
-      "https://bradstulberg.substack.com/p/the-enhanced-self-is-the-enemy-of",
-      "https://x.com/BStulberg/status/2072127470900244580",
-      "https://open.substack.com/pub/bradstulberg/p/the-enhanced-self-is-the-enemy-of"
+      "https://bradstulberg.substack.com/p/the-enhanced-self-is-the-enemy-of"
     ],
     "2071947977766117468": [
       "https://x.com/gabriell_lab/status/2071947977766117468",
       "https://pbs.twimg.com/amplify_video_thumb/2071947853212119041/img/iYywmKMEbbmCeoAy.jpg",
-      "https://x.com/gabriell_lab/status/2072344827316842640"
+      "https://x.com/gabriell_lab/status/2072370896111559026",
+      "https://x.com/gabriell_lab/status/2072344827316842640",
+      "https://x.com/gabriell_lab/status/2072370557094346875",
+      "https://x.com/gabriell_lab/status/2072370596923490515",
+      "https://x.com/gabriell_lab/status/2072370520696184857",
+      "https://x.com/gabriell_lab/status/2072370652124787091",
+      "https://x.com/gabriell_lab/status/2072370840826503372"
     ],
     "2071950682362462632": [
       "https://x.com/mardehaym/status/2071950682362462632",
@@ -24961,21 +24678,20 @@
     "2071968426562605182": [
       "https://x.com/shmidtqq/status/2071968426562605182",
       "http://x.com/i/article/2071351737706000384",
-      "https://x.com/shmidtqq/status/2071989948907930051",
       "https://x.com/shmidtqq/status/2071970600029913096",
+      "https://x.com/shmidtqq/status/2071989948907930051",
       "https://x.com/shmidtqq/status/2071976887933452718",
       "https://x.com/shmidtqq/status/2071974772196401178",
-      "https://x.com/shmidtqq/status/2071976012070449227",
       "https://x.com/shmidtqq/status/2071974796435353657",
+      "https://x.com/shmidtqq/status/2071976012070449227",
       "https://x.com/shmidtqq/status/2071977057278366128",
       "https://x.com/shmidtqq/status/2071971947416551730"
     ],
     "2071975831602184375": [
       "https://x.com/TheAtlantic/status/2071975831602184375",
       "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a43dd7cf1ddc500011eb60d&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
-      "https://x.com/TheAtlantic/status/2072330671884779557",
-      "https://theatln.tc/60TCBMTQ",
-      "https://pbs.twimg.com/media/HMJlw3NWsAAieRV.jpg"
+      "https://x.com/TheAtlantic/status/2072345767193284703",
+      "https://www.theatlantic.com/national-security/2026/07/putin-russia-ukraine-war/687753/?taid=6a45360368410d0001191e5e&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter"
     ],
     "2071986617611616655": [
       "https://x.com/fuma_nama/status/2071986617611616655",
@@ -24992,7 +24708,9 @@
     ],
     "2071987168143110366": [
       "https://x.com/planepowers/status/2071987168143110366",
-      "https://pbs.twimg.com/ext_tw_video_thumb/2071987140435566593/pu/img/woCNb_ZxyckDbfww.jpg"
+      "https://pbs.twimg.com/ext_tw_video_thumb/2071987140435566593/pu/img/woCNb_ZxyckDbfww.jpg",
+      "https://x.com/planepowers/status/2072349552686862480",
+      "https://pbs.twimg.com/ext_tw_video_thumb/2072349518301937664/pu/img/MGS76zJ33bzxb9fh.jpg"
     ],
     "2072003526755266744": [
       "https://x.com/alex_prompter/status/2072003526755266744",
@@ -25034,16 +24752,17 @@
       "https://pbs.twimg.com/amplify_video_thumb/2072081471519719424/img/S9fh_gmNX5D5YfuL.jpg",
       "https://x.com/stephenhaney/status/2072083161501278591",
       "https://www.youtube.com/watch?v=cDqDPlSXMS0",
-      "https://x.com/stephenhaney/status/2072346356346388963",
-      "http://paper.design/snapshot",
+      "https://x.com/stephenhaney/status/2072395013464707482",
       "https://x.com/stephenhaney/status/2072091095589421356",
       "https://x.com/stephenhaney/status/2072162798629781531",
+      "https://x.com/stephenhaney/status/2072346356346388963",
+      "http://paper.design/snapshot",
+      "https://x.com/stephenhaney/status/2072085251502067797",
       "https://x.com/stephenhaney/status/2072346864385675516",
-      "https://x.com/stephenhaney/status/2072346417948238118",
       "https://x.com/stephenhaney/status/2072091318566924548",
       "https://x.com/stephenhaney/status/2072085460537770206",
+      "https://x.com/stephenhaney/status/2072346417948238118",
       "https://x.com/stephenhaney/status/2072346898774823076",
-      "https://x.com/stephenhaney/status/2072085251502067797",
       "https://x.com/stephenhaney/status/2072082842981732527",
       "https://x.com/stephenhaney/status/2072346727655649338",
       "https://x.com/stephenhaney/status/2072158898824630318"
@@ -25080,14 +24799,14 @@
     "2072165415694868891": [
       "https://x.com/feltanimalworld/status/2072165415694868891",
       "https://pbs.twimg.com/amplify_video_thumb/2072164961879564288/img/LNy-GHzkcNoJ8xYM.jpg",
-      "https://x.com/feltanimalworld/status/2072288053268283812",
-      "https://x.com/feltanimalworld/status/2072285622127968706"
+      "https://x.com/feltanimalworld/status/2072285622127968706",
+      "https://x.com/feltanimalworld/status/2072288053268283812"
     ],
     "2072202267563082180": [
       "https://x.com/Escapation/status/2072205879823470838",
       "https://share.directivecreator.com/fable5/"
     ]
   },
-  "updated_at": "2026-07-01T16:39:46Z",
+  "updated_at": "2026-07-01T19:12:11Z",
   "window": "recent"
 }
