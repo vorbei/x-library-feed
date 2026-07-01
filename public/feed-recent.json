@@ -280,21 +280,6 @@
       "title": "Careers | Cohere",
       "url": "http://cohere.com/careers"
     },
-    "http://community.pathlesspath.com": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "Pathless Path community member portal prototype.",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://community.pathlesspath.com/",
-      "frameable": false,
-      "image_urls": [
-        "https://community.pathlesspath.com/assets/pathless-community-share.jpg?v=portal-share-image2-1"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "Pathless Path Community",
-      "url": "http://community.pathlesspath.com"
-    },
     "http://ctx.ai": {
       "content_type": "text/html",
       "description": "",
@@ -883,6 +868,27 @@
       "text_excerpt_zh": "",
       "title": "Palmier Pro | The video editor built for AI",
       "url": "http://palmier.io"
+    },
+    "http://paper.design/snapshot": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Copy and paste your real site directly into Paper as editable layers. No more screenshots!",
+      "final_url": "https://chromewebstore.google.com/detail/paper-snapshot/lidfahaahiogmnlccifabccgplofocck",
+      "frameable": false,
+      "image_urls": [
+        "https://lh3.googleusercontent.com/nD5e-GtK7N-nTUvnVHFuDSfdoV1mJx5QIg1oztPG2M5suY0Q8aWie9p6avYxFW-brri0ReYNaIBaT_AqwQeabVl1utk=s128-rj-sc0x00ffffff",
+        "https://fonts.gstatic.com/s/i/productlogos/chrome_store/v7/192px.svg",
+        "https://lh3.googleusercontent.com/nD5e-GtK7N-nTUvnVHFuDSfdoV1mJx5QIg1oztPG2M5suY0Q8aWie9p6avYxFW-brri0ReYNaIBaT_AqwQeabVl1utk=s60",
+        "https://www.gstatic.com/images/branding/productlogos/chrome/v7/192px.svg",
+        "https://lh3.googleusercontent.com/Y86C1cdQIuuBCiztJ1r75WJ6OtyZt7LiuQXX5F12rPG9NAHkW1qL-ag4KiwZIHJAUaGzTdB2iun0D5M9AnrXj39IkQ=s275-w275-h175",
+        "https://lh3.googleusercontent.com/gkj_FpiNcS6bOn5Cal6NdbYhgvCpYbcXE5IteY_6LK6HL2XFwvO2_qDlq8sz_8Q5KgAK9aY2IsuEpM2OP9jU2TdDLtQ=s275-w275-h175",
+        "https://lh3.googleusercontent.com/_i-ABxWbjldcw9CLH0PM9ZBP8kcIXRu4hm8rdvuenv9k_kSaBXeWyrkJmCk4cp9Dnk4e_BcPI8YaSJQfj4rG_4iq=s275-w275-h175",
+        "https://lh3.googleusercontent.com/hjAogdVvX33p_zDe1a7j18sIvNiRghStl9DhyQ49FXZsIQr4IK8wp7rAeeN9uga8sBkHJLw6WQYh4O35FdSj6DdF=s275-w275-h175"
+      ],
+      "kind": "article",
+      "text_excerpt": "Skip to main content Chrome Web Store My extensions & themes Appearance Developer Dashboard Give feedback Sign in Discover Extensions Themes Paper Snapshot The publisher has a good record with no history of violations. Learn more. Lost Coast Labs, Inc. 4.8 ( 16 ratings ) Ratings are updated daily and may not reflect the most recent reviews. Share Extension Developer Tools 10,000 users Add to Chrome Overview Copy and paste your real site directly into Paper as editable layers. No more screenshots! - Get your starting place straight from production - Mock new ideas in seconds - Paper uses html/css to render so nothing is lost in translation Less work, more design. Move faster with Paper Snapshot. 4.8 out of 5 16 ratings Learn more about results and reviews. See all reviews Details Version 0.3.3 Updated June 15, 2026 Flag concern Size 82.55KiB Languages English Developer Lost Coast Labs, Inc. 6789 Quail Hill Parkway #2017 Irvine, CA 92603 US Website Email team@paper.design Phone +1 707-236-2067 Trader This developer has identified itself as a trader per the definition from the European Union and committed to only offer products or services that comply with EU laws. Privacy Manage extensions and learn how they're being used in your organization Try Chrome Enterprise Core The developer has disclosed that it will not collect or use your data. To learn more, see the developer’s privacy policy . This developer declares that your data is Not being sold to third parties, outside of the approved use cases Not being used or transferred for purposes that are unrelated to the item's core functionality Not being used or transferred to determine creditworthiness or for lending purposes You might also like… GoFullPage - Full Page Screen Capture 4.9 Average rating 4.9 out of 5 stars. Learn more about results and reviews. Capture a screenshot of your current page in entirety and reliably—without requesting any extra permissions! Scribble Pad - Paint On Web 5.0 Average rating 5 out of 5 stars. Learn more about results and reviews. Scribble Pad turns any website into your personal canvas. Draw, sketch, write notes, capture screenshots and annotate in real time. Handy Screenshot - Full Page Screen Capture 4.8 Average rating 4.8 out of 5 stars. Learn more about results and reviews. Take screenshots of web pages with ease. Capture, edit, annotate and save them as PNG / JPG / WEBP formats. Scrolling Screenshot Pro 4.0 Average rating 4 out of 5 stars. Learn more about results and reviews. Capture full-page screenshots of lazy-loading websites with scrolling. Annotate and save screenshots as image or pdf. Google apps About Chrome Web Store Developer Dashboard Privacy Policy Terms of Service Help",
+      "title": "Paper Snapshot - Chrome Web Store",
+      "url": "http://paper.design/snapshot"
     },
     "http://portless.sh": {
       "content_type": "text/html; charset=utf-8",
@@ -10185,6 +10191,20 @@
       "title": "",
       "url": "https://open.substack.com/pub/airstreet/p/europe-ai-sovereignty"
     },
+    "https://open.substack.com/pub/bradstulberg/p/the-enhanced-self-is-the-enemy-of": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://open.substack.com/pub/bradstulberg/p/the-enhanced-self-is-the-enemy-of",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "[![Brad Stulberg](https://substackcdn.com/image/fetch/$s_!Wa1y!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83bb491b-b511-4f36-b8e4-79d46aed4b17_1280x1280.png)](/)\n\n# [Brad Stulberg](/)\n\nSubscribeSign in\n\n# The Enhanced Self is the Enemy of a Good Life\n\n### Optimization culture is destroying a generation\n\n[![Brad Stulberg's avatar](https://substackcdn.com/image/fetch/$s_!q2iC!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F15d17a6c-d978-4a79-ba4c-42ca00a33e6c_1858x1858.jpeg)](https://substack.com/@bradstulberg)\n\n[Brad Stulberg](https://substack.com/@bradstulberg)\n\nJun 30, 2026\n\n61\n\n22\n\n8\n\nShare\n\n[![](https://substackcdn.com/image/fetch/$s_!n8Mv!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ad37232-6ebc-4cf5-81e0-d92d10bbbfd3_2400x1400.png)](https://substackcdn.com/image/fetch/$s%5F!n8Mv!,f%5Fauto,q%5Fauto:good,fl%5Fprogressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ad37232-6ebc-4cf5-81e0-d92d10bbbfd3%5F2400x1400.png)\n\nGuy Billout\n\nThe enhanced, optimized self has fully arrived. We have metrics for everything: sleep scores, heart rate variability, glucose, recovery, and readiness. We track not only our biomarkers but also our social and professional markers: subscribers, followers, shares, views, likes. Investors compare deals on PitchBook. Athletes compare run paces on Strava. Authors compare sales ranks on Amazon. Everything is quantified in real time. Everything revolves around the self—and how it stacks up.\n\nOur inclination to track and compare is nothing new. Uncertainty is uncomfortable. Metrics give us a sense of control over things like our health, however illusory that control may be. We’re also the most social creatures in the planet’s history. We crave benchmarks and reference points. We exist as individuals—and derive meaning in our lives—only in relation to others.\n\nWhat is new, however, is the all-encompassing, technologically enabled, 24-7 nature of everything we track.\n\nUntil recently, you received health metrics once a year at your annual physical. You understood your social circle based on the number of people who showed up at weddings, birthdays, and holiday parties. Professional success was measured on yearly lists. Athletes knew where they ranked based on a few events they peaked for every season. We still measured and compared, but there were long stretches of time between those measurements and comparisons. And in those long stretches of time, we could forget about ourselves and how we stacked up. That is no longer the case.\n\nTo be fair, people must believe there is at least some utility to all this tracking; otherwise they wouldn’t do it. For instance, when it comes to biomarkers, people often claim you catch maladies that might go unnoticed between annual physicals. While this can be the case, it’s also true that biometric tracking generates[ false positives and plenty of noise](https://www.nature.com/articles/s41746-020-0226-6), leading to anxiety and even medical errors.[ Research](https://link.springer.com/article/10.5664/jcsm.6472) indicates that, for many, monitoring one’s sleep can worsen sleep quality and quantity, due to the stress of tracking. Scientists call this _orthosomnia_, the ongoing quest for perfect sleep metrics that produces the very insomnia it’s meant to prevent. While people are finally beginning to consider the unintended consequences of optimization on our bodies, the broader and more serious cost, as we’ll see, is to our psyches and souls.\n\n### **How The Self Gets in The Way**\n\nIn 1990, the psychologist Mihaly Csikszentmihalyi published the book _Flow_. In it, he describes experiences when we fully enter the zone and become immersed in what we are doing. You can enter a flow state in almost anythi",
+      "title": "",
+      "url": "https://open.substack.com/pub/bradstulberg/p/the-enhanced-self-is-the-enemy-of"
+    },
     "https://open.substack.com/pub/derekthompson/p/ai-isnt-coming-for-your-job-its-coming?r=alhs&utm_medium=ios": {
       "cleaner_v": 2,
       "content_type": "",
@@ -15658,20 +15678,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMHjT2GagAAjtJ4.jpg"
     },
-    "https://pbs.twimg.com/media/HMIF8o-XcAAgfbC.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMIF8o-XcAAgfbC.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HMIF8o-XcAAgfbC.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HMIF8o-XcAAgfbC.jpg"
-    },
     "https://pbs.twimg.com/media/HMJNqkCbcAAgFO7.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15685,6 +15691,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HMJNqkCbcAAgFO7.jpg"
+    },
+    "https://pbs.twimg.com/media/HMJlw3NWsAAieRV.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMJlw3NWsAAieRV.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMJlw3NWsAAieRV.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMJlw3NWsAAieRV.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -16876,6 +16896,31 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Join the iSH ARM64 beta - TestFlight - Apple",
       "url": "https://testflight.apple.com/join/ZtGfhNkH"
+    },
+    "https://theatln.tc/60TCBMTQ": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Tightwads drag around a phantom limb of poverty, no matter what their bank account says.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.theatlantic.com/ideas/archive/2024/08/spending-money-finance-anxiety-tightwads/679373/?utm_campaign=the-atlantic&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
+      "frameable": null,
+      "image_urls": [
+        "https://cdn.theatlantic.com/thumbor/FYDVQIpsMehM53_1uFZHM7fZg3c=/0x43:2000x1085/1200x625/media/img/mt/2024/08/money/original.jpg",
+        "https://cdn.theatlantic.com/_next/static/images/nav-archive-promo-5541b02ae92f1a9276249e1c6c2534ee.png",
+        "https://cdn.theatlantic.com/media/games/games_promo_color.png",
+        "https://www.theatlantic.com/magazine/images/current-issue.420.jpg",
+        "https://cdn.theatlantic.com/media/files/audio/intro_sprint_2_emblem.png",
+        "https://cdn.theatlantic.com/media/files/2025/crossword_icon_intro_sprint_2.png",
+        "https://cdn.theatlantic.com/media/files/archive-thumbnail.png",
+        "https://cdn.theatlantic.com/media/files/YourSubscription_300x300.jpg",
+        "https://cdn.theatlantic.com/thumbor/FXJuEuIz9bGEZVV3_J8eo0vQWJk=/0x0:2000x1125/960x540/media/img/mt/2024/08/money/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/pzJCDqm7cassZiRHoE_teJ6kXwU=/438x0:1563x1125/80x80/media/img/mt/2024/08/money/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/-iTgRKUQmh8VgW0-QcfrFAHoEEY=/229x0:3698x3469/120x120/media/None/Olga_Khazan199492_1_1-1/original.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "The Well-Off People Who Can’t Spend Money\nTightwads drag around a phantom limb of poverty, no matter what their bank account says.\nDavid Fox has plenty of savings. He earns hundreds of thousands of dollars each year. Recently, he allocated $60,000 to buying a new car—but when he arrived at the dealership, he could bring himself to spend only $30,000 on a used model.\nDespite making a conservative choice, he had panic attacks for a week afterward. “I have this feeling that the bottom is gonna fall out,” Fox told me. “What if there’s not enough? What if, what if, what if … So instead of going out and enjoying my success, I kind of just batten down the hatches and prepare for the worst.”\nFox falls into a category of people that the University of Michigan marketing professor Scott Rick has spent years studying: “tightwads,” or people who have trouble spending their money. In [various studies](https://www.amazon.com/dp/1250280079/?tag=theatl0c-20) that he’s conducted, Rick has found that tightwads do not scrimp because they lack money. They are not any poorer than spendthrifts (people who overspend); tightwads actually have better credit scores and more money in savings. (Perhaps because they never spend it.) Instead, they’re afraid to spend money that they do have. Tightwads’ issues reveal how our financial choices can be more psychological than economic. If you feel anxiety about your finances, it might not be relieved by making more money.\nIrrational stinginess is a strange problem to have, akin to complaining about being too beautiful. Some tightwads are hesitant to talk about their issues, because when they do, people react by saying, “Poor little rich boy,” as Fox put it. In a society with so much income inequality, it’s obviously better to be well-off and anxious than to be poor and desperate. But the tightwads I spoke with have very real agita—panic, guilt, stress—over their financial situation, even though there’s no real reason for them to worry. They drag around a phantom limb of poverty, burdened with the sneaking sense that something isn’t right, no matter what their bank account says.\n“Our spending, in some cases, is tied with our identities,” Abigail Sussman, a marketing professor at the University of Chicago, told me. “And so, if I think of myself as somebody who doesn’t splurge on things, spending on something like a new couch that maybe would make my life more comfortable … could interfere with my perception of my own identity.”\nTightwads seem especially attuned to the opportunity costs of spent money—they’re always thinking about how many months of rent they could afford with the money they blew on a tropical vacation. Darius Foroux, a financial blogger, [recently struggled for a year](https://dariusforoux.com/spend-more/) to buy a bicycle. When he was redecorating his condo, he told me, “I was noticing myself bargaining with myself, like, Oh, well, maybe this couch could last for another year or so.”\nForoux said that he often compares potential purchases with other things he could spend his money on. “Oh, I could buy a new iPhone, or I could put that money in an S&P 500 index fund,” he told me. He did finally buy a bike, but a cheaper one than he’d originally planned.\nMany tightwads experienced financial precarity earlier in life, Rick discovered, and though they may no longer be poor, the stress of deprivation is never far from view. “Anxiety about spending became a protective response to make sure you don’t go overboard,” Rick told me.\nDamon Young, the author of the memoir [What Doesn’t Kill You Makes You Blacker](https://bookshop.org/a/12476/9780062684318), calls this feeling “post-brokeness stress disorder.” In a [2018 essay](https://www.nytimes.com/2018/06/09/opinion/sunday/i-have-post-brokeness-stress-disorder.html), he described the terror he felt when he heard a truck backing up on his street: For a moment, he was seized with the fear that it was a tow truck coming to repossess his car—even though he had",
+      "title": "The Anxiety of Spending Money You Definitely Have - The Atlantic",
+      "url": "https://theatln.tc/60TCBMTQ"
     },
     "https://thefoundation.limestonedigital.com/": {
       "content_type": "text/html; charset=utf-8",
@@ -18744,33 +18789,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Long Live Mel Brooks - The Atlantic",
       "url": "https://www.theatlantic.com/culture/2026/06/long-live-mel-brooks/687730/?taid=6a41b90b27dbeb0001f31aca&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter"
-    },
-    "https://www.theatlantic.com/culture/2026/06/the-trump-kennedy-center-foundation-is-the-arts-complexs-latest-mystery/687752/?taid=6a4464f168410d00016285b3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "What is the Trump Kennedy Center Foundation? And why is it being mentioned only now?",
-      "extraction_source": "trafilatura",
-      "final_url": "https://www.theatlantic.com/culture/2026/06/the-trump-kennedy-center-foundation-is-the-arts-complexs-latest-mystery/687752/?taid=6a4464f168410d00016285b3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
-      "frameable": null,
-      "image_urls": [
-        "https://cdn.theatlantic.com/thumbor/SG74psp1Z6rd6n7IN3fcVjFIxRA=/4x122:2880x1620/1200x625/media/img/mt/2026/06/2026_06_25_The_Kennedy_Centers_Time_Is_Running_Out/original.jpg",
-        "https://cdn.theatlantic.com/_next/static/images/nav-archive-promo-5541b02ae92f1a9276249e1c6c2534ee.png",
-        "https://cdn.theatlantic.com/media/games/games_promo_color.png",
-        "https://www.theatlantic.com/magazine/images/current-issue.420.jpg",
-        "https://cdn.theatlantic.com/media/files/audio/intro_sprint_2_emblem.png",
-        "https://cdn.theatlantic.com/media/files/2025/crossword_icon_intro_sprint_2.png",
-        "https://cdn.theatlantic.com/media/files/archive-thumbnail.png",
-        "https://cdn.theatlantic.com/media/files/YourSubscription_300x300.jpg",
-        "https://cdn.theatlantic.com/thumbor/1Etlu7BDEPZfgUrhwl3J6nyDN0k=/0x0:2880x1620/960x540/media/img/mt/2026/06/2026_06_25_The_Kennedy_Centers_Time_Is_Running_Out/original.jpg",
-        "https://cdn.theatlantic.com/thumbor/zZgHtTp5O8OcI3_zwDAO-wwesCE=/431x0:1574x1143/120x120/media/img/authors/2026/05/Kingsberry_headshot_Square/original.jpg"
-      ],
-      "kind": "article",
-      "text_excerpt": "The Kennedy Center’s Latest Defense Raises a New Mystery\nWhat is the Trump Kennedy Center Foundation? And why is it being mentioned only now?\nFor weeks, a tarp obscuring the facade of the John F. Kennedy Center has baffled observers, prompting speculation about the Washington, D.C., arts complex following the court-ordered removal of the president’s name. But recent court filings have raised a new mystery beyond the canvas.\nDepartment of Justice lawyers representing the Kennedy Center yesterday urged a federal appeals court to restore Donald Trump’s name to the institution, arguing that taking it down jeopardizes “hundreds of millions” of dollars in gifts and pledges tied to an entity, unheard-of until this month, called the Trump Kennedy Center for the Performing Arts Foundation. Note the last word.\nBylaws for the foundation (which DOJ lawyers first mentioned in a June 12 filing in the U.S. District Court of Appeals for the D.C. Circuit) require that gifts be “returned, refunded, or terminated” if the president’s name is removed from the building, its branding, or other affiliated materials, the Kennedy Center wrote in a filing yesterday. Seeking an emergency stay to restore the president’s name to the building, the center argued that donors had pledged generous sums because Trump’s name was attached to the institution.\nThe Kennedy Center was reporting fundraising hauls totaling more than $100 million under Trump as recently as late last year. But public business records that I reviewed this week show that the Trump Kennedy Center Foundation did not exist until this spring, raising questions over why funds raised or pledged before that date would need to be returned or canceled.\nOn March 18, the records (filed with the District’s Department of Licensing and Consumer Protection) show, the center amended the name of an existing nonprofit that had been called the Kennedy Center Foundation, which past Kennedy Center leaders had established as an independent 501(c)(3) nonprofit in 2024, before Trump’s reelection. The records, however, do not include any details about the renamed foundation’s governance, and who is in charge of it remains unclear. The records and court filings do not identify the donors whose gifts are allegedly at risk or specify how much money has actually been pledged or received through the foundation. The document formalizing the name change was signed by the center’s general counsel, Elliot Berke.\nAlongside the foundation, there is now also a Trump Kennedy Center Fund. The center’s board voted on June 12 to acknowledge Trump’s contributions to the center in the form of a fund, but how it interacts with the foundation is unclear, other than the fact that the fund appears to be a separate entity. When asked for comment today, the Kennedy Center referred me to a statement from June 13: “The Trump Kennedy Center Fund is intended to recognize President Donald J. Trump’s significant contributions and dedication to America’s premier cultural center, while furthering our founding mission like never before,” the spokesperson Roma Daravi said.\nUnpacking the Kennedy Center’s legal effort to overturn a federal judge’s ruling—that the institution, as a congressionally designated living memorial to Kennedy, cannot be renamed—is thorny enough on its own. But the recent court filings add another layer of intrigue in introducing an unexpected new player as the basis for emergency intervention from a federal appeals court while leaving fundamental questions unanswered.\nIn a [separate filing](https://www.courtlistener.com/docket/72069932/61/beatty-v-trump/) in U.S. District Court yesterday, responding to the allegations from Representative Joyce Beatty that kicked off the legal fight in December, the Kennedy Center offered some of its clearest public admissions of the institution’s vulnerabilities since Trump’s takeover last year. Notably, the Kennedy Center confirmed a [Washington Post report](https://www.washingtonpost.com/en",
-      "text_excerpt_zh": "肯尼迪中心最新辩护引发新谜团  \n特朗普肯尼迪中心基金会是什么？为何现在才被提及？  \n\n数周来，覆盖约翰·F·肯尼迪中心外墙的防水布令观察者困惑不已，引发人们对这座华盛顿特区艺术综合体在法院下令移除总统姓名后的种种猜测。但近期的法庭文件却在这块帆布之外，抛出了新的谜团。  \n\n代表肯尼迪中心的司法部律师昨日敦促联邦上诉法院将唐纳德·特朗普的名字恢复至该机构，辩称移除其名将危及与一个名为“特朗普肯尼迪表演艺术中心基金会”（注意最后这个词）的实体相关的“数亿美元”捐赠与承诺——该实体直至本月才为人所知。  \n\n肯尼迪中心在昨日提交的文件中写道，该基金会（司法部律师于6月12日首次在哥伦比亚特区联邦巡回上诉法院的诉状中提及）的章程规定，若总统姓名从建筑、品牌或其他关联材料中移除，捐赠必须“退还、退款或终止”。为寻求紧急中止令以恢复建筑上的总统姓名，该中心辩称，捐赠者之所以承诺慷慨捐赠，正是因为特朗普的名字与该机构相关联。  \n\n截至去年年底，肯尼迪中心报告称在特朗普领导下筹款总额已超过1亿美元。但笔者本周查阅的公开商业记录显示，特朗普肯尼迪中心基金会直至今年春季才成立，这引发疑问：为何在此日期之前筹集或承诺的资金需要退还或取消？  \n\n记录（提交至哥伦比亚特区许可与消费者保护局）显示，3月18日，该中心修改了一个现有非营利组织的名称——该组织原名为“肯尼迪中心基金会”，由肯尼迪中心前任领导层于2024年（特朗普再次当选前）作为独立的501(c)(3)非营利组织设立。然而，这些记录并未包含更名后基金会治理结构的任何细节，其负责人身份仍不明确。记录和法庭文件均未指明捐赠面临风险的捐赠者身份，也未说明通过基金会实际承诺或收到的具体金额。正式确定名称变更的文件由该中心总法律顾问埃利奥特·伯克签署。  \n\n除基金会外，如今还存在一个“特朗普肯尼迪中心基金”。该中心董事会于6月12日投票决定，以基金形式承认特朗普对中心的贡献，但除该基金似乎为独立实体外，其与基金会的互动方式尚不明确。今日被问及此事时，肯尼迪中心引用了6月13日的一份声明：“特朗普肯尼迪中心基金旨在表彰唐纳德·J·特朗普总统对美国首要文化中心的重大贡献与奉献，同时以前所未有的方式推进我们的创始使命，”发言人罗玛·达拉维表示。  \n\n解读肯尼迪中心推翻联邦法官裁决（即该机构作为国会指定的肯尼迪活纪念地，不得更名）的法律努力本身已足够棘手。但近期的法庭文件引入了一个意想不到的新角色，作为联邦上诉法院紧急干预的依据，同时留下根本问题未解，增添了另一层谜团。  \n\n在昨日提交至美国地方法院的[另一份文件](https://www.courtlistener.com/docket/72069932/61/beatty-v-trump/)中，肯尼迪中心回应了众议员乔伊斯·比蒂去年12月引发法律诉讼的指控，提供了该机构自去年特朗普接管以来最清晰的一些公开承认其脆弱性的表述。值得注意的是，肯尼迪中心证实了[《华盛顿邮报》的一篇报道](https://www.washingtonpost.com/en)。",
-      "text_excerpt_zh_hash": "b8dfe80dddbd1e76",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "The Trump Kennedy Center 'Foundation' Is the Arts Complex's Latest Mystery - The Atlantic",
-      "url": "https://www.theatlantic.com/culture/2026/06/the-trump-kennedy-center-foundation-is-the-arts-complexs-latest-mystery/687752/?taid=6a4464f168410d00016285b3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter"
     },
     "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a419ceb1e0c30000155feb3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter": {
       "cleaner_v": 2,
@@ -24692,8 +24710,9 @@
     "2071605890143174764": [
       "https://x.com/TheAtlantic/status/2071605890143174764",
       "https://www.theatlantic.com/ideas/2026/06/erik-brynjolfsson-the-man-who-saw-ai-coming/687561/?taid=6a4284f3d34ca80001efcb59&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
-      "https://x.com/TheAtlantic/status/2072121278949925199",
-      "https://www.theatlantic.com/culture/2026/06/the-trump-kennedy-center-foundation-is-the-arts-complexs-latest-mystery/687752/?taid=6a4464f168410d00016285b3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter"
+      "https://x.com/TheAtlantic/status/2072330671884779557",
+      "https://theatln.tc/60TCBMTQ",
+      "https://pbs.twimg.com/media/HMJlw3NWsAAieRV.jpg"
     ],
     "2071625939444744521": [
       "https://x.com/MistralDevs/status/2071625939444744521",
@@ -24843,14 +24862,14 @@
     ],
     "2071751990753763630": [
       "https://x.com/GOATYELD/status/2071751990753763630",
-      "https://x.com/GOATYELD/status/2071832463081435527",
       "https://x.com/GOATYELD/status/2071787317841281250",
-      "https://x.com/GOATYELD/status/2072004842562752830",
+      "https://x.com/GOATYELD/status/2071832463081435527",
       "https://x.com/GOATYELD/status/2071786498483998961",
       "https://pbs.twimg.com/tweet_video_thumb/HMB21bDWQAAzO1T.jpg",
       "https://x.com/GOATYELD/status/2072149249760825431",
+      "https://x.com/GOATYELD/status/2072057308339646598",
       "https://x.com/GOATYELD/status/2071791178027057276",
-      "https://x.com/GOATYELD/status/2072057308339646598"
+      "https://x.com/GOATYELD/status/2072004842562752830"
     ],
     "2071794113075376284": [
       "https://x.com/jokieliu/status/2071794113075376284",
@@ -24890,9 +24909,7 @@
       "https://x.com/mardehaym/status/2071900281130905814",
       "https://pbs.twimg.com/amplify_video_thumb/2071900097810427904/img/qx-qMIh7vVR6V9LE.jpg",
       "https://x.com/mardehaym/status/2071900469086024157",
-      "https://thefoundation.limestonedigital.com/",
-      "https://x.com/mardehaym/status/2072225416979353754",
-      "https://pbs.twimg.com/media/HMIF8o-XcAAgfbC.jpg"
+      "https://thefoundation.limestonedigital.com/"
     ],
     "2071915882457059724": [
       "https://x.com/VoltexGar/status/2071915882457059724",
@@ -24905,11 +24922,14 @@
     ],
     "2071936749194907999": [
       "https://x.com/BStulberg/status/2071936749194907999",
-      "https://bradstulberg.substack.com/p/the-enhanced-self-is-the-enemy-of"
+      "https://bradstulberg.substack.com/p/the-enhanced-self-is-the-enemy-of",
+      "https://x.com/BStulberg/status/2072127470900244580",
+      "https://open.substack.com/pub/bradstulberg/p/the-enhanced-self-is-the-enemy-of"
     ],
     "2071947977766117468": [
       "https://x.com/gabriell_lab/status/2071947977766117468",
-      "https://pbs.twimg.com/amplify_video_thumb/2071947853212119041/img/iYywmKMEbbmCeoAy.jpg"
+      "https://pbs.twimg.com/amplify_video_thumb/2071947853212119041/img/iYywmKMEbbmCeoAy.jpg",
+      "https://x.com/gabriell_lab/status/2072344827316842640"
     ],
     "2071950682362462632": [
       "https://x.com/mardehaym/status/2071950682362462632",
@@ -24941,20 +24961,21 @@
     "2071968426562605182": [
       "https://x.com/shmidtqq/status/2071968426562605182",
       "http://x.com/i/article/2071351737706000384",
-      "https://x.com/shmidtqq/status/2071976887933452718",
-      "https://x.com/shmidtqq/status/2071970600029913096",
-      "https://x.com/shmidtqq/status/2071974772196401178",
-      "https://x.com/shmidtqq/status/2071974796435353657",
-      "https://x.com/shmidtqq/status/2071976012070449227",
       "https://x.com/shmidtqq/status/2071989948907930051",
+      "https://x.com/shmidtqq/status/2071970600029913096",
+      "https://x.com/shmidtqq/status/2071976887933452718",
+      "https://x.com/shmidtqq/status/2071974772196401178",
+      "https://x.com/shmidtqq/status/2071976012070449227",
+      "https://x.com/shmidtqq/status/2071974796435353657",
       "https://x.com/shmidtqq/status/2071977057278366128",
       "https://x.com/shmidtqq/status/2071971947416551730"
     ],
     "2071975831602184375": [
       "https://x.com/TheAtlantic/status/2071975831602184375",
       "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a43dd7cf1ddc500011eb60d&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
-      "https://x.com/TheAtlantic/status/2072121278949925199",
-      "https://www.theatlantic.com/culture/2026/06/the-trump-kennedy-center-foundation-is-the-arts-complexs-latest-mystery/687752/?taid=6a4464f168410d00016285b3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter"
+      "https://x.com/TheAtlantic/status/2072330671884779557",
+      "https://theatln.tc/60TCBMTQ",
+      "https://pbs.twimg.com/media/HMJlw3NWsAAieRV.jpg"
     ],
     "2071986617611616655": [
       "https://x.com/fuma_nama/status/2071986617611616655",
@@ -25013,13 +25034,19 @@
       "https://pbs.twimg.com/amplify_video_thumb/2072081471519719424/img/S9fh_gmNX5D5YfuL.jpg",
       "https://x.com/stephenhaney/status/2072083161501278591",
       "https://www.youtube.com/watch?v=cDqDPlSXMS0",
+      "https://x.com/stephenhaney/status/2072346356346388963",
+      "http://paper.design/snapshot",
       "https://x.com/stephenhaney/status/2072091095589421356",
       "https://x.com/stephenhaney/status/2072162798629781531",
-      "https://x.com/stephenhaney/status/2072085251502067797",
+      "https://x.com/stephenhaney/status/2072346864385675516",
+      "https://x.com/stephenhaney/status/2072346417948238118",
+      "https://x.com/stephenhaney/status/2072091318566924548",
       "https://x.com/stephenhaney/status/2072085460537770206",
-      "https://x.com/stephenhaney/status/2072158898824630318",
+      "https://x.com/stephenhaney/status/2072346898774823076",
+      "https://x.com/stephenhaney/status/2072085251502067797",
       "https://x.com/stephenhaney/status/2072082842981732527",
-      "https://x.com/stephenhaney/status/2072091318566924548"
+      "https://x.com/stephenhaney/status/2072346727655649338",
+      "https://x.com/stephenhaney/status/2072158898824630318"
     ],
     "2072099865207636370": [
       "https://x.com/Di_Krass_/status/2072099865207636370",
@@ -25034,8 +25061,7 @@
     "2072134734386450439": [
       "https://x.com/p_millerd/status/2072134734386450439",
       "https://www.panoptica.com/paying-attention-a-case-for-contemplative-autonomy/",
-      "https://x.com/p_millerd/status/2072291481399038462",
-      "http://community.pathlesspath.com"
+      "https://x.com/p_millerd/status/2072325879351726294"
     ],
     "2072137418598134144": [
       "https://x.com/ryanyen22/status/2072137418598134144",
@@ -25054,14 +25080,14 @@
     "2072165415694868891": [
       "https://x.com/feltanimalworld/status/2072165415694868891",
       "https://pbs.twimg.com/amplify_video_thumb/2072164961879564288/img/LNy-GHzkcNoJ8xYM.jpg",
-      "https://x.com/feltanimalworld/status/2072285622127968706",
-      "https://x.com/feltanimalworld/status/2072288053268283812"
+      "https://x.com/feltanimalworld/status/2072288053268283812",
+      "https://x.com/feltanimalworld/status/2072285622127968706"
     ],
     "2072202267563082180": [
       "https://x.com/Escapation/status/2072205879823470838",
       "https://share.directivecreator.com/fable5/"
     ]
   },
-  "updated_at": "2026-07-01T13:40:43Z",
+  "updated_at": "2026-07-01T16:39:46Z",
   "window": "recent"
 }
