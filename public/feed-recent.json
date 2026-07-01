@@ -280,6 +280,21 @@
       "title": "Careers | Cohere",
       "url": "http://cohere.com/careers"
     },
+    "http://community.pathlesspath.com": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Pathless Path community member portal prototype.",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://community.pathlesspath.com/",
+      "frameable": false,
+      "image_urls": [
+        "https://community.pathlesspath.com/assets/pathless-community-share.jpg?v=portal-share-image2-1"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Pathless Path Community",
+      "url": "http://community.pathlesspath.com"
+    },
     "http://ctx.ai": {
       "content_type": "text/html",
       "description": "",
@@ -6333,6 +6348,19 @@
       "title": "",
       "url": "http://x.com/i/article/2071197876361764864"
     },
+    "http://x.com/i/article/2071351737706000384": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2071351737706000384",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HL8pY3EXgAAVsZ0?format=jpg&name=900x900)](http://x.com/shmidtqq/article/2071968426562605182/media/2071419860689584128)\n\nFrom Average to Top 1%: How to Truly Master Claude \n\n[![](https://pbs.twimg.com/profile_images/2068398835886440449/CBfDKDgF_normal.jpg)](http://x.com/shmidtqq)\n\n[shmidt](http://x.com/shmidtqq)\n\n[@shmidtqq](http://x.com/shmidtqq)\n\n·\n\n22h\n\nFollow\n\nClick to Follow shmidtqq\n\n20\n\n25\n\n165\n\n[64K](http://x.com/shmidtqq/status/2071968426562605182/analytics)\n\nAlmost no one understands the real difference: Claude is not a search box. It is more like a highly capable colleague who produces excellent results when given clear direction, and average results when given vague requests.\n\nLet's raise your level of mastery. Think of it as a progression system with four levels.\n\nThe first three levels happen inside the Claude app, no coding required. Level 4 is Claude Code, the terminal tool built for developers. If you do not write code, reaching Level 3 already puts you ahead of most people.\n\nReady to start?\n\n[![Image](https://pbs.twimg.com/media/HL8jqi4WkAAewsv?format=jpg&name=small)](http://x.com/shmidtqq/article/2071968426562605182/media/2071413567438360576)\n\n  \n## \n\nLevel 1\\. Direct It Like a Pro\n\nMost people type a few words and hope. The people who get great results steer. Every strong prompt still rests on four parts (the image below is your cheat sheet), but the real jump comes from three moves almost nobody uses.\n\n[![Image](https://pbs.twimg.com/media/HL8jticWAAAr333?format=png&name=small)](http://x.com/shmidtqq/article/2071968426562605182/media/2071413618860490752)\n\nLet it interview you first.\n\nBefore it answers, make it ask YOU what it needs. This one line turns a generic reply into one built for your exact situation.\n\n```text\nBefore you answer, ask me every question you need to give the best possible result.\n```\n\nNever accept the first draft.\n\nThe first answer is a rough cut, not the final film. Push back: shorter, sharper, add a section, change the tone. The quality lives in the second and third pass.\n\nShow it an example.\n\nPaste something written in the style you want and say \"match this.\" One example teaches more than a paragraph of instructions.\n\n  \n## \n\nLevel 2\\. Give It a Memory and Your Knowledge\n\nStop re-explaining yourself every morning. Claude can hold your context for you now.\n\nLet it remember you.\n\nClaude now remembers across chats: your preferences, key facts about your work, and how you like answers. Memory is on by default (you can pause, reset, or edit it in Settings under Capabilities) and private to your account, so stop re-establishing context every session.\n\nUse Projects for focused memory.\n\nA Project is an isolated workspace with its own memory and knowledge files. Drop in your documents and instructions once, and every chat inside already knows that world, kept separate from your other work.\n\nConnect your real tools.\n\nLink Gmail, Google Drive, and Calendar (and hundreds more via connectors) so Claude works from your actual documents and emails instead of a blank page, with your approval on each action.\n\n  \n## \n\nLevel 3\\. Stop Chatting, Start Delegating\n\nThis is the leap most people never make. Claude can do the work, not just describe it.\n\nWork in Cowork.\n\nIn the Claude desktop app, Cowork gives Claude a folder on your computer. It reads your files, organizes them, and builds real deliverables (Excel sheets with working formulas, slide decks, formatted documents), running multi-step jobs while you step away. Point it at a project folder, your downloads, or even your Obsidian vault, and it works across your real material.\n\nAutomate with scheduled tasks.\n\nSet a job once and it runs on a cadence: a Friday status report, a morning inbox digest, a weekly competitor scan. Work that used to be manual just shows up done.\n\nKeep it honest.\n\nFor anythin",
+      "title": "",
+      "url": "http://x.com/i/article/2071351737706000384"
+    },
     "http://x.com/i/article/2071357845443153921": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6824,6 +6852,28 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "How Japan's railways stayed one while splitting apart",
       "url": "https://arun.is/blog/jr-logo/?ref=sidebar"
+    },
+    "https://arxiv.org/abs/2511.07397": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Abstract page for arXiv paper 2511.07397: Thinking While Speaking: Inference-Time Knowledge Transfer for Responsive and Intelligent Conversational Voice Agents",
+      "extraction_source": "trafilatura",
+      "final_url": "https://arxiv.org/abs/2511.07397",
+      "frameable": false,
+      "image_urls": [
+        "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+        "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png",
+        "https://arxiv.org/static/base/1.0.1/images/icons/smileybones-small.svg",
+        "https://arxiv.org/static/base/1.0.1/images/arxiv-logo-primary-light.svg",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png",
+        "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Computer Science > Computation and Language\n  [Submitted on 10 Nov 2025 (\n    [v1](https://arxiv.org/abs/2511.07397v1)), last revised 23 Jun 2026 (this version, v2)]Title:Thinking While Speaking: Inference-Time Knowledge Transfer for Responsive and Intelligent Conversational Voice Agents\n[View PDF](https://arxiv.org/pdf/2511.07397)\n[HTML (experimental)](https://arxiv.org/html/2511.07397v2)\nAbstract:Voice agents face a fundamental tension: the reasoning, retrieval, and tool use that make foundation models capable are iterative and slow, while conversational interaction demands responses on a millisecond timescale. Smaller, real-time models meet the latency bar but cannot match foundation models on complex tasks, leaving current voice agents to trade away either responsiveness or capability. We introduce conversational infill, where a small talker model both immediately generates contextually grounded responses to hide the latency of an external reasoner model and fluently integrates streamed reasoner knowledge into its responses during inference. We curate a 290,571-example synthetic dataset spanning six domains and demonstrate that this task is learnable across seven widely used small language models ranging from 135M to 1.7B parameters. Our system implementation, ConvFill, sustains millisecond-level time-to-first-response while closing the accuracy gap to within 6.3% of the corresponding frontier reasoner performance. In a live user study (n=18) with talker deployments running on an Apple M2 SoC, participants rank ConvFill on par with frontier models overall, prefer it for retrieval-heavy tasks, and rate it significantly more responsive. These results show that conversational infill unlocks a new point on the latency-capability Pareto frontier, offering a practical path toward voice agents that are both responsive and highly capable. Code, models, and datasets are available at[this https URL](https://github.com/vysri/conversational-infill).\nSubmission history\nFrom: Zachary Englhardt [[view email](https://arxiv.org/show-email/69b82a6c/2511.07397)]\n[[v1]](https://arxiv.org/abs/2511.07397v1)Mon, 10 Nov 2025 18:50:30 UTC (577 KB)\n[v2] Tue, 23 Jun 2026 09:26:07 UTC (1,536 KB)\nReferences & Citations\n    \n    Loading...\nBibliographic and Citation Tools\n            Bibliographic Explorer (\n        [What is the Explorer?](https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer))\n            Connected Papers (\n        [What is Connected Papers?](https://www.connectedpapers.com/about))\n            Litmaps (\n        [What is Litmaps?](https://www.litmaps.co/))\n            scite Smart Citations (\n        [What are Smart Citations?](https://www.scite.ai/))Code, Data and Media Associated with this Article\n            alphaXiv (\n        [What is alphaXiv?](https://alphaxiv.org/))\n            CatalyzeX Code Finder for Papers (\n        [What is CatalyzeX?](https://www.catalyzex.com))\n            DagsHub (\n        [What is DagsHub?](https://dagshub.com/))\n            Gotit.pub (\n        [What is GotitPub?](http://gotit.pub/faq))\n            Hugging Face (\n        [What is Huggingface?](https://huggingface.co/huggingface))\n            ScienceCast (\n        [What is ScienceCast?](https://sciencecast.org/welcome))Demos\nRecommenders and Search Tools\n              Influence Flower (\n          [What are Influence Flowers?](https://influencemap.cmlab.dev/))\n              CORE Recommender (\n          [What is CORE?](https://core.ac.uk/services/recommender))arXivLabs: experimental projects with community collaborators\narXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.\nBoth individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.\nHave an idea for a project that will add value for arXiv's community?",
+      "title": "[2511.07397] Thinking While Speaking: Inference-Time Knowledge Transfer for Responsive and Intelligent Conversational Voice Agents",
+      "url": "https://arxiv.org/abs/2511.07397"
     },
     "https://arxiv.org/abs/2602.01992": {
       "cleaner_v": 2,
@@ -7359,6 +7409,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "What We're No Longer Seeing: AI and the Invisible Newcomer in Open Source",
       "url": "https://blog.stdlib.io/ai-and-the-invisible-newcomer-in-open-source/?ref=sidebar"
+    },
+    "https://bradstulberg.substack.com/p/the-enhanced-self-is-the-enemy-of": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://bradstulberg.substack.com/p/the-enhanced-self-is-the-enemy-of",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "[![Brad Stulberg](https://substackcdn.com/image/fetch/$s_!Wa1y!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83bb491b-b511-4f36-b8e4-79d46aed4b17_1280x1280.png)](/)\n\n# [Brad Stulberg](/)\n\nSubscribeSign in\n\n# The Enhanced Self is the Enemy of a Good Life\n\n### Optimization culture is destroying a generation\n\n[![Brad Stulberg's avatar](https://substackcdn.com/image/fetch/$s_!q2iC!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F15d17a6c-d978-4a79-ba4c-42ca00a33e6c_1858x1858.jpeg)](https://substack.com/@bradstulberg)\n\n[Brad Stulberg](https://substack.com/@bradstulberg)\n\nJun 30, 2026\n\n60\n\n22\n\n8\n\nShare\n\n[![](https://substackcdn.com/image/fetch/$s_!n8Mv!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ad37232-6ebc-4cf5-81e0-d92d10bbbfd3_2400x1400.png)](https://substackcdn.com/image/fetch/$s%5F!n8Mv!,f%5Fauto,q%5Fauto:good,fl%5Fprogressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ad37232-6ebc-4cf5-81e0-d92d10bbbfd3%5F2400x1400.png)\n\nGuy Billout\n\nThe enhanced, optimized self has fully arrived. We have metrics for everything: sleep scores, heart rate variability, glucose, recovery, and readiness. We track not only our biomarkers but also our social and professional markers: subscribers, followers, shares, views, likes. Investors compare deals on PitchBook. Athletes compare run paces on Strava. Authors compare sales ranks on Amazon. Everything is quantified in real time. Everything revolves around the self—and how it stacks up.\n\nOur inclination to track and compare is nothing new. Uncertainty is uncomfortable. Metrics give us a sense of control over things like our health, however illusory that control may be. We’re also the most social creatures in the planet’s history. We crave benchmarks and reference points. We exist as individuals—and derive meaning in our lives—only in relation to others.\n\nWhat is new, however, is the all-encompassing, technologically enabled, 24-7 nature of everything we track.\n\nUntil recently, you received health metrics once a year at your annual physical. You understood your social circle based on the number of people who showed up at weddings, birthdays, and holiday parties. Professional success was measured on yearly lists. Athletes knew where they ranked based on a few events they peaked for every season. We still measured and compared, but there were long stretches of time between those measurements and comparisons. And in those long stretches of time, we could forget about ourselves and how we stacked up. That is no longer the case.\n\nTo be fair, people must believe there is at least some utility to all this tracking; otherwise they wouldn’t do it. For instance, when it comes to biomarkers, people often claim you catch maladies that might go unnoticed between annual physicals. While this can be the case, it’s also true that biometric tracking generates[ false positives and plenty of noise](https://www.nature.com/articles/s41746-020-0226-6), leading to anxiety and even medical errors.[ Research](https://link.springer.com/article/10.5664/jcsm.6472) indicates that, for many, monitoring one’s sleep can worsen sleep quality and quantity, due to the stress of tracking. Scientists call this _orthosomnia_, the ongoing quest for perfect sleep metrics that produces the very insomnia it’s meant to prevent. While people are finally beginning to consider the unintended consequences of optimization on our bodies, the broader and more serious cost, as we’ll see, is to our psyches and souls.\n\n### **How The Self Gets in The Way**\n\nIn 1990, the psychologist Mihaly Csikszentmihalyi published the book _Flow_. In it, he describes experiences when we fully enter the zone and become immersed in what we are doing. You can enter a flow state in almost anythi",
+      "title": "",
+      "url": "https://bradstulberg.substack.com/p/the-enhanced-self-is-the-enemy-of"
     },
     "https://browser-use.com/posts/fetch-use": {
       "cleaner_v": 2,
@@ -8959,6 +9023,22 @@
       "title": "GitHub - robzilla1738/supergoal: Plan and autonomously build a software task end-to-end. One ready-to-paste /goal, adaptive phase count, memory preload + writeback, 3-strike self-healing recovery. Works on Claude Code and Codex. · GitHub",
       "url": "https://github.com/robzilla1738/supergoal"
     },
+    "https://github.com/ryanyen2/knock-knock": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "letting coding agents collaborate cross-machine via Slack and Discord - ryanyen2/knock-knock",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/ryanyen2/knock-knock",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/e98ad26c3d596ba63eb48027884ce9782d80687c61fd6ba78a4148dd16ad3b23/ryanyen2/knock-knock",
+        "https://github.com/ryanyen2/knock-knock/raw/main/website/assets/logo/knockknock.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - ryanyen2/knock-knock: letting coding agents collaborate cross-machine via Slack and Discord · GitHub",
+      "url": "https://github.com/ryanyen2/knock-knock"
+    },
     "https://github.com/secretbuilds/loopy": {
       "content_type": "text/html; charset=utf-8",
       "description": "meta-agent for claude code to automatically loop engineer your workflow - secretbuilds/loopy",
@@ -9046,6 +9126,26 @@
       "text_excerpt_zh": "",
       "title": "GitHub - tobi/try: fresh directories for every vibe · GitHub",
       "url": "https://github.com/tobi/try"
+    },
+    "https://github.com/vysri/conversational-infill": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "The ConvFill Repository provides training and inference code for the Conversational Infill task proposed and implemented in Thinking While Speaking: Inference-Time Knowledge Transfer for Responsive and Intelligent Conversational Voice Agents. - vysri/conversational-infill",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/vysri/conversational-infill",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/486992a73446f8260e98a228107f666b24459c81418335c1efe194c2cb9499a8/vysri/conversational-infill",
+        "https://camo.githubusercontent.com/c1915a2c297f55634f71e7a33361b9151f57ffba3d9a60158f290afde92dcaf7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652ff09fa49725323048756767696e67466163652d446174617365742d79656c6c6f773f7374796c653d666c6174",
+        "https://camo.githubusercontent.com/a3c04fc6c1effe45d055d1f9aa5bc3f0cf1cb69002131b2be60a3efc87decd79/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f61725869762d323531312e30373339372d6233316231623f7374796c653d666c6174266c6f676f3d6172786976",
+        "https://camo.githubusercontent.com/9c6733bae774954c593d90901e2735bf93c942749b3f2614c70e15ba9888a1df/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769744875622d446174617365742d626c75653f7374796c653d666c6174266c6f676f3d676974687562",
+        "https://camo.githubusercontent.com/493b6fe313844b48ae715984a7896a5ed79929a481f5e9c448f51e0e1fe448ce/68747470733a2f2f696d672e736869656c64732e696f2f62616467652ff09fa49725323048756767696e67466163652d436f6c6c656374696f6e2d79656c6c6f773f7374796c653d666c6174",
+        "https://github.com/vysri/conversational-infill/raw/main/assets/teaser.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - vysri/conversational-infill: The ConvFill Repository provides training and inference code for the Conversational Infill task proposed and implemented in Thinking While Speaking: Inference-Time Knowledge Transfer for Responsive and Intelligent Conversational Voice Agents. · GitHub",
+      "url": "https://github.com/vysri/conversational-infill"
     },
     "https://github.com/zhaohongxuan/journal-partner/releases/tag/2.5.0": {
       "content_type": "text/html; charset=utf-8",
@@ -10075,6 +10175,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "https://open.substack.com/pub/airstreet/p/europe-ai-sovereignty"
+    },
+    "https://open.substack.com/pub/derekthompson/p/ai-isnt-coming-for-your-job-its-coming?r=alhs&utm_medium=ios": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://open.substack.com/pub/derekthompson/p/ai-isnt-coming-for-your-job-its-coming?r=alhs&utm_medium=ios",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "[![Derek Thompson](https://substackcdn.com/image/fetch/$s_!uPIO!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F38b0f850-caa7-417a-bc0b-5b7224dd1f25_888x888.png)](/)\n\n# [Derek Thompson](/)\n\nSubscribeSign in\n\n# It’s the Best Time Ever to Become a Millionaire by Working Alone\n\n### There are more—and richer—tiny companies. AI could be playing a big role.\n\n[![Derek Thompson's avatar](https://substackcdn.com/image/fetch/$s_!oFSS!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9ed4fc85-9214-4460-a3e7-c80fca4a3c3d_872x872.png)](https://substack.com/@derekthompson)\n\n[Derek Thompson](https://substack.com/@derekthompson)\n\nJun 30, 2026\n\n∙ Paid\n\n127\n\n5\n\n17\n\nShare\n\n[![a person standing in a room with large windows](https://images.unsplash.com/photo-1656167726804-05daf41bd018?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHw0fHxvbmUlMjBwZXJzb24lMjBiaWclMjByb29tfGVufDB8fHx8MTc4Mjc2MDM1Nnww&ixlib=rb-4.1.0&q=80&w=1080 \"a person standing in a room with large windows\")](https://images.unsplash.com/photo-1656167726804-05daf41bd018?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHw0fHxvbmUlMjBwZXJzb24lMjBiaWclMjByb29tfGVufDB8fHx8MTc4Mjc2MDM1Nnww&ixlib=rb-4.1.0&q=80&w=1080)\n\nPhoto by [Peter Herrmann](https://unsplash.com/@tama66) on [Unsplash](https://unsplash.com)\n\nThe debate about the future of jobs and AI often polarizes into two extreme categories, neither of which I find particularly useful.\n\nOn one side, there are the Doomers. They predict that AI will destroy millions of jobs. Most notably, Anthropic CEO Dario Amodei has sometimes predicted an imminent entry-level white-collar wipeout. The problem with this theory is that it doesn’t really stand up to the current data. The employment rate for prime-age workers in the U.S. is near its all-time high, and a survey of corporate executives [found](https://www.nber.org/papers/w34984) “little evidence of near-term aggregate employment declines due to AI.” Practically every claim of AI’s strong effects on the labor force are [highly contested among economists](https://www.derekthompson.org/p/nobody-knows-anything). \n\nOn the other side, there are the Deniers. They insist that AI is a [scam](https://garymarcus.substack.com/p/turns-out-generative-ai-was-a-scam), a [stochastic parrot](https://www.reddit.com/r/skeptic/comments/134pan4/ai%5Fand%5Fstochastic%5Fparrots%5Fadam%5Fconovers%5Ffactually/), and an overhyped category of vaporware. But while the Doomers too often live in a future that doesn’t exist, the Deniers too frequently dwell in a past that’s no longer with us. The generative AI economy, which barely existed four years ago, has now generated between $100 billion and $200 billion in total revenue in the last 12 months, and AI’s facility with coding has transformed the jobs of millions of software engineers.\n\nBetween doom and denial, there is the evidence. Through [the mists of statistical confusion](https://www.derekthompson.org/p/the-evidence-that-ai-is-destroying), a clearer picture of AI and the future of work is finally coming into view. AI doesn’t seem to be obliterating jobs so much as leading to the explosion of a very specifickind of work, which has major implications for the way we think about AI, the future of jobs, and how to get rich in America. \n\n# **I. Matt’s Story**\n\nMatt Rosenberg left his job at Amazon in 2025\\. He wanted to open a restaurant in the East Bay with his Thai wife, whose family had served food in Bangkok for decades.\n\nHoping to buy a restaurant, Matt shared his plans with ChatGPT. He shared strategy documents, foot-traffic research, and videos of restaurant kitchens. One day, he said, ChatGPT suggested he look into “micro-enterprise home kitchens,” a little-known rule that allows families to sell food that they whip up at home. Soon, the couple opened a restaur",
+      "title": "",
+      "url": "https://open.substack.com/pub/derekthompson/p/ai-isnt-coming-for-your-job-its-coming?r=alhs&utm_medium=ios"
     },
     "https://openai.com/index/chatgpt-memory-dreaming/": {
       "cleaner_v": 2,
@@ -11640,6 +11754,62 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2071982609450541056/img/yEOMombMfcLkq2z_.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2072026088264409088/img/ny53x-NHrBOmDf0i.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2072026088264409088/img/ny53x-NHrBOmDf0i.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2072026088264409088/img/ny53x-NHrBOmDf0i.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2072026088264409088/img/ny53x-NHrBOmDf0i.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2072027340679655424/img/6qV4v1GSpj7h1JNN.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2072027340679655424/img/6qV4v1GSpj7h1JNN.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2072027340679655424/img/6qV4v1GSpj7h1JNN.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2072027340679655424/img/6qV4v1GSpj7h1JNN.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2072038828366553088/img/KK8ETVhfkHZpGfnw.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2072038828366553088/img/KK8ETVhfkHZpGfnw.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2072038828366553088/img/KK8ETVhfkHZpGfnw.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2072038828366553088/img/KK8ETVhfkHZpGfnw.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2072063734919413761/img/U9NMGUk60AsChIft.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2072063734919413761/img/U9NMGUk60AsChIft.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2072063734919413761/img/U9NMGUk60AsChIft.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2072063734919413761/img/U9NMGUk60AsChIft.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2072081471519719424/img/S9fh_gmNX5D5YfuL.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11695,6 +11865,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg"
+    },
+    "https://pbs.twimg.com/ext_tw_video_thumb/2071987140435566593/pu/img/woCNb_ZxyckDbfww.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/ext_tw_video_thumb/2071987140435566593/pu/img/woCNb_ZxyckDbfww.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/ext_tw_video_thumb/2071987140435566593/pu/img/woCNb_ZxyckDbfww.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/ext_tw_video_thumb/2071987140435566593/pu/img/woCNb_ZxyckDbfww.jpg"
     },
     "https://pbs.twimg.com/media/HIxGk5mWoAAfDeu.jpg": {
       "cleaner_v": 2,
@@ -15462,6 +15646,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMHjT2GagAAjtJ4.jpg"
     },
+    "https://pbs.twimg.com/media/HMIF8o-XcAAgfbC.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMIF8o-XcAAgfbC.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMIF8o-XcAAgfbC.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMIF8o-XcAAgfbC.jpg"
+    },
+    "https://pbs.twimg.com/media/HMJNqkCbcAAgFO7.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMJNqkCbcAAgFO7.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMJNqkCbcAAgFO7.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMJNqkCbcAAgFO7.jpg"
+    },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -16181,6 +16393,29 @@
       "title": "乔木风格重写 · OODA循环 - 维基百科 · QMReader",
       "url": "https://rss.qiaomu.ai/articles/ooda%E5%BE%AA%E7%8E%AF-%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91--0a9ed92f715c/rewrite"
     },
+    "https://ryanyen2.github.io/knock-knock/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "knock-knock puts your teammates' Claude, Codex, and Gemini in the same group chat as yours. @mention their agent, get real work done on their machine — no server, no shared setup.",
+      "final_url": "https://ryanyen2.github.io/knock-knock/",
+      "frameable": null,
+      "image_urls": [
+        "https://ryanyen2.github.io/knock-knock/assets/logo/knockknock.png",
+        "https://ryanyen2.github.io/knock-knock/assets/icons/github-svgrepo-com.svg",
+        "https://ryanyen2.github.io/knock-knock/assets/icons/Claude_AI_symbol.svg.png",
+        "https://ryanyen2.github.io/knock-knock/assets/icons/codex-color.png",
+        "https://ryanyen2.github.io/knock-knock/assets/icons/Google_Gemini_icon_2025.svg.png",
+        "https://ryanyen2.github.io/knock-knock/assets/icons/open-code.webp",
+        "https://ryanyen2.github.io/knock-knock/assets/icons/discord-icon-svgrepo-com.svg",
+        "https://ryanyen2.github.io/knock-knock/assets/icons/slack-svgrepo-com.svg",
+        "https://ryanyen2.github.io/knock-knock/assets/icons/telegram-svgrepo-com.svg",
+        "https://ryanyen2.github.io/knock-knock/assets/icons/notion-logo-svgrepo-com.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "knock-knock How it works Architecture Control Use cases Setup GitHub Get started Working with your teammates' local Claude through @knock-knock knock-knock lets your collaborate with your teammates' agents through across machines — no shared codebase, no shared setup, no shared server required. Get started See how it works Where it actually helps. Each person has their own setup on their local machine, instead of asking everyone to share their context, environment, and files, you can start collaboration across machines by @mentioning your teammate's local agents directly! Infrastructure The GPU host live-support team needs Someone has the GPU box and the team needs more from it. They ask their agent; it builds what's needed on that machine, with the host approving each step. LB Laura Bennett @GPU-agent add a LoRA fine-tune route + auth by working with @Laura-agent ga GPU-agent vLLM has built-in LoRA support but no endpoint, @Laura-agent , what parameters you need? LA Laura-Agent I need these two flags: --max-lora-rank, --max-gpu, @GPU-agent add them to the endpoint. ga GPU-agent Endpoint live behind API-key auth. ran on GPU's box · 1 approval Product Designer, frontend, and backend in one thread A designer drops a spec. The frontend agent builds the view on their machine; the backend agent wires the API on theirs. When both agents touch the same file, a conflict card lets the human pick which version wins. DS Designer Checkout redesign spec is ready — @web-agent build the component, @api-agent wire the endpoint. we web-agent Two drafts of EmptyState.tsx aa API-agent Wired the endpoint. Research A domain expert steers the analysis A clinician corrects a cohort definition. The analyst's agent re-runs the query on the analyst's machine, read-only, and posts the new numbers. No data ever leaves the box. RS Dr. Renata Soto domain @data-agent exclude re-admits within 30 days, re-run. da data-agent agent · read-only Cohort n=2,418. Median LOS 4.2 days. queried locally · nothing written MK Marcus Kim stats Can we also break that down by age group — under 65 vs. 65+? da data-agent agent · read-only Under 65: n=1,104, LOS 3.6 d · 65+: n=1,314, LOS 4.7 d. queried locally · nothing written Async File an issue; the agent picks it up Open a GitHub issue and the agent receives it through webhook intake and replies in place, with the same gates and audit line. DP Devin Park issue #214 @github-agent flaky test in auth.test.ts : bisect & fix. ga github-agent agent · via webhook Bisected to a timer race in auth.test.ts:84 . Patch ready on fix/auth-timer-race . Push branch and open PR? git push origin fix/auth-timer-race Allow Deny ga github-agent agent · via webhook PR #217 opened How it Works? Invite you and your teammates' Claude, Codex, Gemini, or OpenCode to the same channel, workspace, group chat, repository or Notion page. Then you can @mention each other's agents to start collaboration across machines. Knock a teammate's bot Delegate across machines Undo from the ledger You @mention Maya's agent. The request goes to her machine, her agent runs it under her rules, the reply comes back, and everything is logged. Maya's MacBook claude maya-agent ~/gateway ✓ add route POST /v1/fine_tunes ◐ write API-key auth runs locally, under Maya's rules Devin's Linux box codex devin-agent ~/web ✓ wire client to /v1/fine_tunes a different model, a different repo one bot per app # infra-build LoRA endpoint YA You @maya-agent add a LoRA fine-tune endpoint, behind auth. ma maya-agent agent On it, in a task thread. channel = shared workspace thread = one task Your laptop you you #infra-build knock @maya-agent · delegate · undo you, in the chat on your phone or desk Audit log every action recorded — append-only, nothing deleted, replayable channel.message turn.prompted tool.requested tool.executed turn.replied Channel A shared project space in Discord or Slack. Your permission boundary — who's in and what they're allowed to do. Thread One task inside a channel.",
+      "title": "knock-knock — work with your teammates' agents in one group chat",
+      "url": "https://ryanyen2.github.io/knock-knock/"
+    },
     "https://s.hbr.org/3PZZpSc": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -16248,6 +16483,22 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Daily Reading List – June 15, 2026 (#805) – Richard Seroter's Architecture Musings",
       "url": "https://seroter.com/2026/06/15/daily-reading-list-june-15-2026-805/"
+    },
+    "https://share.directivecreator.com/fable5/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "The prompting playbook for Claude Fable 5. Effort tiers, brief steering, async harnesses, refusal protocols, and the exact snippets to paste.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://share.directivecreator.com/fable5/",
+      "frameable": false,
+      "image_urls": [
+        "https://share.directivecreator.com/fable5/hero.jpg",
+        "https://share.directivecreator.com/fable5/dc-logo.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "FABLE 5\n      EFFORT IS THE PRIMARY CONTROL\n      DELETE INSTRUCTIONS DON'T ADD THEM\n      BRIEF STEERING\n      ASYNC HARNESS\n      PARALLEL SUBAGENTS\n      REFUSAL → OPUS 4.8\n      ADAPTIVE THINKING\n    \n    \n      FABLE 5\n      EFFORT IS THE PRIMARY CONTROL\n      DELETE INSTRUCTIONS DON'T ADD THEM\n      BRIEF STEERING\n      ASYNC HARNESS\n      PARALLEL SUBAGENTS\n      REFUSAL → OPUS 4.8\n      ADAPTIVE THINKING\n    \n  \nFable 5\nThe generation after Opus 4.8. Built for long-horizon, ambiguous, end-to-end work. Effort tiers, brief steering, async harnesses, parallel subagents, and the exact snippets to paste.\n      effort: high\n      xhigh\n      medium\n      low\n      stop_reason: refusal\n      send_to_user\n      parallel subagents\n      adaptive thinking\n    \n    \n    12\nModules\n9\nSnippets\n4\nEffort Tiers\n1\nSkill File\n01 — EFFORT\n      It trades intelligence vs. latency vs. cost. Default to high. Lower for routine. Crank to xhigh when you need maximum capability.\nFAST\n        TIER 01\n        low\n        Routine work. Still strong — often beats xhigh on prior models. Snappy interactive feel.\n      TIER 02\n        medium\n        Good balance for standard tasks. Fast and capable without deep reasoning overhead.\n      DEFAULT\n        TIER 03\n        high\n        The recommended default for most tasks. Excellent verification and rigorous output.\n      MAX\n        TIER 04\n        xhigh\n        Most capability-sensitive workloads. Can over-gather context and over-tidy — counter with §3.\n      \n    The move is to delete\ninstructions,\nnot add them.\n  instructions,\nnot add them.\n— When migrating, many prompts written for older models are now too prescriptive and actively degrade output.\n02 — SNIPPET LIBRARY\n      Click any card to reveal the snippet. Each is a ready-to-paste instruction block for your system prompt or skill file.\n          01\n          §3 · CLEANUP\n        \n        Counter over-refactoring at higher effort tiers.\nExpand →Don't add features, refactor, or introduce abstractions beyond what the task requires. A bug fix doesn't need surrounding cleanup and a one-shot operation usually doesn't need a helper. Don't design for hypothetical future requirements: do the simplest thing that works well. Avoid premature abstraction and half-finished implementations. Don't add error handling, fallbacks, or validation for scenarios that cannot happen. Trust internal code and framework guarantees. Only validate at system boundaries (user input, external APIs). Don't use feature flags or backwards-compatibility shims when you can just change the code.\n      \n          02\n          §3 · BREVITY\n        \n        Replace verbose output instructions with one directive.\nExpand →Lead with the outcome. Your first sentence after finishing should answer \"what happened\" or \"what did you find\": the thing the user would ask for if they said \"just give me the TLDR.\" Supporting detail and reasoning come after. Being readable and being concise are different things, and readability matters more.\nThe way to keep output short is to be selective about what you include (drop details that don't change what the reader would do next), not to compress the writing into fragments, abbreviations, arrow chains like A → B → fails, or jargon.\n      \n          03\n          §3 · PAUSE\n        \n        Pause only when the work genuinely requires the user.\nExpand →Pause for the user only when the work genuinely requires them: a destructive or irreversible action, a real scope change, or input that only they can provide. If you hit one of these, ask and end the turn, rather than ending on a promise.\n      \n          04\n          §4 · VERIFY\n        \n        Prevent fabricated status during long autonomous runs.\nExpand →Before reporting progress, audit each claim against a tool result from this session. Only report work you can point to evidence for; if something is not yet verified, say so explicitly. Report outcomes faithfully: if tests fail, say so with the output; if a",
+      "title": "Prompting Claude Fable 5",
+      "url": "https://share.directivecreator.com/fable5/"
     },
     "https://signals.forwardfuture.ai/loop-library/": {
       "cleaner_v": 2,
@@ -17976,6 +18227,26 @@
       "title": "",
       "url": "https://www.nytimes.com/2026/06/28/opinion/ai-race-china-us.html"
     },
+    "https://www.panoptica.com/paying-attention-a-case-for-contemplative-autonomy/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "\"I do my own research\" gets thrown around by people defending a prior, rarely by those forming an actual, authentic thought. Dave Nadig makes the case that real autonomy of mind starts in the least glamorous of places, like focusing on one thing for twenty minutes straight. His prescription is a dinner question, a pencil, and the patience to sit with not knowing, fully emphasizing the search in research.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.panoptica.com/paying-attention-a-case-for-contemplative-autonomy/",
+      "frameable": null,
+      "image_urls": [
+        "https://media.perscient.net/panoptica-featuring-epsilon-theory/ContemplativeAutonomy-4x3.png",
+        "https://www.panoptica.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Flogo-blue.0dxak1td7fje3.png&w=3840&q=75",
+        "https://media.perscient.net/panoptica-new/logo-black-silhouette-3.svg",
+        "https://www.panoptica.com/_next/image/?url=https%3A%2F%2Fmedia.perscient.net%2Fpanoptica-featuring-epsilon-theory%2FOH62626-4x3.jpg&w=3840&q=75",
+        "https://www.panoptica.com/_next/image/?url=https%3A%2F%2Fmedia.perscient.net%2Fpanoptica-featuring-epsilon-theory%2FWorldCupTicket-4x3.png&w=3840&q=75",
+        "https://www.panoptica.com/_next/image/?url=https%3A%2F%2Fmedia.perscient.net%2Fpanoptica-featuring-epsilon-theory%2FTouchingTime-4x3.png&w=3840&q=75"
+      ],
+      "kind": "article",
+      "text_excerpt": "Paying Attention: A Case for Contemplative Autonomy\n[Dave Nadig](https://www.panoptica.com/dave-nadig/)\nJune 30, 2026·AI\nTo read more from Dave Nadig, check out [ETF.com](http://ETF.com) and [Nadig.com](http://Nadig.com).\nIn 2019 Ben Hunt wrote Part 2 of [The Long Now: Make, Protect, Teach](https://www.panoptica.com/the-long-now-pt-2-make-protect-teach). If you haven’t read, you should, because it’s basically “canon law” around here. Ben’s exhortation is to find our own path towards civilization in an increasingly uncivil world, and I hear him regularly in my inner voice: what exactly am I making, protecting, or teaching?\nHere’s the part that’s stuck with me, years later though, and it’s not even the point: it’s his introduction:\nThe only thing you can actually control is whether you accept the terms of the game: refusing ridiculous candidates, refusing ridiculous debts, refusing to sacrifice your autonomy of mind.\nThis phrase “Autonomy of Mind” has in the last few years become more prevalent in thinky word-nerd circles. Folks use it to mean all sorts of things, but most often I hear it from folks who are “doing their own research” on something like ivermectin or nuclear fusion (to justify a strongly held prior, of course).\n“I’m a free thinker,” says the Autonomy-of-Mind robot. “I don’t need experts to tell me what to think.”\nHorsefeathers. Call me when you need a tumor removed.\nBefore Autonomy comes Attention\nPart of why I react so negatively to the “do your own research” crowd is because I feel like “it me.” Most of my life and all of my career has been spelunking rabbitholes in that special way only those of us with certain … ahem … neurospicy tendencies really can. So when someone says “I’ve done the research” I immediately want to talk sources. “You’ve done the research on Christian Mystics?” I’ll say. “That’s SO COOL. Tell me about your retreat experiences? What do you think of the whole ‘interior castle vs. monastic discipline’ angle? Have you tried heartbeat-sync-prayer? What’s your Gamma level look like on EEG when you really drop in? What’s your take on Merton?”\nAt which point nobody wants to talk to me anymore, so I tend to keep to myself a lot.\nMy problem was never an attention deficit. My problem was attention intention: learning how to focus on what I wanted, or told myself I needed, to focus on.\nWhy Meditation Sucks\nThe standard answer for someone looking to “improve their focus” or “calm the mind” or more likely “make the voices stop for a minute” is to take up a meditation practice. 20 minutes, 2 times a day, paying attention to something like your breath, or a candle. I’ve recommended this to countless folks, and myself have maintained a practice of some sort forever, so I get it.\nIt’s also the wrong answer for many people right now, I fear.\nFor many people — maybe you — it is unreasonable, in this dopamine-addled, AI-supercompute-in-jeans’-pocket world, to expect someone to go from frantic information overload and decision paralysis at 4:55PM to single-mindedly following their breath just because someone in a robe rang a gong on the YouTube video at 5:15PM.\nSo don’t. That’s my advice. Don’t grab some awesome guided meditation and expect to “drop in.” It’s like telling someone who’s never run a mile in their life to just “target an easy 3-4 miles a day to get started.” Completely rational long term advice. Dangerous and stupid if you’re out of shape and out of breath right now.\nSo don’t meditate. Contemplate.\nContemplation: You’d Pay to Know What You Really Think!\nSarcasticult “Church of the Subgenius” spent a lot of time making fun of how little people actually think. But the good news is, you don’t need to pay anyone anything.\nThe first three instructions are identical to what I tell people starting a traditional meditation or prayer practice:\nSpace: Quiet is good. Dimly lit isn’t bad. A corner of a bedroom. Your office with the door shut.\nTime: Time passes much slower when the mind is focused. Get a pomodo",
+      "title": "Paying Attention: A Case for Contemplative Autonomy - Panoptica featuring Epsilon Theory",
+      "url": "https://www.panoptica.com/paying-attention-a-case-for-contemplative-autonomy/"
+    },
     "https://www.perplexity.ai/enterprise/use-cases/growing-businesses": {
       "content_type": "",
       "description": "",
@@ -18453,6 +18724,30 @@
       "title": "Long Live Mel Brooks - The Atlantic",
       "url": "https://www.theatlantic.com/culture/2026/06/long-live-mel-brooks/687730/?taid=6a41b90b27dbeb0001f31aca&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter"
     },
+    "https://www.theatlantic.com/culture/2026/06/the-trump-kennedy-center-foundation-is-the-arts-complexs-latest-mystery/687752/?taid=6a4464f168410d00016285b3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "What is the Trump Kennedy Center Foundation? And why is it being mentioned only now?",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.theatlantic.com/culture/2026/06/the-trump-kennedy-center-foundation-is-the-arts-complexs-latest-mystery/687752/?taid=6a4464f168410d00016285b3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
+      "frameable": null,
+      "image_urls": [
+        "https://cdn.theatlantic.com/thumbor/SG74psp1Z6rd6n7IN3fcVjFIxRA=/4x122:2880x1620/1200x625/media/img/mt/2026/06/2026_06_25_The_Kennedy_Centers_Time_Is_Running_Out/original.jpg",
+        "https://cdn.theatlantic.com/_next/static/images/nav-archive-promo-5541b02ae92f1a9276249e1c6c2534ee.png",
+        "https://cdn.theatlantic.com/media/games/games_promo_color.png",
+        "https://www.theatlantic.com/magazine/images/current-issue.420.jpg",
+        "https://cdn.theatlantic.com/media/files/audio/intro_sprint_2_emblem.png",
+        "https://cdn.theatlantic.com/media/files/2025/crossword_icon_intro_sprint_2.png",
+        "https://cdn.theatlantic.com/media/files/archive-thumbnail.png",
+        "https://cdn.theatlantic.com/media/files/YourSubscription_300x300.jpg",
+        "https://cdn.theatlantic.com/thumbor/1Etlu7BDEPZfgUrhwl3J6nyDN0k=/0x0:2880x1620/960x540/media/img/mt/2026/06/2026_06_25_The_Kennedy_Centers_Time_Is_Running_Out/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/zZgHtTp5O8OcI3_zwDAO-wwesCE=/431x0:1574x1143/120x120/media/img/authors/2026/05/Kingsberry_headshot_Square/original.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "The Kennedy Center’s Latest Defense Raises a New Mystery\nWhat is the Trump Kennedy Center Foundation? And why is it being mentioned only now?\nFor weeks, a tarp obscuring the facade of the John F. Kennedy Center has baffled observers, prompting speculation about the Washington, D.C., arts complex following the court-ordered removal of the president’s name. But recent court filings have raised a new mystery beyond the canvas.\nDepartment of Justice lawyers representing the Kennedy Center yesterday urged a federal appeals court to restore Donald Trump’s name to the institution, arguing that taking it down jeopardizes “hundreds of millions” of dollars in gifts and pledges tied to an entity, unheard-of until this month, called the Trump Kennedy Center for the Performing Arts Foundation. Note the last word.\nBylaws for the foundation (which DOJ lawyers first mentioned in a June 12 filing in the U.S. District Court of Appeals for the D.C. Circuit) require that gifts be “returned, refunded, or terminated” if the president’s name is removed from the building, its branding, or other affiliated materials, the Kennedy Center wrote in a filing yesterday. Seeking an emergency stay to restore the president’s name to the building, the center argued that donors had pledged generous sums because Trump’s name was attached to the institution.\nThe Kennedy Center was reporting fundraising hauls totaling more than $100 million under Trump as recently as late last year. But public business records that I reviewed this week show that the Trump Kennedy Center Foundation did not exist until this spring, raising questions over why funds raised or pledged before that date would need to be returned or canceled.\nOn March 18, the records (filed with the District’s Department of Licensing and Consumer Protection) show, the center amended the name of an existing nonprofit that had been called the Kennedy Center Foundation, which past Kennedy Center leaders had established as an independent 501(c)(3) nonprofit in 2024, before Trump’s reelection. The records, however, do not include any details about the renamed foundation’s governance, and who is in charge of it remains unclear. The records and court filings do not identify the donors whose gifts are allegedly at risk or specify how much money has actually been pledged or received through the foundation. The document formalizing the name change was signed by the center’s general counsel, Elliot Berke.\nAlongside the foundation, there is now also a Trump Kennedy Center Fund. The center’s board voted on June 12 to acknowledge Trump’s contributions to the center in the form of a fund, but how it interacts with the foundation is unclear, other than the fact that the fund appears to be a separate entity. When asked for comment today, the Kennedy Center referred me to a statement from June 13: “The Trump Kennedy Center Fund is intended to recognize President Donald J. Trump’s significant contributions and dedication to America’s premier cultural center, while furthering our founding mission like never before,” the spokesperson Roma Daravi said.\nUnpacking the Kennedy Center’s legal effort to overturn a federal judge’s ruling—that the institution, as a congressionally designated living memorial to Kennedy, cannot be renamed—is thorny enough on its own. But the recent court filings add another layer of intrigue in introducing an unexpected new player as the basis for emergency intervention from a federal appeals court while leaving fundamental questions unanswered.\nIn a [separate filing](https://www.courtlistener.com/docket/72069932/61/beatty-v-trump/) in U.S. District Court yesterday, responding to the allegations from Representative Joyce Beatty that kicked off the legal fight in December, the Kennedy Center offered some of its clearest public admissions of the institution’s vulnerabilities since Trump’s takeover last year. Notably, the Kennedy Center confirmed a [Washington Post report](https://www.washingtonpost.com/en",
+      "title": "The Trump Kennedy Center 'Foundation' Is the Arts Complex's Latest Mystery - The Atlantic",
+      "url": "https://www.theatlantic.com/culture/2026/06/the-trump-kennedy-center-foundation-is-the-arts-complexs-latest-mystery/687752/?taid=6a4464f168410d00016285b3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter"
+    },
     "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a419ceb1e0c30000155feb3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -18479,6 +18774,30 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "The People Who Will Thrive in the AI Age - The Atlantic",
       "url": "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a419ceb1e0c30000155feb3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter"
+    },
+    "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a43dd7cf1ddc500011eb60d&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "What will differentiate people is not how smart they are but their relationship to mental effort.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a43dd7cf1ddc500011eb60d&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
+      "frameable": null,
+      "image_urls": [
+        "https://cdn.theatlantic.com/thumbor/qYbMj2NrXUMTcZRMJ39SEUKt3f4=/0x61:2876x1559/1200x625/media/img/mt/2026/06/2026_06_21_AI_users/original.jpg",
+        "https://cdn.theatlantic.com/_next/static/images/nav-archive-promo-5541b02ae92f1a9276249e1c6c2534ee.png",
+        "https://cdn.theatlantic.com/media/games/games_promo_color.png",
+        "https://www.theatlantic.com/magazine/images/current-issue.420.jpg",
+        "https://cdn.theatlantic.com/media/files/audio/intro_sprint_2_emblem.png",
+        "https://cdn.theatlantic.com/media/files/2025/crossword_icon_intro_sprint_2.png",
+        "https://cdn.theatlantic.com/media/files/archive-thumbnail.png",
+        "https://cdn.theatlantic.com/media/files/YourSubscription_300x300.jpg",
+        "https://cdn.theatlantic.com/thumbor/jRXTxG_CL0XN71iTjShYbxVOMRk=/0x0:2880x1620/960x540/media/img/mt/2026/06/2026_06_21_AI_users/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/PvSlBgc3N0V03IspsczLtJQvkt0=/630x0:2250x1620/80x80/media/img/mt/2026/06/2026_06_21_AI_users/original.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "The People Who Will Thrive in the AI Age\nWhat will differentiate people is not how smart they are but their relationship to mental effort.\nThis article was featured in the One Story to Read Today newsletter. [Sign up for it here.](https://www.theatlantic.com/newsletters/sign-up/one-story-to-read-today/)\nRemember when AI was going to take away our jobs and leave humans with nothing to do? So far, that doesn’t seem to be happening. Researchers from ActivTrak analyzed the digital activity of more than 10,000 workers and [found](https://www.activtrak.com/news/state-of-the-workplace-ai-accelerating-work/) that when people adopted AI, their work life became more intense, not less. The time that these early adopters spent on email, messaging, and chat apps more than doubled. Their use of business software rose by 94 percent.\nResearchers from UC Berkeley’s Haas School of Business found that when using AI, workers started taking on tasks that they had previously outsourced, because activities such as coding and engineering became easier to do. They squeezed in work bursts in the evening, on weekends, in waiting rooms, and whenever else they had a spare moment and AI was handy. They also did a lot more multitasking, supervising a bunch of bots doing different things simultaneously.\nThe general pattern that the research points to is that many people don’t use the time they save using AI to do less; they use the time to take on new tasks. AI also seems to shift workers’ expectations, and their boss’s expectations, about how much they should accomplish in a day. Every hour feels more crowded, but also more frazzled. The ActivTrak researchers found that the time people spent on focused, uninterrupted work fell by 9 percent. There’s even a name for this mental state: “AI brain fry.”\nIn some sense this is normal. Every time some new labor-saving technology is introduced, there are experts (the ones who know a lot about technology but not much about psychology) who predict that people will use the technology to make life easier. Soon we’ll all be enjoying 15-hour workweeks! Instead, many people use the technology to make their life more frenetic and full. Planes, trains, and automobiles are technologies that save time and effort by making travel faster. They also enable people to take a lot more trips.\nI’d say that a guiding principle of the emerging AI age is this: When intelligence is plentiful, volition is valuable. The people who are going to make a difference are not the ones who seek relaxation and passively use AI to work less. They are the ones who will seek improvement and actively wrestle with AI to develop their own mental capabilities and accomplish more.\nIn other words, what will differentiate people is not how smart they are but their relationship to mental effort. Right now, some people have what psychologists call a high need for cognition. They enjoy thinking hard. These are the people who enjoy playing difficult games and reading dense books. On the other end of the spectrum, there are the cognitive misers, the people who find it unpleasant to think hard and take any opportunity not to do it. In the middle are the people who have a medium need for cognition. They will put in the effort when they really care about something, but they don’t intrinsically enjoy it. Need for cognition correlates with intelligence but is not the same thing. We all know a lot of really smart people who don’t like to work hard.\nAs things stand today, people will have very different experiences with AI.\nThe Productive Passengers. People with a low need for cognition will tend to use AI to think less. Their great gain is that AI will make them more productive because it makes tasks so easy. Their great loss will be that AI will diminish their mental capacities because it makes tasks so easy.\nGod seems to have been a puritan. He created us to be the kind of creatures who don’t experience gain without some pain, don’t gain reward without some effort. Th",
+      "title": "The People Who Will Thrive in the AI Age - The Atlantic",
+      "url": "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a43dd7cf1ddc500011eb60d&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter"
     },
     "https://www.theatlantic.com/ideas/2026/06/ai-tutor-education-human-investment/687678/": {
       "cleaner_v": 2,
@@ -18561,33 +18880,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Nothing on the Internet Is Secure Anymore - The Atlantic",
       "url": "https://www.theatlantic.com/technology/2026/06/ai-hacking-cybersecurity-banks/687562/?taid=6a31a25e117eb200016356ac&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter"
-    },
-    "https://www.theatlantic.com/technology/2026/06/npr-alito-supreme-court-retraction/687750/?taid=6a4447e3c097b900015794f7&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Are there any lessons to the newsroom’s Supreme Court error?",
-      "extraction_source": "trafilatura",
-      "final_url": "https://www.theatlantic.com/technology/2026/06/npr-alito-supreme-court-retraction/687750/?taid=6a4447e3c097b900015794f7&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
-      "frameable": null,
-      "image_urls": [
-        "https://cdn.theatlantic.com/thumbor/DtyOAPgVSEccRVVpUaUx5Dn20y8=/0x85:3995x2166/1200x625/media/img/mt/2026/06/2026_06_30_NPRs_Troubling_Justice_Alito_Retraction_Charlie_Warzel/original.jpg",
-        "https://cdn.theatlantic.com/_next/static/images/nav-archive-promo-5541b02ae92f1a9276249e1c6c2534ee.png",
-        "https://cdn.theatlantic.com/media/games/games_promo_color.png",
-        "https://www.theatlantic.com/magazine/images/current-issue.420.jpg",
-        "https://cdn.theatlantic.com/media/files/audio/intro_sprint_2_emblem.png",
-        "https://cdn.theatlantic.com/media/files/2025/crossword_icon_intro_sprint_2.png",
-        "https://cdn.theatlantic.com/media/files/archive-thumbnail.png",
-        "https://cdn.theatlantic.com/media/files/YourSubscription_300x300.jpg",
-        "https://cdn.theatlantic.com/thumbor/IhQu_pgz-KV4A4h_gPkT5Dp0poQ=/0x1:4000x2251/960x540/media/img/mt/2026/06/2026_06_30_NPRs_Troubling_Justice_Alito_Retraction_Charlie_Warzel/original.jpg",
-        "https://cdn.theatlantic.com/thumbor/lyW9wA_jPYje_sXRDGnpW8Gl4Kk=/54x0:1756x1702/120x120/media/img/authors/2022/11/IMG_0264/original.jpg"
-      ],
-      "kind": "article",
-      "text_excerpt": "It was all a “misunderstanding.” That’s the word that NPR Editor in Chief Thomas Evans used to describe why, today, the outlet erroneously published a report by the veteran Supreme Court reporter Nina Totenberg that Justice Samuel Alito had retired. According to an archived copy, available on the Wayback Machine, the 1,186-word story was published at 10:51 a.m. eastern time. In the story, Totenberg attributed her reporting to the Court itself, not to an anonymous source. Minutes later, the Supreme Court’s public-information office said that the Court had not made any such announcement.\nNPR, to its credit, quickly retracted the story, issued a correction, and apologized. Because NPR syndicates its reporting to hundreds of public-radio affiliates across the country, the incorrect news of Alito’s retirement was picked up by numerous stations before needing to be retracted by them as well. At least one publication—Vox—followed NPR’s reporting and also had to retract a story. The result: roughly an hour of speculation and unnecessary chaos on what was already an intense day of rulings for the Court, including a decision allowing states to bar transgender athletes from girls’ and women’s sports and a rejection of President Trump’s executive order on birthright citizenship.\nSo what really happened here? NPR’s public editor, Kelly McBride, [wrote this afternoon](https://www.npr.org/sections/npr-public-editor/2026/06/30/g-s1-131107/npr-retracts-story-about-alito-retirement) that Totenberg had listened to Chief Justice John Roberts announcing retirements at the Court and misheard the statement. She then contacted her intern at the Court and the NPR executive editor who published the story. (NPR and the Supreme Court press office did not respond to a request for comment.) The New York Times [reported](https://www.nytimes.com/2026/06/30/business/media/npr-samuel-alito-nina-totenberg.html) that the story lacked extra steps of verification because it cited an announcement instead of an anonymous source.\nAccording to McBride, much of the story had been prewritten in anticipation of Alito announcing retirement. This is a common practice for reporters who cover a specific beat; in some cases, as with high-profile elections, reporters write two versions of the same story, anticipating either outcome. Prewriting is also a common practice for obituaries. The archived story includes at least one flagrant typo, suggesting that perhaps the story was published before it was ready.\nThis is a scenario that reporters lose sleep thinking about. There are a number of potential lessons here: that a breakneck news cycle is forcing even the best reporters and editors to move too fast, that modern beat reporting itself has become too consumed with being first to report stories where the “exclusive” title adds little value. (Totenberg’s story, which was packed with expert context and analysis, would have been valuable even if it had been published five minutes after a competitor.) You could also make an argument that such errors have never been costlier in an era when trust in media has never been lower, or that the very dynamics that push legacy news outlets to rush and lose credibility are the very ones that reward shock jocks and those peddling misleading information.\nBut, in attempting to document the fallout from the NPR story, I’m struck by how little there was. Outside of a confusing few minutes, very few people other than media critics and Court observers have seemed to care about the mistake. The right-wing media feeds that I monitor—full of people whose livelihoods depend on disparaging the mainstream media as “fake news”—barely registered the error, aside from a half-hearted [post](https://x.com/KatieMiller/status/2071974513831539174?s=20) here and [there](https://x.com/SteveGuest/status/2071973967452103068?s=20). A few explanations seem to exist for this: First, NPR’s quick retraction makes it harder to spin a convoluted conspiracy theory. Second,",
-      "text_excerpt_zh": "这一切都是一场“误会”。美国国家公共广播电台（NPR）主编托马斯·埃文斯用这个词来解释，为何该媒体今天错误地发布了一篇由资深最高法院记者妮娜·托滕伯格撰写的报道，称大法官塞缪尔·阿利托已退休。根据互联网档案馆（Wayback Machine）上的一份存档副本，这篇1186字的报道于美国东部时间上午10点51分发布。在报道中，托滕伯格将她的消息来源归为法院本身，而非匿名信源。几分钟后，最高法院公共信息办公室表示，法院并未发布任何此类声明。\n\n值得肯定的是，NPR迅速撤回了这篇报道，发布了更正并致歉。由于NPR将其报道内容分发至全美数百家公共广播附属机构，阿利托退休的错误消息被多家电台采用，随后它们也不得不撤回。至少有一家媒体——Vox——跟进了NPR的报道，也不得不撤回了一篇文章。结果：在法院本就裁决密集、气氛紧张的一天（包括一项允许各州禁止跨性别运动员参加女子体育项目的裁决，以及驳回特朗普总统关于出生公民权的行政命令），引发了大约一小时的猜测和不必要的混乱。\n\n那么，这里到底发生了什么？NPR的公共编辑凯莉·麦克布莱德今天下午写道，托滕伯格当时听到首席大法官约翰·罗伯茨在法院宣布退休消息，但听错了。随后，她联系了她在法院的实习生以及发布该报道的NPR执行编辑。（NPR和最高法院新闻办公室未回应置评请求。）《纽约时报》报道称，这篇报道缺乏额外的核实步骤，因为它引用的是官方公告而非匿名信源。\n\n据麦克布莱德称，报道的大部分内容是在预期阿利托可能宣布退休的情况下预先写好的。这是报道特定领域的记者的常见做法；在某些情况下，例如备受关注的选举，记者会为同一事件撰写两个版本，以应对两种可能的结果。预先撰写也是讣告报道的常见做法。存档的报道中至少包含一处明显的拼写错误，这表明该报道可能是在未准备好的情况下发布的。\n\n这是记者们会失眠担忧的场景。这里有许多潜在的教训：高速运转的新闻周期正迫使即使是最优秀的记者和编辑也过快行动；现代领域报道本身已过于沉迷于抢先发布那些“独家”头衔价值甚微的新闻。（托滕伯格的报道充满了专业的背景和分析，即使比竞争对手晚五分钟发布，也依然有价值。）你也可以争辩说，在媒体信任度处于历史低点的时代，此类错误的代价从未如此高昂；或者说，正是那些迫使传统新闻机构仓促行事、丧失公信力的动态，恰恰奖励了那些哗众取宠者和传播误导信息的人。\n\n但是，在试图记录NPR报道的后续影响时，我惊讶地发现影响如此之小。除了令人困惑的几分钟外，除了媒体评论员和法院观察人士之外，似乎很少有人在意这个错误。我监控的右翼媒体信息流——其中许多人的生计依赖于贬低主流媒体为“假新闻”——几乎没怎么提及这个错误，除了偶尔有一两条敷衍的帖子。对此似乎存在几种解释：首先，NPR的迅速撤回使得编造复杂的阴谋论变得更加困难。其次，",
-      "text_excerpt_zh_hash": "a248d72db01254ee",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "The Lesson of NPR’s Supreme Court Retraction - The Atlantic",
-      "url": "https://www.theatlantic.com/technology/2026/06/npr-alito-supreme-court-retraction/687750/?taid=6a4447e3c097b900015794f7&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter"
     },
     "https://www.theinformation.com/articles/anthropic-ban-stirs-concerns-openai-beyond-crackdown-foreign-ai-talent": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
@@ -24373,8 +24665,8 @@
     "2071605890143174764": [
       "https://x.com/TheAtlantic/status/2071605890143174764",
       "https://www.theatlantic.com/ideas/2026/06/erik-brynjolfsson-the-man-who-saw-ai-coming/687561/?taid=6a4284f3d34ca80001efcb59&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
-      "https://x.com/TheAtlantic/status/2072090080252993542",
-      "https://www.theatlantic.com/technology/2026/06/npr-alito-supreme-court-retraction/687750/?taid=6a4447e3c097b900015794f7&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter"
+      "https://x.com/TheAtlantic/status/2072121278949925199",
+      "https://www.theatlantic.com/culture/2026/06/the-trump-kennedy-center-foundation-is-the-arts-complexs-latest-mystery/687752/?taid=6a4464f168410d00016285b3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter"
     ],
     "2071625939444744521": [
       "https://x.com/MistralDevs/status/2071625939444744521",
@@ -24524,14 +24816,14 @@
     ],
     "2071751990753763630": [
       "https://x.com/GOATYELD/status/2071751990753763630",
-      "https://x.com/GOATYELD/status/2071787317841281250",
       "https://x.com/GOATYELD/status/2071832463081435527",
+      "https://x.com/GOATYELD/status/2071787317841281250",
+      "https://x.com/GOATYELD/status/2072004842562752830",
       "https://x.com/GOATYELD/status/2071786498483998961",
       "https://pbs.twimg.com/tweet_video_thumb/HMB21bDWQAAzO1T.jpg",
-      "https://x.com/GOATYELD/status/2072057308339646598",
       "https://x.com/GOATYELD/status/2072149249760825431",
       "https://x.com/GOATYELD/status/2071791178027057276",
-      "https://x.com/GOATYELD/status/2072004842562752830"
+      "https://x.com/GOATYELD/status/2072057308339646598"
     ],
     "2071794113075376284": [
       "https://x.com/jokieliu/status/2071794113075376284",
@@ -24558,7 +24850,8 @@
     ],
     "2071829397712285775": [
       "https://x.com/sukie234/status/2071829397712285775",
-      "https://x.com/sukie234/status/2071688735000048041"
+      "https://x.com/sukie234/status/2072304174583452098",
+      "https://pbs.twimg.com/media/HMJNqkCbcAAgFO7.jpg"
     ],
     "2071847883419312282": [
       "https://x.com/vista8/status/2071847883419312282",
@@ -24570,11 +24863,22 @@
       "https://x.com/mardehaym/status/2071900281130905814",
       "https://pbs.twimg.com/amplify_video_thumb/2071900097810427904/img/qx-qMIh7vVR6V9LE.jpg",
       "https://x.com/mardehaym/status/2071900469086024157",
-      "https://thefoundation.limestonedigital.com/"
+      "https://thefoundation.limestonedigital.com/",
+      "https://x.com/mardehaym/status/2072225416979353754",
+      "https://pbs.twimg.com/media/HMIF8o-XcAAgfbC.jpg"
     ],
     "2071915882457059724": [
       "https://x.com/VoltexGar/status/2071915882457059724",
       "https://pbs.twimg.com/amplify_video_thumb/2071888446486933504/img/IlPaw5UdFOZQF69f.jpg"
+    ],
+    "2071934737053372833": [
+      "https://x.com/rickyho_1989/status/2071934737053372833",
+      "https://x.com/rickyho_1989/status/2072286131442569361",
+      "https://x.com/rickyho_1989/status/2071940572588519428"
+    ],
+    "2071936749194907999": [
+      "https://x.com/BStulberg/status/2071936749194907999",
+      "https://bradstulberg.substack.com/p/the-enhanced-self-is-the-enemy-of"
     ],
     "2071947977766117468": [
       "https://x.com/gabriell_lab/status/2071947977766117468",
@@ -24589,7 +24893,8 @@
     ],
     "2071951205459538266": [
       "https://x.com/tison1096/status/2071951205459538266",
-      "http://x.com/i/article/2071936101921767424"
+      "http://x.com/i/article/2071936101921767424",
+      "https://x.com/tison1096/status/2072230886767296728"
     ],
     "2071962893021491221": [
       "https://x.com/ElevenLabs/status/2071962893021491221",
@@ -24602,6 +24907,28 @@
       "https://x.com/ElevenLabs/status/2071962903972917541",
       "http://www.elevenlabs.io/blog/procedures"
     ],
+    "2071966412386550101": [
+      "https://x.com/sarthakgh/status/2071966412386550101",
+      "https://open.substack.com/pub/derekthompson/p/ai-isnt-coming-for-your-job-its-coming?r=alhs&utm_medium=ios"
+    ],
+    "2071968426562605182": [
+      "https://x.com/shmidtqq/status/2071968426562605182",
+      "http://x.com/i/article/2071351737706000384",
+      "https://x.com/shmidtqq/status/2071976887933452718",
+      "https://x.com/shmidtqq/status/2071970600029913096",
+      "https://x.com/shmidtqq/status/2071974772196401178",
+      "https://x.com/shmidtqq/status/2071974796435353657",
+      "https://x.com/shmidtqq/status/2071976012070449227",
+      "https://x.com/shmidtqq/status/2071989948907930051",
+      "https://x.com/shmidtqq/status/2071977057278366128",
+      "https://x.com/shmidtqq/status/2071971947416551730"
+    ],
+    "2071975831602184375": [
+      "https://x.com/TheAtlantic/status/2071975831602184375",
+      "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a43dd7cf1ddc500011eb60d&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
+      "https://x.com/TheAtlantic/status/2072121278949925199",
+      "https://www.theatlantic.com/culture/2026/06/the-trump-kennedy-center-foundation-is-the-arts-complexs-latest-mystery/687752/?taid=6a4464f168410d00016285b3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter"
+    ],
     "2071986617611616655": [
       "https://x.com/fuma_nama/status/2071986617611616655",
       "https://pbs.twimg.com/amplify_video_thumb/2071982609450541056/img/yEOMombMfcLkq2z_.jpg",
@@ -24612,15 +24939,26 @@
       "https://pbs.twimg.com/media/HMEslfFaMAAGzGf.jpg",
       "https://x.com/fuma_nama/status/2072053884202430649",
       "https://x.com/fuma_nama/status/2072054596328174077",
+      "https://x.com/fuma_nama/status/2072307400892350753",
       "https://x.com/fuma_nama/status/2071992810585346209"
+    ],
+    "2071987168143110366": [
+      "https://x.com/planepowers/status/2071987168143110366",
+      "https://pbs.twimg.com/ext_tw_video_thumb/2071987140435566593/pu/img/woCNb_ZxyckDbfww.jpg"
     ],
     "2072003526755266744": [
       "https://x.com/alex_prompter/status/2072003526755266744",
-      "http://x.com/i/article/2071981880069783552"
+      "http://x.com/i/article/2071981880069783552",
+      "https://x.com/alex_prompter/status/2072243304700297694",
+      "https://x.com/alex_prompter/status/2072243285158932740"
     ],
     "2072018523669533180": [
       "https://x.com/posthog/status/2072018523669533180",
       "http://x.com/i/article/2072015763360428032"
+    ],
+    "2072026253842841692": [
+      "https://x.com/h100envy/status/2072026253842841692",
+      "https://pbs.twimg.com/amplify_video_thumb/2072026088264409088/img/ny53x-NHrBOmDf0i.jpg"
     ],
     "2072028142487621732": [
       "https://x.com/VKazulkin/status/2072028142487621732",
@@ -24628,28 +24966,59 @@
       "https://x.com/VKazulkin/status/2072028394011910275",
       "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat"
     ],
+    "2072030318367056226": [
+      "https://x.com/jinayoon_/status/2072030318367056226",
+      "https://x.com/jinayoon_/status/2072027664983212291",
+      "https://pbs.twimg.com/amplify_video_thumb/2072027340679655424/img/6qV4v1GSpj7h1JNN.jpg"
+    ],
+    "2072040890672304481": [
+      "https://x.com/vysrini/status/2072040890672304481",
+      "https://arxiv.org/abs/2511.07397",
+      "https://github.com/vysri/conversational-infill"
+    ],
+    "2072070980617351211": [
+      "https://x.com/ArchiveExplorer/status/2072070980617351211",
+      "https://pbs.twimg.com/amplify_video_thumb/2072063734919413761/img/U9NMGUk60AsChIft.jpg",
+      "https://x.com/ArchiveExplorer/status/2072290198789001605"
+    ],
     "2072082367720943871": [
       "https://x.com/stephenhaney/status/2072082367720943871",
       "https://pbs.twimg.com/amplify_video_thumb/2072081471519719424/img/S9fh_gmNX5D5YfuL.jpg",
       "https://x.com/stephenhaney/status/2072083161501278591",
       "https://www.youtube.com/watch?v=cDqDPlSXMS0",
-      "https://x.com/stephenhaney/status/2072162798629781531",
       "https://x.com/stephenhaney/status/2072091095589421356",
-      "https://x.com/stephenhaney/status/2072091318566924548",
-      "https://x.com/stephenhaney/status/2072085460537770206",
+      "https://x.com/stephenhaney/status/2072162798629781531",
       "https://x.com/stephenhaney/status/2072085251502067797",
+      "https://x.com/stephenhaney/status/2072085460537770206",
+      "https://x.com/stephenhaney/status/2072158898824630318",
       "https://x.com/stephenhaney/status/2072082842981732527",
-      "https://x.com/stephenhaney/status/2072158898824630318"
+      "https://x.com/stephenhaney/status/2072091318566924548"
+    ],
+    "2072099865207636370": [
+      "https://x.com/Di_Krass_/status/2072099865207636370",
+      "https://pbs.twimg.com/amplify_video_thumb/2072038828366553088/img/KK8ETVhfkHZpGfnw.jpg",
+      "https://x.com/Di_Krass_/status/2072186395268088305"
     ],
     "2072109410302951847": [
       "https://x.com/daleverett/status/2072109410302951847",
       "https://pbs.twimg.com/media/HMGchhGb0AACnQR.jpg",
       "https://x.com/daleverett/status/2072128596198789441"
     ],
+    "2072134734386450439": [
+      "https://x.com/p_millerd/status/2072134734386450439",
+      "https://www.panoptica.com/paying-attention-a-case-for-contemplative-autonomy/",
+      "https://x.com/p_millerd/status/2072291481399038462",
+      "http://community.pathlesspath.com"
+    ],
+    "2072137418598134144": [
+      "https://x.com/ryanyen22/status/2072137418598134144",
+      "https://ryanyen2.github.io/knock-knock/",
+      "https://x.com/ryanyen22/status/2072137633417802156",
+      "https://github.com/ryanyen2/knock-knock"
+    ],
     "2072137449451782541": [
       "https://x.com/KengGuangLong/status/2072137449451782541",
-      "http://x.com/i/article/2072136991320502272",
-      "https://x.com/KengGuangLong/status/2072098276246274065"
+      "http://x.com/i/article/2072136991320502272"
     ],
     "2072163884430229756": [
       "https://x.com/AnthropicAI/status/2072163884430229756",
@@ -24657,9 +25026,15 @@
     ],
     "2072165415694868891": [
       "https://x.com/feltanimalworld/status/2072165415694868891",
-      "https://pbs.twimg.com/amplify_video_thumb/2072164961879564288/img/LNy-GHzkcNoJ8xYM.jpg"
+      "https://pbs.twimg.com/amplify_video_thumb/2072164961879564288/img/LNy-GHzkcNoJ8xYM.jpg",
+      "https://x.com/feltanimalworld/status/2072285622127968706",
+      "https://x.com/feltanimalworld/status/2072288053268283812"
+    ],
+    "2072202267563082180": [
+      "https://x.com/Escapation/status/2072205879823470838",
+      "https://share.directivecreator.com/fable5/"
     ]
   },
-  "updated_at": "2026-07-01T06:44:50Z",
+  "updated_at": "2026-07-01T13:40:43Z",
   "window": "recent"
 }
