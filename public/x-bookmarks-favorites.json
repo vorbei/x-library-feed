@@ -63,6 +63,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Agents and your team co-execute. https://t.co/64gUluzGvd",
+      "text_zh": "Agent 与您的团队协同执行。https://t.co/64gUluzGvd",
+      "text_zh_hash": "020cfca4b1bc8900",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/planepowers/status/2071987168143110366"
     },
     {
@@ -104,6 +107,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "In the age of AI, what will determine someone's personal success? @DavidBrooks224 argues that, rather than being about how smart someone is, the answer has more to do with one's relationship to mental effort: https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a43dd7cf1ddc500011eb60d&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
+      "text_zh": "在人工智能时代，什么将决定一个人的个人成功？@DavidBrooks224 认为，答案与其说与一个人有多聪明有关，不如说与一个人与心智努力的关系有关：https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a43dd7cf1ddc500011eb60d&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
+      "text_zh_hash": "6fcee2e55d6c9414",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheAtlantic/status/2071975831602184375"
     },
     {
@@ -158,6 +164,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "\"You're not supposed to prompt Claude. You're supposed to build a system that prompts itself.\"\n\nThat's how an Anthropic engineer opened a new video on proactive routines in Claude Code. How to turn the model from a passive assistant into an autonomous teammate.\n\nThe key moment comes next: how the agent makes decisions inside the routine on its own. 02:15 you see what happens when it finds a bug - writes a fix, tests it, opens a PR. No prompt in the moment.\n\nThen - the full cycle. How to build a routine from scratch. What context to give the agent for stable output. How to glue it together with /schedule into a regular autonomous process.\n\nOne prompt and a closed tab - that's 90% of the tool left untouched. Most people work exactly like that.\n\nSubscribe to me so you don't miss new videos and you'll know more than 99% of people.",
+      "text_zh": "“你不应该手动提示Claude。你应该构建一个能自我提示的系统。”\n\n这是Anthropic一位工程师在介绍Claude Code主动式工作流新视频时的开场白。如何将模型从被动助手转变为自主协作伙伴。\n\n关键点紧随其后：代理如何在工作流内部自主做出决策。在02:15处，你会看到当它发现一个bug时的操作——编写修复代码、测试、提交PR。整个过程无需即时提示。\n\n接着是完整循环：如何从零构建工作流。该为代理提供哪些上下文以确保稳定输出。如何通过`/schedule`将其整合为定期自主运行的流程。\n\n一次提示加上关闭标签页——这就意味着90%的工具功能未被触及。大多数人正是这样使用的。\n\n订阅我，以免错过新视频，你将比99%的人更懂。",
+      "text_zh_hash": "ae628f3c54ecb258",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Di_Krass_/status/2072099865207636370"
     },
     {
@@ -239,6 +248,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Hey everyone, I have received permission from my employer to publish this research.\n\nIt is a lengthy investment thesis on what I believe will be the next chapter of AI. After months of research, we are turning bullish on the hyperscalers and explain why we believe the market is underestimating where the economics of AI are ultimately heading.\n\nThe rest is covered in the X article below. I hope you enjoy reading it, and I look forward to hearing your thoughts and challenges.",
+      "text_zh": "大家好，我已获得雇主许可发布这项研究。\n\n这是一份篇幅较长的投资分析报告，阐述了我认为人工智能将迎来的下一阶段发展。经过数月研究，我们开始看好超大规模云服务商，并解释为何我们认为市场低估了人工智能经济学的最终走向。\n\n其余内容详见下方X平台文章。希望各位阅读愉快，期待听到大家的见解与质疑。",
+      "text_zh_hash": "f8578679c5053697",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/rickyho_1989/status/2071934737053372833"
     },
     {
@@ -280,6 +292,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "recommend from @davenadig\n\nhttps://www.panoptica.com/paying-attention-a-case-for-contemplative-autonomy/",
+      "text_zh": "推荐自 @davenadig\n\nhttps://www.panoptica.com/paying-attention-a-case-for-contemplative-autonomy/",
+      "text_zh_hash": "b26b7ff3f66a7364",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/p_millerd/status/2072134734386450439"
     },
     {
@@ -334,6 +349,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "My friend makes $1.2 million a year as an Anthropic product lead.\n\nI asked him how Anthropic ships product faster than anyone else.\n\nHe sent me a video that was never supposed to get out. Their core team's playbook for shipping at the pace of the model.\n\nYou won't find anything better about building product on AI than this video.\n\nI watched it last night.\n\nHalfway through, I realized I've been adding to my CLAUDE.md when I should've been deleting from it.\n\nBookmark and watch this today.",
+      "text_zh": "我朋友在Anthropic担任产品主管，年薪120万美元。\n\n我问他，Anthropic为什么能比任何人都更快地交付产品。\n\n他发给我一段本不该外泄的视频。那是他们核心团队以模型迭代速度交付产品的实战手册。\n\n关于AI产品构建，你找不到比这更棒的内容了。\n\n昨晚我看完了这段视频。\n\n看到一半时，我意识到自己一直在往CLAUDE.md里添加内容，而实际上应该从中删除。\n\n今天就把这个收藏起来，好好看看。",
+      "text_zh_hash": "c3501c9805962130",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ArchiveExplorer/status/2072070980617351211"
     },
     {
@@ -381,6 +399,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "What if your voice agent could use real-time knowledge from a frontier model—database lookups, tool calls, and all—and weave it into conversation without compromising on millisecond-level responsiveness?\n\nCheck out our paper!\n🔗 https://arxiv.org/abs/2511.07397\n💻 https://github.com/vysri/conversational-infill",
+      "text_zh": "如果您的语音助手能够利用前沿模型的实时知识——包括数据库查询、工具调用等——并将其无缝融入对话，同时保持毫秒级的响应速度，会怎样？\n\n欢迎查阅我们的论文！\n🔗 https://arxiv.org/abs/2511.07397\n💻 https://github.com/vysri/conversational-infill",
+      "text_zh_hash": "af895aee7560b52f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/vysrini/status/2072040890672304481"
     },
     {
@@ -421,6 +442,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "“I don’t think AI is going to replace your job. But it is more than possible that an AI-native firm will supplant your company.”\n\nExcellent essay by @DKThomp: https://open.substack.com/pub/derekthompson/p/ai-isnt-coming-for-your-job-its-coming?r=alhs&utm_medium=ios\n\n“Despite the advantages that large firms will have, I think the rise of the solo act and the nano-firm is a real and lasting trend. A book that I cannot stop thinking about is Alfred Chandler’s The Visible Hand, which is a history of the rise of modern capitalism. Chandler argued that the railroad and telegraph created a profusion of sales and inventory information for big businesses to manage. This work required professional managers. Thus, salaried managerial hierarchy was born. \n\nBut AI and other digital platforms are different; they’re adept at synthesizing information that’s already been created. If the railroad invented the modern org chart, AI-native firms are inventing a kind of anti-org chart, a firm in which coordination is increasingly done by models, and digital platforms, rather than by layers of human managers. When new firms don’t require the bureaucracies that accumulate at larger companies, their payroll can stay small while their earnings get big.\n\nSo, we’ve gone from the invisible hand of capitalism, which coordinates prices without a central control system, to the visible hand of managers, who coordinate prices to control a flood of information, to the invisible hands-on-deck—digital platforms, including AI, that allow sole proprietors to get more done with smaller staff.”\n\nhttps://open.substack.com/pub/derekthompson/p/ai-isnt-coming-for-your-job-its-coming?r=alhs&utm_medium=ios",
+      "text_zh": "“我不认为AI会取代你的工作。但完全有可能的是，一家AI原生企业会取代你的公司。”\n\n@DKThomp 的精彩文章：https://open.substack.com/pub/derekthompson/p/ai-isnt-coming-for-your-job-its-coming?r=alhs&utm_medium=ios\n\n“尽管大企业拥有诸多优势，但我认为个人创业者与微型企业的崛起是一个真实且持久的趋势。一本让我反复思考的书是阿尔弗雷德·钱德勒的《看得见的手》，它讲述了现代资本主义的兴起史。钱德勒认为，铁路和电报催生了大量需要大企业管理的销售与库存信息。这项工作需要职业经理人。于是，领薪的管理层级制度诞生了。\n\n但AI和其他数字平台则不同；它们擅长综合已生成的信息。如果说铁路发明了现代组织架构图，那么AI原生企业正在发明一种反组织架构图——一种协调工作越来越多由模型和数字平台完成，而非层层人类经理的企业。当新企业不再需要大公司积累的官僚体系时，它们的薪资支出可以保持精简，而收益却变得庞大。\n\n因此，我们经历了从无需中央控制系统的‘看不见的手’（资本主义通过价格协调），到经理人的‘看得见的手’（通过价格协调以控制信息洪流），再到‘看不见的在线人手’——包括AI在内的数字平台，让个体经营者能以更少的人力完成更多工作。”\n\nhttps://open.substack.com/pub/derekthompson/p/ai-isnt-coming-for-your-job-its-coming?r=alhs&utm_medium=ios",
+      "text_zh_hash": "d8c17ff18f6c1084",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/sarthakgh/status/2071966412386550101"
     },
     {
@@ -461,6 +485,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "When people optimize they only think about the benefits and never the costs. The result is that, on balance, so much of the lifemaxxing stuff makes your life decidedly worse. https://bradstulberg.substack.com/p/the-enhanced-self-is-the-enemy-of",
+      "text_zh": "人们在优化时只考虑收益，从不考虑代价。结果就是，总体而言，大量“人生优化”的内容反而让你的生活变得更糟。https://bradstulberg.substack.com/p/the-enhanced-self-is-the-enemy-of",
+      "text_zh_hash": "72a23a1190efd3fc",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/BStulberg/status/2071936749194907999"
     },
     {
@@ -507,6 +534,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Great insights! Building on this, we got something that further leverage the chat infrastructure to support multi-agent collaboration, so people can run their own local, specialized agents and have them work together across-machine! \n\nhttps://ryanyen2.github.io/knock-knock/",
+      "text_zh": "太棒了！基于此，我们进一步利用聊天基础设施来支持多智能体协作，让人们可以运行自己本地的专用智能体，并让它们跨机器协同工作！\n\nhttps://ryanyen2.github.io/knock-knock/",
+      "text_zh_hash": "81bf749c7b2f9d8a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ryanyen22/status/2072137418598134144"
     },
     {
@@ -604,6 +634,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "PyTorch core engineer at Meta turned CUDA kernel writing into a sport in 13 minutes - better than $1500 GPU programming bootcamps.\n\nprofile the kernel -> find the bottleneck -> rewrite -> benchmark -> merge the winning code into PyTorch.\n\nThat loop is how the open community now beats hand-tuned vendor kernels.\n\nGPU MODE community + KernelBot competition + winning kernel merged into the framework - that's the stack.\n\nWatch it, then steal the loop below.",
+      "text_zh": "Meta的PyTorch核心工程师将CUDA内核编写变成了一项13分钟的运动——比1500美元的GPU编程训练营更高效。\n\n分析内核→定位瓶颈→重写→基准测试→将优胜代码合并到PyTorch。\n\n正是这个循环，让开源社区如今超越了手工调优的供应商内核。\n\nGPU MODE社区 + KernelBot竞赛 + 优胜内核合并到框架中——这就是完整的体系。\n\n观看演示，然后直接复制下面的循环。",
+      "text_zh_hash": "ccca8514d2b9696f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/h100envy/status/2072026253842841692"
     },
     {
@@ -649,6 +682,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "@trq212 Midnight?\n\nhttps://share.directivecreator.com/fable5/",
+      "text_zh": "@trq212 午夜？",
+      "text_zh_hash": "7cee8b7cd10349d6",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Escapation/status/2072205879823470838"
     },
     {
