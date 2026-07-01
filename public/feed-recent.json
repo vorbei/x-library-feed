@@ -1000,6 +1000,27 @@
       "title": "Explore Varchive Explore Varchive",
       "url": "http://varchive.ai/apps"
     },
+    "http://www.elevenlabs.io/blog/procedures": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Procedures let you define how your AI agents operate in common scenarios. Start building in natural language, or upload your existing SOPs.",
+      "final_url": "https://elevenlabs.io:443/blog/procedures",
+      "frameable": false,
+      "image_urls": [
+        "https://eleven-public-cdn.elevenlabs.io/payloadcms/Background4%20(20).webp",
+        "https://elevenlabs.io:443/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2FBackground4%20(17).webp&w=3840&q=95",
+        "https://elevenlabs.io:443/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2FBackground12%20(12).webp&w=3840&q=95",
+        "https://elevenlabs.io:443/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2Frv6yk3celp-Blog-Template1920%20(4).webp&w=3840&q=80",
+        "https://elevenlabs.io:443/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2Fstja8j2yn6k-Screenshot%202026-06-15%20at%2011.33.19%E2%80%AFPM.webp&w=3840&q=80",
+        "https://elevenlabs.io:443/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2Fd8h34uh50h-Screenshot%202025-05-30%20at%203.13.27%C3%A2%C2%AFPM.webp&w=3840&q=80",
+        "https://elevenlabs.io:443/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2Fxy8aszw257-CleanShot%202025-05-30%20at%2011.21.14%402x.webp&w=3840&q=80",
+        "https://elevenlabs.io:443/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fmarketing_website%2F_next%2Fstatic%2Fmedia%2Fagents-2.9a229117.png&w=3840&q=80"
+      ],
+      "kind": "article",
+      "text_excerpt": "Skip to content ElevenCreative ElevenAgents ElevenAPI Resources Enterprise Pricing Log in Sign up Contact sales Log in Contact Sales Blog Product Introducing Procedures in ElevenAgents Written by Eli Goodman Omkar Waingankar Published Jun 30, 2026 Listen Listen to this article 0:00 0:00 0:00 1.0x Contact Sales On this page Introduction Structured where it matters, adaptive where it helps Start from the SOPs you already have Part of how you shape your agent As AI agents take on critical tasks like refunds, billing issues, and product troubleshooting, you need a clear way to guide their behavior for each. Similar to how employees follow standard operating Procedures (SOPs), Procedures let you provide agents with a set of instructions to follow in common scenarios. They make it easy for both technical and non-technical team members to build, manage, and update highly capable agents. Because each Procedure loads only when triggered, moving specific instructions out of a broad system prompt can help make your agent faster. Structured where it matters, adaptive where it helps Procedures enable agents to handle both well-defined and open-ended tasks. Structured Procedures run a fixed sequence of steps the same way every time. You can build them using a combination of natural language, tool calls, and instruction chips. They fit tasks where consistency matters most, like claims intake, identity verification, and payment collection. Free-form Procedures are less prescriptive. You can include the context, steps, and guardrails specific to a task, and the agent interprets the instructions, calls tools, and adapts to the conversation. Free-form Procedures fit tasks that shift as they go, like technical troubleshooting and billing questions. Start from the SOPs you already have If you have existing SOPs you want your agent to follow, you can import them as docs, PDFs, or txt files and ElevenAgents drafts a Procedure for you to confirm or refine. Part of how you shape your agent Procedures help you control your agent, alongside the system prompt, workflows, and guardrails you already use. With clearly defined agent behavior you can drive better customer outcomes, from higher upsell conversion rates to faster ticket resolutions Procedures are now available in ElevenAgents, currently in Alpha. Learn more: https://elevenlabs.io/docs/eleven-agents/customization/procedures Similar articles ElevenLabs secures first-of-its-kind AI Agent insurance Category Company Date Feb 12, 2026 Our layered safety framework for AI agents Category Safety Date Aug 22, 2025 Introducing ElevenLabs Conversational AI 2.0 Category Product Date May 30, 2025 Claude Sonnet 4 is now available in Conversational AI Category Product Date May 30, 2025 Create with the highest quality AI Audio Sign up English ElevenCreative Text to Speech Speech to Text Voice Changer Text to Sound Effects Voice Cloning Voice Isolator AI Music Generator Studio Voice Design AI Voice Generator AI Image Generator AI Video Generator Ads Engine ElevenAgents Voice Agents Conversational AI Integrations Telecommunications Financial Services Healthcare Technology Retail & E-commerce Travel & Hospitality Customer Support Chatbots ElevenAPI API Reference Agents API Speech Engine Dubbing API Text to Speech API Speech to Text API Sound Effects API Music API API Key Resources Blog Iconic Marketplace Impact Program Startup Grants Help Center Webinars Docs Enterprise Trust Center India Socials X ElevenLabs ElevenCreative Developers LinkedIn ElevenLabs ElevenCreative GitHub YouTube Discord TikTok Instagram Facebook Reddit Company About Careers Safety Brand & Press Kit ElevenLabs Summit Policies Terms Privacy EU Digital Services Act (DSA) Modern Slavery Policy CCPA Notice EU-US DPF Policy AI Transparency Human Rights Statement Cookie Settings Voice chat",
+      "title": "Introducing Procedures in ElevenAgents",
+      "url": "http://www.elevenlabs.io/blog/procedures"
+    },
     "http://x.com/i/article/1780641040757854209": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6447,6 +6468,46 @@
       "title": "",
       "url": "http://x.com/i/article/2071936101921767424"
     },
+    "http://x.com/i/article/2071981880069783552": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2071981880069783552",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HMEo_rzW0AI-QlA?format=jpg&name=900x900)](http://x.com/alex%5Fprompter/article/2072003526755266744/media/2071982378122137602)\n\n/human in the loop\n\n[![](https://pbs.twimg.com/profile_images/2066532957049769985/zzC81Zmq_normal.jpg)](http://x.com/alex%5Fprompter)\n\n[Alex Prompter](http://x.com/alex%5Fprompter)\n\n[@alex\\_prompter](http://x.com/alex%5Fprompter)\n\n·\n\n13h\n\nFollow\n\nClick to Follow alex\\_prompter\n\n2\n\n16\n\n93\n\n[22K](http://x.com/alex%5Fprompter/status/2072003526755266744/analytics)\n\nStop approving every action your AI takes. Start designing where you sit in the loop.\n\nApproving every action gets you consent fatigue and a rubber-stamp reflex. Designing your checkpoints gets you output quality that improves with every session.\n\nAnthropic published internal telemetry from Claude Code showing that users approve 93% of permission prompts. Their own engineers named the problem consent fatigue. The human is nominally in the loop but functionally checked out.\n\nTheir fix wasn't to remove humans from the process. It was to restructure where humans participate, moving from per-action approval to plan-level review, monitoring, and targeted intervention.\n\n[![Image](https://pbs.twimg.com/media/HMEpUfjWUAAaWO3?format=jpg&name=small)](http://x.com/alex%5Fprompter/article/2072003526755266744/media/2071982735611023360)\n\nChip Huyen said the same thing from a different direction. In AI Engineering, the most-read technical book on O'Reilly since its release, her advice is to start with a human in the loop and gradually increase automation as confidence in the AI grows. Microsoft built an entire adoption framework around the same principle and called it Crawl-Walk-Run.\n\nHuman in the loop is a workflow architecture. You define where human judgment enters the process, the AI iterates against those checkpoints, and what comes out improves until neither side could match the result alone.\n\n## \n\nwhat human in the loop actually is\n\nAnthropic analyzed roughly 400,000 Claude Code sessions between October 2025 and April 2026\\. One pattern held across nearly all of them. People make the planning decisions. The AI makes the execution decisions.\n\nThe more domain expertise a person brings to a session, the more work the AI completes per instruction and the higher the success rate. That's not a safety concept. That's a workflow architecture, and it breaks into three phases.\n\nInput covers what happens before the AI starts working. Your task description, your constraints, your context, the examples you provide. People almost always underinvest here and then spend twice the time correcting outputs that went sideways from the first prompt.\n\nSteering is what happens while the AI is working. Monitoring its direction, intervening when something drifts, reviewing the plan rather than approving each individual action.\n\nAnthropic's data showed that experienced users auto-approve individual actions at twice the rate of new users but interrupt the agent mid-execution far more often. They watch the trajectory, not steps.\n\nOutput review is the final gate. What you accept, what you reject, and the criteria you judge against. This sounds obvious, but nearly everyone skips it and ships the first output they receive.\n\nEvery working human-in-the-loop workflow is some combination of these three.\n\n[![Image](https://pbs.twimg.com/media/HMEphIAWIAAxOMW?format=jpg&name=small)](http://x.com/alex%5Fprompter/article/2072003526755266744/media/2071982952628494336)\n\n## \n\nstart with output review\n\nThis is the simplest entry point and the one that pays off fastest.\n\nAt their Code with Claude event, Anthropic shipped a feature called Outcomes. It adds a grading loop where you define what \"good enough\" looks like, and the system evaluates its own output against those criteria before delivering. Nothing about the model changed. The same AI r",
+      "title": "",
+      "url": "http://x.com/i/article/2071981880069783552"
+    },
+    "http://x.com/i/article/2072015763360428032": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2072015763360428032",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HMFHZjvaIAAhR4a?format=jpg&name=900x900)](http://x.com/posthog/article/2072018523669533180/media/2072015807983525888)\n\nI wrote a 70x faster SQL parser while barely looking at the code\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2051741479433822210/YboW6yWw_normal.png)](http://x.com/posthog)\n\n[PostHog](http://x.com/posthog)\n\n[@posthog](http://x.com/posthog)\n\n·\n\n12h\n\nFollow\n\nClick to Follow posthog\n\n6\n\n55\n\n[5.5K](http://x.com/posthog/status/2072018523669533180/analytics)\n\nAfter the success of using agents to \n\n[improve query performance through autoresearch](https://posthog.com/blog/karpathy-autoresearch-query-engine-bug)\n\n, I wanted to try something more ambitious.\n\nI rewrote PostHog's SQL parser using multiple long-running Claude Code sessions in parallel. The result was 16K lines of \"hand\"-rolled parser code, 5K lines of tooling, a few more K of tests, and a \\~70x speed up.\n\nThe new parser is equivalent to the previous one for all realistic queries, only differing for a tiny subset of queries written by an evil trickster deity (there’s a test for SELECT SELECT FROM FROM WHERE WHERE AND AND which is completely valid SQL).\n\nHere's how I did it and what I learned along the way.\n\n# \n\nWhy does PostHog even have an SQL parser?\n\nPostHog lets you \n\n[access your data directly with SQL](https://posthog.com/docs/sql)\n\n. We transpile your SQL to raw ClickHouse SQL because:\n\n* We want to present a logical view of your data which is independent of the physical layout in the database.\n* This lets us change things at the database layer without breaking existing queries.\n* We can also add a bunch of performance optimizations and access controls.\n\nThe majority of PostHog tools (e.g. product analytics, session replay, error tracking) have queries written in SQL and they go through the exact same transpilation process. But before we can do this transpilation, we need to use a parser to turn the SQL into an AST (Abstract Syntax Tree) that then gets transpiled into ClickHouse SQL.\n\nThe parser is the first thing that touches a query, meaning it operates on untrusted input. Everything downstream, like access controls and optimizations, operate on the tree it produces.\n\n# \n\nGenerating our parser with ANTLR\n\nWe didn't write this parser by hand because, at least pre-AI-coding, parsers were extremely difficult to maintain. Writing one without AI would have taken months and likely not been worth it, even if it had dramatically improved our p95 response time.\n\nInstead, we use \n\n[ANTLR](https://github.com/antlr/antlr4)\n\n, a state-of-the-art, open source parser generator. You provide your grammar declaratively in a \n\n[.g4](https://github.com/PostHog/posthog/blob/master/posthog/hogql/grammar/HogQLParser.g4)\n\n file and ANTLR generates most of the parser code for you. We use the C++ version, so it’s already in a “fast” language. Unlike our \n\n[flags rewrite](https://posthog.com/blog/even-faster-more-reliable-flags)\n\n, the speedup wouldn't just come from moving to Rust.\n\nANTLR is extremely powerful and flexible, but the trade-off is that it does a lot more work for each token that it visits. It compiles your grammar into an \n\n[ATN](https://en.wikipedia.org/wiki/Augmented%5Ftransition%5Fnetwork)\n\n (essentially an \n\n[NFA](https://en.wikipedia.org/wiki/Nondeterministic%5Ffinite%5Fautomaton)\n\n\\-with-a-stack) and has a generic interpreter walk a graph at runtime. There’s no hand-written parseExpression(); everything happens through an additional layer of abstraction and indirection.\n\nAdditionally, ANTLR supports arbitrary dynamic lookahead, so if there are multiple possible alternatives it has to simulate every interpretation in lockstep until only one interpretation is valid. It’s extremely well optimized but a graph-walking interpreter can never be as fast as a hand-rolled recursive-descent",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2072015763360428032"
+    },
+    "http://x.com/i/article/2072136991320502272": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2072136991320502272",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HMG1xHsaIAAPtVO?format=jpg&name=900x900)](http://x.com/KengGuangLong/article/2072137449451782541/media/2072137159050665984)\n\nClaude Code 之父最新判断：未来职场的五种人才原型\n\n[![](https://pbs.twimg.com/profile_images/1802706038589935616/DxNYHYGE_normal.jpg)](http://x.com/KengGuangLong)\n\n[非著名程序员](http://x.com/KengGuangLong)\n\n[@KengGuangLong](http://x.com/KengGuangLong)\n\n·\n\n4h\n\nFollow\n\nClick to Follow KengGuangLong\n\n1\n\n4\n\n7\n\n[2.1K](http://x.com/KengGuangLong/status/2072137449451782541/analytics)\n\n昨天看到 Claude Code 之父 Boris Cherny 发了一条很有意思的帖子，聊的是未来职场角色会怎么变化。他的观察角度很独特，我们一起来聊一聊。\n\n## \n\n传统岗位的边界正在消失\n\nBoris 注意到一个趋势：工程师、产品经理、设计师、数据科学家这些我们熟悉的岗位，彼此之间的界限越来越模糊了。大家做的事情开始互相渗透，慢慢融合成一种新的工作方式。\n\n这其实不难理解。想想看，现在一个会用 AI 工具的设计师，可能直接就把原型做出来了，根本不需要等工程师排期。一个产品经理如果懂点代码，可能自己就把数据分析跑完了。工具在变强，人的能力边界也在扩展，原来那种“你管设计我管开发”的分工方式，确实在松动。\n\n## \n\n五种人才原型\n\nBoris 以自己所在的 Claude Code 团队为例，总结出了五种人才原型。注意，这不是五个岗位，而是五种做事的风格和擅长的方向。\n\n第一种：原型探索者。 这类人脑子里永远有新点子，今天想试这个，明天想试那个。他们产出量很大，但大部分想法最终不会变成正式产品。他们的价值在于不断探索可能性，帮团队找到新的方向。\n\n第二种：建造者。 探索者找到了一个靠谱的方向之后，建造者登场。他们的强项是把一个粗糙的想法快速变成能用的、稳定的产品。执行力是他们最大的武器。\n\n第三种：清道夫。 产品做出来了，但往往不够精致。清道夫负责收拾残局：把界面打磨得更好用，把代码精简得更干净，把多余的功能砍掉，把性能优化上去。他们让产品从“能用”变成“好用”。\n\n第四种：增长者。 产品好用了，但用户够不够多？市场反馈怎么样？增长者专门负责这件事。他们通过一轮又一轮的小迭代，让产品越来越贴合用户的真实需求，把产品市场契合度（PMF）拉上去。\n\n第五种：维护者。 当一个产品已经很成熟、用户量很大的时候，维护者就变得至关重要。他们确保系统在不断扩大规模的过程中依然安全、稳定、高效。这个角色听起来不那么光鲜，但没有他们，再好的产品也会在增长中崩塌。\n\n## \n\n一个人可以身兼多种角色\n\nBoris 特别提到，很多人其实同时具备两到三种原型的特质。你可能既是一个不错的建造者，又是一个很好的清道夫。这很正常，人本来就是复杂的。\n\n更有意思的是，这五种原型跟你的职位头衔没有必然关系。在 Anthropic 内部，有些设计师是典型的原型探索者，有些设计师更像清道夫。工程师里面也一样，有人擅长从零开始搞新东西，有人更擅长把现有系统维护好。数据科学家也不例外。\n\n这个观察其实挺颠覆的。我们平时找工作、组团队，习惯性地按照“我需要一个前端、一个后端、一个设计”来想。但 Boris 的意思是，也许更重要的问题是：我需要的是一个擅长从零到一的人，还是一个擅长打磨优化的人？\n\n## \n\n不同阶段的产品需要不同的组合\n\nBoris 还给出了一个很实用的搭配建议：\n\n一个全新的、还没找到市场方向的产品，最需要原型探索者、建造者和清道夫。因为这个阶段的核心任务是快速试错，做出来，打磨好，看看市场买不买账。\n\n一个已经找到方向、正在快速增长的产品，需要建造者、清道夫、增长者为主力，再配上一些维护者。因为方向已经明确了，重点是把产品做得更好、推给更多人，同时系统别崩。\n\n一个非常成熟的产品，则需要清道夫、增长者、维护者为核心，辅以少量建造者。这个阶段大的创新不多了，关键是持续优化、稳定运行、精细化运营。\n\n这个思路其实可以用在很多地方。比如你要创业，早期就别招太多喜欢维护现状的人，你需要的是能快速出活、敢于试错的人。反过来，如果你的业务已经很稳定了，那就别让团队里全是喜欢搞新花样的人，你需要能沉下心来把事情做扎实的人。\n\n## \n\n对个人发展的一些思考\n\n从个人角度来看，这个框架也挺有参考价值的。你可以问问自己：我更偏向哪种原型？我是那种脑子里永远有新想法的人，还是更喜欢把一个东西打磨到极致的人？我是喜欢从零开始建设，还是更享受让一个成熟系统运转得更好？\n\n搞清楚自己的倾向，找工作的时候就能更有针对性。如果你是典型的原型探索者，去一个已经非常成熟、流程固化的大公司，可能会觉得很憋屈。反过来，如果你是维护者类型，去一个每天都在推翻重来的早期创业公司，可能会觉得很混乱。\n\n另外，知道自己的短板在哪里，也能有意识地去补。比如你很擅长想点子，但总是做不完，那可能需要刻意练习“建造者”的能力。或者你很擅长执行，但总觉得缺乏创造力，那可以试着给自己留一些自由探索的时间。\n\n说到底，Boris 这个观察的核心信息就是：未来的团队协作和个人发展，可能越来越不看你的专业标签是什么，而是看你在产品生命周期的哪个环节能发挥最大价值。这个转变已经在发生了，早点意识到，早点受益。\n\nWant to publish your own Article?\n\n[Upgrade to Premium](http://x.com/i/premium%5Fsign%5Fup)\n\n* [![](https://pbs.twimg.com/profile_images/1802706038589935616/DxNYHYGE_normal.jpg)](http://x.com/KengGuangLong)  \n[非著名程序员](http://x.com/KengGuangLong)  \n[@KengGuangLong](http://x.com/KengGuangLong)  \nFollow  \nClick to Follow KengGuangLong  \nAI 博主，自由职业者，公众号「非著名程序员」主理人，全网近百万粉丝，同时，是一名「知识挖掘师」兼「知识布道师」，关注我，带你一起探寻财富与精神自由之路。 X 这个地方，我是初来乍到，大家多多关照。",
+      "title": "",
+      "url": "http://x.com/i/article/2072136991320502272"
+    },
     "http://zaro.ai": {
       "content_type": "text/html",
       "description": "Stop using tools, start running a system. Zaro builds the agents and apps your company runs on - generated from your existing data, just by describing what you need.",
@@ -7600,6 +7661,32 @@
       "title": "WWDC26: フィロソフィーとしてのHIG | click and magic",
       "url": "https://clickandmagic.com/notes/wwdc26_hig_as_a_philosophy"
     },
+    "https://clickhouse.com/blog/how-i-hunt-for-vulnerabilities-with-ai": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "I'm an experienced software engineer, but I'm not a seasoned bug bounty hunter. I used GitHub Copilot in combination with Claude Opus and Gemini models to search for vulnerabilities in the ClickHouse codebase, generate hypotheses, and speed up validation.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://clickhouse.com/blog/how-i-hunt-for-vulnerabilities-with-ai",
+      "frameable": false,
+      "image_urls": [
+        "https://clickhouse.com/_next/image?url=%2Fuploads%2FBanner_and_Diagram_for_guest_post_e45cda53d1.jpg&w=1200&h=630&q=75",
+        "https://clickhouse.com/_next/static/media/clickhouse-cloud.0znd0tx.ukpzs.svg",
+        "https://clickhouse.com/_next/static/media/byoc.15-s3u.8xifaz.svg",
+        "https://clickhouse.com/_next/static/media/postgres.0oithhre5-.mw.svg",
+        "https://clickhouse.com/_next/static/media/managed-clickstack.0zj2zz.26dz3j.svg",
+        "https://clickhouse.com/_next/static/media/langfuse.11z8cain3jvqf.svg",
+        "https://clickhouse.com/_next/static/media/clickhouse.0e-xw2xwmrqxs.svg",
+        "https://clickhouse.com/_next/static/media/clickstack.0q~~tygltiep-.svg",
+        "https://clickhouse.com/_next/static/media/agentic-data-stack.11cb_y.yh0nh4.svg",
+        "https://clickhouse.com/_next/static/media/chdb.0b8p20z3wd003.svg",
+        "https://clickhouse.com/_next/static/media/github.0_ig4q-qw2xn0.svg",
+        "https://clickhouse.com/_next/static/media/icon-markdown.120asm3rkxgma.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "This is a guest post from Tsvetan Stoychev, ex-Principal Software Engineer at Akamai Technologies.\nTL;DR\nI'm an experienced software engineer, but I'm not a seasoned bug bounty hunter. I used GitHub Copilot in combination with Claude Opus and Gemini models to search for vulnerabilities in the ClickHouse codebase (a large C++ codebase), generate hypotheses, and speed up validation in local environments. It worked remarkably well; I found a few real vulnerabilities and reported them to the [ClickHouse bug bounty program](https://bugcrowd.com/engagements/clickhouse). This post doesn’t focus on real vulnerabilities in the ClickHouse codebase, but it describes how I approach using AI for vulnerability research, and what I’ve learned so far.\nIn late 2025, my manager [Nic Jansma](https://www.linkedin.com/in/nicjansma/), asked our team a simple question: “How are you using AI in your day-to-day work?” I had the usual answers - autocomplete, quick prototypes, and documentation lookups - but he encouraged me to explore more.\nAround the same time, I was also inspired by a colleague, [Rajesh Sharma](https://www.linkedin.com/in/dude0/). For the last two years he’s been doing bug bounty and attending CTF competitions for fun, and he’s also helped identify and fix security issues in our day job. Conversations with him helped me build intuition for common terminology in the software security space like: path traversal, “null byte”, SSRF, XSS, RCE, etc.\nWe actually poked at ClickHouse together in mid-2025 to see whether there was anything interesting to explore. His take after auditing the code was: this is professional-grade C++ - there’s no obvious low-hanging fruit, and anything real would likely be subtle and hard to exploit. Said in simple words: one has to work hard in order to find something in the ClickHouse codebase.\nMy assumption was, if there’s anything interesting, it probably will be hiding in very old but rarely touched code - or in the newest features. ClickHouse ships fast, adds new capabilities constantly, and grows every month. Rapid growth is great, but it also means fresh code paths and integrations that haven’t had years of battle testing.\nI’m a ClickHouse user (for a personal project), and I’m not an experienced security researcher. In fact, I strongly believe that my naivety as a newcomer helped me explore deeper. Where an expert might spot a mitigation and immediately think \"dead end\". I often didn't know enough to give up. I kept pushing Copilot to \"try harder\" or \"explain why\". This led us down complex paths that a more seasoned researcher might think “nah, waste of time”.\nMy initial experience with AI-assisted vulnerability research was working with GitHub Copilot but after a few months I switched to Claude and ChatGPT subscriptions. To use both ChatGPT and Claude effectively for vulnerability research, I went through their cybersecurity verification / trusted-access processes.\nMy approach\nI follow a few steps single-threaded approach:\nExpand to read the flow as text\n- In Visual Studio Code, prompt GitHub Copilot to review the ClickHouse codebase.\n      - Sometimes the prompt is open-ended: “Check if you see any vulnerability issues in the code introduced in the last 2 weeks.”\n- Sometimes the prompt is more specific: “Do you see any interesting candidates for memory corruption among the ClickHouse aggregate functions?”\n \n- Observe how GitHub Copilot browses folders, reads file contents, reasons and displays a few paragraphs of intermediate summaries.\n      - By observing how Copilot works I understand more about the ClickHouse file structure and features. If I see something interesting I look at the ClickHouse source code myself or look at the official documentation.\n \n- When Copilot finishes with the review I carefully read the summary and I select interesting and novel ideas.\n      - Over time Copilot will start “sharing” the same ideas or will produce complete hallucinations. Example hallucination will be when the",
+      "title": "How I hunt for vulnerabilities with AI | ClickHouse",
+      "url": "https://clickhouse.com/blog/how-i-hunt-for-vulnerabilities-with-ai"
+    },
     "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -8624,6 +8711,21 @@
       "text_excerpt_zh": "",
       "title": "GitHub - deusyu/harness-engineering: Harness Engineering 学习指南 — 从概念理解到独立实践的深度学习档案 · GitHub",
       "url": "https://github.com/deusyu/harness-engineering"
+    },
+    "https://github.com/fuma-nama/tegami": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "A tool to manage changelogs, versioning, and publishing in monorepos. - fuma-nama/tegami",
+      "final_url": "https://github.com/fuma-nama/tegami",
+      "frameable": false,
+      "image_urls": [
+        "https://repository-images.githubusercontent.com/1268443753/99ffa1b6-07ab-4e19-b1dc-cb81cff1e2c2",
+        "https://github.com/fuma-nama/tegami/raw/dev/apps/docs/public/banner.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - fuma-nama/tegami: A tool to manage changelogs, versioning, and publishing in monorepos. · GitHub",
+      "url": "https://github.com/fuma-nama/tegami"
     },
     "https://github.com/garrytan/gbrain": {
       "content_type": "text/html; charset=utf-8",
@@ -11456,6 +11558,104 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2071646811303866368/img/5FGBumgaOJq6OU-r.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2071888446486933504/img/IlPaw5UdFOZQF69f.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2071888446486933504/img/IlPaw5UdFOZQF69f.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2071888446486933504/img/IlPaw5UdFOZQF69f.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2071888446486933504/img/IlPaw5UdFOZQF69f.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2071900097810427904/img/qx-qMIh7vVR6V9LE.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2071900097810427904/img/qx-qMIh7vVR6V9LE.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2071900097810427904/img/qx-qMIh7vVR6V9LE.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2071900097810427904/img/qx-qMIh7vVR6V9LE.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2071947853212119041/img/iYywmKMEbbmCeoAy.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2071947853212119041/img/iYywmKMEbbmCeoAy.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2071947853212119041/img/iYywmKMEbbmCeoAy.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2071947853212119041/img/iYywmKMEbbmCeoAy.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2071950373573595136/img/MXEfrlkvIz_YIK7b.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2071950373573595136/img/MXEfrlkvIz_YIK7b.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2071950373573595136/img/MXEfrlkvIz_YIK7b.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2071950373573595136/img/MXEfrlkvIz_YIK7b.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2071982609450541056/img/yEOMombMfcLkq2z_.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2071982609450541056/img/yEOMombMfcLkq2z_.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2071982609450541056/img/yEOMombMfcLkq2z_.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2071982609450541056/img/yEOMombMfcLkq2z_.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2072081471519719424/img/S9fh_gmNX5D5YfuL.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2072081471519719424/img/S9fh_gmNX5D5YfuL.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2072081471519719424/img/S9fh_gmNX5D5YfuL.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2072081471519719424/img/S9fh_gmNX5D5YfuL.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2072164961879564288/img/LNy-GHzkcNoJ8xYM.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2072164961879564288/img/LNy-GHzkcNoJ8xYM.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2072164961879564288/img/LNy-GHzkcNoJ8xYM.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2072164961879564288/img/LNy-GHzkcNoJ8xYM.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
@@ -14985,6 +15185,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMBKbi4a0AAa3ee.jpg"
     },
+    "https://pbs.twimg.com/media/HMCuM1bXEAA9y4l.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMCuM1bXEAA9y4l.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMCuM1bXEAA9y4l.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMCuM1bXEAA9y4l.jpg"
+    },
     "https://pbs.twimg.com/media/HMD1ea3XYAEhjQq.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15012,6 +15226,76 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HMDXDpVWwAAHr9t.jpg"
+    },
+    "https://pbs.twimg.com/media/HMEW-FUWUAA1v8C.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMEW-FUWUAA1v8C.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMEW-FUWUAA1v8C.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMEW-FUWUAA1v8C.jpg"
+    },
+    "https://pbs.twimg.com/media/HMEWiFlXIAA6WWv.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMEWiFlXIAA6WWv.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMEWiFlXIAA6WWv.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMEWiFlXIAA6WWv.jpg"
+    },
+    "https://pbs.twimg.com/media/HMEXENYXoAA3PT9.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMEXENYXoAA3PT9.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMEXENYXoAA3PT9.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMEXENYXoAA3PT9.jpg"
+    },
+    "https://pbs.twimg.com/media/HMErpgDWsAARj6l.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMErpgDWsAARj6l.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMErpgDWsAARj6l.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMErpgDWsAARj6l.jpg"
+    },
+    "https://pbs.twimg.com/media/HMEslfFaMAAGzGf.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMEslfFaMAAGzGf.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMEslfFaMAAGzGf.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMEslfFaMAAGzGf.jpg"
     },
     "https://pbs.twimg.com/media/HMFW40_aMAAX1BC.jpg": {
       "cleaner_v": 2,
@@ -15041,89 +15325,131 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMGDQZlWcAASmDT.jpg"
     },
-    "https://pbs.twimg.com/media/HMGMQBlbQAAhg3W.jpg": {
+    "https://pbs.twimg.com/media/HMGchhGb0AACnQR.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMGMQBlbQAAhg3W.jpg",
+      "final_url": "https://pbs.twimg.com/media/HMGchhGb0AACnQR.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HMGMQBlbQAAhg3W.jpg"
+        "https://pbs.twimg.com/media/HMGchhGb0AACnQR.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HMGMQBlbQAAhg3W.jpg"
+      "url": "https://pbs.twimg.com/media/HMGchhGb0AACnQR.jpg"
     },
-    "https://pbs.twimg.com/media/HMGMZIXawAAyCSH.jpg": {
+    "https://pbs.twimg.com/media/HMHM44bXoAALFH-.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMGMZIXawAAyCSH.jpg",
+      "final_url": "https://pbs.twimg.com/media/HMHM44bXoAALFH-.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HMGMZIXawAAyCSH.jpg"
+        "https://pbs.twimg.com/media/HMHM44bXoAALFH-.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HMGMZIXawAAyCSH.jpg"
+      "url": "https://pbs.twimg.com/media/HMHM44bXoAALFH-.jpg"
     },
-    "https://pbs.twimg.com/media/HMGMZIXbYAAmmDd.jpg": {
+    "https://pbs.twimg.com/media/HMHM44dW0AAfH3K.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMGMZIXbYAAmmDd.jpg",
+      "final_url": "https://pbs.twimg.com/media/HMHM44dW0AAfH3K.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HMGMZIXbYAAmmDd.jpg"
+        "https://pbs.twimg.com/media/HMHM44dW0AAfH3K.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HMGMZIXbYAAmmDd.jpg"
+      "url": "https://pbs.twimg.com/media/HMHM44dW0AAfH3K.jpg"
     },
-    "https://pbs.twimg.com/media/HMGRyVpaEAA5ams.jpg": {
+    "https://pbs.twimg.com/media/HMHM44lXAAERDJn.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMGRyVpaEAA5ams.jpg",
+      "final_url": "https://pbs.twimg.com/media/HMHM44lXAAERDJn.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HMGRyVpaEAA5ams.jpg"
+        "https://pbs.twimg.com/media/HMHM44lXAAERDJn.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HMGRyVpaEAA5ams.jpg"
+      "url": "https://pbs.twimg.com/media/HMHM44lXAAERDJn.jpg"
     },
-    "https://pbs.twimg.com/media/HMGRyVpbAAAWmxy.jpg": {
+    "https://pbs.twimg.com/media/HMHM47-XsAMRo_p.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMGRyVpbAAAWmxy.jpg",
+      "final_url": "https://pbs.twimg.com/media/HMHM47-XsAMRo_p.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HMGRyVpbAAAWmxy.jpg"
+        "https://pbs.twimg.com/media/HMHM47-XsAMRo_p.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HMGRyVpbAAAWmxy.jpg"
+      "url": "https://pbs.twimg.com/media/HMHM47-XsAMRo_p.jpg"
     },
-    "https://pbs.twimg.com/media/HMGkxj5bwAAswKn.jpg": {
+    "https://pbs.twimg.com/media/HMHYV6ybYAAj-fy.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMGkxj5bwAAswKn.jpg",
+      "final_url": "https://pbs.twimg.com/media/HMHYV6ybYAAj-fy.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HMGkxj5bwAAswKn.jpg"
+        "https://pbs.twimg.com/media/HMHYV6ybYAAj-fy.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HMGkxj5bwAAswKn.jpg"
+      "url": "https://pbs.twimg.com/media/HMHYV6ybYAAj-fy.jpg"
+    },
+    "https://pbs.twimg.com/media/HMHYV6za8AAspKG.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMHYV6za8AAspKG.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMHYV6za8AAspKG.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMHYV6za8AAspKG.jpg"
+    },
+    "https://pbs.twimg.com/media/HMHYV6zbQAArL3m.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMHYV6zbQAArL3m.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMHYV6zbQAArL3m.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMHYV6zbQAArL3m.jpg"
+    },
+    "https://pbs.twimg.com/media/HMHjT2GagAAjtJ4.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMHjT2GagAAjtJ4.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMHjT2GagAAjtJ4.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMHjT2GagAAjtJ4.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -15829,6 +16155,21 @@
       "title": "Writing Loops, Not Prompts, Explained | rico.codes",
       "url": "https://rico.codes/loops-not-prompts"
     },
+    "https://rss.qiaomu.ai/articles/ooda%E5%BE%AA%E7%8E%AF-%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91--0a9ed92f715c/rewrite": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "乔木风格重写（向阳乔木 · deepseek-v4-flash）：比对手快一步的秘密：OODA 循环如何成为现代决策的底层逻辑 2018年，摩根大通CEO杰米·戴蒙在一次内部会议上提到，他用来评估复杂业务场景的工具，竟然是一个源自空战的理论模型。这个模型就是 OODA 循环 ，一个在商业、法律、网络安全甚至日常决策中被反复验证的框架。 OODA 循环 ，全称是 Observe-Orient-Decide-Act（观察-定向...",
+      "extraction_source": "trafilatura",
+      "final_url": "https://rss.qiaomu.ai/articles/ooda%E5%BE%AA%E7%8E%AF-%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91--0a9ed92f715c/rewrite",
+      "frameable": null,
+      "image_urls": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/OODA.Boyd.svg/1280px-OODA.Boyd.svg.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "划线点评\n            \n              \n              \n              \n            \n          \n          \n          \n        全部\n        Q\n        选择一篇文章开始阅读\n              字体设置\n              \n            \n            \n            中文改写\n            \n              \n              \n              \n            \n          \n          \n          \n          这篇文章还没有中文改写。\n            中文翻译\n            \n              \n              \n              \n              \n              \n              \n            \n          \n          \n          这篇文章还没有中文翻译。\n            划线点评\n            \n              \n              \n              \n            \n          \n          \n          \n        \n            人工点评\n            \n              \n              \n                \n                \n              \n            \n          \n          \n          编辑公开主页、查看通知和管理你沉淀过的资产。\n                  喜欢的链接\n                  \n                \n                \n                \n              管理员\n              \n              \n            \n            \n                通知\n                \n              \n              \n            \n            排序\n            \n            \n          \n          \n        公开沉淀的翻译、重写、点评、文章对话和点赞文章。\n          排序\n          \n          \n        \n        \n      管理员专用。刷新全站、管理订阅源和查看后台任务状态。\n进入读者提交源，支持点赞、点踩、点评和 AI 处理。\n保存在当前浏览器。\nAPI Key 只保存在当前浏览器，用于你的翻译和文章对话调用。\n!",
+      "title": "乔木风格重写 · OODA循环 - 维基百科 · QMReader",
+      "url": "https://rss.qiaomu.ai/articles/ooda%E5%BE%AA%E7%8E%AF-%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91--0a9ed92f715c/rewrite"
+    },
     "https://s.hbr.org/3PZZpSc": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -16019,6 +16360,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Everything you should know about certificates and PKI but are too afraid to ask",
       "url": "https://smallstep.com/blog/everything-pki/"
+    },
+    "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564"
     },
     "https://stratechery.com/2026/an-interview-with-figma-ceo-dylan-field-about-design-and-ai/": {
       "cleaner_v": 2,
@@ -16777,6 +17132,23 @@
       "title": "When AI builds itself \\ Anthropic",
       "url": "https://www.anthropic.com/institute/recursive-self-improvement"
     },
+    "https://www.anthropic.com/news/redeploying-fable-5": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0cf1fc27ba70725d56c623b27dc1f05228a303c2-3840x1732.png&w=3840&q=75",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5dfd2fdf07c6e6f7d490fe3b85b3bf1a330c4951-3840x2181.png&w=3840&q=75"
+      ],
+      "kind": "article",
+      "text_excerpt": "Redeploying Fable 5\nOn Friday, June 12, the US government applied export controls to our newest models, Claude Fable 5 and Claude Mythos 5. This required us to restrict access to foreign nationals, whether inside or outside the United States. Because the order took effect immediately and we had no reliable way to verify nationality in real-time, we suspended access to both models for all users.\nAs of today, June 30, the export controls on Fable 5 and Mythos 5 [have been lifted](https://x.com/howardlutnick/status/2072100729603452965).\nFable 5 will be available starting tomorrow, Wednesday, July 1, to users globally on the Claude Platform, Claude.ai, Claude Code, and Claude Cowork. For Pro, Max, Team, and select Enterprise plans,1 Fable 5 will be included for up to 50% of weekly usage limits through July 7, after which it will be available via [usage credits](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans). We will re-enable access on AWS, Google Cloud, and Microsoft Foundry as quickly as possible.\nWe have also restored access to Mythos 5 for a set of US organizations, following the US government’s approval on [June 26](https://x.com/AnthropicAI/status/2070665903440871779). We continue to coordinate with the government to [expand](https://www.anthropic.com/news/expanding-project-glasswing) access to the broader set of domestic and international partners in the Glasswing program.\nIn the remainder of this post, we provide further details and updates in four areas:\n- A timeline of events, including updates we made to our safeguards. We discuss the events that led to the export control directive and how we addressed it with new safeguards.\n- Our general approach to safeguards. We provide more context on how we use safety classifiers to detect potentially dangerous cybersecurity uses of our models.\n- A shared industry framework. Although we have reached a constructive resolution, these events have made clear that the industry needs a consistent way to assess and fix potential “jailbreaks” of AI models (techniques that bypass a model’s safeguards).2 A shared standard for judging the severity of a given jailbreak would help AI developers triage new findings as they arise, launch highly capable models with greater safety, and communicate the level of risk consistently to government and industry partners. Together with Amazon, Microsoft, Google, and other Glasswing partners, we’ve started to develop such a framework, and we outline it below.\n- Deeper government collaboration. We’re also strengthening our level of collaboration with the US government on new pre-release testing, information sharing, and research collaboration. We describe this deeper collaboration in the final section.\nTimeline and safeguard updates\nWe released [Fable 5 and Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) on Tuesday, June 9. They both share the same underlying model, but Fable 5 was released with strong safeguards to make it safer for general use. Mythos 5, which has fewer safeguards, was only released to a small number of trusted Project Glasswing partners for use in defensive cybersecurity.\nThe export control directive on June 12 came after the government became aware of a report in which Amazon researchers had found a method of bypassing Fable 5’s safeguards: prompting it so that it identified a number of software vulnerabilities. In one case, the model produced code demonstrating how the relevant vulnerability could be exploited. Over the past two weeks, we have worked closely with the government and other partners, including Amazon, to review the report and evidence.\nOur testing confirmed that many less capable models—including Claude Opus 4.8, GPT-5.5, and Kimi K2.7—could identify the same vulnerabilities as Fable 5 did in the report. When it came to the demonstration of how to exploit the single vulnerability, every model we tested could produce the same demonstration as Fable 5 (including",
+      "title": "Redeploying Claude Fable 5 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5"
+    },
     "https://www.anthropic.com/research/claude-code-expertise": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -17032,6 +17404,27 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://www.bloomberg.com/opinion/articles/2026-06-24/anthropic-saga-shows-the-worst-way-to-regulate-ai?taid=6a3babd44ea26f000157eaca&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter"
+    },
+    "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Personal website for Aaron Brethorst - Seattleite, technology leader, photographer, transit enthusiast, erstwhile non-runner.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat",
+      "frameable": null,
+      "image_urls": [
+        "https://www.brethorsting.com/images/icons/photo-film-solid.svg",
+        "https://www.brethorsting.com/images/icons/threads.svg",
+        "https://www.brethorsting.com/images/icons/instagram.svg",
+        "https://www.brethorsting.com/images/icons/github.svg",
+        "https://www.brethorsting.com/images/icons/linkedin.svg",
+        "https://www.brethorsting.com/images/icons/envelope-solid.svg",
+        "https://www.brethorsting.com/images/icons/rss-solid.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "[Software Engineering](https://www.brethorsting.com/categories/software-engineering/)\n[AI](https://www.brethorsting.com/categories/ai/)\nDomain Expertise Has Always Been the Real Moat\nThe hard part of writing software has never been the writing. It was building a working model of the domain in your head first. Before you could ship a payroll system you had to understand garnishments and pre-tax deductions and what happens when someone’s pay period straddles a rate change. Before you could ship a transit app you had to learn what a GTFS feed is, why a trip and a route aren’t the same thing, and how a bus that’s “on time” can still be wrong. The code was a transcription of that understanding. Acquiring the understanding was the job.\nAgentic AI severed the link between the two. You can now produce the software without ever building the model, and that breaks an assumption the whole profession was organized around.\nThe standard take, including [my own from last year](https://www.brethorsting.com/blog/2025/07/agentic-coding-tools-not-skynet%2C-not-a-stochastic-parrot/), is that these tools amplify senior developers because senior developers have judgment. True, but incomplete. What I’ve watched happen since is more specific and more interesting: the binding constraint has moved from can you build it to can you tell whether it’s right.\nThink about who can actually use one of these tools well. Picture two people.\nThe first is a domain expert with no real software background. A logistics dispatcher, a clinical coder, an actuary. They can’t read a stack trace and they couldn’t tell you the difference between a hash map and a list. But they can look at a schedule the agent generated and know instantly that no driver can legally work that shift, or that a claim with those codes would never pay. They know the correct outputs for a given set of inputs because they’ve spent ten years living in those inputs and outputs. Hand them an agent and they are startlingly effective, because the thing they’re missing, the ability to produce code, is exactly the thing the agent supplies. What they bring is the thing the agent can’t: the ground truth.\nThe second is a strong generalist engineer who has never worked in the domain. They can architect anything, they know reliability and testing and how to keep a system from falling over at 2am. But drop them into clinical coding and they cannot tell a plausible-looking wrong answer from a right one. The agent will happily generate a billing rule that compiles, passes the tests the engineer thought to write, and is subtly, expensively incorrect. The engineer has no oracle. They can verify that the software is well-built. They cannot verify that it’s correct, because correctness here is defined entirely by a domain they don’t hold in their head.\nNotice which way this cuts. Pre-agent, the engineer had a path the dispatcher didn’t: they could go learn the domain. Slowly, painfully, by shadowing experts and reading specs and getting things wrong in production, they would build the mental model and then they could build the system. That path was the whole career ladder in a lot of fields. The domain expert had no equivalent path, because learning to build reliable software is years of work they were never going to do.\nAgentic tools collapsed one of those paths and not the other. The engineer’s advantage, the ability to translate a domain model into working code, is now cheap. The domain expert’s advantage, knowing what right looks like, is not. You can’t prompt your way to it. There’s no skill file that contains the tacit knowledge of a person who has reconciled a thousand payrolls.\nSo the most valuable person in this new world is the one who has both skills because they can verify at both layers. They know the generated code is sound and they know the answers it produces are true. They can write the test that encodes “a driver can’t exceed eleven hours” because they know the rule, and they can tell that the test",
+      "title": "Domain Expertise Has Always Been the Real Moat | Aaron Brethorst",
+      "url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat"
     },
     "https://www.cnbc.com/2026/06/16/anthropics-fable-shutdown-is-a-big-moment-for-open-source-ai.html?taid=6a31d133fbb36b0001befd79&utm_campaign=trueanthem&utm_content=main&utm_medium=social&utm_source=twitter": {
       "cleaner_v": 2,
@@ -17551,20 +17944,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Human Dignity – On the Perils of Indifference Nuberodesign > Blog > Human Dignity",
       "url": "https://www.nubero.ch/blog/018/?ref=sidebar"
-    },
-    "https://www.nytimes.com/2026/06/26/technology/intel-turnaround.html?unlocked_article_code=1.tlA.Qvwy.xOGWYAnLYrXa&smid=nytcore-ios-share": {
-      "cf_fallback_error": "empty result",
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "fetch_error": "HTTP Error 403: Forbidden",
-      "final_url": "https://www.nytimes.com/2026/06/26/technology/intel-turnaround.html?unlocked_article_code=1.tlA.Qvwy.xOGWYAnLYrXa&smid=nytcore-ios-share",
-      "frameable": null,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://www.nytimes.com/2026/06/26/technology/intel-turnaround.html?unlocked_article_code=1.tlA.Qvwy.xOGWYAnLYrXa&smid=nytcore-ios-share"
     },
     "https://www.nytimes.com/2026/06/28/opinion/ai-race-china-us.html": {
       "cf_fallback_error": "empty result",
@@ -18378,6 +18757,19 @@
       "text_excerpt_zh": "",
       "title": "- YouTube",
       "url": "https://www.youtube.com/watch?v=8cO61e_8oPY&list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8&index=9"
+    },
+    "https://www.youtube.com/watch?v=cDqDPlSXMS0": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://www.youtube.com/watch?v=cDqDPlSXMS0",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "- YouTube",
+      "url": "https://www.youtube.com/watch?v=cDqDPlSXMS0"
     },
     "https://x.getstanley.ai/r/pas": {
       "cleaner_v": 2,
@@ -23990,8 +24382,8 @@
       "https://x.com/ChrisShort/status/2071662447690195290",
       "https://rico.codes/loops-not-prompts",
       "https://pbs.twimg.com/media/HMAGBKSXkAEAbQN.png",
-      "https://x.com/ChrisShort/status/2071753138361544798",
-      "https://www.nytimes.com/2026/06/26/technology/intel-turnaround.html?unlocked_article_code=1.tlA.Qvwy.xOGWYAnLYrXa&smid=nytcore-ios-share"
+      "https://x.com/ChrisShort/status/2072009779640229940",
+      "https://clickhouse.com/blog/how-i-hunt-for-vulnerabilities-with-ai"
     ],
     "2071666800534949982": [
       "https://x.com/dbreunig/status/2071666800534949982",
@@ -24001,15 +24393,15 @@
     "2071670826420875321": [
       "https://x.com/Rlkjn22/status/2071670826420875321",
       "https://x.com/Rlkjn22/status/2071707124397150360",
+      "https://x.com/Rlkjn22/status/2071908437261234522",
       "https://x.com/Rlkjn22/status/2071767615509303792",
       "https://x.com/Rlkjn22/status/2071707299480051825",
-      "https://x.com/Rlkjn22/status/2071908437261234522",
       "https://x.com/Rlkjn22/status/2071721710903070886",
-      "https://x.com/Rlkjn22/status/2071751745303089252",
       "https://x.com/Rlkjn22/status/2071771016360009849",
-      "https://x.com/Rlkjn22/status/2072102574870901046",
-      "https://x.com/Rlkjn22/status/2072096011607302212",
-      "https://x.com/Rlkjn22/status/2072078992849670238"
+      "https://x.com/Rlkjn22/status/2071751745303089252",
+      "https://x.com/Rlkjn22/status/2072141076266401984",
+      "https://x.com/Rlkjn22/status/2072132883301671038",
+      "https://x.com/Rlkjn22/status/2072102574870901046"
     ],
     "2071672946859688352": [
       "https://x.com/NathanFlurry/status/2071672946859688352",
@@ -24091,8 +24483,8 @@
       "https://x.com/DrizzleORM/status/2071716352071512386",
       "https://pbs.twimg.com/media/HMA2PM_XcAAMvrg.jpg",
       "https://x.com/DrizzleORM/status/2071854629449556037",
-      "https://x.com/DrizzleORM/status/2071718667650318694",
       "https://x.com/DrizzleORM/status/2071733236141592799",
+      "https://x.com/DrizzleORM/status/2071718667650318694",
       "https://x.com/DrizzleORM/status/2071855202848682147",
       "https://x.com/DrizzleORM/status/2071892291921346608",
       "https://pbs.twimg.com/media/HMDXDpVWwAAHr9t.jpg"
@@ -24101,14 +24493,17 @@
       "https://x.com/PopBase/status/2071737671509328354",
       "https://pbs.twimg.com/media/HMBKbi2awAAiy68.jpg",
       "https://pbs.twimg.com/media/HMBKbi4a0AAa3ee.jpg",
-      "https://x.com/PopBase/status/2072097603630874732",
-      "https://pbs.twimg.com/media/HMGRyVpaEAA5ams.jpg",
-      "https://pbs.twimg.com/media/HMGRyVpbAAAWmxy.jpg",
-      "https://x.com/PopBase/status/2072091671106666764",
-      "https://pbs.twimg.com/media/HMGMZIXawAAyCSH.jpg",
-      "https://pbs.twimg.com/media/HMGMZIXbYAAmmDd.jpg",
-      "https://x.com/PopBase/status/2072091514860351755",
-      "https://pbs.twimg.com/media/HMGMQBlbQAAhg3W.jpg"
+      "https://x.com/PopBase/status/2072198516122783755",
+      "https://pbs.twimg.com/media/HMHM44lXAAERDJn.jpg",
+      "https://pbs.twimg.com/media/HMHM44dW0AAfH3K.jpg",
+      "https://pbs.twimg.com/media/HMHM47-XsAMRo_p.jpg",
+      "https://pbs.twimg.com/media/HMHM44bXoAALFH-.jpg",
+      "https://x.com/PopBase/status/2072187237014675789",
+      "https://pbs.twimg.com/media/HMHjT2GagAAjtJ4.jpg",
+      "https://x.com/PopBase/status/2072175178373791882",
+      "https://pbs.twimg.com/media/HMHYV6ybYAAj-fy.jpg",
+      "https://pbs.twimg.com/media/HMHYV6zbQAArL3m.jpg",
+      "https://pbs.twimg.com/media/HMHYV6za8AAspKG.jpg"
     ],
     "2071751990753763630": [
       "https://x.com/GOATYELD/status/2071751990753763630",
@@ -24116,17 +24511,17 @@
       "https://x.com/GOATYELD/status/2071832463081435527",
       "https://x.com/GOATYELD/status/2071786498483998961",
       "https://pbs.twimg.com/tweet_video_thumb/HMB21bDWQAAzO1T.jpg",
-      "https://x.com/GOATYELD/status/2071791178027057276",
       "https://x.com/GOATYELD/status/2072057308339646598",
+      "https://x.com/GOATYELD/status/2072149249760825431",
+      "https://x.com/GOATYELD/status/2071791178027057276",
       "https://x.com/GOATYELD/status/2072004842562752830"
     ],
     "2071794113075376284": [
       "https://x.com/jokieliu/status/2071794113075376284",
       "https://pbs.twimg.com/media/HMB9ww1bgAA2djK.jpg",
-      "https://x.com/jokieliu/status/2072118482821599437",
-      "https://pbs.twimg.com/media/HMGkxj5bwAAswKn.jpg",
-      "https://x.com/jokieliu/status/2071972296722702401",
-      "https://x.com/jokieliu/status/2071874783340642418"
+      "https://x.com/jokieliu/status/2072194937400250831",
+      "https://x.com/jokieliu/status/2072186999776358789",
+      "https://x.com/jokieliu/status/2072185071092785465"
     ],
     "2071795033863553278": [
       "https://x.com/landiantech/status/2071795033863553278",
@@ -24148,11 +24543,106 @@
       "https://x.com/sukie234/status/2071829397712285775",
       "https://x.com/sukie234/status/2071688735000048041"
     ],
+    "2071847883419312282": [
+      "https://x.com/vista8/status/2071847883419312282",
+      "https://pbs.twimg.com/media/HMCuM1bXEAA9y4l.jpg",
+      "https://x.com/vista8/status/2071848024159203464",
+      "https://rss.qiaomu.ai/articles/ooda%E5%BE%AA%E7%8E%AF-%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91--0a9ed92f715c/rewrite"
+    ],
+    "2071900281130905814": [
+      "https://x.com/mardehaym/status/2071900281130905814",
+      "https://pbs.twimg.com/amplify_video_thumb/2071900097810427904/img/qx-qMIh7vVR6V9LE.jpg",
+      "https://x.com/mardehaym/status/2071900469086024157",
+      "https://thefoundation.limestonedigital.com/"
+    ],
+    "2071915882457059724": [
+      "https://x.com/VoltexGar/status/2071915882457059724",
+      "https://pbs.twimg.com/amplify_video_thumb/2071888446486933504/img/IlPaw5UdFOZQF69f.jpg"
+    ],
+    "2071947977766117468": [
+      "https://x.com/gabriell_lab/status/2071947977766117468",
+      "https://pbs.twimg.com/amplify_video_thumb/2071947853212119041/img/iYywmKMEbbmCeoAy.jpg"
+    ],
+    "2071950682362462632": [
+      "https://x.com/mardehaym/status/2071950682362462632",
+      "https://pbs.twimg.com/amplify_video_thumb/2071950373573595136/img/MXEfrlkvIz_YIK7b.jpg",
+      "https://x.com/mardehaym/status/2071950685004861506",
+      "https://thefoundation.limestonedigital.com/",
+      "https://x.com/mardehaym/status/2072014702469632120"
+    ],
     "2071951205459538266": [
       "https://x.com/tison1096/status/2071951205459538266",
       "http://x.com/i/article/2071936101921767424"
+    ],
+    "2071962893021491221": [
+      "https://x.com/ElevenLabs/status/2071962893021491221",
+      "https://pbs.twimg.com/media/HMEWiFlXIAA6WWv.jpg",
+      "https://x.com/ElevenLabs/status/2071962895823360159",
+      "https://x.com/ElevenLabs/status/2071962898230911114",
+      "https://pbs.twimg.com/media/HMEW-FUWUAA1v8C.jpg",
+      "https://x.com/ElevenLabs/status/2071962901322051837",
+      "https://pbs.twimg.com/media/HMEXENYXoAA3PT9.jpg",
+      "https://x.com/ElevenLabs/status/2071962903972917541",
+      "http://www.elevenlabs.io/blog/procedures"
+    ],
+    "2071986617611616655": [
+      "https://x.com/fuma_nama/status/2071986617611616655",
+      "https://pbs.twimg.com/amplify_video_thumb/2071982609450541056/img/yEOMombMfcLkq2z_.jpg",
+      "https://x.com/fuma_nama/status/2071986621269017026",
+      "https://github.com/fuma-nama/tegami",
+      "https://pbs.twimg.com/media/HMErpgDWsAARj6l.jpg",
+      "https://x.com/fuma_nama/status/2071986625278869530",
+      "https://pbs.twimg.com/media/HMEslfFaMAAGzGf.jpg",
+      "https://x.com/fuma_nama/status/2072053884202430649",
+      "https://x.com/fuma_nama/status/2072054596328174077",
+      "https://x.com/fuma_nama/status/2071992810585346209"
+    ],
+    "2072003526755266744": [
+      "https://x.com/alex_prompter/status/2072003526755266744",
+      "http://x.com/i/article/2071981880069783552"
+    ],
+    "2072018523669533180": [
+      "https://x.com/posthog/status/2072018523669533180",
+      "http://x.com/i/article/2072015763360428032"
+    ],
+    "2072028142487621732": [
+      "https://x.com/VKazulkin/status/2072028142487621732",
+      "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564",
+      "https://x.com/VKazulkin/status/2072028394011910275",
+      "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat"
+    ],
+    "2072082367720943871": [
+      "https://x.com/stephenhaney/status/2072082367720943871",
+      "https://pbs.twimg.com/amplify_video_thumb/2072081471519719424/img/S9fh_gmNX5D5YfuL.jpg",
+      "https://x.com/stephenhaney/status/2072083161501278591",
+      "https://www.youtube.com/watch?v=cDqDPlSXMS0",
+      "https://x.com/stephenhaney/status/2072162798629781531",
+      "https://x.com/stephenhaney/status/2072091095589421356",
+      "https://x.com/stephenhaney/status/2072091318566924548",
+      "https://x.com/stephenhaney/status/2072085460537770206",
+      "https://x.com/stephenhaney/status/2072085251502067797",
+      "https://x.com/stephenhaney/status/2072082842981732527",
+      "https://x.com/stephenhaney/status/2072158898824630318"
+    ],
+    "2072109410302951847": [
+      "https://x.com/daleverett/status/2072109410302951847",
+      "https://pbs.twimg.com/media/HMGchhGb0AACnQR.jpg",
+      "https://x.com/daleverett/status/2072128596198789441"
+    ],
+    "2072137449451782541": [
+      "https://x.com/KengGuangLong/status/2072137449451782541",
+      "http://x.com/i/article/2072136991320502272",
+      "https://x.com/KengGuangLong/status/2072098276246274065"
+    ],
+    "2072163884430229756": [
+      "https://x.com/AnthropicAI/status/2072163884430229756",
+      "https://www.anthropic.com/news/redeploying-fable-5"
+    ],
+    "2072165415694868891": [
+      "https://x.com/feltanimalworld/status/2072165415694868891",
+      "https://pbs.twimg.com/amplify_video_thumb/2072164961879564288/img/LNy-GHzkcNoJ8xYM.jpg"
     ]
   },
-  "updated_at": "2026-07-01T01:32:34Z",
+  "updated_at": "2026-07-01T06:44:50Z",
   "window": "recent"
 }
