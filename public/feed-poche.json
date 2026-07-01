@@ -4209,7 +4209,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-24T11:26:36.951518Z",
+      "article_fetch_attempted_at": "2026-07-01T11:40:56.305605Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-06-17T04:50:43.608393Z",
@@ -4244,21 +4244,21 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-24T11:26:36.951518Z",
+      "article_fetch_attempted_at": "2026-07-01T11:40:56.305605Z",
       "article_fetch_error": "The read operation timed out",
       "article_image_urls": [
-        "https://images.ctfassets.net/fdtlyqzgdb9e/kAKJwCQghQZYDr3SgnGvT/df72e9cf24ade861caf763438138aa53/SME_26001_0110_039_v1_11_QC.jpg?q=40",
-        "https://images.ctfassets.net/fdtlyqzgdb9e/mDu4owAPxzqld7aUabwFt/5b034cbbfd3074abb2976e5c094c2732/SME_26001_0040_080_v2_09_QC.jpg?q=40",
-        "https://images.ctfassets.net/fdtlyqzgdb9e/2ll85PrQLAmnyH65nAXPHS/eaa39e41fd963280cb8962843492701f/SME_26001_0010_077_v4_11_QC.jpg?q=40",
-        "https://images.ctfassets.net/fdtlyqzgdb9e/3ibpKyuFxdGUO1qAVEEqmE/d1be2a85ba4fe117eceb7b6a71bd70ae/SME_26001_0050_069_v2_10_QC.jpg?q=40",
-        "https://images.ctfassets.net/fdtlyqzgdb9e/2E7dvO1ylbnRbEt3d0dhS1/c82a09ab1b104105a496d081b0959cc8/SME_26001_0030_072_v1_12_QC.jpg?q=40",
-        "https://www.specs.com/stop.svg",
-        "https://images.ctfassets.net/fdtlyqzgdb9e/0vYG90YnKbeOcIouo04jw/a220182da5fb0d6b09e834bd688a407c/mock.png?q=40",
-        "https://images.ctfassets.net/fdtlyqzgdb9e/6CYq5FQMUpksTUHOU88kJu/07a825e3a2b77f33dcdb34e2f5040bb2/HP_Product_TilesTile_1.png?q=40",
-        "https://images.ctfassets.net/fdtlyqzgdb9e/1EH8oLB1V8C9WR01Ke58Jn/3be6886140fa5c587237003526464fa5/HP_Product_TilesTile_2__1_.png?q=40",
-        "https://images.ctfassets.net/fdtlyqzgdb9e/2iOaxJQdrm2PxgbqmX7WNx/6c683014b6618339e7a3d69ee6d3b4a1/HP_Product_TilesTile_3-copy.png?q=40",
-        "https://images.ctfassets.net/fdtlyqzgdb9e/3SbFrV0VgW1u8e5gevxPzC/0789735c55a7fb459bec611d01d6eac9/Web_LensesArtboard-1-copy-7.png?q=40",
-        "https://images.ctfassets.net/fdtlyqzgdb9e/27QG2R5DJeMFmWniOB9x5r/4de13ed92dab8770d2919a2f1fd89e16/Navigation_Web.png?q=40"
+        "https://images.ctfassets.net/fdtlyqzgdb9e/77JgA0Nv8HdrLHUTSdHjgr/d76bb948f63d0cefff2bfa334ec0d01b/Frame.png?q=40&h=512",
+        "https://images.ctfassets.net/fdtlyqzgdb9e/kAKJwCQghQZYDr3SgnGvT/df72e9cf24ade861caf763438138aa53/SME_26001_0110_039_v1_11_QC.jpg?fm=webp&q=40",
+        "https://images.ctfassets.net/fdtlyqzgdb9e/mDu4owAPxzqld7aUabwFt/5b034cbbfd3074abb2976e5c094c2732/SME_26001_0040_080_v2_09_QC.jpg?fm=webp&q=40",
+        "https://images.ctfassets.net/fdtlyqzgdb9e/2ll85PrQLAmnyH65nAXPHS/eaa39e41fd963280cb8962843492701f/SME_26001_0010_077_v4_11_QC.jpg?fm=webp&q=40",
+        "https://images.ctfassets.net/fdtlyqzgdb9e/3ibpKyuFxdGUO1qAVEEqmE/d1be2a85ba4fe117eceb7b6a71bd70ae/SME_26001_0050_069_v2_10_QC.jpg?fm=webp&q=40",
+        "https://images.ctfassets.net/fdtlyqzgdb9e/2E7dvO1ylbnRbEt3d0dhS1/c82a09ab1b104105a496d081b0959cc8/SME_26001_0030_072_v1_12_QC.jpg?fm=webp&q=40",
+        "https://www.specs.com/play.svg",
+        "https://images.ctfassets.net/fdtlyqzgdb9e/0vYG90YnKbeOcIouo04jw/a220182da5fb0d6b09e834bd688a407c/mock.png?fm=webp&q=40",
+        "https://images.ctfassets.net/fdtlyqzgdb9e/6CYq5FQMUpksTUHOU88kJu/07a825e3a2b77f33dcdb34e2f5040bb2/HP_Product_TilesTile_1.png?fm=webp&q=65&h=760",
+        "https://images.ctfassets.net/fdtlyqzgdb9e/1EH8oLB1V8C9WR01Ke58Jn/3be6886140fa5c587237003526464fa5/HP_Product_TilesTile_2__1_.png?fm=webp&q=65&h=760",
+        "https://images.ctfassets.net/fdtlyqzgdb9e/2iOaxJQdrm2PxgbqmX7WNx/6c683014b6618339e7a3d69ee6d3b4a1/HP_Product_TilesTile_3-copy.png?fm=webp&q=65&h=760",
+        "https://images.ctfassets.net/fdtlyqzgdb9e/3SbFrV0VgW1u8e5gevxPzC/fb030ef5b3f85efd675563e308879f0c/Web_LensesArtboard-1-copy-7.png?fm=webp&q=40&h=760"
       ],
       "article_title_extracted": "SPECS AR Glasses",
       "category": "Tools",
@@ -4376,10 +4376,10 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-24T11:26:36.951518Z",
+      "article_fetch_attempted_at": "2026-07-01T11:40:56.305605Z",
       "article_image_urls": [
         "https://uselemma.ai/opengraph-image.png?5512ba5eded5754e",
-        "https://www.uselemma.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fyc.441db66c.png&w=3840&q=75&dpl=dpl_HTQ17aTxJetrbrQiHati9hJbTXmb",
+        "https://www.uselemma.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fyc.441db66c.png&w=3840&q=75&dpl=dpl_FRXvXZjFziYfHTSUFRYSjNbWAfmM",
         "https://www.uselemma.ai/brand/lemma-avatar-square-purple.svg",
         "https://www.uselemma.ai/demo/slack-avatar-cole.png",
         "https://www.uselemma.ai/_next/static/media/vercel.e6643272.svg",
@@ -7212,7 +7212,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-24T11:26:36.951518Z",
+      "article_fetch_attempted_at": "2026-07-01T11:40:56.305605Z",
       "article_image_urls": [
         "https://opacity.com/assets/images/og-image.jpg",
         "https://opacity.com/assets/images/product-shot.png",
@@ -7305,7 +7305,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-24T11:26:36.951518Z",
+      "article_fetch_attempted_at": "2026-07-01T11:40:56.305605Z",
       "article_image_urls": [
         "https://opengraph.githubassets.com/f738431fe1ebb9c065b585deace91026231214cf6553e4645381070128b69ad5/dinehq/convex-starter"
       ],
@@ -108100,5 +108100,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-07-01T05:10:48.721059Z"
+  "updated_at": "2026-07-01T11:41:32.493293Z"
 }
