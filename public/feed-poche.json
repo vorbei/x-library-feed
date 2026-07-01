@@ -1,15 +1,15 @@
 {
   "categories": [
     {
-      "count": 730,
+      "count": 733,
       "name": "Tools"
     },
     {
-      "count": 455,
+      "count": 459,
       "name": "Development"
     },
     {
-      "count": 351,
+      "count": 352,
       "name": "Design"
     },
     {
@@ -17,7 +17,7 @@
       "name": "Articles"
     },
     {
-      "count": 288,
+      "count": 289,
       "name": "Social"
     },
     {
@@ -38,8 +38,365 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2425,
+  "item_count": 2434,
   "items": [
+    {
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
+      "article_image_urls": [
+        "https://rerun.io/og.png?title=The+Data+Layer+for+Physical+AI",
+        "https://avatars.githubusercontent.com/u/1148717?v=4",
+        "https://avatars.githubusercontent.com/u/1220815?v=4",
+        "https://rerun.io/blog/data-layer-for-robot-learning/thumb.jpg",
+        "https://pbs.twimg.com/profile_images/2071021912046854145/naNymSNp_bigger.jpg",
+        "https://pbs.twimg.com/profile_images/2023102808661340160/SE_Puhn9_bigger.jpg",
+        "https://pbs.twimg.com/media/HGu7X3absAAwNWz.jpg",
+        "https://pbs.twimg.com/profile_images/2062485725728100352/KwwmSAtQ_bigger.jpg",
+        "https://pbs.twimg.com/profile_images/1905357173883863040/KlkD7MkI_bigger.jpg",
+        "https://pbs.twimg.com/profile_images/2064159058417057792/YtUDm9nU_bigger.jpg",
+        "https://pbs.twimg.com/profile_images/1977147781333893123/CjbKrjVJ_bigger.jpg",
+        "https://pbs.twimg.com/profile_images/1544292711032815617/nV-UHUfB_bigger.jpg"
+      ],
+      "article_title_extracted": "The Data Layer for Physical AI Rerun | The Data Layer for Physical AI",
+      "category": "Development",
+      "created_at": "2026-07-01T02:45:07.948090Z",
+      "description": "The data primitives to build, understand, and improve your data loop. Designed for multi-rate, multimodal data, from the first recording to massive scale.",
+      "domain": "rerun.io",
+      "embed_type": "",
+      "id": "k170xsdka4mq6ze94hayw6yr2d89p5t2",
+      "og_image_url": "https://rerun.io/og.png?title=The+Data+Layer+for+Physical+AI",
+      "recommended_at": "2026-07-01T13:09:13.407000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "computer-vision",
+        "robotics",
+        "data-visualization"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-01T13:09:13.407000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Rerun | The Data Layer for Physical AI",
+      "url": "https://rerun.io/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
+      "article_image_urls": [
+        "https://storage.googleapis.com/gpt-engineer-file-uploads/X4M7vSIR1bN4F3KKJ9Days3TfEL2/social-images/social-1782843727428-Magic-19.webp",
+        "https://oasisdevices.com/__l5e/assets-v1/bf24b9df-d0e3-4b8b-8b5c-f1443f4c94b8/hardware-bg-v3.jpg",
+        "https://oasisdevices.com/__l5e/assets-v1/10754f2a-5f47-42f2-a58c-90504a660f2d/wispr-flow-logo.png",
+        "https://oasisdevices.com/__l5e/assets-v1/9c30eaff-86e7-4911-92ab-a4a5190f9292/magic-8.jpg",
+        "https://oasisdevices.com/__l5e/assets-v1/f82612ad-d252-4511-8abf-2a6d710b6789/magic-17.jpg",
+        "https://oasisdevices.com/__l5e/assets-v1/b4e6f25f-013f-49ed-addd-eb6bae1b4684/magic-19.jpg",
+        "https://oasisdevices.com/__l5e/assets-v1/3a2c02eb-4bf3-4b7e-a894-923116cbf6b3/magic-21.jpg",
+        "https://oasisdevices.com/__l5e/assets-v1/5247e2e4-cefa-40e4-9e2c-daed8cdebb2b/lifestyle-6.jpg",
+        "https://oasisdevices.com/__l5e/assets-v1/0fff9c5f-ceb8-4fa8-89b7-ba016db02585/lifestyle-7.jpg"
+      ],
+      "article_title_extracted": "OASIS — The Smart Ring",
+      "category": "Tools",
+      "created_at": "2026-07-01T02:46:44.673113Z",
+      "description": "Speak private, stay present. OASIS is a titanium smart ring with subvocal voice, touch, and motion control.",
+      "domain": "oasisdevices.com",
+      "embed_type": "",
+      "id": "k1785cfevr2y9r2x3bydzb9fah89p6zp",
+      "og_image_url": "https://storage.googleapis.com/gpt-engineer-file-uploads/X4M7vSIR1bN4F3KKJ9Days3TfEL2/social-images/social-1782843727428-Magic-19.webp",
+      "recommended_at": "2026-07-01T13:09:11.648000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "wearable-tech",
+        "smart-ring",
+        "human-computer-interaction"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-01T13:09:11.648000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "OASIS — The Smart Ring",
+      "url": "https://oasisdevices.com/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://www.opensoftware.co/brand/june-og.jpg",
+        "https://www.opensoftware.co/brand/os-june-light.svg?dpl=dpl_4qsGDtTkCs4De29HNRYtMijexDU8",
+        "https://www.opensoftware.co/brand/os-june-dark.svg?dpl=dpl_4qsGDtTkCs4De29HNRYtMijexDU8",
+        "https://www.opensoftware.co/brand/opensoftware-light.svg?dpl=dpl_4qsGDtTkCs4De29HNRYtMijexDU8",
+        "https://www.opensoftware.co/brand/opensoftware-dark.svg?dpl=dpl_4qsGDtTkCs4De29HNRYtMijexDU8",
+        "https://www.facebook.com/tr?id=1010111658291862&ev=PageView&noscript=1"
+      ],
+      "article_text": "Private AI on your Mac\nJune brings an agent, voice dictation, and automated meeting notes into a single private workspace on your Mac. Local by default, and routed through privacy-preserving AI.\nOpen source, and local first.\nYou're handing AI your most sensitive data\nEvery prompt, file, and workflow reveals sensitive data about you. Most AI apps ask you to trust them with all of it.\nJune is built to keep it private\nAI for everyday life and work\nChat with AI\nAsk questions, do research, brainstorm ideas, build a plan, while keeping it all private.\nOn it — going through your Downloads folder. It all stays on your Mac.\nFound 14 receipts from May totaling $2,847.10. Here's the breakdown:\n- Groceries — $612.40\n- Dining & takeout — $488.20\n- Subscriptions — $214.97\n- Transport — $176.50\n- Shopping — $1,355.03\nWant me to export this, or dig into any category?\nSpeak instead of type\nPress the keyboard shortcut and talk. June turns your voice into polished writing, in any app on your computer.\nHi Maya,\nThanks for sending the revised timeline. I went through the milestones this morning, and Friday at 2pm still works well for me.\nI’m aligned with using the review to settle scope, risks, and the handoff plan before the prototype review next week.\nSam\nEffortlessly capture meetings\nJune can detect supported meetings and offer to write the notes for you, without a bot ever joining the call.\nQ3 Roadmap review\nThe team aligned on shipping the agent beta to design partners next week, and holding pricing until the security review lands.\nDecisions\n- Beta to design partners on Thursday\n- Hold pricing until the security review lands\nAction items\n- Book the security review\n- Send the design-partner list\n- Move launch checklist into the roadmap folder\nRisks\n- Security review may slip by one day\n- Waitlist copy still needs legal approval\nContext\n- Design partners want earlier access to the import flow\n- Support team needs a concise beta FAQ before invitations go out\nLet June do the work\nSchedule tasks, create reports, and prepare research. June simplifies your workflows without training someone else's model.\nI found 18 upcoming renewals, scored them against ticket volume and product usage, then drafted the weekly report with account-level next steps.\nHighest risk this week\n- Northstar Labs - $52K ARR\n- Meadow Health - $41K ARR\nweekly-risk.md\nWeekly renewal-risk report\nGenerated every Monday at 8:00 AM\n4 accounts moved into elevated risk this week\nHighest risk\nUsage down 38% · 6 open tickets\nChampion left · renews in 21 days\nImport failures · 3 seats\nRecommended follow-up\n- Schedule the Northstar recovery call\n- Send Meadow the Q3 admin controls preview\n- Attach Vale import logs to eng triage\nHow June keeps it all private\nArchitecture built to be private by default.\nLocal by default\nJune's agent runs locally on your desktop, built on the open-source Hermes framework. Files, sessions, memory, and state stay local by default.\nUsing private models\nJune defaults to private Venice models with zero data retention: nothing stored, no training. Anonymized third-party models are opt-in.\nMinimal data retention\nJune stores only what it takes to run the service: account, login, and billing records. Your prompts, transcripts, and memory are not on that list.\nOpen-source and verifiable\nJune's code is open source and the backend runs in a TEE, so you can verify what runs on our servers and confirm we don't store your content or train on it.\nAI with your privacy in mind\nHow June stands out from other agents and apps.\nStart free. Upgrade when you're ready.\nHobby\nFor trying June on real work.\n[Start with Hobby](https://www.opensoftware.co/download/mac)\n- Voice dictation into any app\n- Automated meeting notes\n- Light agent usage\n- Same privacy standard as Pro\nPro\nPopularFor using June every day.\n[Go Pro](https://accounts.opensoftware.co/checkout/subscription)\nEverything in hobby, plus:\n- More monthly usage across all features\n- Extended agent sessions\n- Access to all AI mo",
+      "article_title_extracted": "June: The private way to use AI on your desktop",
+      "category": "Tools",
+      "cleaner_v": 2,
+      "created_at": "2026-07-01T02:46:59.466369Z",
+      "description": "June is the private AI assistant for your desktop: chat, dictation, meeting notes, and a local agent with zero-retention model routing and an open-source backend you can verify.",
+      "domain": "www.opensoftware.co",
+      "embed_type": "",
+      "id": "k179shsyhmpwmcgxxcsc82kyn189pnj2",
+      "og_image_url": "https://www.opensoftware.co/brand/june-og.jpg",
+      "recommended_at": "2026-07-01T13:09:10.224000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-privacy",
+        "desktop-assistant",
+        "local-llm"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-01T13:09:10.224000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "June: The private way to use AI on your desktop",
+      "url": "https://www.opensoftware.co/june",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/1Wdvcld1Wzct1CysAXQYfg/35ae25ac76ee222ad0801a4ca35c4c6d/vercel-containers-og.png",
+        "https://assets.vercel.com/image/upload/f_auto,c_fill,w_32,h_32,q_75/contentful/image/e5382hct74si/4iicDbTA4KX4io2f2PPx7q/b11dbc333322bc5a0087056d162cb5cf/malte.ubl.jpg",
+        "https://assets.vercel.com/image/upload/f_auto,c_fill,w_32,h_32,q_75/contentful/image/e5382hct74si/16Xl3X0CdL5uJNfZ0tLp1k/1b0247b1bd5d93436d3f89b2f2e7e3a3/avatar.png",
+        "https://assets.vercel.com/image/upload/f_auto,c_fill,w_32,h_32,q_75/contentful/image/e5382hct74si/45f2NZvSdEgEW8jTRXZJ5r/44bade63c3d95fc17dd1983adb72af9f/Headshot__1_.png",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/vercel-light.3_gxxexgi1nmy.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/vercel-dark.1f3cgy23m5_jy.svg"
+      ],
+      "article_text": "You have a server in a container. Maybe it's a Go service, a Rails app, a Spring Boot API, or a web server behind nginx. It speaks HTTP. It listens on a port. It just needs somewhere to run.\nAdd a Dockerfile.vercel file to your project, and Vercel builds, stores, deploys, and autoscales the image on [Fluid compute](https://vercel.com/blog/introducing-fluid-compute), so you pay only for the CPU your code uses. No daemon to run locally, registry to set up, or cluster to babysit.\n[Link to heading](https://vercel.com#how-it-works)How it works\nHere is a small HTTP server in Go, listening on $PORT:\npackage main\nimport (\t\"fmt\"\t\"net/http\"\t\"os\")\nfunc main() {\tport := os.Getenv(\"PORT\")\tif port == \"\" {\t\tport = \"80\"\t}\n\thttp.HandleFunc(\"/\", func(w http.ResponseWriter, r *http.Request) {\t\tfmt.Fprintln(w, \"Hello from a container on Vercel 👋\")\t})\n\thttp.ListenAndServe(\":\"+port, nil)}A minimal HTTP server that reads its port from $PORT and answers every request.\nAdd a Dockerfile.vercel file that builds it into a small image and runs it:\nFROM golang:1.24-alpine AS buildWORKDIR /srcCOPY . .RUN go build -o /server main.go\nFROM alpine:3.20COPY  /server /serverCMD [\"/server\"]A two-stage build that compiles the binary, then copies it into a minimal Alpine image that runs on boot.\nThen deploy:\n▲ vercel deployVercel CLI✓ Building image from Dockerfile.vercel✓ Stored image in your project's registry✓ Deployed to Fluid computeProduction: https://my-server.vercel.appOne command builds the image, stores it, and ships it to Fluid compute, then prints the production URL.\nThat is it. Two files, and you are live. Every git push rebuilds the image and hands you a fresh preview URL. Or run vercel to deploy without committing.\nWe used Go in this example, but any stack works. Rails, Spring Boot, Express, Laravel, ASP.NET, FastAPI, and a web server behind nginx all deploy the same way. The only rule is that your server listens on $PORT, which defaults to 80. If it speaks HTTP, it deploys. Yes, even Java. And yes, even PHP.\n[Link to heading](https://vercel.com#what-you-get)What you get\nA container on Vercel is a first-class citizen. It runs on the same platform, and the same compute, as your frontend and the rest of your [services on Vercel](https://vercel.com/blog/vercel-services-run-full-stack-on-vercel).\n- A preview deployment for every push: Every commit gets its own immutable URL you can open, share, and roll back to. \n- Autoscaling, in both directions: Traffic arrives and you scale out. Traffic stops and your instances wind down. You never size a fleet or guess a concurrency number. \n- [Active CPU pricing](https://vercel.com/blog/introducing-active-cpu-pricing-for-fluid-compute): Fluid compute bills for the time your code is actually running, so an idle server, parked on a slow query or an upstream API, isn't burning CPU while it waits. You pay for execution time, not wall time.\n- Observability, included: Logs, traces, and metrics for your container live in the same dashboard as everything else you ship. \n- One project, one domain: Your container sits beside your frontend and your other services and talks to them privately over the Vercel network. Your full stack ships as one deploy. \n[Link to heading](https://vercel.com#built-to-start-fast)Built to start fast\nA container is only as good as the time it takes to answer its first request.\nWhen Vercel builds your image, it stores it as an [optimized boot image](https://vercel.com/blog/optimizing-vercel-sandbox-snapshots), a compressed snapshot of the container's disk tuned for fast startup.\nWhen a container boots, we stream that snapshot and decompress it on demand, rather than downloading the whole image before anything runs. Your server can start handling requests before the full image is in place, so a larger image does not have to finish downloading first.\nOnce an instance is running, Fluid compute keeps it warm and serves many requests from it, rather than starting a fresh copy for each one. You get the resp",
+      "article_title_extracted": "Run any Dockerfile on Vercel - Vercel",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-07-01T02:48:02.018094Z",
+      "description": "Vercel now runs any HTTP server straight from a Dockerfile. Bring a Rails, Django, Spring Boot, or Go app and Vercel builds, deploys, autoscales, and runs it on Fluid compute with Active CPU pricing.",
+      "domain": "vercel.com",
+      "embed_type": "",
+      "id": "k17ehjefm8yhyyqxn0dghj06zs89pqfd",
+      "og_image_url": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/1Wdvcld1Wzct1CysAXQYfg/35ae25ac76ee222ad0801a4ca35c4c6d/vercel-containers-og.png",
+      "recommended_at": "2026-07-01T13:09:08.170000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "docker",
+        "vercel",
+        "cloud-computing"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-01T13:09:08.170000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Run any Dockerfile on Vercel - Vercel",
+      "url": "https://vercel.com/blog/dockerfile-on-vercel",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
+      "article_image_urls": [
+        "https://cdn.sanity.io/images/rwbees58/development/9885cd08fc6fe49fff1d2b35a8f97447753ca9b0-1200x630.png?w=1200&h=630&fm=png&fit=max&auto=format",
+        "https://cdn.sanity.io/images/rwbees58/development/184c9b88e76305779b08c7d32930cd6faf868b84-1200x630.png?w=1200&h=630&fm=png&fit=max&auto=format",
+        "https://www.etched.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frail-rack.0.vv8sen5lwmr.png&w=4096&q=90&dpl=dpl_GqgZZKxazAhw6GSBFLMbJRjqB2pf",
+        "https://www.etched.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frail-tray.16x6sefjvwy6u.png&w=4096&q=90&dpl=dpl_GqgZZKxazAhw6GSBFLMbJRjqB2pf",
+        "https://www.etched.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frail-card.10~2l-0107m3r.png&w=4096&q=90&dpl=dpl_GqgZZKxazAhw6GSBFLMbJRjqB2pf",
+        "https://www.etched.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frail-chip.11q4y74sh9q8n.png&w=4096&q=90&dpl=dpl_GqgZZKxazAhw6GSBFLMbJRjqB2pf",
+        "https://cdn.sanity.io/images/rwbees58/development/73999dc9ee6fc5abc406e805c1aed5ba4df6aad0-3456x1622.webp?auto=format&fit=max&w=4096&q=90",
+        "https://cdn.sanity.io/images/rwbees58/development/fa2e26a99c445afe57d24f67e298898dff366619-4911x4911.jpg?auto=format&fit=max&w=4096&q=85",
+        "https://cdn.sanity.io/images/rwbees58/development/8de6db4b5eaacc4e40db36b427f378cbea172231-1330x1330.png?auto=format&fit=max&w=4096&q=85",
+        "https://cdn.sanity.io/images/rwbees58/development/2a60033beb255e0df47bfcb46931be61c2d8d66f-4911x4911.jpg?auto=format&fit=max&w=4096&q=85",
+        "https://cdn.sanity.io/images/rwbees58/development/3e148fd56c3064a45eec6efb9674234462cfa62b-1254x1254.png?auto=format&fit=max&w=4096&q=85",
+        "https://cdn.sanity.io/images/rwbees58/development/0ab84bda56a1dab6724a7aab90da8d3e62a4cbdd-4911x4911.jpg?auto=format&fit=max&w=4096&q=85"
+      ],
+      "article_title_extracted": "Etched",
+      "category": "Development",
+      "created_at": "2026-07-01T02:47:08.278249Z",
+      "description": "Co-designed chips, racks, and software to push the pareto frontier to best-in-class throughput and interactivity.",
+      "domain": "www.etched.com",
+      "embed_type": "",
+      "id": "k17amjr1f0x1ybww7yhzmgq1ws89pj3c",
+      "og_image_url": "https://cdn.sanity.io/images/rwbees58/development/9885cd08fc6fe49fff1d2b35a8f97447753ca9b0-1200x630.png?w=1200&amp;h=630&amp;fm=png&amp;fit=max&amp;auto=format",
+      "recommended_at": "2026-07-01T13:09:06.055000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-hardware",
+        "semiconductors",
+        "transformers"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-01T13:09:06.055000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Etched",
+      "url": "https://www.etched.com/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
+      "article_title_extracted": "Jin and Park",
+      "category": "Design",
+      "created_at": "2026-07-01T02:47:39.760158Z",
+      "description": "Cargo",
+      "domain": "jinandpark.com",
+      "embed_type": "",
+      "id": "k178v2rsk8kc7721cac2jzvb6x89q9p2",
+      "og_image_url": "https://cloud.poche.app/api/storage/5c530db2-674c-4db3-8d60-f6b1010b187f",
+      "recommended_at": "2026-07-01T13:09:04.677000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "logistics",
+        "freight-forwarding",
+        "supply-chain"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-01T13:09:04.677000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Jin and Park",
+      "url": "https://jinandpark.com/",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://sohna.dev/waterlemon/src/image/min/cover.png?v1.0.1",
+        "https://sohna.dev/waterlemon/src/image/min/waterlemon_logo_transparent.png",
+        "https://sohna.dev/waterlemon/src/image/min/codex_logo_transparent.png",
+        "https://sohna.dev/waterlemon/src/image/min/icon_apple.png",
+        "https://sohna.dev/waterlemon/src/image/min/icon_gumroad.png",
+        "https://sohna.dev/waterlemon/src/image/min/waterlemon_snapshot.png",
+        "https://sohna.dev/waterlemon/src/image/min/waterlemon_usecase_product_app_icon.png",
+        "https://sohna.dev/waterlemon/src/image/min/waterlemon_usecase_product_onboarding.png",
+        "https://sohna.dev/waterlemon/src/image/min/waterlemon_usecase_product_empty_state.png",
+        "https://sohna.dev/waterlemon/src/image/min/waterlemon_usecase_product_pro_wall.png",
+        "https://sohna.dev/waterlemon/src/image/min/waterlemon_usecase_product_feature_cards.png",
+        "https://sohna.dev/waterlemon/src/image/min/waterlemon_usecase_marketing_launch_graphic.png"
+      ],
+      "article_text": "Create icons for apps and websites with Waterlemon Skills for Codex Download for Mac Get Pro Skills – $27 How Waterlemon Skills can be used? From Concept to app-ready Icons in seconds Pick a Style Choose a curated Waterlemon style Copy for Codex Customize colors and copy the Skill Describe Your Icon Type the icon you want to create Use Your Icon Your polished icon is ready Hand-curated polished Waterlemon Skills Clay Cardboard Gloss Pro Glass Pro Pebble Pro Fuzzy Pro Glide Pro Ceramic Pro Yarn Pro Candypop Pro Mist Pro Drift Set up global Skills once, and use across all Projects in Codex. Explore Same Icon Concept Using Different Visual Skills Have Questions before trying Waterlemon? What is Waterlemon? Waterlemon is a curated skill library for Codex, packaged with a Mac app that makes the workflow easier. It helps you create app-ready icons in consistent styles without writing long prompts. You can browse skills, customize colors, copy a skill expression, and use it in Codex to generate new icons in the same style. Who is Waterlemon for? Waterlemon is for anyone who wants clean, consistent icons from Codex without writing long prompts. Use it for product icons, app features, branding concepts, social posts, launch graphics, marketing sections, websites, side projects, and quick experiments. How does Waterlemon work with Codex? Waterlemon exports a local plugin from the Mac app. Export the plugin from Waterlemon app, then open Codex and go to Plugins → Personal. Find the Waterlemon plugin and add it. After setup, browse skills in Waterlemon, customize colors, copy a skill expression, and use it in Codex to generate icons. You need access to Codex because the actual icon generation happens inside Codex. If you unlock Pro, export the plugin again and restart Codex once so the Pro skills become available. Does Waterlemon use my Codex credits? Waterlemon itself does not use your Codex credits. Waterlemon only installs local skills, exports the plugin, and copies skill expressions. Your Codex/OpenAI usage applies when you generate or edit icons in Codex, according to your OpenAI plan, usage limits, and credit policy. Does Waterlemon collect my data? Waterlemon does not collect your files, prompts, generated images, Codex content, or personal workspace data. It only tracks app events, such as app opened, plugin exported, skill copied, and license activated. This helps improve the product without reading your work. Do I need the latest macOS? No. Waterlemon works on macOS 15.1 or later. You do not need the newest Mac, but you do need a recent macOS version so Waterlemon can run properly and export the local Codex plugin. What do I get with Waterlemon Pro? Waterlemon Pro gives you access to all current and future Pro skills. Pro skills are also included as Gumroad downloads, so you can keep a copy and manually set them up if needed. What happens after I buy Waterlemon? You can download the Mac app first and upgrade from inside the app, or buy on Gumroad and get the app download from your purchase. After purchase, Gumroad gives you a license key by email and inside your Gumroad library. Copy that key, open Waterlemon, and paste it into the Pro activation screen. Your purchase also includes the Pro skill files as Gumroad downloads. What is the refund policy? Waterlemon is a digital product. Because access is delivered instantly, all sales are generally final. Refunds are available within 7 days only if Waterlemon does not work on your Mac, the Codex plugin export fails, or there was a duplicate purchase. Refunds are not available if you do not have access to Codex/OpenAI features, if you change your mind, or if the Pro skills have already been successfully exported and used. For help, email [email protected] . Terms Privacy Refunds Support © Waterlemon by Sohna. All rights reserved. Waterlemon, its app, visual skills, website content, and related materials are owned by Sohna.",
+      "article_title_extracted": "Waterlemon - Curated Icon Skills for Codex",
+      "category": "Tools",
+      "cleaner_v": 2,
+      "created_at": "2026-07-01T12:03:35.362899Z",
+      "description": "Download Waterlemon for Mac to create curated spot icons for Codex.",
+      "domain": "sohna.dev",
+      "embed_type": "",
+      "id": "k177mwcaqhh99b435cbfdd16q989qwnq",
+      "og_image_url": "https://sohna.dev/waterlemon/src/image/min/cover.png?v1.0.1",
+      "recommended_at": "2026-07-01T13:08:39.520000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "icons",
+        "design-tools",
+        "codex"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-01T13:08:39.520000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Waterlemon - Curated Icon Skills for Codex",
+      "url": "https://sohna.dev/waterlemon/",
+      "x_status_id": null
+    },
+    {
+      "category": "Social",
+      "created_at": "2026-07-01T12:19:18.076832Z",
+      "description": "New this week: Effects and shaders ✨Distortion, 3D flips, dithering, fluted glass, and all the shaders you’ve been eyeing lately. Now a click away.Live today 👇 pic.twitter.com/AiCGL6mxfe",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k17ek0j7m95f1yk4j3vhndt1wh89pemk",
+      "og_image_url": "https://pbs.twimg.com/amplify_video_thumb/2071969425255706625/img/juETBAOD4y9hUWsf.jpg",
+      "recommended_at": "2026-07-01T13:08:36.219000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "motion-design",
+        "shaders",
+        "animation-tools"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-01T13:08:36.219000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Jitter (@jittervideo) on X",
+      "url": "https://x.com/jittervideo/status/2071988537302417476",
+      "x_status_id": "2071988537302417476"
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "http://localhost:3000/astrolabe/og/docs/image.png"
+      ],
+      "article_text": "Astrolabe is a Swift package for declaring the desired state of a macOS machine.\nYou describe packages, launchd jobs, system settings, Jamf settings, and custom\nsteps in a Swift body; Astrolabe runs as a root LaunchDaemon and continuously\nreconciles the real machine back to that declaration.\nIf you have written SwiftUI, Astrolabe will feel familiar. You declare what the machine should look like, not the steps to get there, and the framework keeps reality matching your declaration.\nThis says \"Homebrew, wget, and Firefox should exist on this Mac.\" Astrolabe installs whatever is missing, then keeps checking. If something is removed later, the next pass puts it back.\n[Declarative, not scripted](https://photon.codes#declarative-not-scripted)\nAstrolabe is not a one-shot script runner. A script says \"run these commands in this order.\" Astrolabe says \"this state should exist\" and keeps checking whether that remains true.\nThat difference matters over time. A script runs once and is done; if the machine drifts afterward, nobody notices. Astrolabe treats your declaration as the source of truth and reconciles the machine back to it on every pass.\n[The SwiftUI influence](https://photon.codes#the-swiftui-influence)\nThe framework deliberately borrows from SwiftUI:\n- Astrolabeis the app entry point.\n- Setupis the declaration protocol.\n- @SetupBuilderturns multiple declarations into a tree.\n- @State,- @Storage, and- @Environmentdrive reevaluation.\n- Modifiers attach behavior and metadata to declarations.\nYour body is a pure function of state, evaluated many times. When state changes,\nAstrolabe rebuilds the declaration tree, diffs it against the previous one, and\napplies only what changed — the same mental model as a SwiftUI view.\n[What you can do with it](https://photon.codes#what-you-can-do-with-it)\nAstrolabe is a good fit when you want a Mac to remain in a known state over time:\n- Install Homebrew packages and casks.\n- Install .pkgartifacts from a catalog, GitHub releases, or a custom source.\n- Write and optionally activate LaunchDaemons and LaunchAgents.\n- Apply system settings such as hostname and power management.\n- Apply Jamf settings such as computer name.\n- Persist local setup decisions with @Storage.\n- Attach user prompts, lifecycle hooks, and background tasks to declarations.\n- Ship a setup binary that can update itself from GitHub releases.\n[Platform requirements](https://photon.codes#platform-requirements)\nAstrolabe is macOS-only:\n- Swift 6.2 or newer.\n- macOS 15 or newer, as declared in Package.swift.\n- Root privileges at runtime.\n- launchd, installer,pkgutil,softwareupdate,scutil, and Homebrew integration on the target Mac.\n[Where to go next](https://photon.codes#where-to-go-next)\n- [Getting Started](https://photon.codes/getting-started)builds and runs a minimal setup app.\n- [Core Concepts](https://photon.codes/core-concepts)explains the declaration tree, the synchronous tick, the identity model, and the \"loop is retry\" design.\n- [Declarations](https://photon.codes/declarations)covers the built-in building blocks:- Brew,- Pkg,- LaunchDaemon,- LaunchAgent,- Sys,- Jamf,- Customized,- Anchor, groups, and conditionals.\n- [State and Persistence](https://photon.codes/state-and-persistence)explains- @State,- @Storage, and- @Environment.\n- [Modifiers](https://photon.codes/modifiers)covers lifecycle hooks, priority, drift cadence, dialogs, tasks, and launchd sugar.\n- [CLI and Operations](https://photon.codes/cli-and-operations)covers daemon mode, inline mode, logs, reset, and troubleshooting.\n- [Telemetry and Updates](https://photon.codes/telemetry-and-updates)covers opt-in SigNoz telemetry and the sibling updater daemon.\n- [Extending Astrolabe](https://photon.codes/extending-astrolabe)explains how to add custom package sources, system settings, inline steps, and new declarations.\nNew to Astrolabe? Start with [Getting Started](https://photon.codes/getting-started), then read\n[Core Concepts](https://photon.codes/core-concepts) before build",
+      "article_title_extracted": "Introduction",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-07-01T13:07:54.303178Z",
+      "description": "A declarative macOS configuration framework that keeps a Mac in the state you describe.",
+      "domain": "photon.codes",
+      "embed_type": "",
+      "id": "k171mcz72ey4dny374way3b1ns89qw4v",
+      "og_image_url": "https://cloud.poche.app/api/storage/f9a7c013-1e1f-4197-96c1-09d58007d39a",
+      "recommended_at": "2026-07-01T13:08:34.018000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "macos",
+        "configuration-management",
+        "declarative-programming"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-01T13:08:34.018000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Introduction",
+      "url": "https://photon.codes/astrolabe/",
+      "x_status_id": null
+    },
     {
       "category": "Social",
       "created_at": "2026-07-01T01:25:37.946159Z",
@@ -1956,7 +2313,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-24T15:21:50.603929Z",
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
       "article_image_urls": [
         "http://localhost:3000/og-image.jpg?v=2"
       ],
@@ -1993,20 +2350,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-24T15:21:50.603929Z",
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
       "article_image_urls": [
-        "https://aside.com/opengraph-image.png?opengraph-image.22u2ka3hybz6_.png?dpl=dpl_Es8JuSLeCLWFTjz2bhSCXb4tonsX",
-        "https://aside.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsample-profile.0425z-dn58n17.png&w=256&q=75&dpl=dpl_Es8JuSLeCLWFTjz2bhSCXb4tonsX",
-        "https://aside.com/_next/static/media/icon-vercel.3zorcv45tmi9s.png?dpl=dpl_Es8JuSLeCLWFTjz2bhSCXb4tonsX",
-        "https://aside.com/_next/static/media/icon-ycombinator.3j2hp531k6png.png?dpl=dpl_Es8JuSLeCLWFTjz2bhSCXb4tonsX",
-        "https://aside.com/_next/static/media/task-website-design.27aqnqp_vmfj9.png?dpl=dpl_Es8JuSLeCLWFTjz2bhSCXb4tonsX",
-        "https://aside.com/_next/static/media/task-park.0gzp6gh4_dlrg.png?dpl=dpl_Es8JuSLeCLWFTjz2bhSCXb4tonsX",
-        "https://aside.com/_next/static/media/task-briefing.0uik6cjzhaurc.png?dpl=dpl_Es8JuSLeCLWFTjz2bhSCXb4tonsX",
-        "https://aside.com/_next/static/media/page-curl-top.3bpwqaypcu3fs.png?dpl=dpl_Es8JuSLeCLWFTjz2bhSCXb4tonsX",
-        "https://aside.com/_next/static/media/1.39f688046nv0m.png?dpl=dpl_Es8JuSLeCLWFTjz2bhSCXb4tonsX",
-        "https://aside.com/_next/static/media/2.1b1iarhqpzi0m.png?dpl=dpl_Es8JuSLeCLWFTjz2bhSCXb4tonsX",
-        "https://aside.com/_next/static/media/1.0vgx33pjpfhrn.webp?dpl=dpl_Es8JuSLeCLWFTjz2bhSCXb4tonsX",
-        "https://aside.com/_next/static/media/2.1w2pw_n-7dkli.webp?dpl=dpl_Es8JuSLeCLWFTjz2bhSCXb4tonsX"
+        "https://aside.com/opengraph-image.png?opengraph-image.22u2ka3hybz6_.png?dpl=dpl_FC69VcMbm7jW1oLdLBXU7r7iDCM2",
+        "https://aside.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsample-profile.0425z-dn58n17.png&w=256&q=75&dpl=dpl_FC69VcMbm7jW1oLdLBXU7r7iDCM2",
+        "https://aside.com/_next/static/media/icon-vercel.3zorcv45tmi9s.png?dpl=dpl_FC69VcMbm7jW1oLdLBXU7r7iDCM2",
+        "https://aside.com/_next/static/media/icon-ycombinator.3j2hp531k6png.png?dpl=dpl_FC69VcMbm7jW1oLdLBXU7r7iDCM2",
+        "https://aside.com/_next/static/media/task-website-design.27aqnqp_vmfj9.png?dpl=dpl_FC69VcMbm7jW1oLdLBXU7r7iDCM2",
+        "https://aside.com/_next/static/media/task-park.0gzp6gh4_dlrg.png?dpl=dpl_FC69VcMbm7jW1oLdLBXU7r7iDCM2",
+        "https://aside.com/_next/static/media/task-briefing.0uik6cjzhaurc.png?dpl=dpl_FC69VcMbm7jW1oLdLBXU7r7iDCM2",
+        "https://aside.com/_next/static/media/page-curl-top.3bpwqaypcu3fs.png?dpl=dpl_FC69VcMbm7jW1oLdLBXU7r7iDCM2",
+        "https://aside.com/_next/static/media/1.39f688046nv0m.png?dpl=dpl_FC69VcMbm7jW1oLdLBXU7r7iDCM2",
+        "https://aside.com/_next/static/media/2.1b1iarhqpzi0m.png?dpl=dpl_FC69VcMbm7jW1oLdLBXU7r7iDCM2",
+        "https://aside.com/_next/static/media/1.0vgx33pjpfhrn.webp?dpl=dpl_FC69VcMbm7jW1oLdLBXU7r7iDCM2",
+        "https://aside.com/_next/static/media/2.1w2pw_n-7dkli.webp?dpl=dpl_FC69VcMbm7jW1oLdLBXU7r7iDCM2"
       ],
       "article_title_extracted": "Aside | The browser built to do real work for you",
       "category": "Tools",
@@ -2044,7 +2401,8 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-24T15:21:50.603929Z",
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
       "article_image_urls": [
         "https://www.buoy.fun/link-preview.png"
       ],
@@ -2081,7 +2439,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-24T15:21:50.603929Z",
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
       "article_image_urls": [
         "https://ultramock.io/META.jpg"
       ],
@@ -2122,12 +2480,12 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-24T15:21:50.603929Z",
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
       "article_image_urls": [
         "https://www.interceptfund.com/og-image.png",
-        "https://www.interceptfund.com/_next/image?url=%2Froom-air-filtration.png&w=3840&q=75&dpl=dpl_6JdGg4YUwSBKLbtBosmd7AxQMY99",
-        "https://www.interceptfund.com/_next/image?url=%2Froom-light.png&w=3840&q=75&dpl=dpl_6JdGg4YUwSBKLbtBosmd7AxQMY99",
-        "https://www.interceptfund.com/_next/image?url=%2Froom-vapors.png&w=3840&q=75&dpl=dpl_6JdGg4YUwSBKLbtBosmd7AxQMY99"
+        "https://www.interceptfund.com/_next/image?url=%2Froom-air-filtration.png&w=3840&q=75&dpl=dpl_G5pXnjbz3Mks8dHcggzZPM1pD6fA",
+        "https://www.interceptfund.com/_next/image?url=%2Froom-light.png&w=3840&q=75&dpl=dpl_G5pXnjbz3Mks8dHcggzZPM1pD6fA",
+        "https://www.interceptfund.com/_next/image?url=%2Froom-vapors.png&w=3840&q=75&dpl=dpl_G5pXnjbz3Mks8dHcggzZPM1pD6fA"
       ],
       "article_title_extracted": "Intercept",
       "category": "Other",
@@ -2162,7 +2520,8 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-24T15:21:50.603929Z",
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
       "article_image_urls": [
         "https://www.internetsgashapon.com/og.gif",
         "https://www.internetsgashapon.com/og.jpg"
@@ -2203,7 +2562,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-24T15:21:50.603929Z",
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
       "article_image_urls": [
         "https://riser.design/wp-content/uploads/2019/03/home-logo.svg",
         "https://riser.design/wp-content/themes/riser-design/app/img/notes_white.svg",
@@ -2254,11 +2613,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-24T15:21:50.603929Z",
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
       "article_image_urls": [
-        "https://make.design/backgroundog.png",
-        "https://make.design/flowers/lav_flower_2.png",
-        "https://make.design/flowers/pink_flower_1.png",
+        "https://make.design/OG.jpg",
         "https://make.design/flowers/green_flower_1.png",
         "https://make.design/flowers/white_flower_3.png",
         "https://make.design/flowers/pale_flower_2.png",
@@ -2267,7 +2624,9 @@
         "https://make.design/flowers/white_flower_1.png",
         "https://make.design/flowers/lav_flower_1.png",
         "https://make.design/flowers/pink_flower_2.png",
-        "https://make.design/flowers/green_flower_2.png"
+        "https://make.design/flowers/green_flower_2.png",
+        "https://make.design/flowers/lav_flower_2.png",
+        "https://make.design/flowers/pale_flower_3.png"
       ],
       "article_title_extracted": "make.design - AI Design Generator",
       "category": "Design",
@@ -6978,7 +7337,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-24T15:21:50.603929Z",
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
       "article_image_urls": [
         "https://system.studio/og.png"
       ],
@@ -7117,10 +7476,10 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-24T15:21:50.603929Z",
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
       "article_image_urls": [
         "https://poolmoney.com/og.png",
-        "https://cdn.sanity.io/images/l28o6v3r/production/4958b916463c525239785882a798a176f9bfc9a5-2758x1840.jpg?w=1280&auto=format",
+        "https://cdn.sanity.io/images/l28o6v3r/production/25dfd5650bae3f2437e152c2878b0f2ed83454db-3072x2048.png?w=1280&auto=format",
         "https://cdn.sanity.io/images/l28o6v3r/production/c1c1065198de69fe7754cbe1e3d092867418eb75-3840x2880.png?w=1600&auto=format",
         "https://cdn.sanity.io/images/l28o6v3r/production/2f533d4697db2f0b57e9196a4b46860d9bd1c38f-2560x1920.png?w=1600&auto=format",
         "https://cdn.sanity.io/images/l28o6v3r/production/8a9c2b0b5c97d7672d387f635c1a347f97d1672e-2560x1924.png?w=1600&auto=format",
@@ -9664,7 +10023,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-24T15:21:50.603929Z",
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
       "article_image_urls": [
         "https://montage.keeyen.com/og-image.png"
       ],
@@ -11710,7 +12069,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-24T15:21:50.603929Z",
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
       "article_image_urls": [
         "https://navigate.ai/assets/og-image.jpg",
         "https://www.navigate.ai/assets/nai_black.svg",
@@ -11761,7 +12120,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-24T15:21:50.603929Z",
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
       "article_title_extracted": "Fatype",
       "category": "Design",
       "created_at": "2026-05-27T02:46:27.160461Z",
@@ -11796,7 +12155,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-24T15:21:50.603929Z",
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
       "article_image_urls": [
         "https://image.jakubantalik.com/images/og-image.jpg"
       ],
@@ -11837,7 +12196,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-24T15:21:50.603929Z",
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
       "article_title_extracted": "Dials",
       "category": "Tools",
       "created_at": "2026-05-27T03:01:40.077008Z",
@@ -11871,7 +12230,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-24T15:21:50.603929Z",
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
       "article_title_extracted": "Rastermill — Portable image processing for Node agents",
       "category": "Development",
       "created_at": "2026-05-27T03:11:18.829289Z",
@@ -13922,7 +14281,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-24T15:21:50.603929Z",
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/PSMeVOn2vyHHuWnnIlZB6T5BlQ.png",
         "https://framerusercontent.com/images/h5VHoQg2qBhfygdenEQ0WUtEZU.png?width=2464&height=909",
@@ -13974,7 +14333,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-24T15:21:50.603929Z",
+      "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
       "article_image_urls": [
         "https://browse.sh/opengraph-image.png?opengraph-image.0f18ylbsdxqpn.png",
         "https://browse.sh/twitter-image.png?twitter-image.0f18ylbsdxqpn.png",
@@ -108064,7 +108423,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2265,
+      "count": 2274,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -108100,5 +108459,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-07-01T11:41:32.493293Z"
+  "updated_at": "2026-07-01T15:26:24.364353Z"
 }
