@@ -13,15 +13,15 @@
       "name": "Design"
     },
     {
-      "count": 333,
+      "count": 334,
       "name": "Articles"
     },
     {
-      "count": 286,
+      "count": 288,
       "name": "Social"
     },
     {
-      "count": 151,
+      "count": 152,
       "name": "Media"
     },
     {
@@ -38,8 +38,145 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2421,
+  "item_count": 2425,
   "items": [
+    {
+      "category": "Social",
+      "created_at": "2026-07-01T01:25:37.946159Z",
+      "description": "We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5.We'll begin restoring access tomorrow, and will share an update soon.We’re grateful to our users for their patience, and to everyone who worked with us on…",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k17ab9cnk4g00fqav5972nj6f989pgr5",
+      "og_image_url": "",
+      "recommended_at": "2026-07-01T02:32:49.111000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "anthropic",
+        "ai-policy",
+        "export-controls"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-01T02:32:49.111000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Anthropic (@anthropicai) on X",
+      "url": "https://x.com/anthropicai/status/2072106151890809341",
+      "x_status_id": "2072106151890809341"
+    },
+    {
+      "category": "Social",
+      "created_at": "2026-06-30T16:31:34.370095Z",
+      "description": "Introducing Nano Banana 2 Lite 🍌 and Gemini Omni Flash 🔮, our new generative media models in the Gemini API and AI Studio!Nano Banana 2 Lite is extremely fast (<4s image) & cheap ($0.034 / 1K image).Omni Flash is SOTA at video editing at $0.10 / sec, same as Veo 3.1 Fast! pic.twitter.com/qDxRpqpX5E",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k17751nggy543z0mv9y0f5c9nx89m16m",
+      "og_image_url": "https://pbs.twimg.com/media/HMEsoEYaoAAR-sg.jpg",
+      "recommended_at": "2026-07-01T02:32:46.782000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "gemini",
+        "generative-ai",
+        "multimodal"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-01T02:32:46.782000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Logan Kilpatrick (@OfficialLoganK) on X",
+      "url": "https://x.com/OfficialLoganK/status/2071988351083921690",
+      "x_status_id": "2071988351083921690"
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-07-01T05:10:28.265190Z",
+      "article_title_extracted": "- YouTube",
+      "category": "Media",
+      "created_at": "2026-06-30T17:51:36.251270Z",
+      "description": "TechLead • YouTube",
+      "domain": "youtu.be",
+      "embed_type": "youtube",
+      "id": "k17d0vjrmq7rs924ceg21gq01989m7ez",
+      "og_image_url": "https://i.ytimg.com/vi/VZVTjg85JwA/maxresdefault.jpg",
+      "recommended_at": "2026-07-01T02:32:43.830000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "bitcoin",
+        "cryptocurrency",
+        "investing"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-01T02:32:43.830000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Why I Sold All My Bitcoin... it's over.",
+      "url": "https://youtu.be/VZVTjg85JwA?is=vDOKUCJGF6QtFsLW",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://cdn.sanity.io/images/4zrzovbb/website/458ea645ef6b729f6847cba16932716e6b547f2f-2880x1620.png",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F458ea645ef6b729f6847cba16932716e6b547f2f-2880x1620.png&w=3840&q=75",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9941d610909f28a504e16dd5af823df172ec6035-2600x1234.png&w=3840&q=75",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcd0df787f39b6408dcba539fba93f817f2f3c0b4-3840x2160.png&w=3840&q=75",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd5c761e88dc46d7f79990dc2c4ad7a7cbaebdf3b-3840x2160.png&w=3840&q=75",
+        "https://www-cdn.anthropic.com/images/4zrzovbb/website/18f900625532e1baaa3302bdf9539f73592bdf60-164x64.svg",
+        "https://www-cdn.anthropic.com/images/4zrzovbb/website/f343481e6a953bc7b5390e6d9f61cf387c2ceb11-103x64.svg",
+        "https://www-cdn.anthropic.com/images/4zrzovbb/website/40a2a6a28afd8ac8fbf0e764b6bbf4ebf06a1977-133x64.svg",
+        "https://www-cdn.anthropic.com/images/4zrzovbb/website/73b380711885c6beb5270575119dbf31d7f71236-107x64.svg",
+        "https://www-cdn.anthropic.com/images/4zrzovbb/website/0cd3307b18e36ea9146a2fa1cbcb2966c4ccfd36-107x64.svg",
+        "https://www-cdn.anthropic.com/images/4zrzovbb/website/f084c88e65466636019709c40cc477aadce2f718-151x64.svg",
+        "https://www-cdn.anthropic.com/images/4zrzovbb/website/ade72922c1b58726e1b7c17f0e500054e3d74aa0-92x37.svg"
+      ],
+      "article_text": "Introducing Claude Sonnet 5\nClaude Sonnet 5 is built to be the most agentic Sonnet model yet. It can make plans, use tools like browsers and terminals, and run autonomously at a level that, just a few months ago, required larger and more expensive models.\nFor many developers, the agentic AI era began with Sonnet-class models: Claude Sonnet 3.5, 3.6, and 3.7 were the first models that showed impressive skills in coding and tool use. More recently, though, the clearest gains in agentic capabilities have been in our Opus-class models.\nSonnet 5 narrows the gap: its performance is close to that of Opus 4.8, but at lower prices. It’s a substantial improvement over its predecessor, Sonnet 4.6, on important aspects of agentic performance like reasoning, tool use, coding, and knowledge work:\nOur safety assessments found that Sonnet 5 shows an overall lower rate of undesirable behaviors than Sonnet 4.6, and is generally safer to use in agentic contexts. Evaluations also show that it has a much lower ability to perform cybersecurity tasks than our current Opus models.\nFrom today, Claude Sonnet 5 is available across all plans: it is the default model for Free and Pro plans, and is available to Max, Team, and Enterprise users. It’s also available in Claude Code and on the Claude Platform, where it launches with introductory pricing of $2 per million input tokens and $10 per million output tokens through August 31, 2026, after which it will be priced at $3 per million input tokens and $15 per million output tokens. Developers can use claude-sonnet-5 via the [Claude API](https://platform.claude.com/docs/en/about-claude/models/overview).\nWorking with Claude Sonnet 5\nThe charts below compare the performance of Sonnet 5 with Sonnet 4.6 and Opus 4.8 at different [effort](https://platform.claude.com/docs/en/build-with-claude/effort) levels on the agentic search evaluation [BrowseComp](https://arxiv.org/abs/2504.12516) and the computer use evaluation [OSWorld-Verified](https://xlang.ai/blog/osworld-verified). Sonnet 5 (orange line) is a strict improvement over Sonnet 4.6 (gray line) and covers a much wider range of cost-performance options than Opus 4.8 (yellow line). It provides substantially improved cost efficiency at medium effort; its higher-effort performance can match Opus 4.8 on some tasks. Between Sonnet 5 and Opus 4.8, users can adjust the effort level to find the right balance of cost and performance.\nFeedback from our early access partners has been consistent: Sonnet 5 is much more agentic than its predecessors. Testers described how it finishes complex tasks where previous Sonnet models would stop short, how it checks its own output without explicitly being asked, and how it does all this agentic work at an attractive price point:\nClaude Sonnet 5 gives our agents a strong execution layer for multi-step software engineering work. It handles sustained coding, tool use, and debugging well across messy technical contexts, and has been especially useful for workflows where follow-through and technical grounding matter.\nWe handed Claude Sonnet 5 a two-part job—update Salesforce account tiers, send a launch announcement to enterprise contacts—and it finished end to end. That used to stall halfway. For day-to-day automation, it’s a no-brainer.\nClaude Sonnet 5 gets more done with less. Same output quality, fewer steps to get there. It refuses unsafe requests cleanly and consistently, too. At Lovable, we’re putting powerful tools in the hands of millions of builders. A model that knows when to say no is just as important as one that knows how to build.\nWe ran Claude Sonnet 5 against dozens of our most challenging real pull requests, and it carried each one through to a tested, verified result on its own — freeing our engineers to focus on the judgment, the decision, and the final sign-off.\nI asked Claude Sonnet 5 to investigate a bug. Unprompted, it wrote a reproducing test, implemented the fix, then stashed it to confirm the bug came back with",
+      "article_title_extracted": "Introducing Claude Sonnet 5 \\ Anthropic",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-06-30T18:07:02.338322Z",
+      "description": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+      "domain": "www.anthropic.com",
+      "embed_type": "",
+      "id": "k1708gcgh3xtg794q922ygyjj989nsb4",
+      "og_image_url": "https://cdn.sanity.io/images/4zrzovbb/website/458ea645ef6b729f6847cba16932716e6b547f2f-2880x1620.png",
+      "recommended_at": "2026-07-01T02:32:42.229000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "anthropic",
+        "claude-3.5-sonnet",
+        "ai-agents"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-01T02:32:42.229000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Introducing Claude Sonnet 5 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "x_status_id": null
+    },
     {
       "category": "Social",
       "created_at": "2026-06-30T14:42:53.952386Z",
@@ -2180,7 +2317,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-24T04:50:02.736340Z",
+      "article_fetch_attempted_at": "2026-07-01T05:10:28.265190Z",
       "article_image_urls": [
         "https://s3.amazonaws.com/frere-jones-web/font/families/social_images/000/000/083/large/Constrictor_Social_Card.png?1781827982"
       ],
@@ -107903,7 +108040,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2261,
+      "count": 2265,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -107939,5 +108076,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-30T22:03:18.446596Z"
+  "updated_at": "2026-07-01T05:10:48.721059Z"
 }
