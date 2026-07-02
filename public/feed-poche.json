@@ -2149,7 +2149,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-25T11:20:10.127867Z",
+      "article_fetch_attempted_at": "2026-07-02T14:57:27.518291Z",
       "article_image_urls": [
         "https://maxvoltar.com/cover.jpg",
         "https://maxvoltar.com/playground/glass-app-icons.png",
@@ -2158,11 +2158,11 @@
         "https://maxvoltar.com/playground/figma/screentime-mosf.png",
         "https://maxvoltar.com/playground/pin-mvkb.gif",
         "https://maxvoltar.com/playground/figma/figmentos.jpeg",
+        "https://maxvoltar.com/playground/figma/motion-hat.png",
         "https://maxvoltar.com/playground/figma/quality-summit.png",
         "https://maxvoltar.com/playground/figma/screentime-cheddar.png",
         "https://maxvoltar.com/playground/pinjour/pinjour-logo.png",
-        "https://maxvoltar.com/playground/mvkb/command-shelf.jpg",
-        "https://maxvoltar.com/playground/mvkb/type-true-jacket.png"
+        "https://maxvoltar.com/playground/mvkb/command-shelf.jpg"
       ],
       "article_title_extracted": "Max Voltar • The non-work.",
       "category": "Design",
@@ -2197,7 +2197,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-25T11:20:10.127867Z",
+      "article_fetch_attempted_at": "2026-07-02T14:57:27.518291Z",
       "article_image_urls": [
         "https://murmur.living/public/og.png",
         "https://www.murmur.living/public/icons/logo.svg",
@@ -2280,7 +2280,7 @@
       "x_status_id": "2069497198879048131"
     },
     {
-      "article_fetch_attempted_at": "2026-06-25T11:20:10.127867Z",
+      "article_fetch_attempted_at": "2026-07-02T14:57:27.518291Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/uGivG0qIngJ897blSKXGPKtbC0.png",
         "https://framerusercontent.com/images/9NoRxKSAVBh8rF51tUT3oDF7k.svg?lossless=1&width=216&height=68",
@@ -2321,7 +2321,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-25T11:20:10.127867Z",
+      "article_fetch_attempted_at": "2026-07-02T14:57:27.518291Z",
       "article_image_urls": [
         "https://www.mintlify.com/_next/static/media/og.28576e75.png",
         "https://www.mintlify.com/images/docs-preview/preview-light.svg",
@@ -2372,7 +2372,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-25T11:20:10.127867Z",
+      "article_fetch_attempted_at": "2026-07-02T14:57:27.518291Z",
       "article_image_urls": [
         "https://astryx.atmeta.com/neutral/preview-watch.png",
         "https://astryx.atmeta.com/neutral/preview-headphones.png",
@@ -2383,9 +2383,9 @@
         "https://lookaside.facebook.com/assets/astryx/Butter-Waffle.png",
         "https://lookaside.facebook.com/assets/astryx/Butter-Toast.png",
         "https://lookaside.facebook.com/assets/astryx/Butter-Stick.png",
-        "https://astryx.atmeta.com/discover-card-1.png",
-        "https://astryx.atmeta.com/discover-card-3.png",
-        "https://astryx.atmeta.com/discover-card-2.png"
+        "https://astryx.atmeta.com/blog/how-astryx-works/cover.png",
+        "https://github.com/cvkxx.png",
+        "https://github.com/cixzhang.png"
       ],
       "article_title_extracted": "Astryx Design System",
       "category": "Design",
@@ -4339,7 +4339,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-25T11:20:10.127867Z",
+      "article_fetch_attempted_at": "2026-07-02T14:57:27.518291Z",
       "article_fetch_error": "HTTP Error 403: Forbidden",
       "category": "Tools",
       "created_at": "2026-06-18T03:52:29.427525Z",
@@ -4456,20 +4456,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-25T11:20:10.127867Z",
+      "article_fetch_attempted_at": "2026-07-02T14:57:27.518291Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a267ba46c9323bf936b381c_c78e993f23174a62b521e6c4f939c55b_open-graph%20%284%29.avif",
         "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a306ae79b1ce1b28e27e16b_taste_Logo.png",
-        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a1d777ccb930df5affd3cd5_Vector%20(2).svg",
-        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a1d777cd6e37fcf1100fafc_Group%201000007831.svg",
-        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a1d777ccb930df5affd3cdb_Vector%20(3).svg",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a4636bb8a1cc7d7c60a4a14_btn_icon_2.svg",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a4636bba2a554599fb5249b_btn_icon_1.svg",
         "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a292456778cdc9244f8d0c1_5f3499b658ebd37d1ea72444be37c33c_Group%201000007827%20%281%29.png",
-        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad3b5a6cec15d4add9949_Mask%20group-14.png",
-        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad3ac898aae7fc84a1ce1_Mask%20group-13.png",
-        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad44b73d7c53e1823ca55_Mask%20group-22.png",
-        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad50c8da3cacca816ed9f_Mask%20group-38.png",
-        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad3a16ae746e793516dd4_Mask%20group-12.png",
-        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad485f339f0272f22e5cd_Mask%20group-27.png"
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a1d777ccb930df5affd3cd5_Vector%20(2).svg",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a1d777ccb930df5affd3cdb_Vector%20(3).svg",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a43680cb4d672465c466d60_6a2ad3b5a6cec15d4add9949_Mask%20group-14.png",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a43680cdcd2ee0fa7a627b8_6a2ad3665077d91a61a2bc00_Mask%20group-6.png",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a43680c97ec07bb7febfa23_6a2ad35d1ab5ae226a7fb81c_Mask%20group-5.png",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a2bdeff88829c3cbf4cf405_Mask%20group-3.png",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a2bdeffdda9d7b4b3a757e8_Mask%20group-12.png"
       ],
       "article_title_extracted": "Taste Labs - The taste layer for AI",
       "category": "Development",
@@ -7155,7 +7155,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-25T11:20:10.127867Z",
+      "article_fetch_attempted_at": "2026-07-02T14:57:27.518291Z",
       "article_image_urls": [
         "https://thinkingmachines.ai/images/home.png"
       ],
@@ -14056,7 +14056,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-25T11:20:10.127867Z",
+      "article_fetch_attempted_at": "2026-07-02T14:57:27.518291Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/699448c859a757ef12016607_Open%20Graph.webp",
         "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/6979e08d7860cf804ace6db7_logo-mark-cernel.svg",
@@ -14108,7 +14108,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-25T11:20:10.127867Z",
+      "article_fetch_attempted_at": "2026-07-02T14:57:27.518291Z",
       "article_image_urls": [
         "https://column.com/images/social/column-og.png",
         "https://column.com/images/index/case-studies/bg-brex.png",
@@ -108667,5 +108667,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-07-02T11:17:07.008592Z"
+  "updated_at": "2026-07-02T14:57:33.767923Z"
 }
