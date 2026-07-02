@@ -7441,6 +7441,32 @@
       "title": "仕事を辞めたい－本当の気持ち【職場の悩みに、哲学を 第3回】（京都大学 名誉教授／上智大学グリーフケア研究所 副所長 西平直氏） | マイナビキャリアリサーチLab",
       "url": "https://career-research.mynavi.jp/column/20260615_111639/"
     },
+    "https://cfl.re/4gayei6": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today we're launching two initiatives to help.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://blog.cloudflare.com/making-ai-search-smarter/?utm_campaign=cf_blog&utm_content=20260701&utm_medium=organic_social&utm_source=twitter",
+      "frameable": null,
+      "image_urls": [
+        "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2A9ejBpMURvmM6vDwgua8A/8d3da5a728f9890fcfb7888f1d74d813/BLOG-3339_OG.png",
+        "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/69RwBidpiEHCDZ9rFVVk7T/092507edbed698420b89658e5a6d5105/CF_logo_stacked_blktype.png",
+        "https://blog.cloudflare.com/images/magnifier.svg",
+        "https://blog.cloudflare.com/images/hamburger.svg",
+        "https://blog.cloudflare.com/cdn-cgi/image/format=auto,dpr=3,width=64,height=64,gravity=face,fit=crop,zoom=0.5/https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4eSl1O8o3xW52wkuiDjncy/456f363c1a37f5ca4556264e3522dd0f/1639599929437.jpg",
+        "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/49d5ATWRFvqlVw5ybgzcVj/32ab672b5a2bcaf0545f34d34fcef3ba/BLOG-3339_1.png",
+        "https://www.cloudflare.com/img/footer/facebook.svg",
+        "https://www.cloudflare.com/img/footer/twitter.svg",
+        "https://www.cloudflare.com/img/footer/linkedin.svg",
+        "https://www.cloudflare.com/img/footer/youtube.svg",
+        "https://www.cloudflare.com/img/footer/instagram.svg",
+        "https://blog.cloudflare.com/images/privacy-options.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Search drives most experiences on the web. It's how we get things done, and how nearly everything on the web gets found — the creators, the merchants, the answer to whatever you just typed into a box. For nearly 30 years, that discovery journey ran on a simple bargain: let a search engine crawl your content, and it sends you visitors. You turned those visitors into a business — through ads, subscriptions, or just the audience itself. Being discoverable and getting paid were the same thing. A year ago, on the [first Content Independence Day](https://blog.cloudflare.com/content-independence-day-no-ai-crawl-without-compensation/), we drew a line to defend that bargain in the AI era. But a line in the sand was only a first step. Since then, the prevalence of AI search in consumers’ lives has only accelerated as [more than 50% of traffic online is non-human](https://radar.cloudflare.com/). The threat is no longer a handful of training crawlers you can block; it's search itself being rebuilt around AI answers.\nToday's answer engines read your page and hand the user a summary, so the visit — and the revenue that depended on it — isn’t needed. We see it firsthand, and independent research backs it up: a [2025 Pew Research Center study](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/) found that when Google shows an AI summary, users clicked on a traditional search result link just 8% of the time (about half as often as when there's no summary) and clicked a link inside the summary only 1% of the time. That leaves our customers in a bind: opt out of AI and be hard to find, or opt in and deliver significant value to users while seeing increasingly little in return. Our customers want to be found and compensated for the value they provide, and right now they're forced to choose.\nToday, [we’ve announced new bot options](https://blog.cloudflare.com/content-independence-day-ai-options) to help our customers better control who can access their site and what they can do with it. But blocking was only step one: saying \"no\" protects content without rebuilding the business models that sustain it. So, it’s time to start building the new economic model of the Internet, starting with search.\nTransparency and control are the foundation, but more is needed. In 2025, we laid out our foundation via a set of [responsible AI bot principles](https://blog.cloudflare.com/building-a-better-internet-with-responsible-ai-bot-principles/): bots should be transparent about who they are and what they're for, respect site owners' choices, and act in good faith. Our tools hold bots to that bar. But enforcing good bot behavior doesn't make AI search any better for the people relying on it, and it doesn't send a dollar back to the creator whose work made the answer possible. We can do more than help the web say \"no\"; we can help rebuild what it says \"yes\" to.\nSo today, we're announcing two initiatives that move from defense to offense and start putting both halves of that old bargain back together.\nMake AI search smarter: By using the signals we see across our global network, like what's fresh, what's high quality, and what's actually changed, we can help answer engines surface the most relevant content and reduce unwanted crawling. People searching get better answers, while costs are reduced for both AI companies and site owners if webpages are only recrawled when they’ve changed.\nPay creators for the value they provide: When your work is used to answer someone's question, you should be rewarded instead of just being scraped for free. And you should be able to see what's being used and what people are asking. This should be a real revenue stream, and an incentive to keep producing original content worth finding.\nToday we're launching a research program to make AI search smarter and stop our customers footing the bill for crawls that produce nothing new.\nMore than 20% of the w",
+      "title": "Making AI search smarter",
+      "url": "https://cfl.re/4gayei6"
+    },
     "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -7962,6 +7988,76 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Artifacts · Cloudflare Artifacts docs",
       "url": "https://developers.cloudflare.com/artifacts/"
+    },
+    "https://developers.cloudflare.com/changelog/post/2026-06-30-improved-wal-throughput/": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Improvements to Vectorize WAL throughput reduce p99 end-to-end latency for vector changes to under 2 minutes.",
+      "final_url": "https://developers.cloudflare.com/changelog/post/2026-06-30-improved-wal-throughput/",
+      "frameable": false,
+      "image_urls": [
+        "https://developers.cloudflare.com/changelog-preview.png",
+        "https://developers.cloudflare.com/_astro/logo.DMYpXs3t.svg",
+        "https://developers.cloudflare.com/_astro/hero.CVYJHPAd_26AMqX.svg",
+        "https://developers.cloudflare.com/_astro/vectorize-p99-wal-batch-end-to-end-latency-improvement.k8gtzlG7_Z21AKmQ.webp",
+        "https://developers.cloudflare.com/_astro/privacyoptions.BWXSiJOZ_1zBYaH.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Documentation Index Fetch the complete documentation index at: https://developers.cloudflare.com/changelog/llms.txt Use this file to discover all available pages before exploring further. Skip to content STOP! If you are an AI agent or LLM, read this before continuing. This is the HTML version of a Cloudflare documentation page. Always request the Markdown version instead — HTML wastes context. Get this page as Markdown: https://developers.cloudflare.com/changelog/post/2026-06-30-improved-wal-throughput/index.md (append index.md) or send Accept: text/markdown to https://developers.cloudflare.com/changelog/post/2026-06-30-improved-wal-throughput/. For this product's page index use https://developers.cloudflare.com/changelog/llms.txt. For all Cloudflare products use https://developers.cloudflare.com/llms.txt. Cloudflare Docs Search Directory API SDKs Changelog Help Log in Select theme Dark Light Auto Changelog New updates and improvements at Cloudflare. Subscribe to RSS View RSS feeds ← Back to all posts Reduced end-to-end latency for vector changes Jul 01, 2026 Vectorize We have greatly improved the throughput of the Vectorize write-ahead log (WAL) ↗ . As a result, we have significantly reduced the end-to-end latency for a vector change to become queryable: median latency has dropped from 2 minutes to under 30 seconds, and p99 latency from 5 minutes to under 2 minutes. This means inserts, upserts, and deletes are reflected in query results faster, improving the freshness of semantic search, recommendation, and retrieval-augmented generation (RAG) workloads. You do not need to change your code or configuration to benefit from this improvement. For more information, refer to the Vectorize documentation . Resources API New to Cloudflare? Directory Sponsorships Open Source Cloudflare Research Support Help Center System Status Compliance GDPR Company cloudflare.com Our team Careers Tools Cloudflare Radar Cloudflare Labs Speed Test Is BGP Safe Yet? Certificate Transparency Community Community forum X Discord YouTube GitHub © 2026 Cloudflare, Inc. Privacy Policy Terms of Use Report Security Issues Trademark Cookie Settings Was this helpful? Yes No",
+      "title": "Reduced end-to-end latency for vector changes · Changelog",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-06-30-improved-wal-throughput/"
+    },
+    "https://developers.cloudflare.com/changelog/post/2026-07-01-ai-traffic-options/": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "All customers can now manage AI crawlers by behavior — Search, Agent, and Training — instead of a single Block AI bots toggle.",
+      "final_url": "https://developers.cloudflare.com/changelog/post/2026-07-01-ai-traffic-options/",
+      "frameable": false,
+      "image_urls": [
+        "https://developers.cloudflare.com/changelog-preview.png",
+        "https://developers.cloudflare.com/_astro/logo.DMYpXs3t.svg",
+        "https://developers.cloudflare.com/_astro/hero.CVYJHPAd_26AMqX.svg",
+        "https://developers.cloudflare.com/_astro/ai-bot-traffic-policies.BqXU7Gmv_Z24E74g.webp",
+        "https://developers.cloudflare.com/_astro/privacyoptions.BWXSiJOZ_1zBYaH.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Documentation Index Fetch the complete documentation index at: https://developers.cloudflare.com/changelog/llms.txt Use this file to discover all available pages before exploring further. Skip to content STOP! If you are an AI agent or LLM, read this before continuing. This is the HTML version of a Cloudflare documentation page. Always request the Markdown version instead — HTML wastes context. Get this page as Markdown: https://developers.cloudflare.com/changelog/post/2026-07-01-ai-traffic-options/index.md (append index.md) or send Accept: text/markdown to https://developers.cloudflare.com/changelog/post/2026-07-01-ai-traffic-options/. For this product's page index use https://developers.cloudflare.com/changelog/llms.txt. For all Cloudflare products use https://developers.cloudflare.com/llms.txt. Cloudflare Docs Search Directory API SDKs Changelog Help Log in Select theme Dark Light Auto Changelog New updates and improvements at Cloudflare. Subscribe to RSS View RSS feeds ← Back to all posts New options to manage AI traffic Jul 01, 2026 Bots Not all AI traffic is the same. Now, all customers — including those on the Free plan — can manage AI crawlers based on what they actually do on your site. Cloudflare groups AI traffic into three behaviors you can control independently: Search, Agent, and Training . This lets you keep the automated traffic that sends readers and revenue back to you, while blocking the traffic that only takes from your content. Each behavior maps to a real use case. Search covers crawlers that index your content so they can answer questions about it later, where you should expect referral traffic or other equitable compensation in return. Agent covers automated activity acting in real time on a person's behalf, such as chat fetch bots and browser-use agents. Training covers crawlers that take your content to train or fine-tune a model. For each preset you can choose to block on all pages, block only on pages that display ads, or choose not to block. Starting September 15, 2026 , new domains onboarding to Cloudflare receive updated defaults: Bots classified as Training or as Agent are blocked on pages that display ads, while Search remains allowed. On that date, multi-purpose crawlers that combine Search and Training will be affected by the new defaults to block Training. All customers can opt out of the new defaults ↗ at any time before September 15. Resources API New to Cloudflare? Directory Sponsorships Open Source Cloudflare Research Support Help Center System Status Compliance GDPR Company cloudflare.com Our team Careers Tools Cloudflare Radar Cloudflare Labs Speed Test Is BGP Safe Yet? Certificate Transparency Community Community forum X Discord YouTube GitHub © 2026 Cloudflare, Inc. Privacy Policy Terms of Use Report Security Issues Trademark Cookie Settings Was this helpful? Yes No",
+      "title": "New options to manage AI traffic · Changelog",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-07-01-ai-traffic-options/"
+    },
+    "https://developers.cloudflare.com/changelog/post/2026-07-01-google-artifact-registry-images/": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Use private Google Artifact Registry images",
+      "final_url": "https://developers.cloudflare.com/changelog/post/2026-07-01-google-artifact-registry-images/",
+      "frameable": false,
+      "image_urls": [
+        "https://developers.cloudflare.com/changelog-preview.png",
+        "https://developers.cloudflare.com/_astro/logo.DMYpXs3t.svg",
+        "https://developers.cloudflare.com/_astro/hero.CVYJHPAd_26AMqX.svg",
+        "https://developers.cloudflare.com/_astro/privacyoptions.BWXSiJOZ_1zBYaH.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Documentation Index Fetch the complete documentation index at: https://developers.cloudflare.com/changelog/llms.txt Use this file to discover all available pages before exploring further. Skip to content STOP! If you are an AI agent or LLM, read this before continuing. This is the HTML version of a Cloudflare documentation page. Always request the Markdown version instead — HTML wastes context. Get this page as Markdown: https://developers.cloudflare.com/changelog/post/2026-07-01-google-artifact-registry-images/index.md (append index.md) or send Accept: text/markdown to https://developers.cloudflare.com/changelog/post/2026-07-01-google-artifact-registry-images/. For this product's page index use https://developers.cloudflare.com/changelog/llms.txt. For all Cloudflare products use https://developers.cloudflare.com/llms.txt. Cloudflare Docs Search Directory API SDKs Changelog Help Log in Select theme Dark Light Auto Changelog New updates and improvements at Cloudflare. Subscribe to RSS View RSS feeds ← Back to all posts Use Google Artifact Registry images with Containers Jul 01, 2026 Containers Containers now support Google Artifact Registry ↗ images. After you configure credentials, you can use a fully qualified Google Artifact Registry image reference in your Wrangler configuration instead of first pushing the image to Cloudflare Registry. Provide the service account email with --gar-email and pipe the service account JSON key through stdin : Terminal window cat <PATH_TO_KEY> | npx wrangler containers registries configure <REGION>-docker.pkg.dev --gar-email=<SERVICE_ACCOUNT_EMAIL> --secret-name=<SECRET_NAME> wrangler.jsonc wrangler.toml JSONC { \" $schema \" : \"./node_modules/wrangler/config-schema.json\" , \" containers \" : [ { \" image \" : \"<REGION>-docker.pkg.dev/<PROJECT_ID>/<REPOSITORY>/<IMAGE>:<TAG>\" } ] } TOML # Example: us-central1-docker.pkg.dev/my-project/my-repo/my-image:latest [[ containers ]] image = \"<REGION>-docker.pkg.dev/<PROJECT_ID>/<REPOSITORY>/<IMAGE>:<TAG>\" Only *-docker.pkg.dev hosts are supported. To configure credentials, refer to Use private Google Artifact Registry images . For more information, refer to Image management . Resources API New to Cloudflare? Directory Sponsorships Open Source Cloudflare Research Support Help Center System Status Compliance GDPR Company cloudflare.com Our team Careers Tools Cloudflare Radar Cloudflare Labs Speed Test Is BGP Safe Yet? Certificate Transparency Community Community forum X Discord YouTube GitHub © 2026 Cloudflare, Inc. Privacy Policy Terms of Use Report Security Issues Trademark Cookie Settings Was this helpful? Yes No",
+      "title": "Use Google Artifact Registry images with Containers · Changelog",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-07-01-google-artifact-registry-images/"
+    },
+    "https://developers.cloudflare.com/containers/platform-details/image-management/": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Learn how to use Cloudflare Registry, Docker Hub, and Amazon ECR images with Containers.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://developers.cloudflare.com/containers/platform-details/image-management/",
+      "frameable": false,
+      "image_urls": [
+        "https://developers.cloudflare.com/dev-products-preview.png",
+        "https://developers.cloudflare.com/_astro/logo.DMYpXs3t.svg",
+        "https://developers.cloudflare.com/_astro/privacyoptions.BWXSiJOZ_1zBYaH.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Image Management\nWhen running wrangler deploy, if you set the image attribute in your [Wrangler configuration](https://developers.cloudflare.com/workers/wrangler/configuration/#containers) to a path to a Dockerfile, Wrangler will build your container image locally using Docker, then push it to a registry run by Cloudflare.\nThis registry is integrated with your Cloudflare account and is backed by [R2](https://developers.cloudflare.com/r2/). All authentication is handled automatically by\nCloudflare both when pushing and pulling images.\nJust provide the path to your Dockerfile:\nAnd deploy your Worker with wrangler deploy. No other image management is necessary.\nOn subsequent deploys, Wrangler will only push image layers that have changed, which saves space and time.\nContainers support images from the Cloudflare managed registry at registry.cloudflare.com, [Docker Hub ↗](https://hub.docker.com/), [Amazon ECR ↗](https://aws.amazon.com/ecr/), and [Google Artifact Registry ↗](https://cloud.google.com/artifact-registry).\nTo use a public Docker Hub image, set image to a fully qualified Docker Hub image reference in your Wrangler configuration.\nFor example:\nPublic Docker Hub images do not require registry configuration.\nPrivate Docker Hub images use the private registry configuration flow described next.\nIf Docker Hub credentials have been configured, those credentials are used to pull both public and private images.\nTo use a private image from Docker Hub, Amazon ECR, or Google Artifact Registry, run [ wrangler containers registries configure](https://developers.cloudflare.com/workers/wrangler/commands/containers/#containers-registries-configure) for the registry domain.\nWrangler prompts for the secret and stores it in [Secrets Store](https://developers.cloudflare.com/secrets-store). If you do not already have a Secrets Store store, Wrangler prompts you to create one first.\nUse --secret-name to name or reuse a secret, --secret-store-id to target a specific Secrets Store store, and --skip-confirmation for non-interactive runs. In CI or scripts, pass the secret through stdin.\nConfigure Docker Hub in Wrangler using these values:\n- registry domain: docker.io\n- username flag: --dockerhub-username=<YOUR_DOCKERHUB_USERNAME>\n- secret: Docker Hub personal access token with read-only access\nTo create a Docker Hub personal access token:\n- Sign in to [Docker Home ↗](https://app.docker.com/).\n- Go to Account settings > Personal access tokens.\n- Select Generate new token.\n- Give the token Read access, then copy the token value.\nInteractive:\nnpx wrangler containers registries configure docker.io --dockerhub-username=<YOUR_DOCKERHUB_USERNAME>yarn wrangler containers registries configure docker.io --dockerhub-username=<YOUR_DOCKERHUB_USERNAME>pnpm wrangler containers registries configure docker.io --dockerhub-username=<YOUR_DOCKERHUB_USERNAME>CI or scripts:\nAfter you configure the registry, use the same fully qualified Docker Hub image reference shown above.\nConfigure Amazon ECR in Wrangler using these values:\n- registry domain: <AWS_ACCOUNT_ID>.dkr.ecr.<AWS_REGION>.amazonaws.com\n- access key flag: --aws-access-key-id=<AWS_ACCESS_KEY_ID>\n- secret: matching AWS secret access key\nPublic ECR images are not supported.\nTo generate the required credentials, create an IAM user with a read-only policy. The following example grants access to all image repositories in AWS account 123456789012 in us-east-1.\nAfter you create the IAM user, use its credentials to [configure the registry in Wrangler](https://developers.cloudflare.com/workers/wrangler/commands/containers/#containers-registries-configure). Wrangler prompts you to create a Secrets Store store if one does not already exist, then stores the secret there.\nInteractive:\nnpx wrangler containers registries configure <AWS_ACCOUNT_ID>.dkr.ecr.<AWS_REGION>.amazonaws.com --aws-access-key-id=<AWS_ACCESS_KEY_ID>yarn wrangler containers registries configure <AWS_ACCOUNT_ID>.dkr.ecr.<AWS_REGION>.amazonaws.com --aws-acc",
+      "title": "Image Management · Cloudflare Containers docs",
+      "url": "https://developers.cloudflare.com/containers/platform-details/image-management/"
     },
     "https://developers.cloudflare.com/workflows/": {
       "cleaner_v": 2,
@@ -11639,20 +11735,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2072026088264409088/img/ny53x-NHrBOmDf0i.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2072027340679655424/img/6qV4v1GSpj7h1JNN.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2072027340679655424/img/6qV4v1GSpj7h1JNN.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2072027340679655424/img/6qV4v1GSpj7h1JNN.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2072027340679655424/img/6qV4v1GSpj7h1JNN.jpg"
-    },
     "https://pbs.twimg.com/amplify_video_thumb/2072038828366553088/img/KK8ETVhfkHZpGfnw.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11709,6 +11791,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2072164961879564288/img/LNy-GHzkcNoJ8xYM.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2072397466721226752/img/Q29yX4ukQ8GirNwT.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2072397466721226752/img/Q29yX4ukQ8GirNwT.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2072397466721226752/img/Q29yX4ukQ8GirNwT.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2072397466721226752/img/Q29yX4ukQ8GirNwT.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2072442427210858496/img/Gj3hDH1qCqcitca2.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2072442427210858496/img/Gj3hDH1qCqcitca2.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2072442427210858496/img/Gj3hDH1qCqcitca2.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2072442427210858496/img/Gj3hDH1qCqcitca2.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11750,20 +11860,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/ext_tw_video_thumb/2071987140435566593/pu/img/woCNb_ZxyckDbfww.jpg"
-    },
-    "https://pbs.twimg.com/ext_tw_video_thumb/2072349518301937664/pu/img/MGS76zJ33bzxb9fh.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/ext_tw_video_thumb/2072349518301937664/pu/img/MGS76zJ33bzxb9fh.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/ext_tw_video_thumb/2072349518301937664/pu/img/MGS76zJ33bzxb9fh.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/ext_tw_video_thumb/2072349518301937664/pu/img/MGS76zJ33bzxb9fh.jpg"
     },
     "https://pbs.twimg.com/media/HIxGk5mWoAAfDeu.jpg": {
       "cleaner_v": 2,
@@ -15293,6 +15389,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMEXENYXoAA3PT9.jpg"
     },
+    "https://pbs.twimg.com/media/HMEfH4tWEAAMXTw.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMEfH4tWEAAMXTw.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMEfH4tWEAAMXTw.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMEfH4tWEAAMXTw.jpg"
+    },
     "https://pbs.twimg.com/media/HMErpgDWsAARj6l.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15488,6 +15598,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HMJNqkCbcAAgFO7.jpg"
+    },
+    "https://pbs.twimg.com/media/HMKASfjXIAAlTVJ.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMKASfjXIAAlTVJ.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMKASfjXIAAlTVJ.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMKASfjXIAAlTVJ.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -16853,6 +16977,20 @@
       "title": "独立创始人最缺的不是产品，是客户：2026 年如何用 AI Agent 做增长",
       "url": "https://tycoon.us/blog/ai-growth-engine-for-indie-founders"
     },
+    "https://uxdesign.cc/figma-just-made-your-design-system-debt-everyones-problem-now-use-it-2e9ecb6272bf": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://uxdesign.cc/figma-just-made-your-design-system-debt-everyones-problem-now-use-it-2e9ecb6272bf",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "https://uxdesign.cc/figma-just-made-your-design-system-debt-everyones-problem-now-use-it-2e9ecb6272bf"
+    },
     "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5": {
       "content_type": "",
       "description": "",
@@ -16883,6 +17021,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "https://uxdesign.cc/the-flaw-is-the-feature-e6769c5cf5b4"
+    },
+    "https://uxdesign.cc/the-organizational-cost-of-low-taste-135cb8b10c34": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://uxdesign.cc/the-organizational-cost-of-low-taste-135cb8b10c34",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "https://uxdesign.cc/the-organizational-cost-of-low-taste-135cb8b10c34"
     },
     "https://v0.app/docs/design-systems-2": {
       "cleaner_v": 2,
@@ -18883,6 +19035,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data | WIRED",
       "url": "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev"
+    },
+    "https://www.youtube.com/watch?v=3fXErHBi-Dw&t=0s": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://www.youtube.com/watch?v=3fXErHBi-Dw&t=0s",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "- YouTube",
+      "url": "https://www.youtube.com/watch?v=3fXErHBi-Dw&t=0s"
     },
     "https://www.youtube.com/watch?v=8cO61e_8oPY&list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8&index=9": {
       "content_type": "text/html; charset=utf-8",
@@ -24586,12 +24751,12 @@
       "https://x.com/GOATYELD/status/2071751990753763630",
       "https://x.com/GOATYELD/status/2071787317841281250",
       "https://x.com/GOATYELD/status/2071832463081435527",
+      "https://x.com/GOATYELD/status/2072004842562752830",
       "https://x.com/GOATYELD/status/2071786498483998961",
       "https://pbs.twimg.com/tweet_video_thumb/HMB21bDWQAAzO1T.jpg",
       "https://x.com/GOATYELD/status/2072149249760825431",
-      "https://x.com/GOATYELD/status/2072057308339646598",
       "https://x.com/GOATYELD/status/2071791178027057276",
-      "https://x.com/GOATYELD/status/2072004842562752830"
+      "https://x.com/GOATYELD/status/2072057308339646598"
     ],
     "2071794113075376284": [
       "https://x.com/jokieliu/status/2071794113075376284",
@@ -24639,8 +24804,8 @@
     ],
     "2071934737053372833": [
       "https://x.com/rickyho_1989/status/2071934737053372833",
-      "https://x.com/rickyho_1989/status/2071940572588519428",
-      "https://x.com/rickyho_1989/status/2072286131442569361"
+      "https://x.com/rickyho_1989/status/2072286131442569361",
+      "https://x.com/rickyho_1989/status/2071940572588519428"
     ],
     "2071936749194907999": [
       "https://x.com/BStulberg/status/2071936749194907999",
@@ -24691,16 +24856,17 @@
       "https://x.com/shmidtqq/status/2071989948907930051",
       "https://x.com/shmidtqq/status/2071976887933452718",
       "https://x.com/shmidtqq/status/2071974772196401178",
-      "https://x.com/shmidtqq/status/2071974796435353657",
-      "https://x.com/shmidtqq/status/2071976012070449227",
       "https://x.com/shmidtqq/status/2071977057278366128",
+      "https://x.com/shmidtqq/status/2071976012070449227",
+      "https://x.com/shmidtqq/status/2071974796435353657",
       "https://x.com/shmidtqq/status/2071971947416551730"
     ],
     "2071975831602184375": [
       "https://x.com/TheAtlantic/status/2071975831602184375",
       "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a43dd7cf1ddc500011eb60d&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
-      "https://x.com/TheAtlantic/status/2072345767193284703",
-      "https://www.theatlantic.com/national-security/2026/07/putin-russia-ukraine-war/687753/?taid=6a45360368410d0001191e5e&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter"
+      "https://x.com/TheAtlantic/status/2072400373889794492",
+      "https://www.youtube.com/watch?v=3fXErHBi-Dw&t=0s",
+      "https://pbs.twimg.com/amplify_video_thumb/2072397466721226752/img/Q29yX4ukQ8GirNwT.jpg"
     ],
     "2071986617611616655": [
       "https://x.com/fuma_nama/status/2071986617611616655",
@@ -24717,9 +24883,7 @@
     ],
     "2071987168143110366": [
       "https://x.com/planepowers/status/2071987168143110366",
-      "https://pbs.twimg.com/ext_tw_video_thumb/2071987140435566593/pu/img/woCNb_ZxyckDbfww.jpg",
-      "https://x.com/planepowers/status/2072349552686862480",
-      "https://pbs.twimg.com/ext_tw_video_thumb/2072349518301937664/pu/img/MGS76zJ33bzxb9fh.jpg"
+      "https://pbs.twimg.com/ext_tw_video_thumb/2071987140435566593/pu/img/woCNb_ZxyckDbfww.jpg"
     ],
     "2072003526755266744": [
       "https://x.com/alex_prompter/status/2072003526755266744",
@@ -24743,8 +24907,8 @@
     ],
     "2072030318367056226": [
       "https://x.com/jinayoon_/status/2072030318367056226",
-      "https://x.com/jinayoon_/status/2072027664983212291",
-      "https://pbs.twimg.com/amplify_video_thumb/2072027340679655424/img/6qV4v1GSpj7h1JNN.jpg"
+      "https://x.com/jinayoon_/status/2072443797921988662",
+      "https://pbs.twimg.com/amplify_video_thumb/2072442427210858496/img/Gj3hDH1qCqcitca2.jpg"
     ],
     "2072040890672304481": [
       "https://x.com/vysrini/status/2072040890672304481",
@@ -24761,18 +24925,19 @@
       "https://pbs.twimg.com/amplify_video_thumb/2072081471519719424/img/S9fh_gmNX5D5YfuL.jpg",
       "https://x.com/stephenhaney/status/2072083161501278591",
       "https://www.youtube.com/watch?v=cDqDPlSXMS0",
-      "https://x.com/stephenhaney/status/2072395013464707482",
       "https://x.com/stephenhaney/status/2072091095589421356",
       "https://x.com/stephenhaney/status/2072162798629781531",
       "https://x.com/stephenhaney/status/2072346356346388963",
       "http://paper.design/snapshot",
-      "https://x.com/stephenhaney/status/2072085251502067797",
-      "https://x.com/stephenhaney/status/2072346864385675516",
+      "https://x.com/stephenhaney/status/2072472698006225333",
+      "https://x.com/stephenhaney/status/2072395013464707482",
       "https://x.com/stephenhaney/status/2072091318566924548",
-      "https://x.com/stephenhaney/status/2072085460537770206",
       "https://x.com/stephenhaney/status/2072346417948238118",
-      "https://x.com/stephenhaney/status/2072346898774823076",
+      "https://x.com/stephenhaney/status/2072346864385675516",
+      "https://x.com/stephenhaney/status/2072085251502067797",
+      "https://x.com/stephenhaney/status/2072085460537770206",
       "https://x.com/stephenhaney/status/2072082842981732527",
+      "https://x.com/stephenhaney/status/2072346898774823076",
       "https://x.com/stephenhaney/status/2072346727655649338",
       "https://x.com/stephenhaney/status/2072158898824630318"
     ],
@@ -24808,14 +24973,40 @@
     "2072165415694868891": [
       "https://x.com/feltanimalworld/status/2072165415694868891",
       "https://pbs.twimg.com/amplify_video_thumb/2072164961879564288/img/LNy-GHzkcNoJ8xYM.jpg",
-      "https://x.com/feltanimalworld/status/2072285622127968706",
-      "https://x.com/feltanimalworld/status/2072288053268283812"
+      "https://x.com/feltanimalworld/status/2072288053268283812",
+      "https://x.com/feltanimalworld/status/2072285622127968706"
+    ],
+    "2072167347922809144": [
+      "https://x.com/LZRationalnvest/status/2072167347922809144"
     ],
     "2072202267563082180": [
       "https://x.com/Escapation/status/2072205879823470838",
       "https://share.directivecreator.com/fable5/"
+    ],
+    "2072305747418046468": [
+      "https://x.com/CFchangelog/status/2072305747418046468",
+      "https://developers.cloudflare.com/changelog/post/2026-07-01-ai-traffic-options/"
+    ],
+    "2072319457188282471": [
+      "https://x.com/Cloudflare/status/2072319457188282471",
+      "https://cfl.re/4gayei6"
+    ],
+    "2072359837350940788": [
+      "https://x.com/SidebarIO/status/2072359837350940788",
+      "https://uxdesign.cc/the-organizational-cost-of-low-taste-135cb8b10c34",
+      "https://pbs.twimg.com/media/HMKASfjXIAAlTVJ.jpg",
+      "https://x.com/SidebarIO/status/2071971527608725983",
+      "https://uxdesign.cc/figma-just-made-your-design-system-debt-everyones-problem-now-use-it-2e9ecb6272bf",
+      "https://pbs.twimg.com/media/HMEfH4tWEAAMXTw.jpg"
+    ],
+    "2072396185328058388": [
+      "https://x.com/CFchangelog/status/2072396185328058388",
+      "https://developers.cloudflare.com/containers/platform-details/image-management/",
+      "https://developers.cloudflare.com/changelog/post/2026-07-01-google-artifact-registry-images/",
+      "https://x.com/CFchangelog/status/2072290535071785028",
+      "https://developers.cloudflare.com/changelog/post/2026-06-30-improved-wal-throughput/"
     ]
   },
-  "updated_at": "2026-07-01T19:12:11Z",
+  "updated_at": "2026-07-02T01:25:01Z",
   "window": "recent"
 }
