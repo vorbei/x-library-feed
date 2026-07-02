@@ -5,11 +5,11 @@
       "name": "Tools"
     },
     {
-      "count": 459,
+      "count": 461,
       "name": "Development"
     },
     {
-      "count": 352,
+      "count": 353,
       "name": "Design"
     },
     {
@@ -38,8 +38,128 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2434,
+  "item_count": 2437,
   "items": [
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-07-02T11:16:49.369580Z",
+      "article_image_urls": [
+        "https://www.inspotype.com/assets/card.png"
+      ],
+      "article_title_extracted": "Inspotype",
+      "category": "Design",
+      "created_at": "2026-07-01T13:34:32.530603Z",
+      "description": "Inspotype streamlines your design process, saving you time and boosting creativity.",
+      "domain": "www.inspotype.com",
+      "embed_type": "",
+      "id": "k17d26fmpfcjx4rqfh71479qhn89qm24",
+      "og_image_url": "https://www.inspotype.com/assets/card.png",
+      "recommended_at": "2026-07-02T08:05:11.251000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "graphic-design",
+        "productivity",
+        "typography"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-02T08:05:11.251000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Inspotype",
+      "url": "https://www.inspotype.com/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-07-02T11:16:49.369580Z",
+      "article_image_urls": [
+        "https://www.tembo.io/images/og-image.png",
+        "https://www.tembo.io/images/home-v2/hero/tile-110.svg",
+        "https://www.tembo.io/images/home-v2/hero/tile-176.svg",
+        "https://www.tembo.io/images/home-v2/hero/tile-219.svg",
+        "https://www.tembo.io/images/home-v2/hero/tile-289.svg",
+        "https://www.tembo.io/images/home-v2/hero/tile-91.svg",
+        "https://www.tembo.io/images/home-v2/hero/tile-316.svg",
+        "https://www.tembo.io/images/home-v2/hero/logo-full.svg",
+        "https://www.tembo.io/_next/image?url=%2Fimages%2Fhome-v2%2Fhero%2Ftembo-workspace-logo.png&w=48&q=75",
+        "https://www.tembo.io/_next/image?url=%2Fimages%2Fhome-v2%2Fhero%2Favatar-benja.png&w=32&q=75",
+        "https://www.tembo.io/_next/image?url=%2Fimages%2Fhome-v2%2Fhero%2Favatar-antoine.png&w=32&q=75",
+        "https://www.tembo.io/images/home-v2/hero/composer-icon-sentry.svg"
+      ],
+      "article_title_extracted": "Tembo - Move engineering work to the cloud",
+      "category": "Development",
+      "created_at": "2026-07-02T01:11:42.359117Z",
+      "description": "Run AI agents across repositories, tickets, and tools. Keep your team aligned with shared context, reviewable output, and full visibility.",
+      "domain": "www.tembo.io",
+      "embed_type": "",
+      "id": "k175tn99qa5ndxgmqkbcvanscd89rxr2",
+      "og_image_url": "https://www.tembo.io/images/og-image.png",
+      "recommended_at": "2026-07-02T08:05:01.504000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "postgres",
+        "cloud-infrastructure",
+        "ai-agents"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-02T08:05:01.504000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Tembo - Move engineering work to the cloud",
+      "url": "https://www.tembo.io/",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://lishhsx6kmthaacj.public.blob.vercel-storage.com/og-images/passport-og.jpg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-okta-light.2_arwu_jb4lqm.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-okta-dark.1krxsttyvb3ql.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/vercel-light.3_gxxexgi1nmy.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/vercel-dark.1f3cgy23m5_jy.svg"
+      ],
+      "article_text": "Skip to content Copy Logo as SVG Copy Wordmark as SVG Brand Guidelines Products Agent Stack AI SDK AI Gateway Sandbox Workflows Passport eve Core Platform Security Content Delivery Fluid Compute Observability CI/CD Tools Next.js Vercel Agent Vercel Plugin Domains v0 Resources Learn Docs About Blog Changelog Knowledge Base Build AI Apps Web Apps Marketing Sites Platforms Commerce Explore Customers Marketplace Partner Finder AWS Community Enterprise Pricing Get a Demo Log In Sign Up Ask AI Dashboard Products Agent Stack AI SDK AI Gateway Sandbox Workflows Passport eve Core Platform Security Content Delivery Fluid Compute Observability CI/CD Tools Next.js Vercel Agent Vercel Plugin Domains v0 Resources Learn Docs About Blog Changelog Knowledge Base Build AI Apps Web Apps Marketing Sites Platforms Commerce Explore Customers Marketplace Partner Finder AWS Community Enterprise Pricing Get a Demo Log In Sign Up Introducing Vercel Passport Secure every internal agent, app, and deployment with your existing identity provider. Talk to Sales Vercel Passport Pasaporte Passaporto パスポート Iss 2026 Identity providers 3 Vercel Passport Pasaporte Passaporto パスポート Iss 2026 Open internal.vercel.sh Forge-proof verification After a user clears the gate, Passport gives the agent a signed JWT in the x-vercel-oidc-passport-token header. Read from your data source like Snowflake or Salesforce and your permissions apply to the real person, not a shared service account. Authenticate Once. Control Everything. Okta Auth0 OIDC MS Entra Auth0 MS Entra Okta OIDC OIDC Auth0 MS Entra Okta OIDC MS Entra Okta Auth0 Every deployment is gated by your identity provider. Authenticate with Okta, Auth0, or any OAuth 2.0 / OpenID Connect provider. 99+ Flat-rate pricing. Put Passport in front of every internal tool, agent, and app, and let the whole company in at no additional cost. Passport Visitors authenticate through your identity provider. stylish-rogue stylish-rogue integrator-24.okta.com caustic-bard acme.okta.com fleeting-necromancer integrator-00.okta.com Passport Visitors authenticate through your identity provider. stylish-rogue stylish-rogue integrator-24.okta.com caustic-bard acme.okta.com fleeting-necromancer integrator-00.okta.com Never write a line of auth. Define access for your whole organization in one place while all agents and applications inherit. Frequently asked questions [ 01 ] What is Vercel Passport? [ 02 ] What problem does Vercel Passport solve? [ 03 ] Which identity providers can I use? [ 04 ] How does Vercel Passport work? [ 05 ] How do I read a signed-in visitor's identity? [ 06 ] Does Vercel Passport work with Vercel Connect? [ 07 ] Does Vercel Passport work for agents too? [ 08 ] What does Passport cost? Agent Stack AI SDK AI Gateway Sandbox Workflows Connect New Passport New eve New Core Platform CI/CD Content Delivery Fluid Compute Observability Security Platform Security WAF Bot Management Bot ID Tools Vercel Drop New Vercel Agent Vercel Plugin New Agent Skills Next.js Domains v0 Frameworks eve New Nuxt SvelteKit Nitro Turborepo Tanstack Start FastAPI xmcp All frameworks SDKs Vercel SDK Workflow SDK New Flags SDK Chat SDK New Queues SDK New Streamdown Build AI Apps Web Apps Marketing Sites Platforms Commerce Platform Engineers Design Engineers Learn Docs Blog Changelog Knowledge Base Academy Articles Community Explore Customers Marketplace Templates Partner Finder Vercel + AWS Company About Careers Press Events Startups Shipped on Vercel Open Source Program Enterprise Pricing Help Legal & Trust Privacy Policy Terms of Service Cookie Policy DPA Acceptable Use Policy Legal (all documents) Trust Center Status Cookie Preferences Social GitHub X LinkedIn YouTube Instagram Loading status… Select a display theme: system light dark",
+      "article_title_extracted": "Vercel Passport - Vercel",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-07-02T01:11:47.019828Z",
+      "description": "Secure identity and access for AI apps and agents on Vercel.",
+      "domain": "vercel.com",
+      "embed_type": "",
+      "id": "k179k9vy1egb2edzqfvw6f757589scw8",
+      "og_image_url": "https://lishhsx6kmthaacj.public.blob.vercel-storage.com/og-images/passport-og.jpg",
+      "recommended_at": "2026-07-02T08:04:57.554000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "identity-management",
+        "ai-security",
+        "vercel"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-02T08:04:57.554000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Vercel Passport - Vercel",
+      "url": "https://vercel.com/passport",
+      "x_status_id": null
+    },
     {
       "article_fetch_attempted_at": "2026-07-01T15:23:13.684663Z",
       "article_image_urls": [
@@ -2321,7 +2441,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-25T04:49:39.143203Z",
+      "article_fetch_attempted_at": "2026-07-02T11:16:49.369580Z",
       "article_image_urls": [
         "https://font.fol.com.tr/wp-content/uploads/2025/07/Fol10.jpg",
         "https://font.fol.com.tr/wp-content/themes/font/dist/img/dynamic/download-popup-image.jpg",
@@ -108493,7 +108613,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2274,
+      "count": 2277,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -108529,5 +108649,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-07-02T04:45:28.894133Z"
+  "updated_at": "2026-07-02T11:17:07.008592Z"
 }
