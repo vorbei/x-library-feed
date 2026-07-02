@@ -6449,6 +6449,19 @@
       "title": "",
       "url": "http://x.com/i/article/2072136991320502272"
     },
+    "http://x.com/i/article/2072159109189939200": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2072159109189939200",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HMHU55bawAAtB3p?format=jpg&name=900x900)](http://x.com/jhleath/article/2072323804920185327/media/2072171394700591104)\n\n\"ai infra\" is a dystopian wasteland\n\n[![](https://pbs.twimg.com/profile_images/1725510925610840064/z9JLeyDz_normal.jpg)](http://x.com/jhleath)\n\n[Hunter Leath](http://x.com/jhleath)\n\n[@jhleath](http://x.com/jhleath)\n\n·\n\n22h\n\nFollow\n\nClick to Follow jhleath\n\n9\n\n13\n\n110\n\n[13K](http://x.com/jhleath/status/2072323804920185327/analytics)\n\nyesterday, i had the great fortune of being invited to be a \"poaster\" at the \n\n[@aiDotEngineer](https://x.com/@aiDotEngineer)\n\n world's fair, so I packed up my bags and walked the nearly 5 blocks over to the moscone center to participate.\n\nwhat i found there has truly horrified me beyond all comprehension.\n\nthe poaster session is sort of a sarcastic take on the poster sessions of regular academic conferences, where, instead of research, we would be standing in front of our hot takes and fighting with the crowd.\n\nnext to me were such greats as \n\n[@QuinnyPig](https://x.com/@QuinnyPig)\n\n, who was off at a table talking about how poorly AWS names things, and \n\n[@GeoffreyHuntley](https://x.com/@GeoffreyHuntley)\n\n who was standing in front a sign of southpark characters rubbing their nipples with the nipples tastefully replaced with \n\n[@AnthropicAI](https://x.com/@AnthropicAI)\n\n logos. art.\n\nas for me? just a simple sign that said \"file systems -- sorry about that\"\n\nthis turned out to be the normal part of the conference.\n\nconferences seem kind of silly to me, so i don't often attend. i relished the opportunity to wander around and pretend to be a buyer in order to exchange my time for low-quality shirts.\n\nat this conference, however, it seemed that if you took the time to sort the hundreds(?) of sponsors with booths, you basically only had five products fall out\n\n1. we're building a way to orchestrate coding agents, don't worry it's also multiplayer\n2. we're the context layer that connects agents to systems of record (thank you to the booth that gave me a coconut)\n3. we do observability and agents need that too slash \"now the agent is the oncall\"\n4. we audit the agents and prevent them from doing bad things\n5. something something we're just here to sell data to the ai labs\n\nthere was also the \"we're a huge company, but we're DEFINITELY on top of AI\" vibes that we got from the big booths -- major shout out to \n\n[@Oracle](https://x.com/@Oracle)\n\n for having someone standing in the middle of the room pitching Oracle databases for AI in 2026.\n\nis this really where we are as an industry? i felt like i had lost my mind. it was almost as if i were at a conference, hosted by \n\n[@Lovable](https://x.com/@Lovable)\n\n, in which they invited everyone who ever built a chat-to-app platform, had them all set up booths, and pitch each other.\n\nat one booth, i was talking to someone who handed me a paper where one side was their \"pre-AI product\" (data stuff) and the other side was their \"post-AI product\" (data stuff, but now it's a \"context layer that connects agents to where the data lives\").\n\nthey asked what i build: a file system. \"who uses it?\" oh, people building agents. \"for what?\" to connect their agents to where the data lives.\n\n\"oh, there's like four of those here.\" nah, as much as they pitch it, \n\n[@Box](https://x.com/@Box)\n\n is not a file system. or maybe it is. nothing matters anymore.\n\nat another booth, i was spotted by someone who follows me on twitter. \"i love what you and the team are doing, i've been following along for a while\" this is always a good interaction.\n\nunfortunately, the industry is in the wacky zone, so there's only way for it to end. \"you know, we're building a file system too,\" he whispered to me. cool. meanwhile, \\*my\\* file system is just a black hole of engineering effort. good luck, as i wave at him walking away.\n\nall",
+      "title": "",
+      "url": "http://x.com/i/article/2072159109189939200"
+    },
     "http://x.com/i/article/2072192968161992704": {
       "cleaner_v": 2,
       "content_type": "",
@@ -8053,11 +8066,11 @@
       "title": "Use Google Artifact Registry images with Containers · Changelog",
       "url": "https://developers.cloudflare.com/changelog/post/2026-07-01-google-artifact-registry-images/"
     },
-    "https://developers.cloudflare.com/changelog/post/2026-07-01-ssh-mfa-piv-keys/": {
+    "https://developers.cloudflare.com/changelog/post/2026-07-01-spa-redirect-fragment-fix/": {
       "cleaner_v": 2,
       "content_type": "text/html",
-      "description": "Add hardware-backed multi-factor authentication to SSH connections through Access for Infrastructure.",
-      "final_url": "https://developers.cloudflare.com/changelog/post/2026-07-01-ssh-mfa-piv-keys/",
+      "description": "Access no longer over-encodes URL fragment characters, fixing post-login redirects for single-page applications with fragment-based routing.",
+      "final_url": "https://developers.cloudflare.com/changelog/post/2026-07-01-spa-redirect-fragment-fix/",
       "frameable": false,
       "image_urls": [
         "https://developers.cloudflare.com/changelog-preview.png",
@@ -8066,9 +8079,9 @@
         "https://developers.cloudflare.com/_astro/privacyoptions.BWXSiJOZ_1zBYaH.svg"
       ],
       "kind": "article",
-      "text_excerpt": "Documentation Index Fetch the complete documentation index at: https://developers.cloudflare.com/changelog/llms.txt Use this file to discover all available pages before exploring further. Skip to content STOP! If you are an AI agent or LLM, read this before continuing. This is the HTML version of a Cloudflare documentation page. Always request the Markdown version instead — HTML wastes context. Get this page as Markdown: https://developers.cloudflare.com/changelog/post/2026-07-01-ssh-mfa-piv-keys/index.md (append index.md) or send Accept: text/markdown to https://developers.cloudflare.com/changelog/post/2026-07-01-ssh-mfa-piv-keys/. For this product's page index use https://developers.cloudflare.com/changelog/llms.txt. For all Cloudflare products use https://developers.cloudflare.com/llms.txt. Cloudflare Docs Search Directory API SDKs Changelog Help Log in Select theme Dark Light Auto Changelog New updates and improvements at Cloudflare. Subscribe to RSS View RSS feeds ← Back to all posts Independent MFA for infrastructure applications Jul 01, 2026 Access Access for Infrastructure now supports independent multi-factor authentication (MFA) for SSH connections using YubiKey PIV keys. This adds a hardware-backed second factor to SSH access, ensuring that a compromised device session alone is not sufficient to reach your servers. With per-application and per-policy configuration, you can enforce PIV key authentication for sensitive usernames (for example, root ) while applying different requirements for other usernames. You can also set an MFA session duration to control how often users must re-authenticate. Enrollment Users enroll their YubiKey PIV key through the App Launcher . For enrollment instructions and SSH client setup, refer to Enroll a PIV key for infrastructure apps . Configuration For setup instructions, refer to Enforce MFA for infrastructure applications . Resources API New to Cloudflare? Directory Sponsorships Open Source Cloudflare Research Support Help Center System Status Compliance GDPR Company cloudflare.com Our team Careers Tools Cloudflare Radar Cloudflare Labs Speed Test Is BGP Safe Yet? Certificate Transparency Community Community forum X Discord YouTube GitHub © 2026 Cloudflare, Inc. Privacy Policy Terms of Use Report Security Issues Trademark Cookie Settings Was this helpful? Yes No",
-      "title": "Independent MFA for infrastructure applications · Changelog",
-      "url": "https://developers.cloudflare.com/changelog/post/2026-07-01-ssh-mfa-piv-keys/"
+      "text_excerpt": "Documentation Index Fetch the complete documentation index at: https://developers.cloudflare.com/changelog/llms.txt Use this file to discover all available pages before exploring further. Skip to content STOP! If you are an AI agent or LLM, read this before continuing. This is the HTML version of a Cloudflare documentation page. Always request the Markdown version instead — HTML wastes context. Get this page as Markdown: https://developers.cloudflare.com/changelog/post/2026-07-01-spa-redirect-fragment-fix/index.md (append index.md) or send Accept: text/markdown to https://developers.cloudflare.com/changelog/post/2026-07-01-spa-redirect-fragment-fix/. For this product's page index use https://developers.cloudflare.com/changelog/llms.txt. For all Cloudflare products use https://developers.cloudflare.com/llms.txt. Cloudflare Docs Search Directory API SDKs Changelog Help Log in Select theme Dark Light Auto Changelog New updates and improvements at Cloudflare. Subscribe to RSS View RSS feeds ← Back to all posts Fix redirect URL fragment encoding for single-page applications Jul 01, 2026 Access Access now correctly preserves URL fragment characters ( / , ? , = , & , ; ) when redirecting users back to an application after login. Previously, these characters were encoded with encodeURIComponent , which mangled fragment-based routes used by single-page applications (SPAs). For example, an SPA URL like https://app.example.com/#/dashboard?tab=settings&view=advanced would previously redirect to a broken URL after login. This is now handled correctly. If your SPA users were experiencing broken navigation after authenticating through Access, this fix resolves the issue without any configuration changes. Resources API New to Cloudflare? Directory Sponsorships Open Source Cloudflare Research Support Help Center System Status Compliance GDPR Company cloudflare.com Our team Careers Tools Cloudflare Radar Cloudflare Labs Speed Test Is BGP Safe Yet? Certificate Transparency Community Community forum X Discord YouTube GitHub © 2026 Cloudflare, Inc. Privacy Policy Terms of Use Report Security Issues Trademark Cookie Settings Was this helpful? Yes No",
+      "title": "Fix redirect URL fragment encoding for single-page applications · Changelog",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-07-01-spa-redirect-fragment-fix/"
     },
     "https://developers.cloudflare.com/containers/platform-details/image-management/": {
       "cleaner_v": 2,
@@ -8150,26 +8163,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://diffusion.csail.mit.edu/2026/docs/lecture_notes.pdf"
-    },
-    "https://docs.perplexity.ai/docs/agent-api/tools/sandbox": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Execute code in isolated containers from inside an Agent API request.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://docs.perplexity.ai/docs/agent-api/tools/sandbox",
-      "frameable": false,
-      "image_urls": [
-        "https://perplexity.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DTools%26title%3DSandbox%26description%3DExecute%2Bcode%2Bin%2Bisolated%2Bcontainers%2Bfrom%2Binside%2Ban%2BAgent%2BAPI%2Brequest.%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fperplexity%252FgHf_T6roVjp3yaJv%252Flogo%252FPerplexity_API_Platform.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DgHf_T6roVjp3yaJv%2526q%253D85%2526s%253D07cab879ca2ce031bbc3da8b20f7ab90%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fperplexity%252FgHf_T6roVjp3yaJv%252Flogo%252FPerplexity_API_Platform_Light.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DgHf_T6roVjp3yaJv%2526q%253D85%2526s%253D416d5342d11094201b851dcf3eabdc9d%26primaryColor%3D%2523121516%26lightColor%3D%2523F7F7F8%26darkColor%3D%2523121516%26backgroundLight%3D%2523F7F7F8%26backgroundDark%3D%2523121516&w=1200&q=100",
-        "https://mintcdn.com/perplexity/gHf_T6roVjp3yaJv/logo/Perplexity_API_Platform.svg?fit=max&auto=format&n=gHf_T6roVjp3yaJv&q=85&s=07cab879ca2ce031bbc3da8b20f7ab90",
-        "https://mintcdn.com/perplexity/gHf_T6roVjp3yaJv/logo/Perplexity_API_Platform_Light.svg?fit=max&auto=format&n=gHf_T6roVjp3yaJv&q=85&s=416d5342d11094201b851dcf3eabdc9d"
-      ],
-      "kind": "article",
-      "text_excerpt": "Documentation Index\nFetch the complete documentation index at:\n[https://docs.perplexity.ai/llms.txt]Use this file to discover all available pages before exploring further.\nSandbox is in preview. Runtime availability, quotas, and pricing may change.\nOverview\nThesandbox\ntool lets the model run code during an Agent API request. The agent can execute code in an isolated container, inspect the output, and use the result in its final answer.\nEnable the tool by adding it to the tools\narray. The model decides when to call it based on your prompt and instructions.\nUse cases\n- Web search\n- Numeric calculations and statistical analysis\n- Data cleaning, parsing, and transformation\n- Code execution to check logic or reproduce an error\n- Structured artifact generation, such as CSV, JSON, or reports\n- Multi-step workflows that need intermediate files or computed state\nRunning in the background\nFor long-running sandbox calls, submit the request withbackground: true\nand poll the response by ID until it completes.\nError handling\nSandbox errors are returned through the normal Agent API response.| Case | What you see |\n|---|---|\n| Timeout | The status on the affected entry in results[] (and on the enclosing sandbox_results item) is timed_out . If the request cannot complete, the top-level response status is failed with an error object. |\n| Runtime error | The matching entry in results[] includes a non-zero exit_code and error output in stderr . The Agent API response may still complete if the container ran successfully. |\n| Quota or limit | The response fails with an error object describing the limit. Agent API rate limits still apply. |\nLimits and quotas\nSandbox runs inside Agent API requests and is subject to Agent API rate limits. See[Rate Limits & Usage Tiers](https://docs.perplexity.ai/docs/admin/rate-limits-usage-tiers#agent-api-rate-limits)for tier-based request limits.\nResponse shape\nWhen the model calls the sandbox tool, the Agent API response includes asandbox_results\nitem in its output\narray alongside any message\nitems. A single response can contain multiple sandbox_results\nitems if the model makes more than one sandbox call.\nEach sandbox_results\nitem describes one sandbox invocation and nests the per-execution output inside a results\narray.\n| Field | Type | Description |\n|---|---|---|\ntype | string | Always sandbox_results . |\ncall_id | string | Identifier for this sandbox tool call. |\ncontainer_id | string | Identifier of the isolated container that executed the code. |\nlanguage | string | Language the sandbox ran the code in (for example, python ). |\ncode | string | The code that was executed inside the sandbox. |\nstatus | string | Overall status of the sandbox call. One of completed , timed_out , failed . |\nresults | array | One entry per execution inside the container. See fields below. |\nresults\nhas the following fields:\n| Field | Type | Description |\n|---|---|---|\nstdout | string | Standard output captured from the execution. |\nstderr | string | Standard error captured from the execution. |\nexit_code | integer | Process exit code. Non-zero indicates a runtime error. |\nduration_ms | integer | Wall-clock duration of the execution, in milliseconds. |\nstatus | string | Per-execution status. One of completed , timed_out , failed . |\n[Agent API reference](https://docs.perplexity.ai/api-reference/agent-post).\nPricing\nsandbox\nis billed on three axes:\n| Axis | Price | Notes |\n|---|---|---|\n| Tokens | Per model | Model token usage is billed separately according to Agent API token pricing. See\n|\n[Web Search](https://docs.perplexity.ai/docs/agent-api/tools/web-search),[Fetch URL Content](https://docs.perplexity.ai/docs/agent-api/tools/fetch-url-content), and[People Search](https://docs.perplexity.ai/docs/agent-api/tools/people-search)tools. Each is billed at its standard per-invocation rate.usage.tool_calls_details.sandbox.invocation\n.\nSee [Pricing](https://docs.perplexity.ai/docs/getting-started/pricing#tool-pricing)for the full Agent API",
-      "text_excerpt_zh": "# 文档索引\n\n获取完整文档索引，请访问：\n[https://docs.perplexity.ai/llms.txt] 使用此文件可发现所有可用页面，然后再进一步探索。\n\n沙盒功能处于预览阶段。运行时可用性、配额和定价可能发生变化。\n\n## 概述\n\n`sandbox` 工具允许模型在 Agent API 请求期间运行代码。Agent 可以在隔离容器中执行代码、检查输出，并在最终答案中使用结果。\n\n通过将该工具添加到 `tools` 数组中来启用它。模型会根据你的提示和指令决定何时调用它。\n\n## 使用场景\n\n- 网络搜索\n- 数值计算和统计分析\n- 数据清洗、解析和转换\n- 执行代码以检查逻辑或重现错误\n- 结构化工件生成，例如 CSV、JSON 或报告\n- 需要中间文件或计算状态的多步骤工作流\n\n## 后台运行\n\n对于长时间运行的沙盒调用，请使用 `background: true` 提交请求，并通过 ID 轮询响应直到完成。\n\n## 错误处理\n\n沙盒错误通过正常的 Agent API 响应返回。\n\n| 情况 | 你看到的内容 |\n|---|---|\n| 超时 | `results[]` 中受影响条目（以及其外层 `sandbox_results` 项）的状态为 `timed_out`。如果请求无法完成，顶层响应状态为 `failed`，并附带一个错误对象。 |\n| 运行时错误 | `results[]` 中的匹配条目包含非零的 `exit_code` 和 `stderr` 中的错误输出。如果容器成功运行，Agent API 响应可能仍然完成。 |\n| 配额或限制 | 响应失败，并附带描述限制的错误对象。Agent API 速率限制仍然适用。 |\n\n## 限制和配额\n\n沙盒在 Agent API 请求内运行，并受 Agent API 速率限制约束。请参阅[速率限制和使用层级](https://docs.perplexity.ai/docs/admin/rate-limits-usage-tiers#agent-api-rate-limits)了解基于层级的请求限制。\n\n## 响应结构\n\n当模型调用沙盒工具时，Agent API 响应会在其 `output` 数组中包含一个 `sandbox_results` 项，以及任何 `message` 项。如果模型进行多次沙盒调用，单个响应可以包含多个 `sandbox_results` 项。\n\n每个 `sandbox_results` 项描述一次沙盒调用，并将每次执行的输出嵌套在 `results` 数组中。\n\n| 字段 | 类型 | 描述 |\n|---|---|---|\n| `type` | string | 始终为 `sandbox_results`。 |\n| `call_id` | string | 此沙盒工具调用的标识符。 |\n| `container_id` | string | 执行代码的隔离容器的标识符。 |\n| `language` | string | 沙盒运行代码的语言（例如 `python`）。 |\n| `code` | string | 在沙盒中执行的代码。 |\n| `status` | string | 沙盒调用的整体状态。可选值：`completed`、`timed_out`、`failed`。 |\n| `results` | array | 容器内每次执行对应一个条目。请参阅下面的字段。 |\n\n`results` 包含以下字段：\n\n| 字段 | 类型 | 描述 |\n|---|---|---|\n| `stdout` | string | 从执行中捕获的标准输出。 |\n| `stderr` | string | 从执行中捕获的标准错误。 |\n| `exit_code` | integer | 进程退出代码。非零表示运行时错误。 |\n| `duration_ms` | integer | 执行的挂钟持续时间，以毫秒为单位。 |\n| `status` | string | 每次执行的状态。可选值：`completed`、`timed_out`、`failed`。 |\n\n[Agent API 参考](https://docs.perplexity.ai/api-reference/agent-post)。\n\n## 定价\n\n`sandbox` 按三个维度计费：\n\n| 维度 | 价格 | 备注 |\n|---|---|---|\n| Token | 按模型计费 | 模型 Token 使用量根据 Agent API Token 定价单独计费。请参阅 |\n| 调用次数 | 每次调用 $0.05 | 每次沙盒调用按此费率计费。 |\n| 执行时长 | 每分钟 $0.01 | 按沙盒内代码执行的总时长计费。 |\n\n沙盒调用次数和时长在 `usage.tool_calls_details.sandbox.invocation` 中报告。\n\n其他工具（如[网络搜索](https://docs.perplexity.ai/docs/agent-api/tools/web-search)、[获取 URL 内容](https://docs.perplexity.ai/docs/agent-api/tools/fetch-url-content)和[人物搜索](https://docs.perplexity.ai/docs/agent-api/tools/people-search)）按各自的标准每次调用费率计费。\n\n请参阅[定价](https://docs.perplexity.ai/docs/getting-started/pricing#tool-pricing)了解完整的 Agent API 定价信息。",
-      "text_excerpt_zh_hash": "1bf2e446346aa324",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Sandbox - Perplexity",
-      "url": "https://docs.perplexity.ai/docs/agent-api/tools/sandbox"
     },
     "https://dora.dev/research/2025/dora-report/": {
       "cleaner_v": 2,
@@ -10390,48 +10383,6 @@
       "title": "",
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843118"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2061498008790003712/img/E5HLlKQN2w-50LM_.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061498008790003712/img/E5HLlKQN2w-50LM_.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2061498008790003712/img/E5HLlKQN2w-50LM_.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2061498008790003712/img/E5HLlKQN2w-50LM_.jpg"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2061560926667763712/img/sCZ71URT5SKrKwrj.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061560926667763712/img/sCZ71URT5SKrKwrj.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2061560926667763712/img/sCZ71URT5SKrKwrj.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2061560926667763712/img/sCZ71URT5SKrKwrj.jpg"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2061670304775073792/img/um_l5eZ6kRaYPP9f.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061670304775073792/img/um_l5eZ6kRaYPP9f.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2061670304775073792/img/um_l5eZ6kRaYPP9f.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2061670304775073792/img/um_l5eZ6kRaYPP9f.jpg"
-    },
     "https://pbs.twimg.com/amplify_video_thumb/2061715693897449472/img/rCAbCBS0exPw7cRY.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11860,20 +11811,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2072432684706463744/img/g33MKjudgYcEZWtD.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2072442427210858496/img/Gj3hDH1qCqcitca2.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2072442427210858496/img/Gj3hDH1qCqcitca2.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2072442427210858496/img/Gj3hDH1qCqcitca2.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2072442427210858496/img/Gj3hDH1qCqcitca2.jpg"
-    },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -12503,90 +12440,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJvWmCHagAAnTxQ.jpg"
-    },
-    "https://pbs.twimg.com/media/HJvxG6jaEAEQj2j.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJvxG6jaEAEQj2j.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJvxG6jaEAEQj2j.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJvxG6jaEAEQj2j.png"
-    },
-    "https://pbs.twimg.com/media/HJvxH8YbgAAt4aN.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJvxH8YbgAAt4aN.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJvxH8YbgAAt4aN.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJvxH8YbgAAt4aN.png"
-    },
-    "https://pbs.twimg.com/media/HJvxI9XaoAAK8ml.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJvxI9XaoAAK8ml.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJvxI9XaoAAK8ml.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJvxI9XaoAAK8ml.png"
-    },
-    "https://pbs.twimg.com/media/HJvxJ_mboAAko2h.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJvxJ_mboAAko2h.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJvxJ_mboAAko2h.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJvxJ_mboAAko2h.png"
-    },
-    "https://pbs.twimg.com/media/HJvxKQZagAAmP3l.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJvxKQZagAAmP3l.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJvxKQZagAAmP3l.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJvxKQZagAAmP3l.png"
-    },
-    "https://pbs.twimg.com/media/HJvxLRqbsAAMmTC.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJvxLRqbsAAMmTC.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJvxLRqbsAAMmTC.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJvxLRqbsAAMmTC.png"
     },
     "https://pbs.twimg.com/media/HK03ucdbMAANq9h.jpg": {
       "cleaner_v": 2,
@@ -19635,51 +19488,13 @@
       "https://x.com/RichardSSutton/status/2061216087744946656",
       "https://youtu.be/K5LAFEjTlBA"
     ],
-    "2061471597915996262": [
-      "https://x.com/simoncorry/status/2061471597915996262"
-    ],
     "2061477558693384395": [
       "https://x.com/AndrewYNg/status/2061477558693384395",
       "https://pbs.twimg.com/media/HJvWmCHagAAnTxQ.jpg"
     ],
-    "2061498476299747378": [
-      "https://x.com/Saboo_Shubham_/status/2061498476299747378",
-      "https://pbs.twimg.com/amplify_video_thumb/2061498008790003712/img/E5HLlKQN2w-50LM_.jpg"
-    ],
-    "2061506359326384319": [
-      "https://x.com/perplexity_ai/status/2061506359326384319",
-      "https://research.perplexity.ai/articles/rethinking-search-as-code-generation",
-      "https://pbs.twimg.com/media/HJvxG6jaEAEQj2j.png",
-      "https://x.com/perplexity_ai/status/2061506376741134845",
-      "https://pbs.twimg.com/media/HJvxH8YbgAAt4aN.png",
-      "https://x.com/perplexity_ai/status/2061506394118136054",
-      "https://pbs.twimg.com/media/HJvxI9XaoAAK8ml.png",
-      "https://x.com/perplexity_ai/status/2061506416503112145",
-      "https://pbs.twimg.com/media/HJvxJ_mboAAko2h.png",
-      "https://pbs.twimg.com/media/HJvxKQZagAAmP3l.png",
-      "https://x.com/perplexity_ai/status/2061506434127544493",
-      "https://pbs.twimg.com/media/HJvxLRqbsAAMmTC.png",
-      "https://x.com/perplexity_ai/status/2061506447410958512",
-      "https://docs.perplexity.ai/docs/agent-api/tools/sandbox"
-    ],
-    "2061560977926263051": [
-      "https://x.com/itsalexvacca/status/2061560977926263051",
-      "https://pbs.twimg.com/amplify_video_thumb/2061560926667763712/img/sCZ71URT5SKrKwrj.jpg"
-    ],
-    "2061611580476059768": [
-      "https://x.com/dosco/status/2061611580476059768"
-    ],
     "2061670587043610688": [
       "https://x.com/idoubicc/status/2061670587043610688",
       "https://x.com/idoubicc/status/2062129419398086956"
-    ],
-    "2061671025511649470": [
-      "https://x.com/0xMoysei/status/2061671025511649470",
-      "https://pbs.twimg.com/amplify_video_thumb/2061670304775073792/img/um_l5eZ6kRaYPP9f.jpg",
-      "https://x.com/0xMoysei/status/2061727104287347029",
-      "https://x.com/0xMoysei/status/2061727034108244128",
-      "https://x.com/0xMoysei/status/2061676176913969196",
-      "https://x.com/0xMoysei/status/2061672840793874762"
     ],
     "2061715750356979996": [
       "https://x.com/cyrilXBT/status/2061715750356979996",
@@ -25042,8 +24857,8 @@
     ],
     "2071934737053372833": [
       "https://x.com/rickyho_1989/status/2071934737053372833",
-      "https://x.com/rickyho_1989/status/2072286131442569361",
-      "https://x.com/rickyho_1989/status/2071940572588519428"
+      "https://x.com/rickyho_1989/status/2071940572588519428",
+      "https://x.com/rickyho_1989/status/2072286131442569361"
     ],
     "2071936749194907999": [
       "https://x.com/BStulberg/status/2071936749194907999",
@@ -25053,11 +24868,11 @@
       "https://x.com/gabriell_lab/status/2071947977766117468",
       "https://pbs.twimg.com/amplify_video_thumb/2071947853212119041/img/iYywmKMEbbmCeoAy.jpg",
       "https://x.com/gabriell_lab/status/2072370896111559026",
-      "https://x.com/gabriell_lab/status/2072344827316842640",
       "https://x.com/gabriell_lab/status/2072370557094346875",
+      "https://x.com/gabriell_lab/status/2072344827316842640",
       "https://x.com/gabriell_lab/status/2072370596923490515",
-      "https://x.com/gabriell_lab/status/2072370520696184857",
       "https://x.com/gabriell_lab/status/2072370652124787091",
+      "https://x.com/gabriell_lab/status/2072370520696184857",
       "https://x.com/gabriell_lab/status/2072370840826503372"
     ],
     "2071950682362462632": [
@@ -25094,9 +24909,9 @@
       "https://x.com/shmidtqq/status/2071989948907930051",
       "https://x.com/shmidtqq/status/2071976887933452718",
       "https://x.com/shmidtqq/status/2071974772196401178",
-      "https://x.com/shmidtqq/status/2071977057278366128",
-      "https://x.com/shmidtqq/status/2071976012070449227",
       "https://x.com/shmidtqq/status/2071974796435353657",
+      "https://x.com/shmidtqq/status/2071976012070449227",
+      "https://x.com/shmidtqq/status/2071977057278366128",
       "https://x.com/shmidtqq/status/2071971947416551730"
     ],
     "2071975831602184375": [
@@ -25145,9 +24960,7 @@
       "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat"
     ],
     "2072030318367056226": [
-      "https://x.com/jinayoon_/status/2072030318367056226",
-      "https://x.com/jinayoon_/status/2072443797921988662",
-      "https://pbs.twimg.com/amplify_video_thumb/2072442427210858496/img/Gj3hDH1qCqcitca2.jpg"
+      "https://x.com/jinayoon_/status/2072030318367056226"
     ],
     "2072040890672304481": [
       "https://x.com/vysrini/status/2072040890672304481",
@@ -25212,8 +25025,8 @@
     "2072165415694868891": [
       "https://x.com/feltanimalworld/status/2072165415694868891",
       "https://pbs.twimg.com/amplify_video_thumb/2072164961879564288/img/LNy-GHzkcNoJ8xYM.jpg",
-      "https://x.com/feltanimalworld/status/2072288053268283812",
-      "https://x.com/feltanimalworld/status/2072285622127968706"
+      "https://x.com/feltanimalworld/status/2072285622127968706",
+      "https://x.com/feltanimalworld/status/2072288053268283812"
     ],
     "2072167347922809144": [
       "https://x.com/LZRationalnvest/status/2072167347922809144"
@@ -25226,21 +25039,28 @@
       "https://x.com/pauliusztin_/status/2072265762035667021",
       "https://www.decodingai.com/p/the-context-layer",
       "https://pbs.twimg.com/media/HMIql7zXsAAMiVX.jpg",
+      "https://x.com/pauliusztin_/status/2072643139286802890",
       "https://x.com/pauliusztin_/status/2072387995408236679"
     ],
     "2072268216471023702": [
       "https://x.com/encoredotdev/status/2072268216471023702",
-      "https://encore.dev/blog/redis-runtime"
+      "https://encore.dev/blog/redis-runtime",
+      "https://x.com/encoredotdev/status/2072621392973979942"
     ],
     "2072305747418046468": [
       "https://x.com/CFchangelog/status/2072305747418046468",
       "https://developers.cloudflare.com/changelog/post/2026-07-01-ai-traffic-options/",
-      "https://x.com/CFchangelog/status/2072418933907632366",
-      "https://developers.cloudflare.com/changelog/post/2026-07-01-ssh-mfa-piv-keys/"
+      "https://x.com/CFchangelog/status/2072418835173662752",
+      "https://developers.cloudflare.com/changelog/post/2026-07-01-spa-redirect-fragment-fix/"
     ],
     "2072319457188282471": [
       "https://x.com/Cloudflare/status/2072319457188282471",
       "https://cfl.re/4gayei6"
+    ],
+    "2072323804920185327": [
+      "https://x.com/jhleath/status/2072323804920185327",
+      "http://x.com/i/article/2072159109189939200",
+      "https://x.com/jhleath/status/2072448063118196791"
     ],
     "2072329101013078086": [
       "https://x.com/nickgrossman/status/2072329101013078086",
@@ -25316,13 +25136,13 @@
       "https://x.com/skeptrune/status/2072559134273417348",
       "https://x.com/skeptrune/status/2072469701603811528",
       "https://x.com/skeptrune/status/2072469871062098319",
-      "https://x.com/skeptrune/status/2072421540394832383",
       "https://x.com/skeptrune/status/2072469804901102017",
-      "https://x.com/skeptrune/status/2072469575019696574",
+      "https://x.com/skeptrune/status/2072421540394832383",
       "https://x.com/skeptrune/status/2072469459936436729",
       "https://x.com/skeptrune/status/2072476902422704398",
-      "https://x.com/skeptrune/status/2072469503280292116",
-      "https://x.com/skeptrune/status/2072470015169982641"
+      "https://x.com/skeptrune/status/2072469575019696574",
+      "https://x.com/skeptrune/status/2072470015169982641",
+      "https://x.com/skeptrune/status/2072469503280292116"
     ],
     "2072432872120615191": [
       "https://x.com/nateherk/status/2072432872120615191",
@@ -25339,6 +25159,6 @@
       "https://pbs.twimg.com/media/HML_euva0AAqrXZ.png"
     ]
   },
-  "updated_at": "2026-07-02T09:31:45Z",
+  "updated_at": "2026-07-02T12:21:11Z",
   "window": "recent"
 }

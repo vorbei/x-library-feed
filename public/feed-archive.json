@@ -7177,6 +7177,26 @@
       "title": "Hermes Agent - Mem0",
       "url": "https://docs.mem0.ai/integrations/hermes"
     },
+    "https://docs.perplexity.ai/docs/agent-api/tools/sandbox": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Execute code in isolated containers from inside an Agent API request.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://docs.perplexity.ai/docs/agent-api/tools/sandbox",
+      "frameable": false,
+      "image_urls": [
+        "https://perplexity.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DTools%26title%3DSandbox%26description%3DExecute%2Bcode%2Bin%2Bisolated%2Bcontainers%2Bfrom%2Binside%2Ban%2BAgent%2BAPI%2Brequest.%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fperplexity%252FgHf_T6roVjp3yaJv%252Flogo%252FPerplexity_API_Platform.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DgHf_T6roVjp3yaJv%2526q%253D85%2526s%253D07cab879ca2ce031bbc3da8b20f7ab90%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fperplexity%252FgHf_T6roVjp3yaJv%252Flogo%252FPerplexity_API_Platform_Light.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DgHf_T6roVjp3yaJv%2526q%253D85%2526s%253D416d5342d11094201b851dcf3eabdc9d%26primaryColor%3D%2523121516%26lightColor%3D%2523F7F7F8%26darkColor%3D%2523121516%26backgroundLight%3D%2523F7F7F8%26backgroundDark%3D%2523121516&w=1200&q=100",
+        "https://mintcdn.com/perplexity/gHf_T6roVjp3yaJv/logo/Perplexity_API_Platform.svg?fit=max&auto=format&n=gHf_T6roVjp3yaJv&q=85&s=07cab879ca2ce031bbc3da8b20f7ab90",
+        "https://mintcdn.com/perplexity/gHf_T6roVjp3yaJv/logo/Perplexity_API_Platform_Light.svg?fit=max&auto=format&n=gHf_T6roVjp3yaJv&q=85&s=416d5342d11094201b851dcf3eabdc9d"
+      ],
+      "kind": "article",
+      "text_excerpt": "Documentation Index\nFetch the complete documentation index at:\n[https://docs.perplexity.ai/llms.txt]Use this file to discover all available pages before exploring further.\nSandbox is in preview. Runtime availability, quotas, and pricing may change.\nOverview\nThesandbox\ntool lets the model run code during an Agent API request. The agent can execute code in an isolated container, inspect the output, and use the result in its final answer.\nEnable the tool by adding it to the tools\narray. The model decides when to call it based on your prompt and instructions.\nUse cases\n- Web search\n- Numeric calculations and statistical analysis\n- Data cleaning, parsing, and transformation\n- Code execution to check logic or reproduce an error\n- Structured artifact generation, such as CSV, JSON, or reports\n- Multi-step workflows that need intermediate files or computed state\nRunning in the background\nFor long-running sandbox calls, submit the request withbackground: true\nand poll the response by ID until it completes.\nError handling\nSandbox errors are returned through the normal Agent API response.| Case | What you see |\n|---|---|\n| Timeout | The status on the affected entry in results[] (and on the enclosing sandbox_results item) is timed_out . If the request cannot complete, the top-level response status is failed with an error object. |\n| Runtime error | The matching entry in results[] includes a non-zero exit_code and error output in stderr . The Agent API response may still complete if the container ran successfully. |\n| Quota or limit | The response fails with an error object describing the limit. Agent API rate limits still apply. |\nLimits and quotas\nSandbox runs inside Agent API requests and is subject to Agent API rate limits. See[Rate Limits & Usage Tiers](https://docs.perplexity.ai/docs/admin/rate-limits-usage-tiers#agent-api-rate-limits)for tier-based request limits.\nResponse shape\nWhen the model calls the sandbox tool, the Agent API response includes asandbox_results\nitem in its output\narray alongside any message\nitems. A single response can contain multiple sandbox_results\nitems if the model makes more than one sandbox call.\nEach sandbox_results\nitem describes one sandbox invocation and nests the per-execution output inside a results\narray.\n| Field | Type | Description |\n|---|---|---|\ntype | string | Always sandbox_results . |\ncall_id | string | Identifier for this sandbox tool call. |\ncontainer_id | string | Identifier of the isolated container that executed the code. |\nlanguage | string | Language the sandbox ran the code in (for example, python ). |\ncode | string | The code that was executed inside the sandbox. |\nstatus | string | Overall status of the sandbox call. One of completed , timed_out , failed . |\nresults | array | One entry per execution inside the container. See fields below. |\nresults\nhas the following fields:\n| Field | Type | Description |\n|---|---|---|\nstdout | string | Standard output captured from the execution. |\nstderr | string | Standard error captured from the execution. |\nexit_code | integer | Process exit code. Non-zero indicates a runtime error. |\nduration_ms | integer | Wall-clock duration of the execution, in milliseconds. |\nstatus | string | Per-execution status. One of completed , timed_out , failed . |\n[Agent API reference](https://docs.perplexity.ai/api-reference/agent-post).\nPricing\nsandbox\nis billed on three axes:\n| Axis | Price | Notes |\n|---|---|---|\n| Tokens | Per model | Model token usage is billed separately according to Agent API token pricing. See\n|\n[Web Search](https://docs.perplexity.ai/docs/agent-api/tools/web-search),[Fetch URL Content](https://docs.perplexity.ai/docs/agent-api/tools/fetch-url-content), and[People Search](https://docs.perplexity.ai/docs/agent-api/tools/people-search)tools. Each is billed at its standard per-invocation rate.usage.tool_calls_details.sandbox.invocation\n.\nSee [Pricing](https://docs.perplexity.ai/docs/getting-started/pricing#tool-pricing)for the full Agent API",
+      "text_excerpt_zh": "# 文档索引\n\n获取完整文档索引，请访问：\n[https://docs.perplexity.ai/llms.txt] 使用此文件可发现所有可用页面，然后再进一步探索。\n\n沙盒功能处于预览阶段。运行时可用性、配额和定价可能发生变化。\n\n## 概述\n\n`sandbox` 工具允许模型在 Agent API 请求期间运行代码。Agent 可以在隔离容器中执行代码、检查输出，并在最终答案中使用结果。\n\n通过将该工具添加到 `tools` 数组中来启用它。模型会根据你的提示和指令决定何时调用它。\n\n## 使用场景\n\n- 网络搜索\n- 数值计算和统计分析\n- 数据清洗、解析和转换\n- 执行代码以检查逻辑或重现错误\n- 结构化工件生成，例如 CSV、JSON 或报告\n- 需要中间文件或计算状态的多步骤工作流\n\n## 后台运行\n\n对于长时间运行的沙盒调用，请使用 `background: true` 提交请求，并通过 ID 轮询响应直到完成。\n\n## 错误处理\n\n沙盒错误通过正常的 Agent API 响应返回。\n\n| 情况 | 你看到的内容 |\n|---|---|\n| 超时 | `results[]` 中受影响条目（以及其外层 `sandbox_results` 项）的状态为 `timed_out`。如果请求无法完成，顶层响应状态为 `failed`，并附带一个错误对象。 |\n| 运行时错误 | `results[]` 中的匹配条目包含非零的 `exit_code` 和 `stderr` 中的错误输出。如果容器成功运行，Agent API 响应可能仍然完成。 |\n| 配额或限制 | 响应失败，并附带描述限制的错误对象。Agent API 速率限制仍然适用。 |\n\n## 限制和配额\n\n沙盒在 Agent API 请求内运行，并受 Agent API 速率限制约束。请参阅[速率限制和使用层级](https://docs.perplexity.ai/docs/admin/rate-limits-usage-tiers#agent-api-rate-limits)了解基于层级的请求限制。\n\n## 响应结构\n\n当模型调用沙盒工具时，Agent API 响应会在其 `output` 数组中包含一个 `sandbox_results` 项，以及任何 `message` 项。如果模型进行多次沙盒调用，单个响应可以包含多个 `sandbox_results` 项。\n\n每个 `sandbox_results` 项描述一次沙盒调用，并将每次执行的输出嵌套在 `results` 数组中。\n\n| 字段 | 类型 | 描述 |\n|---|---|---|\n| `type` | string | 始终为 `sandbox_results`。 |\n| `call_id` | string | 此沙盒工具调用的标识符。 |\n| `container_id` | string | 执行代码的隔离容器的标识符。 |\n| `language` | string | 沙盒运行代码的语言（例如 `python`）。 |\n| `code` | string | 在沙盒中执行的代码。 |\n| `status` | string | 沙盒调用的整体状态。可选值：`completed`、`timed_out`、`failed`。 |\n| `results` | array | 容器内每次执行对应一个条目。请参阅下面的字段。 |\n\n`results` 包含以下字段：\n\n| 字段 | 类型 | 描述 |\n|---|---|---|\n| `stdout` | string | 从执行中捕获的标准输出。 |\n| `stderr` | string | 从执行中捕获的标准错误。 |\n| `exit_code` | integer | 进程退出代码。非零表示运行时错误。 |\n| `duration_ms` | integer | 执行的挂钟持续时间，以毫秒为单位。 |\n| `status` | string | 每次执行的状态。可选值：`completed`、`timed_out`、`failed`。 |\n\n[Agent API 参考](https://docs.perplexity.ai/api-reference/agent-post)。\n\n## 定价\n\n`sandbox` 按三个维度计费：\n\n| 维度 | 价格 | 备注 |\n|---|---|---|\n| Token | 按模型计费 | 模型 Token 使用量根据 Agent API Token 定价单独计费。请参阅 |\n| 调用次数 | 每次调用 $0.05 | 每次沙盒调用按此费率计费。 |\n| 执行时长 | 每分钟 $0.01 | 按沙盒内代码执行的总时长计费。 |\n\n沙盒调用次数和时长在 `usage.tool_calls_details.sandbox.invocation` 中报告。\n\n其他工具（如[网络搜索](https://docs.perplexity.ai/docs/agent-api/tools/web-search)、[获取 URL 内容](https://docs.perplexity.ai/docs/agent-api/tools/fetch-url-content)和[人物搜索](https://docs.perplexity.ai/docs/agent-api/tools/people-search)）按各自的标准每次调用费率计费。\n\n请参阅[定价](https://docs.perplexity.ai/docs/getting-started/pricing#tool-pricing)了解完整的 Agent API 定价信息。",
+      "text_excerpt_zh_hash": "1bf2e446346aa324",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "Sandbox - Perplexity",
+      "url": "https://docs.perplexity.ai/docs/agent-api/tools/sandbox"
+    },
     "https://docs.pullfrog.com/keys": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -18209,6 +18229,48 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2061397775196057600/img/VcB5k2xv8BK-Pyfj.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2061498008790003712/img/E5HLlKQN2w-50LM_.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061498008790003712/img/E5HLlKQN2w-50LM_.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2061498008790003712/img/E5HLlKQN2w-50LM_.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2061498008790003712/img/E5HLlKQN2w-50LM_.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2061560926667763712/img/sCZ71URT5SKrKwrj.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061560926667763712/img/sCZ71URT5SKrKwrj.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2061560926667763712/img/sCZ71URT5SKrKwrj.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2061560926667763712/img/sCZ71URT5SKrKwrj.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2061670304775073792/img/um_l5eZ6kRaYPP9f.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061670304775073792/img/um_l5eZ6kRaYPP9f.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2061670304775073792/img/um_l5eZ6kRaYPP9f.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2061670304775073792/img/um_l5eZ6kRaYPP9f.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -26315,6 +26377,90 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJvtY2MXEAAfyFI.jpg"
     },
+    "https://pbs.twimg.com/media/HJvxG6jaEAEQj2j.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJvxG6jaEAEQj2j.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJvxG6jaEAEQj2j.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJvxG6jaEAEQj2j.png"
+    },
+    "https://pbs.twimg.com/media/HJvxH8YbgAAt4aN.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJvxH8YbgAAt4aN.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJvxH8YbgAAt4aN.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJvxH8YbgAAt4aN.png"
+    },
+    "https://pbs.twimg.com/media/HJvxI9XaoAAK8ml.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJvxI9XaoAAK8ml.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJvxI9XaoAAK8ml.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJvxI9XaoAAK8ml.png"
+    },
+    "https://pbs.twimg.com/media/HJvxJ_mboAAko2h.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJvxJ_mboAAko2h.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJvxJ_mboAAko2h.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJvxJ_mboAAko2h.png"
+    },
+    "https://pbs.twimg.com/media/HJvxKQZagAAmP3l.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJvxKQZagAAmP3l.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJvxKQZagAAmP3l.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJvxKQZagAAmP3l.png"
+    },
+    "https://pbs.twimg.com/media/HJvxLRqbsAAMmTC.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJvxLRqbsAAMmTC.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJvxLRqbsAAMmTC.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJvxLRqbsAAMmTC.png"
+    },
     "https://pbs.twimg.com/media/HJyD2J7b0AADMDd.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -26922,6 +27068,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Designing, Refining, and Maintaining Agent Skills at Perplexity",
       "url": "https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity"
+    },
+    "https://research.perplexity.ai/articles/rethinking-search-as-code-generation": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Evolving search from monolithic services to programmable primitives for the era of agent harnesses.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://research.perplexity.ai/articles/rethinking-search-as-code-generation",
+      "frameable": null,
+      "image_urls": [
+        "https://framerusercontent.com/images/BPa6INWwG51PCIVan60pk0neXA.webp?width=2048&height=1148",
+        "https://framerusercontent.com/images/jFfT0gUzrVIip3MpoWU5NOEaq0.png",
+        "https://framerusercontent.com/images/hIpF8Cv3YwGB2GyMzVcJqwlDhE.png",
+        "https://framerusercontent.com/images/vsuNSVMfWSneCWfczUleMlnHCmk.png",
+        "https://framerusercontent.com/images/OnESvfBPI4RRdrAZjpvBBzw4gDY.png",
+        "https://framerusercontent.com/images/GsDB5uB5g2ddb35ebOxlBwioX8.png",
+        "https://framerusercontent.com/images/VEWc6UexsMSdwV7g6BuXbRt2M.png",
+        "https://framerusercontent.com/images/zdbLvDHM5kVaqTFKj35TA5gkE.png",
+        "https://framerusercontent.com/images/3SIShKOS6D0m5GcPQlo2M4jtvCo.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Rethinking Search as Code Generation\nEvolving search from monolithic services to programmable primitives for the era of agent harnesses.\nSearch is a core primitive for AI systems. Frontier models grow more capable by the month, but they still need access to fresh, accurate, and well-curated knowledge from the wider world. Search is the primary way that AI systems tap into that knowledge, and thus a foundational component of any product that needs to draw conclusions, take actions, and perform real-world work.\nWe believe that traditional search pipelines are increasingly outdated in the era of agents. Traditional search answers queries, but today’s agents complete tasks that can take on countless shapes. These tasks require agents to define task-specific retrieval strategies directly within their harnesses. Within Perplexity Computer, we’ve seen single tasks invoke hundreds or even thousands of retrieval operations within a few minutes: a workflow that is impossible for humans but absolutely natural for agents.\nIn this world, search itself must become agentic, with its building blocks accessible directly as SDKs within the agent harness. We are introducing Search as Code (SaC) as Perplexity’s new reference search architecture.\nIntroduction\nPerplexity's search stack serves thousands of queries each second across our applications and API Platform. In September 2025, we published the first [architectural overview](https://research.perplexity.ai/articles/architecting-and-evaluating-an-ai-first-search-api) of our search systems. Constant innovation within these systems has supported the launch of new offerings such as [Search API](https://www.perplexity.ai/hub/blog/introducing-the-perplexity-search-api), [Agent API](https://www.perplexity.ai/hub/blog/agent-api-a-managed-runtime-for-agentic-workflows), and [Computer](https://www.perplexity.ai/products/computer), with self-improvement loops optimizing the search stack to better serve users with each passing day.\nTraditionally, AI systems have treated search as a monolith: an AI model issues a query, the search engine runs its predefined pipeline, and the model consumes the results as context. For the most part, this worked fine to address the needs of early AI users. Given the relative simplicity of their requests, there was no reason to worry about exactly how the search pipeline was designed, or whether the pipeline's architecture was optimal for the task at hand. The defaults were presumed to be good enough, as were the default interfaces (function calling and MCPs).\nFigure 1 | Traditional search architectures expose a single fixed system that models call serially, while Search as Code exposes atomized search primitives that agents compose through generated code.\nYet today this approach grows more outdated with each passing month. Users demand much more than single-shot analysis from AI. They expect agents to complete tasks end-to-end over hours or even days. These tasks can be complex, open-ended, and highly variable in their information needs, and monolithic architectures are buckling under the weight of these demands.\nThe key bottleneck is ultimately one of control. Frontier models are already quite good at reasoning over fixed context. However, the most powerful AI systems will require the ability to steer how that context is retrieved, processed, aggregated, and rendered to the model.\nTraditional search systems were not designed with this degree of controllability in mind. After all, human users cannot be expected to exercise fine-grained control over search pipeline internals even if it were offered. Early AI models can control search only through a linear trajectory of function calls and MCPs. But today's frontier models, driven by code-capable agent harnesses, can exert fine-grained control over any computational primitives imaginable through computer code. Our task becomes to provide the right primitives.\nTo meet this need, we are introducing a new search architecture acro",
+      "text_excerpt_zh": "# 将搜索重新构想为代码生成\n\n从单体服务演进到可编程原语，迎接智能体框架时代\n\n搜索是AI系统的核心原语。前沿模型的能力逐月增强，但它们仍然需要从更广阔的世界获取新鲜、准确且精心整理的知识。搜索是AI系统获取这些知识的主要方式，因此也是任何需要得出结论、采取行动并执行实际工作的产品的基础组件。\n\n我们相信，在智能体时代，传统的搜索流水线正日益过时。传统搜索回答查询，但今天的智能体需要完成形态各异的任务。这些任务要求智能体在其框架内直接定义特定于任务的检索策略。在Perplexity Computer内部，我们看到单个任务在几分钟内调用了数百甚至数千次检索操作：这种工作流对人类来说是不可能的，但对智能体来说却完全自然。\n\n在这个世界中，搜索本身必须变得具有智能体特性，其构建模块可以直接作为SDK在智能体框架中使用。我们推出**搜索即代码（Search as Code, SaC）**，作为Perplexity新的参考搜索架构。\n\n## 引言\n\nPerplexity的搜索栈在我们的应用和API平台中每秒处理数千次查询。2025年9月，我们发布了搜索系统的第一篇[架构概述](https://research.perplexity.ai/articles/architecting-and-evaluating-an-ai-first-search-api)。这些系统的持续创新支持了新产品如[Search API](https://www.perplexity.ai/hub/blog/introducing-the-perplexity-search-api)、[Agent API](https://www.perplexity.ai/hub/blog/agent-api-a-managed-runtime-for-agentic-workflows)和[Computer](https://www.perplexity.ai/products/computer)的推出，自我改进循环不断优化搜索栈，以更好地服务用户。\n\n传统上，AI系统将搜索视为一个单体：AI模型发出查询，搜索引擎运行其预定义的流水线，模型将结果作为上下文消费。在大多数情况下，这足以满足早期AI用户的需求。由于他们的请求相对简单，没有必要担心搜索流水线的具体设计方式，或者流水线架构是否针对当前任务最优。默认设置被认为是足够好的，默认接口（函数调用和MCP）也是如此。\n\n**图1 | 传统搜索架构暴露一个固定的单一系统，模型串行调用；而搜索即代码暴露原子化的搜索原语，智能体通过生成的代码进行组合。**\n\n然而今天，这种方法逐月变得更加过时。用户对AI的需求远不止单次分析。他们期望智能体在数小时甚至数天内端到端地完成任务。这些任务可能复杂、开放，且信息需求高度可变，单体架构在这些需求的压力下正不堪重负。\n\n关键瓶颈最终在于控制权。前沿模型已经相当擅长在固定上下文中进行推理。然而，最强大的AI系统将需要能够引导如何检索、处理、聚合上下文并将其呈现给模型。\n\n传统搜索系统在设计时并未考虑这种程度的可控性。毕竟，即使提供了细粒度的控制，也不能期望人类用户去精细控制搜索流水线的内部机制。早期的AI模型只能通过函数调用和MCP的线性轨迹来控制搜索。但今天的前沿模型，由具备代码能力的智能体框架驱动，可以通过计算机代码对任何可想象的计算原语施加细粒度的控制。我们的任务就是提供正确的原语。\n\n为了满足这一需求，我们推出了一种新的搜索架构，跨越",
+      "text_excerpt_zh_hash": "031c42a43f29a5df",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "Rethinking Search as Code Generation",
+      "url": "https://research.perplexity.ai/articles/rethinking-search-as-code-generation"
     },
     "https://researchwang13.space/hermes": {
       "cleaner_v": 2,
@@ -41398,6 +41570,9 @@
       "https://x.com/Voxyz_ai/status/2061465585599263169",
       "https://x.com/Voxyz_ai/status/2061470024867459507"
     ],
+    "2061471597915996262": [
+      "https://x.com/simoncorry/status/2061471597915996262"
+    ],
     "2061474404014477543": [
       "https://x.com/mfpiccolo/status/2061474404014477543",
       "https://x.com/mfpiccolo/status/2061474560252244430",
@@ -41416,6 +41591,26 @@
     "2061484958787711243": [
       "https://x.com/alanaagoyal/status/2061484958787711243"
     ],
+    "2061498476299747378": [
+      "https://x.com/Saboo_Shubham_/status/2061498476299747378",
+      "https://pbs.twimg.com/amplify_video_thumb/2061498008790003712/img/E5HLlKQN2w-50LM_.jpg"
+    ],
+    "2061506359326384319": [
+      "https://x.com/perplexity_ai/status/2061506359326384319",
+      "https://research.perplexity.ai/articles/rethinking-search-as-code-generation",
+      "https://pbs.twimg.com/media/HJvxG6jaEAEQj2j.png",
+      "https://x.com/perplexity_ai/status/2061506376741134845",
+      "https://pbs.twimg.com/media/HJvxH8YbgAAt4aN.png",
+      "https://x.com/perplexity_ai/status/2061506394118136054",
+      "https://pbs.twimg.com/media/HJvxI9XaoAAK8ml.png",
+      "https://x.com/perplexity_ai/status/2061506416503112145",
+      "https://pbs.twimg.com/media/HJvxJ_mboAAko2h.png",
+      "https://pbs.twimg.com/media/HJvxKQZagAAmP3l.png",
+      "https://x.com/perplexity_ai/status/2061506434127544493",
+      "https://pbs.twimg.com/media/HJvxLRqbsAAMmTC.png",
+      "https://x.com/perplexity_ai/status/2061506447410958512",
+      "https://docs.perplexity.ai/docs/agent-api/tools/sandbox"
+    ],
     "2061512556590809342": [
       "https://x.com/prukalpa/status/2061512556590809342",
       "http://x.com/i/article/2061457744914173952",
@@ -41426,8 +41621,23 @@
     "2061528737351688258": [
       "https://x.com/ilyasu/status/2061528737351688258",
       "https://x.com/ilyasu/status/2061530651225129269"
+    ],
+    "2061560977926263051": [
+      "https://x.com/itsalexvacca/status/2061560977926263051",
+      "https://pbs.twimg.com/amplify_video_thumb/2061560926667763712/img/sCZ71URT5SKrKwrj.jpg"
+    ],
+    "2061611580476059768": [
+      "https://x.com/dosco/status/2061611580476059768"
+    ],
+    "2061671025511649470": [
+      "https://x.com/0xMoysei/status/2061671025511649470",
+      "https://pbs.twimg.com/amplify_video_thumb/2061670304775073792/img/um_l5eZ6kRaYPP9f.jpg",
+      "https://x.com/0xMoysei/status/2061727104287347029",
+      "https://x.com/0xMoysei/status/2061727034108244128",
+      "https://x.com/0xMoysei/status/2061676176913969196",
+      "https://x.com/0xMoysei/status/2061672840793874762"
     ]
   },
-  "updated_at": "2026-07-02T09:31:45Z",
+  "updated_at": "2026-07-02T12:21:11Z",
   "window": "archive"
 }
