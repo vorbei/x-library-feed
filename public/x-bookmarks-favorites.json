@@ -57,6 +57,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Containers now supports Google Artifact Registry images. Use them directly in Wrangler config without pushing to Cloudflare Registry first.\nhttps://developers.cloudflare.com/containers/platform-details/image-management/\n\nhttps://developers.cloudflare.com/changelog/post/2026-07-01-google-artifact-registry-images/",
+      "text_zh": "Containers 现已支持 Google Artifact Registry 镜像。可直接在 Wrangler 配置中使用，无需先推送至 Cloudflare Registry。\nhttps://developers.cloudflare.com/containers/platform-details/image-management/\n\nhttps://developers.cloudflare.com/changelog/post/2026-07-01-google-artifact-registry-images/",
+      "text_zh_hash": "0c137e6de2c837df",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/CFchangelog/status/2072396185328058388"
     },
     {
@@ -97,6 +100,9 @@
         "bookmark@chumsdock"
       ],
       "text": "New AI bot traffic options are live for everyone. You can now block Training and Agent crawlers on ad pages while letting Search bots index your content to keep the revenue.\n\nhttps://developers.cloudflare.com/changelog/post/2026-07-01-ai-traffic-options/",
+      "text_zh": "新的 AI 机器人流量选项现已面向所有用户开放。您现在可以在广告页面上屏蔽训练和代理爬虫，同时允许搜索机器人索引您的内容，以保持收入。\n\nhttps://developers.cloudflare.com/changelog/post/2026-07-01-ai-traffic-options/",
+      "text_zh_hash": "d4bec183cfa05f30",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/CFchangelog/status/2072305747418046468"
     },
     {
@@ -137,6 +143,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today we're launching two initiatives to help. https://cfl.re/4gayei6",
+      "text_zh": "搜索是我们几乎在网络上找到一切的方式——创作者、商家、答案。人工智能正在重写规则，让创作者陷入两难：既要在智能体时代保持可发现性，又要为自己的作品获得报酬。今天，我们推出两项举措来提供帮助。https://cfl.re/4gayei6",
+      "text_zh_hash": "5fde4759015714e0",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Cloudflare/status/2072319457188282471"
     },
     {
@@ -232,6 +241,9 @@
         "bookmark@chumsdock"
       ],
       "text": "The organizational cost of low taste https://uxdesign.cc/the-organizational-cost-of-low-taste-135cb8b10c34 https://t.co/Szz3RTAoEV",
+      "text_zh": "低品味的组织成本 https://uxdesign.cc/the-organizational-cost-of-low-taste-135cb8b10c34 https://t.co/Szz3RTAoEV",
+      "text_zh_hash": "967f443292ebddab",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/SidebarIO/status/2072359837350940788"
     },
     {
