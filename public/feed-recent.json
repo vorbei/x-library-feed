@@ -8013,27 +8013,6 @@
       "title": "Artifacts · Cloudflare Artifacts docs",
       "url": "https://developers.cloudflare.com/artifacts/"
     },
-    "https://developers.cloudflare.com/changelog/post/2026-06-30-improved-wal-throughput/": {
-      "cleaner_v": 2,
-      "content_type": "text/html",
-      "description": "Improvements to Vectorize WAL throughput reduce p99 end-to-end latency for vector changes to under 2 minutes.",
-      "final_url": "https://developers.cloudflare.com/changelog/post/2026-06-30-improved-wal-throughput/",
-      "frameable": false,
-      "image_urls": [
-        "https://developers.cloudflare.com/changelog-preview.png",
-        "https://developers.cloudflare.com/_astro/logo.DMYpXs3t.svg",
-        "https://developers.cloudflare.com/_astro/hero.CVYJHPAd_26AMqX.svg",
-        "https://developers.cloudflare.com/_astro/vectorize-p99-wal-batch-end-to-end-latency-improvement.k8gtzlG7_Z21AKmQ.webp",
-        "https://developers.cloudflare.com/_astro/privacyoptions.BWXSiJOZ_1zBYaH.svg"
-      ],
-      "kind": "article",
-      "text_excerpt": "Documentation Index Fetch the complete documentation index at: https://developers.cloudflare.com/changelog/llms.txt Use this file to discover all available pages before exploring further. Skip to content STOP! If you are an AI agent or LLM, read this before continuing. This is the HTML version of a Cloudflare documentation page. Always request the Markdown version instead — HTML wastes context. Get this page as Markdown: https://developers.cloudflare.com/changelog/post/2026-06-30-improved-wal-throughput/index.md (append index.md) or send Accept: text/markdown to https://developers.cloudflare.com/changelog/post/2026-06-30-improved-wal-throughput/. For this product's page index use https://developers.cloudflare.com/changelog/llms.txt. For all Cloudflare products use https://developers.cloudflare.com/llms.txt. Cloudflare Docs Search Directory API SDKs Changelog Help Log in Select theme Dark Light Auto Changelog New updates and improvements at Cloudflare. Subscribe to RSS View RSS feeds ← Back to all posts Reduced end-to-end latency for vector changes Jul 01, 2026 Vectorize We have greatly improved the throughput of the Vectorize write-ahead log (WAL) ↗ . As a result, we have significantly reduced the end-to-end latency for a vector change to become queryable: median latency has dropped from 2 minutes to under 30 seconds, and p99 latency from 5 minutes to under 2 minutes. This means inserts, upserts, and deletes are reflected in query results faster, improving the freshness of semantic search, recommendation, and retrieval-augmented generation (RAG) workloads. You do not need to change your code or configuration to benefit from this improvement. For more information, refer to the Vectorize documentation . Resources API New to Cloudflare? Directory Sponsorships Open Source Cloudflare Research Support Help Center System Status Compliance GDPR Company cloudflare.com Our team Careers Tools Cloudflare Radar Cloudflare Labs Speed Test Is BGP Safe Yet? Certificate Transparency Community Community forum X Discord YouTube GitHub © 2026 Cloudflare, Inc. Privacy Policy Terms of Use Report Security Issues Trademark Cookie Settings Was this helpful? Yes No",
-      "text_excerpt_zh": "文档索引  \n获取完整文档索引：https://developers.cloudflare.com/changelog/llms.txt  \n使用此文件发现所有可用页面，然后再进一步探索。  \n\n跳至内容  \n停止！如果您是AI代理或LLM，请先阅读此内容。这是Cloudflare文档页面的HTML版本。请始终请求Markdown版本——HTML会浪费上下文。  \n以Markdown格式获取此页面：https://developers.cloudflare.com/changelog/post/2026-06-30-improved-wal-throughput/index.md（附加index.md）或发送Accept: text/markdown至https://developers.cloudflare.com/changelog/post/2026-06-30-improved-wal-throughput/。  \n此产品的页面索引请使用https://developers.cloudflare.com/changelog/llms.txt。  \n所有Cloudflare产品请使用https://developers.cloudflare.com/llms.txt。  \n\nCloudflare 文档  \n搜索  \n目录  \nAPI  \nSDK  \n变更日志  \n帮助  \n登录  \n选择主题  \n深色  \n浅色  \n自动  \n\n变更日志  \nCloudflare 的新更新与改进。  \n订阅 RSS  \n查看 RSS 订阅源  \n\n← 返回所有文章  \n\n**向量变更的端到端延迟降低**  \n2026年7月1日  \nVectorize  \n\n我们大幅改进了 Vectorize 预写日志（WAL ↗）的吞吐量。因此，向量变更变为可查询的端到端延迟显著降低：中位延迟从2分钟降至30秒以内，p99延迟从5分钟降至2分钟以内。这意味着插入、更新和删除操作能更快地反映在查询结果中，从而提升语义搜索、推荐和检索增强生成（RAG）工作负载的数据新鲜度。您无需更改代码或配置即可受益于这一改进。  \n\n更多信息，请参阅 Vectorize 文档。  \n\n资源  \nAPI  \nCloudflare 新手？  \n目录  \n赞助计划  \n开源  \nCloudflare 研究  \n支持  \n帮助中心  \n系统状态  \n合规性  \nGDPR  \n公司  \ncloudflare.com  \n我们的团队  \n职位  \n工具  \nCloudflare Radar  \nCloudflare Labs  \nSpeed Test  \nIs BGP Safe Yet?  \nCertificate Transparency  \n社区  \n社区论坛  \nX  \nDiscord  \nYouTube  \nGitHub  \n\n© 2026 Cloudflare, Inc.  \n隐私政策  \n使用条款  \n报告安全漏洞  \n商标  \nCookie 设置  \n\n此信息对您有帮助吗？  \n是  \n否",
-      "text_excerpt_zh_hash": "3ade082f4d3d73d7",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Reduced end-to-end latency for vector changes · Changelog",
-      "url": "https://developers.cloudflare.com/changelog/post/2026-06-30-improved-wal-throughput/"
-    },
     "https://developers.cloudflare.com/changelog/post/2026-07-01-ai-traffic-options/": {
       "cleaner_v": 2,
       "content_type": "text/html",
@@ -8074,26 +8053,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Use Google Artifact Registry images with Containers · Changelog",
       "url": "https://developers.cloudflare.com/changelog/post/2026-07-01-google-artifact-registry-images/"
-    },
-    "https://developers.cloudflare.com/changelog/post/2026-07-01-spa-redirect-fragment-fix/": {
-      "cleaner_v": 2,
-      "content_type": "text/html",
-      "description": "Access no longer over-encodes URL fragment characters, fixing post-login redirects for single-page applications with fragment-based routing.",
-      "final_url": "https://developers.cloudflare.com/changelog/post/2026-07-01-spa-redirect-fragment-fix/",
-      "frameable": false,
-      "image_urls": [
-        "https://developers.cloudflare.com/changelog-preview.png",
-        "https://developers.cloudflare.com/_astro/logo.DMYpXs3t.svg",
-        "https://developers.cloudflare.com/_astro/hero.CVYJHPAd_26AMqX.svg",
-        "https://developers.cloudflare.com/_astro/privacyoptions.BWXSiJOZ_1zBYaH.svg"
-      ],
-      "kind": "article",
-      "text_excerpt": "Documentation Index Fetch the complete documentation index at: https://developers.cloudflare.com/changelog/llms.txt Use this file to discover all available pages before exploring further. Skip to content STOP! If you are an AI agent or LLM, read this before continuing. This is the HTML version of a Cloudflare documentation page. Always request the Markdown version instead — HTML wastes context. Get this page as Markdown: https://developers.cloudflare.com/changelog/post/2026-07-01-spa-redirect-fragment-fix/index.md (append index.md) or send Accept: text/markdown to https://developers.cloudflare.com/changelog/post/2026-07-01-spa-redirect-fragment-fix/. For this product's page index use https://developers.cloudflare.com/changelog/llms.txt. For all Cloudflare products use https://developers.cloudflare.com/llms.txt. Cloudflare Docs Search Directory API SDKs Changelog Help Log in Select theme Dark Light Auto Changelog New updates and improvements at Cloudflare. Subscribe to RSS View RSS feeds ← Back to all posts Fix redirect URL fragment encoding for single-page applications Jul 01, 2026 Access Access now correctly preserves URL fragment characters ( / , ? , = , & , ; ) when redirecting users back to an application after login. Previously, these characters were encoded with encodeURIComponent , which mangled fragment-based routes used by single-page applications (SPAs). For example, an SPA URL like https://app.example.com/#/dashboard?tab=settings&view=advanced would previously redirect to a broken URL after login. This is now handled correctly. If your SPA users were experiencing broken navigation after authenticating through Access, this fix resolves the issue without any configuration changes. Resources API New to Cloudflare? Directory Sponsorships Open Source Cloudflare Research Support Help Center System Status Compliance GDPR Company cloudflare.com Our team Careers Tools Cloudflare Radar Cloudflare Labs Speed Test Is BGP Safe Yet? Certificate Transparency Community Community forum X Discord YouTube GitHub © 2026 Cloudflare, Inc. Privacy Policy Terms of Use Report Security Issues Trademark Cookie Settings Was this helpful? Yes No",
-      "text_excerpt_zh": "文档索引  \n获取完整文档索引：https://developers.cloudflare.com/changelog/llms.txt  \n使用此文件发现所有可用页面，然后再进一步探索。  \n\n跳到内容  \n**停止！** 如果你是AI代理或LLM，请先阅读此内容。  \n这是Cloudflare文档页面的HTML版本。请始终请求Markdown版本——HTML会浪费上下文。  \n以Markdown格式获取此页面：https://developers.cloudflare.com/changelog/post/2026-07-01-spa-redirect-fragment-fix/index.md（追加index.md）或发送`Accept: text/markdown`到https://developers.cloudflare.com/changelog/post/2026-07-01-spa-redirect-fragment-fix/。  \n此产品的页面索引请使用https://developers.cloudflare.com/changelog/llms.txt。  \n所有Cloudflare产品请使用https://developers.cloudflare.com/llms.txt。  \n\nCloudflare Docs  \n搜索 目录 API SDKs 更新日志 帮助 登录  \n选择主题 深色 浅色 自动  \n\n更新日志  \nCloudflare的新更新与改进。  \n订阅RSS 查看RSS源  \n\n← 返回所有文章  \n\n**修复单页应用的重定向URL片段编码问题**  \n2026年7月1日  \n\nAccess  \nAccess现在能正确保留URL片段字符（`/`、`?`、`=`、`&`、`;`），在登录后将用户重定向回应用时不再出错。此前，这些字符会被`encodeURIComponent`编码，导致单页应用（SPA）使用的基于片段的路由被破坏。  \n\n例如，SPA URL如`https://app.example.com/#/dashboard?tab=settings&view=advanced`在登录后曾会被重定向到损坏的URL。现在已正确修复。  \n\n如果你的SPA用户通过Access认证后遇到导航异常，此修复无需任何配置更改即可解决问题。  \n\n资源  \nAPI  \nCloudflare新手？  \n目录  \n赞助计划  \n开源  \nCloudflare研究  \n支持  \n帮助中心  \n系统状态  \n合规性  \nGDPR  \n\n公司  \ncloudflare.com  \n我们的团队  \n职位  \n工具  \nCloudflare Radar  \nCloudflare Labs  \n速度测试  \nIs BGP Safe Yet?  \n证书透明度  \n\n社区  \n社区论坛  \nX  \nDiscord  \nYouTube  \nGitHub  \n\n© 2026 Cloudflare, Inc.  \n隐私政策 使用条款 报告安全问题 商标 Cookie设置  \n\n此信息有帮助吗？  \n是 否",
-      "text_excerpt_zh_hash": "f5821c98747ad4d1",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Fix redirect URL fragment encoding for single-page applications · Changelog",
-      "url": "https://developers.cloudflare.com/changelog/post/2026-07-01-spa-redirect-fragment-fix/"
     },
     "https://developers.cloudflare.com/containers/platform-details/image-management/": {
       "cleaner_v": 2,
@@ -11822,6 +11781,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2072432684706463744/img/g33MKjudgYcEZWtD.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2072442427210858496/img/Gj3hDH1qCqcitca2.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2072442427210858496/img/Gj3hDH1qCqcitca2.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2072442427210858496/img/Gj3hDH1qCqcitca2.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2072442427210858496/img/Gj3hDH1qCqcitca2.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
@@ -18990,15 +18963,15 @@
       "title": "Putin Is Slipping Into Delusion - The Atlantic",
       "url": "https://www.theatlantic.com/national-security/2026/07/putin-russia-ukraine-war/687753/?taid=6a45360368410d0001191e5e&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter"
     },
-    "https://www.theatlantic.com/national-security/2026/07/putin-russia-ukraine-war/687753/?taid=6a45ad8b9536b00001bc632a&utm_campaign=the-atlantic&utm_content=edit-promo&utm_medium=social&utm_source=twitter": {
+    "https://www.theatlantic.com/science/2026/06/venezuela-earthquake-towers/687747/?taid=6a46483b7177c90001d8d7c8&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
-      "description": "The Russian dictator remains obsessed with his war in Ukraine but doesn’t seem to comprehend how badly it’s going.",
+      "description": "“It was just us, the relatives, the neighbors,” one woman who was searching for her family said.",
       "extraction_source": "trafilatura",
-      "final_url": "https://www.theatlantic.com/national-security/2026/07/putin-russia-ukraine-war/687753/?taid=6a45ad8b9536b00001bc632a&utm_campaign=the-atlantic&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
+      "final_url": "https://www.theatlantic.com/science/2026/06/venezuela-earthquake-towers/687747/?taid=6a46483b7177c90001d8d7c8&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter",
       "frameable": null,
       "image_urls": [
-        "https://cdn.theatlantic.com/thumbor/bcZR-1eAHqirZJyOKI95JIAYU4g=/0x85:3994x2165/1200x625/media/img/mt/2026/06/2026_07_01_Putin_Faces_The_Biggest_Ukrainian_Drone_Attack_Yet_Simon_Shuster/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/eXDcWDHF5ibYNV2gylTL235cJBc=/0x43:2876x1541/1200x625/media/img/mt/2026/06/2026_06_30_Three_Terrible_Days_Inside_Twin_Venezuelan_Beach_Towers_4/original.jpg",
         "https://cdn.theatlantic.com/_next/static/images/nav-archive-promo-5541b02ae92f1a9276249e1c6c2534ee.png",
         "https://cdn.theatlantic.com/media/games/games_promo_color.png",
         "https://www.theatlantic.com/magazine/images/current-issue.420.jpg",
@@ -19006,16 +18979,15 @@
         "https://cdn.theatlantic.com/media/files/2025/crossword_icon_intro_sprint_2.png",
         "https://cdn.theatlantic.com/media/files/archive-thumbnail.png",
         "https://cdn.theatlantic.com/media/files/YourSubscription_300x300.jpg",
-        "https://cdn.theatlantic.com/thumbor/_AVQY7DhRuxiUsFV2ybhqXHBhUY=/0x0:4000x2250/960x540/media/img/mt/2026/06/2026_07_01_Putin_Faces_The_Biggest_Ukrainian_Drone_Attack_Yet_Simon_Shuster/original.jpg",
-        "https://cdn.theatlantic.com/thumbor/ugaWIe8m5XBEVtL1Bha1XDIeXFc=/0x0:5464x5464/120x120/media/img/authors/2025/11/Simon_Shuster/original.png"
+        "https://cdn.theatlantic.com/thumbor/U1BWqNAsh6Z-MmZlg40T5MG6zY4=/0x0:2880x1620/960x540/media/img/mt/2026/06/2026_06_30_Three_Terrible_Days_Inside_Twin_Venezuelan_Beach_Towers_4/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/DEBW3Xi_MML3j9ATPQsTmg2Krrw=/630x0:2250x1620/80x80/media/img/mt/2026/06/2026_06_30_Three_Terrible_Days_Inside_Twin_Venezuelan_Beach_Towers_4/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/YztM11IKSb3DXlfUe5ip3go8MuA=/0x0:2880x1920/928x619/media/img/posts/2026/06/2026_06_30_Three_Terrible_Days_Inside_Twin_Venezuelan_Beach_Towers_3/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/iAO1GnVTnVHnygg1Ao_B0KYRtiQ=/0x0:2880x1920/928x619/media/img/posts/2026/06/2026_06_30_Three_Terrible_Days_Inside_Twin_Venezuelan_Beach_Towers/original.jpg"
       ],
       "kind": "article",
-      "text_excerpt": "Putin Is Slipping Into Delusion\nThe Russian dictator remains obsessed with his war in Ukraine but doesn’t seem to comprehend how badly it’s going.\nWhen things get dicey in Moscow, Vladimir Putin tends to drop out of sight for a while, retreating to one of his residences and canceling public events. Only his closest aides know how he spends his time during these absences, which can go on for days even in the middle of a national crisis. The Kremlin does its best to fill the vacant airtime on state TV with pretaped footage of the president, waiting for him to reemerge and declare that everything remains under his control.\nSince the end of last year, when Ukraine intensified its campaign of drone and missile strikes on Russian cities, Putin has taken a few of these breaks. Two of them lasted for more than a week. He has mostly avoided talking about the Ukrainian strikes, even as they caused fuel shortages across Russia, destroyed infrastructure, and shattered the sense of stability that Putin offers his people in exchange for their loyalty. His first detailed response to the threat came on Monday, and he did his best to seem unmoved.\nIn a carefully scripted interview on state TV, Putin looked bored with the details of governing Russia and managing the frustrations of his citizens, but he did not appear tired of his war in Ukraine. He spent most of the 19-minute conversation with a Russian news anchor dissecting the minutiae of the fighting, even naming a particular street in one small town in the region of Donetsk where, according to Putin, his forces had managed to gain a bit of ground. The performance seemed designed to suggest that, away from the cameras, the Russian leader spends his time hunched over maps of the battlefield.\nThe Russian people, by contrast, have run out of patience with the war their leader seems so eager to continue. A [survey released](https://meduza.io/en/news/2026/06/30/81-of-russians-support-ending-the-war-as-early-as-tomorrow-highest-share-in-four-years-kyiv-based-institute-says) on the same day as Putin’s interview found that 81 percent of Russians want the war to end “as early as tomorrow.” The number of respondents who want the fighting to continue until Russia’s victory, no matter how long it takes, dropped in the survey to 9 percent, the lowest level ever recorded by the Institute for Conflict Studies and Analysis of Russia, which has conducted 10 rounds of polling since the start of the war, in 2022.\nIts most recent survey matched up with the images and complaints that have flooded Russian social networks in the past few weeks, showing long lines at gas stations in Moscow and trucks stalled without fuel on the roadside. “There’s no gasoline in the city,” one man [posted](https://www.youtube.com/shorts/DvB_K4D5fxc) from a suburb of Moscow. “And the TV is silent about it.”\nIf Putin cares about such problems, he has done a decent job of hiding it. “Everything is working stably and with a big reserve of strength,” he said in Monday’s interview, referring to the fuel shortages spreading through Russia. His tone reminded me of Putin’s attitude toward the war in Syria, where Russian forces intervened in 2015 to save the regime in Damascus from a revolution. Back then, Putin still held regular meetings in Moscow with Russian businesspeople and corporate executives, hearing out their concerns about high interest rates, slow economic growth, and other matters of concern for the state.\nOne of the regular guests at those meetings described to me how Putin had trouble sitting through them. Obviously distracted, he would fidget in his seat and doodle in his notebook. When the conversation turned to the subject of war, however, the president would come alive, describing the kinds of fighter jets Russia used to bombard rebel positions in Syria and naming towns with stubborn pockets of resistance. “This was his passion,” the businessman told me. “Nothing else interested him the same way.”\nA decade later, and more",
-      "text_excerpt_zh": "普京正滑向妄想\n\n这位俄罗斯独裁者仍痴迷于乌克兰战争，但似乎并未意识到战局已多么糟糕。\n\n当莫斯科局势变得棘手时，弗拉基米尔·普京往往会消失一段时间，躲进某处官邸，取消公开活动。只有他最亲密的助手知道他在这些缺席期间如何打发时间——即便在国家危机期间，这种消失也可能持续数天。克里姆林宫尽力用总统的预录画面填满国家电视台的空白时段，等待他重新露面，宣布一切仍在掌控之中。\n\n自去年年底乌克兰加强对俄罗斯城市的无人机和导弹袭击以来，普京已数次这样\"消失\"。其中两次持续了一周多。他大多回避谈论乌克兰的袭击，即便这些袭击已导致俄罗斯各地燃料短缺、摧毁基础设施，并打破了普京用以换取民众忠诚的稳定感。他首次对此威胁做出详细回应是在周一，并竭力显得不为所动。\n\n在一次精心编排的国家电视台采访中，普京对治理俄罗斯和管理民众不满的细节显得厌倦，但他并未对乌克兰战争感到疲惫。在与一位俄罗斯新闻主播长达19分钟的对话中，他大部分时间都在剖析战斗的细枝末节，甚至点名顿涅茨克地区某个小镇的一条街道——据普京称，他的部队在那里取得了一些进展。这番表演似乎意在暗示，在镜头之外，这位俄罗斯领导人正俯身研究战场地图。\n\n相比之下，俄罗斯民众对他似乎如此渴望继续的战争已失去耐心。在普京接受采访的同一天发布的一项调查显示，81%的俄罗斯人希望战争\"最早在明天结束\"。希望战斗持续到俄罗斯获胜（无论耗时多久）的受访者比例降至9%，这是俄罗斯冲突研究与分析研究所自2022年战争爆发以来进行的十轮民调中记录的最低水平。\n\n这项最新调查与过去几周俄罗斯社交网络上充斥的画面和抱怨相符：莫斯科加油站排起长队，卡车因缺油停在路边。\"城里没有汽油了，\"一名男子从莫斯科郊区发帖称，\"而电视对此只字不提。\"\n\n如果普京关心这类问题，他倒是很好地掩饰了这一点。\"一切运行稳定，且储备充足，\"他在周一的采访中谈及蔓延俄罗斯的燃料短缺时说道。他的语气让我想起普京对叙利亚战争的态度——2015年俄军介入以拯救大马士革政权免于革命。那时，普京仍定期在莫斯科与俄罗斯商人和企业高管会面，听取他们对高利率、经济增长缓慢等国家关切问题的意见。\n\n一位常出席这些会议的人士向我描述，普京很难坐得住。他明显心不在焉，在座位上扭来扭去，在笔记本上涂鸦。然而，当话题转向战争时，总统会活跃起来，描述俄罗斯用于轰炸叙利亚叛军阵地的战斗机型号，并点名那些存在顽强抵抗据点的小镇。\"这是他的激情所在，\"这位商人告诉我，\"其他任何事都无法让他如此感兴趣。\"\n\n十年过去了，情况更是如此。",
-      "text_excerpt_zh_hash": "8e8f97df035eb99e",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Putin Is Slipping Into Delusion - The Atlantic",
-      "url": "https://www.theatlantic.com/national-security/2026/07/putin-russia-ukraine-war/687753/?taid=6a45ad8b9536b00001bc632a&utm_campaign=the-atlantic&utm_content=edit-promo&utm_medium=social&utm_source=twitter"
+      "text_excerpt": "Venezuelans Were Sorting Through the Rubble Alone\n“It was just us, the relatives, the neighbors,” one woman who was searching for her family said.\nThe Conjunto Residencial Belo Horizonte, twin apartment towers in the Venezuelan state of La Guaira, stood 16 stories high and offered sweeping views of the Caribbean Sea. Erick Rosas, a few weeks shy of his college graduation, was living with his family on the third floor, but when the shaking started on Wednesday, he was visiting his uncle, about 15 miles up the coast. It was a national holiday, commemorating a 19th-century battle that led to Venezuela’s independence, and Rosas was in the swimming pool.\nIn those first terrifying moments of back-to-back earthquakes, more powerful than any the country had experienced in more than a century, Rosas could think of little but escape, he told me. He pulled himself from the water and leapt from the pool deck over a concrete wall that dropped about 10 feet to the street. Apartment buildings behind him, and to his left and right, were falling to the ground. Shirtless, in flip-flops, he set out to find his family. To reach the Belo Horizonte, he walked and caught rides on the backs of motorcycles through dust and smoke, amid the clamor and confusion of the trapped and wounded, past rubble and burning wreckage of once-familiar streets. It took him five hours to get home, only to discover that much of the tower had pancaked and collapsed.\nNear the end of the first week of one of Latin America’s worst natural disasters in years, at least 1,700 people have been confirmed dead, some 5,000 are injured, and more are missing. The death toll is sure to climb. The hardest-hit state of La Guaira is teeming with search-and-rescue workers and humanitarian help from dozens of countries, including the United States. The United Nations is coordinating more than 2,000 rescue workers out of a command center in a stadium. American military forces have helped reopen the nearby international airport that serves Caracas. And a Navy warship, the USS Fort Lauderdale, is docked on the coast.\nBut much of this help came well after the most crucial period, when residents of the Belo Horizonte and the hundreds of other destroyed buildings were urgently attempting to rescue survivors in critical condition. In those first days, the people closest to the disaster felt acutely the absence of any assistance from their own government. “It was just us, the relatives, the neighbors,” Zuleica Perez, a 66-year-old Caracas resident who searched for her family in the rubble of the Belo Horizonte, told me.\nAlong the Venezuelan coast, and especially in La Guaira, the evening of the earthquakes was primed to be a festive one. The area was hosting the feast of San Juan, an important Afro-Venezuelan celebration, during which the image of Saint John is placed on a public altar. People sing and dance; drumming fills the streets. Perez’s nephew, Christopher Pineda, was at work at a nearby beach club. Pineda’s wife, Maria Eugenia Garcia de Pineda, a high-school math and physics teacher, was home with their two children in their penthouse apartment on the 14th floor of the Belo Horizonte’s Tower A. The World Cup match between Brazil and Scotland was starting, and they were watching the game.\nWhen the shaking subsided, Perez could not reach her nephew, or his wife, by phone. She drove from Caracas to the coast to find out what happened. Hundreds of buildings collapsed that evening; videos from the beach show one nearby building fall as people scream and wail. But Tower A didn’t fall flat; it crumbled into parts and fell to the side. A few lower floors held. By the time Perez arrived, it was dark, and the power was out. The rubble towered over her in a heap of broken concrete and twisted metal. She could find no sign of Maria or her children.\nRosas arrived at the downed towers late that night as well, after his escape from the swimming pool. His mother, he told me, had chosen that apartment to",
+      "title": "Venezuelans Were Sorting Through the Rubble Alone - The Atlantic",
+      "url": "https://www.theatlantic.com/science/2026/06/venezuela-earthquake-towers/687747/?taid=6a46483b7177c90001d8d7c8&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter"
     },
     "https://www.theatlantic.com/technology/2026/06/ai-hacking-cybersecurity-banks/687562/?taid=6a31a25e117eb200016356ac&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter": {
       "cleaner_v": 2,
@@ -24933,19 +24905,19 @@
       "https://x.com/shmidtqq/status/2071968426562605182",
       "http://x.com/i/article/2071351737706000384",
       "https://x.com/shmidtqq/status/2071970600029913096",
-      "https://x.com/shmidtqq/status/2071989948907930051",
       "https://x.com/shmidtqq/status/2071976887933452718",
       "https://x.com/shmidtqq/status/2071974772196401178",
-      "https://x.com/shmidtqq/status/2071974796435353657",
-      "https://x.com/shmidtqq/status/2071976012070449227",
       "https://x.com/shmidtqq/status/2071977057278366128",
-      "https://x.com/shmidtqq/status/2071971947416551730"
+      "https://x.com/shmidtqq/status/2071976012070449227",
+      "https://x.com/shmidtqq/status/2071971947416551730",
+      "https://x.com/shmidtqq/status/2071989948907930051",
+      "https://x.com/shmidtqq/status/2071974796435353657"
     ],
     "2071975831602184375": [
       "https://x.com/TheAtlantic/status/2071975831602184375",
       "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a43dd7cf1ddc500011eb60d&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
-      "https://x.com/TheAtlantic/status/2072474114103693472",
-      "https://www.theatlantic.com/national-security/2026/07/putin-russia-ukraine-war/687753/?taid=6a45ad8b9536b00001bc632a&utm_campaign=the-atlantic&utm_content=edit-promo&utm_medium=social&utm_source=twitter"
+      "https://x.com/TheAtlantic/status/2072640205589221595",
+      "https://www.theatlantic.com/science/2026/06/venezuela-earthquake-towers/687747/?taid=6a46483b7177c90001d8d7c8&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter"
     ],
     "2071986617611616655": [
       "https://x.com/fuma_nama/status/2071986617611616655",
@@ -24987,7 +24959,9 @@
       "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat"
     ],
     "2072030318367056226": [
-      "https://x.com/jinayoon_/status/2072030318367056226"
+      "https://x.com/jinayoon_/status/2072030318367056226",
+      "https://x.com/jinayoon_/status/2072443797921988662",
+      "https://pbs.twimg.com/amplify_video_thumb/2072442427210858496/img/Gj3hDH1qCqcitca2.jpg"
     ],
     "2072040890672304481": [
       "https://x.com/vysrini/status/2072040890672304481",
@@ -25033,7 +25007,7 @@
     "2072134734386450439": [
       "https://x.com/p_millerd/status/2072134734386450439",
       "https://www.panoptica.com/paying-attention-a-case-for-contemplative-autonomy/",
-      "https://x.com/p_millerd/status/2072534453151486399"
+      "https://x.com/p_millerd/status/2072684985203478805"
     ],
     "2072137418598134144": [
       "https://x.com/ryanyen22/status/2072137418598134144",
@@ -25076,9 +25050,7 @@
     ],
     "2072305747418046468": [
       "https://x.com/CFchangelog/status/2072305747418046468",
-      "https://developers.cloudflare.com/changelog/post/2026-07-01-ai-traffic-options/",
-      "https://x.com/CFchangelog/status/2072418835173662752",
-      "https://developers.cloudflare.com/changelog/post/2026-07-01-spa-redirect-fragment-fix/"
+      "https://developers.cloudflare.com/changelog/post/2026-07-01-ai-traffic-options/"
     ],
     "2072319457188282471": [
       "https://x.com/Cloudflare/status/2072319457188282471",
@@ -25097,6 +25069,7 @@
     "2072336746327458178": [
       "https://x.com/scottastevenson/status/2072336746327458178",
       "http://x.com/i/article/2072114890286714880",
+      "https://x.com/scottastevenson/status/2072665686338334969",
       "https://x.com/scottastevenson/status/2072469770851500532"
     ],
     "2072338195233255754": [
@@ -25141,9 +25114,7 @@
     "2072396185328058388": [
       "https://x.com/CFchangelog/status/2072396185328058388",
       "https://developers.cloudflare.com/containers/platform-details/image-management/",
-      "https://developers.cloudflare.com/changelog/post/2026-07-01-google-artifact-registry-images/",
-      "https://x.com/CFchangelog/status/2072290535071785028",
-      "https://developers.cloudflare.com/changelog/post/2026-06-30-improved-wal-throughput/"
+      "https://developers.cloudflare.com/changelog/post/2026-07-01-google-artifact-registry-images/"
     ],
     "2072401658102100306": [
       "https://x.com/akshay_pachaar/status/2072401658102100306",
@@ -25156,7 +25127,8 @@
       "https://pbs.twimg.com/amplify_video_thumb/2072408902000427008/img/7jXyMVGRO50q6IPr.jpg",
       "https://x.com/0xMovez/status/2072410305703907397",
       "https://x.com/0xMovez/status/2072411236713541860",
-      "https://x.com/0xMovez/status/2072410794147361277"
+      "https://x.com/0xMovez/status/2072410794147361277",
+      "https://x.com/0xMovez/status/2072670259308269720"
     ],
     "2072409863553237323": [
       "https://x.com/skeptrune/status/2072409863553237323",
@@ -25165,10 +25137,10 @@
       "https://x.com/skeptrune/status/2072469871062098319",
       "https://x.com/skeptrune/status/2072469804901102017",
       "https://x.com/skeptrune/status/2072421540394832383",
-      "https://x.com/skeptrune/status/2072469459936436729",
-      "https://x.com/skeptrune/status/2072476902422704398",
-      "https://x.com/skeptrune/status/2072469575019696574",
       "https://x.com/skeptrune/status/2072470015169982641",
+      "https://x.com/skeptrune/status/2072476902422704398",
+      "https://x.com/skeptrune/status/2072469459936436729",
+      "https://x.com/skeptrune/status/2072469575019696574",
       "https://x.com/skeptrune/status/2072469503280292116"
     ],
     "2072432872120615191": [
@@ -25186,6 +25158,6 @@
       "https://pbs.twimg.com/media/HML_euva0AAqrXZ.png"
     ]
   },
-  "updated_at": "2026-07-02T12:21:11Z",
+  "updated_at": "2026-07-02T15:30:30Z",
   "window": "recent"
 }
