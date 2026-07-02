@@ -106,6 +106,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Models are commoditizing fast. Harnesses already have.\n\n\"Free\" open-source harnesses don't make you free. What you want to own is the context layer.\n\nThe deeper you build into one harness, the more you lose the day you leave: conversations, preferences, and skills. Detach it, and any harness or model knows you in ~5 minutes.\n\nHere's what your context layer should contain:\n\n- unified memory + business logic + a serving layer + a disposable harness\n- serve it over MCP/skills so swapping harnesses is a one-line config change\n- start simple (a folder of markdown files) and scale to a knowledge graph only when you need it\n- keep it in 1 store, e.g. @MongoDB  (not 3 DBs), and let it learn as you use it\n\nJust published the deep dive:\n\nhttps://www.decodingai.com/p/the-context-layer\n\nHow do you switch skills between harnesses? I still have this issue with Claude Code's workflows and agents embedded into my skills.",
+      "text_zh": "模型正在快速商品化。工具链（harnesses）已经如此。\n\n“免费”的开源工具链并不会让你真正自由。你真正应该拥有的是上下文层（context layer）。\n\n你越深入某个工具链，离开时失去的就越多：对话记录、偏好设置和技能。将其解耦，任何工具链或模型都能在约5分钟内了解你。\n\n你的上下文层应包含以下内容：\n\n- 统一的内存 + 业务逻辑 + 服务层 + 可替换的工具链\n- 通过MCP/技能提供服务，这样切换工具链只需一行配置更改\n- 从简单的Markdown文件文件夹开始，仅在需要时扩展为知识图谱\n- 将所有内容保存在一个存储中（例如@MongoDB，而非三个数据库），并让它随着你的使用不断学习\n\n刚刚发布了深度解析：\n\nhttps://www.decodingai.com/p/the-context-layer\n\n你如何在不同的工具链之间切换技能？我仍然遇到这个问题：Claude Code的工作流和代理嵌入到我的技能中。",
+      "text_zh_hash": "0023cc834199535f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/pauliusztin_/status/2072265762035667021"
     },
     {
@@ -147,6 +150,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "i grow less interested in RL research like this by the day\n\nthe only reason to RL was to increase profit margin. if you could get a tuned OSS model to perform similarly to an anthropic or openai one, then you could swap customers over to that and make 20%/$ instead of 5%\n\nhowever, now that OSS is mostly caught up, you can swap customers from opus to GLM without any fine tuning and nobody will notice.\n\nHURRAH! in 2026, you can quickly adopt OSS and increase margin without wasting any time or $$ on fine-tuning nonsense. no research talent needed\n\nextend this idea out a bit and you can see why the venture market is so excited about the inference category. companies like fireworks, etched, baseten, etc. are going to make billions of $$ in the next few mths\n\ni wish there was more retail allocation",
+      "text_zh": "我对这类强化学习研究越来越不感兴趣了。\n\n强化学习的唯一目的就是提高利润率。如果你能让一个经过调优的开源模型表现与 Anthropic 或 OpenAI 的模型相当，那么你就可以把客户迁移过去，赚取 20% 的利润，而不是 5%。\n\n然而，既然开源模型已经基本追赶上来了，你甚至可以把客户从 Opus 换成 GLM，无需任何微调，也没人会注意到。\n\n太好了！到 2026 年，你可以快速采用开源模型，提高利润率，而无需在微调这种无聊的事情上浪费任何时间或金钱。根本不需要研究人才。\n\n把这个思路再延伸一下，你就能明白为什么风投市场对推理赛道如此兴奋了。像 Fireworks、Etched、Baseten 这样的公司，未来几个月将赚取数十亿美元。\n\n真希望有更多散户能参与进来。",
+      "text_zh_hash": "2ff3e4168fef4f98",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/skeptrune/status/2072409863553237323"
     },
     {
@@ -201,6 +207,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "This paper completely changed how I think about when RAG should go fetch documents:\n\nDraft the next sentence -> Check token confidence -> If low, use it as a query -> Retrieve documents -> Regenerate the sentence\n\nHere is the 5-step blueprint:\n\nForward-looking: instead of retrieving on past context, the model first drafts the upcoming sentence and uses it to decide what it is missing.\n\nConfidence threshold: the draft is scanned for low-confidence tokens by probability; a confident sentence is kept as is, with no extra retrieval.\n\nQuery from the future: a low-confidence sentence is masked on its weak tokens or rewritten into a question and sent to the retriever.\n\nRegeneration: the sentence is rewritten on the fetched documents, then the loop moves to the next sentence.\nActive loop: retrieval fires not on a fixed interval but at the exact moment in generation where the model actually goes shaky.\n\nKey insight: to know what to fetch, do not query the past context, query the draft of what the model is about to say next.\n\nOne generic training-free loop beats single-time and fixed-interval retrieval across all four long-form datasets.\n\nRead this, then check the article below.",
+      "text_zh": "这篇论文彻底改变了我对RAG何时应检索文档的看法：\n\n草拟下一句 → 检查token置信度 → 若置信度低，将其作为查询 → 检索文档 → 重新生成该句\n\n以下是五步蓝图：\n\n前瞻性：模型不依赖过去上下文进行检索，而是先草拟即将生成的句子，并据此判断缺失信息。\n\n置信度阈值：通过概率扫描草稿中置信度低的token；若句子整体置信度高，则保留原样，无需额外检索。\n\n未来查询：将置信度低的句子在其薄弱token处进行掩码处理，或改写为问题，发送给检索器。\n\n重新生成：基于检索到的文档重写该句，然后循环进入下一句。\n\n主动循环：检索并非按固定间隔触发，而是在生成过程中模型实际出现不确定性的精确时刻触发。\n\n核心洞察：要知道该获取什么，不要查询过去上下文，而要查询模型即将说出的下一句草稿。\n\n这一通用且无需训练的循环，在所有四个长文本数据集上均优于单次检索和固定间隔检索。\n\n先阅读本文，再查看下方文章。",
+      "text_zh_hash": "fc673d1b73a7c587",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/h100envy/status/2072344857255846024"
     },
     {
@@ -241,6 +250,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "This is how we can make AI safe for everyone https://ft.trib.al/JA9WfUB",
+      "text_zh": "这是我们可以让AI对所有人都安全的方法 https://ft.trib.al/JA9WfUB",
+      "text_zh_hash": "a521969e9a18ddbf",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/FT/status/2072360079643324772"
     },
     {
@@ -281,6 +293,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "We ported miniredis (an in-memory Redis) to Rust, ~25k lines, and put it inside our runtime, so local dev and tests get a real cache with zero infra.\n\nHere’s how we built it, and how we keep it byte-for-byte compatible with the reference by running its own test suite against our port.\n\nhttps://encore.dev/blog/redis-runtime",
+      "text_zh": "我们将 miniredis（一个内存版 Redis）移植到了 Rust，约 2.5 万行代码，并将其嵌入到我们的运行时中。这样一来，本地开发和测试就能获得一个真正的缓存，而无需任何基础设施。\n\n以下是我们的构建方式，以及如何通过运行 miniredis 自身的测试套件来确保我们的移植版本与参考实现保持逐字节兼容。\n\nhttps://encore.dev/blog/redis-runtime",
+      "text_zh_hash": "b2e1e7adcf0845df",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/encoredotdev/status/2072268216471023702"
     },
     {
@@ -340,6 +355,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Are We Ready For An Agent-Native Memory System?\n\nFirst, what does that even mean?\n\nIt's memory built for an agent that keeps running, not a store you bolt on at the end. It has to hold facts across sessions, update them when they change, drop the stale ones, and hand back the right piece when the agent asks. A real data system, not a pile of saved chunks.\n\nA new study checked whether anything out there actually does this, and what decides the answer surprised me.\n\nIt takes 12 agent memory systems and splits each into four stages, covering how memory is represented, extracted, retrieved, and maintained. Then it checks which stage decides whether the agent stays correct.\n\nTurns out it's write time, not query time.\n\nThe systems that stay reliable under fact updates and cross-session reasoning are the ones that add structure as the memory is written. The graph-based methods lead right there.\n\nThe flat stores fail the same way every time. An LLM pulls out entities and relationships with no schema, and the graph fills up with generic nodes that nothing downstream can filter.\n\nA few things follow from this.\n\n→ Structure has to be set at extraction. Once the graph is built from untyped nodes, no query can recover a distinction the extractor never made.\n\n→ Updates return stale facts. Append-only and freeform stores keep handing back old versions, which the paper calls hallucinations of the past.\n\n→ A bigger model does not save it. Swapping the backbone moves the scores but rarely changes which pipeline wins, so the memory's behavior is set before generation runs.\n\nThe paper also weighs the cost. The heavily structured systems pay for it, sometimes orders of magnitude more time per query, and the win only holds when the upkeep stays local instead of rewriting the whole store on every change.\n\nSo the takeaway is less about picking a winner and more about where the structure lives. Decide it at write time, keep the maintenance cheap, and retrieval has something real to rank.\n\nRetrieval only ranks what extraction chose to keep.\n\nLink to the paper: https://arxiv.org/pdf/2606.24775\n\nIf you're into agent memory systems, I wrote a full article on exactly this. It walks through defining the schema as a Pydantic ontology in Zep, with custom entity and edge types, source and target constraints, and the extraction pipeline that turns raw conversations into typed, queryable memory.\n\nThis memory system is 100% open-source: https://github.com/getzep/graphiti\n\nThe article is quoted below.",
+      "text_zh": "## 我们准备好迎接智能体原生记忆系统了吗？\n\n首先，这到底意味着什么？\n\n这是为持续运行的智能体构建的记忆系统，而非事后才拼凑的存储方案。它必须跨会话保持事实，在事实变化时更新，淘汰过时信息，并在智能体查询时返回正确的片段。这是一个真正的数据系统，而非一堆保存的文本块。\n\n一项新研究检验了现有方案是否真正做到了这一点，而决定答案的因素让我感到意外。\n\n该研究选取了12个智能体记忆系统，将每个系统拆分为四个阶段，涵盖记忆的表示、提取、检索和维护。随后检验哪个阶段决定了智能体能否保持正确性。\n\n结果表明，关键在于写入时刻，而非查询时刻。\n\n那些在事实更新和跨会话推理中保持可靠性的系统，是在写入记忆时就添加了结构。基于图的方法在这方面表现突出。\n\n而扁平存储每次都以相同方式失败。大语言模型（LLM）在没有模式的情况下提取实体和关系，导致图中充斥着下游无法过滤的通用节点。\n\n由此可以得出几点结论：\n\n→ 结构必须在提取时设定。一旦图由无类型节点构建而成，任何查询都无法恢复提取器从未做出的区分。\n\n→ 更新会返回过时事实。仅追加和自由格式的存储会持续返回旧版本，论文称之为\"过去的幻觉\"。\n\n→ 更大的模型无法挽救局面。更换骨干模型会改变分数，但很少改变胜出的流水线，因此记忆的行为在生成运行之前就已确定。\n\n论文还权衡了成本。高度结构化的系统为此付出了代价，有时每次查询的时间成本高出几个数量级，且只有在维护保持局部化（而非每次更改都重写整个存储）时，这种优势才能持续。\n\n因此，结论与其说是选择赢家，不如说是确定结构存在于何处。在写入时决定结构，保持维护成本低廉，检索才有真正可排序的内容。\n\n检索只能对提取选择保留的内容进行排序。\n\n论文链接：https://arxiv.org/pdf/2606.24775\n\n如果你对智能体记忆系统感兴趣，我写了一篇关于此主题的完整文章。它详细介绍了如何在Zep中将模式定义为Pydantic本体，包括自定义实体和边类型、源和目标约束，以及将原始对话转化为类型化、可查询记忆的提取流水线。\n\n该记忆系统完全开源：https://github.com/getzep/graphiti\n\n文章内容如下。",
+      "text_zh_hash": "7496af81e85929c4",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/akshay_pachaar/status/2072401658102100306"
     },
     {
@@ -434,6 +452,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Fable 5 is strong, but it's double the price of Opus, and it's only free on your Claude plan through July 7th. \n\nSo I dug into how to actually correctly when we all have to switch to usage credits.\n\nWorth a 3 min read. https://t.co/vEG6IDMdz5",
+      "text_zh": "Fable 5 很强，但价格是 Opus 的两倍，而且仅在 7 月 7 日前对 Claude 套餐免费开放。\n\n因此，我深入研究了当我们都必须改用使用额度时，如何正确操作。\n\n值得花 3 分钟阅读。https://t.co/vEG6IDMdz5",
+      "text_zh_hash": "86bd357300decf41",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/nateherk/status/2072432872120615191"
     },
     {
@@ -488,6 +509,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic engineer:\n\n\"Fable is one of those models you’ll just remember - like Sonnet 3.5, Opus 4, Opus 4.5.\n\nWe just removed 80% of Claude Code’s system prompt. A new class of models wants a smaller prompt.\"\n\nin 20-minute session, an Anthropic core engineer reveals the capabilities of Fable.\n\nWatch it now, then read how to use this frontier model in the article below.",
+      "text_zh": "Anthropic工程师：\n\n“Fable是那种你会记住的模型——就像Sonnet 3.5、Opus 4、Opus 4.5一样。\n\n我们刚刚移除了Claude Code系统提示中80%的内容。新一代模型需要更精简的提示。”\n\n在20分钟的演示中，一位Anthropic核心工程师揭示了Fable的能力。\n\n立即观看，然后阅读下文了解如何使用这一前沿模型。",
+      "text_zh_hash": "6891e7ee0f2d3c56",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0xMovez/status/2072409093831266700"
     },
     {
