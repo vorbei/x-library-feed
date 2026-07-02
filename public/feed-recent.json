@@ -1502,22 +1502,6 @@
       "title": "",
       "url": "http://x.com/i/article/2061785866385911808"
     },
-    "http://x.com/i/article/2061816883691876352": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2061816883691876352",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061816883691876352/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ0QXlyaoAA36lE?format=jpg&name=900x900)](http://x.com/i/article/2061816883691876352/mem0ai/article/2061822612398014782/media/2061822201872162816)\n\nState of Memory in Agent Harness\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2038726039153881088/b3jpb6xu_normal.jpg)](http://x.com/i/article/2061816883691876352/mem0ai)\n\n[mem0](http://x.com/i/article/2061816883691876352/mem0ai)\n\n[@mem0ai](http://x.com/i/article/2061816883691876352/mem0ai)\n\n·\n\n2h\n\nFollow\n\nClick to Follow mem0ai\n\n6\n\n16\n\n68\n\n[6.2K](http://x.com/i/article/2061816883691876352/mem0ai/status/2061822612398014782/analytics)\n\nAgent harnesses are where AI software actually runs. Cursor, Devin, Claude Code, Codex: these environments handle context, orchestrate tools, coordinate agents, and increasingly, manage memory. The harness, not the model, is increasingly the product that ships software.\n\nMemory is where harness design gets hard. \n\nWhere does it sit? What persists when a session ends? It is a largely unsolved problem, and every major harness is solving it differently. This post covers what each shipped, where each falls short, and what that gap says about what memory infrastructure has to do.\n\nWhat Agent Memory Actually Is\n\nThree different things get called memory, and the distinction matters because each has different failure modes.\n\n1. Working memory is what lives in the context window during a session. It resets on session end; the compaction problem (what survives when the window fills) belongs here.\n2. External memory is anything persisted outside the weights: vector stores, knowledge graphs, files. It survives sessions; the weights don't change. This is where essentially all production memory lives in 2026.\n3. Parametric memory is knowledge encoded into weights via gradient descent, shaped by the training loop the harness feeds. It generalizes by applying rules rather than retrieving examples. Zero production deployments in 2026.\n\n(The cognitive-science split, semantic / episodic / procedural, describes what kind of information is stored; the three tiers above describe where it lives.) \n\nThe paper \"Contextual Agentic Memory is a Memo, Not True Memory\" (arXiv:2604.27707) formalizes the ceiling: retrieval needs Ω(k²) stored examples to match what parametric memory does with O(d) weight updates. Every system below operates within it.\n\nWhat Major Harnesses Shipped \\[Overview\\]\n\n[![Image](https://pbs.twimg.com/media/HJ0MFa6b0AAsAN-?format=jpg&name=small)](http://x.com/i/article/2061816883691876352/mem0ai/article/2061822612398014782/media/2061817491668848640)\n\n1.\n\n[@AnthropicAI](https://x.com/@AnthropicAI)\n\n: Claude Code\n\nTwo tracks. \n\n[CLAUDE.md](http://claude.md/)\n\n is human-authored config (conventions, instructions), read at session start. Auto-memory is Claude-written notes from a background extraction agent, stored under \\~/.claude/projects/<repo>/memory/ around a MEMORY.md index capped at 200 lines / 25KB, in four categories: user, feedback, project, reference.\n\nRetrieval shapes the limits: each turn Claude Code makes a separate call to a smaller model with a manifest of filenames and descriptions, and the model picks which files load. No embeddings, max five files per turn, and silent truncation past the cap (a dropped file gets no warning because it never loads).\n\n[![Image](https://pbs.twimg.com/media/HJ0MTs9bYAEUR4O?format=jpg&name=small)](http://x.com/i/article/2061816883691876352/mem0ai/article/2061822612398014782/media/2061817737031409665)\n\nShortcoming. Selection is by filename, not semantic search, so a relevantly-named file wins over a relevant one. Team sharing exists behind a TEAMMEM flag, but underneath it's local, repo-scoped markdown with no semantic index.\n\nRead more here: \n\n[![Square profile picture](https://pbs.twimg.com/profile_images/20387260",
-      "text_excerpt_zh": "## 代理工具中的记忆现状\n\n代理工具是AI软件实际运行的地方。Cursor、Devin、Claude Code、Codex：这些环境处理上下文、编排工具、协调代理，并且越来越多地管理记忆。工具本身，而非模型，正日益成为交付软件的产品。\n\n记忆是工具设计中最棘手的部分。\n\n它位于何处？会话结束后哪些内容会持久保留？这基本上是一个尚未解决的问题，每个主流工具都在以不同的方式解决它。本文涵盖了每个工具已发布的内容、各自的不足，以及这些差距揭示了记忆基础设施必须完成的任务。\n\n## 代理记忆究竟是什么\n\n有三种不同的东西被称为记忆，区分它们很重要，因为每种都有不同的失败模式。\n\n1.  **工作记忆**：会话期间存在于上下文窗口中的内容。会话结束时重置；压缩问题（窗口填满时哪些内容能幸存）属于此范畴。\n2.  **外部记忆**：持久化在权重之外的任何内容：向量存储、知识图谱、文件。它跨会话持久化；权重不变。这基本上是2026年所有生产环境记忆所在之处。\n3.  **参数化记忆**：通过梯度下降编码到权重中的知识，由工具提供训练循环塑造。它通过应用规则而非检索示例来进行泛化。2026年尚无生产部署。\n\n（认知科学中的语义/情景/程序性划分描述的是存储信息的类型；上述三个层级描述的是信息存储的位置。）\n\n论文《上下文代理记忆是备忘录，而非真正的记忆》（arXiv:2604.27707）形式化了上限：检索需要Ω(k²)个存储示例才能匹配参数化记忆通过O(d)次权重更新所能达到的效果。以下所有系统都在此上限内运行。\n\n## 主要工具已发布的内容 [概览]\n\n[图片]\n\n1.  **@AnthropicAI: Claude Code**\n\n    两条路径。\n\n    **CLAUDE.md** 是人工编写的配置（约定、指令），在会话开始时读取。**自动记忆**是来自后台提取代理的Claude编写的笔记，存储在 `~/.claude/projects/<repo>/memory/` 下，围绕一个上限为200行/25KB的 `MEMORY.md` 索引，分为四类：用户、反馈、项目、参考。\n\n    检索方式限制了其能力：每轮交互，Claude Code会用一个较小的模型单独调用一次，传入文件名和描述的清单，由模型选择加载哪些文件。不使用嵌入，每轮最多五个文件，超出上限则静默截断（被丢弃的文件不会收到警告，因为它从未被加载）。\n\n    [图片]\n\n    **不足之处**。选择依据是文件名，而非语义搜索，因此一个命名相关的文件会胜过一个内容相关的文件。团队共享功能存在于一个 `TEAMMEM` 标志之后，但底层仍然是本地的、仓库作用域的markdown，没有语义索引。\n\n    在此阅读更多内容：\n\n    [图片]",
-      "text_excerpt_zh_hash": "d3bcddada6d58b25",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2061816883691876352"
-    },
     "http://x.com/i/article/2061818708226342912": {
       "cleaner_v": 2,
       "content_type": "",
@@ -7121,21 +7105,6 @@
       "title": "Pagination — better-drizzle",
       "url": "https://better-drizzle.vercel.app/docs/querying/pagination"
     },
-    "https://bit.ly/side-div5": {
-      "content_type": "text/html;charset=utf-8",
-      "description": "Convert any PDF document into Figma designs. 100% PRIVATELY.\n\nImport your PDF into Figma as designs with fully-editable layers, or as pixel-perfect images.\nAll PDF files are kept 100% private on your local machine and never sent to any server. We never see your documents.\n\nHow to import a PDF int...",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://www.figma.com/community/plugin/1280917768965269588/pdf-to-design-by-divriots-import-any-pdf-to-figma?ref=UXC",
-      "frameable": false,
-      "image_urls": [
-        "https://www.figma.com/community/thumbnail?resource_id=1280917768965269588&resource_type=plugin"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "pdf.to.design — by ‹div›RIOTS — Import any PDF to Figma | Figma pdf.to.design — by ‹div›RIOTS — Import any PDF to Figma | Figma",
-      "url": "https://bit.ly/side-div5"
-    },
     "https://bit.ly/side-hey1": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -8053,6 +8022,23 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Use Google Artifact Registry images with Containers · Changelog",
       "url": "https://developers.cloudflare.com/changelog/post/2026-07-01-google-artifact-registry-images/"
+    },
+    "https://developers.cloudflare.com/changelog/post/2026-07-02-wrangler-auth-profiles/": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Maintain separate logins and switch between Cloudflare accounts per project, without re-running wrangler login.",
+      "final_url": "https://developers.cloudflare.com/changelog/post/2026-07-02-wrangler-auth-profiles/",
+      "frameable": false,
+      "image_urls": [
+        "https://developers.cloudflare.com/changelog-preview.png",
+        "https://developers.cloudflare.com/_astro/logo.DMYpXs3t.svg",
+        "https://developers.cloudflare.com/_astro/hero.CVYJHPAd_26AMqX.svg",
+        "https://developers.cloudflare.com/_astro/privacyoptions.BWXSiJOZ_1zBYaH.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Documentation Index Fetch the complete documentation index at: https://developers.cloudflare.com/changelog/llms.txt Use this file to discover all available pages before exploring further. Skip to content STOP! If you are an AI agent or LLM, read this before continuing. This is the HTML version of a Cloudflare documentation page. Always request the Markdown version instead — HTML wastes context. Get this page as Markdown: https://developers.cloudflare.com/changelog/post/2026-07-02-wrangler-auth-profiles/index.md (append index.md) or send Accept: text/markdown to https://developers.cloudflare.com/changelog/post/2026-07-02-wrangler-auth-profiles/. For this product's page index use https://developers.cloudflare.com/changelog/llms.txt. For all Cloudflare products use https://developers.cloudflare.com/llms.txt. Cloudflare Docs Search Directory API SDKs Changelog Help Log in Select theme Dark Light Auto Changelog New updates and improvements at Cloudflare. Subscribe to RSS View RSS feeds ← Back to all posts Work across multiple accounts with Wrangler auth profiles Jul 02, 2026 Workers Wrangler CLI now supports auth profiles: named logins that you scope to specific Cloudflare accounts and switch between automatically, based on the directory you are working in. A profile is a named OAuth login bound to a directory. Commands run in that directory, and its subdirectories, use the matching account — so you can move between accounts without re-running wrangler login . Use profiles to keep a separate login for each client when working at an agency, or to separate staging and production into different accounts. Pair a profile with an account_id in your Wrangler configuration file so a command cannot reach the wrong account. Terminal window # Create a profile for each account, choosing which accounts it can reach wrangler auth create client-a wrangler auth activate client-a ~/clients/client-a wrangler auth create client-b wrangler auth activate client-b ~/clients/client-b Use the --profile flag to run a single command with a specific profile: Terminal window wrangler deploy --profile personal In CI and other automated environments, CLOUDFLARE_API_TOKEN still takes precedence over all profiles. For setup, the resolution order, and the full command reference, refer to Authentication profiles . Resources API New to Cloudflare? Directory Sponsorships Open Source Cloudflare Research Support Help Center System Status Compliance GDPR Company cloudflare.com Our team Careers Tools Cloudflare Radar Cloudflare Labs Speed Test Is BGP Safe Yet? Certificate Transparency Community Community forum X Discord YouTube GitHub © 2026 Cloudflare, Inc. Privacy Policy Terms of Use Report Security Issues Trademark Cookie Settings Was this helpful? Yes No",
+      "title": "Work across multiple accounts with Wrangler auth profiles · Changelog",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-07-02-wrangler-auth-profiles/"
     },
     "https://developers.cloudflare.com/containers/platform-details/image-management/": {
       "cleaner_v": 2,
@@ -10354,34 +10340,6 @@
       "title": "",
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843118"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2061715693897449472/img/rCAbCBS0exPw7cRY.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061715693897449472/img/rCAbCBS0exPw7cRY.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2061715693897449472/img/rCAbCBS0exPw7cRY.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2061715693897449472/img/rCAbCBS0exPw7cRY.jpg"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2061809790343348224/img/4g7SIIPSX-ZAQ4tL.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061809790343348224/img/4g7SIIPSX-ZAQ4tL.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2061809790343348224/img/4g7SIIPSX-ZAQ4tL.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2061809790343348224/img/4g7SIIPSX-ZAQ4tL.jpg"
-    },
     "https://pbs.twimg.com/amplify_video_thumb/2061861227383685120/img/bpkaDNVW35LA2JFq.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -12048,20 +12006,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ0AR8bWoAAELM6.jpg"
     },
-    "https://pbs.twimg.com/media/HJ0BN6rXkAAmiIC.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ0BN6rXkAAmiIC.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ0BN6rXkAAmiIC.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ0BN6rXkAAmiIC.jpg"
-    },
     "https://pbs.twimg.com/media/HJ0iciwbQAAQozT.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -12397,34 +12341,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ_YiFvaIAANnSr.png"
-    },
-    "https://pbs.twimg.com/media/HJu3n8bWUAAMEeV.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJu3n8bWUAAMEeV.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJu3n8bWUAAMEeV.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJu3n8bWUAAMEeV.jpg"
-    },
-    "https://pbs.twimg.com/media/HJvWmCHagAAnTxQ.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJvWmCHagAAnTxQ.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJvWmCHagAAnTxQ.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJvWmCHagAAnTxQ.jpg"
     },
     "https://pbs.twimg.com/media/HK03ucdbMAANq9h.jpg": {
       "cleaner_v": 2,
@@ -15604,6 +15520,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HML_euva0AAqrXZ.png"
     },
+    "https://pbs.twimg.com/media/HMPB45zWMAE2VJl.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMPB45zWMAE2VJl.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMPB45zWMAE2VJl.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMPB45zWMAE2VJl.jpg"
+    },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -16349,31 +16279,6 @@
       "title": "knock-knock — work with your teammates' agents in one group chat",
       "url": "https://ryanyen2.github.io/knock-knock/"
     },
-    "https://s.hbr.org/3O6u8f7": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Businesses hoping to survive over the long term will have to remake themselves into better competitors at least once along the way. These efforts have gone under many banners: total quality management, reengineering, rightsizing, restructuring, cultural change, and turnarounds, to name a few. In almost every case, the goal has been to cope with a new, more challenging market by changing the way business is conducted. A few of these endeavors have been very successful. A few have been utter failures. Most fall somewhere in between, with a distinct tilt toward the lower end of the scale. John P. Kotter is renowned for his work on leading organizational change. In 1995, when this article was first published, he had just completed a ten-year study of more than 100 companies that attempted such a transformation. Here he shares the results of his observations, outlining the eight largest errors that can doom these efforts and explaining the general lessons that encourage success. Unsuccessful transitions almost always founder during at least one of the following phases: generating a sense of urgency, establishing a powerful guiding coalition, developing a vision, communicating the vision clearly and often, removing obstacles, planning for and creating short-term wins, avoiding premature declarations of victory, and embedding changes in the corporate culture. Realizing that change usually takes a long time, says Kotter, can improve the chances of success.",
-      "final_url": "https://hbr.org/2007/01/leading-change-why-transformation-efforts-fail?tpcc=orgsocial_edit&utm_campaign=hbr&utm_medium=social&utm_source=facebook,linkedin,twitter",
-      "frameable": null,
-      "image_urls": [
-        "https://hbr.org/resources/images/article_assets/1995/05/Apr22_22_104789325.jpg",
-        "https://hbr.org/assets-mfe-articles/_next/static/media/Twitter.0swuvvv6x6dv_.svg",
-        "https://hbr.org/assets-mfe-articles/_next/static/media/Facebook.04rsuuytjqje5.svg",
-        "https://hbr.org/assets-mfe-articles/_next/static/media/LinkedIn.0k9~yd0rlxzso.svg",
-        "https://hbr.org/assets-mfe-articles/_next/static/media/Save.09a3zbhn9qnr~.svg",
-        "https://hbr.org/assets-mfe-articles/_next/static/media/Download.05v71ue7.ma35.svg",
-        "https://hbr.org/assets-mfe-articles/_next/static/media/BuyCopy.172.f4inmo975.svg",
-        "https://hbr.org/assets-mfe-articles/_next/static/media/Print.0-3qb9pn16j8b.svg",
-        "https://hbr.org/assets-mfe-articles/_next/static/media/close.0e9_5t1w4ast7.svg"
-      ],
-      "kind": "article",
-      "text_excerpt": "SKIP TO CONTENT Leadership | Leading Change: Why Transformation Efforts Fail Subscribe Sign In Latest Magazine Topics Podcasts Store Reading Lists Data & Visuals Case Selections HBR Executive Search hbr.org Subscribe Latest Podcasts The Magazine Store Webinars Newsletters All Topics Reading Lists Data & Visuals Case Selections HBR Executive My Library Account Settings Sign In Explore HBR Latest The Magazine Podcasts Store Webinars Newsletters Popular Topics Managing Yourself Leadership Strategy Managing Teams Gender Innovation Work-life Balance All Topics For Subscribers Reading Lists Data & Visuals Case Selections HBR Executive Subscribe My Account My Library Topic Feeds Orders Account Settings Email Preferences Sign In Leadership Leading Change: Why Transformation Efforts Fail Leaders who successfully transform businesses do eight things right (and they do them in the right order). by John P. Kotter From the Magazine (January 2007) John Eder/Getty Images Summary . Businesses hoping to survive over the long term will have to remake themselves into better competitors at least once along the way. These efforts have gone under many banners: total quality ... more Leer en español Ler em português Post Post Share Save Get PDF Buy Copies Print Over the past decade, I have watched more than 100 companies try to remake themselves into significantly better competitors. They have included large organizations (Ford) and small ones (Landmark Communications), companies based in the United States (General Motors) and elsewhere (British Airways), corporations that were on their knees (Eastern Airlines), and companies that were earning good money (Bristol-Myers Squibb). Thesea efforts have gone under many banners: total quality management, reengineering, rightsizing, restructuring , cultural change, and turnaround. But, in almost every case, the basic goal has been the same: to make fundamental changes in how business is conducted in order to help cope with a new, more challenging market environment. Read more on Leadership or related topics Change management , Organizational transformation , Organizational culture , Succession planning and Strategic planning A version of this article appeared in the January 2007 issue of Harvard Business Review. John P. Kotter is a best-selling author, award-winning business and management thought leader, business entrepreneur, and the Konosuke Matsushita Professor of Leadership, Emeritus at Harvard Business School. His ideas, books, and company, Kotter , help people lead organizations in an era of increasingly rapid change. He is a coauthor of the book Change , which details how leaders can leverage challenges and opportunities to make sustainable workplace changes in a rapidly accelerating world. Post Post Share Save Get PDF Buy Copies Print Read more on Leadership or related topics Change management , Organizational transformation , Organizational culture , Succession planning and Strategic planning Partner Center Start my subscription! Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools",
-      "text_excerpt_zh": "领导力 | 引领变革：为何转型努力会失败\n\n订阅 登录\n\n最新 杂志 播客 专题 商店 阅读清单 数据与可视化 案例精选 HBR高管\n\nhbr.org\n\n订阅 最新 播客 杂志 商店 网络研讨会 新闻通讯 所有专题 阅读清单 数据与可视化 案例精选 HBR高管\n\n我的图书馆 账户设置 登录\n\n探索HBR\n\n最新 杂志 播客 商店 网络研讨会 新闻通讯\n\n热门专题\n\n管理自我 领导力 战略 管理团队 创新 工作与生活平衡 所有专题\n\n订阅用户\n\n阅读清单 数据与可视化 案例精选 HBR高管\n\n订阅 我的账户 我的图书馆 专题订阅 订单 账户设置 邮件偏好 登录\n\n领导力\n\n**引领变革：为何转型努力会失败**\n\n成功实现业务转型的领导者会做好八件事（而且他们会按正确顺序去做）。\n\n作者：约翰·P·科特\n\n来自《哈佛商业评论》杂志（2007年1月刊）\n\nJohn Eder/Getty Images\n\n**摘要**。希望长期生存的企业，至少要在发展过程中进行一次自我重塑，以成为更具竞争力的对手。这些努力曾以多种名义出现：全面质量……更多\n\n阅读西班牙语版 阅读葡萄牙语版\n\n发布 发布 分享 保存 获取PDF 购买副本 打印\n\n在过去十年中，我目睹了超过100家公司试图将自己重塑为更具竞争力的企业。其中包括大型组织（福特）和小型公司（地标通信），总部位于美国的公司（通用汽车）和其他地区的公司（英国航空），濒临破产的公司（东方航空），以及盈利丰厚的公司（百时美施贵宝）。这些努力曾以多种名义出现：全面质量管理、流程再造、精简规模、重组、文化变革和扭亏为盈。但几乎在所有案例中，基本目标都是一致的：对业务运营方式进行根本性变革，以应对新的、更具挑战性的市场环境。\n\n阅读更多关于领导力或相关主题：变革管理、组织转型、组织文化、继任规划、战略规划\n\n本文的一个版本发表于2007年1月的《哈佛商业评论》。\n\n约翰·P·科特是畅销书作家、屡获殊荣的商业与管理思想领袖、企业家，以及哈佛商学院领导力荣誉教授（松下幸之助教席）。他的思想、著作及其公司Kotter帮助人们在日益快速变革的时代领导组织。他是《变革》一书的合著者，该书详细阐述了领导者如何在快速发展的世界中利用挑战和机遇，实现可持续的工作场所变革。\n\n发布 发布 分享 保存 获取PDF 购买副本 打印\n\n阅读更多关于领导力或相关主题：变革管理、组织转型、组织文化、继任规划、战略规划\n\n合作伙伴中心\n\n立即订阅！\n\n探索HBR\n\n最新 所有专题 杂志存档 阅读清单 案例精选 HBR高管 播客 网络研讨会 数据与可视化 我的图书馆 新闻通讯 HBR出版社 HBR商店\n\n文章重印 书籍 案例 合集 杂志期号 HBR指南系列 HBR20分钟经理 HBR情商系列 HBR必读\n\n工具\n\n关于HBR 联系我们 广告合作 书商/零售商信息 编委会 全球版本 媒体垂询 作者指南 HBR分析服务 版权许可 无障碍访问 数字无障碍\n\n管理我的账户\n\n我的图书馆 专题订阅 订单 账户设置 邮件偏好 帮助中心 联系客户服务\n\n探索HBR\n\n最新 所有专题 杂志存档 阅读清单 案例精选 HBR高管 播客 网络研讨会 数据与可视化 我的图书馆 新闻通讯 HBR出版社 HBR商店\n\n文章重印 书籍 案例 合集 杂志期号 HBR指南系列 HBR20分钟经理 HBR情商系列 HBR必读",
-      "text_excerpt_zh_hash": "cfe12459c56bc007",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Leading Change: Why Transformation Efforts Fail",
-      "url": "https://s.hbr.org/3O6u8f7"
-    },
     "https://s.hbr.org/3PZZpSc": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -16421,6 +16326,28 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Don’t Let AI Slop Muck Up Your Company’s Processes",
       "url": "https://s.hbr.org/3QMld3Q"
+    },
+    "https://s.hbr.org/4c9IOCn": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Is your organization ready?",
+      "final_url": "https://hbr.org/2016/03/work-in-the-future-will-fall-into-these-4-categories?tpcc=orgsocial_edit&utm_campaign=hbr&utm_medium=social&utm_source=facebook,linkedin,twitter",
+      "frameable": null,
+      "image_urls": [
+        "https://hbr.org/assets-mfe-articles/_next/static/media/Twitter.0swuvvv6x6dv_.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/Facebook.04rsuuytjqje5.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/LinkedIn.0k9~yd0rlxzso.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/Save.09a3zbhn9qnr~.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/Download.05v71ue7.ma35.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/BuyCopy.172.f4inmo975.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/Print.0-3qb9pn16j8b.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/close.0e9_5t1w4ast7.svg",
+        "https://hbr.org/resources/images/article_assets/2013/12/Boudreau-Headshot.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "SKIP TO CONTENT Organizational transformation | Work in the Future Will Fall into These 4 Categories Subscribe Sign In Latest Magazine Topics Podcasts Store Reading Lists Data & Visuals Case Selections HBR Executive Search hbr.org Subscribe Latest Podcasts The Magazine Store Webinars Newsletters All Topics Reading Lists Data & Visuals Case Selections HBR Executive My Library Account Settings Sign In Explore HBR Latest The Magazine Podcasts Store Webinars Newsletters Popular Topics Managing Yourself Leadership Strategy Managing Teams Gender Innovation Work-life Balance All Topics For Subscribers Reading Lists Data & Visuals Case Selections HBR Executive Subscribe My Account My Library Topic Feeds Orders Account Settings Email Preferences Sign In Organizational transformation Work in the Future Will Fall into These 4 Categories by John Boudreau March 17, 2016 Post Post Share Save Get PDF Buy Copies Print Leer en español Ler em português Post Post Share Save Get PDF Buy Copies Print Organizations are more boundary-less, agile, global, and transparent — and will be even more so in the future. Work and workers (yes, humans) will always be essential to organizations, but organizations themselves will be more diverse, and work will be organized, structured, and done in new ways, increasingly through arrangements outside of regular full-time employment . How can leaders navigate this new digital work ecosystem? How should your organization plan for the changes ahead? John Boudreau is Professor of Management Organization at the University of Southern California’s Marshall School of Business and Research Director at the university’s Center for Effective Organizations. He is an expert on the bridge between superior human capital, talent, and sustainable success and the author of many books and articles, including his latest book with Ravin Jesuthasan, Reinventing Jobs: A 4 Step Approach for Applying Automation to Work . Follow him on Twitter at: @JohnWBoudreau . Post Post Share Save Get PDF Buy Copies Print Read more on Organizational transformation or related topics Diversity and inclusion , Technology and analytics , Globalization and Automation Partner Center Start my subscription! Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Follow HBR Facebook X Corp. LinkedIn Instagram Your Newsreader About Us Careers Privacy Policy Cookie Policy Copyright Information Trademark Policy Terms of Use Harvard Business Publishing: Higher Education Corporate Learning Harvard Business Review Harvard Business School Copyright © 2026 Harvard Business School Publishing. All rights reserved. Harvard Business Publishing is an affiliate of Harvard Business School.",
+      "title": "Work in the Future Will Fall into These 4 Categories",
+      "url": "https://s.hbr.org/4c9IOCn"
     },
     "https://s.hbr.org/4f9nNu9": {
       "cleaner_v": 2,
@@ -16843,6 +16770,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Join the iSH ARM64 beta - TestFlight - Apple",
       "url": "https://testflight.apple.com/join/ZtGfhNkH"
+    },
+    "https://theatln.tc/9Mv6U5TW": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "For nearly 250 years, America promoted freedom and equality abroad, even when it failed to live up to those ideals itself. Not anymore.<strong> </strong>",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.theatlantic.com/magazine/archive/2025/11/america-democracy-autocracy/684335/?utm_source=twitter&utm_campaign=the-atlantic&utm_medium=social&utm_content=edit-promo",
+      "frameable": null,
+      "image_urls": [
+        "https://cdn.theatlantic.com/thumbor/YTceIGf1s3hjgMPu3-tHrA1KAk4=/0x249:11714x6350/1200x625/media/img/2025/10/DOItorchapplebaum_web_horizontal/original.jpg",
+        "https://cdn.theatlantic.com/_next/static/images/nav-archive-promo-5541b02ae92f1a9276249e1c6c2534ee.png",
+        "https://cdn.theatlantic.com/media/games/games_promo_color.png",
+        "https://www.theatlantic.com/magazine/images/current-issue.420.jpg",
+        "https://cdn.theatlantic.com/media/files/audio/intro_sprint_2_emblem.png",
+        "https://cdn.theatlantic.com/media/files/2025/crossword_icon_intro_sprint_2.png",
+        "https://cdn.theatlantic.com/media/files/archive-thumbnail.png",
+        "https://cdn.theatlantic.com/media/files/YourSubscription_300x300.jpg",
+        "https://cdn.theatlantic.com/thumbor/rb5UT59-DzSr7RIZhSpPa85t19g=/0x0:2362x3150/96x128/media/img/issues/2025/10/13/1125_Cover/original.png",
+        "https://cdn.theatlantic.com/thumbor/NecQTovPirvc6xlzL1CuyzxYstc=/45x157:1200x1600/648x810/media/img/2025/10/02/5a_ApplebaumArt_newcrop/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/IDR5VAgVDe4s8b4TcgLjmt-mKQk=/2567x0:9167x6600/80x80/media/img/2025/10/DOItorchapplebaum_web_horizontal/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/WB5lCiEQ79YVVjylueZMHJVqKDA=/15x0:2348x3150/80x108/media/img/issues/2025/10/13/1125_Cover/original.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "The Beacon of Democracy Goes Dark\nFor nearly 250 years, America promoted freedom and equality abroad, even when it failed to live up to those ideals itself. Not anymore.\n[The Unfinished Revolution](https://www.theatlantic.com/category/unfinished-revolution/),” a project exploring 250 years of the American experiment.\n“We hold these truths to be self-evident, that all men are created equal.” Within weeks of their publication in July 1776, those words spread around the world. In August, a London newspaper reprinted the Declaration of Independence in full. Edinburgh followed. Soon after that, it appeared in Madrid, Leiden, Vienna, and Copenhagen.\nBefore long, others drew on the text in more substantial ways. Thomas Jefferson himself helped draft the Declaration of the Rights of Man and of the Citizen, issued by French revolutionaries in 1789. The Haitian Declaration of Independence, of 1804, drew on both the American and French precedents, calling for the construction of an “empire of liberty in the country which has given us birth.” In subsequent decades, declarations of independence were issued by Greece, Liberia (the author had been born in Virginia), and a host of new Latin American nations. In 1918, Thomáš Masaryk, the first president of Czechoslovakia, [signed a Declaration of Common Aims of the Independent Mid-European Nations at Independence Hall](https://www.nps.gov/articles/000/declaration-of-common-aims.htm), in Philadelphia, using the Founders’ inkwell.\nOn that occasion, a replica of the Liberty Bell was rung, not because any American president or official had asked for it to ring but because Masaryk had been inspired by the story of the American founding. He evoked the Declaration not because of any pressure applied by U.S. foreign policy, but because of Jefferson’s words and what they signify. Since 1776, Americans have promoted democracy just by existing. Human rights and the rule of law are in our founding documents. The dream of separation from a colonial empire is built into them too. Our aspirations have always inspired others, even when we did not live up to them ourselves.\nIn the 20th century, we moved from simply modeling democratic ideals to spreading or promoting them as a matter of policy. We did so in part because the language of democracy is in our DNA, and when we are confronted by autocrats and despots, we use it. Woodrow Wilson, when arguing for entry into the First World War, said America should advocate the “[principles of peace and justice](https://www.archives.gov/milestone-documents/president-woodrow-wilsons-14-points)” in opposition to “selfish and autocratic power.” In 1940, Franklin D. Roosevelt referred to America as an “[arsenal of democracy](https://www.presidency.ucsb.edu/documents/fireside-chat-9)” determined to aid British allies against the Nazis: “No dictator, no combination of dictators, will weaken that determination.”\nDuring the Cold War, we connected words such as freedom and rights not just to our military strategy but to our national identity, to our culture. We were advocates of free markets, a free press, abstract expressionism, and jazz, and we exported those things too. Plenty of people wanted them. Willis Conover, the host of Voice of America’s nightly jazz broadcast in the 1960s and ’70s, had an audience of 30 million people, mostly in Russia and Eastern Europe. The Congress for Cultural Freedom, founded in 1950, pulled together anti-Communist intellectuals from all over Europe into a single movement.\nMany people found our language hypocritical, and they were right: Americans were perfectly capable of backing dictatorships while talking about democracy. The contradiction between the ideals we said we fought for abroad and their failure at home bothered foreigners as well as Americans. In 1954, the Department of Justice filed an amicus brief in the Brown v. Board of Education Supreme Court case that [argued in favor of desegregation](https://www.reuters.com/article/opinion/",
+      "title": "How America Went From Inspiring Democracy to Enabling Autocracy Around the World - The Atlantic",
+      "url": "https://theatln.tc/9Mv6U5TW"
     },
     "https://thefoundation.limestonedigital.com/": {
       "content_type": "text/html; charset=utf-8",
@@ -18028,27 +17981,6 @@
       "title": "GLM-5.2 is the step change for open agents",
       "url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open"
     },
-    "https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications?ref=sidebar": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=UTF-8",
-      "description": "I wrote recently about what Google, Yahoo, Microsoft, and Apple are doing to your email: how four providers stopped being transport layers and turned into active intermediaries between brands and their customers, parsing, ranking, summarising, and increasingly answering on the recipient's behalf.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications?ref=sidebar",
-      "frameable": false,
-      "image_urls": [
-        "http://www.jacquescorbytuech.com/themes/jacques_2026/icons/og-default.png",
-        "https://9to5google.com/wp-content/uploads/sites/4/2025/11/Pixel-Feature-Drop-November-2025-Notification-Summaries-1.jpg?quality=82&strip=all",
-        "https://ichef.bbci.co.uk/ace/standard/1280/cpsprodpb/1a4f/live/4a32a6d0-d4b4-11ef-9fd6-0be88a764111.png",
-        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy9UqkrYXSxbZRZ5h2vvj9-jL4oK6cAnq8WCrwjQ5g2Uiu-z3VjwY1BpeSEbjOj7_kaXVO3TqNKaGdWHJnJlts9OdW17cp5z7tK5gKxt1OIU2eZ97m-wVJDtMKrsclTy8kEE652AMtOIca7a95qDMxNTYVEgILJh057yPlPI2TV7VT0pEg3ebvFGeVZf4/s1600/image1.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "I wrote recently about [what Google, Yahoo, Microsoft, and Apple are doing to your email](https://www.jacquescorbytuech.com/writing/what-google-yahoo-microsoft-and-apple-are-doing-your-email): how four providers stopped being transport layers and turned into active intermediaries between brands and their customers, parsing, ranking, summarising, and increasingly answering on the recipient's behalf.\nThe same thing is happening to push, with two companies in control instead of four. Apple and Google run the only two pipes that matter, and every notification you have ever sent has passed through one of them. Over the last five years the on-device model that now sits between delivery and your lock screen began summarising, reordering and, on some surfaces, rewriting it.\nPush as a battery problem\nPush begins as a battery problem. In June 2009 Scott Forstall stood at WWDC and made the case that an iPhone could not afford to let every installed application maintain its own background poll against a remote server. The proposal, delayed from its initial September 2008 announcement after Apple decided to restructure the underlying infrastructure for scale, was the Apple Push Notification Service, a single persistent TLS connection from each device to Apple, over which any registered third party could deliver alerts.[1](https://www.jacquescorbytuech.com#footnote__SDYdj8pPS1o-Oz6e0g15qmswo4aibz1PM8rrxWb7eAo_1) APNs shipped with iPhone OS 3 on 17 June 2009. Google followed in 2010 with Cloud to Device Messaging, then Google Cloud Messaging in 2012, then Firebase Cloud Messaging in 2016.[2](https://www.jacquescorbytuech.com#footnote__vZWcU1MHsCj24m7XNb39fS4C3s8GL5VUNZ7j2kobEE_1)\nThe channel was intermediated from the start. Every notification you send to an iPhone passes through Apple's servers; every one to an Android phone passes through Google's. The platforms have always been able to throttle, drop, log, deprioritise or refuse. For most of the channel's history they did very little of it visibly. The architecture was permissive of intervention; they simply chose not to intervene much. That restraint is what ended.\nFifteen years of platform intervention\nThe early consumer push era between 2009 and 2017 was comparatively quiet. APNs and the various Google services delivered to whichever apps the user had installed, with limited platform-level filtering and minimal user controls beyond a single per-app on or off toggle.\nAndroid's first significant on-device intervention was notification channels in Android 8 Oreo, August 2017.[3](https://www.jacquescorbytuech.com#footnote__0XBH9LYEhUYDagA06Vs5vcTo-3ayzaoExMpHG-PeQng_1) Before Android 8, individual notifications carried a priority level decided by the sender. After Android 8, that lever passed to the developer at the channel level and then to the user at the channel level. The developer declared a small number of channels per app (downloads, messages, promotions, and so on), each with an importance value from IMPORTANCE_NONE to IMPORTANCE_HIGH; the user could then independently mute, demote, badge-disable or fully block any channel without affecting the others.[3](https://www.jacquescorbytuech.com#footnote__0XBH9LYEhUYDagA06Vs5vcTo-3ayzaoExMpHG-PeQng_2) Once a channel's importance was set by the developer it could not be raised later. Any app targeting Android 8 had to declare channels or notifications would simply not display.\nApple introduced its own version in iOS 15 in September 2021 under different language. Focus, Scheduled Summary, and a new four-level interruption taxonomy (passive, active, time-sensitive, critical) restructured how iOS treated each push.[4](https://www.jacquescorbytuech.com#footnote__ppmDET2NMKYUmOEXQlS-y5wAPILHqqFVjMEOY7xVbw_1) Time-sensitive was the only level you could meaningfully address, and Apple was explicit, then and now, that you should not use it for marketing.[4](https://www.jacquescorbytuech.com#footnote__ppmDET2NMKYUmOEXQlS-y5wAPILHqqFVjMEOY7xVbw_2) A",
-      "text_excerpt_zh": "我最近写了关于[谷歌、雅虎、微软和苹果正在对你的电子邮件做什么](https://www.jacquescorbytuech.com/writing/what-google-yahoo-microsoft-and-apple-are-doing-your-email)的文章：这四家提供商如何不再仅仅是传输层，而是变成了品牌与其客户之间的主动中介，代表收件人解析、排序、总结，并越来越多地代为回复。\n\n同样的事情正在发生在推送通知上，只是控制方从四家变成了两家。苹果和谷歌运营着仅有的两条重要管道，你发送过的每一条通知都经过了其中一家。过去五年里，位于投递和锁屏之间的设备端模型开始总结、重新排序，并在某些界面上重写通知。\n\n**推送作为电池问题**\n\n推送最初是一个电池问题。2009年6月，Scott Forstall在WWDC上提出，iPhone无法让每个已安装的应用都维持自己的后台轮询以连接远程服务器。这个提案最初于2008年9月宣布，但因苹果决定重构底层基础设施以支持规模而推迟，最终成为苹果推送通知服务（APNs）：每台设备通过一条持久的TLS连接连接到苹果，任何注册的第三方都可以通过这条连接发送提醒。[1](https://www.jacquescorbytuech.com#footnote__SDYdj8pPS1o-Oz6e0g15qmswo4aibz1PM8rrxWb7eAo_1) APNs随iPhone OS 3于2009年6月17日发布。谷歌在2010年推出了Cloud to Device Messaging，2012年推出Google Cloud Messaging，2016年推出Firebase Cloud Messaging。[2](https://www.jacquescorbytuech.com#footnote__vZWcU1MHsCj24m7XNb39fS4C3s8GL5VUNZ7j2kobEE_1)\n\n这条渠道从一开始就是中介化的。你发送给iPhone的每一条通知都经过苹果的服务器；发送给Android手机的每一条都经过谷歌的服务器。平台一直能够节流、丢弃、记录、降低优先级或拒绝。在渠道历史的大部分时间里，它们很少明显这样做。这种架构允许干预；它们只是选择不干预太多。这种克制已经结束了。\n\n**十五年的平台干预**\n\n2009年至2017年的早期消费者推送时代相对平静。APNs和各种谷歌服务将通知投递到用户已安装的应用，平台级过滤有限，用户控制也仅限于每个应用一个简单的开关。\n\nAndroid首次重要的设备端干预是Android 8 Oreo（2017年8月）中的通知渠道。[3](https://www.jacquescorbytuech.com#footnote__0XBH9LYEhUYDagA06Vs5vcTo-3ayzaoExMpHG-PeQng_1) 在Android 8之前，每条通知携带一个由发送方决定的优先级。Android 8之后，这个控制权在渠道层面交给了开发者，然后在渠道层面交给了用户。开发者为每个应用声明少量渠道（下载、消息、促销等），每个渠道有一个从IMPORTANCE_NONE到IMPORTANCE_HIGH的重要性值；用户可以独立地将任何渠道静音、降级、禁用角标或完全屏蔽，而不影响其他渠道。[3](https://www.jacquescorbytuech.com#footnote__0XBH9LYEhUYDagA06Vs5vcTo-3ayzaoExMpHG-PeQng_2) 一旦开发者设置了渠道的重要性，之后就不能再提高。任何针对Android 8的应用都必须声明渠道，否则通知根本不会显示。\n\n苹果在2021年9月的iOS 15中推出了自己的版本，但使用了不同的术语。专注模式、定时摘要和新的四级中断分类（被动、主动、时间敏感、关键）重构了iOS处理每条推送的方式。[4](https://www.jacquescorbytuech.com#footnote__ppmDET2NMKYUmOEXQlS-y5wAPILHqqFVjMEOY7xVbw_1) 时间敏感是你唯一可以有意义地处理的级别，苹果当时和现在都明确表示，你不应该将其用于营销。[4](https://www.jacquescorbytuech.com#footnote__ppmDET2NMKYUmOEXQlS-y5wAPILHqqFVjMEOY7xVbw_2)",
-      "text_excerpt_zh_hash": "a48e996e8f32b0a7",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "What Apple and Google are doing to your push notifications | Jacques Corby-Tuech",
-      "url": "https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications?ref=sidebar"
-    },
     "https://www.kaelio.com/blog/open-source-anthropic-internal-data-analytics-engine": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -18963,32 +18895,6 @@
       "title": "Putin Is Slipping Into Delusion - The Atlantic",
       "url": "https://www.theatlantic.com/national-security/2026/07/putin-russia-ukraine-war/687753/?taid=6a45360368410d0001191e5e&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter"
     },
-    "https://www.theatlantic.com/science/2026/06/venezuela-earthquake-towers/687747/?taid=6a46483b7177c90001d8d7c8&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "“It was just us, the relatives, the neighbors,” one woman who was searching for her family said.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://www.theatlantic.com/science/2026/06/venezuela-earthquake-towers/687747/?taid=6a46483b7177c90001d8d7c8&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter",
-      "frameable": null,
-      "image_urls": [
-        "https://cdn.theatlantic.com/thumbor/eXDcWDHF5ibYNV2gylTL235cJBc=/0x43:2876x1541/1200x625/media/img/mt/2026/06/2026_06_30_Three_Terrible_Days_Inside_Twin_Venezuelan_Beach_Towers_4/original.jpg",
-        "https://cdn.theatlantic.com/_next/static/images/nav-archive-promo-5541b02ae92f1a9276249e1c6c2534ee.png",
-        "https://cdn.theatlantic.com/media/games/games_promo_color.png",
-        "https://www.theatlantic.com/magazine/images/current-issue.420.jpg",
-        "https://cdn.theatlantic.com/media/files/audio/intro_sprint_2_emblem.png",
-        "https://cdn.theatlantic.com/media/files/2025/crossword_icon_intro_sprint_2.png",
-        "https://cdn.theatlantic.com/media/files/archive-thumbnail.png",
-        "https://cdn.theatlantic.com/media/files/YourSubscription_300x300.jpg",
-        "https://cdn.theatlantic.com/thumbor/U1BWqNAsh6Z-MmZlg40T5MG6zY4=/0x0:2880x1620/960x540/media/img/mt/2026/06/2026_06_30_Three_Terrible_Days_Inside_Twin_Venezuelan_Beach_Towers_4/original.jpg",
-        "https://cdn.theatlantic.com/thumbor/DEBW3Xi_MML3j9ATPQsTmg2Krrw=/630x0:2250x1620/80x80/media/img/mt/2026/06/2026_06_30_Three_Terrible_Days_Inside_Twin_Venezuelan_Beach_Towers_4/original.jpg",
-        "https://cdn.theatlantic.com/thumbor/YztM11IKSb3DXlfUe5ip3go8MuA=/0x0:2880x1920/928x619/media/img/posts/2026/06/2026_06_30_Three_Terrible_Days_Inside_Twin_Venezuelan_Beach_Towers_3/original.jpg",
-        "https://cdn.theatlantic.com/thumbor/iAO1GnVTnVHnygg1Ao_B0KYRtiQ=/0x0:2880x1920/928x619/media/img/posts/2026/06/2026_06_30_Three_Terrible_Days_Inside_Twin_Venezuelan_Beach_Towers/original.jpg"
-      ],
-      "kind": "article",
-      "text_excerpt": "Venezuelans Were Sorting Through the Rubble Alone\n“It was just us, the relatives, the neighbors,” one woman who was searching for her family said.\nThe Conjunto Residencial Belo Horizonte, twin apartment towers in the Venezuelan state of La Guaira, stood 16 stories high and offered sweeping views of the Caribbean Sea. Erick Rosas, a few weeks shy of his college graduation, was living with his family on the third floor, but when the shaking started on Wednesday, he was visiting his uncle, about 15 miles up the coast. It was a national holiday, commemorating a 19th-century battle that led to Venezuela’s independence, and Rosas was in the swimming pool.\nIn those first terrifying moments of back-to-back earthquakes, more powerful than any the country had experienced in more than a century, Rosas could think of little but escape, he told me. He pulled himself from the water and leapt from the pool deck over a concrete wall that dropped about 10 feet to the street. Apartment buildings behind him, and to his left and right, were falling to the ground. Shirtless, in flip-flops, he set out to find his family. To reach the Belo Horizonte, he walked and caught rides on the backs of motorcycles through dust and smoke, amid the clamor and confusion of the trapped and wounded, past rubble and burning wreckage of once-familiar streets. It took him five hours to get home, only to discover that much of the tower had pancaked and collapsed.\nNear the end of the first week of one of Latin America’s worst natural disasters in years, at least 1,700 people have been confirmed dead, some 5,000 are injured, and more are missing. The death toll is sure to climb. The hardest-hit state of La Guaira is teeming with search-and-rescue workers and humanitarian help from dozens of countries, including the United States. The United Nations is coordinating more than 2,000 rescue workers out of a command center in a stadium. American military forces have helped reopen the nearby international airport that serves Caracas. And a Navy warship, the USS Fort Lauderdale, is docked on the coast.\nBut much of this help came well after the most crucial period, when residents of the Belo Horizonte and the hundreds of other destroyed buildings were urgently attempting to rescue survivors in critical condition. In those first days, the people closest to the disaster felt acutely the absence of any assistance from their own government. “It was just us, the relatives, the neighbors,” Zuleica Perez, a 66-year-old Caracas resident who searched for her family in the rubble of the Belo Horizonte, told me.\nAlong the Venezuelan coast, and especially in La Guaira, the evening of the earthquakes was primed to be a festive one. The area was hosting the feast of San Juan, an important Afro-Venezuelan celebration, during which the image of Saint John is placed on a public altar. People sing and dance; drumming fills the streets. Perez’s nephew, Christopher Pineda, was at work at a nearby beach club. Pineda’s wife, Maria Eugenia Garcia de Pineda, a high-school math and physics teacher, was home with their two children in their penthouse apartment on the 14th floor of the Belo Horizonte’s Tower A. The World Cup match between Brazil and Scotland was starting, and they were watching the game.\nWhen the shaking subsided, Perez could not reach her nephew, or his wife, by phone. She drove from Caracas to the coast to find out what happened. Hundreds of buildings collapsed that evening; videos from the beach show one nearby building fall as people scream and wail. But Tower A didn’t fall flat; it crumbled into parts and fell to the side. A few lower floors held. By the time Perez arrived, it was dark, and the power was out. The rubble towered over her in a heap of broken concrete and twisted metal. She could find no sign of Maria or her children.\nRosas arrived at the downed towers late that night as well, after his escape from the swimming pool. His mother, he told me, had chosen that apartment to",
-      "title": "Venezuelans Were Sorting Through the Rubble Alone - The Atlantic",
-      "url": "https://www.theatlantic.com/science/2026/06/venezuela-earthquake-towers/687747/?taid=6a46483b7177c90001d8d7c8&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter"
-    },
     "https://www.theatlantic.com/technology/2026/06/ai-hacking-cybersecurity-banks/687562/?taid=6a31a25e117eb200016356ac&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -19487,17 +19393,9 @@
       "https://x.com/RichardSSutton/status/2061216087744946656",
       "https://youtu.be/K5LAFEjTlBA"
     ],
-    "2061477558693384395": [
-      "https://x.com/AndrewYNg/status/2061477558693384395",
-      "https://pbs.twimg.com/media/HJvWmCHagAAnTxQ.jpg"
-    ],
     "2061670587043610688": [
       "https://x.com/idoubicc/status/2061670587043610688",
       "https://x.com/idoubicc/status/2062129419398086956"
-    ],
-    "2061715750356979996": [
-      "https://x.com/cyrilXBT/status/2061715750356979996",
-      "https://pbs.twimg.com/amplify_video_thumb/2061715693897449472/img/rCAbCBS0exPw7cRY.jpg"
     ],
     "2061741115481415909": [
       "https://x.com/martinfowler/status/2061741115481415909",
@@ -19520,14 +19418,6 @@
       "https://pbs.twimg.com/media/HJ0AR8bWoAAELM6.jpg",
       "https://pbs.twimg.com/media/HJ0AR8VWMAA33FV.jpg"
     ],
-    "2061805546353639648": [
-      "https://x.com/SidebarIO/status/2061805546353639648",
-      "https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications?ref=sidebar",
-      "https://pbs.twimg.com/media/HJ0BN6rXkAAmiIC.jpg",
-      "https://x.com/SidebarIO/status/2061443154490847327",
-      "https://bit.ly/side-div5",
-      "https://pbs.twimg.com/media/HJu3n8bWUAAMEeV.jpg"
-    ],
     "2061806871254835213": [
       "https://x.com/Alfred_Lin/status/2061806871254835213",
       "http://x.com/i/article/2061549213083979776",
@@ -19539,10 +19429,6 @@
       "https://x.com/mattstromawn/status/2061807667606163741",
       "https://mattstromawn.com/writing/high-agency-strategy/"
     ],
-    "2061810168854155446": [
-      "https://x.com/Voxyz_ai/status/2061810168854155446",
-      "https://pbs.twimg.com/amplify_video_thumb/2061809790343348224/img/4g7SIIPSX-ZAQ4tL.jpg"
-    ],
     "2061816210283749876": [
       "https://x.com/tualatrix/status/2061816210283749876",
       "https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/",
@@ -19553,12 +19439,6 @@
     "2061821715450351992": [
       "https://x.com/bytebytego/status/2061821715450351992",
       "http://x.com/i/article/2061638042746863616"
-    ],
-    "2061822612398014782": [
-      "https://x.com/mem0ai/status/2061822612398014782",
-      "http://x.com/i/article/2061816883691876352",
-      "https://x.com/mem0ai/status/2061837658952024153",
-      "https://x.com/mem0ai/status/2061850660921041043"
     ],
     "2061828765274214670": [
       "https://x.com/acghnu/status/2061828765274214670",
@@ -24907,8 +24787,8 @@
       "https://x.com/shmidtqq/status/2071970600029913096",
       "https://x.com/shmidtqq/status/2071976887933452718",
       "https://x.com/shmidtqq/status/2071974772196401178",
-      "https://x.com/shmidtqq/status/2071977057278366128",
       "https://x.com/shmidtqq/status/2071976012070449227",
+      "https://x.com/shmidtqq/status/2071977057278366128",
       "https://x.com/shmidtqq/status/2071971947416551730",
       "https://x.com/shmidtqq/status/2071989948907930051",
       "https://x.com/shmidtqq/status/2071974796435353657"
@@ -24916,8 +24796,9 @@
     "2071975831602184375": [
       "https://x.com/TheAtlantic/status/2071975831602184375",
       "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a43dd7cf1ddc500011eb60d&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
-      "https://x.com/TheAtlantic/status/2072640205589221595",
-      "https://www.theatlantic.com/science/2026/06/venezuela-earthquake-towers/687747/?taid=6a46483b7177c90001d8d7c8&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter"
+      "https://x.com/TheAtlantic/status/2072713438871113817",
+      "https://theatln.tc/9Mv6U5TW",
+      "https://pbs.twimg.com/media/HMPB45zWMAE2VJl.jpg"
     ],
     "2071986617611616655": [
       "https://x.com/fuma_nama/status/2071986617611616655",
@@ -25050,7 +24931,9 @@
     ],
     "2072305747418046468": [
       "https://x.com/CFchangelog/status/2072305747418046468",
-      "https://developers.cloudflare.com/changelog/post/2026-07-01-ai-traffic-options/"
+      "https://developers.cloudflare.com/changelog/post/2026-07-01-ai-traffic-options/",
+      "https://x.com/CFchangelog/status/2072706212324335634",
+      "https://developers.cloudflare.com/changelog/post/2026-07-02-wrangler-auth-profiles/"
     ],
     "2072319457188282471": [
       "https://x.com/Cloudflare/status/2072319457188282471",
@@ -25108,8 +24991,8 @@
     "2072368641836745144": [
       "https://x.com/HarvardBiz/status/2072368641836745144",
       "https://s.hbr.org/4f9nNu9",
-      "https://x.com/HarvardBiz/status/2072508059964850533",
-      "https://s.hbr.org/3O6u8f7"
+      "https://x.com/HarvardBiz/status/2072572481181765978",
+      "https://s.hbr.org/4c9IOCn"
     ],
     "2072396185328058388": [
       "https://x.com/CFchangelog/status/2072396185328058388",
@@ -25127,8 +25010,8 @@
       "https://pbs.twimg.com/amplify_video_thumb/2072408902000427008/img/7jXyMVGRO50q6IPr.jpg",
       "https://x.com/0xMovez/status/2072410305703907397",
       "https://x.com/0xMovez/status/2072411236713541860",
-      "https://x.com/0xMovez/status/2072410794147361277",
-      "https://x.com/0xMovez/status/2072670259308269720"
+      "https://x.com/0xMovez/status/2072670259308269720",
+      "https://x.com/0xMovez/status/2072410794147361277"
     ],
     "2072409863553237323": [
       "https://x.com/skeptrune/status/2072409863553237323",
@@ -25136,11 +25019,11 @@
       "https://x.com/skeptrune/status/2072469701603811528",
       "https://x.com/skeptrune/status/2072469871062098319",
       "https://x.com/skeptrune/status/2072469804901102017",
-      "https://x.com/skeptrune/status/2072421540394832383",
       "https://x.com/skeptrune/status/2072470015169982641",
-      "https://x.com/skeptrune/status/2072476902422704398",
       "https://x.com/skeptrune/status/2072469459936436729",
+      "https://x.com/skeptrune/status/2072476902422704398",
       "https://x.com/skeptrune/status/2072469575019696574",
+      "https://x.com/skeptrune/status/2072733280202620942",
       "https://x.com/skeptrune/status/2072469503280292116"
     ],
     "2072432872120615191": [
@@ -25158,6 +25041,6 @@
       "https://pbs.twimg.com/media/HML_euva0AAqrXZ.png"
     ]
   },
-  "updated_at": "2026-07-02T15:30:30Z",
+  "updated_at": "2026-07-02T18:01:52Z",
   "window": "recent"
 }
