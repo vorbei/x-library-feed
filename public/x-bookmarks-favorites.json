@@ -110,6 +110,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "'Codex adoption has broadened from engineering into nearly every function across OpenAI. Is this a predictor for the rest of the enterprise world?'\n\n- Coatue\n\nhttps://www.coatue.com/c/takes https://t.co/Rd5lfFRIjL",
+      "text_zh": "\"Codex 的应用已从工程领域扩展到 OpenAI 几乎所有职能部门。这是否预示着企业界的未来趋势？\"\n\n- Coatue\n\nhttps://www.coatue.com/c/takes https://t.co/Rd5lfFRIjL",
+      "text_zh_hash": "fcdc44b3e7b9901f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/mastersinvest/status/2072497730245779631"
     },
     {
@@ -164,6 +167,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Fable 5 is officially back... and it's going to disappoint a LOT of people\n\neveryone's been waiting two weeks for the \"best model\" to come home\n\nbut we are getting SCAMMED:\n\n- they bolted on a new safety filter, tighter than anything they've ever shipped\n- it now flags more of your everyday coding and debugging as \"risky\"\n- and when it trips, you don't even get Fable... your request quietly gets handed off to Opus 4.8\n- it's only included in your plan through july 7, capped at half your weekly usage, then you pay per message\n\nso the model everyone hyped as the best is now more locked down, quicker to refuse your work, and paywalled in under a week\n\nbut i have a VERY good news for you: you don't actually need it\n\nbetting everything on one \"godlike model\" is not the play... it gets gated, throttled or pulled the second it gets good\n\na council of models is the new meta and nobody can take this from you\n\nso instead of waiting on Fable, read this step-by-step article: how to set up your own agentic operating system and build anything you want with a model council",
+      "text_zh": "# Fable 5 正式回归……但会让很多人失望\n\n所有人都在等了两周，盼着\"最强模型\"回家\n\n但我们正在被\"割韭菜\"：\n\n- 他们强行加了一个新的安全过滤器，比以往任何版本都更严格\n- 现在连日常编码和调试都会被标记为\"高风险\"\n- 一旦触发，你连 Fable 都用不上……你的请求会被悄悄转给 Opus 4.8\n- 这个模型只在你的套餐里包含到 7 月 7 日，每周用量上限为一半，之后按条收费\n\n所以，那个被所有人吹捧为最强的模型，现在更受限制、更频繁拒绝你的工作，而且不到一周就要收费\n\n但我有个好消息告诉你：你其实根本不需要它\n\n把所有赌注押在一个\"神级模型\"上不是明智之举……一旦它表现好，就会被加限制、限流或直接下架\n\n**模型委员会**才是新的主流玩法，而且没人能从你手里夺走它\n\n所以，与其等着 Fable，不如读读这篇分步指南：如何搭建你自己的智能体操作系统，用模型委员会构建任何你想要的东西",
+      "text_zh_hash": "922e5223ec0f409e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/EXM7777/status/2072338195233255754"
     },
     {
@@ -204,6 +210,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Interesting paper from Bridgewater & Thinking Machines on judgment in financial tasks: natively, LLMs are quite poor here, but when trained, results can improve materially.\n\nCaptures an issue inherent to machine learning & stocks: natively, machines are not good at identifying signal vs. noise & materiality. \nOne of the first questions a good trader will ask is “what is the trigger that will move the stock?” Machines struggle intensely with this task, as the answer is often subtle or boring, and the question stocks ask changes dynamically with price & market regime.  \n\nLLM’s have shown no real improvement vs. prior ML here: large language models aren’t sourcing materiality, they are sourcing salience, and treat lexical intensity as a proxy for significance, which is a really poor way to capture materiality.\n\nThis is why out of the box earnings previews run through off the shelf LLMs are pretty bad / not useful at all for decision making. They require a lot of oversight, but in my prototypes, a few critical steps systematically breaking down key drivers that can either be earnings levers, narrative influences, or risk factors, set against a multi-dimensional expectations engine that include sell-side but also market inferred expectations improve results materially. Once you do this, you can tangibly see the vision elucidated in this paper on a company by company basis. But it’s obvious that an out of the box LLM trained on a web-scrape won’t (likely ever) have these capabilities.\n\nIt is a scary idea to, as an investor, consider that perhaps with this approach I could put my portfolio on “auto-pilot” during earnings and the machine could make the right trades add/trim/enter/exit/flip with say a 60% batting average. Even a low-mid 50% earnings print move batting average that clips the tails of blow ups & short squeezes has the potential to so dramatically change the alpha generation approach at multi-managers.\n\nThis is a problem I’ve been working on for almost 10 years in concept. It feels like it’s now becoming possible to productionize and scale. I unfortunately won’t share much of the specifics here (there are some aspects to this I consider proprietary), but this is an idea that we are working on co-designing with a few clients. Please reach out if it is interesting.\n\nhttps://thinkingmachines.ai/news/learning-to-replicate-expert-judgment-in-financial-tasks/",
+      "text_zh": "来自桥水基金（Bridgewater）与Thinking Machines关于金融任务中判断力的一篇有趣论文：原生状态下，大语言模型在此领域表现相当糟糕，但经过训练后，结果能有实质性改善。\n\n这揭示了机器学习与股票领域固有的问题：机器天生不擅长识别信号与噪声、以及重要性。优秀交易员首先会问的问题之一是\"什么因素会触发股价变动？\"机器在此任务上举步维艰，因为答案往往微妙或平淡，而股票所关注的问题会随价格和市场环境动态变化。\n\n大语言模型在此并未展现出比先前机器学习方法更优的表现：它们不是在寻找重要性，而是在寻找显著性，并将词汇强度视为重要性的代理指标——这恰恰是捕捉重要性的极差方式。\n\n这就是为何未经调校的财报预览通过现成LLM处理后，结果往往糟糕且对决策毫无用处。它们需要大量人工监督，但在我的原型中，通过几个关键步骤系统性地拆解核心驱动因素（这些因素可能是盈利杠杆、叙事影响或风险因素），并配合包含卖方预期及市场隐含预期的多维预期引擎，结果能得到实质性改善。一旦完成这些步骤，你就能在逐家公司层面切实看到这篇论文所阐述的愿景。但显而易见的是，基于网络爬取数据训练的现成LLM（很可能永远）无法具备这些能力。\n\n作为投资者，想到或许能用这种方法让投资组合在财报季\"自动驾驶\"，让机器以60%的胜率执行加仓/减仓/建仓/清仓/反向操作，这确实是个令人不安的想法。即便只有50%出头的财报行情胜率，只要能截断暴涨暴跌的尾部风险，就足以彻底改变多策略基金的阿尔法生成方式。\n\n这个概念我研究了近十年。如今感觉终于到了可以产品化并规模化落地的阶段。遗憾的是，我无法在此分享太多细节（其中某些方面我视作专有技术），但这是我们正与几位客户共同设计的方案。若您感兴趣，欢迎联系。\n\nhttps://thinkingmachines.ai/news/learning-to-replicate-expert-judgment-in-financial-tasks/",
+      "text_zh_hash": "74874e58bafc694f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/FundamentEdge/status/2072368472848531929"
     },
     {
@@ -245,6 +254,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "There’s a consistent pattern in underperforming AI initiatives: leaders are focusing only on whats urgent and not what’s lasting.\n\nAddressing urgent problems—such as bottlenecks in productivity, rising costs, slow decision-making, or inefficiencies in workflows—may generate excitement, but ultimately AI initiatives meant only to address these challenges fail to transform organizations in meaningful or lasting ways.\n\nTo avoid this “urgency trap,” leaders need to take three key actions. https://s.hbr.org/4f9nNu9",
+      "text_zh": "表现不佳的AI项目存在一个普遍模式：领导者只关注紧急事务，而非持久价值。\n\n解决紧急问题——例如生产力瓶颈、成本上升、决策迟缓或工作流程低效——或许能带来短期兴奋，但仅针对这些挑战的AI项目最终无法以有意义或持久的方式改变组织。\n\n要避开这个\"紧急陷阱\"，领导者需要采取三项关键行动。https://s.hbr.org/4f9nNu9",
+      "text_zh_hash": "1ff11761a8afaace",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/HarvardBiz/status/2072368641836745144"
     },
     {
