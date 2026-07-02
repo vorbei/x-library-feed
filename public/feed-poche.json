@@ -2097,7 +2097,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-25T15:32:11.857424Z",
+      "article_fetch_attempted_at": "2026-07-02T18:18:35.572473Z",
       "article_image_urls": [
         "https://retool-dot-com.s3.us-west-2.amazonaws.com/page-assets/homepage/homepage-meta-image.png",
         "https://dqpcjghenxt8u.cloudfront.net/icons/external-imports/import-react.png",
@@ -108667,5 +108667,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-07-02T14:57:33.767923Z"
+  "updated_at": "2026-07-02T18:18:37.410566Z"
 }
