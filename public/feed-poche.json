@@ -81,6 +81,9 @@
       "category": "Articles",
       "created_at": "2026-07-02T21:38:37.582246Z",
       "description": "Agents can write code faster than we can absorb it. Here's why it still matters for humans to understand what they build — and some techniques for doing that efficiently: explainer docs, quizzes, micro-worlds, and shared spaces.",
+      "description_zh": "智能体编写代码的速度远超我们吸收代码的速度。但人类仍需理解它们构建的内容——以下原因及高效理解技巧：解释性文档、测验、微世界和共享空间。",
+      "description_zh_hash": "4a655b3ad4874791",
+      "description_zh_translator_v": 2,
       "domain": "www.geoffreylitt.com",
       "embed_type": "",
       "id": "k17ep6xx95skxh5bp2kcgm1dph89rk9x",
@@ -103,6 +106,9 @@
         }
       ],
       "title": "Understanding is the new bottleneck",
+      "title_zh": "理解成为新的瓶颈",
+      "title_zh_hash": "b4f87b10453160da",
+      "title_zh_translator_v": 2,
       "url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html",
       "x_status_id": null
     },
@@ -110,6 +116,9 @@
       "category": "Social",
       "created_at": "2026-07-03T02:02:23.823502Z",
       "description": "Vinyl Digging App by @vanyaonthewall pic.twitter.com/MNFe3rXVGc",
+      "description_zh": "@vanyaonthewall 的唱片挖掘应用 pic.twitter.com/MNFe3rXVGc",
+      "description_zh_hash": "1b6b02508c058263",
+      "description_zh_translator_v": 2,
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k173h3akaspvxmwkgzasa58ymh89v6pb",
@@ -132,6 +141,9 @@
         }
       ],
       "title": "Recent Design (@recentdesign) on X",
+      "title_zh": "X 平台上的 Recent Design (@recentdesign)",
+      "title_zh_hash": "bf110c0d3ec54da0",
+      "title_zh_translator_v": 2,
       "url": "https://x.com/recentdesign/status/2072670701585076427",
       "x_status_id": "2072670701585076427"
     },
@@ -151,6 +163,9 @@
       "category": "Tools",
       "created_at": "2026-07-03T02:04:01.139280Z",
       "description": "Berry is the app to invest in U.S. stocks and ETFs, plus prediction markets, from $1 with no bank account. Assets are SIPC-insured.",
+      "description_zh": "Berry是一款投资美股、ETF及预测市场的应用，最低1美元起投，无需银行账户。资产受SIPC保险保障。",
+      "description_zh_hash": "c37838f2608bc930",
+      "description_zh_translator_v": 2,
       "domain": "berry.app",
       "embed_type": "",
       "id": "k17ez3mrsvfjrxy8n6cr0h0p0s89t8jy",
@@ -173,6 +188,9 @@
         }
       ],
       "title": "Berry — Invest in U.S. stocks from $1, no bank account",
+      "title_zh": "Berry — 投资美股，1美元起投，无需银行账户",
+      "title_zh_hash": "4d48912230038395",
+      "title_zh_translator_v": 2,
       "url": "https://berry.app/",
       "x_status_id": null
     },
@@ -232,6 +250,9 @@
       "category": "Tools",
       "created_at": "2026-07-03T02:07:07.650793Z",
       "description": "Slow motion used to be a privilege. Pixboom Spark shoots 4K at 1000fps — professional high-speed imaging for filmmakers. Starting at $13,999.",
+      "description_zh": "慢动作曾经是一种特权。Pixboom Spark 以1000fps拍摄4K视频——为电影制作人提供专业级高速成像。起售价13,999美元。",
+      "description_zh_hash": "a568af8e5961e606",
+      "description_zh_translator_v": 2,
       "domain": "www.pixboom.com",
       "embed_type": "",
       "id": "k1776dkas2j63hfwp3cxyw71mn89vmgy",
@@ -254,6 +275,9 @@
         }
       ],
       "title": "PIXBOOM Spark | High-Speed Cinema Camera. 4K at 1000fps.",
+      "title_zh": "PIXBOOM Spark | 高速电影摄影机。4K 1000fps。",
+      "title_zh_hash": "9368648d46cdb37b",
+      "title_zh_translator_v": 2,
       "url": "https://www.pixboom.com/",
       "x_status_id": null
     },

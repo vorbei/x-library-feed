@@ -52,6 +52,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Schools should take advantage of personalised AI tuition where it is proven to work. But they must also redouble efforts to teach things that a robot cannot https://www.economist.com/leaders/2025/12/04/how-ai-is-rewiring-childhood?taid=6a46bc4af1ddc500011ecaea&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter",
+      "text_zh": "学校应充分利用已被证明有效的个性化AI辅导，但同时必须加倍努力教授机器人无法胜任的内容。",
+      "text_zh_hash": "7d215e0c6666e10e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheEconomist/status/2072764823046107269"
     },
     {
@@ -92,6 +95,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Dear followers,\nPlease see this interview with Goldman Sachs on AI and jobs.\nHow Will AI Impact the Labor Market? | Goldman Sachs https://www.goldmansachs.com/insights/goldman-sachs-exchanges/how-will-ai-impact-the-labor-market",
+      "text_zh": "亲爱的读者们，\n\n请查阅这篇关于人工智能与就业的高盛访谈。\n\n人工智能将如何影响劳动力市场？| 高盛 https://www.goldmansachs.com/insights/goldman-sachs-exchanges/how-will-ai-impact-the-labor-market",
+      "text_zh_hash": "016fe6ed1d32a878",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/DAcemogluMIT/status/2072722960352186852"
     },
     {
@@ -137,6 +143,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Get started here: https://claude.com/product/tag\n\nWe are granting $25k in credits for Claude Enterprise orgs and $2.5k in credits for Claude Team orgs to use Claude Tag through September 1st",
+      "text_zh": "开始使用：https://claude.com/product/tag\n\n我们为Claude Enterprise组织提供2.5万美元的积分，为Claude Team组织提供2500美元的积分，用于在9月1日前使用Claude Tag。",
+      "text_zh_hash": "40c02dd4ea66188c",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/_catwu/status/2072743070316257662"
     },
     {
@@ -192,6 +201,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Boris Cherny and Cat Wu, who run Claude Code:\n\n\"In the past, you had to open Claude and ask. With Claude Tag, Claude jumps in.\"\n\nIt now writes 65% of their team's code, runs on its own for days, and opens the PR before they ask.\n\n11 minutes on how Anthropic actually builds now. Watch it, then read the full guide on loops below.",
+      "text_zh": "Boris Cherny 与 Cat Wu，Claude Code 的负责人：\n\n\"过去，你得打开 Claude 然后提问。有了 Claude Tag，Claude 会自动介入。\"\n\n如今，它已能编写其团队 65% 的代码，自主运行数日，并在他们提出要求之前就提交 PR。\n\n11 分钟了解 Anthropic 现在的实际构建方式。先观看视频，再阅读下方关于循环的完整指南。",
+      "text_zh_hash": "c01c8fbcd6797d95",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/phosphenq/status/2072739548694712696"
     },
     {
@@ -233,6 +245,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "\"What Your Manager Is Thinking When You Complain\"\nThree things managers notice when they hear you complain during 1-on-1 meetings.\nby Adler Hsieh\nhttps://adlerhsieh.com/p/what-your-manager-is-thinking-when-you-complain",
+      "text_zh": "\"当你抱怨时，你的经理在想什么\"\n经理在1对1会议中听到你抱怨时注意到的三件事。\n作者：Adler Hsieh\nhttps://adlerhsieh.com/p/what-your-manager-is-thinking-when-you-complain",
+      "text_zh_hash": "4792a1e037ce12ce",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/VKazulkin/status/2072756189407117748"
     },
     {
@@ -274,6 +289,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Finally got around to reading this.\n\nI just ported a 100,000 line chunk of Kubernetes to TypeScript and this post _still_ taught me new things. Really good read.",
+      "text_zh": "终于抽出时间读了这篇。\n\n我刚把 Kubernetes 中一个 10 万行的模块移植到 TypeScript，但这篇文章 _仍然_ 让我学到了新东西。非常值得一读。",
+      "text_zh_hash": "dc3e84e7150519fd",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/samwhoo/status/2072697144616653081"
     },
     {
@@ -314,6 +332,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "wrote a decode megakernel for qwen3-asr on an SM120 device. 5.81x over vLLM eager baseline. against CUDA graphs still slower, the 3 optimizations that made it worse taught me the most. full worklog: https://emre570.bearblog.dev/megakernel-decode/",
+      "text_zh": "在SM120设备上为Qwen3-ASR编写了解码megakernel。相比vLLM eager基线实现了5.81倍加速。但对比CUDA graphs仍较慢，其中三个让性能更差的优化反而教会我最多。完整工作日志：https://emre570.bearblog.dev/megakernel-decode/",
+      "text_zh_hash": "59002968c7f3d2bf",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/emre570_/status/2072669154050543677"
     },
     {
@@ -368,6 +389,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Spotify’s Niklas Gustavsson spent 30 Years mastering the craft of coding - Then he Uninstalled his IDE in just 8 weeks\n\nHe’s a PhD molecular biologist turned Tech Titan who just revealed How Spotify manages a 20-million-line \"beast\" of code with a tiny army of agents\n\n\"It’s not about working more hours it’s about making the infrastructure better\" - Niklas Gustavsson to Borys Cherny\n\n> The 75% Speed Hack: \n- Spotify’s 2,900 engineers hit a massive 75% jump in PR frequency - with 73% of all code now authored by AI\n\n> 4,500 Daily Battles: \n- They deploy to production 4,500 times every single day - turning new ideas into live features in 60 minutes instead of months\n\n> The \"Honk\" Machine: \n- They built an internal AI engine that turned a failing 20% success rate into an 80% automated victory for complex migrations\n\n> CEO as Creator: \n- The barrier is so low that even Spotify’s co-CEO now builds his own app prototypes in natural language, bypassing the engineering queue entirely\n\n> 5-10 Agents at Once: \n- Niklas doesn't \"type\" anymore - he manages 5 to 10 terminal tabs of agents working in parallel while he focuses on high-level problem solving\n\nBookmark & Watch now",
+      "text_zh": "Spotify的Niklas Gustavsson花了30年磨炼编程技艺——然后在短短8周内卸载了他的IDE\n\n他是一位拥有分子生物学博士学位的技术巨头，刚刚揭秘了Spotify如何用一支精干的智能体大军管理着2000万行代码的\"巨兽\"\n\n\"关键不在于增加工作时间，而在于改善基础设施\" —— Niklas Gustavsson对Borys Cherny说\n\n> 75%的速度提升：\n- Spotify的2900名工程师实现了PR频率75%的大幅跃升——目前73%的代码由AI编写\n\n> 每天4500次战斗：\n- 他们每天向生产环境部署4500次——将新想法转化为上线功能的时间从数月缩短至60分钟\n\n> \"Honk\"机器：\n- 他们构建了一个内部AI引擎，将复杂迁移中20%的失败成功率转变为80%的自动化胜利\n\n> CEO即创造者：\n- 门槛如此之低，以至于Spotify的联合CEO现在直接用自然语言构建自己的应用原型，完全绕开了工程队列\n\n> 同时运行5-10个智能体：\n- Niklas不再\"打字\"了——他同时管理着5到10个终端标签页中的智能体并行工作，而自己专注于高层问题解决\n\n立即收藏并观看",
+      "text_zh_hash": "99d2d465517392f6",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/henrikhinai/status/2072729802692604367"
     },
     {
@@ -408,6 +432,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "And here is the link to the podcast.\nHow Will AI Affect Jobs? - Exchanges | Podcast on Spotify https://open.spotify.com/episode/77vj2r8BQRknKqGy5usB7Z",
+      "text_zh": "以下是播客链接：\n\n**AI 将如何影响就业？** - Exchanges | 播客 on Spotify  \nhttps://open.spotify.com/episode/77vj2r8BQRknKqGy5usB7Z",
+      "text_zh_hash": "f3e1185cd645b966",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/DAcemogluMIT/status/2072723129684963786"
     },
     {
@@ -446,6 +473,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Used with caution, AI can be beneficial for legal cases. But relying on it can prove expensive https://www.economist.com/business/2026/06/29/the-rise-of-vibe-lawyering?taid=6a46946763792900018a2c3a&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "text_zh": "谨慎使用，人工智能对法律案件有益。但过度依赖可能代价高昂",
+      "text_zh_hash": "aa8d6b93210a8268",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheEconomist/status/2072721996786405717"
     },
     {
@@ -527,6 +557,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "What if the secret to human intelligence isn't processing more data — but knowing when to stop? New @StanfordGSB research shows how people learn social conventions with minimal information, and why that sets us apart from LLMs.\n\nhttps://stanford.io/4vSStWv",
+      "text_zh": "如果人类智能的秘诀不在于处理更多数据，而在于知道何时停止呢？斯坦福商学院的最新研究表明，人类如何通过极少的信息学习社会规范，以及这为何让我们与大型语言模型（LLM）截然不同。\n\nhttps://stanford.io/4vSStWv",
+      "text_zh_hash": "b20418801c1d1380",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Stanford/status/2072748892626583610"
     },
     {
@@ -815,6 +848,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic Product Team:\n\n\"Most people throw more tokens at AI to get better results - we tested the opposite \n\n- same tokens, different jobs. accuracy jumped from 15% to 90%\"\n\n4 jobs for your tokens:\n\nexecute → do the work\nadvise → check the direction\ngrade → pass or fail against a rubric\ndream → inspect, learn, write to memory, sharpen next round\n\ninstead of one AI doing everything - split it into four: one works, one checks, one scores, one learns - same cost, but 5x better\n\nbookmark & watch this new guide how to use Claude ↓",
+      "text_zh": "Anthropic 产品团队：\n\n\"大多数人通过向 AI 投入更多 token 来获得更好的结果——我们测试了相反的做法\n\n——相同的 token，不同的任务。准确率从 15% 跃升至 90%\"\n\n为你的 token 分配 4 项任务：\n\n执行 → 完成工作\n建议 → 检查方向\n评分 → 对照标准判定通过/不通过\n反思 → 审视、学习、写入记忆、优化下一轮\n\n与其让一个 AI 包揽所有事情——不如将其拆分为四个：一个工作，一个检查，一个打分，一个学习——成本相同，但效果提升 5 倍\n\n收藏并观看这份关于如何使用 Claude 的新指南 ↓",
+      "text_zh_hash": "6b75082a9bc624b4",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0xCodila/status/2072804859884064846"
     },
     {
@@ -911,6 +947,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "here's one of the skills I used to drive this growth\n\ninstall the /agent-experience skill https://t.co/TQzMwAuv7m",
+      "text_zh": "以下是我用来推动这一增长的技能之一：\n\n安装 /agent-experience 技能 https://t.co/TQzMwAuv7m",
+      "text_zh_hash": "7cf849b70033429a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/JaySahnan/status/2072706964560441430"
     },
     {
