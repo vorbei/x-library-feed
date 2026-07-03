@@ -188,6 +188,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Nassim Taleb asked a room full of quants: to trust an average, a normal bell curve needs ~30 data points. how many does an 80/20 \"fat-tailed\" world need?\n\npeople guessed 200. 1,000. the real answer: 100 trillion.\n\nthat's 10¹⁴ - because in fat-tailed data, one rare event dwarfs everything else, and until it shows up your sample is a lie. \"you observe, you observe, you observe… until the crash.\"\n\nworse, the deception only runs one way. a wild distribution can disguise itself as calm - a calm one can't fake being wild. so the data almost always fools you downward, into thinking there's less risk than there is.\n\nthe fix: stop estimating the average from the average. it doesn't work where it matters.\n\n~25-min talk, free. Taleb on why your data is quietly lying about risk ↓",
+      "text_zh": "纳西姆·塔勒布曾问满屋子的量化分析师：要相信一个平均值，正态钟形曲线大约需要30个数据点。那么在一个80/20的\"肥尾\"世界里，需要多少个？\n\n人们猜200、1000。真实答案：100万亿。\n\n也就是10¹⁴——因为在肥尾数据中，一个罕见事件会压倒其他所有数据，而在它出现之前，你的样本就是谎言。\"你观察，观察，再观察……直到崩盘。\"\n\n更糟的是，这种欺骗只朝一个方向起作用。一个狂野的分布可以伪装成平静的样子——但一个平静的分布却无法假装狂野。所以数据几乎总是在误导你低估风险，让你以为风险比实际小。\n\n解决办法：别再通过平均值来估算平均值。在真正重要的地方，这招行不通。\n\n约25分钟演讲，免费。塔勒布讲述你的数据如何悄悄地在风险问题上撒谎↓",
+      "text_zh_hash": "f36b8c0986710e60",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Dipper_pol/status/2072755153459916847"
     },
     {
@@ -242,6 +245,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic Head of Product:\n\n“>60% of our code written by Fable 5 and agents - not copilots, not autocomplete, full agents.\"\n\nFable churned through 100x of 1000x of lines, verified output, and deployed by Monday morning.\n\nThe engineers who adapt to this ship 5x faster.\n\nin 25 min, an Anthropic Head of Product reveals how to use claude like senior engineers\n\nBookmark & watch it, Unpublished from WF26",
+      "text_zh": "Anthropic 产品负责人：\n\n“我们超过 60% 的代码由 Fable 5 和智能体编写——不是 Copilot，不是自动补全，而是完整的智能体。”\n\nFable 处理了 100 倍乃至 1000 倍行数的代码，验证输出结果，并在周一早上完成部署。\n\n适应这一变化的工程师，交付速度提升了 5 倍。\n\n在 25 分钟内，一位 Anthropic 产品负责人揭示了如何像资深工程师一样使用 Claude。\n\n收藏并观看，WF26 未公开内容。",
+      "text_zh_hash": "1d5709aeab83c78a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0xRicker/status/2073000957600817177"
     },
     {
@@ -334,6 +340,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "New in Entire CLI: entire blame\n\nWhile git blame tells you the commit author behind a line, entire blame adds the context Entire captured around that commit:\n\n✅ Checkpoints\n✅ Agent sessions\n✅ Whether the commit is attributed to AI, human, or both\n\nRead more: https://entire.io/blog/introducing-entire-blame",
+      "text_zh": "## Entire CLI 新功能：entire blame\n\n`git blame` 能告诉你某行代码的提交作者，而 `entire blame` 则额外提供了 Entire 围绕该提交所捕获的上下文：\n\n✅ 检查点  \n✅ Agent 会话  \n✅ 该提交归属于 AI、人类还是两者共同完成  \n\n了解更多：https://entire.io/blog/introducing-entire-blame",
+      "text_zh_hash": "1614c171173f8491",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/EntireHQ/status/2072741423070273586"
     },
     {
@@ -432,6 +441,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Boris Cherny, creator of Claude Code:\n\n\"Fable 5 does in a day what used to take your team a month. Most people will keep using it wrong.\"\n\nIn 12 minutes he explains why Fable 5 needs less prompting than any model before, and why your old detailed prompts now work against you.\n\nWatch it, then save the exact config below 👇",
+      "text_zh": "Boris Cherny，Claude Code 的创造者：\n\n\"Fable 5 一天就能完成过去你的团队一个月的工作。大多数人还是会用错它。\"\n\n在12分钟内，他解释了为什么Fable 5需要的提示比以往任何模型都少，以及为什么你过去那些详细的提示现在反而会适得其反。\n\n观看视频，然后保存下面的精确配置 👇",
+      "text_zh_hash": "b3a0dc2ef34966df",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/zodchiii/status/2072987264716525903"
     },
     {
