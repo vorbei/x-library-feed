@@ -6295,19 +6295,6 @@
       "title": "",
       "url": "http://x.com/i/article/2072328741078921216"
     },
-    "http://x.com/i/article/2072636402521583616": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2072636402521583616",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HMN-Iw5WoAA24Xp?format=jpg&name=900x900)](http://x.com/ericzakariasson/article/2072639126034137444/media/2072638942550073344)\n\nFable is back, here's how I use it in Cursor\n\n[![](https://pbs.twimg.com/profile_images/1841151626456801283/HnXqy3TQ_normal.jpg)](http://x.com/ericzakariasson)\n\n[eric zakariasson![](https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X_bigger.jpg)](http://x.com/ericzakariasson)\n\n[@ericzakariasson](http://x.com/ericzakariasson)\n\n·\n\nJul 2\n\nFollow\n\nClick to Follow ericzakariasson\n\n39\n\n64\n\n1K\n\n[99K](http://x.com/ericzakariasson/status/2072639126034137444/analytics)\n\nFable is back in Cursor, and here's a pattern I've been exploring and some other ways I've been getting the most out of the model.\n\n## \n\nFable as orchestrator, Composer as workers\n\nIt's easy to put everything on a smart model. Most of an agent run is reading files, writing patches, and running checks, and you don't need Fable rates for that. Instead, let Fable decide the subtasks, the order, and whether the result is done. Composer 2.5 does the scoped pieces, cheaper and faster, and can run them in parallel. Most of my chats are short Composer runs. Fable shows up less often, but those runs go longer.\n\n[![Image](https://pbs.twimg.com/media/HMN8Lo9WAAA3SXy?format=jpg&name=small)](http://x.com/ericzakariasson/article/2072639126034137444/media/2072636792935677952)\n\nYou can put the routing in AGENTS.md or a .cursor/rules-rule so the orchestrator agent can use it. \n\n```text\nUse Fable for planning and coordination. For anything you can scope into a clean subtask, start a Composer 2.5 subagent.\n\nGive each subagent a clear goal, the relevant context, and what to bring back. Don't have them invent the plan. Run independent pieces in parallel.\n\nWhen they return, review the results before you merge anything. If something's off, rewrite the brief and spin another, don't silently patch over it yourself unless it's trivial.\n\n```\n\nA good brief has:\n\n* one concern\n* enough context that the worker doesn't re-explore the whole repo\n* a definition of done it can check on its own\n* a short report so the orchestrator can decide quickly\n\nFable alone still makes sense when the judgment is the work, whether that's a hard design call, a gnarly bug that needs one coherent thread, or a plan that has to stay coupled. If you can't name the subtasks, keep it one agent!\n\n[![Image](https://pbs.twimg.com/media/HMN8JLUWoAAzC48?format=jpg&name=small)](http://x.com/ericzakariasson/article/2072639126034137444/media/2072636750619385856)\n\n## \n\nLong horizon cloud agents\n\nThe use case I reach for most is ultra long horizon work on Cloud Agents. A long refactor, a multi-surface feature with a real definition of done, an investigation across a big codebase. I hand it to Fable, give it something it can check itself against, and let it run. I check in from the iOS app for status, a look at what it's doing, a nudge if it's drifted.\n\n[![Image](https://pbs.twimg.com/media/HMN8RD7W4AAfjpS?format=jpg&name=small)](http://x.com/ericzakariasson/article/2072639126034137444/media/2072636886074449920)\n\n## \n\nKeeping up with the frontiers\n\nIf you only ever run one model, you start mistaking its habits for the ceiling of what agents can do. The frontier also moves every few weeks. Rotating is how I keep \"what good looks like\" current, from real work rather than benchmarks.\n\nWant to publish your own Article?\n\n[Upgrade to Premium](http://x.com/i/premium%5Fsign%5Fup)\n\n* [![](https://pbs.twimg.com/profile_images/1841151626456801283/HnXqy3TQ_normal.jpg)](http://x.com/ericzakariasson)  \n[eric zakariasson![](https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X_bigger.jpg)](http://x.com/ericzakariasson)  \n[@ericzakariasson](http://x.com/ericzakariasson)  \nFollow  \nClick to Follow ericzakariasson  \n[@cursor\\_ai](http://x.com/cursor%5",
-      "title": "",
-      "url": "http://x.com/i/article/2072636402521583616"
-    },
     "http://x.com/i/article/2072649140706951168": {
       "cleaner_v": 2,
       "content_type": "",
@@ -9694,22 +9681,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Communities of Not | Armin Ronacher's Thoughts and Writings",
       "url": "https://lucumr.pocoo.org/2026/6/6/communities-of-not/"
-    },
-    "https://luma.com/esy6nfb8": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Take a breather from AI Engineer World's Fair!\nEntire.io will be posted up at Elaichi next to Moscone with swag, hot chai, and a comfy place to cowork between…",
-      "final_url": "https://luma.com/esy6nfb8",
-      "frameable": false,
-      "image_urls": [
-        "https://og.luma.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event?calendar_avatar=https%3A%2F%2Fimages.lumacdn.com%2Fuploads%2F6i%2F5b27075f-f95d-4bd9-b0db-58517144ba42.jpg&calendar_name=Entire%20Events&color0=%230e1d2c&color1=%2300f8f9&color2=%23cf7b35&color3=%23f5f5f5&host_avatar=https%3A%2F%2Fimages.lumacdn.com%2Fuploads%2F8i%2Fc23a35c2-1a7c-424d-8100-5cf3ff22fc34.jpg&host_name=Lizzie%20%40%20Entire&img=https%3A%2F%2Fimages.lumacdn.com%2Fuploads%2F1l%2F7e84f0b7-a198-4427-b81d-7d098ae8f94f.png&name=Chai%20and%20AI%3A%20%23AIEWF%20edition&palette_neutral=%230e1d2c%3A45.45%2C%23f5f5f5%3A0.35&palette_vibrant=%2300f8f9%3A1.2%2C%23cf7b35%3A0.59",
-        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/uploads/1l/7e84f0b7-a198-4427-b81d-7d098ae8f94f.png",
-        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,anim=false,background=white,quality=75,width=32,height=32/uploads/6i/5b27075f-f95d-4bd9-b0db-58517144ba42.jpg"
-      ],
-      "kind": "article",
-      "text_excerpt": "Discover Events Sign In Presented by Entire Events Follow Events hosted by Entire and events that Entire will be at! Hosted By Lizzie @ Entire 48 Went Michael Asproulis, shan and 46 others Contact the Host Report Event AI Chai and AI: #AIEWF edition Entire Events elaichi co. chai house San Francisco, CA Registration Past Event Welcome! To join the event, please register below. Register You will be asked to verify token ownership with your wallet . About Event ​ Take a breather from AI Engineer World's Fair! ​ Entire.io will be posted up at Elaichi next to Moscone with swag, hot chai, and a comfy place to cowork between sessions--join us, grab a drink on us, and let us know what you're shipping and any AI-coding pain points slowing you down! Location elaichi co. chai house 360 3rd St Ste 101, San Francisco, CA 94107, USA Presented by Entire Events Follow Events hosted by Entire and events that Entire will be at! Hosted By Lizzie @ Entire 48 Went Michael Asproulis, shan and 46 others Contact the Host Report Event AI Discover Pricing Help Get the App",
-      "title": "Chai and AI: #AIEWF edition · Luma",
-      "url": "https://luma.com/esy6nfb8"
     },
     "https://magnus919.com/2026/06/the-architecture-of-focus/?ref=sidebar": {
       "cleaner_v": 2,
@@ -16215,28 +16186,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "When Developing an AI Strategy, Beware the Urgency Trap",
       "url": "https://s.hbr.org/4f9nNu9"
-    },
-    "https://s.hbr.org/4tkutKa": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Do you dream about switching to a career that’s drastically different from your current job? Many people do. But they never make the leap: the costs of switching seem too high, and the possibility of success seems too remote. The answer isn’t to plug away in your current job, unfulfilled and slowly burning out. The answer is to do both . Two careers are better than one. And by committing to two careers, you will produce benefits for both. You can learn new skills, broaden your network, and discover truly creative new solutions by committing to two (or more) wildly divergent careers. When you follow your curiosities, you will bring passion to your new careers, which will leave you more fulfilled. And by doing more than one job, you may end up doing all of them better.",
-      "final_url": "https://hbr.org/2017/04/why-you-should-have-at-least-two-careers?tpcc=orgsocial_edit&utm_campaign=hbr&utm_medium=social&utm_source=facebook,linkedin,twitter",
-      "frameable": null,
-      "image_urls": [
-        "https://hbr.org/resources/images/article_assets/2017/04/apr17-25-157609160.jpg",
-        "https://hbr.org/assets-mfe-articles/_next/static/media/Twitter.0swuvvv6x6dv_.svg",
-        "https://hbr.org/assets-mfe-articles/_next/static/media/Facebook.04rsuuytjqje5.svg",
-        "https://hbr.org/assets-mfe-articles/_next/static/media/LinkedIn.0k9~yd0rlxzso.svg",
-        "https://hbr.org/assets-mfe-articles/_next/static/media/Save.09a3zbhn9qnr~.svg",
-        "https://hbr.org/assets-mfe-articles/_next/static/media/Download.05v71ue7.ma35.svg",
-        "https://hbr.org/assets-mfe-articles/_next/static/media/BuyCopy.172.f4inmo975.svg",
-        "https://hbr.org/assets-mfe-articles/_next/static/media/Print.0-3qb9pn16j8b.svg",
-        "https://hbr.org/assets-mfe-articles/_next/static/media/close.0e9_5t1w4ast7.svg"
-      ],
-      "kind": "article",
-      "text_excerpt": "SKIP TO CONTENT Career planning | Why You Should Have (at Least) Two Careers Subscribe Sign In Latest Magazine Topics Podcasts Store Reading Lists Data & Visuals Case Selections HBR Executive Search hbr.org Subscribe Latest Podcasts The Magazine Store Webinars Newsletters All Topics Reading Lists Data & Visuals Case Selections HBR Executive My Library Account Settings Sign In Explore HBR Latest The Magazine Podcasts Store Webinars Newsletters Popular Topics Managing Yourself Leadership Strategy Managing Teams Gender Innovation Work-life Balance All Topics For Subscribers Reading Lists Data & Visuals Case Selections HBR Executive Subscribe My Account My Library Topic Feeds Orders Account Settings Email Preferences Sign In Career planning Why You Should Have (at Least) Two Careers by Kabir Sehgal April 25, 2017 Post Post Share Save Get PDF Buy Copies Print Summary . Do you dream about switching to a career that’s drastically different from your current job? Many people do. But they never make the leap: the costs of switching seem too high, and the ... more Leer en español Ler em português Post Post Share Save Get PDF Buy Copies Print It’s not uncommon to meet a lawyer who’d like to work in renewable energy, or an app developer who’d like to write a novel, or an editor who fantasizes about becoming a landscape designer. Maybe you also dream about switching to a career that’s drastically different from your current job. But in my experience, it’s rare for such people to actually make the leap. The costs of switching seem too high, and the possibility of success seems too remote. Kabir Sehgal is the New York Times and Wall Street Journal bestselling author of seven books including Coined: The Rich Life of Money And How Its History Has Shaped Us. He works in corporate strategy at a Fortune 500 Company and previously served as a vice president at J.P. Morgan. He is also a US Navy veteran and multiple Grammy and Latin Grammy Award winning producer. You can follow him on Twitter or Facebook . Post Post Share Save Get PDF Buy Copies Print Read more on Career planning or related topics Continuous learning and Personal growth and transformation Partner Center Start my subscription! Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Follow HBR Facebook X Corp. LinkedIn Instagram Your Newsreader About Us Careers Privacy Policy Cookie Policy Copyright Information Trademark Policy Terms of Use Harvard Business Publishing: Higher Education Corporate Learning Harvard Business Review Harvard Business School Copyright © 2026 Harvard Business School Publishing. All rights reserved. Harvard Business Publishing is an affiliate of Harvard Business School.",
-      "title": "Why You Should Have (at Least) Two Careers",
-      "url": "https://s.hbr.org/4tkutKa"
     },
     "https://s.hbr.org/4tt3SL3": {
       "cleaner_v": 2,
@@ -24828,9 +24777,7 @@
     ],
     "2072721996786405717": [
       "https://x.com/TheEconomist/status/2072721996786405717",
-      "https://www.economist.com/business/2026/06/29/the-rise-of-vibe-lawyering?taid=6a46946763792900018a2c3a&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
-      "https://x.com/TheEconomist/status/2073049155472155017",
-      "https://www.economist.com/science-and-technology/2026/06/29/should-every-babys-dna-be-sequenced?taid=6a47c51863792900018a36b1&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
+      "https://www.economist.com/business/2026/06/29/the-rise-of-vibe-lawyering?taid=6a46946763792900018a2c3a&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
     ],
     "2072722960352186852": [
       "https://x.com/DAcemogluMIT/status/2072722960352186852",
@@ -24870,9 +24817,7 @@
     "2072741423070273586": [
       "https://x.com/EntireHQ/status/2072741423070273586",
       "https://entire.io/blog/introducing-entire-blame",
-      "https://pbs.twimg.com/amplify_video_thumb/2072741153330401280/img/m6qjszusSe7R-AQ_.jpg",
-      "https://x.com/EntireHQ/status/2072345008955334814",
-      "https://luma.com/esy6nfb8"
+      "https://pbs.twimg.com/amplify_video_thumb/2072741153330401280/img/m6qjszusSe7R-AQ_.jpg"
     ],
     "2072748892626583610": [
       "https://x.com/Stanford/status/2072748892626583610",
@@ -24895,8 +24840,8 @@
     "2072764823046107269": [
       "https://x.com/TheEconomist/status/2072764823046107269",
       "https://www.economist.com/leaders/2025/12/04/how-ai-is-rewiring-childhood?taid=6a46bc4af1ddc500011ecaea&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter",
-      "https://x.com/TheEconomist/status/2073071801639256399",
-      "https://www.economist.com/middle-east-and-africa/2026/07/02/ugandas-volatile-army-chief-goes-after-the-press?taid=6a47da2f9536b00001bc7404&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
+      "https://x.com/TheEconomist/status/2073107034480807943",
+      "https://www.economist.com/leaders/2026/07/02/venezuelas-earthquakes-are-partly-americas-problem?taid=6a47fb0063792900018a38be&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
     ],
     "2072766211256119475": [
       "https://x.com/tanayj/status/2072766211256119475",
@@ -24921,15 +24866,15 @@
     "2072776217984405846": [
       "https://x.com/thealexker/status/2072776217984405846",
       "http://x.com/i/article/2072771511853748224",
-      "https://x.com/thealexker/status/2073081695591432479",
       "https://x.com/thealexker/status/2072780342637862940",
-      "https://x.com/thealexker/status/2072780377601548401",
+      "https://x.com/thealexker/status/2073081695591432479",
       "https://x.com/thealexker/status/2072782720770412954",
       "https://x.com/thealexker/status/2072801865016770664",
-      "https://x.com/thealexker/status/2072792865244131790",
+      "https://x.com/thealexker/status/2072780377601548401",
       "https://x.com/thealexker/status/2072815850097156374",
-      "https://x.com/thealexker/status/2072809119036133785",
+      "https://x.com/thealexker/status/2072792865244131790",
       "https://x.com/thealexker/status/2072785493872255083",
+      "https://x.com/thealexker/status/2072809119036133785",
       "https://x.com/thealexker/status/2072815407635808746",
       "https://x.com/thealexker/status/2072862121935732873",
       "https://x.com/thealexker/status/2072782888488096152"
@@ -24942,13 +24887,14 @@
     "2072804859884064846": [
       "https://x.com/0xCodila/status/2072804859884064846",
       "https://pbs.twimg.com/amplify_video_thumb/2072804480463052800/img/Zi5xBgrnwb6uih8L.jpg",
-      "https://x.com/0xCodila/status/2072994938296336496"
+      "https://x.com/0xCodila/status/2072994938296336496",
+      "https://x.com/0xCodila/status/2073105273925845143"
     ],
     "2072811558313341306": [
       "https://x.com/HarvardBiz/status/2072811558313341306",
       "https://s.hbr.org/4tvjvSk",
-      "https://x.com/HarvardBiz/status/2072870446941274548",
-      "https://s.hbr.org/4tkutKa"
+      "https://x.com/HarvardBiz/status/2072896113787457704",
+      "https://s.hbr.org/4tt3SL3"
     ],
     "2072837836999627155": [
       "https://x.com/AlexFinn/status/2072837836999627155",
@@ -24958,8 +24904,8 @@
     "2072851779499569386": [
       "https://x.com/siantgirl/status/2072851779499569386",
       "https://x.com/siantgirl/status/2072916496184156367",
-      "https://x.com/siantgirl/status/2072877638730002939",
       "https://x.com/siantgirl/status/2072919026096087124",
+      "https://x.com/siantgirl/status/2072877638730002939",
       "https://x.com/siantgirl/status/2072855335405248621",
       "https://x.com/siantgirl/status/2072970309784023492"
     ],
@@ -24972,6 +24918,7 @@
       "https://quesma.com/blog/qwen-36-is-awesome/",
       "https://pbs.twimg.com/media/HMQcDB6XsAAh1co.jpg",
       "https://x.com/Xudong07452910/status/2072958106737234164",
+      "https://x.com/Xudong07452910/status/2073099549854331056",
       "https://x.com/Xudong07452910/status/2073028689818763660"
     ],
     "2072914247877861833": [
@@ -24981,8 +24928,8 @@
     "2072955230862332106": [
       "https://x.com/mitsuhiko/status/2072955230862332106",
       "http://x.com/i/article/2072953472522113024",
-      "https://x.com/mitsuhiko/status/2072969533279666657",
       "https://x.com/mitsuhiko/status/2073000413142344086",
+      "https://x.com/mitsuhiko/status/2072969533279666657",
       "https://x.com/mitsuhiko/status/2072969725546480106",
       "https://x.com/mitsuhiko/status/2073018234308083897",
       "https://x.com/mitsuhiko/status/2073044713117008229"
@@ -25016,17 +24963,15 @@
     "2073011248254320989": [
       "https://x.com/ericzakariasson/status/2073011248254320989",
       "http://x.com/i/article/2072236751725162496",
-      "https://x.com/ericzakariasson/status/2073034608682103002",
       "https://x.com/ericzakariasson/status/2073015128862212367",
-      "https://x.com/ericzakariasson/status/2073061815894835312",
-      "https://x.com/ericzakariasson/status/2072639126034137444",
-      "http://x.com/i/article/2072636402521583616"
+      "https://x.com/ericzakariasson/status/2073034608682103002",
+      "https://x.com/ericzakariasson/status/2073061815894835312"
     ],
     "2073028601516282053": [
       "https://x.com/MapleShadow/status/2073028601516282053",
       "https://justinyan.me/post/6676"
     ]
   },
-  "updated_at": "2026-07-03T16:45:32Z",
+  "updated_at": "2026-07-03T18:39:11Z",
   "window": "recent"
 }
