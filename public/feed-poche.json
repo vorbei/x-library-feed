@@ -6859,7 +6859,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-26T11:29:58.118052Z",
+      "article_fetch_attempted_at": "2026-07-03T14:56:40.102697Z",
       "article_image_urls": [
         "https://terafab.ai/assets/og.png",
         "https://terafab.ai/assets/tesla-logo.svg",
@@ -6908,7 +6908,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-26T11:29:58.118052Z",
+      "article_fetch_attempted_at": "2026-07-03T14:56:40.102697Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/BUoLronfNSxafF2Zk3MMcLVyfyU.png",
         "https://framerusercontent.com/images/sFge6aM8ETZKjyhMOoT5qNWb2A.png?width=367&height=477",
@@ -7015,7 +7015,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-26T11:29:58.118052Z",
+      "article_fetch_attempted_at": "2026-07-03T14:56:40.102697Z",
       "article_image_urls": [
         "https://www.kittl.com/images/og-image.jpg",
         "https://www.kittl.com/packages/features/website-layouts/features/ai_image_gen.png",
@@ -7114,7 +7114,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-26T11:29:58.118052Z",
+      "article_fetch_attempted_at": "2026-07-03T14:56:40.102697Z",
       "article_image_urls": [
         "https://poetic.com/og.jpg",
         "https://poetic.com/_next/static/media/dark-bg.1wq0vbqyhh7zj.png",
@@ -9378,7 +9378,7 @@
       "x_status_id": "2062583885607862639"
     },
     {
-      "article_fetch_attempted_at": "2026-06-26T11:29:58.118052Z",
+      "article_fetch_attempted_at": "2026-07-03T14:56:40.102697Z",
       "article_image_urls": [
         "https://mainframe.app/og.jpg",
         "https://mainframe.app/landing-wallpaper.jpg",
@@ -9541,7 +9541,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-26T11:29:58.118052Z",
+      "article_fetch_attempted_at": "2026-07-03T14:56:40.102697Z",
       "article_title_extracted": "we were online",
       "category": "Tools",
       "created_at": "2026-06-05T02:29:18.810937Z",
@@ -11506,7 +11506,7 @@
       "x_status_id": "2060013225006010467"
     },
     {
-      "article_fetch_attempted_at": "2026-06-26T11:29:58.118052Z",
+      "article_fetch_attempted_at": "2026-07-03T14:56:40.102697Z",
       "article_image_urls": [
         "https://circleback.ai/marketing/og/default.png",
         "https://circleback.ai/logos/circleback.svg",
@@ -11555,7 +11555,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-26T11:29:58.118052Z",
+      "article_fetch_attempted_at": "2026-07-03T14:56:40.102697Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "category": "Design",
       "created_at": "2026-05-29T01:57:43.553804Z",
@@ -13876,7 +13876,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-26T11:29:58.118052Z",
+      "article_fetch_attempted_at": "2026-07-03T14:56:40.102697Z",
       "article_image_urls": [
         "https://www.epidemicsound.com/staticfiles/legacy/20/images/epidemic-sound-logo-square.png",
         "https://cdn.epidemicsound.com/public-pages/media/images/new_balance.png?height=432&width=432&format=webp&quality=80",
@@ -13962,7 +13962,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-26T11:29:58.118052Z",
+      "article_fetch_attempted_at": "2026-07-03T14:56:40.102697Z",
       "article_image_urls": [
         "https://ursula.tonbo.io/og-default.png",
         "https://ursula.tonbo.io/assets/tonbo.png"
@@ -108912,5 +108912,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-07-03T11:15:22.525288Z"
+  "updated_at": "2026-07-03T14:56:54.849772Z"
 }
