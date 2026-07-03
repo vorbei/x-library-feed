@@ -9262,7 +9262,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-26T15:14:56.969393Z",
+      "article_fetch_attempted_at": "2026-07-03T18:01:01.129375Z",
       "article_title_extracted": "Warden",
       "category": "Development",
       "created_at": "2026-06-05T07:43:38.426691Z",
@@ -9296,7 +9296,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-26T15:14:56.969393Z",
+      "article_fetch_attempted_at": "2026-07-03T18:01:01.129375Z",
       "article_image_urls": [
         "https://transitions.dev/assets/og-image.jpg",
         "https://transitions.dev/assets/theme-moon-01.svg",
@@ -108912,5 +108912,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-07-03T14:56:54.849772Z"
+  "updated_at": "2026-07-03T18:01:03.367103Z"
 }
