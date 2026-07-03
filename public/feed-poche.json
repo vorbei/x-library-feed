@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "count": 733,
+      "count": 736,
       "name": "Tools"
     },
     {
@@ -17,7 +17,7 @@
       "name": "Articles"
     },
     {
-      "count": 289,
+      "count": 290,
       "name": "Social"
     },
     {
@@ -38,8 +38,159 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2437,
+  "item_count": 2441,
   "items": [
+    {
+      "category": "Social",
+      "created_at": "2026-07-03T02:02:23.823502Z",
+      "description": "Vinyl Digging App by @vanyaonthewall pic.twitter.com/MNFe3rXVGc",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k173h3akaspvxmwkgzasa58ymh89v6pb",
+      "og_image_url": "https://pbs.twimg.com/amplify_video_thumb/2072670649751904256/img/dwjvHvn_zcoKU1XO.jpg",
+      "recommended_at": "2026-07-03T02:18:10.306000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "vinyl-collecting",
+        "music-discovery",
+        "app-design"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-03T02:18:10.306000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Recent Design (@recentdesign) on X",
+      "url": "https://x.com/recentdesign/status/2072670701585076427",
+      "x_status_id": "2072670701585076427"
+    },
+    {
+      "article_fetch_attempted_at": "2026-07-03T04:29:35.141005Z",
+      "article_image_urls": [
+        "https://berry.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-master.10~lhner4i7z3.webp&w=3840&q=100&dpl=dpl_EuWFReXG9eBYzH45Tu4HAQTT8M7e",
+        "https://berry.app/investors/morgan-creek.svg?v=2",
+        "https://berry.app/investors/coinbase-ventures.svg",
+        "https://berry.app/investors/sgv.svg",
+        "https://berry.app/investors/ripio.svg",
+        "https://berry.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fberry-app-mockup-light.0byuew--h6kdl.webp&w=3840&q=100&dpl=dpl_EuWFReXG9eBYzH45Tu4HAQTT8M7e",
+        "https://berry.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fberry-app-mockup-dark.06wg7h5hegivf.webp&w=3840&q=100&dpl=dpl_EuWFReXG9eBYzH45Tu4HAQTT8M7e",
+        "https://berry.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fberry-app-mockup-mobile.00yc6zpo8law6.webp&w=3840&q=100&dpl=dpl_EuWFReXG9eBYzH45Tu4HAQTT8M7e"
+      ],
+      "article_title_extracted": "Berry — Invest in U.S. stocks from $1, no bank account",
+      "category": "Tools",
+      "created_at": "2026-07-03T02:04:01.139280Z",
+      "description": "Berry is the app to invest in U.S. stocks and ETFs, plus prediction markets, from $1 with no bank account. Assets are SIPC-insured.",
+      "domain": "berry.app",
+      "embed_type": "",
+      "id": "k17ez3mrsvfjrxy8n6cr0h0p0s89t8jy",
+      "og_image_url": "https://cloud.poche.app/api/storage/c6e132ae-3827-4fbc-8caa-6a70c8fc5c10",
+      "recommended_at": "2026-07-03T02:18:04.890000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "fintech",
+        "investing",
+        "stocks"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-03T02:18:04.890000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Berry — Invest in U.S. stocks from $1, no bank account",
+      "url": "https://berry.app/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-07-03T04:29:35.141005Z",
+      "article_image_urls": [
+        "https://capframe.vercel.app/opengraph-image.png?opengraph-image.0iljbtlq-d48n.png",
+        "https://capframe.vercel.app/horse.png"
+      ],
+      "article_title_extracted": "CapFrame",
+      "category": "Tools",
+      "created_at": "2026-07-03T02:04:22.608477Z",
+      "description": "Video frame capture workspace",
+      "domain": "capframe.vercel.app",
+      "embed_type": "",
+      "id": "k17182dbbf3b5fbt76a8zqs74s89tb8c",
+      "og_image_url": "https://capframe.vercel.app/opengraph-image.png?opengraph-image.0iljbtlq-d48n.png",
+      "recommended_at": "2026-07-03T02:18:02.735000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "video-editing",
+        "screen-capture",
+        "productivity"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-03T02:18:02.735000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "CapFrame",
+      "url": "https://capframe.vercel.app/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-07-03T04:29:35.141005Z",
+      "article_image_urls": [
+        "https://www.facebook.com/tr?id=698997929481938&ev=PageView&noscript=1",
+        "https://files.pixboom.com/pixboom-wp-content/uploads/2026/05/11095044/event-card-1.png",
+        "https://www.pixboom.com/wp-content/uploads/2026/04/Frame-1000007523_compressed.avif",
+        "https://www.pixboom.com/wp-content/uploads/2026/04/Frame-1000007524_compressed.avif",
+        "https://www.pixboom.com/wp-content/uploads/2026/04/1.avif",
+        "https://www.pixboom.com/wp-content/uploads/2026/04/3.avif",
+        "https://www.pixboom.com/wp-content/uploads/2026/04/6.avif",
+        "https://www.pixboom.com/wp-content/uploads/2026/04/7.avif",
+        "https://www.pixboom.com/wp-content/uploads/2026/04/5.avif",
+        "https://www.pixboom.com/wp-content/uploads/2026/04/4.avif",
+        "https://www.pixboom.com/wp-content/uploads/2026/04/2.avif",
+        "https://files.pixboom.com/pixboom-wp-content/uploads/2026/04/19155241/%E5%A4%B4%E5%83%8F-150x150.png"
+      ],
+      "article_title_extracted": "PIXBOOM Spark | High-Speed Cinema Camera. 4K at 1000fps.",
+      "category": "Tools",
+      "created_at": "2026-07-03T02:07:07.650793Z",
+      "description": "Slow motion used to be a privilege. Pixboom Spark shoots 4K at 1000fps — professional high-speed imaging for filmmakers. Starting at $13,999.",
+      "domain": "www.pixboom.com",
+      "embed_type": "",
+      "id": "k1776dkas2j63hfwp3cxyw71mn89vmgy",
+      "og_image_url": "https://cloud.poche.app/api/storage/471303fa-644b-4db4-9453-d12501a2d8bc",
+      "recommended_at": "2026-07-03T02:17:59.671000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "cinematography",
+        "high-speed-camera",
+        "videography"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-03T02:17:59.671000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "PIXBOOM Spark | High-Speed Cinema Camera. 4K at 1000fps.",
+      "url": "https://www.pixboom.com/",
+      "x_status_id": null
+    },
     {
       "article_extraction": "cf_browser_rendering",
       "article_fetch_attempted_at": "2026-07-02T11:16:49.369580Z",
@@ -7002,7 +7153,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-25T22:09:19.939658Z",
+      "article_fetch_attempted_at": "2026-07-03T04:29:35.141005Z",
       "article_image_urls": [
         "https://wwdc.ai/og-image.png",
         "https://wwdc.ai/superwall/logo.svg"
@@ -9478,7 +9629,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-25T22:09:19.939658Z",
+      "article_fetch_attempted_at": "2026-07-03T04:29:35.141005Z",
       "article_image_urls": [
         "https://www.nintendo-systems.com/sns.png"
       ],
@@ -13759,7 +13910,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-25T22:09:19.939658Z",
+      "article_fetch_attempted_at": "2026-07-03T04:29:35.141005Z",
       "article_image_urls": [
         "https://pi.dev/social.png",
         "https://pi.dev/doom-extension.png"
@@ -13934,9 +14085,9 @@
       "x_status_id": "2057227524740931904"
     },
     {
-      "article_fetch_attempted_at": "2026-06-25T22:09:19.939658Z",
+      "article_fetch_attempted_at": "2026-07-03T04:29:35.141005Z",
       "article_image_urls": [
-        "https://oxide-computer-fd4l8wsqi-oxidecomputer.vercel.app/img/meta/og-oxide.png",
+        "https://oxide-computer-79o2a66vf-oxidecomputer.vercel.app/img/meta/og-oxide.png",
         "https://oxide.computer/img/home/rack-single-shadows.svg",
         "https://oxide.computer/_vercel/image?url=%2Fimg%2Fhome%2Fhero-single-rack.webp&w=64&q=20",
         "https://oxide.computer/img/home/rack-double-shadows.svg",
@@ -108631,7 +108782,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2277,
+      "count": 2281,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -108667,5 +108818,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-07-02T21:48:43.101494Z"
+  "updated_at": "2026-07-03T04:29:41.841433Z"
 }
