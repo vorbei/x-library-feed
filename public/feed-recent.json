@@ -1146,22 +1146,6 @@
       "title": "",
       "url": "http://x.com/i/article/2055200658723078144"
     },
-    "http://x.com/i/article/2057167874033156096": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2057167874033156096",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2057167874033156096/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ0xMgiX0AAyEi-?format=jpg&name=900x900)](http://x.com/i/article/2057167874033156096/tricalt/article/2061860170846843233/media/2061858295367847936)\n\nHow sandboxes + shared memory could unlock the next big discovery\n\n[![](https://pbs.twimg.com/profile_images/1456192254515814403/cHVJ7L7g_normal.jpg)](http://x.com/i/article/2057167874033156096/tricalt)\n\n[Vasilije](http://x.com/i/article/2057167874033156096/tricalt)\n\n[@tricalt](http://x.com/i/article/2057167874033156096/tricalt)\n\n·\n\nJun 1\n\n·\n\nFollow\n\nClick to Follow tricalt\n\n2\n\n18\n\n104\n\n[7.8K](http://x.com/i/article/2057167874033156096/tricalt/status/2061860170846843233/analytics)\n\nHow many breakthroughs came from carrying a solution out of one field into another?\n\nA lot, but let’s check some that are relevant to AI only:\n\n* Diffusion models: thermodynamics → image generation.\n* Black–Scholes: the heat equation → options pricing.\n* Convolutional nets: the visual cortex → computer vision.\n\nThe same solution pattern transfers from completely different domains and enriches the new fields. You can now have knowledge that lived in one field, reach another, and make something new become possible.\n\n## \n\nSandboxes + agents in the same domain\n\nSandboxes were the agent story of the year, and they matter more every month as agents get more independent. Each agent gets its own isolated computer to run code and experiment without breaking something that matters.\n\nThe problem shows up the moment you run more than one. Every sandbox starts cold. Cold start is when an agent works out how your system behaves every time it starts.. The next agent re-derives the same thing. So does the one after that. You pay for the same discovery again and again. It's a tax on every multi-sandbox workflow. We saw this firsthand at our last hackathon with \n\n[@daytonaio](https://x.com/@daytonaio)\n\n, led by \n\n[@ivanburazin](https://x.com/@ivanburazin)\n\n , one of the sharpest teams in the sandbox space. \n\nAnd “reuse knowledge” here isn't the whole story. Usually these agents run at the same time, so you want the learnings shared live, the moment one of them finds something.\n\nConcrete example: You point a research agent at problem X and attack from three directions at once: three agents, three sandboxes, in parallel. A, B, and C.\n\nAgent A grinds through a hard sub-problem. Many tokens, a couple of hours, and it cracks it. Later B hits the same wall, but its prompt was framed slightly differently and it stalls where A didn't. Without shared memory, B burns more time and compute, and what A learned never leaves A's sandbox. With shared memory, A's result is written the moment it lands. B checks memory, skips the wall, keeps moving. No agent re-pays for a discovery another already made.\n\n## \n\nSandboxes + agents in different domains (The real unlock!)\n\nNow that we went through the efficiency case, let’s elaborate on the most interesting one: sharing knowledge across different domains.\n\nLook at the examples again:\n\n* Diffusion models: thermodynamics → image generation.\n* Black–Scholes: the heat equation → options pricing.\n* Convolutional nets: the visual cortex → computer vision.\n* Velcro: burdock burrs → fasteners.\n* Sonar: bat echolocation → submarine detection.\n\nNone of these pairs share similar terminologies. A burr is not a fastener, the heat equation is not an option. What they share is a shape. Someone recognized that a problem in one field had the same structure as a solved problem in another, and carried the solution across. If you could reliably abstract problems and solutions into patterns and map them between domains, you'd solve a huge share of the problems that look hard only because no one has connected them yet.\n\nThe catch has always been that this mapping lived in one head. The transfer only happened if the burrs and the fas",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2057167874033156096/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJ0xMgiX0AAyEi-?format=jpg&name=900x900)](http://x.com/i/article/2057167874033156096/tricalt/article/2061860170846843233/media/2061858295367847936)\n\n沙箱 + 共享内存如何解锁下一个重大发现\n\n[![](https://pbs.twimg.com/profile_images/1456192254515814403/cHVJ7L7g_normal.jpg)](http://x.com/i/article/2057167874033156096/tricalt)\n\n[Vasilije](http://x.com/i/article/2057167874033156096/tricalt)\n\n[@tricalt](http://x.com/i/article/2057167874033156096/tricalt)\n\n·\n\n6月1日\n\n·\n\n关注\n\n点击关注 tricalt\n\n2\n\n18\n\n104\n\n[7.8K](http://x.com/i/article/2057167874033156096/tricalt/status/2061860170846843233/analytics)\n\n有多少突破来自于将一个领域的解决方案移植到另一个领域？\n\n很多，但让我们只看一些与AI相关的例子：\n\n* 扩散模型：热力学 → 图像生成。\n* Black–Scholes模型：热方程 → 期权定价。\n* 卷积网络：视觉皮层 → 计算机视觉。\n\n同样的解决方案模式从完全不同的领域转移过来，并丰富了新领域。你现在可以让一个领域的知识到达另一个领域，并使新的事物成为可能。\n\n## \n\n同一领域内的沙箱 + agent\n\n沙箱是去年的agent故事主题，随着agent变得越来越独立，它们每个月都变得更加重要。每个agent都获得自己独立的计算机来运行代码和进行实验，而不会破坏重要的东西。\n\n问题在你运行多个agent时就会出现。每个沙箱都是冷启动。冷启动是指agent每次启动时都要弄清楚你的系统如何运作。下一个agent会重新推导出同样的东西。再下一个也是如此。你一次又一次地为同样的发现付费。这是对每个多沙箱工作流征收的税。我们在上次与[@daytonaio](https://x.com/@daytonaio)（由[@ivanburazin](https://x.com/@ivanburazin)领导，沙箱领域最敏锐的团队之一）共同举办的黑客马拉松中亲眼目睹了这一点。\n\n而这里的“重用知识”并不是全部。通常这些agent是同时运行的，所以你希望学习成果能实时共享，一旦其中一个发现了什么。\n\n具体例子：你将一个研究agent指向问题X，并从三个方向同时进攻：三个agent，三个沙箱，并行运行。A、B和C。\n\nAgent A攻克了一个困难的子问题。消耗了大量token，花了几个小时，最终解决了。后来B遇到了同样的障碍，但它的提示词表述略有不同，它在A没有卡住的地方卡住了。没有共享内存，B会浪费更多时间和算力，而A学到的东西永远无法离开A的沙箱。有了共享内存，A的结果一旦得出就会被写入。B检查内存，跳过障碍，继续前进。没有agent会为另一个agent已经做出的发现再次买单。\n\n## \n\n不同领域内的沙箱 + agent（真正的解锁！）\n\n现在我们讲完了效率方面的案例，让我们详细阐述最有趣的一点：跨领域共享知识。\n\n再看看这些例子：\n\n* 扩散模型：热力学 → 图像生成。\n* Black–Scholes模型：热方程 → 期权定价。\n* 卷积网络：视觉皮层 → 计算机视觉。\n* 魔术贴：牛蒡刺果 → 紧固件。\n* 声纳：蝙蝠回声定位 → 潜艇探测。\n\n这些配对中没有任何一对共享相似的术语。刺果不是紧固件，热方程不是期权。它们共享的是形状。有人认识到一个领域中的问题与另一个领域中已解决的问题具有相同的结构，并将解决方案移植了过去。如果你能可靠地将问题和解决方案抽象成模式，并在不同领域之间映射它们，你就能解决大量看起来困难只是因为还没有人将它们联系起来的问题。\n\n一直以来，难点在于这种映射只存在于一个人的头脑中。这种转移只有在刺果和紧固件出现在同一个人面前时才会发生。",
-      "text_excerpt_zh_hash": "bc902ca71ed6aa2e",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2057167874033156096"
-    },
     "http://x.com/i/article/2057174749848178688": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1348,22 +1332,6 @@
       "title": "",
       "url": "http://x.com/i/article/2061125977577529344"
     },
-    "http://x.com/i/article/2061458737726914560": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2061458737726914560",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061458737726914560/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJvGHjdWMAIlqaJ?format=jpg&name=900x900)](http://x.com/i/article/2061458737726914560/Voxyz%5Fai/article/2061782441606451381/media/2061459087531847682)\n\nDynamic Workflows: Claude Code Is Moving the Agent Plan from Chat into Executable Scripts\n\n[![](https://pbs.twimg.com/profile_images/1998303259279138816/5bqsxKJS_normal.jpg)](http://x.com/i/article/2061458737726914560/Voxyz%5Fai)\n\n[Vox](http://x.com/i/article/2061458737726914560/Voxyz%5Fai)\n\n[@Voxyz\\_ai](http://x.com/i/article/2061458737726914560/Voxyz%5Fai)\n\n·\n\n19h\n\n·\n\nFollow\n\nClick to Follow Voxyz\\_ai\n\n2\n\n12\n\n100\n\n[13K](http://x.com/i/article/2061458737726914560/Voxyz%5Fai/status/2061782441606451381/analytics)\n\nClaude Code shipped Dynamic Workflows a few days ago. Most people's first reaction: \"finally, hundreds of subagents at once.\"\n\nThat's half right.\n\nTo be clear, \"hundreds\" doesn't mean hundreds running at the same time. The official docs cap concurrent agents at 16, with a maximum of 1,000 agents per workflow run. The real new thing is that the plan gets written as an executable script.\n\n[![Image](https://pbs.twimg.com/media/HJzz4nBXwAAGfae?format=jpg&name=small)](http://x.com/i/article/2061458737726914560/Voxyz%5Fai/article/2061782441606451381/media/2061790883301801984)\n\nSubagents solve who does the work. Dynamic Workflows change something more fundamental: where the plan lives.\n\nBefore this, the plan lived in chat context. Claude would think one step, act one step, read results as they came. Subagents could handle side tasks, skills could teach it a method, but the thing actually deciding what happens next was still jammed into the conversation window.\n\nDynamic Workflows pull the plan out of chat. Claude writes an orchestration script. Claude Code executes it directly. Loops, branches, intermediate state, review chains, failure retries, all run inside the script. The main conversation gets a clean summary at the end, not the entire messy middle.\n\nBefore, running a big task with Claude Code was like standing on a construction site shouting orders one by one. Dig the foundation. Done. Pour the columns. Done. What's next?\n\nThe more workers you had, the more your voice became the bottleneck. Because what was really stuck wasn't who does the work, but who remembers the whole blueprint.\n\nWhat Dynamic Workflows do is pull the blueprint out of chat. Blueprint = plan. Foreman = workflow script. Crews = subagents. You = the client.\n\nIn practice it looks like this. You type one message in Claude Code:\n\nplaintext\n\n```plaintext\nAudit every API endpoint in this project.\nCheck authentication, error handling, and documentation coverage.\n```\n\nClaude decides this task fits a workflow. It writes an orchestration script with several phases: scan all endpoints, check each one, aggregate issues, generate a report. You glance at the phase breakdown, confirm it looks right, and it starts running.\n\nYou can watch progress as it goes: which phase is running, how many agents are active, whether any permission prompts came up. When it finishes, you get a structured audit report, not dozens of scattered findings floating in chat.\n\nAnthropic picked Bun as the proof case for this feature. Jarred Sumner used it to port Bun from Zig to Rust. Roughly 750,000 lines of Rust, 99.8% of existing tests passing, eleven days from first commit to merge. The official blog also notes this port was still outside production at the time. I treat it as an anatomy specimen.\n\nThis article covers the 5 rules I use to evaluate agent workflows. Each comes with a module you can take and use directly.\n\n## \n\n1\\. First question: where does the plan live\n\nWhen I look at an agent workflow, the first thing I check is where the plan lives:\n\nplaintext\n\n```plaintext\nWhere plan lives          Good for                           Main problem\nChat conte",
-      "text_excerpt_zh": "## 动态工作流：Claude Code 正在将智能体计划从对话迁移到可执行脚本\n\nClaude Code 几天前发布了动态工作流。大多数人的第一反应是：\"终于，可以同时运行数百个子智能体了。\"\n\n这只说对了一半。\n\n需要明确的是，\"数百个\"并不意味着同时运行数百个。官方文档将并发智能体数量限制为16个，每次工作流运行最多1000个智能体。真正的新变化在于，计划被编写成了可执行脚本。\n\n子智能体解决的是\"谁来做\"的问题。动态工作流改变了一个更根本的东西：计划存放在哪里。\n\n在此之前，计划存放在对话上下文中。Claude 思考一步，执行一步，实时读取结果。子智能体可以处理旁支任务，技能可以教会它某种方法，但真正决定下一步做什么的东西，仍然被塞在对话窗口里。\n\n动态工作流将计划从对话中抽离出来。Claude 编写一个编排脚本。Claude Code 直接执行它。循环、分支、中间状态、审查链、失败重试，全部在脚本内部运行。主对话在结束时得到一个简洁的总结，而不是整个混乱的中间过程。\n\n以前，用 Claude Code 运行大型任务就像站在工地上逐个喊指令。挖地基。完成。浇筑柱子。完成。下一步是什么？\n\n工人越多，你的声音就越成为瓶颈。因为真正卡住的不是谁来做，而是谁记得整个蓝图。\n\n动态工作流所做的，就是把蓝图从对话中抽出来。蓝图 = 计划。工头 = 工作流脚本。施工队 = 子智能体。你 = 客户。\n\n实际使用中是这样的。你在 Claude Code 中输入一条消息：\n\n```plaintext\n审计此项目中的每个 API 端点。\n检查身份验证、错误处理和文档覆盖情况。\n```\n\nClaude 判断此任务适合工作流。它编写一个包含多个阶段的编排脚本：扫描所有端点、逐一检查、汇总问题、生成报告。你浏览阶段分解，确认无误后，它开始运行。\n\n你可以实时查看进度：哪个阶段正在运行，有多少智能体处于活动状态，是否出现了任何权限提示。完成后，你会得到一份结构化的审计报告，而不是散落在对话中的几十条零散发现。\n\nAnthropic 选择 Bun 作为此功能的验证案例。Jarred Sumner 用它完成了 Bun 从 Zig 到 Rust 的移植。大约 75 万行 Rust 代码，99.8% 的现有测试通过，从首次提交到合并共十一天。官方博客也指出，此移植当时尚未投入生产。我将其视为一个解剖样本。\n\n本文涵盖了我用于评估智能体工作流的 5 条规则。每条规则都附带一个可直接使用的模块。\n\n## 1. 第一个问题：计划存放在哪里\n\n当我审视一个智能体工作流时，我首先检查的是计划存放在哪里：\n\n| 计划存放位置 | 适用场景 | 主要问题 |\n|---|---|---|",
-      "text_excerpt_zh_hash": "a5ba930cff9ece31",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2061458737726914560"
-    },
     "http://x.com/i/article/2061486694738882564": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -1466,22 +1434,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "http://x.com/i/article/2061850277028802560"
-    },
-    "http://x.com/i/article/2061860599571845120": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2061860599571845120",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061860599571845120/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ00rQCWAAAZll8?format=jpg&name=900x900)](http://x.com/i/article/2061860599571845120/AlphaSignalAI/article/2061865777142087684/media/2061862122049372160)\n\nStop Looping Tool Calls: Search as Code Cut Tokens 85% on a 200-CVE Task\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2014100845189529600/Ff1Xc28-_normal.jpg)](http://x.com/i/article/2061860599571845120/AlphaSignalAI)\n\n[AlphaSignal AI](http://x.com/i/article/2061860599571845120/AlphaSignalAI)\n\n[@AlphaSignalAI](http://x.com/i/article/2061860599571845120/AlphaSignalAI)\n\n·\n\n13h\n\nFollow\n\nClick to Follow AlphaSignalAI\n\n1\n\n13\n\n[1.2K](http://x.com/i/article/2061860599571845120/AlphaSignalAI/status/2061865777142087684/analytics)\n\n## \n\nBy Perplexity, Search becomes Python the model writes on the fly. The SDK stays private, the pattern doesn't.\n\n> In \\~7 mins: the CVE result (85% fewer tokens at 100% accuracy), the 5-system benchmark table, the architecture's 3 layers, the 6 design principles behind it, and a Hermes Agent walkthrough to run the pattern yourself.\n\nPerplexity just stopped letting its agents call search and started letting them program it.\n\nSearch as Code (SaC) is its new search architecture. Instead of one fixed pipeline behind a query, the model writes Python that composes the individual pieces of the search stack into a retrieval pipeline built for each task.\n\nOn a 200-CVE research task, that cut token use 85.1%, from 288.7K to 42.9K, while scoring 100% accuracy. Every non-Perplexity system tested scored below 25%.\n\nIt ships today: default in Perplexity Computer, available in the Agent API. There is a Hermes Agent walkthrough at the end if you want to run the pattern yourself.\n\n## \n\nContext\n\nThe research is published by Perplexity and titled \"Rethinking Search as Code Generation.\" It landed June 1, 2026, and builds on the first overview of Perplexity's search stack from September 2025.\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2009310641165660160/XArF3_Ib_normal.jpg)](http://x.com/i/article/2061860599571845120/perplexity%5Fai)\n\nPerplexity\n\n@perplexity\\_ai\n\n·\n\n[Jun 1](http://x.com/i/article/2061860599571845120/perplexity%5Fai/status/2061506359326384319)\n\nIntroducing Search as Code, our new search architecture for AI agents. It writes Python that calls our search stack directly, instead of looping through function calls one at a time. Available in the Perplexity Agent API, and now default in Computer.[https://research.perplexity.ai/articles/rethinking-search-as-code-generation…](https://t.co/ut6GGWQTVO)\n\n[![Image](https://pbs.twimg.com/media/HJvxG6jaEAEQj2j?format=png&name=small)](http://x.com/i/article/2061860599571845120/perplexity%5Fai/status/2061506359326384319/photo/1)\n\n[Perplexity Developers](http://x.com/i/article/2061860599571845120/perplexity%5Fai/status/2061506359326384319/media%5Ftags)\n\n145\n\n294\n\n1.8K\n\n[522K](http://x.com/i/article/2061860599571845120/perplexity%5Fai/status/2061506359326384319/analytics)\n\nPerplexity's search serves thousands of queries each second. The old contract was simple: the model issues a query, the engine runs a predefined pipeline, and the model reads the results. That works for a single question.\n\nIt breaks for agents. Today's agents run tasks that take hours, span thousands of retrieval operations, and need a different search strategy at each step. A fixed pipeline cannot bend to all of them. SaC is Perplexity's answer.\n\n## \n\nWhat Search as Code actually is\n\nThe old way hands the model a search box. It types a query, gets back a ranked page of results, and works with whatever the pipeline decided to return. The model never touches the steps in between.\n\n[![Image](https://pbs.twimg.com/media/HJ0zt-aWEAEHMKL?format=jpg&name=small)](http://x.com/i/article/2061860599571845120/AlphaSignalAI/article/2061865777142",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2061860599571845120/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJ00rQCWAAAZll8?format=jpg&name=900x900)](http://x.com/i/article/2061860599571845120/AlphaSignalAI/article/2061865777142087684/media/2061862122049372160)\n\n停止循环工具调用：将搜索视为代码，在200个CVE任务上削减85%的Token消耗\n\n[![方形头像](https://pbs.twimg.com/profile_images/2014100845189529600/Ff1Xc28-_normal.jpg)](http://x.com/i/article/2061860599571845120/AlphaSignalAI)\n\n[AlphaSignal AI](http://x.com/i/article/2061860599571845120/AlphaSignalAI)\n\n[@AlphaSignalAI](http://x.com/i/article/2061860599571845120/AlphaSignalAI)\n\n·\n\n13小时前\n\n关注\n\n点击关注 AlphaSignalAI\n\n1\n\n13\n\n[1.2K](http://x.com/i/article/2061860599571845120/AlphaSignalAI/status/2061865777142087684/analytics)\n\n## \n\n来自Perplexity，搜索变成了模型即时编写的Python代码。SDK保持私有，但模式是开放的。\n\n> 约7分钟内：CVE结果（100%准确率下减少85%的Token消耗）、5系统基准测试表、架构的3个层级、背后的6条设计原则，以及一个可自行运行该模式的Hermes Agent演练。\n\nPerplexity刚刚停止让它的agent调用搜索，转而让它们编程搜索。\n\nSearch as Code（SaC）是其新的搜索架构。不再是查询背后单一的固定流水线，而是模型编写Python代码，将搜索栈的各个独立组件组合成一个为每个任务量身定制的检索流水线。\n\n在一个200个CVE的研究任务中，这使Token消耗减少了85.1%，从288.7K降至42.9K，同时实现了100%的准确率。所有测试的非Perplexity系统得分均低于25%。\n\n它今天已上线：默认集成在Perplexity Computer中，并在Agent API中可用。文末有一个Hermes Agent演练，如果你想自行运行该模式。\n\n## \n\n背景\n\n这项研究由Perplexity发布，标题为“Rethinking Search as Code Generation”。它于2026年6月1日发布，并建立在2025年9月首次概述的Perplexity搜索栈之上。\n\n[![方形头像](https://pbs.twimg.com/profile_images/2009310641165660160/XArF3_Ib_normal.jpg)](http://x.com/i/article/2061860599571845120/perplexity%5Fai)\n\nPerplexity\n\n@perplexity\\_ai\n\n·\n\n[6月1日](http://x.com/i/article/2061860599571845120/perplexity%5Fai/status/2061506359326384319)\n\n介绍Search as Code，这是我们为AI agent设计的新搜索架构。它编写Python代码直接调用我们的搜索栈，而不是逐个循环调用函数。现已可在Perplexity Agent API中使用，并默认集成在Computer中。[https://research.perplexity.ai/articles/rethinking-search-as-code-generation…](https://t.co/ut6GGWQTVO)\n\n[![图片](https://pbs.twimg.com/media/HJvxG6jaEAEQj2j?format=png&name=small)](http://x.com/i/article/2061860599571845120/perplexity%5Fai/status/2061506359326384319/photo/1)\n\n[Perplexity Developers](http://x.com/i/article/2061860599571845120/perplexity%5Fai/status/2061506359326384319/media%5Ftags)\n\n145\n\n294\n\n1.8K\n\n[522K](http://x.com/i/article/2061860599571845120/perplexity%5Fai/status/2061506359326384319/analytics)\n\nPerplexity的搜索每秒处理数千次查询。旧的约定很简单：模型发出查询，引擎运行预定义的流水线，模型读取结果。这对于单个问题有效。\n\n但对于agent来说，它失效了。如今的agent执行的任务耗时数小时，涉及数千次检索操作，并且每一步都需要不同的搜索策略。一个固定的流水线无法适应所有这些需求。SaC就是Perplexity的答案。\n\n## \n\nSearch as Code究竟是什么\n\n旧的方式是给模型一个搜索框。它输入一个查询，得到一页排序后的结果，然后处理流水线决定返回的任何内容。模型从未触及中间的步骤。\n\n[![图片](https://pbs.twimg.com/media/HJ0zt-aWEAEHMKL?format=jpg&name=small)](http://x.com/i/article/2061860599571845120/AlphaSignalAI/article/2061865777142",
-      "text_excerpt_zh_hash": "55510b09bc546e3f",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2061860599571845120"
     },
     "http://x.com/i/article/2061935366655905792": {
       "cleaner_v": 2,
@@ -6493,6 +6445,19 @@
       "title": "",
       "url": "http://x.com/i/article/2072834632098476032"
     },
+    "http://x.com/i/article/2072866845175250944": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2072866845175250944",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HMRQnHwakAAi2qs?format=png&name=900x900)](http://x.com/hiloopai/article/2072870908948336960/media/2072870361524506624)\n\nSearch is enough\n\n[![](https://pbs.twimg.com/profile_images/2072467297713999872/lXDSdoiN_normal.jpg)](http://x.com/hiloopai)\n\n[hiloop](http://x.com/hiloopai)\n\n[@hiloopai](http://x.com/hiloopai)\n\n·\n\n5h\n\n·\n\nFollow\n\nClick to Follow hiloopai\n\n1\n\n3\n\n16\n\n[14K](http://x.com/hiloopai/status/2072870908948336960/analytics)\n\nResearch is fundamentally a search process. Its breadth and its depth have been bottlenecked by human capability, but this constraint is slowly vanishing. Frontier models are getting better at the research loop with every capability jump, and the jumps are arriving at an ever-increasing cadence. If model capability is the dominant trend, then the winning systems will be the ones that let the best models explore the largest search space with the highest experimental throughput. We have found that the most effective approach is to let frontier models drive the search process, give them infrastructure they can operate on, a structured record to build on, a little human direction, and otherwise get out of the way.\n\n## \n\nState of the art on autoresearch\n\nTo that end, we picked a well-known public benchmark. Andrej Karpathy’s \n\n[autoresearch](https://github.com/karpathy/autoresearch)\n\n task is to train a small transformer to the lowest validation loss, measured in bits per byte (lower is better), within a fixed five-minute budget on a single GPU.\n\n[![Image](https://pbs.twimg.com/media/HMSckoya4AA3_35?format=jpg&name=small)](http://x.com/hiloopai/article/2072870908948336960/media/2072953881735389184)\n\nWhere every setup lands on val\\_bpb. Our confirmed 0.9016 is the median of 25 paired confirmation runs; the hollow dot is the single best draw, shown separately because one run proves little.\n\nOur setup is straightforward: two stock coding agents (Claude Fable 5 xhigh via Claude Code, and GPT-5.5 xhigh via Codex), with access to 50 B200 GPUs, and the ability to consult GPT-5.5 Pro as an advisor. The agents ran 4,188 experiments over two days. The final recipe reaches 0.9016 val\\_bpb, measured as the median of 25 confirmation runs interleaved against the previous best recipe, with a best observed single run of 0.8999. Interleaved controls are exact repeats of the current best recipe, launched alongside the challenger experiments on the same pool. As far as we know, this is the best rigorously measured result on this benchmark on B200-class hardware. The published state of the art on B200 is \n\n[Recursive’s 0.9109](https://www.recursive.com/articles/first-steps-toward-automated-ai-research)\n\n; our confirmed number sits 0.0093 below it. At the time of writing, the \n\n[autoresearch@home](https://github.com/mutable-state-inc/autoresearch-at-home)\n\n community’s champion configuration measures 0.9055–0.9068 when reproduced like-for-like on our hardware. The range is the spread across repeated runs of that one configuration, since individual five-minute runs vary by a few thousandths.\n\n## \n\nLetting agents search\n\nTo us, the biggest revelation isn’t that the agents succeeded at this task. It’s that they did so with almost no scaffolding. We didn’t teach the models how to do research; we gave them compute, shared state, reliable execution, and let them search.\n\nModel capability is the only part of the stack that reliably improves on its own. Systems coupled to today’s theory of how research should work have to keep adapting to that progress; infrastructure that simply lets better models search, execute experiments, maintain state, and verify results improves automatically as the models do.\n\nThat’s exactly what happened here. Over the course of this campaign, we (the humans) made perhaps a dozen meaningful decisions: choosing directions to explore, deciding what deserv",
+      "title": "",
+      "url": "http://x.com/i/article/2072866845175250944"
+    },
     "http://zaro.ai": {
       "content_type": "text/html",
       "description": "Stop using tools, start running a system. Zaro builds the agents and apps your company runs on - generated from your existing data, just by describing what you need.",
@@ -6577,6 +6542,26 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Loop Engineering AddyOsmani.com - Loop Engineering",
       "url": "https://addyosmani.com/blog/loop-engineering/"
+    },
+    "https://adlerhsieh.com/p/what-your-manager-is-thinking-when-you-complain": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Three things managers notice when they hear you complain during 1-on-1 meetings",
+      "extraction_source": "trafilatura",
+      "final_url": "https://adlerhsieh.com/p/what-your-manager-is-thinking-when-you-complain",
+      "frameable": false,
+      "image_urls": [
+        "https://substackcdn.com/image/fetch/$s_!TRwJ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4019c116-01c8-4d7d-92b1-9bd2e2da2396_1374x772.png",
+        "https://substackcdn.com/image/fetch/$s_!qtuj!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fadler.substack.com%2Fapi%2Fv1%2Fpost_preview%2F198641222%2Ftwitter.jpg%3Fversion%3D4",
+        "https://substackcdn.com/image/fetch/$s_!crWn!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa7b5bcf-db02-4cf8-93dc-9db8f97d834a_880x880.png",
+        "https://substackcdn.com/image/fetch/$s_!jXXt!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c9494bd-49c1-451f-8032-359af40fad8c_512x512.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!TRwJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4019c116-01c8-4d7d-92b1-9bd2e2da2396_1374x772.png",
+        "https://substackcdn.com/image/fetch/$s_!TnFC!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Favatars%2Fdefault-light.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "What Your Manager Is Thinking When You Complain\nThree things managers notice when they hear you complain during 1-on-1 meetings\nA few months ago, one of my engineers came to a 1-on-1 with a list of blockers. It was a long list.\nThe PM kept changing requirements. The other team wasn’t responding to their pull requests. Their manager (me, apparently) wasn’t giving clear instructions.\nI listened, and I took notes.\nThen I tried to verify: The PR response time was longer but reasonable. Requirements changed for valid reasons. My instructions were written on a doc that other members could work with easily.\nSomething seemed off.\nI checked the notes between us, and realized that this is not the first time he pointed all blockers to someone else.\nWe do run into low performers from time to time, and the frustrations are real. Some teammates disappear during incidents. Some PMs change requirements every week.\nBut there’s a difference between running into difficult people occasionally, and running into difficult people everywhere. And this is where managers start pondering.\nThree Signs Managers Look For When You Complain\nOne thing I’d like to point out as a manager: the signal you think you’re sending in a 1-on-1 meeting and the signal your manager is actually receiving are often very different.\nWhen you say “everyone is blocking me,” you mean to communicate frustration and context. What your manager sometimes hears is improvement areas in ownership and collaboration skills.\n1. Did You Try to Unblock Yourself?\nThere’s a difference between handling a blocker and simply handing it off.\nIn my 1-on-1 meetings, I can usually hear two different versions:\n- “I’m stuck on X, here’s what I’ve tried, here’s where I need your help” => 👍 \n- “Y team hasn’t responded. I don’t know what to do next.” => 🤨 \nSoftware engineers are expected to try a few options before escalating. Asking for help is fine. But make sure you try to unblock yourself first.\n2. Did You Make it Easy for Others to Respond?\nImagine you need another team to review your design doc. You send it over. A week passes. Nothing. Your instinct is to follow up and ask why they haven’t responded.\nBut here’s what I see from the manager’s side: the other team has their own priorities. Similar to [asking smart questions](https://adlerhsieh.com/p/turn-every-question-smart), they need to know why this is urgent. They need to know what you need from them and your timeline.\nGetting alignment is about making it easy for the other person to respond. That means giving them context and a clear ask that helps you costs them almost nothing.\n3. Did You Try to Have a Direct Conversation?\nWhen a PM consistently changes specs at the last minute, the common response is to absorb it, and then complain about it in 1-on-1 meetings.\nHowever, what rarely happens is a direct conversation with the PM first: “Hey, I’ve noticed specs tend to change last-minute. It creates a lot of rework on our side. Can we talk about how we can make that work better for both of us?”\nThe conversation itself does two things: it aligns behaviors, and it shows everyone around you that you tried to solve it before escalating.\nThat conversation feels uncomfortable, so most engineers skip it and go straight to their manager instead. That’s a reasonable expectation for a junior engineer. For someone aiming at the senior level, it’s a gap.\nWhat It Looks Like in Practice\nI went back to that engineer after our 1-on-1. I asked them one question instead: “What do you think the PM needs from you to stop changing the requirements?”\nThey were quiet for a moment. Then they said, “Honestly, I think it’s the business stakeholders who change the requirements all the time. That PM is just the middleman.”\nThat was the real blocker. The business stakeholders didn’t know how the Product Division works, so they changed specs whenever they wanted. Once we provided this feedback to them, they also learned to finalize the requirements at the beginning. Specs beca",
+      "title": "What Your Manager Is Thinking When You Complain",
+      "url": "https://adlerhsieh.com/p/what-your-manager-is-thinking-when-you-complain"
     },
     "https://agentos-sdk.dev/docs/js-runtime/": {
       "cleaner_v": 2,
@@ -7615,6 +7600,31 @@
       "title": "Using LLMs to secure source code | Claude",
       "url": "https://claude.com/blog/using-llms-to-secure-source-code"
     },
+    "https://claude.com/product/tag": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Tag Claude into any Slack thread and it reads the room, does the work, and posts back where everyone can see it. Available for Claude Enterprise and Team.",
+      "final_url": "https://claude.com/product/tag",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68dc371e7b6d3e2cb2ec6230_og-claude-slack.jpg",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a332e58e47bc6075d368473_announcement-tag.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68bb5f3a87453ecfe9d53a39_Hebbia-light-theme.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68bb5f3d5a2f38a808068b47_Hebbia-dark-theme.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69a7bd324891ae5d72739a8b_logo_descript-light-mode.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69a7b795aaa4ae1799cce978_logo_descript-dark-mode.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5aaf1b161d57cbe7095b8_GitLab_light.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5aaebe118de085a232f53_GitLab_dark.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3bea04ff3207f3131ff28d_fractional-ai_light.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3bea044afca0c052e6560d_fractional-ai_dark.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3c4cc3cd8e7abe79f4dbd8_gusto_light.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3c4cc5db57efe3dec310ae_gusto_dark.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Meet Claude Products Claude Claude Code Claude Cowork @Claude Features Claude for Chrome Claude for Microsoft 365 Skills Claude apps built for Design Science Security Models Mythos Fable Opus Sonnet Haiku Platform Build on Claude Overview Pricing Developer docs Console login Works with Claude Ecosystem Marketplace Connectors Plugins Solutions Use cases AI agents Coding Company size Startups Enterprise Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Connect Events Community Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Meet Claude Products Claude Claude Code Claude Cowork @Claude Features Claude for Chrome Claude for Microsoft 365 Skills Claude apps built for Design Science Security Models Mythos Fable Opus Sonnet Haiku Platform Build on Claude Overview Pricing Developer docs Console login Works with Claude Ecosystem Marketplace Connectors Plugins Solutions Use cases AI agents Coding Company size Startups Enterprise Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Connect Events Community Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude @Claude @Claude Explore here Ask questions about this page Copy as markdown Beta Next Next Introducing @Claude @Claude reacts in real time, where the work is happening. Available today for Claude Enterprise and Team in Slack. Tag it in, and it tags you back. Read more Read more Read more @Claude beta Tag Claude in Slack @Claude reads threads, understands the full context, and reacts in real time so your team moves forward together. Bring Claude into your channel. Add to Slack Add to Slack Add to Slack Read documentation Read documentation Read documentation Available in beta for Claude Enterprise and Team in Slack. Play video Play video “Claude Tag is our first responder for internal bugs. It reads incoming reports, looks at screenshots of failures, and uses access to Datadog, Linear, and GitHub to weed out user errors, trace root cause, and often draft a fix PR. Our engineers’ first reaction was ‘this is amazing.’” Aabhas Sharma, CTO “Claude Tag turned a summer of conference logistics — the follow-ups and chasing that always fell through the cracks — into an events program that runs itself while I stay on strategy.” Matthew Scott, Product Marketing “Claude Tag doesn’t just do the work — it challenges our thinking, provokes better questions, and elevates our judgement rather than replacing it. And we still feel very much in control throughout.” Simon Mansfield, Director, Enterprise AI “There were no skeptics on our team. Everyone leaned in from day one — it felt like Claude Tag in Slack was something they’d been waiting for.” Darian Bailey, AI Engineer & Tag Admin “Claude Tag meets our teams where they already work. Slack is the entry point for everything at Gusto, and the fact that Claude Tag is native there is huge for us. We see a lot of potential here.” Chad Kunsman, AI Developer Prev Prev 0 / 5 Next Next How it works Tag Claude into any thread, no matter how long or messy. It reacts to context, decisions, or open questions to help busy teams get more done. Tag it in @Claude in any thread or channel and it picks up the context everyone already shares. Ask it to run the numbers, file a ticket, or organize a chaotic ch",
+      "title": "Claude Tag | Claude by Anthropic",
+      "url": "https://claude.com/product/tag"
+    },
     "https://clickandmagic.com/notes/wwdc26_hig_as_a_philosophy": {
       "cleaner_v": 2,
       "content_type": "text/html",
@@ -7775,24 +7785,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Enterprise Open Source AI Models | Cohere",
       "url": "https://cohere.com/models-overview"
-    },
-    "https://coss.com/ui": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Built for developers and AI.",
-      "final_url": "https://coss.com/ui",
-      "frameable": null,
-      "image_urls": [
-        "https://coss.com/ui/opengraph-image.png?opengraph-image.1246bed5.png",
-        "https://coss.com/ui/twitter-image.png?twitter-image.1246bed5.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "Toggle Menu coss.com ui Docs Particles ⌘ K 9.8k Toggle theme A new, modern UI component library built on top of Base UI. Built for developers and AI. Get started Browse 484 particles Accordion A set of collapsible panels with headings and content. Alert A callout for displaying important information. Alert Dialog A dialog that requires user response to proceed. Autocomplete An input that suggests options as you type. Avatar An image element with a fallback for representing the user. Badge A badge or a component that looks like a badge. Breadcrumb Displays the path to the current resource using a hierarchy of links. Button A button or a component that looks like a button. Calendar A date picker component with range and multi-select support. Card A content container for grouping related information. Checkbox A control allowing the user to toggle between checked and not checked. Checkbox Group Provides shared state to a series of checkboxes. Collapsible A collapsible panel controlled by a button trigger. Combobox An input combined with a list of predefined items to select. Command A command palette component built with Dialog and Autocomplete for searching and executing commands. Date Picker A date picker component built with Calendar and Popover. Dialog A popup that opens on top of the entire page. Drawer A panel that slides in from the edge of the screen with swipe gestures, snap points, and nested drawer support. New Empty A container for displaying empty state information. Field A component that provides labelling and validation for form controls. Fieldset A native fieldset element with a legend. Form A form wrapper component that simplifies validation and submission. Frame A framed container for grouping related information. Group A component for visually grouping a series of controls. Input A native input element. Input Group A flexible component for grouping inputs with addons, buttons, and other elements. Kbd A component for displaying keyboard keys and shortcuts. ⌘ K Label Renders an accessible label associated with controls. Menu A list of actions in a dropdown, enhanced with keyboard navigation. Meter A graphical display of a numeric value within a range. Number Field A numeric input element with increment and decrement buttons, and a scrub area. Otp Field A segmented input for one-time passwords and verification codes. New Pagination A pagination with page navigation, next and previous links. Popover An accessible popup anchored to a button. Preview Card A popup that appears when a link is hovered, showing a preview for sighted users. Progress Displays the status of a task that takes a long time. Radio Group A set of checkable buttons where no more than one of the buttons can be checked at a time. Scroll Area A native scroll container with custom scrollbars. Select A common form component for choosing a predefined value in a dropdown menu. Separator A separator element accessible to screen readers. Sheet A flyout that opens from the side of the screen, based on the dialog component. Skeleton A loading state skeleton for your components. Slider An input where the user selects a value from within a given range. Spinner An indicator that can be used to show a loading state. Switch A control that indicates whether a setting is on or off. Table A simple table component for displaying tabular data. Tabs A component for toggling between related panels on the same page. Textarea A native textarea element. Toast A temporary notification that appears on screen to inform users. Toggle A two-state button that can be toggled on or off. Toggle Group Provides a shared state to a series of toggle buttons. Toolbar A container for grouping a set of buttons and controls. Tooltip A popup that appears when an element is hovered or focused, showing a hint for sighted users. © 2026 coss.com – open source, open heart, open mind.",
-      "text_excerpt_zh": "Toggle Menu coss.com ui Docs Particles ⌘ K 9.8k Toggle theme 一个基于 Base UI 构建的现代化 UI 组件库。专为开发者和 AI 设计。 开始使用 浏览 484 个粒子 手风琴 一组可折叠的面板，包含标题和内容。 警告 用于显示重要信息的提示框。 警告对话框 需要用户响应才能继续的对话框。 自动补全 输入时提供建议的输入框。 头像 带有回退方案的用户头像图片元素。 徽章 徽章或类似徽章的组件。 面包屑 通过层级链接显示当前资源路径。 按钮 按钮或类似按钮的组件。 日历 支持范围选择和多选的日期选择器组件。 卡片 用于分组相关信息的容器。 复选框 允许用户在选中和未选中之间切换的控件。 复选框组 为一组复选框提供共享状态。 可折叠 由按钮触发器控制的可折叠面板。 组合框 结合输入框和预定义选项列表的组件。 命令 基于对话框和自动补全构建的命令面板组件，用于搜索和执行命令。 日期选择器 基于日历和弹出框构建的日期选择器组件。 对话框 覆盖整个页面的弹出窗口。 抽屉 从屏幕边缘滑入的面板，支持滑动手势、吸附点和嵌套抽屉。 新 空状态 用于显示空状态信息的容器。 字段 为表单控件提供标签和验证的组件。 字段集 带有图例的原生 fieldset 元素。 表单 简化验证和提交的表单包装组件。 框架 用于分组相关信息的带边框容器。 组 用于视觉分组一系列控件的组件。 输入 原生 input 元素。 输入组 用于将输入框与附加组件、按钮等元素分组的灵活组件。 键盘键 用于显示键盘按键和快捷键的组件。 ⌘ K 标签 渲染与控件关联的可访问标签。 菜单 下拉菜单中的操作列表，支持键盘导航。 仪表 数值在范围内变化的图形显示。 数字字段 带有增减按钮和拖拽区域的数字输入元素。 一次性密码字段 用于一次性密码和验证码的分段输入。 新 分页 带有页面导航、上一页和下一页链接的分页组件。 弹出框 锚定在按钮上的可访问弹出窗口。 预览卡片 悬停链接时出现的弹出窗口，为有视力的用户显示预览。 进度条 显示耗时任务的状态。 单选按钮组 一组可勾选的按钮，同一时间只能勾选一个。 滚动区域 带有自定义滚动条的原生滚动容器。 选择框 用于在下拉菜单中选择预定义值的常见表单组件。 分隔线 屏幕阅读器可访问的分隔元素。 工作表 从屏幕侧面打开的浮层，基于对话框组件。 骨架屏 用于组件的加载状态骨架。 滑块 用户在给定范围内选择值的输入控件。 加载指示器 可用于显示加载状态的指示器。 开关 指示设置开启或关闭的控件。 表格 用于显示表格数据的简单表格组件。 标签页 用于在同一页面切换相关面板的组件。 文本域 原生 textarea 元素。 提示 屏幕上出现的临时通知，用于告知用户信息。 切换按钮 可在开和关之间切换的双状态按钮。 切换按钮组 为一组切换按钮提供共享状态。 工具栏 用于分组一组按钮和控件的容器。 工具提示 当元素被悬停或聚焦时出现的弹出窗口，为有视力的用户显示提示信息。 © 2026 coss.com – 开源、开放心态、开放思维。",
-      "text_excerpt_zh_hash": "a9d6c33043f27303",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "A new, modern UI component library built on top of Base UI - coss ui",
-      "url": "https://coss.com/ui"
     },
     "https://cursor.com/origin": {
       "cleaner_v": 2,
@@ -8227,6 +8219,25 @@
       "title": "Emily Campbell - The Layers of AI experience",
       "url": "https://emilycampbell.co/writing/layers-of-ai-experience?ref=sidebar"
     },
+    "https://emre570.bearblog.dev/megakernel-decode/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "This is the story of a megakernel: the 28-layer text decoder of Qwen3-ASR-0.6B, plus its lm_head, running as a single persistent CUDA kernel on an RTX 5080. ...",
+      "extraction_source": "trafilatura",
+      "final_url": "https://emre570.bearblog.dev/megakernel-decode/",
+      "frameable": true,
+      "image_urls": [
+        "https://emre570.bearblog.dev/static/og-image.png",
+        "https://bear-images.sfo2.cdn.digitaloceanspaces.com/emre570/layer-chain.svg",
+        "https://bear-images.sfo2.cdn.digitaloceanspaces.com/emre570/attn-wph-vs-splitkv.svg",
+        "https://bear-images.sfo2.cdn.digitaloceanspaces.com/emre570/flash-decoding.svg",
+        "https://bear-images.sfo2.cdn.digitaloceanspaces.com/emre570/gqa-kv-sharing.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Writing A Megakernel For LLM Decode - A Worklog\nThis is the story of a megakernel: the 28-layer text decoder of Qwen3-ASR-0.6B, plus its lm_head, running as a single persistent CUDA kernel on an RTX 5080. The baseline fires about 466 kernel launches per generated token. This fires one.\nEvery op in it is hand-written - the GEMVs, the norms, the rope, the KV-cache write, the attention, the sampling argmax - and every op was validated against vLLM's own modules before I trusted it. The end-to-end test is not a tolerance check: the megakernel picks the same greedy token as vLLM, 7 out of 7 decode steps, with wide logit margins.\nThe performance ending is mixed, and I'm going to report it the way it landed. The megakernel decodes at 3.49 ms/token. That's about 7x faster than vLLM running eager. It is also 1.65x slower than vLLM's CUDA-graph path. Along the way three of my fusion ideas lost to measurement - one of them by 19x - and two attention optimizations worked exactly as designed and still got rejected. Those negative results taught me more than the wins, so they're all in here.\nI'll walk through it the way it happened: the profile that motivated the whole thing, the design, the op-by-op build, the experiments, the optimization pass, and an honest accounting of the gap that remains.\nPart I: why - the shape of M=1 decode\nQwen3-ASR-0.6B is a speech-to-text model: a Whisper-style audio encoder feeds a 28-layer Qwen3 LLM that autoregressively writes the transcript. The decoder is standard Qwen3: hidden 1024, 16 query heads / 8 KV heads (GQA), head_dim 128, SiLU MLP at 3072, RMSNorm everywhere including per-head QK-norm, rope. My target is the decode loop only - batch=1, one token at a time. The encoder and prefill are a different, larger-tile regime and stay as normal kernels.\nAt batch=1 decode, every matmul in the model is a matrix-vector product. M=1. That single fact sets everything:\n- A GEMV reads each weight byte once and does ~1 flop with it. Arithmetic intensity is under 1 flop/byte, hopelessly memory-bound. Tensor cores have no matrix to tile - they'd be doing 16x16 tiles of which one row is real.\n- So decoding one token means streaming the entire model - 1.19 GB of bf16 weights - through the GPU, once per token.\n- The RTX 5080 sustains about 946 GB/s of real DRAM bandwidth (measured, 98.5% of the 960 spec). 1.19 GB / 946 GB/s = 1.26 ms. That's the floor. No decode of this model on this GPU beats 1.26 ms/token, megakernel or not.\nThat floor is the number every result below is measured against. \"Fast\" means \"close to 1.26 ms\".\nWhat the profile actually said\nBefore writing any kernel code I profiled vLLM's decode with Nsight Systems and Nsight Compute, eager mode on purpose - CUDA graphs fuse the launch stream and hide exactly the per-op structure I wanted to see.\nOne decode step is ~466 kernel launches that together do about 2.2 ms of GPU work. The mean kernel is 4.77 us long. And per-op, the counters say the GPU is never actually busy:\n| signal (median over decode ops) | value | reading | \n|---|---|---|\n| waves per SM | < 1 for most ops | the op can't fill the GPU even once | \n| achieved occupancy | 6-43% | warp slots mostly empty | \n| SM throughput | 2-33% | compute pipes idle | \n| DRAM throughput | 0.3-47% | memory idle | \nBoth pipes idle at the same time. The model isn't compute-bound or memory-bound at decode - it's launch-bound and latency-bound. There simply isn't enough work in any single op to cover 84 SMs, and the ops run strictly one after another on one stream, so every launch is a global barrier: kernel N+1 can't start until kernel N's last CTA retires, even when kernel N used 4 CTAs out of 84.\nThe stall reasons are the interesting part. The glue ops (norms, residuals, activation, rope, cache write) all stall on long_scoreboard - warps sitting there waiting for a global-memory load. Which load? The previous op's output. Op N writes the activation to HBM, op N+1 reads it back microseconds later, and the warps eat",
+      "title": "Writing A Megakernel For LLM Decode - A Worklog – Emre's Blog",
+      "url": "https://emre570.bearblog.dev/megakernel-decode/"
+    },
     "https://encore.dev/blog/redis-runtime": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -8446,20 +8457,6 @@
       "title": "",
       "url": "https://ft.trib.al/9ed1nwc"
     },
-    "https://ft.trib.al/Ea0wmNA": {
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "fetch_error": "HTTP Error 403: Forbidden",
-      "final_url": "https://ft.trib.al/Ea0wmNA",
-      "frameable": null,
-      "image_urls": [],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "",
-      "url": "https://ft.trib.al/Ea0wmNA"
-    },
     "https://ft.trib.al/JA9WfUB": {
       "content_type": "",
       "description": "",
@@ -8487,6 +8484,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://ft.trib.al/Mt0u2VP"
+    },
+    "https://ft.trib.al/UrDI4Ro": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://ft.trib.al/UrDI4Ro",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "https://ft.trib.al/UrDI4Ro"
     },
     "https://ft.trib.al/qvxOKv9": {
       "content_type": "",
@@ -9213,31 +9224,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Building a Visualizer for Antigravity Agentic Development Sessions Building a Visualizer for Antigravity Agentic Development Sessions | Guillaume Laforge",
       "url": "https://glaforge.dev/posts/2026/06/11/antigravity-brain-visualizer/"
-    },
-    "https://heroui.com/": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "Beautiful, accessible React UI components built on React Aria and Tailwind CSS v4. The modern alternative to MUI, Chakra UI, and shadcn/ui for building production-ready applications.",
-      "final_url": "https://heroui.com/",
-      "frameable": null,
-      "image_urls": [
-        "https://www.heroui.com/images/twitter-card.jpg",
-        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdefault.00hy66eiq_fus.png&w=96&q=75",
-        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsky.0erdt1x~h1l8b.png&w=96&q=75",
-        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flavender.0-32nppwuod68.png&w=96&q=75",
-        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmint.0-bfpgeec9090.png&w=96&q=75",
-        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnetflix.068-abhd3l9nu.png&w=96&q=75",
-        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblack.0owg-00gewaph.png&w=96&q=75",
-        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fspotify.05yg_58p7hd2w.png&w=96&q=75",
-        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcoinbase.17.cfzs2mm70~.png&w=96&q=75",
-        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fairbnb.0h40d2kw83-5k.png&w=96&q=75",
-        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdiscord.0wmws.n6y~547.png&w=96&q=75",
-        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frabbit.049~3gxxqqtmv.png&w=96&q=75"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "HeroUI v3 (Previously NextUI) - Beautiful by default, customizable by design.",
-      "url": "https://heroui.com/"
     },
     "https://hex.tech/blog/hex-in-codex/": {
       "cleaner_v": 2,
@@ -10088,6 +10074,21 @@
       "title": "",
       "url": "https://on.wsj.com/4w51efY"
     },
+    "https://open.spotify.com/episode/77vj2r8BQRknKqGy5usB7Z": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Listen to this episode from Exchanges on Spotify. Rapid improvements in AI capabilities and growing corporate adoption have led to predictions that the technology could spark large-scale job losses before the end of the decade. Do these concerns have merit? MIT’s Daron Acemoglu and Neil Thompson, and Goldman Sachs Research economist Joseph Briggs discuss with host Allison Nathan. This episode explores the latest Top of Mind report.  The opinions and views expressed herein are as of the date of publication, subject to change without notice, and may not necessarily reflect the institutional views of Goldman Sachs or its affiliates. The material provided is intended for informational purposes only, and does not constitute investment advice, a recommendation from any Goldman Sachs entity to take any particular action, or an offer or solicitation to purchase or sell any securities or financial products. This material may contain forward-looking statements. Past performance is not indicative of future results. Neither Goldman Sachs nor any of its affiliates make any representations or warranties, express or implied, as to the accuracy or completeness of the statements or information contained herein and disclaim any liability whatsoever for reliance on such information for any purpose. Each name of a third-party organization mentioned is the property of the company to which it relates, is used here strictly for informational and identification purposes only and is not used to imply any ownership or license rights between any such company and Goldman Sachs.  A transcript is provided for convenience and may differ from the original video or audio content. Goldman Sachs is not responsible for any errors in the transcript. This material should not be copied, distributed, published, or reproduced in whole or in part or disclosed by any recipient to any other person without the express written consent of Goldman Sachs.  Disclosures applicable to research with respect to issuers, if any, mentioned herein are available through your Goldman Sachs representative or at ⁠http://www.gs.com/research/hedge.html⁠  Goldman Sachs does not endorse any candidate or any political party.  Copyright 2026. All rights reserved. Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "final_url": "https://open.spotify.com/episode/77vj2r8BQRknKqGy5usB7Z",
+      "frameable": false,
+      "image_urls": [
+        "https://i.scdn.co/image/ab6765630000ba8a4562d4e2f01018eb30b9a4ef",
+        "https://i.scdn.co/image/ab67656300005f1f4562d4e2f01018eb30b9a4ef"
+      ],
+      "kind": "article",
+      "text_excerpt": "How Will AI Affect Jobs? Exchanges Thursday 28 min Rapid improvements in AI capabilities and growing corporate adoption have led to predictions that the technology could spark large-scale job losses before the end of the decade. Do these concerns have merit? MIT’s Daron Acemoglu and Neil Thompson, and Goldman Sachs Research economist Joseph Briggs discuss with host Allison Nathan. This episode explores the latest Top of Mind report. The opinions and views expressed herein are as of the date of publication, subject to change without notice, and may not necessarily reflect the institutional views of Goldman Sachs or its affiliates. The material provided is intended for informational purposes only, and does not constitute investment advice, a recommendation from any Goldman Sachs entity to take any particular action, or an offer or solicitation to purchase or sell any securities or financial products. This material may contain forward-looking statements. Past performance is not indicative of future results. Neither Goldman Sachs nor any of its affiliates make any representations or warranties, express or implied, as to the accuracy or completeness of the statements or information contained herein and disclaim any liability whatsoever for reliance on such information for any purpose. Each name of a third-party organization mentioned is the property of the company to which it relates, is used here strictly for informational and identification purposes only and is not used to imply any ownership or license rights between any such company and Goldman Sachs. A transcript is provided for convenience and may differ from the original video or audio content. Goldman Sachs is not responsible for any errors in the transcript. This material should not be copied, distributed, published, or reproduced in whole or in part or disclosed by any recipient to any other person without the express written consent of Goldman Sachs. Disclosures applicable to research with respect to issuers, if any, mentioned herein are available through your Goldman Sachs representative or at ⁠http://www.gs.com/research/hedge.html⁠ Goldman Sachs does not endorse any candidate or any political party. Copyright 2026. All rights reserved. Learn more about your ad choices. Visit megaphone.fm/adchoices See all episodes Home Search Your Library Premium ,",
+      "title": "How Will AI Affect Jobs? - Exchanges | Podcast on Spotify",
+      "url": "https://open.spotify.com/episode/77vj2r8BQRknKqGy5usB7Z"
+    },
     "https://open.substack.com/pub/airstreet/p/europe-ai-sovereignty": {
       "cleaner_v": 2,
       "content_type": "",
@@ -10283,20 +10284,6 @@
       "title": "",
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843118"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2061861227383685120/img/bpkaDNVW35LA2JFq.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061861227383685120/img/bpkaDNVW35LA2JFq.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2061861227383685120/img/bpkaDNVW35LA2JFq.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2061861227383685120/img/bpkaDNVW35LA2JFq.jpg"
-    },
     "https://pbs.twimg.com/amplify_video_thumb/2061989887721811968/img/RltsnczDkhs5B2W_.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -10352,20 +10339,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2062463771969290240/img/FkZgIjNg_u56k-q2.jpg"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2062495207648907265/img/22ifazwEtzRrTOSg.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2062495207648907265/img/22ifazwEtzRrTOSg.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2062495207648907265/img/22ifazwEtzRrTOSg.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2062495207648907265/img/22ifazwEtzRrTOSg.jpg"
     },
     "https://pbs.twimg.com/amplify_video_thumb/2062561996290109441/img/hrWtmJh_3OhR9ZZK.jpg": {
       "cleaner_v": 2,
@@ -11641,6 +11614,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2072706757886181376/img/SBdCelCSYFhqXpuD.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2072729637864562689/img/rGfIMmEBd1WRFwZA.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2072729637864562689/img/rGfIMmEBd1WRFwZA.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2072729637864562689/img/rGfIMmEBd1WRFwZA.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2072729637864562689/img/rGfIMmEBd1WRFwZA.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2072738919490183168/img/QE4H1KrjRLvXU3jO.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2072738919490183168/img/QE4H1KrjRLvXU3jO.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2072738919490183168/img/QE4H1KrjRLvXU3jO.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2072738919490183168/img/QE4H1KrjRLvXU3jO.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2072804480463052800/img/Zi5xBgrnwb6uih8L.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11822,34 +11823,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ1HCcPX0AEHjMH.jpg"
-    },
-    "https://pbs.twimg.com/media/HJ2fEgYa0AAqc56.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ2fEgYa0AAqc56.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ2fEgYa0AAqc56.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ2fEgYa0AAqc56.jpg"
-    },
-    "https://pbs.twimg.com/media/HJ2fFiMbMAAcAQ7.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ2fFiMbMAAcAQ7.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ2fFiMbMAAcAQ7.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ2fFiMbMAAcAQ7.jpg"
     },
     "https://pbs.twimg.com/media/HJ3wBHzW8AAR0Em.jpg": {
       "cleaner_v": 2,
@@ -15225,62 +15198,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HML9VhVbQAAQ9Tw.jpg"
     },
-    "https://pbs.twimg.com/media/HML_BpBaAAAT5H4.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HML_BpBaAAAT5H4.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HML_BpBaAAAT5H4.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HML_BpBaAAAT5H4.png"
-    },
-    "https://pbs.twimg.com/media/HML_W6zbUAAKM77.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HML_W6zbUAAKM77.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HML_W6zbUAAKM77.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HML_W6zbUAAKM77.png"
-    },
-    "https://pbs.twimg.com/media/HML_euva0AAqrXZ.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HML_euva0AAqrXZ.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HML_euva0AAqrXZ.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HML_euva0AAqrXZ.png"
-    },
-    "https://pbs.twimg.com/media/HMM176iX0AAUiSP.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMM176iX0AAUiSP.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HMM176iX0AAUiSP.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HMM176iX0AAUiSP.jpg"
-    },
     "https://pbs.twimg.com/media/HMP0erwawAAiXlm.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15322,6 +15239,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HMPx3_JbMAAsQpr.jpg"
+    },
+    "https://pbs.twimg.com/media/HMRR8FpaMAAimbR.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMRR8FpaMAAimbR.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMRR8FpaMAAimbR.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMRR8FpaMAAimbR.jpg"
+    },
+    "https://pbs.twimg.com/media/HMRSFIYa8AE3L6B.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMRSFIYa8AE3L6B.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMRSFIYa8AE3L6B.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMRSFIYa8AE3L6B.png"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -15857,32 +15802,6 @@
       "title": "Designing, Refining, and Maintaining Agent Skills at Perplexity",
       "url": "https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity"
     },
-    "https://research.perplexity.ai/articles/rethinking-search-as-code-generation": {
-      "cleaner_v": 2,
-      "content_type": "text/html",
-      "description": "Evolving search from monolithic services to programmable primitives for the era of agent harnesses.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://research.perplexity.ai/articles/rethinking-search-as-code-generation",
-      "frameable": null,
-      "image_urls": [
-        "https://framerusercontent.com/images/BPa6INWwG51PCIVan60pk0neXA.webp?width=2048&height=1148",
-        "https://framerusercontent.com/images/jFfT0gUzrVIip3MpoWU5NOEaq0.png",
-        "https://framerusercontent.com/images/hIpF8Cv3YwGB2GyMzVcJqwlDhE.png",
-        "https://framerusercontent.com/images/vsuNSVMfWSneCWfczUleMlnHCmk.png",
-        "https://framerusercontent.com/images/OnESvfBPI4RRdrAZjpvBBzw4gDY.png",
-        "https://framerusercontent.com/images/GsDB5uB5g2ddb35ebOxlBwioX8.png",
-        "https://framerusercontent.com/images/VEWc6UexsMSdwV7g6BuXbRt2M.png",
-        "https://framerusercontent.com/images/zdbLvDHM5kVaqTFKj35TA5gkE.png",
-        "https://framerusercontent.com/images/3SIShKOS6D0m5GcPQlo2M4jtvCo.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "Rethinking Search as Code Generation\nEvolving search from monolithic services to programmable primitives for the era of agent harnesses.\nSearch is a core primitive for AI systems. Frontier models grow more capable by the month, but they still need access to fresh, accurate, and well-curated knowledge from the wider world. Search is the primary way that AI systems tap into that knowledge, and thus a foundational component of any product that needs to draw conclusions, take actions, and perform real-world work.\nWe believe that traditional search pipelines are increasingly outdated in the era of agents. Traditional search answers queries, but today’s agents complete tasks that can take on countless shapes. These tasks require agents to define task-specific retrieval strategies directly within their harnesses. Within Perplexity Computer, we’ve seen single tasks invoke hundreds or even thousands of retrieval operations within a few minutes: a workflow that is impossible for humans but absolutely natural for agents.\nIn this world, search itself must become agentic, with its building blocks accessible directly as SDKs within the agent harness. We are introducing Search as Code (SaC) as Perplexity’s new reference search architecture.\nIntroduction\nPerplexity's search stack serves thousands of queries each second across our applications and API Platform. In September 2025, we published the first [architectural overview](https://research.perplexity.ai/articles/architecting-and-evaluating-an-ai-first-search-api) of our search systems. Constant innovation within these systems has supported the launch of new offerings such as [Search API](https://www.perplexity.ai/hub/blog/introducing-the-perplexity-search-api), [Agent API](https://www.perplexity.ai/hub/blog/agent-api-a-managed-runtime-for-agentic-workflows), and [Computer](https://www.perplexity.ai/products/computer), with self-improvement loops optimizing the search stack to better serve users with each passing day.\nTraditionally, AI systems have treated search as a monolith: an AI model issues a query, the search engine runs its predefined pipeline, and the model consumes the results as context. For the most part, this worked fine to address the needs of early AI users. Given the relative simplicity of their requests, there was no reason to worry about exactly how the search pipeline was designed, or whether the pipeline's architecture was optimal for the task at hand. The defaults were presumed to be good enough, as were the default interfaces (function calling and MCPs).\nFigure 1 | Traditional search architectures expose a single fixed system that models call serially, while Search as Code exposes atomized search primitives that agents compose through generated code.\nYet today this approach grows more outdated with each passing month. Users demand much more than single-shot analysis from AI. They expect agents to complete tasks end-to-end over hours or even days. These tasks can be complex, open-ended, and highly variable in their information needs, and monolithic architectures are buckling under the weight of these demands.\nThe key bottleneck is ultimately one of control. Frontier models are already quite good at reasoning over fixed context. However, the most powerful AI systems will require the ability to steer how that context is retrieved, processed, aggregated, and rendered to the model.\nTraditional search systems were not designed with this degree of controllability in mind. After all, human users cannot be expected to exercise fine-grained control over search pipeline internals even if it were offered. Early AI models can control search only through a linear trajectory of function calls and MCPs. But today's frontier models, driven by code-capable agent harnesses, can exert fine-grained control over any computational primitives imaginable through computer code. Our task becomes to provide the right primitives.\nTo meet this need, we are introducing a new search architecture acro",
-      "text_excerpt_zh": "# 将搜索重新构想为代码生成\n\n从单体服务演进到可编程原语，迎接智能体框架时代\n\n搜索是AI系统的核心原语。前沿模型的能力逐月增强，但它们仍然需要从更广阔的世界获取新鲜、准确且精心整理的知识。搜索是AI系统获取这些知识的主要方式，因此也是任何需要得出结论、采取行动并执行实际工作的产品的基础组件。\n\n我们相信，在智能体时代，传统的搜索流水线正日益过时。传统搜索回答查询，但今天的智能体需要完成形态各异的任务。这些任务要求智能体在其框架内直接定义特定于任务的检索策略。在Perplexity Computer内部，我们看到单个任务在几分钟内调用了数百甚至数千次检索操作：这种工作流对人类来说是不可能的，但对智能体来说却完全自然。\n\n在这个世界中，搜索本身必须变得具有智能体特性，其构建模块可以直接作为SDK在智能体框架中使用。我们推出**搜索即代码（Search as Code, SaC）**，作为Perplexity新的参考搜索架构。\n\n## 引言\n\nPerplexity的搜索栈在我们的应用和API平台中每秒处理数千次查询。2025年9月，我们发布了搜索系统的第一篇[架构概述](https://research.perplexity.ai/articles/architecting-and-evaluating-an-ai-first-search-api)。这些系统的持续创新支持了新产品如[Search API](https://www.perplexity.ai/hub/blog/introducing-the-perplexity-search-api)、[Agent API](https://www.perplexity.ai/hub/blog/agent-api-a-managed-runtime-for-agentic-workflows)和[Computer](https://www.perplexity.ai/products/computer)的推出，自我改进循环不断优化搜索栈，以更好地服务用户。\n\n传统上，AI系统将搜索视为一个单体：AI模型发出查询，搜索引擎运行其预定义的流水线，模型将结果作为上下文消费。在大多数情况下，这足以满足早期AI用户的需求。由于他们的请求相对简单，没有必要担心搜索流水线的具体设计方式，或者流水线架构是否针对当前任务最优。默认设置被认为是足够好的，默认接口（函数调用和MCP）也是如此。\n\n**图1 | 传统搜索架构暴露一个固定的单一系统，模型串行调用；而搜索即代码暴露原子化的搜索原语，智能体通过生成的代码进行组合。**\n\n然而今天，这种方法逐月变得更加过时。用户对AI的需求远不止单次分析。他们期望智能体在数小时甚至数天内端到端地完成任务。这些任务可能复杂、开放，且信息需求高度可变，单体架构在这些需求的压力下正不堪重负。\n\n关键瓶颈最终在于控制权。前沿模型已经相当擅长在固定上下文中进行推理。然而，最强大的AI系统将需要能够引导如何检索、处理、聚合上下文并将其呈现给模型。\n\n传统搜索系统在设计时并未考虑这种程度的可控性。毕竟，即使提供了细粒度的控制，也不能期望人类用户去精细控制搜索流水线的内部机制。早期的AI模型只能通过函数调用和MCP的线性轨迹来控制搜索。但今天的前沿模型，由具备代码能力的智能体框架驱动，可以通过计算机代码对任何可想象的计算原语施加细粒度的控制。我们的任务就是提供正确的原语。\n\n为了满足这一需求，我们推出了一种新的搜索架构，跨越",
-      "text_excerpt_zh_hash": "031c42a43f29a5df",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Rethinking Search as Code Generation",
-      "url": "https://research.perplexity.ai/articles/rethinking-search-as-code-generation"
-    },
     "https://restofworld.org/2026/china-tech-layoffs-alibaba-baidu-ai-pivot/?utm_campaign=row-social": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -16126,14 +16045,14 @@
       "title": "When Developing an AI Strategy, Beware the Urgency Trap",
       "url": "https://s.hbr.org/4f9nNu9"
     },
-    "https://s.hbr.org/4sbkF4k": {
+    "https://s.hbr.org/4tkutKa": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
-      "description": "Loneliness should be as important to managers, CFOs, and CEOs as it is to therapists. The last half-decade of research has demonstrated that loneliness threatens not only our physical health and well-being, but also our livelihood. Research shows that loneliness has the same effect as 15 cigarettes a day in terms of health care outcomes and health care costs. Lonelier workers perform more poorly, quit more often, and feel less satisfied with their jobs — costing employers billions. America’s loneliest workers are single and childless. They are well-educated, with doctors and lawyers feeling loneliest of all. They are more likely to work for the government. Most personally, America’s loneliest workers are non-heterosexual, and non-religious. What can managers and co-workers do to help lonely workers? The single most impactful leadership behavior you can undertake is to create opportunities for building shared meaning with colleagues. Understand what makes their work meaningful to them, and then connect that to what makes it meaningful for you.",
-      "final_url": "https://hbr.org/2018/03/americas-loneliest-workers-according-to-research?tpcc=orgsocial_edit&utm_campaign=hbr&utm_medium=social&utm_source=facebook,linkedin,twitter",
+      "description": "Do you dream about switching to a career that’s drastically different from your current job? Many people do. But they never make the leap: the costs of switching seem too high, and the possibility of success seems too remote. The answer isn’t to plug away in your current job, unfulfilled and slowly burning out. The answer is to do both . Two careers are better than one. And by committing to two careers, you will produce benefits for both. You can learn new skills, broaden your network, and discover truly creative new solutions by committing to two (or more) wildly divergent careers. When you follow your curiosities, you will bring passion to your new careers, which will leave you more fulfilled. And by doing more than one job, you may end up doing all of them better.",
+      "final_url": "https://hbr.org/2017/04/why-you-should-have-at-least-two-careers?tpcc=orgsocial_edit&utm_campaign=hbr&utm_medium=social&utm_source=facebook,linkedin,twitter",
       "frameable": null,
       "image_urls": [
-        "https://hbr.org/resources/images/article_assets/2018/03/hbr-dave-wheeler-health-and-stress.jpeg",
+        "https://hbr.org/resources/images/article_assets/2017/04/apr17-25-157609160.jpg",
         "https://hbr.org/assets-mfe-articles/_next/static/media/Twitter.0swuvvv6x6dv_.svg",
         "https://hbr.org/assets-mfe-articles/_next/static/media/Facebook.04rsuuytjqje5.svg",
         "https://hbr.org/assets-mfe-articles/_next/static/media/LinkedIn.0k9~yd0rlxzso.svg",
@@ -16141,14 +16060,12 @@
         "https://hbr.org/assets-mfe-articles/_next/static/media/Download.05v71ue7.ma35.svg",
         "https://hbr.org/assets-mfe-articles/_next/static/media/BuyCopy.172.f4inmo975.svg",
         "https://hbr.org/assets-mfe-articles/_next/static/media/Print.0-3qb9pn16j8b.svg",
-        "https://hbr.org/assets-mfe-articles/_next/static/media/close.0e9_5t1w4ast7.svg",
-        "https://hbr.org/resources/images/article_assets/2018/03/110-gabriella-kellerman.jpg",
-        "https://hbr.org/resources/images/article_assets/2025/09/110-alexi-robichaux.jpg"
+        "https://hbr.org/assets-mfe-articles/_next/static/media/close.0e9_5t1w4ast7.svg"
       ],
       "kind": "article",
-      "text_excerpt": "SKIP TO CONTENT Managing people | America’s Loneliest Workers, According to Research Subscribe Sign In Latest Magazine Topics Podcasts Store Reading Lists Data & Visuals Case Selections HBR Executive Search hbr.org Subscribe Latest Podcasts The Magazine Store Webinars Newsletters All Topics Reading Lists Data & Visuals Case Selections HBR Executive My Library Account Settings Sign In Explore HBR Latest The Magazine Podcasts Store Webinars Newsletters Popular Topics Managing Yourself Leadership Strategy Managing Teams Gender Innovation Work-life Balance All Topics For Subscribers Reading Lists Data & Visuals Case Selections HBR Executive Subscribe My Account My Library Topic Feeds Orders Account Settings Email Preferences Sign In Managing people America’s Loneliest Workers, According to Research by Shawn Achor , Gabriella Rosen Kellerman , Andrew Reece and Alexi Robichaux March 19, 2018 Dave Wheeler for HBR Post Post Share Save Get PDF Buy Copies Print Summary . Loneliness should be as important to managers, CFOs, and CEOs as it is to therapists. The last half-decade of research has demonstrated that loneliness threatens not only our physical health and ... more Leer en español Ler em português Post Post Share Save Get PDF Buy Copies Print A hundred fifty years ago, poet Emily Dickinson described loneliness as “the horror not to be surveyed, but skirted in the dark.” Had she been running a modern company, she might have felt differently. Loneliness should be as important to managers, CFOs, and CEOs as it is to therapists. The last half-decade of research has demonstrated that loneliness threatens not only our physical health and well-being , but also our livelihood. Research shows that loneliness has the same effect as 15 cigarettes a day in terms of health care outcomes and health care costs. Yet we are often blind to this hidden drain on health and revenue. Lonelier workers perform more poorly, quit more often, and feel less satisfied with their jobs — costing employers upwards of £2.5 billion ($3.5 billion U.S.) in the United Kingdom alone. The U.K. found loneliness to be such an issue, they have appointed a Minister of Loneliness to head up the daunting task of figuring out solutions to what the former U.S. Surgeon General Vivek Murthy calls “the most common pathology” , with nearly 40% of Americans reporting being lonely. Shawn Achor is the New York Times bestselling author of Big Potential, The Happiness Advantage and Before Happiness . He serves as the Chief Experience Officer for BetterUp. His TED talk is one of the most popular, with over 11 million views. He has lectured or researched at over a third of the Fortune 100 and in 50 countries, as well as for the NFL, Pentagon and White House. Shawn is leading a series of courses on “21 Days to Inspire Positive Change” with the Oprah Winfrey Network. Gabriella Rosen Kellerman is an Expert Partner and Director at Boston Consulting Group and the co-author, with Professor Martin Seligman, of Tomorrowmind. A psychiatrist by training, Kellerman focused research on organizational performance in uncertainty and leadership in the era of generative AI. Andrew Reece is a behavioral data scientist at BetterUp. Alexi Robichaux is the CEO and co-founder of BetterUp. Post Post Share Save Get PDF Buy Copies Print Read more on Managing people Partner Center Start my subscription! Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Prefe",
-      "title": "America’s Loneliest Workers, According to Research",
-      "url": "https://s.hbr.org/4sbkF4k"
+      "text_excerpt": "SKIP TO CONTENT Career planning | Why You Should Have (at Least) Two Careers Subscribe Sign In Latest Magazine Topics Podcasts Store Reading Lists Data & Visuals Case Selections HBR Executive Search hbr.org Subscribe Latest Podcasts The Magazine Store Webinars Newsletters All Topics Reading Lists Data & Visuals Case Selections HBR Executive My Library Account Settings Sign In Explore HBR Latest The Magazine Podcasts Store Webinars Newsletters Popular Topics Managing Yourself Leadership Strategy Managing Teams Gender Innovation Work-life Balance All Topics For Subscribers Reading Lists Data & Visuals Case Selections HBR Executive Subscribe My Account My Library Topic Feeds Orders Account Settings Email Preferences Sign In Career planning Why You Should Have (at Least) Two Careers by Kabir Sehgal April 25, 2017 Post Post Share Save Get PDF Buy Copies Print Summary . Do you dream about switching to a career that’s drastically different from your current job? Many people do. But they never make the leap: the costs of switching seem too high, and the ... more Leer en español Ler em português Post Post Share Save Get PDF Buy Copies Print It’s not uncommon to meet a lawyer who’d like to work in renewable energy, or an app developer who’d like to write a novel, or an editor who fantasizes about becoming a landscape designer. Maybe you also dream about switching to a career that’s drastically different from your current job. But in my experience, it’s rare for such people to actually make the leap. The costs of switching seem too high, and the possibility of success seems too remote. Kabir Sehgal is the New York Times and Wall Street Journal bestselling author of seven books including Coined: The Rich Life of Money And How Its History Has Shaped Us. He works in corporate strategy at a Fortune 500 Company and previously served as a vice president at J.P. Morgan. He is also a US Navy veteran and multiple Grammy and Latin Grammy Award winning producer. You can follow him on Twitter or Facebook . Post Post Share Save Get PDF Buy Copies Print Read more on Career planning or related topics Continuous learning and Personal growth and transformation Partner Center Start my subscription! Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Follow HBR Facebook X Corp. LinkedIn Instagram Your Newsreader About Us Careers Privacy Policy Cookie Policy Copyright Information Trademark Policy Terms of Use Harvard Business Publishing: Higher Education Corporate Learning Harvard Business Review Harvard Business School Copyright © 2026 Harvard Business School Publishing. All rights reserved. Harvard Business Publishing is an affiliate of Harvard Business School.",
+      "title": "Why You Should Have (at Least) Two Careers",
+      "url": "https://s.hbr.org/4tkutKa"
     },
     "https://seroter.com/2026/06/15/daily-reading-list-june-15-2026-805/": {
       "cleaner_v": 2,
@@ -16311,6 +16228,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Everything you should know about certificates and PKI but are too afraid to ask",
       "url": "https://smallstep.com/blog/everything-pki/"
+    },
+    "https://stanford.io/4vSStWv": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://stanford.io/4vSStWv",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "https://stanford.io/4vSStWv"
     },
     "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564": {
       "content_type": "",
@@ -17160,34 +17091,6 @@
       "title": "Agentic coding and persistent returns to expertise \\ Anthropic",
       "url": "https://www.anthropic.com/research/claude-code-expertise"
     },
-    "https://www.apollo.com/wealth/insights-news/insights/daily-spark/the-case-for-value-over-growth": {
-      "cleaner_v": 2,
-      "content_type": "text/html;charset=utf-8",
-      "description": "The decade-long case for growth rested on the Mag 7 out-earning everything else, but with earnings growth converging toward the S&P 493 and their valuation premium compressing, the setup increasingly favors value over growth. Subscribe for daily updates.",
-      "final_url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/the-case-for-value-over-growth",
-      "frameable": false,
-      "image_urls": [
-        "https://www.apollo.com/content/dam/apolloaem/apollo-default-page-share-image/apollo-og-image.png",
-        "https://www.apollo.com/content/dam/apolloaem/images/media/re-paper-image.jpg",
-        "https://www.apollo.com/content/dam/apolloaem/images/header-and-navigation/wealth/fc-strategies-dark.jpg",
-        "https://www.apollo.com/content/dam/apolloaem/images/header-and-navigation/wealth/fc-outlook-dark.jpg",
-        "https://www.apollo.com/content/dam/apolloaem/images/header-and-navigation/wealth/considerations-dark60.jpg",
-        "https://www.apollo.com/content/dam/apolloaem/images/header-and-navigation/wealth/vfa-dark20.jpg",
-        "https://www.apollo.com/content/dam/apolloaem/images/header-and-navigation/wealth/fc-media-dark.jpg",
-        "https://www.apollo.com/content/dam/apolloaem/images/our-people/employee-headshot/Tortsen-Slok.png",
-        "https://www.apollo.com/content/dam/apolloaem/images/daily-spark/2026/jun/28/June%2028%20chart%201.jpg",
-        "https://www.apollo.com/content/dam/apolloaem/images/daily-spark/2026/jun/28/June%2028%20chart%202.jpg",
-        "https://www.apollo.com/content/dam/apolloaem/images/daily-spark/2026/jun/28/June%2028%20chart%203.jpg",
-        "https://www.apollo.com/content/dam/apolloaem/logo/Apollo%20Footer%20Logo.svg"
-      ],
-      "kind": "article",
-      "text_excerpt": "General Public General Public Institutional Investors Public Shareholders Wealth Professionals Log In Allfunds Login CAIS Login DST Vision Login GLASfunds Login iCapital Login What We Do Advisor Resources Insights & News About Apollo What We Do Explore our investment strategies, solutions, and products designed to support diverse financial goals. Strategies Solutions Investment Products Credit Equity Hybrid Solutions Real Assets Family Office Retirement Wealth Solutions Apollo's Differentiated Strategy Marc Rowan on how Apollo’s differentiated strategy was built for this moment. Advisor Resources Tools and training for advisors, offering portfolio guidance, and on-demand educational resources. Allocation Pro Apollo Academy Join the Academy Visit Our Learning Center Register Now: 2026 Outlook Watch the Class | Apollo Academy Insights & News Discover Apollo’s latest perspectives, case studies, research and analysis shaping conversations about private markets. Insights Media Read The Daily Spark Subscribe to The Daily Spark Private Equity: Six Key Considerations for Investors Private equity is entering a new phase where operational value creation, scale and disciplined underwriting are becoming increasingly important drivers of return. Explore six key considerations. Torsten Slok’s Mid-Year Outlook: Three Forces Driving Markets As the second half of 2026 begins, Apollo Chief Economist Torsten Slok outlines the key macro dynamics shaping the landscape. He explains why the AI boom has evolved far beyond a technology story, how an industrial renaissance is reshaping manufacturing and investment opportunities, how government policy is providing additional support for growth and more. About Apollo Learn about our firm, our purpose and values, our people and where we are around the world. About Apollo Our People Contact Us Apollo In the News General Public General Public Institutional Investors Public Shareholders Wealth Professionals Log In Allfunds Login CAIS Login DST Vision Login GLASfunds Login iCapital Login What We Do Advisor Resources Insights & News About Apollo Back What We Do Explore our investment strategies, solutions, and products designed to support diverse financial goals. Strategies Solutions Investment Products Apollo's Differentiated Strategy Marc Rowan on how Apollo’s differentiated strategy was built for this moment. Back Advisor Resources Tools and training for advisors, offering portfolio guidance, and on-demand educational resources. Allocation Pro Apollo Academy Register Now: 2026 Outlook Watch the Class | Apollo Academy Back Insights & News Discover Apollo’s latest perspectives, case studies, research and analysis shaping conversations about private markets. Insights Media Read The Daily Spark Subscribe to The Daily Spark Private Equity: Six Key Considerations for Investors Private equity is entering a new phase where operational value creation, scale and disciplined underwriting are becoming increasingly important drivers of return. Explore six key considerations. Torsten Slok’s Mid-Year Outlook: Three Forces Driving Markets As the second half of 2026 begins, Apollo Chief Economist Torsten Slok outlines the key macro dynamics shaping the landscape. He explains why the AI boom has evolved far beyond a technology story, how an industrial renaissance is reshaping manufacturing and investment opportunities, how government policy is providing additional support for growth and more. Back About Apollo Learn about our firm, our purpose and values, our people and where we are around the world. About Apollo Our People Contact Us Apollo In the News Back to What We Do Strategies Credit Equity Hybrid Solutions Real Assets Back to What We Do Solutions Family Office Retirement Wealth Solutions Back to What We Do Investment Products Back to Advisor Resources Allocation Pro Back to Advisor Resources Apollo Academy Join the Academy Visit Our Learning Center Back to Insights & News Insights Back to Insights & News Media Back to",
-      "text_excerpt_zh": "私人股权：投资者需关注的六大要点\n\n私人股权正进入一个新阶段，运营价值创造、规模化和严谨的承销正日益成为回报的重要驱动力。探索六大关键考量因素。\n\nTorsten Slok年中展望：驱动市场的三大力量\n\n随着2026年下半年开启，Apollo首席经济学家Torsten Slok概述了塑造当前格局的关键宏观动态。他阐释了为何人工智能热潮已远不止是一个技术故事，工业复兴如何重塑制造业和投资机遇，以及政府政策如何为增长提供额外支持等。",
-      "text_excerpt_zh_hash": "c68df88d34877430",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "The Case for Value Over Growth Is Building | The Daily Spark",
-      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/the-case-for-value-over-growth"
-    },
     "https://www.axios.com/2026/06/15/anthropic-white-house-fable-mythos?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606156a24ecc229cdae05be9823a1": {
       "cleaner_v": 2,
       "content_type": "",
@@ -17667,6 +17570,24 @@
       "title": "Who Is China? Who Is China? | Foreign Affairs",
       "url": "https://www.foreignaffairs.com/guest-pass/redeem/zDWmVXl_BT8"
     },
+    "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/how-will-ai-impact-the-labor-market": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Will AI cause a wave of job losses? MIT’s Daron Acemoglu and Neil Thompson, and Goldman Sachs economist Joseph Briggs discuss.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/how-will-ai-impact-the-labor-market",
+      "frameable": false,
+      "image_urls": [
+        "https://www.goldmansachs.com/images/insights/goldman-sachs-exchanges/how-will-ai-impact-the-labor-market/3x2.jpg",
+        "https://www.goldmansachs.com/images/insights/series/Exchanges-3x2.png",
+        "https://www.goldmansachs.com/images/migrated/citizenship/10000-small-businesses/US/small-business-resources/multimedia/sm-town-tout-800x450.jpg",
+        "https://www.goldmansachs.com/images/insights/goldman-sachs-exchanges/how-will-ai-impact-the-labor-market/16x9.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Rapid improvements in AI capabilities and growing corporate adoption have led to predictions that the technology could spark large-scale job losses before the end of the decade. Do these concerns have merit? MIT’s Daron Acemoglu and Neil Thompson, and Goldman Sachs Research economist Joseph Briggs discuss with host Allison Nathan. This episode explores the latest [Top of Mind report](https://www.goldmansachs.com/insights/top-of-mind/an-ai-job-apocalypse).\nTranscript:\nAllison Nathan: Rapid improvements in AI capabilities and growing corporate adoption have led some prominent technologists to predict that AI could eliminate a massive number of jobs before the end of the decade. So, just how concerned should we be about an AI job apocalypse?\nI’m Allison Nathan, and this is Goldman Sachs Exchanges.\nEach month, I speak with investors, policymakers, and academics about the most pressing, market-moving issues for our Top of Mind report from Goldman Sachs Research.\nThis month I spoke with MIT’s Daron Acemoglu and Neil Thompson, as well as with Joseph Briggs, who leads the global economics team in Goldman Sachs Research.\nI started by asking Joseph just how much labor displacement from AI he expects ahead.\nJoseph, I know you are well aware that there's been a lot of debate about AI's potential impact on the US labor market, especially as we've seen some companies citing AI as a factor in recent layoffs. We've all seen the headlines. What are you expecting in terms of AI-related labor displacement in the near term and over the longer term?\nJoseph Briggs: So to level set, if we look at the labor market today, you can see the imprint of AI in a few industries and a few sectors where we know that AI is already having an impact. And so if we combine across sectors like tech and management consulting and graphic design, areas where tools have already been developed and deployed, you can see that overall, there's probably a 10 to 15,000 drag on month-over-month job growth from AI impacts. All that being said, it's still a fairly narrow labor market shock, and we're not seeing a big impact today on the broader economy.\nNow, I do expect that will change going forward. Under our baseline forecast for a 15% uplift to productivity following full adoption of AI, if we combine that estimate with the historical elasticity between how much does a technology-driven productivity increase tend to displace workers, we come up with an estimate that around nine percent of all workers in the US will be reallocated to new positions during the AI transition.\nAllison Nathan: That's a pretty big number.\nJoseph Briggs: It is a big number. Nine percent of workers being displaced by AI would correspond to 15 million workers leaving or being displaced from their positions today and having to find new jobs. Displacing nine percent of workers would be the type of automation and reallocation shock that we saw in the late '90s and early 2000s and in other periods of significant technological change.\nWhat I'd really emphasize is that it is over a 10-year period and as long as the displacement and the job loss is spread out enough, then the impact on the unemployment rate in any given year will likely not be that large. So for example, even under our forecast for nine percent of workers being displaced, we'd still expect that the unemployment rate increase in any given year would be less than one percentage point.\nAllison Nathan: And then also a key part of your forecast, is that in addition to these job losses, you'll have creation of jobs. So talk us through your assumptions and expectations there.\nJoseph Briggs: Yeah. We're not expecting that displaced workers will be displaced over the long run. We do expect that ultimately there are going to be more than enough jobs created to reabsorb workers back into the labor market. And the key reason for this is that there's a long historical record of technology delivering significant job gains.\nA couple stats that I would flag",
+      "title": "How Will AI Impact the Labor Market? | Goldman Sachs",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/how-will-ai-impact-the-labor-market"
+    },
     "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -18046,23 +17967,6 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://www.perplexity.ai/enterprise/use-cases/growing-businesses"
-    },
-    "https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "fetch_error": "HTTP Error 403: Forbidden",
-      "final_url": "https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine",
-      "frameable": null,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "![Icon for www.perplexity.ai](https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine/favicon.ico)\n\n# www.perplexity.ai\n\n## Performing security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\n## Verification successful. Waiting for www.perplexity.ai to respond\n\nRay ID: `a05ce5da5e531cfe`\n\nPerformance and Security by [Cloudflare](https://www.cloudflare.com?utm%5Fsource=challenge&utm%5Fcampaign=m)[Privacy](https://www.cloudflare.com/privacypolicy/)",
-      "text_excerpt_zh": "![www.perplexity.ai 图标](https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine/favicon.ico)\n\n# www.perplexity.ai\n\n## 正在进行安全验证\n\n本网站使用安全服务来防范恶意机器人。在网站验证您不是机器人的过程中，会显示此页面。\n\n## 验证成功，正在等待 www.perplexity.ai 响应\n\nRay ID: `a05ce5da5e531cfe`\n\n性能与安全由 [Cloudflare](https://www.cloudflare.com?utm%5Fsource=challenge&utm%5Fcampaign=m) 提供 [隐私政策](https://www.cloudflare.com/privacypolicy/)",
-      "text_excerpt_zh_hash": "749f9d6def9eae7d",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine"
     },
     "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519": {
       "cleaner_v": 2,
@@ -18471,18 +18375,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "A Lesson From the Cockpit",
       "url": "https://www.subbu.org/essays/2026/a-lesson-from-the-cockpit/"
-    },
-    "https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=UTF-8",
-      "description": "",
-      "final_url": "https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "�\b\u0000\u0000\u0000\u0000\u0000\u0004\u0003���F���)P���vM�\u0004@�\u0004U�쒵T�[��N����\u000e�Df���\u0004���|�טsf `^c ��d~�\u001b\u0001\u0010dfJ�������$�Xnܸ\u0011�{ �f�\u0018�o�Ep��MO�8�O0��\u0017�[żu�E\u0010 _\u0016�X\u0017\\Ίu �.�UY� �6��v� ���z��\u0016_�&� � ��X��uQ\u0006�E��,���,���/�����:�������IY\u0016���m�?���bu\u0011�^���\u001bp��Y�o֗�U+\u0018-��b\u000eTO��i\u0011���:[� nW�jR\\/\u0017�u���d��| < .�&��m7�d>YO�i� ���qT���ޮ��5:.��j�\\O\u0016�Qó �e^\u0006gE1\u000f.��R��M�S���� < ؔ� \u0014�� Pr���\u0019O�0��\u0007���88_���U� �`\\��qq\u0014\u0014�j��V�hq!�)K?�����Y��ܪ\u0013��/�`|A �q'x�\u0018�G��\u0004�~NF�q��| ,\u0017ׂk��Λ� ��|Z.��\u0006��\"�M��d�hP�z�Z\\��\\�\u0016����� \u0001�t\u0002�\u0002W�\u00147�h X���{F0 ��\" � :T��Y򢘏 ��)H�|�P�����Ե4}ܚ2��h\u0005����q������ߜ>�o���fU�Oت�R��e@�E���qV�'9d6�VO|{9\u0004�.��\u001aew^\\���` (r�IgT�;� ;� ��\b�|c?�W�{�\u001akޏ\u0016�� ��,f fqq1-:?���㮫�V�#�;�b��G�u0�,�q�� ��q+��D� Nn�$��7�8H��$ ��M?��j�xܚ��{5 wf��jQ.�םf� 3�9+�!�gw���\u0011f4���m-T������_ < < ]��+p����M:��UӶ�s� Y7���(�#] �A�����/�3��+\u0015��]EQr�� ��\u0017�����M\u0014� ��\u0015���%�.���\\�_�]\u001a�D�G��\"*�˻�@f�qd�b �n����Z�\u001bf���>h{C��bn���wʫ�j&m�z���0����� m�.V�|]T��ޣ����n�^���ͬޑ�?x�2~���/�P\"xQ\u0014㯪V*hyѩ�\u0002� f�k�\u0015�30��9�M����z�, u�nd�&ݳ�?��i_TL\u000e{Z�\u000f!l����[o_�/�D9�aM1F�h��� ����f�궮x_�r\u0002��\\� l�`��ZnP ֧���ը�sY��'��S���\u000e��:cԤ��j\u0001'��}�Z\\ < \u0012\u0005�U�� �z �;�;�m�W���v�.��\u000fg�MI\u001bӝ �spF�;=i\u0003h���֓є'�\u000erO �\"�*�� �6+v�\u000f��gl\u0010�u���a\u0019��/��������l:An\u0018�u=aA����\u000ed�~;��]�= C�k� ]�&!���鯺�-Ɠ��G{轣�(}�&��@��]'���l1���{S�\b�n78-�\u0012�\u0010 � �N~(\\ѻD��j1A\"���D����\u0012a��'I��|�>\u0000��\u000f\ba�$�S\u0013`��(֧k� �����r����,��+���!\u0010}G�آݫ=GҸ0��T\u0015 i < ��J\\��z��û˨zŷ{Q?�M^� �`��h�\u0004�p2\u0001 < Ün���\u0007\\__w�{�5�q\u0018�]�:*�\\�#$��@ �b\u000f�������V\u0018�A4�:Q�\u000f�a�7��ݖ9z�s�\u0000�9�z�SƏ[�U \u001b\u0004Q���y\u0016w�~/�?j'lw�xЎ:�a < ⺗r� �v'��v��GI��Kz�^g��Ľ�^\u000fڼ�x��= �q��A�Gj? ��k?��^[�)@���p�h8� ���\u000f�H��~/��\u0006�H�e�:���:��u\u0018\u001b\u0014y��M\u0012� ׁ�n�x���dT4��� ;Yă?EY' d p\u00101䨓DC~�N\u0014g�0d��p`\u0017\u00008L;��Z5�tz1OB��\u0007~A2 P���\u0017��7\u0004�Q�G��8\u0001j04�:Ѡ�wa�I( \u0003L��O�O\u001a��&��(�^'\u001b� �D�C����\u0010�\u001a�eO y\u0019�L��`\bZ�� ;�T\u0003�{Q $\u0002 � �b\b�� �������Ǐß\u0006I\u0015\b�)X �>� �Cc�N�\u0007O���\u0015Z � ��a�* /� �x < :4 �h��킴^ʳ^H�(�x?\u0002j\u0007R\b���@D%��C#*@�D�\u0002!�ŏÖ\u0011U`G�\u0010 � U\u0013�\u001b�,�\u0018jPq�?ـ>��\u000e�1r���Cۧ�M�u;\u0018�\u00048���M`'�\u001a�]]zD���# < �kX\u0010\u0006�a�����0\u0012N�0��lP�%��+Lhْ9e{��\u0018���(�ؠ�'��#\u0012\u001aՂ�����J\u001b�\u000f-Ո�\u000f�\u0001\u0014����J�\"q�DT�k~�\"\u0007VzN!��ֶ�H \u0003�\u0006�5d����J# ~��\u0018;�v�\u0019\u0016h �����ۥ^��-j��U����ӳ���\u0011τ\u0002VSĮ�I�>�$L ������� ��:iڎ\u0001�-#\u0002E ��K�~�\u0018n��P:(޳Jz�X�N?\u0003w�΀�F\u001bR:�a(B��Ĥl lMl[��R$�\\�\"�M�zJ�E��f�El��N��aQ;d? P�V�F6�J3��:��\u0011q&�d, �Ǚ&)\u0003�H��6\u0005WK��)�\b,�\u0001�a���4���\u0019��n����[:� �#\u0012�R\u0006)QV\u0018QOа���D� ��2�P�\u0006\u0011�!@h{�彰�\u0007k�G$\u0015Q+\u001aj�\u000f�و�� 3�\u0010(�����h��5k��7\b��\u0001-��a\u00101q@�Q\u000eL���0����ۀ�ma�1(\u000e{\u0010\u0017X\u000e!�XߜH_��>\u0005L�6۞�>e ly�W�1����R��~�yd�h1�\u0010��FЇ�!�dK�\u0013���~;�@ ˌA�Q2 I < \u0012�AC�� ���\u000f�ŌY���N���L�>� � < �5�'�\u0007��w,�X�l\u001b��9�\u000e�\u0005���� ��2l ,ӧ'��\u0002�\u0007����\u0007*\u000e��\u0007 �T\u0004��(�s�A�v�U�\u000f�\u0016B�\u0015��L0A\u0011�\u0007����v{�ԃ\u001aj��\u000e\u0012��҆H��]'|��0c�ئ���5Ğh�cn����{�\u00074Ai|.R��Ӥ\u0003��,��\u0011_A�\u0000�-�B�FCQ XeLaH�8 \u0002����4�\u0000\u0011g*�;�\u0005�e�1 ,\u0010�Yp�t\u0006}CE��.�-���:� \u0002# < \u0006\u000f5`�m`k�\u000e\u0006�K�+ ����5�u�$�2\u0011C�\u000f� �2\u001a��d�r�\u0012Ӏ��P收�y�\u0003�)�G��F\u0019Ub�]%��2� )u\u0007�0\u0013nr�$\u0019�)\u0019�ǃ�h\b����\u000f8�Kѭ��Z��%\u0005���^�\u001b4�\u0004TתY ��mo��\u000f��떵=Wӽ�3�=\u0005������Q�\u001a �a�\u0018F\u0002�3��B,�+� ��p j�@.[��X\u0010W�\u0006\u0006��\\A�i�ծ�P��\b!�}�ٍӁ�f\u0016�Z^���2mqژ�a���a��-�\u0017�\u0017я}��R}$\"8 �k�h���s�.\u0019Z\u0012_��\u0010\bY Y��\u0001o�~�\u0006�wnpp�Zm�\u0015[P��`xl.\u0005\u0012 \\���]�9�i9� �R\u0014�#.��Д\u000eXm�T\u001b�1�|F���}��}�!r�\u0016|Dh\u000e��.Y�Q�abj@��]\u0012\u0011\u0010%�y-�t/#]{���7�6\u0006���z�l�5A�]W@ک\u0004��\u0005[�j���uG$2��fZ�ܾo#A�0 9\u0018���F\u0011{\u0017TBU- a,�̰��ȅbs���������l1�1 �g~�k$9]�\u0001 w�����h1�m�f��v�z\\�T?�e�!��ǴU����?�:��Y_�\u0017�A��|Ϊ>t�)�-V\u0018K� \u0012��:�B�'M�d^�e�l��K��O��E\u0006�l~ �ى��\u0001�;��� n\u0004�9��.��g��E��r�$��z���:A��;4��6�J�\u0012T�i�D�A�T�^�6l\u0006A���m��\u0018� �;�d]+e��i~&M�;3�\u0006�Ԋ��5}W�V��.j�z �Rg�� \u0016��j�Gt̳\u001a��R�U� 6��*�w�϶J�5����\u0016�qY�̓D�q�(�-��n�m ��gl�4�rnAep��Nͥ�:ݖ��]�'Q�{�� < ��y����\u0016 Of\u0017�\u0019�`�&p� �=D � l���\u000e߶�{웓�\u0002������\\��������=m�S>����u�O�޹ *�e�u��~\u0003s7��W\u0013yg�*�7�Z/Z���\u0011��4��|q��N\u0017׵\"u n�� ���U��� '�?m�Z'ۂ &�\u0001�\u0000�z�'��\\��\u0001�Ev���j~�ج�]\u0007�\u0012ߪS [�st����V��j��c; �\u0017+�K\u0002����r��Q�ςr�\\�p#5�3��Aـ�C�(��/��\u0007xeQ\b00�l\u0015�R\u0017z��\u0011�B\u0010���f^\u0004ё < ���8�͜.�\"p�A�~��\u0017�z�b>�������\u0015I��*y{�'Y���/���\u000f����ǇX����O�\u0002kֹ\u0007�E �\u0004\u000es��b-\u001bC�J� ����\u0006b���7\u0012C��p�h\u001av�1N���c�E��˓�bvR#\u0003��_�g�+ < �����}Q̦\u0005O��8��GA\u001a�˛�\u0007�h�= 30ֶ��O��v\u0010\u0001Smj��K�� p*�\u0017�\b�3|`�+v6 `�tj�&^��b�v� Yކe��`堼A`;� ���^b~lc�����Q��/T\u0006ח0�A��r�{j^�rs=�ˢ\u0013 < �-�68�\\`�c.�?��0�^a��c\u0007]l� ̡��|�\u0006����b��n9�m��|^,6�\u0014��Uq�S��c�s\u0001��2��gk��+kǓ����9~@��z\u0011��kupH.���A ���w[�� \u0010�7�Q��@\u0015��^iċ�y\u0013�{_,��]M�)�4W_�%�n",
-      "title": "",
-      "url": "https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/"
     },
     "https://www.swift.org/blog/migrating-truetype-hinting-to-swift/": {
       "cleaner_v": 2,
@@ -18927,6 +18819,19 @@
       "title": "- YouTube",
       "url": "https://www.youtube.com/watch?v=8cO61e_8oPY&list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8&index=9"
     },
+    "https://www.youtube.com/watch?v=MhfnicQVkgY": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://www.youtube.com/watch?v=MhfnicQVkgY",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "- YouTube",
+      "url": "https://www.youtube.com/watch?v=MhfnicQVkgY"
+    },
     "https://www.youtube.com/watch?v=cDqDPlSXMS0": {
       "content_type": "text/html; charset=utf-8",
       "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
@@ -19200,18 +19105,6 @@
       "https://x.com/idoubicc/status/2061670587043610688",
       "https://x.com/idoubicc/status/2062129419398086956"
     ],
-    "2061782441606451381": [
-      "https://x.com/Voxyz_ai/status/2061782441606451381",
-      "http://x.com/i/article/2061458737726914560",
-      "https://x.com/Voxyz_ai/status/2061912665446859255"
-    ],
-    "2061816210283749876": [
-      "https://x.com/tualatrix/status/2061816210283749876",
-      "https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/",
-      "https://x.com/tualatrix/status/2061826203707981887",
-      "https://x.com/tualatrix/status/2062495274703131001",
-      "https://pbs.twimg.com/amplify_video_thumb/2062495207648907265/img/22ifazwEtzRrTOSg.jpg"
-    ],
     "2061840456992919997": [
       "https://x.com/karatzas_thomas/status/2061840456992919997",
       "http://x.com/i/article/2061507690258472960"
@@ -19229,23 +19122,6 @@
       "https://arxiv.org/abs/2605.29307v1",
       "https://x.com/AlphaSignalAI/status/2062505121112621474",
       "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg"
-    ],
-    "2061860170846843233": [
-      "https://x.com/tricalt/status/2061860170846843233",
-      "http://x.com/i/article/2057167874033156096"
-    ],
-    "2061861293569765847": [
-      "https://x.com/perplexity_ai/status/2061861293569765847",
-      "https://pbs.twimg.com/amplify_video_thumb/2061861227383685120/img/bpkaDNVW35LA2JFq.jpg",
-      "https://x.com/perplexity_ai/status/2061861305838149980",
-      "https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine"
-    ],
-    "2061865777142087684": [
-      "https://x.com/AlphaSignalAI/status/2061865777142087684",
-      "http://x.com/i/article/2061860599571845120",
-      "https://x.com/AlphaSignalAI/status/2061866232786120796",
-      "https://research.perplexity.ai/articles/rethinking-search-as-code-generation",
-      "https://x.com/AlphaSignalAI/status/2062146340004495567"
     ],
     "2061882958651474268": [
       "https://x.com/kylejeong/status/2061882958651474268",
@@ -19265,13 +19141,6 @@
     "2061936967290675394": [
       "https://x.com/ryaneshea/status/2061936967290675394",
       "http://x.com/i/article/2061935366655905792"
-    ],
-    "2061979261637181775": [
-      "https://x.com/vikingmute/status/2061979261637181775",
-      "https://coss.com/ui",
-      "https://heroui.com/",
-      "https://pbs.twimg.com/media/HJ2fEgYa0AAqc56.jpg",
-      "https://pbs.twimg.com/media/HJ2fFiMbMAAcAQ7.jpg"
     ],
     "2061990115615064077": [
       "https://x.com/rohit4verse/status/2061990115615064077",
@@ -24661,9 +24530,8 @@
     "2072360079643324772": [
       "https://x.com/FT/status/2072360079643324772",
       "https://ft.trib.al/JA9WfUB",
-      "https://x.com/FT/status/2072559569335648368",
-      "https://ft.trib.al/Ea0wmNA",
-      "https://pbs.twimg.com/media/HMM176iX0AAUiSP.jpg"
+      "https://x.com/FT/status/2072717427121566130",
+      "https://ft.trib.al/UrDI4Ro"
     ],
     "2072368472848531929": [
       "https://x.com/FundamentEdge/status/2072368472848531929",
@@ -24672,8 +24540,8 @@
     "2072368641836745144": [
       "https://x.com/HarvardBiz/status/2072368641836745144",
       "https://s.hbr.org/4f9nNu9",
-      "https://x.com/HarvardBiz/status/2072784632198619463",
-      "https://s.hbr.org/4sbkF4k"
+      "https://x.com/HarvardBiz/status/2072870446941274548",
+      "https://s.hbr.org/4tkutKa"
     ],
     "2072396185328058388": [
       "https://x.com/CFchangelog/status/2072396185328058388",
@@ -24699,16 +24567,16 @@
     "2072409863553237323": [
       "https://x.com/skeptrune/status/2072409863553237323",
       "https://x.com/skeptrune/status/2072469701603811528",
-      "https://x.com/skeptrune/status/2072469871062098319",
       "https://x.com/skeptrune/status/2072559134273417348",
+      "https://x.com/skeptrune/status/2072469871062098319",
       "https://x.com/skeptrune/status/2072469804901102017",
       "https://x.com/skeptrune/status/2072421540394832383",
       "https://x.com/skeptrune/status/2072469503280292116",
       "https://x.com/skeptrune/status/2072470015169982641",
       "https://x.com/skeptrune/status/2072476902422704398",
       "https://x.com/skeptrune/status/2072469575019696574",
-      "https://x.com/skeptrune/status/2072469459936436729",
-      "https://x.com/skeptrune/status/2072733280202620942"
+      "https://x.com/skeptrune/status/2072733280202620942",
+      "https://x.com/skeptrune/status/2072469459936436729"
     ],
     "2072432872120615191": [
       "https://x.com/nateherk/status/2072432872120615191",
@@ -24718,11 +24586,10 @@
       "https://x.com/mastersinvest/status/2072497730245779631",
       "https://www.coatue.com/c/takes",
       "https://pbs.twimg.com/media/HML9VhVbQAAQ9Tw.jpg",
-      "https://x.com/mastersinvest/status/2072499708216631481",
-      "https://www.apollo.com/wealth/insights-news/insights/daily-spark/the-case-for-value-over-growth",
-      "https://pbs.twimg.com/media/HML_BpBaAAAT5H4.png",
-      "https://pbs.twimg.com/media/HML_W6zbUAAKM77.png",
-      "https://pbs.twimg.com/media/HML_euva0AAqrXZ.png"
+      "https://x.com/mastersinvest/status/2072872586061676633",
+      "https://www.economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong",
+      "https://pbs.twimg.com/media/HMRR8FpaMAAimbR.jpg",
+      "https://pbs.twimg.com/media/HMRSFIYa8AE3L6B.png"
     ],
     "2072634610425729097": [
       "https://x.com/yangyi/status/2072634610425729097"
@@ -24739,6 +24606,19 @@
       "https://x.com/acoustik/status/2071919055318163849",
       "https://www.tigerdata.com/blog/how-float-runs-ai-energy-company-3-person-team-tiger-data"
     ],
+    "2072669154050543677": [
+      "https://x.com/emre570_/status/2072669154050543677",
+      "https://emre570.bearblog.dev/megakernel-decode/",
+      "https://x.com/emre570_/status/2072814888045437420",
+      "https://x.com/emre570_/status/2072828466764874016"
+    ],
+    "2072696042550940013": [
+      "https://x.com/ccatalini/status/2072696042550940013"
+    ],
+    "2072697144616653081": [
+      "https://x.com/samwhoo/status/2072697144616653081",
+      "https://x.com/samwhoo/status/2072725022221771130"
+    ],
     "2072706964560441430": [
       "https://x.com/JaySahnan/status/2072706964560441430",
       "https://pbs.twimg.com/amplify_video_thumb/2072706757886181376/img/SBdCelCSYFhqXpuD.jpg",
@@ -24752,19 +24632,66 @@
       "https://x.com/khemaridh/status/2072703440535613521",
       "https://pbs.twimg.com/amplify_video_thumb/2072703291180634112/img/zTI7E6I3rFAbhBNi.jpg"
     ],
+    "2072721996786405717": [
+      "https://x.com/TheEconomist/status/2072721996786405717",
+      "https://www.economist.com/business/2026/06/29/the-rise-of-vibe-lawyering?taid=6a46946763792900018a2c3a&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "https://x.com/TheEconomist/status/2072928355746267200",
+      "https://www.economist.com/leaders/2026/07/02/turkey-and-israel-should-trade-energy-not-insults?taid=6a475497f1ddc500011ecee0&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
+    ],
+    "2072722960352186852": [
+      "https://x.com/DAcemogluMIT/status/2072722960352186852",
+      "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/how-will-ai-impact-the-labor-market"
+    ],
+    "2072723129684963786": [
+      "https://x.com/DAcemogluMIT/status/2072723129684963786",
+      "https://open.spotify.com/episode/77vj2r8BQRknKqGy5usB7Z"
+    ],
     "2072728995532255669": [
       "https://x.com/elvissun/status/2072728995532255669",
       "https://x.com/elvissun/status/2072762809864040819",
       "https://pbs.twimg.com/media/HMPuklxWsAIpNsq.png",
       "https://x.com/elvissun/status/2072782720623899000",
       "https://newsjack.sh/",
+      "https://x.com/elvissun/status/2072844523454042556",
       "https://x.com/elvissun/status/2072792935012200723",
-      "https://x.com/elvissun/status/2072753089262600676",
-      "https://x.com/elvissun/status/2072844523454042556"
+      "https://x.com/elvissun/status/2072753089262600676"
+    ],
+    "2072729802692604367": [
+      "https://x.com/henrikhinai/status/2072729802692604367",
+      "https://pbs.twimg.com/amplify_video_thumb/2072729637864562689/img/rGfIMmEBd1WRFwZA.jpg",
+      "https://x.com/henrikhinai/status/2072733036962021807"
+    ],
+    "2072731500928508331": [
+      "https://x.com/_catwu/status/2072731500928508331",
+      "https://x.com/_catwu/status/2072743070316257662",
+      "https://claude.com/product/tag"
+    ],
+    "2072739548694712696": [
+      "https://x.com/phosphenq/status/2072739548694712696",
+      "https://pbs.twimg.com/amplify_video_thumb/2072738919490183168/img/QE4H1KrjRLvXU3jO.jpg",
+      "https://x.com/phosphenq/status/2072739552268104034",
+      "https://www.youtube.com/watch?v=MhfnicQVkgY",
+      "https://x.com/phosphenq/status/2072751417752797311"
+    ],
+    "2072748892626583610": [
+      "https://x.com/Stanford/status/2072748892626583610",
+      "https://stanford.io/4vSStWv"
     ],
     "2072752017186107866": [
       "https://x.com/KSimback/status/2072752017186107866",
       "http://x.com/i/article/2072743970116112385"
+    ],
+    "2072756189407117748": [
+      "https://x.com/VKazulkin/status/2072756189407117748",
+      "https://adlerhsieh.com/p/what-your-manager-is-thinking-when-you-complain",
+      "https://x.com/VKazulkin/status/2072028394011910275",
+      "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat"
+    ],
+    "2072764823046107269": [
+      "https://x.com/TheEconomist/status/2072764823046107269",
+      "https://www.economist.com/leaders/2025/12/04/how-ai-is-rewiring-childhood?taid=6a46bc4af1ddc500011ecaea&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter",
+      "https://x.com/TheEconomist/status/2072928355746267200",
+      "https://www.economist.com/leaders/2026/07/02/turkey-and-israel-should-trade-energy-not-insults?taid=6a475497f1ddc500011ecee0&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
     ],
     "2072766211256119475": [
       "https://x.com/tanayj/status/2072766211256119475",
@@ -24784,14 +24711,14 @@
       "http://x.com/i/article/2072771511853748224",
       "https://x.com/thealexker/status/2072780342637862940",
       "https://x.com/thealexker/status/2072780377601548401",
+      "https://x.com/thealexker/status/2072785493872255083",
       "https://x.com/thealexker/status/2072815850097156374",
+      "https://x.com/thealexker/status/2072782720770412954",
+      "https://x.com/thealexker/status/2072801865016770664",
       "https://x.com/thealexker/status/2072792865244131790",
       "https://x.com/thealexker/status/2072862121935732873",
-      "https://x.com/thealexker/status/2072785493872255083",
-      "https://x.com/thealexker/status/2072801865016770664",
-      "https://x.com/thealexker/status/2072782720770412954",
-      "https://x.com/thealexker/status/2072809119036133785",
       "https://x.com/thealexker/status/2072815407635808746",
+      "https://x.com/thealexker/status/2072809119036133785",
       "https://x.com/thealexker/status/2072782888488096152"
     ],
     "2072793818945167475": [
@@ -24810,10 +24737,16 @@
     ],
     "2072851779499569386": [
       "https://x.com/siantgirl/status/2072851779499569386",
-      "https://x.com/siantgirl/status/2072855335405248621",
-      "https://x.com/siantgirl/status/2072877638730002939"
+      "https://x.com/siantgirl/status/2072916496184156367",
+      "https://x.com/siantgirl/status/2072919026096087124",
+      "https://x.com/siantgirl/status/2072877638730002939",
+      "https://x.com/siantgirl/status/2072855335405248621"
+    ],
+    "2072870908948336960": [
+      "https://x.com/hiloopai/status/2072870908948336960",
+      "http://x.com/i/article/2072866845175250944"
     ]
   },
-  "updated_at": "2026-07-03T04:57:16Z",
+  "updated_at": "2026-07-03T08:28:08Z",
   "window": "recent"
 }

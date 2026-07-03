@@ -3453,6 +3453,22 @@
       "title": "",
       "url": "http://x.com/i/article/2057152333696356352"
     },
+    "http://x.com/i/article/2057167874033156096": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2057167874033156096",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2057167874033156096/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ0xMgiX0AAyEi-?format=jpg&name=900x900)](http://x.com/i/article/2057167874033156096/tricalt/article/2061860170846843233/media/2061858295367847936)\n\nHow sandboxes + shared memory could unlock the next big discovery\n\n[![](https://pbs.twimg.com/profile_images/1456192254515814403/cHVJ7L7g_normal.jpg)](http://x.com/i/article/2057167874033156096/tricalt)\n\n[Vasilije](http://x.com/i/article/2057167874033156096/tricalt)\n\n[@tricalt](http://x.com/i/article/2057167874033156096/tricalt)\n\n·\n\nJun 1\n\n·\n\nFollow\n\nClick to Follow tricalt\n\n2\n\n18\n\n104\n\n[7.8K](http://x.com/i/article/2057167874033156096/tricalt/status/2061860170846843233/analytics)\n\nHow many breakthroughs came from carrying a solution out of one field into another?\n\nA lot, but let’s check some that are relevant to AI only:\n\n* Diffusion models: thermodynamics → image generation.\n* Black–Scholes: the heat equation → options pricing.\n* Convolutional nets: the visual cortex → computer vision.\n\nThe same solution pattern transfers from completely different domains and enriches the new fields. You can now have knowledge that lived in one field, reach another, and make something new become possible.\n\n## \n\nSandboxes + agents in the same domain\n\nSandboxes were the agent story of the year, and they matter more every month as agents get more independent. Each agent gets its own isolated computer to run code and experiment without breaking something that matters.\n\nThe problem shows up the moment you run more than one. Every sandbox starts cold. Cold start is when an agent works out how your system behaves every time it starts.. The next agent re-derives the same thing. So does the one after that. You pay for the same discovery again and again. It's a tax on every multi-sandbox workflow. We saw this firsthand at our last hackathon with \n\n[@daytonaio](https://x.com/@daytonaio)\n\n, led by \n\n[@ivanburazin](https://x.com/@ivanburazin)\n\n , one of the sharpest teams in the sandbox space. \n\nAnd “reuse knowledge” here isn't the whole story. Usually these agents run at the same time, so you want the learnings shared live, the moment one of them finds something.\n\nConcrete example: You point a research agent at problem X and attack from three directions at once: three agents, three sandboxes, in parallel. A, B, and C.\n\nAgent A grinds through a hard sub-problem. Many tokens, a couple of hours, and it cracks it. Later B hits the same wall, but its prompt was framed slightly differently and it stalls where A didn't. Without shared memory, B burns more time and compute, and what A learned never leaves A's sandbox. With shared memory, A's result is written the moment it lands. B checks memory, skips the wall, keeps moving. No agent re-pays for a discovery another already made.\n\n## \n\nSandboxes + agents in different domains (The real unlock!)\n\nNow that we went through the efficiency case, let’s elaborate on the most interesting one: sharing knowledge across different domains.\n\nLook at the examples again:\n\n* Diffusion models: thermodynamics → image generation.\n* Black–Scholes: the heat equation → options pricing.\n* Convolutional nets: the visual cortex → computer vision.\n* Velcro: burdock burrs → fasteners.\n* Sonar: bat echolocation → submarine detection.\n\nNone of these pairs share similar terminologies. A burr is not a fastener, the heat equation is not an option. What they share is a shape. Someone recognized that a problem in one field had the same structure as a solved problem in another, and carried the solution across. If you could reliably abstract problems and solutions into patterns and map them between domains, you'd solve a huge share of the problems that look hard only because no one has connected them yet.\n\nThe catch has always been that this mapping lived in one head. The transfer only happened if the burrs and the fas",
+      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2057167874033156096/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJ0xMgiX0AAyEi-?format=jpg&name=900x900)](http://x.com/i/article/2057167874033156096/tricalt/article/2061860170846843233/media/2061858295367847936)\n\n沙箱 + 共享内存如何解锁下一个重大发现\n\n[![](https://pbs.twimg.com/profile_images/1456192254515814403/cHVJ7L7g_normal.jpg)](http://x.com/i/article/2057167874033156096/tricalt)\n\n[Vasilije](http://x.com/i/article/2057167874033156096/tricalt)\n\n[@tricalt](http://x.com/i/article/2057167874033156096/tricalt)\n\n·\n\n6月1日\n\n·\n\n关注\n\n点击关注 tricalt\n\n2\n\n18\n\n104\n\n[7.8K](http://x.com/i/article/2057167874033156096/tricalt/status/2061860170846843233/analytics)\n\n有多少突破来自于将一个领域的解决方案移植到另一个领域？\n\n很多，但让我们只看一些与AI相关的例子：\n\n* 扩散模型：热力学 → 图像生成。\n* Black–Scholes模型：热方程 → 期权定价。\n* 卷积网络：视觉皮层 → 计算机视觉。\n\n同样的解决方案模式从完全不同的领域转移过来，并丰富了新领域。你现在可以让一个领域的知识到达另一个领域，并使新的事物成为可能。\n\n## \n\n同一领域内的沙箱 + agent\n\n沙箱是去年的agent故事主题，随着agent变得越来越独立，它们每个月都变得更加重要。每个agent都获得自己独立的计算机来运行代码和进行实验，而不会破坏重要的东西。\n\n问题在你运行多个agent时就会出现。每个沙箱都是冷启动。冷启动是指agent每次启动时都要弄清楚你的系统如何运作。下一个agent会重新推导出同样的东西。再下一个也是如此。你一次又一次地为同样的发现付费。这是对每个多沙箱工作流征收的税。我们在上次与[@daytonaio](https://x.com/@daytonaio)（由[@ivanburazin](https://x.com/@ivanburazin)领导，沙箱领域最敏锐的团队之一）共同举办的黑客马拉松中亲眼目睹了这一点。\n\n而这里的“重用知识”并不是全部。通常这些agent是同时运行的，所以你希望学习成果能实时共享，一旦其中一个发现了什么。\n\n具体例子：你将一个研究agent指向问题X，并从三个方向同时进攻：三个agent，三个沙箱，并行运行。A、B和C。\n\nAgent A攻克了一个困难的子问题。消耗了大量token，花了几个小时，最终解决了。后来B遇到了同样的障碍，但它的提示词表述略有不同，它在A没有卡住的地方卡住了。没有共享内存，B会浪费更多时间和算力，而A学到的东西永远无法离开A的沙箱。有了共享内存，A的结果一旦得出就会被写入。B检查内存，跳过障碍，继续前进。没有agent会为另一个agent已经做出的发现再次买单。\n\n## \n\n不同领域内的沙箱 + agent（真正的解锁！）\n\n现在我们讲完了效率方面的案例，让我们详细阐述最有趣的一点：跨领域共享知识。\n\n再看看这些例子：\n\n* 扩散模型：热力学 → 图像生成。\n* Black–Scholes模型：热方程 → 期权定价。\n* 卷积网络：视觉皮层 → 计算机视觉。\n* 魔术贴：牛蒡刺果 → 紧固件。\n* 声纳：蝙蝠回声定位 → 潜艇探测。\n\n这些配对中没有任何一对共享相似的术语。刺果不是紧固件，热方程不是期权。它们共享的是形状。有人认识到一个领域中的问题与另一个领域中已解决的问题具有相同的结构，并将解决方案移植了过去。如果你能可靠地将问题和解决方案抽象成模式，并在不同领域之间映射它们，你就能解决大量看起来困难只是因为还没有人将它们联系起来的问题。\n\n一直以来，难点在于这种映射只存在于一个人的头脑中。这种转移只有在刺果和紧固件出现在同一个人面前时才会发生。",
+      "text_excerpt_zh_hash": "bc902ca71ed6aa2e",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2057167874033156096"
+    },
     "http://x.com/i/article/2057172544277606401": {
       "cleaner_v": 2,
       "content_type": "",
@@ -4997,6 +5013,22 @@
       "title": "",
       "url": "http://x.com/i/article/2061457744914173952"
     },
+    "http://x.com/i/article/2061458737726914560": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2061458737726914560",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061458737726914560/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJvGHjdWMAIlqaJ?format=jpg&name=900x900)](http://x.com/i/article/2061458737726914560/Voxyz%5Fai/article/2061782441606451381/media/2061459087531847682)\n\nDynamic Workflows: Claude Code Is Moving the Agent Plan from Chat into Executable Scripts\n\n[![](https://pbs.twimg.com/profile_images/1998303259279138816/5bqsxKJS_normal.jpg)](http://x.com/i/article/2061458737726914560/Voxyz%5Fai)\n\n[Vox](http://x.com/i/article/2061458737726914560/Voxyz%5Fai)\n\n[@Voxyz\\_ai](http://x.com/i/article/2061458737726914560/Voxyz%5Fai)\n\n·\n\n19h\n\n·\n\nFollow\n\nClick to Follow Voxyz\\_ai\n\n2\n\n12\n\n100\n\n[13K](http://x.com/i/article/2061458737726914560/Voxyz%5Fai/status/2061782441606451381/analytics)\n\nClaude Code shipped Dynamic Workflows a few days ago. Most people's first reaction: \"finally, hundreds of subagents at once.\"\n\nThat's half right.\n\nTo be clear, \"hundreds\" doesn't mean hundreds running at the same time. The official docs cap concurrent agents at 16, with a maximum of 1,000 agents per workflow run. The real new thing is that the plan gets written as an executable script.\n\n[![Image](https://pbs.twimg.com/media/HJzz4nBXwAAGfae?format=jpg&name=small)](http://x.com/i/article/2061458737726914560/Voxyz%5Fai/article/2061782441606451381/media/2061790883301801984)\n\nSubagents solve who does the work. Dynamic Workflows change something more fundamental: where the plan lives.\n\nBefore this, the plan lived in chat context. Claude would think one step, act one step, read results as they came. Subagents could handle side tasks, skills could teach it a method, but the thing actually deciding what happens next was still jammed into the conversation window.\n\nDynamic Workflows pull the plan out of chat. Claude writes an orchestration script. Claude Code executes it directly. Loops, branches, intermediate state, review chains, failure retries, all run inside the script. The main conversation gets a clean summary at the end, not the entire messy middle.\n\nBefore, running a big task with Claude Code was like standing on a construction site shouting orders one by one. Dig the foundation. Done. Pour the columns. Done. What's next?\n\nThe more workers you had, the more your voice became the bottleneck. Because what was really stuck wasn't who does the work, but who remembers the whole blueprint.\n\nWhat Dynamic Workflows do is pull the blueprint out of chat. Blueprint = plan. Foreman = workflow script. Crews = subagents. You = the client.\n\nIn practice it looks like this. You type one message in Claude Code:\n\nplaintext\n\n```plaintext\nAudit every API endpoint in this project.\nCheck authentication, error handling, and documentation coverage.\n```\n\nClaude decides this task fits a workflow. It writes an orchestration script with several phases: scan all endpoints, check each one, aggregate issues, generate a report. You glance at the phase breakdown, confirm it looks right, and it starts running.\n\nYou can watch progress as it goes: which phase is running, how many agents are active, whether any permission prompts came up. When it finishes, you get a structured audit report, not dozens of scattered findings floating in chat.\n\nAnthropic picked Bun as the proof case for this feature. Jarred Sumner used it to port Bun from Zig to Rust. Roughly 750,000 lines of Rust, 99.8% of existing tests passing, eleven days from first commit to merge. The official blog also notes this port was still outside production at the time. I treat it as an anatomy specimen.\n\nThis article covers the 5 rules I use to evaluate agent workflows. Each comes with a module you can take and use directly.\n\n## \n\n1\\. First question: where does the plan live\n\nWhen I look at an agent workflow, the first thing I check is where the plan lives:\n\nplaintext\n\n```plaintext\nWhere plan lives          Good for                           Main problem\nChat conte",
+      "text_excerpt_zh": "## 动态工作流：Claude Code 正在将智能体计划从对话迁移到可执行脚本\n\nClaude Code 几天前发布了动态工作流。大多数人的第一反应是：\"终于，可以同时运行数百个子智能体了。\"\n\n这只说对了一半。\n\n需要明确的是，\"数百个\"并不意味着同时运行数百个。官方文档将并发智能体数量限制为16个，每次工作流运行最多1000个智能体。真正的新变化在于，计划被编写成了可执行脚本。\n\n子智能体解决的是\"谁来做\"的问题。动态工作流改变了一个更根本的东西：计划存放在哪里。\n\n在此之前，计划存放在对话上下文中。Claude 思考一步，执行一步，实时读取结果。子智能体可以处理旁支任务，技能可以教会它某种方法，但真正决定下一步做什么的东西，仍然被塞在对话窗口里。\n\n动态工作流将计划从对话中抽离出来。Claude 编写一个编排脚本。Claude Code 直接执行它。循环、分支、中间状态、审查链、失败重试，全部在脚本内部运行。主对话在结束时得到一个简洁的总结，而不是整个混乱的中间过程。\n\n以前，用 Claude Code 运行大型任务就像站在工地上逐个喊指令。挖地基。完成。浇筑柱子。完成。下一步是什么？\n\n工人越多，你的声音就越成为瓶颈。因为真正卡住的不是谁来做，而是谁记得整个蓝图。\n\n动态工作流所做的，就是把蓝图从对话中抽出来。蓝图 = 计划。工头 = 工作流脚本。施工队 = 子智能体。你 = 客户。\n\n实际使用中是这样的。你在 Claude Code 中输入一条消息：\n\n```plaintext\n审计此项目中的每个 API 端点。\n检查身份验证、错误处理和文档覆盖情况。\n```\n\nClaude 判断此任务适合工作流。它编写一个包含多个阶段的编排脚本：扫描所有端点、逐一检查、汇总问题、生成报告。你浏览阶段分解，确认无误后，它开始运行。\n\n你可以实时查看进度：哪个阶段正在运行，有多少智能体处于活动状态，是否出现了任何权限提示。完成后，你会得到一份结构化的审计报告，而不是散落在对话中的几十条零散发现。\n\nAnthropic 选择 Bun 作为此功能的验证案例。Jarred Sumner 用它完成了 Bun 从 Zig 到 Rust 的移植。大约 75 万行 Rust 代码，99.8% 的现有测试通过，从首次提交到合并共十一天。官方博客也指出，此移植当时尚未投入生产。我将其视为一个解剖样本。\n\n本文涵盖了我用于评估智能体工作流的 5 条规则。每条规则都附带一个可直接使用的模块。\n\n## 1. 第一个问题：计划存放在哪里\n\n当我审视一个智能体工作流时，我首先检查的是计划存放在哪里：\n\n| 计划存放位置 | 适用场景 | 主要问题 |\n|---|---|---|",
+      "text_excerpt_zh_hash": "a5ba930cff9ece31",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2061458737726914560"
+    },
     "http://x.com/i/article/2061549213083979776": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5092,6 +5124,22 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2061850535708483585"
+    },
+    "http://x.com/i/article/2061860599571845120": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2061860599571845120",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061860599571845120/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ00rQCWAAAZll8?format=jpg&name=900x900)](http://x.com/i/article/2061860599571845120/AlphaSignalAI/article/2061865777142087684/media/2061862122049372160)\n\nStop Looping Tool Calls: Search as Code Cut Tokens 85% on a 200-CVE Task\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2014100845189529600/Ff1Xc28-_normal.jpg)](http://x.com/i/article/2061860599571845120/AlphaSignalAI)\n\n[AlphaSignal AI](http://x.com/i/article/2061860599571845120/AlphaSignalAI)\n\n[@AlphaSignalAI](http://x.com/i/article/2061860599571845120/AlphaSignalAI)\n\n·\n\n13h\n\nFollow\n\nClick to Follow AlphaSignalAI\n\n1\n\n13\n\n[1.2K](http://x.com/i/article/2061860599571845120/AlphaSignalAI/status/2061865777142087684/analytics)\n\n## \n\nBy Perplexity, Search becomes Python the model writes on the fly. The SDK stays private, the pattern doesn't.\n\n> In \\~7 mins: the CVE result (85% fewer tokens at 100% accuracy), the 5-system benchmark table, the architecture's 3 layers, the 6 design principles behind it, and a Hermes Agent walkthrough to run the pattern yourself.\n\nPerplexity just stopped letting its agents call search and started letting them program it.\n\nSearch as Code (SaC) is its new search architecture. Instead of one fixed pipeline behind a query, the model writes Python that composes the individual pieces of the search stack into a retrieval pipeline built for each task.\n\nOn a 200-CVE research task, that cut token use 85.1%, from 288.7K to 42.9K, while scoring 100% accuracy. Every non-Perplexity system tested scored below 25%.\n\nIt ships today: default in Perplexity Computer, available in the Agent API. There is a Hermes Agent walkthrough at the end if you want to run the pattern yourself.\n\n## \n\nContext\n\nThe research is published by Perplexity and titled \"Rethinking Search as Code Generation.\" It landed June 1, 2026, and builds on the first overview of Perplexity's search stack from September 2025.\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2009310641165660160/XArF3_Ib_normal.jpg)](http://x.com/i/article/2061860599571845120/perplexity%5Fai)\n\nPerplexity\n\n@perplexity\\_ai\n\n·\n\n[Jun 1](http://x.com/i/article/2061860599571845120/perplexity%5Fai/status/2061506359326384319)\n\nIntroducing Search as Code, our new search architecture for AI agents. It writes Python that calls our search stack directly, instead of looping through function calls one at a time. Available in the Perplexity Agent API, and now default in Computer.[https://research.perplexity.ai/articles/rethinking-search-as-code-generation…](https://t.co/ut6GGWQTVO)\n\n[![Image](https://pbs.twimg.com/media/HJvxG6jaEAEQj2j?format=png&name=small)](http://x.com/i/article/2061860599571845120/perplexity%5Fai/status/2061506359326384319/photo/1)\n\n[Perplexity Developers](http://x.com/i/article/2061860599571845120/perplexity%5Fai/status/2061506359326384319/media%5Ftags)\n\n145\n\n294\n\n1.8K\n\n[522K](http://x.com/i/article/2061860599571845120/perplexity%5Fai/status/2061506359326384319/analytics)\n\nPerplexity's search serves thousands of queries each second. The old contract was simple: the model issues a query, the engine runs a predefined pipeline, and the model reads the results. That works for a single question.\n\nIt breaks for agents. Today's agents run tasks that take hours, span thousands of retrieval operations, and need a different search strategy at each step. A fixed pipeline cannot bend to all of them. SaC is Perplexity's answer.\n\n## \n\nWhat Search as Code actually is\n\nThe old way hands the model a search box. It types a query, gets back a ranked page of results, and works with whatever the pipeline decided to return. The model never touches the steps in between.\n\n[![Image](https://pbs.twimg.com/media/HJ0zt-aWEAEHMKL?format=jpg&name=small)](http://x.com/i/article/2061860599571845120/AlphaSignalAI/article/2061865777142",
+      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2061860599571845120/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJ00rQCWAAAZll8?format=jpg&name=900x900)](http://x.com/i/article/2061860599571845120/AlphaSignalAI/article/2061865777142087684/media/2061862122049372160)\n\n停止循环工具调用：将搜索视为代码，在200个CVE任务上削减85%的Token消耗\n\n[![方形头像](https://pbs.twimg.com/profile_images/2014100845189529600/Ff1Xc28-_normal.jpg)](http://x.com/i/article/2061860599571845120/AlphaSignalAI)\n\n[AlphaSignal AI](http://x.com/i/article/2061860599571845120/AlphaSignalAI)\n\n[@AlphaSignalAI](http://x.com/i/article/2061860599571845120/AlphaSignalAI)\n\n·\n\n13小时前\n\n关注\n\n点击关注 AlphaSignalAI\n\n1\n\n13\n\n[1.2K](http://x.com/i/article/2061860599571845120/AlphaSignalAI/status/2061865777142087684/analytics)\n\n## \n\n来自Perplexity，搜索变成了模型即时编写的Python代码。SDK保持私有，但模式是开放的。\n\n> 约7分钟内：CVE结果（100%准确率下减少85%的Token消耗）、5系统基准测试表、架构的3个层级、背后的6条设计原则，以及一个可自行运行该模式的Hermes Agent演练。\n\nPerplexity刚刚停止让它的agent调用搜索，转而让它们编程搜索。\n\nSearch as Code（SaC）是其新的搜索架构。不再是查询背后单一的固定流水线，而是模型编写Python代码，将搜索栈的各个独立组件组合成一个为每个任务量身定制的检索流水线。\n\n在一个200个CVE的研究任务中，这使Token消耗减少了85.1%，从288.7K降至42.9K，同时实现了100%的准确率。所有测试的非Perplexity系统得分均低于25%。\n\n它今天已上线：默认集成在Perplexity Computer中，并在Agent API中可用。文末有一个Hermes Agent演练，如果你想自行运行该模式。\n\n## \n\n背景\n\n这项研究由Perplexity发布，标题为“Rethinking Search as Code Generation”。它于2026年6月1日发布，并建立在2025年9月首次概述的Perplexity搜索栈之上。\n\n[![方形头像](https://pbs.twimg.com/profile_images/2009310641165660160/XArF3_Ib_normal.jpg)](http://x.com/i/article/2061860599571845120/perplexity%5Fai)\n\nPerplexity\n\n@perplexity\\_ai\n\n·\n\n[6月1日](http://x.com/i/article/2061860599571845120/perplexity%5Fai/status/2061506359326384319)\n\n介绍Search as Code，这是我们为AI agent设计的新搜索架构。它编写Python代码直接调用我们的搜索栈，而不是逐个循环调用函数。现已可在Perplexity Agent API中使用，并默认集成在Computer中。[https://research.perplexity.ai/articles/rethinking-search-as-code-generation…](https://t.co/ut6GGWQTVO)\n\n[![图片](https://pbs.twimg.com/media/HJvxG6jaEAEQj2j?format=png&name=small)](http://x.com/i/article/2061860599571845120/perplexity%5Fai/status/2061506359326384319/photo/1)\n\n[Perplexity Developers](http://x.com/i/article/2061860599571845120/perplexity%5Fai/status/2061506359326384319/media%5Ftags)\n\n145\n\n294\n\n1.8K\n\n[522K](http://x.com/i/article/2061860599571845120/perplexity%5Fai/status/2061506359326384319/analytics)\n\nPerplexity的搜索每秒处理数千次查询。旧的约定很简单：模型发出查询，引擎运行预定义的流水线，模型读取结果。这对于单个问题有效。\n\n但对于agent来说，它失效了。如今的agent执行的任务耗时数小时，涉及数千次检索操作，并且每一步都需要不同的搜索策略。一个固定的流水线无法适应所有这些需求。SaC就是Perplexity的答案。\n\n## \n\nSearch as Code究竟是什么\n\n旧的方式是给模型一个搜索框。它输入一个查询，得到一页排序后的结果，然后处理流水线决定返回的任何内容。模型从未触及中间的步骤。\n\n[![图片](https://pbs.twimg.com/media/HJ0zt-aWEAEHMKL?format=jpg&name=small)](http://x.com/i/article/2061860599571845120/AlphaSignalAI/article/2061865777142",
+      "text_excerpt_zh_hash": "55510b09bc546e3f",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2061860599571845120"
     },
     "http://x.com/i/article/2061868304654864384": {
       "cleaner_v": 2,
@@ -12503,6 +12551,31 @@
       "title": "The State of Hermes Agent — May 2026 | Hermes Atlas",
       "url": "https://hermesatlas.com/reports/state-of-hermes-may-2026"
     },
+    "https://heroui.com/": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Beautiful, accessible React UI components built on React Aria and Tailwind CSS v4. The modern alternative to MUI, Chakra UI, and shadcn/ui for building production-ready applications.",
+      "final_url": "https://heroui.com/",
+      "frameable": null,
+      "image_urls": [
+        "https://www.heroui.com/images/twitter-card.jpg",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdefault.00hy66eiq_fus.png&w=96&q=75",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsky.0erdt1x~h1l8b.png&w=96&q=75",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flavender.0-32nppwuod68.png&w=96&q=75",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmint.0-bfpgeec9090.png&w=96&q=75",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnetflix.068-abhd3l9nu.png&w=96&q=75",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblack.0owg-00gewaph.png&w=96&q=75",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fspotify.05yg_58p7hd2w.png&w=96&q=75",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcoinbase.17.cfzs2mm70~.png&w=96&q=75",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fairbnb.0h40d2kw83-5k.png&w=96&q=75",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdiscord.0wmws.n6y~547.png&w=96&q=75",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frabbit.049~3gxxqqtmv.png&w=96&q=75"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "HeroUI v3 (Previously NextUI) - Beautiful by default, customizable by design.",
+      "url": "https://heroui.com/"
+    },
     "https://hrescak.com/notes/transcribe-to-markdown-skill": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -18580,6 +18653,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2061809790343348224/img/4g7SIIPSX-ZAQ4tL.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2061861227383685120/img/bpkaDNVW35LA2JFq.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061861227383685120/img/bpkaDNVW35LA2JFq.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2061861227383685120/img/bpkaDNVW35LA2JFq.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2061861227383685120/img/bpkaDNVW35LA2JFq.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2061887651809296384/img/VuTivjXToE0443CN.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -18649,6 +18736,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2061887952096256000/img/Z8aISsqR-_C2zweh.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2062495207648907265/img/22ifazwEtzRrTOSg.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2062495207648907265/img/22ifazwEtzRrTOSg.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2062495207648907265/img/22ifazwEtzRrTOSg.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2062495207648907265/img/22ifazwEtzRrTOSg.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
@@ -26126,6 +26227,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ2HX1-W8AAWxkm.jpg"
     },
+    "https://pbs.twimg.com/media/HJ2fEgYa0AAqc56.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ2fEgYa0AAqc56.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ2fEgYa0AAqc56.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ2fEgYa0AAqc56.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ2fFiMbMAAcAQ7.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ2fFiMbMAAcAQ7.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ2fFiMbMAAcAQ7.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ2fFiMbMAAcAQ7.jpg"
+    },
     "https://pbs.twimg.com/media/HJ40oo6bMAE2kEl.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -29911,6 +30040,23 @@
       "title": "",
       "url": "https://www.patreon.com/NeuralBreakdownwithAVB"
     },
+    "https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "![Icon for www.perplexity.ai](https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine/favicon.ico)\n\n# www.perplexity.ai\n\n## Performing security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\n## Verification successful. Waiting for www.perplexity.ai to respond\n\nRay ID: `a05ce5da5e531cfe`\n\nPerformance and Security by [Cloudflare](https://www.cloudflare.com?utm%5Fsource=challenge&utm%5Fcampaign=m)[Privacy](https://www.cloudflare.com/privacypolicy/)",
+      "text_excerpt_zh": "![www.perplexity.ai 图标](https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine/favicon.ico)\n\n# www.perplexity.ai\n\n## 正在进行安全验证\n\n本网站使用安全服务来防范恶意机器人。在网站验证您不是机器人的过程中，会显示此页面。\n\n## 验证成功，正在等待 www.perplexity.ai 响应\n\nRay ID: `a05ce5da5e531cfe`\n\n性能与安全由 [Cloudflare](https://www.cloudflare.com?utm%5Fsource=challenge&utm%5Fcampaign=m) 提供 [隐私政策](https://www.cloudflare.com/privacypolicy/)",
+      "text_excerpt_zh_hash": "749f9d6def9eae7d",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine"
+    },
     "https://www.pola.co.jp/special/o/wecaremore/menomae/": {
       "cleaner_v": 2,
       "content_type": "text/html",
@@ -30305,6 +30451,18 @@
       "text_excerpt_zh": "",
       "title": "Interactive SVG Animations",
       "url": "https://www.svg.guide/"
+    },
+    "https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "",
+      "final_url": "https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "�\b\u0000\u0000\u0000\u0000\u0000\u0004\u0003���F���)P���vM�\u0004@�\u0004U�쒵T�[��N����\u000e�Df���\u0004���|�טsf `^c ��d~�\u001b\u0001\u0010dfJ�������$�Xnܸ\u0011�{ �f�\u0018�o�Ep��MO�8�O0��\u0017�[żu�E\u0010 _\u0016�X\u0017\\Ίu �.�UY� �6��v� ���z��\u0016_�&� � ��X��uQ\u0006�E��,���,���/�����:�������IY\u0016���m�?���bu\u0011�^���\u001bp��Y�o֗�U+\u0018-��b\u000eTO��i\u0011���:[� nW�jR\\/\u0017�u���d��| < .�&��m7�d>YO�i� ���qT���ޮ��5:.��j�\\O\u0016�Qó �e^\u0006gE1\u000f.��R��M�S���� < ؔ� \u0014�� Pr���\u0019O�0��\u0007���88_���U� �`\\��qq\u0014\u0014�j��V�hq!�)K?�����Y��ܪ\u0013��/�`|A �q'x�\u0018�G��\u0004�~NF�q��| ,\u0017ׂk��Λ� ��|Z.��\u0006��\"�M��d�hP�z�Z\\��\\�\u0016����� \u0001�t\u0002�\u0002W�\u00147�h X���{F0 ��\" � :T��Y򢘏 ��)H�|�P�����Ե4}ܚ2��h\u0005����q������ߜ>�o���fU�Oت�R��e@�E���qV�'9d6�VO|{9\u0004�.��\u001aew^\\���` (r�IgT�;� ;� ��\b�|c?�W�{�\u001akޏ\u0016�� ��,f fqq1-:?���㮫�V�#�;�b��G�u0�,�q�� ��q+��D� Nn�$��7�8H��$ ��M?��j�xܚ��{5 wf��jQ.�םf� 3�9+�!�gw���\u0011f4���m-T������_ < < ]��+p����M:��UӶ�s� Y7���(�#] �A�����/�3��+\u0015��]EQr�� ��\u0017�����M\u0014� ��\u0015���%�.���\\�_�]\u001a�D�G��\"*�˻�@f�qd�b �n����Z�\u001bf���>h{C��bn���wʫ�j&m�z���0����� m�.V�|]T��ޣ����n�^���ͬޑ�?x�2~���/�P\"xQ\u0014㯪V*hyѩ�\u0002� f�k�\u0015�30��9�M����z�, u�nd�&ݳ�?��i_TL\u000e{Z�\u000f!l����[o_�/�D9�aM1F�h��� ����f�궮x_�r\u0002��\\� l�`��ZnP ֧���ը�sY��'��S���\u000e��:cԤ��j\u0001'��}�Z\\ < \u0012\u0005�U�� �z �;�;�m�W���v�.��\u000fg�MI\u001bӝ �spF�;=i\u0003h���֓є'�\u000erO �\"�*�� �6+v�\u000f��gl\u0010�u���a\u0019��/��������l:An\u0018�u=aA����\u000ed�~;��]�= C�k� ]�&!���鯺�-Ɠ��G{轣�(}�&��@��]'���l1���{S�\b�n78-�\u0012�\u0010 � �N~(\\ѻD��j1A\"���D����\u0012a��'I��|�>\u0000��\u000f\ba�$�S\u0013`��(֧k� �����r����,��+���!\u0010}G�آݫ=GҸ0��T\u0015 i < ��J\\��z��û˨zŷ{Q?�M^� �`��h�\u0004�p2\u0001 < Ün���\u0007\\__w�{�5�q\u0018�]�:*�\\�#$��@ �b\u000f�������V\u0018�A4�:Q�\u000f�a�7��ݖ9z�s�\u0000�9�z�SƏ[�U \u001b\u0004Q���y\u0016w�~/�?j'lw�xЎ:�a < ⺗r� �v'��v��GI��Kz�^g��Ľ�^\u000fڼ�x��= �q��A�Gj? ��k?��^[�)@���p�h8� ���\u000f�H��~/��\u0006�H�e�:���:��u\u0018\u001b\u0014y��M\u0012� ׁ�n�x���dT4��� ;Yă?EY' d p\u00101䨓DC~�N\u0014g�0d��p`\u0017\u00008L;��Z5�tz1OB��\u0007~A2 P���\u0017��7\u0004�Q�G��8\u0001j04�:Ѡ�wa�I( \u0003L��O�O\u001a��&��(�^'\u001b� �D�C����\u0010�\u001a�eO y\u0019�L��`\bZ�� ;�T\u0003�{Q $\u0002 � �b\b�� �������Ǐß\u0006I\u0015\b�)X �>� �Cc�N�\u0007O���\u0015Z � ��a�* /� �x < :4 �h��킴^ʳ^H�(�x?\u0002j\u0007R\b���@D%��C#*@�D�\u0002!�ŏÖ\u0011U`G�\u0010 � U\u0013�\u001b�,�\u0018jPq�?ـ>��\u000e�1r���Cۧ�M�u;\u0018�\u00048���M`'�\u001a�]]zD���# < �kX\u0010\u0006�a�����0\u0012N�0��lP�%��+Lhْ9e{��\u0018���(�ؠ�'��#\u0012\u001aՂ�����J\u001b�\u000f-Ո�\u000f�\u0001\u0014����J�\"q�DT�k~�\"\u0007VzN!��ֶ�H \u0003�\u0006�5d����J# ~��\u0018;�v�\u0019\u0016h �����ۥ^��-j��U����ӳ���\u0011τ\u0002VSĮ�I�>�$L ������� ��:iڎ\u0001�-#\u0002E ��K�~�\u0018n��P:(޳Jz�X�N?\u0003w�΀�F\u001bR:�a(B��Ĥl lMl[��R$�\\�\"�M�zJ�E��f�El��N��aQ;d? P�V�F6�J3��:��\u0011q&�d, �Ǚ&)\u0003�H��6\u0005WK��)�\b,�\u0001�a���4���\u0019��n����[:� �#\u0012�R\u0006)QV\u0018QOа���D� ��2�P�\u0006\u0011�!@h{�彰�\u0007k�G$\u0015Q+\u001aj�\u000f�و�� 3�\u0010(�����h��5k��7\b��\u0001-��a\u00101q@�Q\u000eL���0����ۀ�ma�1(\u000e{\u0010\u0017X\u000e!�XߜH_��>\u0005L�6۞�>e ly�W�1����R��~�yd�h1�\u0010��FЇ�!�dK�\u0013���~;�@ ˌA�Q2 I < \u0012�AC�� ���\u000f�ŌY���N���L�>� � < �5�'�\u0007��w,�X�l\u001b��9�\u000e�\u0005���� ��2l ,ӧ'��\u0002�\u0007����\u0007*\u000e��\u0007 �T\u0004��(�s�A�v�U�\u000f�\u0016B�\u0015��L0A\u0011�\u0007����v{�ԃ\u001aj��\u000e\u0012��҆H��]'|��0c�ئ���5Ğh�cn����{�\u00074Ai|.R��Ӥ\u0003��,��\u0011_A�\u0000�-�B�FCQ XeLaH�8 \u0002����4�\u0000\u0011g*�;�\u0005�e�1 ,\u0010�Yp�t\u0006}CE��.�-���:� \u0002# < \u0006\u000f5`�m`k�\u000e\u0006�K�+ ����5�u�$�2\u0011C�\u000f� �2\u001a��d�r�\u0012Ӏ��P收�y�\u0003�)�G��F\u0019Ub�]%��2� )u\u0007�0\u0013nr�$\u0019�)\u0019�ǃ�h\b����\u000f8�Kѭ��Z��%\u0005���^�\u001b4�\u0004TתY ��mo��\u000f��떵=Wӽ�3�=\u0005������Q�\u001a �a�\u0018F\u0002�3��B,�+� ��p j�@.[��X\u0010W�\u0006\u0006��\\A�i�ծ�P��\b!�}�ٍӁ�f\u0016�Z^���2mqژ�a���a��-�\u0017�\u0017я}��R}$\"8 �k�h���s�.\u0019Z\u0012_��\u0010\bY Y��\u0001o�~�\u0006�wnpp�Zm�\u0015[P��`xl.\u0005\u0012 \\���]�9�i9� �R\u0014�#.��Д\u000eXm�T\u001b�1�|F���}��}�!r�\u0016|Dh\u000e��.Y�Q�abj@��]\u0012\u0011\u0010%�y-�t/#]{���7�6\u0006���z�l�5A�]W@ک\u0004��\u0005[�j���uG$2��fZ�ܾo#A�0 9\u0018���F\u0011{\u0017TBU- a,�̰��ȅbs���������l1�1 �g~�k$9]�\u0001 w�����h1�m�f��v�z\\�T?�e�!��ǴU����?�:��Y_�\u0017�A��|Ϊ>t�)�-V\u0018K� \u0012��:�B�'M�d^�e�l��K��O��E\u0006�l~ �ى��\u0001�;��� n\u0004�9��.��g��E��r�$��z���:A��;4��6�J�\u0012T�i�D�A�T�^�6l\u0006A���m��\u0018� �;�d]+e��i~&M�;3�\u0006�Ԋ��5}W�V��.j�z �Rg�� \u0016��j�Gt̳\u001a��R�U� 6��*�w�϶J�5����\u0016�qY�̓D�q�(�-��n�m ��gl�4�rnAep��Nͥ�:ݖ��]�'Q�{�� < ��y����\u0016 Of\u0017�\u0019�`�&p� �=D � l���\u000e߶�{웓�\u0002������\\��������=m�S>����u�O�޹ *�e�u��~\u0003s7��W\u0013yg�*�7�Z/Z���\u0011��4��|q��N\u0017׵\"u n�� ���U��� '�?m�Z'ۂ &�\u0001�\u0000�z�'��\\��\u0001�Ev���j~�ج�]\u0007�\u0012ߪS [�st����V��j��c; �\u0017+�K\u0002����r��Q�ςr�\\�p#5�3��Aـ�C�(��/��\u0007xeQ\b00�l\u0015�R\u0017z��\u0011�B\u0010���f^\u0004ё < ���8�͜.�\"p�A�~��\u0017�z�b>�������\u0015I��*y{�'Y���/���\u000f����ǇX����O�\u0002kֹ\u0007�E �\u0004\u000es��b-\u001bC�J� ����\u0006b���7\u0012C��p�h\u001av�1N���c�E��˓�bvR#\u0003��_�g�+ < �����}Q̦\u0005O��8��GA\u001a�˛�\u0007�h�= 30ֶ��O��v\u0010\u0001Smj��K�� p*�\u0017�\b�3|`�+v6 `�tj�&^��b�v� Yކe��`堼A`;� ���^b~lc�����Q��/T\u0006ח0�A��r�{j^�rs=�ˢ\u0013 < �-�68�\\`�c.�?��0�^a��c\u0007]l� ̡��|�\u0006����b��n9�m��|^,6�\u0014��Uq�S��c�s\u0001��2��gk��+kǓ����9~@��z\u0011��kupH.���A ���w[�� \u0010�7�Q��@\u0015��^iċ�y\u0013�{_,��]M�)�4W_�%�n",
+      "title": "",
+      "url": "https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/"
     },
     "https://www.tavus.io/post/introducing-image-to-replica": {
       "cleaner_v": 2,
@@ -42273,6 +42431,11 @@
       "https://x.com/martinfowler/status/2061741115481415909",
       "https://martinfowler.com/fragments/2026-06-02.html"
     ],
+    "2061782441606451381": [
+      "https://x.com/Voxyz_ai/status/2061782441606451381",
+      "http://x.com/i/article/2061458737726914560",
+      "https://x.com/Voxyz_ai/status/2061912665446859255"
+    ],
     "2061783905003282512": [
       "https://x.com/mitsuhiko/status/2061783905003282512",
       "https://lucumr.pocoo.org/2025/9/4/996/",
@@ -42308,6 +42471,13 @@
       "https://x.com/Voxyz_ai/status/2061810168854155446",
       "https://pbs.twimg.com/amplify_video_thumb/2061809790343348224/img/4g7SIIPSX-ZAQ4tL.jpg"
     ],
+    "2061816210283749876": [
+      "https://x.com/tualatrix/status/2061816210283749876",
+      "https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/",
+      "https://x.com/tualatrix/status/2061826203707981887",
+      "https://x.com/tualatrix/status/2062495274703131001",
+      "https://pbs.twimg.com/amplify_video_thumb/2062495207648907265/img/22ifazwEtzRrTOSg.jpg"
+    ],
     "2061821715450351992": [
       "https://x.com/bytebytego/status/2061821715450351992",
       "http://x.com/i/article/2061638042746863616"
@@ -42333,6 +42503,23 @@
     "2061850337716187144": [
       "https://x.com/Mnilax/status/2061850337716187144",
       "http://x.com/i/article/2061818708226342912"
+    ],
+    "2061860170846843233": [
+      "https://x.com/tricalt/status/2061860170846843233",
+      "http://x.com/i/article/2057167874033156096"
+    ],
+    "2061861293569765847": [
+      "https://x.com/perplexity_ai/status/2061861293569765847",
+      "https://pbs.twimg.com/amplify_video_thumb/2061861227383685120/img/bpkaDNVW35LA2JFq.jpg",
+      "https://x.com/perplexity_ai/status/2061861305838149980",
+      "https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine"
+    ],
+    "2061865777142087684": [
+      "https://x.com/AlphaSignalAI/status/2061865777142087684",
+      "http://x.com/i/article/2061860599571845120",
+      "https://x.com/AlphaSignalAI/status/2061866232786120796",
+      "https://research.perplexity.ai/articles/rethinking-search-as-code-generation",
+      "https://x.com/AlphaSignalAI/status/2062146340004495567"
     ],
     "2061872114714521927": [
       "https://x.com/larsencc/status/2061872114714521927"
@@ -42409,8 +42596,15 @@
       "https://x.com/trq212/status/2062073548861317367",
       "https://x.com/trq212/status/2061925433441227090",
       "https://x.com/trq212/status/2061915368348921983"
+    ],
+    "2061979261637181775": [
+      "https://x.com/vikingmute/status/2061979261637181775",
+      "https://coss.com/ui",
+      "https://heroui.com/",
+      "https://pbs.twimg.com/media/HJ2fEgYa0AAqc56.jpg",
+      "https://pbs.twimg.com/media/HJ2fFiMbMAAcAQ7.jpg"
     ]
   },
-  "updated_at": "2026-07-03T04:57:16Z",
+  "updated_at": "2026-07-03T08:28:08Z",
   "window": "archive"
 }
