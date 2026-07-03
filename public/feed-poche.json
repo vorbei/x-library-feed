@@ -4197,7 +4197,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-26T18:15:24.578614Z",
+      "article_fetch_attempted_at": "2026-07-03T21:43:07.852208Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
@@ -4270,7 +4270,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-26T18:15:24.578614Z",
+      "article_fetch_attempted_at": "2026-07-03T21:43:07.852208Z",
       "article_image_urls": [
         "https://lettera.md/assets/social-card.png",
         "https://lettera.md/assets/icon-a.svg",
@@ -4322,7 +4322,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-26T18:15:24.578614Z",
+      "article_fetch_attempted_at": "2026-07-03T21:43:07.852208Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
@@ -4357,7 +4357,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-26T18:15:24.578614Z",
+      "article_fetch_attempted_at": "2026-07-03T21:43:07.852208Z",
       "article_image_urls": [
         "https://supacode.sh/screenshot.png",
         "https://supacode.sh/supacode-app-icon.png"
@@ -4396,7 +4396,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-26T18:15:24.578614Z",
+      "article_fetch_attempted_at": "2026-07-03T21:43:07.852208Z",
       "article_image_urls": [
         "https://nubjs.com/opengraph-image-12gd74?b93aebf5af4c1f12",
         "https://nubjs.com/twitter-image-12gd74?b93aebf5af4c1f12",
@@ -4439,7 +4439,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-26T18:15:24.578614Z",
+      "article_fetch_attempted_at": "2026-07-03T21:43:07.852208Z",
       "article_image_urls": [
         "https://www.deck.gallery/og_image.webp",
         "https://deck.gallery/assets/figma/mailbox.svg",
@@ -4447,12 +4447,12 @@
         "https://deck.gallery/assets/figma/slides.svg",
         "https://deck.gallery/assets/figma/shop.svg",
         "https://deck.gallery/assets/figma/logo-mark.svg",
-        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-26.project-earth-report-2023/project-earth-report-2023-001/ThumbnailTiny?exp=4070908800&sig=c693628bcd21f2c8f605c10d13cc77d8a1ef5c1b9bd5a7e264019a6b8d6166e8",
-        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-25.united-arrows-integrated-report-2023/united-arrows-integrated-report-2023-001/ThumbnailTiny?exp=4070908800&sig=c5a4fc41446f113fa064266d602ee3e4d73864206797b631e00dd71d10e5690c",
-        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-24.snapchat-the-friendship-report-2019/snapchat-the-friendship-report-2019-001/ThumbnailTiny?exp=4070908800&sig=4f26e295c96807fcdace1d897e202611d2075f8f31c64be18ce2dfce7a0277d5",
-        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-23.roblox-fashion-and-beauty-trends-2025/roblox-fashion-and-beauty-trends-2025-001/ThumbnailTiny?exp=4070908800&sig=4144098a2c418730c491b630d89778b9cc2f65ba0fa916c136745a57a9176cff",
-        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-22.the-immunized-shopper/the-immunized-shopper-001/ThumbnailTiny?exp=4070908800&sig=1db8cd8fdd9a5683580d0ac83867b45eca199fec9c3c0eed2609004a4396759d",
-        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-21.league-of-legends-visual-effects-2017/league-of-legends-visual-effects-2017-001/ThumbnailTiny?exp=4070908800&sig=92345b502628b509d42fef9b79165dd69b49d68980033919e7a31980775cc01e"
+        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-07-03.air-brand-guidelines-2025/air-brand-guidelines-2025-001/ThumbnailTiny?exp=4070908800&sig=93af56ce669cd65a80e4dacc9234739638a299c7440ccee3c408edeb76342c20",
+        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-07-02.strava-brand-guidelines-2021/strava-brand-guidelines-2021-001/ThumbnailTiny?exp=4070908800&sig=7486e963fdeb3d5e8bac2ecd4e7e41ecb9cf040311499514ea6c797d09139508",
+        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-07-01.the-state-of-social/the-state-of-social-001/ThumbnailTiny?exp=4070908800&sig=8f919d523b9b04502c6b5239c9ebf6e0ff35ffdb5f6faf7af450d20273782185",
+        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-30.alec-soth-photographic-storytelling/alec-soth-photographic-storytelling-001/ThumbnailTiny?exp=4070908800&sig=6492569612457d2543b0e5775d4df756873bb332ce4dbd9deacafec0eb9ec490",
+        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-29.m-rning-the-age-of-relevance-2024/m-rning-the-age-of-relevance-2024-001/ThumbnailTiny?exp=4070908800&sig=bfc4a8c5f01da0c23e1850a5193cc6af6354288f6b203f5d0bc377a718551de9",
+        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-28.strava-year-in-sport-2021/strava-year-in-sport-2021-001/ThumbnailTiny?exp=4070908800&sig=2e4f2947e25e65694f436afa66c7aff122b7532d80b470b35b56c06b470f4550"
       ],
       "article_title_extracted": "Deck.gallery — Beautifully designed decks, curated",
       "category": "Design",
@@ -4491,7 +4491,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-26T18:15:24.578614Z",
+      "article_fetch_attempted_at": "2026-07-03T21:43:07.852208Z",
       "article_image_urls": [
         "https://freight.cargo.site/t/original/i/e7dd8214615e68838fb59cf1923966284aa953f20fd90708b32b24bd9d544f63/website-wim.jpg",
         "https://freight.cargo.site/t/original/i/da6d13b38eb01aa6d5c1f1ba35b7060f3d3115ec5f12cc84f1d1a4df29b2e99c/website-wim2.jpg",
@@ -108912,5 +108912,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-07-03T18:01:03.367103Z"
+  "updated_at": "2026-07-03T21:43:51.423328Z"
 }
