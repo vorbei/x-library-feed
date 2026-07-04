@@ -326,6 +326,21 @@
       "title": "Build production-ready documentation from Markdown in seconds",
       "url": "http://docmd.io"
     },
+    "http://eieio.games": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "games, writing, and nonsense from nolen royalty",
+      "final_url": "https://eieio.games/",
+      "frameable": null,
+      "image_urls": [
+        "https://eieio.games/images/general/nolen-gdc-podium-small.png",
+        "https://eieio.games/images/talk-paper-scissors/title-image.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "eieio.games",
+      "url": "http://eieio.games"
+    },
     "http://emulate.dev": {
       "content_type": "text/html; charset=utf-8",
       "description": "Local drop-in replacement services for CI and no-network sandboxes. Fully stateful, production-fidelity API emulation. Not mocks.",
@@ -999,6 +1014,23 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Explore Varchive Explore Varchive",
       "url": "http://varchive.ai/apps"
+    },
+    "http://weeklyaiops.com": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Stop drowning in AI updates. Get one tested implementation guide every Monday, plus the complete operator toolkit. 703 members. 5/5 rated.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://weeklyaiops.com/",
+      "frameable": null,
+      "image_urls": [
+        "https://weeklyaiops.com/seo/og-image.png",
+        "https://weeklyaiops.com/_next/image?url=%2Fimages%2Favatar-machina-eye.jpg&w=64&q=75&dpl=dpl_DXykvs8csNgjnRcoTMGztRSVpr9T",
+        "https://weeklyaiops.com/_next/image?url=%2Fimages%2Favatar-machina-eye.jpg&w=48&q=75&dpl=dpl_DXykvs8csNgjnRcoTMGztRSVpr9T"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Get Weekly Battle-Tested AI Workflows | The Real-Time AI Ops Community",
+      "url": "http://weeklyaiops.com"
     },
     "http://www.elevenlabs.io/blog/procedures": {
       "cleaner_v": 2,
@@ -6327,6 +6359,19 @@
       "title": "",
       "url": "http://x.com/i/article/2072704352834494464"
     },
+    "http://x.com/i/article/2072712527012888577": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2072712527012888577",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HMPBH7Ma8AA0kSS?format=jpg&name=900x900)](http://x.com/EXM7777/article/2073045719020343705/media/2072712595413594112)\n\nHow to build a second brain with Fable 5\n\n[![](https://pbs.twimg.com/profile_images/1922574051580563456/-OFXIxnm_normal.jpg)](http://x.com/EXM7777)\n\n[Machina](http://x.com/EXM7777)\n\n[@EXM7777](http://x.com/EXM7777)\n\n·\n\n10h\n\nFollow\n\nClick to Follow EXM7777\n\n24\n\n74\n\n695\n\n[136K](http://x.com/EXM7777/status/2073045719020343705/analytics)\n\nI'm going to show you, step by step, how to turn Fable 5 into a machine that knows your business inside out... and ships outputs that look nothing like what everyone else is getting\n\nthe tool is a second brain built in Obsidian, and a small group of people is already running one... exactly the same model, a world of difference in every output\n\n[![Image](https://pbs.twimg.com/media/HMTeRpKakAAd-cZ?format=jpg&name=small)](http://x.com/EXM7777/article/2073045719020343705/media/2073026123185950720)\n\nthe smartest model on the market ships average work all day for one reason: it knows nothing about you\n\nno context on your business, your audience, your past decisions... so it guesses, and guesses read generic\n\nplug it into your own knowledge base and the same model becomes a different machine\n\nthe code follows your architecture, the content sounds like you, the writing stands on research you own... and you see it from day one\n\nand this holds for ANY workflow you run: coding, marketing, content, sales, research\n\nrunning an AI agent without a second brain is wasting your time... and the gap only widens, because every file the brain gains makes every future run smarter, forever\n\ni run this exact machine every day... it sits behind every article, every guide, and every product i ship\n\nthis is the full system... what a second brain really is, the folder structure the agent navigates on its own, how to fill it with goals, keep it alive with loops, run a real research machine on top of it, read it without burning money, and wire it into everything you build\n\nif you want to learn how to get the most out of Fable 5 and how to make money with it, that's what the real time AI ops community is for: \n\n[weeklyaiops.com](http://weeklyaiops.com/)\n\n# \n\nsame model, different league\n\nhere are the numbers behind that claim\n\nin accounting, a model working without the client's history lands around 70% accuracy\n\ngive it the client's transaction history and it starts at 85% and climbs past 90%\n\nnothing about the model changed, the knowledge did\n\nwriting works the same way\n\na mid-tier model with a well-built voice profile produces more recognizable output than Fable 5 with no profile at all\n\nthe files carry more of the result than the model tier does\n\nand the model itself rewards this harder than anything before it\n\nAnthropic's own testing had Fable play a full deck-building game with file-based memory, and it improved three times more than the previous flagship\n\none game, tested by the vendor, replicated by nobody yet... but the move the number points at costs you a folder of markdown, so you take it either way\n\nbefore we build, i have to tell you something: the model doesn't magically find everything in your notes\n\nwhat it does is act on knowledge that lives outside the conversation, and cite where every piece came from\n\nthe memory is yours, on your disk, in plain text you can open and read\n\ngive it a few weeks and the agent starts citing decisions you forgot you made\n\nthe first question is where this memory should live\n\nthe answer costs nothing and you might already have it installed\n\n# \n\nwhat Obsidian is, in one minute\n\nObsidian is a free app that sits on top of a folder of markdown files on your computer\n\nno database, no cloud lock-in... your notes are plain text files you own, and the app is just a beautiful window into them\n\nyou only need two of its f",
+      "title": "",
+      "url": "http://x.com/i/article/2072712527012888577"
+    },
     "http://x.com/i/article/2072743970116112385": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6390,6 +6435,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2072771511853748224"
+    },
+    "http://x.com/i/article/2072785635451281408": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2072785635451281408",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HMQHuRGbkAAdr65?format=jpg&name=900x900)](http://x.com/posthog/article/2073072670493876737/media/2072790219943022592)\n\nHow we're spending our marketing budget in 2026 (with actual $ figures)\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2051741479433822210/YboW6yWw_normal.png)](http://x.com/posthog)\n\n[PostHog](http://x.com/posthog)\n\n[@posthog](http://x.com/posthog)\n\n·\n\n8h\n\nFollow\n\nClick to Follow posthog\n\n1\n\n3\n\n43\n\n[4.3K](http://x.com/posthog/status/2073072670493876737/analytics)\n\nIt still really annoys me that no one is willing to talk about how much they actually spend on marketing in startup-land. I wrote about it \n\n[in 2023](https://posthog.com/founders/actual-marketing-budget)\n\n, but nothing's changed, so here I am again, but with more budget to talk about.\n\nSo how much does a typical scale-up \n\n[like PostHog](https://posthog.com/about)\n\n spend on marketing. And why doesn’t anyone talk about it?\n\n“But Charles, you naive idiot, surely competitors will use this information against you?”\n\nUm, sure I guess? But especially if you’re into product-led growth (like we are), how you spend marketing $ seems pretty far down the list of competitive advantages. We're open source and we already tell everyone \n\n[our strategy](https://posthog.com/handbook)\n\n and \n\n[what we’re going to build next](https://posthog.com/roadmap)\n\n. That doesn’t seem to have hurt us so far.\n\nBy sharing some of this info, I’m hoping it’ll help others as a data point. I am not saying this is the best way to spend your marketing budget. I have no idea! That’s the point!! But I’m hoping maybe someone will see this and tell us how we could do better...\n\nSee you in 3 years?\n\n# \n\nBut first, some context...\n\nStartups are different (woah, much insight!)\n\nHere's some background about PostHog before you start copying this stuff and then sending me angry messages when this tanks your company:\n\n* AI platform that makes your product self-driving\n* 215 people, $194m raised\n* Team is mostly engineers, product-led growth with a bit of sales-led\n* Post product-market fit, scaling rapidly\n\nLet’s get into it.\n\n# \n\nShow me the money\n\nOur typical monthly marketing spend looks like this.\n\n## \n\nPeople: $210k per month \n\n(3x vs. 2023)\n\n* Marketing: 4 product marketers + 1 influencer manager\n* Editorial: 3 content marketers + 1 social media manager\n* YouTube: 2 producers + 1 developer advocate\n* Events: 2 events managers\n* Docs & Wizard: 3 context engineers\n* Demand gen: 1 performance marketer + 1 copywriter\n* Graphics: 3 designers\n* 1 exec who mostly gets in the way\n\n## \n\nNot people: \\~$1m per month \n\n(13x vs. 2023)\n\n* Tools & subscriptions: $5,000\n* Paid ads: $488,000\n* Video: $45,000\n* Editorial freelancers: $20,000\n* Sponsorships (newsletters & influencers): $228,000\n* Out of home (ie. billboards): $67,000\n* Merch: $60,000\n* Events: $65,000\n* Do more weird: $45,000\n* PR: $0\n\n## \n\nTotal: \\~$1.2m per month\n\nSome notes\n\n* We are in the middle of repositioning PostHog as the platform that makes your product  \n[self-driving](https://posthog.com/blog/what-if-your-product-built-itself)  \n. This means we are thinking a lot more about awareness, especially as we've seen our  \n[ICP](https://posthog.com/handbook/who-we-build-for)  \n changing.\n* We do a lot of things in-house that other companies would probably use freelancers for. We're not averse to freelancers, but given how important brand marketing is to PostHog, it has been worth it for us to over-invest here.\n* [The Website Team](https://posthog.com/teams/website)  \nis its own team at PostHog, but I appreciate at most companies your website will be considered a marketing expense (we disagree - treat your website like a product!)\n\nIf you want to learn more about how we implement these things in practice, it’s all in our \n\n[public handbook](https://posthog.com/handb",
+      "title": "",
+      "url": "http://x.com/i/article/2072785635451281408"
     },
     "http://x.com/i/article/2072793359836680192": {
       "cleaner_v": 2,
@@ -6470,6 +6528,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2072984693788782594"
+    },
+    "http://x.com/i/article/2073090223194755072": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2073090223194755072",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HMUY_HnbcAAa51I?format=jpg&name=900x900)](http://x.com/trq212/article/2073100352921215386/media/2073090676129230848)\n\nA Field Guide to Fable: Finding Your Unknowns\n\n[![](https://pbs.twimg.com/profile_images/1976939058741039104/r3GgzqRh_normal.jpg)](http://x.com/trq212)\n\n[Thariq](http://x.com/trq212)\n\n[@trq212](http://x.com/trq212)\n\n·\n\n6h\n\nFollow\n\nClick to Follow trq212\n\n124\n\n363\n\n3.1K\n\n[541K](http://x.com/trq212/status/2073100352921215386/analytics)\n\nWorking with Claude Fable 5 keeps re-teaching me an old lesson: the map is not the territory.\n\nThe map, a representation of the work to be done, is my prompts and skills and context, it’s what I give Claude. The territory is where the work needs to happen, the codebase, the real world, its actual constraints.\n\n[![Image](https://pbs.twimg.com/media/HMUY0Dpa4AA__qj?format=jpg&name=small)](http://x.com/trq212/article/2073100352921215386/media/2073090486085279744)\n\nThe difference between the map and the territory is what I call unknowns. When Claude runs into an unknown, it needs to make a decision based on its best guess of what I want. The more work being done, the more unknowns Claude might run into\n\nFable is the first model where I find the quality of the work is bottlenecked by my ability to clarify its unknowns.\n\nImportantly, just planning ahead isn’t always enough. You can find unknowns deep in implementation, or your unknowns may point you to the fact that you should actually be solving the problem in a different way altogether.\n\nI’ve found that working with Fable is an iterative process of discovering my unknowns before, during, and after implementation.\n\nI've made some \n\n[example artifacts for finding unknowns here,](https://thariqs.github.io/html-effectiveness/unknowns/)\n\n but be sure to come back to build the intuition for when to use them.\n\n## \n\nKnowing your unknowns\n\nWhat are your unknowns? When I come to Claude with a problem I tend to break it down in 4 ways:\n\n* Known Knowns: This is essentially what is in my prompt. What do I tell the agent that I want?\n* Known Unknowns: What haven't I figured out yet, but I’m aware that I haven’t?\n* Unknown Knowns: What's so obvious I’d never write it down, but would recognize it if I saw it?\n* Unknown Unknowns: What haven't I considered at all? What knowledge am I not aware of? Do I know how good something can be?\n\n[![Image](https://pbs.twimg.com/media/HMUa_3jbcAAJeRy?format=jpg&name=small)](http://x.com/trq212/article/2073100352921215386/media/2073092888020611072)\n\nThe best agentic coders are good have relatively few unknowns. Watching someone like \n\n[Boris](https://www.google.com/url?q=https://www.linkedin.com/in/bcherny&sa=D&source=editors&ust=1783101769343560&usg=AOvVaw0NSN4RLOEaJ%5Fk7bIWfat2t)\n\n or \n\n[Jarred](https://www.google.com/url?q=https://www.linkedin.com/in/jarred-sumner-a8772425&sa=D&source=editors&ust=1783101769343738&usg=AOvVaw1jFeuVIbBffAC5464Tk%5FTD)\n\n prompt, it is obvious to me that they know what they want in-detail. They are deeply in-sync with both the codebase and the model behaviors.\n\nBut they also assume unknowns. In many ways, reducing and planning for your unknowns is the skill of agentic coding. But luckily, this is a skill you can improve at, by working with Claude.\n\n## \n\nHelp Claude help you\n\n[![Image](https://pbs.twimg.com/media/HMUZ8FWacAAK4eL?format=jpg&name=small)](http://x.com/trq212/article/2073100352921215386/media/2073091723493011456)\n\nInstructing Claude is a delicate balance. If you are too specific, Claude will follow your instructions even when a pivot may be more appropriate. If you are too vague, Claude will often make choices and assumptions based on industry best practices that may not be a fit for your task.\n\nWhen you don’t account for your unknowns you fail both ways. You don't know when the path will be filled with obstacles and yo",
+      "title": "",
+      "url": "http://x.com/i/article/2073090223194755072"
     },
     "http://zaro.ai": {
       "content_type": "text/html",
@@ -7371,6 +7442,27 @@
       "title": "A Python Program To Scrape Any Website",
       "url": "https://browser-use.com/posts/fetch-use"
     },
+    "https://buttondown.com/blog/google-reader?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "The app that taught us to directly follow our favorite creators.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://buttondown.com/blog/google-reader?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://marketing.buttondown.com/og/generic?title=Google+Reader+was+building+the+wrong+future&subtitle=Matthew+Guay&date=July+1%2C+2026&category=just+for+fun",
+        "https://buttondown.com/next-assets/img/team/matthew_transparent.png",
+        "https://buttondown.com/next-assets/img/blog/google-reader/featuredImage.jpg",
+        "https://buttondown.com/next-assets/img/blog/google-reader/prototype.jpg",
+        "https://buttondown.com/next-assets/img/blog/google-reader/GoogleReaderpodcasts.jpg",
+        "https://buttondown.com/next-assets/img/blog/google-reader/sharing.png",
+        "https://buttondown.com/next-assets/img/blog/google-reader/protest.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "What the Google Reader obituaries miss—and they’re many, beloved as it was by the commentariat—is that Google Reader was living on borrowed time from day one.\nIt started life as a feed previewer, to ensure the Blogger team’s Atom feed parser was working. Only, this internal tool was strangely useful as a way to get caught up on the headlines from your favorite sites. “I think I built a thing,” [Googler Chris Wetherell](https://www.theverge.com/23778253/google-reader-death-2013-rss-social) recalls telling a colleague. And in the freewheeling early days at the search giant, where anyone could work on a 20% Time Project, that feed previewer slowly morphed into a feed reader app codenamed Fusion.\nBut others had already laid claim to the Fusion name. Names like Transmogrifier and Reactor were batted around, before the team settled on the Googly simplicity of Reader, and a quiet launch on Google Labs.\nAnd “it immediately crashed spectacularly. The site simply couldn’t keep up with the traffic on the first day.” Or for many days thereafter, as “hundreds of thousands” [joined Reader](https://googlereader.blogspot.com/2005/10/google-reader-two-weeks.html) in the first couple weeks after it launched. “Everyone from Google used Reader, from Larry and Sergey to the newest engineers,” recalled [Google user experience designer Jenna Bilotta.](https://www.buzzfeed.com/robf4/googles-lost-social-network) “It’s such a beloved project.”\nYet the name Reader belied the larger ambition behind the project. “How do you stop from being distracted by, well, the whole internet? It’s an endless divertimento,” pondered [Wetherell](https://googlereader.blogspot.com/2005/10/google-reader-two-weeks.html) aloud two weeks after Google Reader’s launch. The real goal was turning the internet into a never-ending TV.\nEverything, all at once\nInternally at Google, feeds weren’t what made Wetherell’s code exciting. Instead there was an idea, bubbling under the surface, as people published blog posts on Blogger, shared photos on Picasa, and uploaded clips to Google Video.\n“The questions we began to hear from users changed from ‘How and what do I blog?’ to ‘Where do I find the good ones?’ and ‘How do I keep up with all of these great blogs?’,” [recalled Google Reader product manager](https://techcrunch.com/2013/03/23/the-long-and-storied-history-of-google-reader/) Jason Shellen years later. So when this “feed parser that had mutated into an unholy ur-product,” as [Wetherell](http://massless.org/?archive=2007/05/about-google-readers-birth-part-2.html) called it, showed up at Google, it seemed to promise an answer.\nGoogle’s mission was stated as organizing the world’s information. And maybe, search wasn’t the only way to organize things. Maybe Reader promised a way that content could be “fused together perhaps in a new TV-like format.”\nOr, as Wetherell more philosophically put it, during his pitch meeting for turning his code into a product: “Feed reading is inherently polymorphic.” Of more than one form.\nFeeds could be whatever you wanted them to be. Parse them into a simple reader, and you have a personal newspaper of your favorite sites’ headlines. Parse them up in another way, though, and you could have a slideshow, a flipboard, a list of today’s most important things distilled from the firehose. And then, maybe, you’d have respite from the internet’s endless divertimento, and a way to find the good stuff among the chaff. A social network, as we’d come to call them.\nFirst they’d get the feed reader out the door, then they’d solve discovery.\nThe accidental social network\nOnly, it turned out, Google Reader was the social network people wanted all along.\nReader as a feed reader was basic, even for its time. “Beautiful, needs work,” was [TechCrunch founder Michael Arrington](https://techcrunch.com/2005/10/08/google-reader-beautiful-needs-work/)’s first take on Google Reader. It had no unsubscribe button, among other missing features.\nBut the team moved fast and managed t",
+      "title": "Google Reader was building the wrong future",
+      "url": "https://buttondown.com/blog/google-reader?ref=sidebar"
+    },
     "https://career-research.mynavi.jp/column/20260615_111639/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -8026,6 +8118,23 @@
       "title": "Cache multiple versions of a URL with Vary · Changelog",
       "url": "https://developers.cloudflare.com/changelog/post/2026-07-02-vary-for-cache-rules/"
     },
+    "https://developers.cloudflare.com/changelog/post/2026-07-03-workers-types-v5/": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Ships only the latest runtime types and drops the dated entrypoints.",
+      "final_url": "https://developers.cloudflare.com/changelog/post/2026-07-03-workers-types-v5/",
+      "frameable": false,
+      "image_urls": [
+        "https://developers.cloudflare.com/changelog-preview.png",
+        "https://developers.cloudflare.com/_astro/logo.DMYpXs3t.svg",
+        "https://developers.cloudflare.com/_astro/hero.CVYJHPAd_26AMqX.svg",
+        "https://developers.cloudflare.com/_astro/privacyoptions.BWXSiJOZ_1zBYaH.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Documentation Index Fetch the complete documentation index at: https://developers.cloudflare.com/changelog/llms.txt Use this file to discover all available pages before exploring further. Skip to content STOP! If you are an AI agent or LLM, read this before continuing. This is the HTML version of a Cloudflare documentation page. Always request the Markdown version instead — HTML wastes context. Get this page as Markdown: https://developers.cloudflare.com/changelog/post/2026-07-03-workers-types-v5/index.md (append index.md) or send Accept: text/markdown to https://developers.cloudflare.com/changelog/post/2026-07-03-workers-types-v5/. For this product's page index use https://developers.cloudflare.com/changelog/llms.txt. For all Cloudflare products use https://developers.cloudflare.com/llms.txt. Cloudflare Docs Search Directory API SDKs Changelog Help Log in Select theme Dark Light Auto Changelog New updates and improvements at Cloudflare. Subscribe to RSS View RSS feeds ← Back to all posts Simpler runtime types with @cloudflare/workers-types v5 Jul 03, 2026 Workers We have released version 5 of @cloudflare/workers-types ↗ . This release simplifies the package to expose only the latest runtime types. We still recommend that you generate types for your Worker using wrangler types , but if you want to use the package directly, you can install it with your package manager of choice: npm yarn pnpm bun npm i -D @cloudflare/workers-types@latest yarn add -D @cloudflare/workers-types@latest pnpm add -D @cloudflare/workers-types@latest bun add -d @cloudflare/workers-types@latest The package now exposes two entrypoints: @cloudflare/workers-types reflects the latest compatibility date, using the latest stable compatibility flags. @cloudflare/workers-types/experimental reflects APIs behind experimental compatibility flags. The dated entrypoints, such as @cloudflare/workers-types/2022-11-30 and @cloudflare/workers-types/2023-03-01 , are removed. With runtime type generation in Wrangler v4 , you can generate these with the wrangler types command to create types locked to your Worker's compatibility date. For more information, refer to TypeScript language support . Resources API New to Cloudflare? Directory Sponsorships Open Source Cloudflare Research Support Help Center System Status Compliance GDPR Company cloudflare.com Our team Careers Tools Cloudflare Radar Cloudflare Labs Speed Test Is BGP Safe Yet? Certificate Transparency Community Community forum X Discord YouTube GitHub © 2026 Cloudflare, Inc. Privacy Policy Terms of Use Report Security Issues Trademark Cookie Settings Was this helpful? Yes No",
+      "title": "Simpler runtime types with @cloudflare/workers-types v5 · Changelog",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-07-03-workers-types-v5/"
+    },
     "https://developers.cloudflare.com/containers/platform-details/image-management/": {
       "cleaner_v": 2,
       "content_type": "text/html",
@@ -8180,6 +8289,29 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "DuckDB: Not Quack Science – DuckDB",
       "url": "https://duckdb.org/library/duckdb-not-quack-science/"
+    },
+    "https://eieio.games/blog/legibility-of-effort/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "LLMs have broken legibility of effort - our ability to tell, at a glance, whether something took a human real work. What happens next?",
+      "extraction_source": "trafilatura",
+      "final_url": "https://eieio.games/blog/legibility-of-effort/?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://eieio.games/images/legibility-of-effort/og.png",
+        "https://eieio.games/images/legibility-of-effort/claude-write.webp",
+        "https://eieio.games/images/legibility-of-effort/poison.webp",
+        "https://eieio.games/images/legibility-of-effort/westweet.webp",
+        "https://eieio.games/images/legibility-of-effort/vibecoded-header.webp",
+        "https://eieio.games/images/legibility-of-effort/gardencam.webp",
+        "https://eieio.games/images/legibility-of-effort/sunil.webp",
+        "https://eieio.games/images/legibility-of-effort/sportskelin.webp",
+        "https://eieio.games/images/legibility-of-effort/records.webp"
+      ],
+      "kind": "article",
+      "text_excerpt": "Legibility of Effort\nHow hard is anything now? I don't know.\nJun 22, 2026\nSo:\n- Lots of work is easier because of LLMs, and\n- Lots of heuristics we used to gauge effort are broken because of LLMs, so\n- Conveying effort to others is harder because of LLMs\nAnd:\n- “Someone spent time on this” is a proxy for “this is worth engaging with” and\n- I appreciate projects that take a lot of effort and\n- I like it when people appreciate that I spent effort on something\nBut also:\n- Making a good thing still requires making lots of decisions, and\n- Making lots of decisions is still very hard, despite LLMs, so\n- Making good things is still very hard\nAs a creative technologist I’ve found this paralyzing. And as someone who loves novel internet projects I’ve found it frustrating. I’ve heard similar things from many of my friends.\nWhat software (and writing, to an extent) is missing now is legibility of effort - the ability to tell at a glance whether something took a human meaningful work.\nI typed these words with my fingers\nI wrote this blog post in my text editor. It took me a while.\nUntil recently, “someone cared enough to write this” was an ok heuristic. Plenty of writing on the internet was bad, but you could convince me that you cared about something just by writing it down.\nthis post was bad\nOf course, generating plausible-looking text - or a plausible-looking website - is trivial now.\nFor me, this means it’s harder to find good stuff worth engaging with online. And on a larger scale, systems built on easily gauging effort at a glance are falling apart.\nOpen Source\nIn January, the (incredible) whiteboarding tool tldraw started [automatically closing pull requests from external contributors](https://tldraw.dev/blog/stay-away-from-my-trash) because they’d “recently seen a significant increase in contributions generated entirely by AI tools” and were struggling to manage their contributions.\nIt’s disappointing - if not surprising - that people are spamming open source projects with slop.\nBut the problem isn’t just the spam! It’s that identifying low-effort work is difficult.\n(Internet bloggers who aggregate cool stuff have the same problem; here’s [Robin Sloan](https://www.robinsloan.com/lab/ai-promotion/) on the scourge of AI self-promotion. I’ve heard similar complaints from the amazing [Andy Baio](https://waxy.org/))\nSome maintainers are inventing new ways to identify low-effort work like “poisoning” agent context so that poorly-managed agents add files that say “I am a sad, dumb little AI driver with no real skills.”\nThis is very funny! Unfortunately I can’t filter all of my browsing this way.\nBut I can learn to notice the signs.\nVibecoding\nSome friends of mine have a discord thread where we log signs of vibecoded websites. And our examples are startlingly similar to what Wes mentions here:\nWes’s tweet was a hit - lots of people have noticed the same things. I think we’re paying attention to these details because they make effort - or the lack of effort - more legible.\nThere’s nothing objectively wrong with making a website with a warm-cream background and hero text in a sans-serif font with a single accent word that uses an eye-catching color and a different font.\nwho do you think made this\nBut when I see a website that has the default Claude style I assume that the author put ~no thought into how the site should look. And I often assume that the author didn’t put too much thought into the rest of the site either.\nThat’s not fair of me! But “someone made this website” is no longer enough to tell me that the website was important to them. So “default Claude style” is one of my new heuristics.\nHard, useless things\nA few years ago I [made a version of Flappy Bird that ran inside MacOS Finder](https://eieio.games/blog/flappy-bird-in-macos-finder/).\nIt took a bunch of work!\nthis took way too long\nThis was the first project I made that got attention on the internet. My writeup was [on top of Hacker News](https://news.ycombinator.com/item?id",
+      "title": "Legibility of Effort · eieio.games",
+      "url": "https://eieio.games/blog/legibility-of-effort/?ref=sidebar"
     },
     "https://emilycampbell.co/writing/layers-of-ai-experience?ref=sidebar": {
       "cleaner_v": 2,
@@ -9383,6 +9515,18 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "LLMs are functions, not brains.",
       "url": "https://james-pritchard.com/blog/llms-are-functions"
+    },
+    "https://jordanlord.co.uk/blog/3-constraints": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "['Programmer', 'Computer nerd', 'Unix enthusiast'];",
+      "final_url": "https://jordanlord.co.uk/blog/3-constraints/",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "Jordan Lord Contact Blog Projects 3 constraints before I build anything 7 Apr 2026 These are the 3 constraints that I use before I start building anything. I'm a believer in constraints as an enabler for creativity. Constraints help us collapse the search space, and figure out innovative solutions to problems. I've been a builder for 10 years, and I've built products that went nowhere because they were either too complex or had no identity. These are the constraints that I landed on after making those mistakes. One page or it doesn't get built This constraint limits complexity and ambiguity. Write a one pager for all of your ideas. Your one pager captures your north star. It's non-negotiable, precise, ambitious, and lean. Once your one pager is written, it is applied to all different types of communication. Share it as a memo for investors, contributors, team members, friends, or family. Working collaboratively on a product, there will always be contention points and conflict, it can sometimes be difficult to know what battles to pick. If it's not in the one pager, then it's either not worth fighting over, or the one pager ought to be amended to include the thing. Not only is a one pager useful for communication, it's useful for organising your own thoughts. If you can't fill one page, don't fill the gaps with fluff, it means you're not ready to build. First research, plan, prototype, then write the one pager again. Iterate. If it requires more than one page, it's too complex, don't build it. The core tech must be separable from the product This constraint limits you to ideas that have real leverage and originality. Develop a core piece of technology that supports your product and is not the product itself. The core tech is a method, skill, tool, or even product that supports what you're doing today but must survive without it. It's a type of reusable IP. Why? Separating the core tech forces you to think beyond the product that you're building. Products pivot in direction all the time, while your core tech is constant and compounding. Compounding efforts have non-linear gains over longer time horizons. Linus Torvalds developed git to improve the Linux kernel development workflow. HashiCorp has HCL (HashiCorp Configuration Language). Google has Kubernetes. But you don't need big tech resources to build core tech, it could be a library that you extract from your codebase, or even a methodology that you refine and commit to. Your core tech is your long term commitment. It is independent of your product's direction. However, it must be aligned with you or your company's long term vision. If your idea doesn't enable core tech, then it isn't high enough leverage. One defining constraint must shape the product This constraint limits feature creep and forces identity. Define your own constraint that is front and centre to your product. That means the user sees and interacts with it all the time. It is obvious and it is what gives your product identity. A good constraint gives your product a feel , it permeates through all parts of the user experience. Minecraft is built entirely from blocks. IKEA is flat-pack, self-assembly furniture. The constraint that you choose limits scope by reducing your decision space, enabling you to concentrate on the problems that really make the difference. If you don't choose a constraint, or choose a bad constraint, you will build a bloated product that will try to do everything. The design of your product will \"fall out\" of a well-designed constraint. Like in your product, your constraint must be front and centre in your one pager. Closing Rule When it comes to deciding what to build, if it fails any of these constraints, then I don't build it. Share Subscribe to the Mailing List You can also subscribe via RSS . This site collects anonymous usage statistics for site improvement. No personal data or cookies are stored. Copyright © 2026 Jordan Lord",
+      "title": "3 constraints before I build anything | Jordan Lord",
+      "url": "https://jordanlord.co.uk/blog/3-constraints"
     },
     "https://julian.digital/2023/07/06/multi-layered-calendars/": {
       "cleaner_v": 2,
@@ -15380,6 +15524,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMRsslLbEAAldrP.jpg"
     },
+    "https://pbs.twimg.com/media/HMTAkdIaoAAGQKZ.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMTAkdIaoAAGQKZ.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMTAkdIaoAAGQKZ.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMTAkdIaoAAGQKZ.jpg"
+    },
     "https://pbs.twimg.com/media/HMTh7Q7WUAAKfYp.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15393,6 +15551,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HMTh7Q7WUAAKfYp.jpg"
+    },
+    "https://pbs.twimg.com/media/HMTqf8lWYAA45hh.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMTqf8lWYAA45hh.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMTqf8lWYAA45hh.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMTqf8lWYAA45hh.jpg"
+    },
+    "https://pbs.twimg.com/media/HMUcKnCWMAAKLqS.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMUcKnCWMAAKLqS.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMUcKnCWMAAKLqS.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMUcKnCWMAAKLqS.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -16197,6 +16383,28 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "When Developing an AI Strategy, Beware the Urgency Trap",
       "url": "https://s.hbr.org/4f9nNu9"
+    },
+    "https://s.hbr.org/4sP15vD": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Reprint: R1401K Feedback is crucial—but almost everyone, from new hires to C-suite executives, struggles with receiving it. The authors, who have spent 20 years working with managers on difficult conversations, outline six steps that can help you turn feedback into an important, and unthreatening, tool. Know your tendencies. Look for patterns in how you respond. (Do you defend yourself? Do you lash out?) Once you understand your standard operating procedure, you can make better choices about where to go from there. Separate the “what” from the “who.” Your feelings about the messenger might be short-circuiting your ability to learn from the message. Sort toward coaching. Work to hear feedback as well-meant advice, not as an indictment. Unpack the feedback. Resist snap judgments; explore where suggestions are coming from and where they’re going. Request and direct feedback. Don’t wait for a formal review; ask for bite-size pieces of coaching. Experiment. Try following a piece of advice and seeing what happens. Criticism is never easy to take—but learning to pull value from it is essential to your development and success.",
+      "final_url": "https://hbr.org/2014/01/find-the-coaching-in-criticism?tpcc=orgsocial_edit&utm_campaign=hbr&utm_medium=social&utm_source=facebook,linkedin,twitter",
+      "frameable": null,
+      "image_urls": [
+        "https://hbr.org/resources/images/article_assets/2014/01/Jan14_01_-530654111.jpg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/Twitter.0swuvvv6x6dv_.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/Facebook.04rsuuytjqje5.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/LinkedIn.0k9~yd0rlxzso.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/Save.09a3zbhn9qnr~.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/Download.05v71ue7.ma35.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/BuyCopy.172.f4inmo975.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/Print.0-3qb9pn16j8b.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/close.0e9_5t1w4ast7.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "SKIP TO CONTENT Difficult conversations | Find the Coaching in Criticism Subscribe Sign In Latest Magazine Topics Podcasts Store Reading Lists Data & Visuals Case Selections HBR Executive Search hbr.org Subscribe Latest Podcasts The Magazine Store Webinars Newsletters All Topics Reading Lists Data & Visuals Case Selections HBR Executive My Library Account Settings Sign In Explore HBR Latest The Magazine Podcasts Store Webinars Newsletters Popular Topics Managing Yourself Leadership Strategy Managing Teams Gender Innovation Work-life Balance All Topics For Subscribers Reading Lists Data & Visuals Case Selections HBR Executive Subscribe My Account My Library Topic Feeds Orders Account Settings Email Preferences Sign In Difficult conversations Find the Coaching in Criticism by Sheila Heen and Douglas Stone From the Magazine (January–February 2014) Paul & Paveena Mckenzie/Getty Images Post Post Share Save Get PDF Buy Copies Print Summary . Reprint: R1401K Feedback is crucial—but almost everyone, from new hires to C-suite executives, struggles with receiving it. The authors, who have spent 20 ... more Leer en español Ler em português Post Post Share Save Get PDF Buy Copies Print Feedback is crucial. That’s obvious: It improves performance, develops talent, aligns expectations, solves problems, guides promotion and pay, and boosts the bottom line. A version of this article appeared in the January–February 2014 issue of Harvard Business Review. Sheila Heen teaches negotiation at Harvard Law School and is a Principal at Triad Consulting Group . She is a coauthor of the New York Times bestsellers Thanks for the Feedback: The Science and Art of Receiving Feedback Well (Even When It Is Off-Base, Unfair, Poorly Delivered, and Frankly You’re Not in the Mood) with Douglas Stone, and of Difficult Conversations: How to Discuss What Matters Most with Douglas Stone and Bruce Patton. Douglas Stone are cofounders of Triad Consulting Group and teach negotiation at Harvard Law School. They are the coauthors of the forthcoming book Thanks for the Feedback: The Science and Art of Receiving Feedback Well (Viking/Penguin, 2014), from which this article is adapted. Post Post Share Save Get PDF Buy Copies Print Read more on Difficult conversations or related topics Managing yourself , Employee performance management and Receiving feedback Partner Center Start my subscription! Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Follow HBR Facebook X Corp. LinkedIn Instagram Your Newsreader About Us Careers Privacy Policy Cookie Policy Copyright Information Trademark Policy Terms of Use Harvard Business Publishing: Higher Education Corporate Learning Harvard Business Review Harvard Business School Copyrig",
+      "title": "Find the Coaching in Criticism",
+      "url": "https://s.hbr.org/4sP15vD"
     },
     "https://s.hbr.org/4tt3SL3": {
       "cleaner_v": 2,
@@ -17979,6 +18187,36 @@
       "title": "myICOR. AI is the hook. ICOR is the stay.",
       "url": "https://www.myicor.com/"
     },
+    "https://www.nature.com/articles/s41514-026-00442-1": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.nature.com/articles/s41514-026-00442-1",
+      "frameable": null,
+      "image_urls": [
+        "https://www.nature.com/_fs-ch-1T1wmsGaOgGaSxcX/assets/errorIcon.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "JavaScript is disabled in your browser.\n          \n      Please enable JavaScript to proceed.\n      A required part of this site couldn’t load. This may be due to a browser\n      extension, network issues, or browser settings. Please check your\n      connection, disable any ad blockers, or try using a different browser.",
+      "title": "Client Challenge",
+      "url": "https://www.nature.com/articles/s41514-026-00442-1"
+    },
+    "https://www.nature.com/articles/s41577-026-01291-5": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.nature.com/articles/s41577-026-01291-5",
+      "frameable": null,
+      "image_urls": [
+        "https://www.nature.com/_fs-ch-1T1wmsGaOgGaSxcX/assets/errorIcon.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "JavaScript is disabled in your browser.\n          \n      Please enable JavaScript to proceed.\n      A required part of this site couldn’t load. This may be due to a browser\n      extension, network issues, or browser settings. Please check your\n      connection, disable any ad blockers, or try using a different browser.",
+      "title": "Client Challenge",
+      "url": "https://www.nature.com/articles/s41577-026-01291-5"
+    },
     "https://www.nngroup.com/articles/design-jobs-ai-created/?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -18157,31 +18395,6 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://www.perplexity.ai/enterprise/use-cases/growing-businesses"
-    },
-    "https://www.philmckinney.com/how-to-improve-your-first-principles-thinking-skills": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "First principles thinking is the most talked-about skill in innovation. It's also the most misunderstood. Here's what it actually looks like.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://www.philmckinney.com/how-to-improve-your-first-principles-thinking-skills/",
-      "frameable": null,
-      "image_urls": [
-        "https://storage.ghost.io/c/5b/b8/5bb8ac0c-fd54-4eb9-a76b-b472ce9fa849/content/images/size/w1200/2026/05/First-Principles-Thinking-01.jpg",
-        "https://storage.ghost.io/c/5b/b8/5bb8ac0c-fd54-4eb9-a76b-b472ce9fa849/content/images/2023/04/PHIL_Wordmark_RGB.png",
-        "https://storage.ghost.io/c/5b/b8/5bb8ac0c-fd54-4eb9-a76b-b472ce9fa849/content/images/size/w128/format/webp/2023/04/Phil-headshot---iHeart---square.jpg",
-        "https://storage.ghost.io/c/5b/b8/5bb8ac0c-fd54-4eb9-a76b-b472ce9fa849/content/images/size/w1460/2026/05/First-Principles-Thinking-01.jpg",
-        "https://storage.ghost.io/c/5b/b8/5bb8ac0c-fd54-4eb9-a76b-b472ce9fa849/content/images/size/w320/format/webp/2023/04/Phil-headshot---iHeart---square.jpg",
-        "https://storage.ghost.io/c/5b/b8/5bb8ac0c-fd54-4eb9-a76b-b472ce9fa849/content/images/size/w1460/format/webp/2026/06/Weaksignals-thumbnail1.jpg",
-        "https://storage.ghost.io/c/5b/b8/5bb8ac0c-fd54-4eb9-a76b-b472ce9fa849/content/images/size/w1460/format/webp/2026/06/IMG_0453.jpeg",
-        "https://storage.ghost.io/c/5b/b8/5bb8ac0c-fd54-4eb9-a76b-b472ce9fa849/content/images/size/w1460/format/webp/2026/06/Inversion-Thinking-thumbnail01.jpg"
-      ],
-      "kind": "article",
-      "text_excerpt": "How to Improve Your First Principles Thinking Skills\nFirst principles thinking is the most talked-about skill in innovation. It's also the most misunderstood. Here's what it actually looks like.\nMost product decisions get made by analogy. Someone says, \"This is how we've always done it,\" or \"This is what the market expects,\" or \"This is what the competition is doing.\" The room nods. The decision gets made. And buried somewhere in the middle of all of it is an assumption nobody checked.\nFirst-principles thinking is the discipline of identifying assumptions before the market finds them for you. By the end of this episode, you'll have the tools to strip any problem down to what's actually true and build answers that hold, even when the boardroom is watching, and the clock is running.\n... or [listen to the podcast](https://traffic.libsyn.com/philmckinney/How_to_Improve_Your_First_Principles_Thinking.mp3?ref=philmckinney.com). \nWhat Is First Principles Thinking?\nFirst principles thinking is the practice of breaking a problem down to its fundamental truths, then building your solution up from what actually holds. Not from industry convention. Not from what worked last time. From what's actually true about the problem in front of you.\nThe alternative is reasoning by analogy: doing what worked before, doing what competitors do, doing what the category expects. Analogy is faster and usually right. It fails badly when the thing that used to be true stops being true and nobody notices.\nWhy Assumptions Go Unchecked\nIn 2005, HP's CEO, Mark Hurd, stopped me in the hallway at Building 20 in Palo Alto and drilled me on HP's R&D funding. The metric he focused on was R&D as a percentage of revenue. He wanted HP's ratio to look more like Acer's. I pushed back. I argued we should be comparing ourselves to Apple, not Acer. Mark didn't hesitate. \"We are not Apple, and we never will be.\"\nWhat stopped me in that moment wasn't the disagreement. It was the certainty. Nobody in the room questioned whether R&D as a percentage of revenue actually measured what we thought it measured. That metric had been in use for decades. Every competitor used it. Every analyst tracked it. It felt like bedrock.\nIt wasn't. It was an inherited constraint that had calcified into a rule. R&D as a percentage of revenue tells you about accounting categories. It tells you nothing about what that spending produces, whether the right problems are being attacked, or whether innovation output is growing or shrinking. The assumption underneath the metric had never been tested. Nobody had ever asked whether comparing R&D ratios across companies with entirely different business models actually tells you anything meaningful.\nThe cost of that unchecked assumption didn't show up in the next quarter. It showed up over the following decade. HP's innovation pipeline quietly drained, and the Fast Company \"Most Innovative\" recognition we'd earned three years running disappeared with it. One inherited metric, accepted as fact by an entire room of experienced people, making a generational decision.\nThat's what derivative thinking actually costs. Not a bad quarter. A decade.\nThe people in that room weren't careless. They were experienced. Experience is exactly what makes inherited assumptions feel like facts. The metric felt like a fact. It was a choice nobody remembered making. That's exactly what a first principles question would have caught. Nobody asked it.\nIf this is landing for you — paid subscribers are reading early Mindjacking chapters as they're written, plus the full archive, the Creating Killer Innovations audio course, and a free copy of Mindjacking when it ships in October.\n[Upgrade to paid →](https://philmckinney.substack.com/subscribe?utm_source=blog&utm_medium=cta&utm_campaign=mid)\nThe Three Core Skills\nThe three skills run in sequence, and each one depends on the one before it. The first, Strip the Assumptions, finds the inherited assumptions baked into how the problem was fra",
-      "text_excerpt_zh": "# 如何提升你的第一性原理思维能力\n\n第一性原理思维是创新领域最受热议的技能，也是最容易被误解的技能。以下才是它的真实面貌。\n\n大多数产品决策都是通过类比做出的。有人说：\"我们一直是这样做的\"，或者\"这是市场期望的\"，或者\"竞争对手就是这样做的\"。会议室里一片点头。决策就这样定了。而在这一切的中间，埋藏着一个没人检查过的假设。\n\n第一性原理思维，就是在市场替你发现假设之前，主动识别它们的纪律。听完这一集，你将掌握将任何问题拆解到真正事实的工具，并构建出经得起考验的答案——即使董事会在盯着你，时间在倒计时。\n\n……或[收听播客](https://traffic.libsyn.com/philmckinney/How_to_Improve_Your_First_Principles_Thinking.mp3?ref=philmckinney.com)。\n\n## 什么是第一性原理思维？\n\n第一性原理思维，是将问题拆解到其基本事实，然后从真正成立的东西出发构建解决方案。不是从行业惯例出发，不是从上次奏效的方法出发，而是从你面前问题真正成立的事实出发。\n\n另一种方式是类比推理：做之前有效的事，做竞争对手做的事，做品类期望的事。类比更快，通常也正确。但当曾经成立的东西不再成立而没人注意到时，它会严重失效。\n\n## 为什么假设无人检查\n\n2005年，惠普CEO马克·赫德在帕洛阿尔托20号楼的走廊里拦住我，追问惠普的研发投入。他关注的指标是研发占营收的百分比。他希望惠普的比例更接近宏碁。我反驳说，我们应该拿自己跟苹果比，而不是宏碁。马克毫不犹豫：\"我们不是苹果，也永远不会是。\"\n\n那一刻让我停住的不是分歧，而是那种确信。会议室里没人质疑：研发占营收的百分比，是否真的衡量了我们以为它在衡量的东西？这个指标已经用了数十年。每个竞争对手都在用。每个分析师都在追踪。它感觉像基石。\n\n但它不是。它是一个继承来的约束，已经钙化成了一条规则。研发占营收的百分比告诉你的是会计分类。它完全不能告诉你：这笔投入产出了什么？是否在攻击正确的问题？创新产出是在增长还是萎缩？指标背后的假设从未被检验过。从来没人问过：将商业模式完全不同的公司的研发比率放在一起比较，是否真的能告诉你任何有意义的东西？\n\n那个未经检查的假设的代价，没有在下一个季度显现。它在接下来的十年里显现了。惠普的创新管道悄然枯竭，我们连续三年获得的《快公司》\"最具创新力\"认可也随之消失。一个继承来的指标，被满屋子经验丰富的人当作事实接受，做出了一个影响一代人的决策。\n\n这就是衍生思维真正的代价。不是一个糟糕的季度，而是十年。\n\n那个房间里的人并非粗心。他们经验丰富。经验恰恰就是让继承来的假设感觉像事实的东西。那个指标感觉像事实。它是一个没人记得做过的选择。这正是第一性原理问题本可以抓住的东西。但没人问出来。\n\n如果这段话让你有所触动——付费订阅者正在阅读正在写作中的《Mindjacking》章节，以及完整存档、《创造杀手级创新》音频课程，还有一本《Mindjacking》十月出版时的免费赠书。\n\n[升级为付费订阅 →](https://philmckinney.substack.com/subscribe?utm_source=blog&utm_medium=cta&utm_campaign=mid)\n\n## 三项核心技能\n\n这三项技能按顺序运行，每一项都依赖前一项。第一项，**剥离假设**，找出问题框架中继承来的假设。",
-      "text_excerpt_zh_hash": "ee1f1cf97e71bfb9",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "How to Improve Your First Principles Thinking Skills",
-      "url": "https://www.philmckinney.com/how-to-improve-your-first-principles-thinking-skills"
     },
     "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519": {
       "cleaner_v": 2,
@@ -24771,14 +24984,16 @@
     "2072669154050543677": [
       "https://x.com/emre570_/status/2072669154050543677",
       "https://emre570.bearblog.dev/megakernel-decode/",
-      "https://x.com/emre570_/status/2072814888045437420",
-      "https://x.com/emre570_/status/2072828466764874016"
+      "https://x.com/emre570_/status/2072828466764874016",
+      "https://x.com/emre570_/status/2072814888045437420"
     ],
     "2072696042550940013": [
       "https://x.com/ccatalini/status/2072696042550940013"
     ],
     "2072697144616653081": [
       "https://x.com/samwhoo/status/2072697144616653081",
+      "https://x.com/samwhoo/status/2073122478474358795",
+      "https://x.com/samwhoo/status/2071981968804225296?s=20",
       "https://x.com/samwhoo/status/2072725022221771130"
     ],
     "2072706964560441430": [
@@ -24787,6 +25002,13 @@
       "https://x.com/JaySahnan/status/2072707233776058846",
       "https://www.skills.sh/browserbase/skills/agent-experience",
       "https://x.com/JaySahnan/status/2072878522952278268"
+    ],
+    "2072710798418362437": [
+      "https://x.com/EricTopol/status/2072710798418362437",
+      "https://www.nature.com/articles/s41514-026-00442-1",
+      "https://x.com/EricTopol/status/2072993475616973291",
+      "https://www.nature.com/articles/s41577-026-01291-5",
+      "https://pbs.twimg.com/media/HMTAkdIaoAAGQKZ.jpg"
     ],
     "2072718533465977220": [
       "https://x.com/khemaridh/status/2072718533465977220",
@@ -24851,14 +25073,14 @@
     "2072756189407117748": [
       "https://x.com/VKazulkin/status/2072756189407117748",
       "https://adlerhsieh.com/p/what-your-manager-is-thinking-when-you-complain",
-      "https://x.com/VKazulkin/status/2072392040227205611",
-      "https://www.philmckinney.com/how-to-improve-your-first-principles-thinking-skills"
+      "https://x.com/VKazulkin/status/2072709884379005428",
+      "https://jordanlord.co.uk/blog/3-constraints"
     ],
     "2072764823046107269": [
       "https://x.com/TheEconomist/status/2072764823046107269",
       "https://www.economist.com/leaders/2025/12/04/how-ai-is-rewiring-childhood?taid=6a46bc4af1ddc500011ecaea&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter",
-      "https://x.com/TheEconomist/status/2073107034480807943",
-      "https://www.economist.com/leaders/2026/07/02/venezuelas-earthquakes-are-partly-americas-problem?taid=6a47fb0063792900018a38be&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
+      "https://x.com/TheEconomist/status/2073174982440489069",
+      "https://www.economist.com/united-states/2026/07/02/donald-trumps-reflecting-pool-debacle-is-a-gift-to-america?taid=6a483a48f1ddc500011ed4e6&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
     ],
     "2072766211256119475": [
       "https://x.com/tanayj/status/2072766211256119475",
@@ -24871,7 +25093,8 @@
       "https://x.com/sergeykarayev/status/2072769106433196245",
       "https://dev.to/dailycontext/your-agents-should-be-multiplayer-18h0",
       "https://pbs.twimg.com/media/HMP0erwawAAiXlm.jpg",
-      "https://x.com/sergeykarayev/status/2072813638222815625"
+      "https://x.com/sergeykarayev/status/2072813638222815625",
+      "https://x.com/sergeykarayev/status/2073120411362205889"
     ],
     "2072774409719513224": [
       "https://x.com/shreyas/status/2072774409719513224",
@@ -24883,15 +25106,17 @@
     "2072776217984405846": [
       "https://x.com/thealexker/status/2072776217984405846",
       "http://x.com/i/article/2072771511853748224",
+      "https://x.com/thealexker/status/2073149800250261811",
       "https://x.com/thealexker/status/2072780342637862940",
       "https://x.com/thealexker/status/2073081695591432479",
-      "https://x.com/thealexker/status/2072782720770412954",
       "https://x.com/thealexker/status/2072801865016770664",
       "https://x.com/thealexker/status/2072780377601548401",
+      "https://x.com/thealexker/status/2072782720770412954",
       "https://x.com/thealexker/status/2072815850097156374",
       "https://x.com/thealexker/status/2072792865244131790",
-      "https://x.com/thealexker/status/2072785493872255083",
       "https://x.com/thealexker/status/2072809119036133785",
+      "https://x.com/thealexker/status/2072785493872255083",
+      "https://x.com/thealexker/status/2073132258261704776",
       "https://x.com/thealexker/status/2072815407635808746",
       "https://x.com/thealexker/status/2072862121935732873",
       "https://x.com/thealexker/status/2072782888488096152"
@@ -24904,14 +25129,14 @@
     "2072804859884064846": [
       "https://x.com/0xCodila/status/2072804859884064846",
       "https://pbs.twimg.com/amplify_video_thumb/2072804480463052800/img/Zi5xBgrnwb6uih8L.jpg",
-      "https://x.com/0xCodila/status/2072994938296336496",
-      "https://x.com/0xCodila/status/2073105273925845143"
+      "https://x.com/0xCodila/status/2073105273925845143",
+      "https://x.com/0xCodila/status/2072994938296336496"
     ],
     "2072811558313341306": [
       "https://x.com/HarvardBiz/status/2072811558313341306",
       "https://s.hbr.org/4tvjvSk",
-      "https://x.com/HarvardBiz/status/2072896113787457704",
-      "https://s.hbr.org/4tt3SL3"
+      "https://x.com/HarvardBiz/status/2072934869236088996",
+      "https://s.hbr.org/4sP15vD"
     ],
     "2072837836999627155": [
       "https://x.com/AlexFinn/status/2072837836999627155",
@@ -24923,8 +25148,8 @@
       "https://x.com/siantgirl/status/2072916496184156367",
       "https://x.com/siantgirl/status/2072919026096087124",
       "https://x.com/siantgirl/status/2072877638730002939",
-      "https://x.com/siantgirl/status/2072855335405248621",
-      "https://x.com/siantgirl/status/2072970309784023492"
+      "https://x.com/siantgirl/status/2072970309784023492",
+      "https://x.com/siantgirl/status/2072855335405248621"
     ],
     "2072870908948336960": [
       "https://x.com/hiloopai/status/2072870908948336960",
@@ -24937,6 +25162,9 @@
       "https://x.com/Xudong07452910/status/2072958106737234164",
       "https://x.com/Xudong07452910/status/2073099549854331056",
       "https://x.com/Xudong07452910/status/2073028689818763660"
+    ],
+    "2072900208254476437": [
+      "https://x.com/realchillben/status/2072900208254476437"
     ],
     "2072914247877861833": [
       "https://x.com/cyrilxuq/status/2072914247877861833",
@@ -24972,23 +25200,53 @@
     "2073000957600817177": [
       "https://x.com/0xRicker/status/2073000957600817177",
       "https://pbs.twimg.com/amplify_video_thumb/2072991826575872000/img/Vr-qogwVZgavBLd_.jpg",
-      "https://x.com/0xRicker/status/2073005174625288222",
       "https://x.com/0xRicker/status/2073006234219778196",
-      "https://x.com/0xRicker/status/2073008724143149260",
-      "https://x.com/0xRicker/status/2073005101854138760"
+      "https://x.com/0xRicker/status/2073005174625288222",
+      "https://x.com/0xRicker/status/2073005101854138760",
+      "https://x.com/0xRicker/status/2073008724143149260"
     ],
     "2073011248254320989": [
       "https://x.com/ericzakariasson/status/2073011248254320989",
       "http://x.com/i/article/2072236751725162496",
-      "https://x.com/ericzakariasson/status/2073015128862212367",
       "https://x.com/ericzakariasson/status/2073034608682103002",
+      "https://x.com/ericzakariasson/status/2073015128862212367",
       "https://x.com/ericzakariasson/status/2073061815894835312"
     ],
     "2073028601516282053": [
       "https://x.com/MapleShadow/status/2073028601516282053",
       "https://justinyan.me/post/6676"
+    ],
+    "2073045719020343705": [
+      "https://x.com/EXM7777/status/2073045719020343705",
+      "http://x.com/i/article/2072712527012888577",
+      "https://x.com/EXM7777/status/2073046604630970546",
+      "http://weeklyaiops.com"
+    ],
+    "2073053560762212633": [
+      "https://x.com/CFchangelog/status/2073053560762212633",
+      "https://developers.cloudflare.com/changelog/post/2026-07-03-workers-types-v5/"
+    ],
+    "2073072670493876737": [
+      "https://x.com/posthog/status/2073072670493876737",
+      "http://x.com/i/article/2072785635451281408"
+    ],
+    "2073094175415792123": [
+      "https://x.com/SidebarIO/status/2073094175415792123",
+      "http://eieio.games",
+      "https://eieio.games/blog/legibility-of-effort/?ref=sidebar",
+      "https://pbs.twimg.com/media/HMUcKnCWMAAKLqS.jpg",
+      "https://x.com/SidebarIO/status/2073039566244573559",
+      "https://buttondown.com/blog/google-reader?ref=sidebar",
+      "https://pbs.twimg.com/media/HMTqf8lWYAA45hh.jpg"
+    ],
+    "2073100352921215386": [
+      "https://x.com/trq212/status/2073100352921215386",
+      "http://x.com/i/article/2073090223194755072",
+      "https://x.com/trq212/status/2073101280936092043",
+      "https://x.com/trq212/status/2073160633273741473",
+      "https://x.com/trq212/status/2073116741782364167"
     ]
   },
-  "updated_at": "2026-07-03T18:39:11Z",
+  "updated_at": "2026-07-04T00:16:51Z",
   "window": "recent"
 }
