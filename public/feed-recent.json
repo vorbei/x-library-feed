@@ -326,6 +326,20 @@
       "title": "Build production-ready documentation from Markdown in seconds",
       "url": "http://docmd.io"
     },
+    "http://econ.st/3QOSmft": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "http://econ.st/3QOSmft",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://econ.st/3QOSmft"
+    },
     "http://eieio.games": {
       "content_type": "text/html; charset=utf-8",
       "description": "games, writing, and nonsense from nolen royalty",
@@ -1303,22 +1317,6 @@
       "title": "",
       "url": "http://x.com/i/article/2060109453488455680"
     },
-    "http://x.com/i/article/2060308122531418112": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2060308122531418112",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060308122531418112/i/keyboard%5Fshortcuts)\n\nDid someone say … cookies?\n\nX and its partners use cookies to provide you with a better, safer and faster service and to support our business. Some cookies are necessary to use our services, improve our services, and make sure they work properly. Show more about your choices.\n\nAccept all cookies\n\nRefuse non-essential cookies\n\n[![Image](https://pbs.twimg.com/media/HJ5lkPEWsAAKBXX?format=jpg&name=900x900)](http://x.com/i/article/2060308122531418112/delba%5Foliveira/article/2062203743387459836/media/2062197352576757760)\n\nFeedback loops: Help Claude Code complete ambitious tasks with less babysitting \n\n[![](https://pbs.twimg.com/profile_images/2045922548387651584/fzDD934a_normal.jpg)](http://x.com/i/article/2060308122531418112/delba%5Foliveira)\n\n[Delba](http://x.com/i/article/2060308122531418112/delba%5Foliveira)\n\n[@delba\\_oliveira](http://x.com/i/article/2060308122531418112/delba%5Foliveira)\n\n·\n\n9h\n\n7\n\n30\n\n475\n\n[33K](http://x.com/i/article/2060308122531418112/delba%5Foliveira/status/2062203743387459836/analytics)\n\nAs we delegate more ambitious tasks to Claude, it becomes increasingly important that it can verify its own work. The more Claude can self-verify:\n\n* the more independently it can work on long-running tasks\n* the better the quality of the final result\n* the fewer back and forths it takes to get there\n\n![](https://pbs.twimg.com/amplify_video_thumb/2062157074419548160/img/kOjfZw1gJwe3Lns8.jpg)\n\nWhen checks depend on you, coding sessions become a turn-based game, and you lose what makes agents useful: autonomy.\n\nThe good news is that Claude already self-verifies against deterministic signals like type errors, lint errors, failing tests, and runtime errors. And as models improve, this will only get better. \n\nWhat Claude can’t always infer are the manual checks you run after it responds, and later on, before you merge code into production. The more of those checks you can encode, the closer Claude’s first response gets to the final result you had in mind. \n\nYou spend less time babysitting, and Claude can keep going while you work on something else.\n\n## \n\nWrite down your processes\n\nA good place to start is to write down the best-practices version of what you or your team already do.\n\nFor frontend, that's usually: run the dev server, open the browser, check the console for errors, click around as the user would and look out for things like layout shift or slow navigations. \n\nEvery domain has its own version. For each of those steps, there's likely a tool Claude can use for verification:\n\n[![Image](https://pbs.twimg.com/media/HJ4Z1TJXAAE_fjG?format=jpg&name=small)](http://x.com/i/article/2060308122531418112/delba%5Foliveira/article/2062203743387459836/media/2062114082845556737)\n\n## \n\nEncode your process as a skill\n\nOnce the process is clear, encode as much of it as possible as a skill. Install the \\`skill-creator\\` plugin, then ask Claude to interview you:\n\nplaintext\n\n```plaintext\n/skill-creator Create a skill for verifying frontend changes end-to-end. Interview me about my workflow.\n```\n\nIf you're struggling to put your process into words, ask Claude for the domain best practices first and let it show you what an end-to-end verification flow might look like. Taste and judgment are difficult to codify, but many checks have criteria Claude measure against: a performance budget, an accessibility checklist, design system rules, good vs bad examples.\n\nFor example, a frontend skill might include instructions to capture a performance trace through the \n\n[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp/)\n\n or \n\n[Agent browser.](https://agent-browser.dev/react)\n\nmarkdown\n\n```markdown\n---\nname: frontend-verify\ndescription: Verify frontend changes in a browser. Run whenever \na UI (page, component, typography, CSS style) change is made.\n---\n\n# Frontend verify\n\n- Run",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2060308122531418112/i/keyboard%5Fshortcuts)\n\n有人提到……cookies 吗？\n\nX 及其合作伙伴使用 cookies 为您提供更好、更安全、更快速的服务，并支持我们的业务。部分 cookies 是使用我们的服务、改进服务并确保其正常运行所必需的。详细了解您的选择。\n\n接受所有 cookies\n\n拒绝非必要 cookies\n\n[![图片](https://pbs.twimg.com/media/HJ5lkPEWsAAKBXX?format=jpg&name=900x900)](http://x.com/i/article/2060308122531418112/delba%5Foliveira/article/2062203743387459836/media/2062197352576757760)\n\n反馈循环：帮助 Claude Code 完成雄心勃勃的任务，减少人工干预\n\n[![](https://pbs.twimg.com/profile_images/2045922548387651584/fzDD934a_normal.jpg)](http://x.com/i/article/2060308122531418112/delba%5Foliveira)\n\n[Delba](http://x.com/i/article/2060308122531418112/delba%5Foliveira)\n\n[@delba\\_oliveira](http://x.com/i/article/2060308122531418112/delba%5Foliveira)\n\n·\n\n9小时前\n\n7\n\n30\n\n475\n\n[33K](http://x.com/i/article/2060308122531418112/delba%5Foliveira/status/2062203743387459836/analytics)\n\n随着我们将更雄心勃勃的任务委托给 Claude，它能够自我验证其工作变得越来越重要。Claude 能自我验证的程度越高：\n\n* 它就越能独立处理长时间运行的任务\n* 最终结果的质量就越好\n* 达成目标所需的来回沟通就越少\n\n![](https://pbs.twimg.com/amplify_video_thumb/2062157074419548160/img/kOjfZw1gJwe3Lns8.jpg)\n\n当检查依赖于你时，编码会话就变成了回合制游戏，你失去了 agent 的效用所在：自主性。\n\n好消息是，Claude 已经能够针对类型错误、lint 错误、测试失败和运行时错误等确定性信号进行自我验证。随着模型改进，这一点只会变得更好。\n\nClaude 无法总是推断的是你在它响应后手动运行的检查，以及之后在将代码合并到生产环境之前运行的检查。你能编码的检查越多，Claude 的首次响应就越接近你心目中的最终结果。\n\n你花在监督上的时间更少，而 Claude 可以在你处理其他事情时继续工作。\n\n## \n\n写下你的流程\n\n一个好的起点是写下你或你的团队已经执行的最佳实践版本。\n\n对于前端来说，这通常是：运行开发服务器，打开浏览器，检查控制台是否有错误，像用户一样点击浏览，并留意布局偏移或导航缓慢等问题。\n\n每个领域都有自己的版本。对于这些步骤中的每一步，很可能都有一个 Claude 可以用于验证的工具：\n\n[![图片](https://pbs.twimg.com/media/HJ4Z1TJXAAE_fjG?format=jpg&name=small)](http://x.com/i/article/2060308122531418112/delba%5Foliveira/article/2062203743387459836/media/2062114082845556737)\n\n## \n\n将你的流程编码为技能\n\n一旦流程清晰，就尽可能多地将它编码为技能。安装 `skill-creator` 插件，然后让 Claude 对你进行访谈：\n\nplaintext\n\n```plaintext\n/skill-creator 创建一个用于端到端验证前端更改的技能。就我的工作流程对我进行访谈。\n```\n\n如果你难以用语言描述你的流程，可以先让 Claude 提供领域最佳实践，让它向你展示端到端验证流程可能的样子。品味和判断力难以编码，但许多检查都有 Claude 可以衡量的标准：性能预算、无障碍检查清单、设计系统规则、好的与坏的示例。\n\n例如，一个前端技能可能包含通过 [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp/) 或 [Agent browser](https://agent-browser.dev/react) 捕获性能跟踪的指令。\n\nmarkdown\n\n```markdown\n---\nname: frontend-verify\ndescription: 在浏览器中验证前端更改。每当 UI（页面、组件、排版、CSS 样式）发生更改时运行。\n---\n\n# 前端验证\n\n- 运行",
-      "text_excerpt_zh_hash": "656721d7174e2287",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2060308122531418112"
-    },
     "http://x.com/i/article/2060567536543182848": {
       "cf_fallback_error": "HTTPError: HTTP Error 500: Internal Server Error",
       "cleaner_v": 2,
@@ -1377,22 +1375,6 @@
       "title": "",
       "url": "http://x.com/i/article/2061486694738882564"
     },
-    "http://x.com/i/article/2061487141285445632": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2061487141285445632",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061487141285445632/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJvgMrbaMAAI9t5?format=jpg&name=900x900)](http://x.com/i/article/2061487141285445632/aiedge%5F/article/2062163097280979223/media/2061487762872872960)\n\nClaude: Dynamic Workflows ULTIMATE GUIDE\n\n[![](https://pbs.twimg.com/profile_images/1910271186442846208/vrYKSYRn_normal.jpg)](http://x.com/i/article/2061487141285445632/aiedge%5F)\n\n[AI Edge](http://x.com/i/article/2061487141285445632/aiedge%5F)\n\n[@aiedge\\_](http://x.com/i/article/2061487141285445632/aiedge%5F)\n\n·\n\n12h\n\nFollow\n\nClick to Follow aiedge\\_\n\n5\n\n26\n\n226\n\n[59K](http://x.com/i/article/2061487141285445632/aiedge%5F/status/2062163097280979223/analytics)\n\nAnthropic just shipped the most powerful Claude feature, and 99% of people scrolled straight past it because Opus 4.8 was louder.\n\nThe feature is Dynamic Workflows, and they're like Claude Skills on steroids. \n\nIf you use Claude Code for anything complex, this changes everything.\n\nIn this article, I'm covering everything you need to know about the Dynamic Workflows.\n\nI guarantee your Claude workflow productivity will skyrocket after this read. \n\nTable of Contents\n\nI: What Are Dynamic Workflows?\n\nII: How to Use Them \n\nIII: Real World Examples \n\nIV: Pro Tips\n\n## \n\nSection I: What Are Dynamic Workflows?\n\nAnthropic's definition: \"A dynamic workflow is a JavaScript script that orchestrates subagents at scale. Claude writes the script for the task you describe, and a runtime executes it in the background while your session stays responsive.\"\n\n[![Image](https://pbs.twimg.com/media/HJwiHRwbQAA9jxG?format=jpg&name=small)](http://x.com/i/article/2061487141285445632/aiedge%5F/article/2062163097280979223/media/2061560237849788416)\n\nAnthropics definition \n\nIn plain English, this now means that Claude works through a problem step by step inside a single conversation. It writes a plan as a script, spins up tens to hundreds of parallel agents to execute different parts of that plan simultaneously, and has those agents check each other's work.\n\nWhat Dynamic Workflows Do (in practice)\n\nDynamic Workflows do three things that nothing else in Claude Code can do at the same scale.\n\n1\\. They Fan Out Across Parallel Agents\n\nInstead of working through a task sequentially, a Dynamic Workflow splits it into subtasks and runs them simultaneously.\n\n2\\. Agents Verify Their Own Work\n\nA workflow can have independent agents adversarially review each other's findings before, or draft a plan from several angles and weigh them against each other.\n\n3\\. They Are Resumable\n\nDynamic Workflows are resumable (good for long tasks). \n\n4\\. The Orchestration Is Saved and Reusable\n\nOnce a workflow does what you wanted, you save it. It becomes a slash command in your project or personal library. Every future run uses the same orchestration logic, so you don't have to describe it again. \n\nYou might be thinking: \"What's the difference between Skills, Plugins, etc. ?\" \n\nThe simplest way to think about the difference:\n\n* Skills tell Claude how to do something it already knows\n* Plugins give Claude access to tools it didn't have\n* Dynamic Workflows give Claude the ability to coordinate an entire workforce to tackle something too big for one conversation\n\n[![Image](https://pbs.twimg.com/media/HJwkxqKbYAAFELi?format=jpg&name=small)](http://x.com/i/article/2061487141285445632/aiedge%5F/article/2062163097280979223/media/2061563164979060736)\n\nDifference between other Claude tools\n\nFor example, a skill can write a research brief, while a plugin can pull live data into that brief, and a Dynamic Workflow can fan out across hundreds of sources simultaneously, have agents cross-check each other's findings, filter out anything that doesn't hold up, and hand you a verified report. \n\n## \n\nSection II: How to Use Dynamic Workflows\n\nLuckily, creating and using dynamic workflows is actually extremely easy.\n\nT",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2061487141285445632/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJvgMrbaMAAI9t5?format=jpg&name=900x900)](http://x.com/i/article/2061487141285445632/aiedge%5F/article/2062163097280979223/media/2061487762872872960)\n\nClaude：动态工作流终极指南\n\n[![](https://pbs.twimg.com/profile_images/1910271186442846208/vrYKSYRn_normal.jpg)](http://x.com/i/article/2061487141285445632/aiedge%5F)\n\n[AI Edge](http://x.com/i/article/2061487141285445632/aiedge%5F)\n\n[@aiedge\\_](http://x.com/i/article/2061487141285445632/aiedge%5F)\n\n·\n\n12小时前\n\n关注\n\n点击关注 aiedge\\_\n\n5\n\n26\n\n226\n\n[59K](http://x.com/i/article/2061487141285445632/aiedge%5F/status/2062163097280979223/analytics)\n\nAnthropic 刚刚推出了 Claude 最强大的功能，而 99% 的人直接划过去了，因为 Opus 4.8 的动静更大。\n\n这个功能就是动态工作流，它就像是 Claude Skills 的增强版。\n\n如果你用 Claude Code 处理任何复杂任务，这将彻底改变一切。\n\n在这篇文章中，我将涵盖你需要了解的关于动态工作流的一切。\n\n我保证，读完本文后，你的 Claude 工作流生产力将飙升。\n\n目录\n\nI：什么是动态工作流？\n\nII：如何使用它们\n\nIII：实际案例\n\nIV：专业技巧\n\n## \n\n第一部分：什么是动态工作流？\n\nAnthropic 的定义：\"动态工作流是一个 JavaScript 脚本，用于大规模编排子代理。Claude 根据你描述的任务编写脚本，运行时在后台执行它，同时你的会话保持响应。\"\n\n[![图片](https://pbs.twimg.com/media/HJwiHRwbQAA9jxG?format=jpg&name=small)](http://x.com/i/article/2061487141285445632/aiedge%5F/article/2062163097280979223/media/2061560237849788416)\n\nAnthropic 的定义\n\n用通俗的话说，这意味着 Claude 现在可以在单个对话中逐步解决问题。它编写一个计划作为脚本，启动数十到数百个并行代理同时执行该计划的不同部分，并让这些代理相互检查工作。\n\n动态工作流的作用（实际应用中）\n\n动态工作流能做到三件事，而 Claude Code 中的其他功能无法达到同样的规模。\n\n1. 它们扩展到并行代理\n\n动态工作流不是顺序执行任务，而是将任务拆分为子任务并同时运行。\n\n2. 代理验证自己的工作\n\n工作流可以让独立的代理对抗性地审查彼此的发现，或者从多个角度起草计划并相互权衡。\n\n3. 它们可恢复\n\n动态工作流是可恢复的（适用于长时间任务）。\n\n4. 编排被保存并可重复使用\n\n一旦工作流完成了你想要的任务，你就可以保存它。它成为你项目或个人库中的一个斜杠命令。每次未来运行时都使用相同的编排逻辑，因此你无需再次描述它。\n\n你可能会想：\"Skills、Plugins 等有什么区别？\"\n\n最简单的思考区别的方式：\n\n* Skills 告诉 Claude 如何做它已经知道的事情\n* Plugins 赋予 Claude 访问它原本没有的工具的能力\n* 动态工作流赋予 Claude 协调整个\"劳动力\"的能力，以处理单个对话无法完成的大任务\n\n[![图片](https://pbs.twimg.com/media/HJwkxqKbYAAFELi?format=jpg&name=small)](http://x.com/i/article/2061487141285445632/aiedge%5F/article/2062163097280979223/media/2061563164979060736)\n\n与其他 Claude 工具的区别\n\n例如，一个 skill 可以撰写一份研究简报，而一个 plugin 可以将实时数据拉入该简报，而一个动态工作流则可以同时扩展到数百个来源，让代理交叉检查彼此的发现，过滤掉任何站不住脚的内容，然后交给你一份经过验证的报告。\n\n## \n\n第二部分：如何使用动态工作流\n\n幸运的是，创建和使用动态工作流实际上非常容易。",
-      "text_excerpt_zh_hash": "c124e121b345ae13",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2061487141285445632"
-    },
     "http://x.com/i/article/2061735436687736832": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1424,38 +1406,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2061785866385911808"
-    },
-    "http://x.com/i/article/2061967596568875008": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2061967596568875008",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061967596568875008/i/keyboard%5Fshortcuts)\n\nDid someone say … cookies?\n\nX and its partners use cookies to provide you with a better, safer and faster service and to support our business. Some cookies are necessary to use our services, improve our services, and make sure they work properly. Show more about your choices.\n\nAccept all cookies\n\nRefuse non-essential cookies\n\n[![Image](https://pbs.twimg.com/media/HJ2avu_aoAA2ZMp?format=jpg&name=900x900)](http://x.com/i/article/2061967596568875008/ericzakariasson/article/2062199026544787576/media/2061974349264101376)\n\nDon't let your agent guess, give it runtime context\n\n[![](https://pbs.twimg.com/profile_images/1841151626456801283/HnXqy3TQ_normal.jpg)](http://x.com/i/article/2061967596568875008/ericzakariasson)\n\n[eric zakariasson![](https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X_bigger.jpg)](http://x.com/i/article/2061967596568875008/ericzakariasson)\n\n[@ericzakariasson](http://x.com/i/article/2061967596568875008/ericzakariasson)\n\n·\n\n10h\n\nFollow\n\nClick to Follow ericzakariasson\n\n17\n\n36\n\n517\n\n[38K](http://x.com/i/article/2061967596568875008/ericzakariasson/status/2062199026544787576/analytics)\n\nIf you've ever watched an agent try to fix a bug, you've watched it guess. It reads the code, comes up with a theory, makes an edit, and hopes. Sometimes it's right. A lot of the time you get a fix that looks confident and quietly hides the real bug.\n\nDebug Mode is what we built for that. Instead of sitting there reasoning about the code, the agent goes and gets evidence about what the code does when it runs.\n\nHere's the loop\n\n1. Agent comes up with multiple hypotheses, and starts to work on the most plausible first\n2. Then, logging is added to test one hypothesis (without touching implementation)\n3. A little debug server collects the runtime output to .cursor/debug.log while your program runs.\n4. You reproduce the bug, and agent can now read the logs and understand what happened instead of having to guess\n5. Cursor finds the root cause in the logs, makes the fix, and pulls out the logging it added.\n\nHere it is on a real bug, sped up to about a minute:\n\n[![](https://pbs.twimg.com/profile_images/1841151626456801283/HnXqy3TQ_normal.jpg)](http://x.com/i/article/2061967596568875008/ericzakariasson)\n\neric zakariasson\n\n![](https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X_bigger.jpg)\n\n@ericzakariasson\n\n·\n\n[May 5](http://x.com/i/article/2061967596568875008/ericzakariasson/status/2051625046821765222)\n\nhere's me using debug mode to fix a small bug in an swift app i just built issue was the initial characters were cut off when typing it out, so i had cursor 1\\. instrument the code 2\\. ask me to reproduce the issue 3\\. read the debug logs 4\\. implement the fix 5\\. ask me to reproduce\n\nShow more\n\n![](https://pbs.twimg.com/amplify_video_thumb/2051624961782272000/img/SS_RjY8lUbUV-niR.jpg)\n\n9\n\n6\n\n188\n\n[15K](http://x.com/i/article/2061967596568875008/ericzakariasson/status/2051625046821765222/analytics)\n\n## \n\nHow the team uses it\n\nSome interesting things that we've solved internally with debug mode:\n\n* A race condition that hit 1 in 20 runs. It was corrupting git metadata in our best-of-N runs. Debug Mode pinned it down in under an hour\n* A memory leak, traced in one pass. It came down to a misuse of our frontend framework. The fix was a single line.\n* A native crash deep in C++. An Electron crash people would normally route around. The logs made it findable.\n* An SSR flicker that had been given up on. A rendering bug nobody wanted to touch, fixed once the agent could see what the page was doing at runtime.\n\nTry it with Shift+Tab (it's in the CLI too, via /debug).\n\nI'm sure people are using it in ways I haven't thought of, so let me know!\n\n* [![](https://pbs.twimg.com/profile_images/1841151626456801283/HnXqy3TQ_normal.jpg)](http://x.com/i/article/2061967596568875008/ericzakar",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2061967596568875008/i/keyboard%5Fshortcuts)\n\n有人提到……Cookie 吗？\n\nX 及其合作伙伴使用 Cookie 为您提供更好、更安全、更快速的服务，并支持我们的业务。部分 Cookie 是使用我们的服务、改进服务并确保其正常运行所必需的。详细了解您的选择。\n\n接受所有 Cookie\n\n拒绝非必要 Cookie\n\n[![图片](https://pbs.twimg.com/media/HJ2avu_aoAA2ZMp?format=jpg&name=900x900)](http://x.com/i/article/2061967596568875008/ericzakariasson/article/2062199026544787576/media/2061974349264101376)\n\n别让你的 agent 靠猜，给它运行时上下文\n\n[![](https://pbs.twimg.com/profile_images/1841151626456801283/HnXqy3TQ_normal.jpg)](http://x.com/i/article/2061967596568875008/ericzakariasson)\n\n[eric zakariasson![](https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X_bigger.jpg)](http://x.com/i/article/2061967596568875008/ericzakariasson)\n\n[@ericzakariasson](http://x.com/i/article/2061967596568875008/ericzakariasson)\n\n·\n\n10小时前\n\n关注\n\n点击关注 ericzakariasson\n\n17\n\n36\n\n517\n\n[38K](http://x.com/i/article/2061967596568875008/ericzakariasson/status/2062199026544787576/analytics)\n\n如果你曾见过 agent 尝试修复 bug，那你一定见过它靠猜。它读取代码，提出一个理论，做出修改，然后祈祷。有时它是对的。但很多时候，你会得到一个看起来很有信心、却悄悄隐藏了真正 bug 的修复方案。\n\nDebug Mode 就是为此而构建的。agent 不再坐在那里推理代码，而是去获取证据，了解代码在运行时实际做了什么。\n\n以下是它的循环流程：\n\n1. Agent 提出多个假设，并首先从最可能的一个开始着手\n2. 然后，添加日志来测试一个假设（不触及实现代码）\n3. 一个小型调试服务器在你的程序运行时，将运行时输出收集到 .cursor/debug.log 中\n4. 你复现 bug，agent 现在可以读取日志并理解发生了什么，而无需猜测\n5. Cursor 在日志中找到根本原因，进行修复，并移除它添加的日志记录\n\n以下是在一个真实 bug 上的演示，加速到大约一分钟：\n\n[![](https://pbs.twimg.com/profile_images/1841151626456801283/HnXqy3TQ_normal.jpg)](http://x.com/i/article/2061967596568875008/ericzakariasson)\n\neric zakariasson\n\n![](https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X_bigger.jpg)\n\n@ericzakariasson\n\n·\n\n[5月5日](http://x.com/i/article/2061967596568875008/ericzakariasson/status/2051625046821765222)\n\n这是我使用 debug mode 修复刚构建的一个 Swift 应用中的小 bug 的过程。问题是输入时初始字符被截断，所以我让 cursor 1. 对代码进行插桩 2. 让我复现问题 3. 读取调试日志 4. 实施修复 5. 让我再次复现\n\n显示更多\n\n![](https://pbs.twimg.com/amplify_video_thumb/2051624961782272000/img/SS_RjY8lUbUV-niR.jpg)\n\n9\n\n6\n\n188\n\n[15K](http://x.com/i/article/2061967596568875008/ericzakariasson/status/2051625046821765222/analytics)\n\n## \n\n团队如何使用它\n\n我们内部使用 debug mode 解决的一些有趣问题：\n\n* 一个在每 20 次运行中只出现 1 次的竞态条件。它在我们的最佳-N 次运行中损坏了 git 元数据。Debug Mode 在一小时内就定位了问题\n* 一个内存泄漏，一次追踪就找到了。问题出在我们对前端框架的误用上。修复只有一行代码。\n* C++ 深处的原生崩溃。一个通常人们会绕开的 Electron 崩溃。日志让它变得可查找。\n* 一个已被放弃的 SSR 闪烁问题。一个没人愿意碰的渲染 bug，一旦 agent 能看到页面在运行时的行为，就被修复了。\n\n试试 Shift+Tab（CLI 中也有，通过 /debug 使用）。\n\n我相信人们正在以我没想到的方式使用它，所以请告诉我！",
-      "text_excerpt_zh_hash": "b5e5fedf2b981b90",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2061967596568875008"
-    },
-    "http://x.com/i/article/2062094052170899456": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2062094052170899456",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062094052170899456/i/keyboard%5Fshortcuts)\n\nDid someone say … cookies?\n\nX and its partners use cookies to provide you with a better, safer and faster service and to support our business. Some cookies are necessary to use our services, improve our services, and make sure they work properly. Show more about your choices.\n\nAccept all cookies\n\nRefuse non-essential cookies\n\n[![Image](https://pbs.twimg.com/media/HJ4HpEEXMAAbDeO?format=jpg&name=900x900)](http://x.com/i/article/2062094052170899456/regent0x%5F/article/2062099361199263928/media/2062094081430335488)\n\nHow to Run 100 Agents in Parallel in Claude Code (Full Playbook)\n\n[![](https://pbs.twimg.com/profile_images/2047016448820670464/_nOVnpOm_normal.jpg)](http://x.com/i/article/2062094052170899456/regent0x%5F)\n\n[regent0x](http://x.com/i/article/2062094052170899456/regent0x%5F)\n\n[@regent0x\\_](http://x.com/i/article/2062094052170899456/regent0x%5F)\n\n·\n\n16h\n\nFollow\n\nClick to Follow regent0x\\_\n\n3\n\n4\n\n43\n\n[3K](http://x.com/i/article/2062094052170899456/regent0x%5F/status/2062099361199263928/analytics)\n\nanthropic shipped something last week that most people completely missed\n\nwhile you're sitting there waiting for one claude session to grind through a task, claude code can now fan that same task out across 100 agents working in parallel - all from a single prompt\n\nit's called dynamic workflows. and the framing from anthropic is blunt: work you'd normally plan in quarters now finishes in days\n\nthis isn't hype. someone used it to rewrite 750,000 lines of code in 11 days. i'll break down exactly how that happened, when to use it, how to not bankrupt yourself on tokens, and the exact prompts to copy\n\nsave this one. it's long because it's a real playbook, not a teaser\n\n## \n\n.what dynamic workflows actually are\n\nfirst, let's clear up the confusion. claude code now has three different ways to run multiple agents, and people mix them up constantly. picking the wrong one wastes money and time\n\n→ subagents \\- run inside a single session, do one well-defined task, report back to the parent. consistent and cost-predictable. they can't talk to each other\n\n→ agent teams \\- multiple full claude sessions that coordinate, message each other, and divide work. powerful, but every message between agents is a billable round trip\n\n→ dynamic workflows \\- the new one. claude writes its own orchestration scripts, breaks your task into subtasks, and fans them out across tens to hundreds of parallel subagents in a single session\n\n[![Image](https://pbs.twimg.com/media/HJ4IvlAXUAI0HIC?format=png&name=small)](http://x.com/i/article/2062094052170899456/regent0x%5F/article/2062099361199263928/media/2062095292862779394)\n\nthe key difference with dynamic workflows: you don't design the orchestration. claude does\n\nyou give it a big task. it plans the fan-out, runs the agents, has other agents try to refute what the first ones found, iterates until the answers converge, and hands you one coordinated result\n\none engineer at CyberAgent described it as the gap-filler \\- it sits between firing off a single subagent and hand-building a full agent team. you describe the problem, claude figures out how to parallelize it, and the plan stays on track no matter how big the task gets because the coordination happens outside the conversation\n\n  \n## \n\n.the proof - 750,000 lines in 11 days\n\nthe example that made people pay attention: the rewrite of Bun\n\nJarred Sumner used dynamic workflows to port Bun from Zig to Rust. the numbers are absurd:\n\n* roughly 750,000 lines of Rust\n* 99.8% of the existing test suite passing\n* 11 days from first commit to merge\n\n[![Image](https://pbs.twimg.com/media/HJ4JKjZWwAAQrk2?format=png&name=small)](http://x.com/i/article/2062094052170899456/regent0x%5F/article/2062099361199263928/media/2062095756287197184)\n\nhere's how it actually worked, because the process is the entire lesson:\n\n→ workflow 1 mapped",
-      "text_excerpt_zh": "## 如何在 Claude Code 中并行运行 100 个 Agent（完整操作手册）\n\nAnthropic 上周发布了一项功能，但大多数人完全错过了。\n\n当你还在等待一个 Claude 会话缓慢处理任务时，Claude Code 现在可以将同一个任务分发给 100 个并行工作的 agent——仅需一次提示。\n\n这项功能叫做 **动态工作流（dynamic workflows）**。Anthropic 的说法很直白：原本需要按季度规划的工作，现在几天内就能完成。\n\n这不是炒作。有人用它在 11 天内重写了 75 万行代码。下面我会详细拆解这是如何做到的、何时使用、如何避免 token 耗尽，以及可以直接复制的提示词。\n\n收藏好这篇。内容很长，因为这是真正的操作手册，不是预告片。\n\n## 动态工作流到底是什么\n\n首先，澄清一个常见的混淆点。Claude Code 现在有三种不同的方式运行多个 agent，人们经常搞混。选错方式既浪费钱又浪费时间。\n\n→ **子 agent（subagents）**——在单个会话内运行，执行一个明确定义的任务，然后向父 agent 汇报。稳定且成本可预测。它们之间不能互相通信。\n\n→ **agent 团队（agent teams）**——多个完整的 Claude 会话协同工作，互相发送消息并分工。功能强大，但 agent 之间的每条消息都是一次计费的往返。\n\n→ **动态工作流（dynamic workflows）**——这是新功能。Claude 自己编写编排脚本，将你的任务拆解为子任务，并在单个会话中分发给数十到数百个并行子 agent。\n\n动态工作流的关键区别在于：你不需要设计编排逻辑。Claude 来做。\n\n你给它一个大任务。它规划分发方案，运行 agent，让其他 agent 尝试反驳第一批 agent 的发现，反复迭代直到答案收敛，然后交给你一个协调后的结果。\n\nCyberAgent 的一位工程师将其描述为 **填补空白** 的工具——它介于启动单个子 agent 和手动构建完整 agent 团队之间。你描述问题，Claude 找出并行化的方法，无论任务多大，计划都不会偏离轨道，因为协调发生在对话之外。\n\n## 实证——11 天完成 75 万行代码\n\n这个例子让人们真正重视起来：Bun 的重写。\n\nJarred Sumner 使用动态工作流将 Bun 从 Zig 移植到 Rust。数据令人震惊：\n\n* 大约 75 万行 Rust 代码\n* 99.8% 的现有测试套件通过\n* 从第一次提交到合并仅用 11 天\n\n以下是实际的工作流程，因为过程本身就是全部的经验教训：\n\n→ 工作流 1 映射",
-      "text_excerpt_zh_hash": "489de2fa46a7f488",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2062094052170899456"
     },
     "http://x.com/i/article/2062125489721102336": {
       "cf_fallback_error": "HTTPError: HTTP Error 500: Internal Server Error",
@@ -1543,22 +1493,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2062217540411994112"
-    },
-    "http://x.com/i/article/2062229784009256960": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2062229784009256960",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062229784009256960/i/keyboard%5Fshortcuts)\n\nDid someone say … cookies?\n\nX and its partners use cookies to provide you with a better, safer and faster service and to support our business. Some cookies are necessary to use our services, improve our services, and make sure they work properly. Show more about your choices.\n\nAccept all cookies\n\nRefuse non-essential cookies\n\n[![Image](https://pbs.twimg.com/media/HJ6Zq_eaoAAGtqA?format=jpg&name=900x900)](http://x.com/i/article/2062229784009256960/aparnadhinak/article/2062233330196926720/media/2062254643254829056)\n\nFaking a Filesystem For your Agent: PostgresFS\n\n[![](https://pbs.twimg.com/profile_images/1258117513872728064/c5A0LbF5_normal.jpg)](http://x.com/i/article/2062229784009256960/aparnadhinak)\n\n[Aparna Dhinakaran![](https://pbs.twimg.com/profile_images/2051433378692640768/Ph-ysq0G_bigger.jpg)](http://x.com/i/article/2062229784009256960/aparnadhinak)\n\n[@aparnadhinak](http://x.com/i/article/2062229784009256960/aparnadhinak)\n\n·\n\n7h\n\n·\n\nFollow\n\nClick to Follow aparnadhinak\n\n5\n\n16\n\n109\n\n[8.4K](http://x.com/i/article/2062229784009256960/aparnadhinak/status/2062233330196926720/analytics)\n\nFaking a filesystem for your agent: why PostgresFS lost to a skill\n\nCo written by \n\n[@SufjanFana](https://x.com/@SufjanFana)\n\nWorking with agent harnesses, it is hard not to be impressed by the power that Bash and filesystems lend to the modern agent. Bash and file operations sit at the core of the tool-calling workflows harnesses use every day. The strength of that foundation has even led some people to say, \n\n[“Bash might be all you need.”](https://vercel.com/changelog/introducing-bash-tool-for-filesystem-based-context-retrieval)\n\nBut that raises a deeper question for us: how far should we push this abstraction? Why does Bash work so well for agents, and where are the edges?\n\n[@mintlify](https://x.com/@mintlify)\n\n[recently introduced an approach](https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant)\n\n called ChromaFS, which gives their database a filesystem-like interface. Their write-up was thoughtful and sparked a serious debate on our team. Should every database expose a filesystem-style interface for agents? It felt like the perfect test case for answering some of our deeper questions about Bash-centric workflows.\n\n[![Image](https://pbs.twimg.com/media/HJ6DxVAa0AASBYM?format=jpg&name=small)](http://x.com/i/article/2062229784009256960/aparnadhinak/article/2062233330196926720/media/2062230562857996288)\n\n# \n\nThe pattern teams are copying\n\nMintlify built ChromaFs to make their docs assistant smarter. Plain vector RAG could only return chunks that matched a query embedding; if the answer spanned several pages, or needed exact syntax that never landed in the top-K, the agent was stuck. So they wrapped their Chroma vector store in a filesystem-shaped interface: the agent runs ls, cat, grep, and underneath every command is a database read. They published it as a pattern other teams could copy. The same \"wrap the database as a filesystem\" move is now showing up on SQL databases that never needed it.\n\nYour agent has the same shape of problem: it needs to work with data in a database. The premise behind the pattern is that agents are fluent at what their training data has seen, so you should hand them a familiar surface. Whether a familiar surface is enough, or whether what matters is where the data actually lives, is what we set out to test.\n\n# \n\nOur Hypothesis\n\nSelectively letting an agent pull only the data it needs from a database (via a skill), then giving it the full local Bash toolset, should beat the complexity of building a Bash-like interface into the database itself.\n\nThe reason is practical: many shell and pipe workflows only exist in full form locally. The local toolbox is broader than what you can realistically re-create behind a database abstraction. Databases",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2062229784009256960/i/keyboard%5Fshortcuts)\n\n有人提到……cookies 吗？\n\nX 及其合作伙伴使用 cookies 为您提供更好、更安全、更快速的服务，并支持我们的业务。某些 cookies 是使用我们的服务、改进服务并确保其正常运行所必需的。详细了解您的选择。\n\n接受所有 cookies\n\n拒绝非必要 cookies\n\n[![图片](https://pbs.twimg.com/media/HJ6Zq_eaoAAGtqA?format=jpg&name=900x900)](http://x.com/i/article/2062229784009256960/aparnadhinak/article/2062233330196926720/media/2062254643254829056)\n\n为你的 Agent 伪造一个文件系统：PostgresFS\n\n[![](https://pbs.twimg.com/profile_images/1258117513872728064/c5A0LbF5_normal.jpg)](http://x.com/i/article/2062229784009256960/aparnadhinak)\n\n[Aparna Dhinakaran![](https://pbs.twimg.com/profile_images/2051433378692640768/Ph-ysq0G_bigger.jpg)](http://x.com/i/article/2062229784009256960/aparnadhinak)\n\n[@aparnadhinak](http://x.com/i/article/2062229784009256960/aparnadhinak)\n\n·\n\n7小时前\n\n·\n\n关注\n\n点击关注 aparnadhinak\n\n5\n\n16\n\n109\n\n[8.4K](http://x.com/i/article/2062229784009256960/aparnadhinak/status/2062233330196926720/analytics)\n\n为你的 agent 伪造一个文件系统：为什么 PostgresFS 输给了技能\n\n与 [@SufjanFana](https://x.com/@SufjanFana) 合著\n\n在使用 agent harness 时，很难不被 Bash 和文件系统赋予现代 agent 的强大能力所折服。Bash 和文件操作是 harness 每天使用的工具调用工作流的核心。这一基础的强大之处甚至让一些人说出：\n\n[“Bash 可能就是你所需要的一切。”](https://vercel.com/changelog/introducing-bash-tool-for-filesystem-based-context-retrieval)\n\n但这引出了我们一个更深层次的问题：我们应该将这个抽象推到多远？为什么 Bash 对 agent 如此有效，其边界又在哪里？\n\n[@mintlify](https://x.com/@mintlify) [最近引入了一种方法](https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant)，称为 ChromaFS，它为数据库提供了一个类似文件系统的接口。他们的文章很有见地，并在我们团队中引发了严肃的讨论。是否每个数据库都应该为 agent 暴露一个文件系统风格的接口？这感觉像是回答我们关于以 Bash 为中心的工作流的一些更深层次问题的完美测试案例。\n\n[![图片](https://pbs.twimg.com/media/HJ6DxVAa0AASBYM?format=jpg&name=small)](http://x.com/i/article/2062229784009256960/aparnadhinak/article/2062233330196926720/media/2062230562857996288)\n\n# \n\n团队正在复制的模式\n\nMintlify 构建了 ChromaFs 来使其文档助手更智能。普通的向量 RAG 只能返回与查询嵌入匹配的块；如果答案跨越多个页面，或者需要从未进入 top-K 的精确语法，agent 就会卡住。因此，他们将 Chroma 向量存储包装在一个文件系统形状的接口中：agent 运行 ls、cat、grep，而每个命令底层都是一次数据库读取。他们将其发布为一种模式，供其他团队复制。同样的“将数据库包装为文件系统”的做法现在也出现在从未需要它的 SQL 数据库上。\n\n你的 agent 面临同样形状的问题：它需要处理数据库中的数据。该模式的前提是，agent 对其训练数据中见过的东西很熟悉，因此你应该交给它们一个熟悉的表面。这个熟悉的表面是否足够，或者真正重要的是数据实际存储在哪里，正是我们着手测试的内容。\n\n# \n\n我们的假设\n\n有选择地让 agent 通过技能从数据库中拉取它所需的数据，然后赋予它完整的本地 Bash 工具集，应该能胜过在数据库本身内部构建类似 Bash 接口的复杂性。\n\n原因很实际：许多 shell 和管道工作流只以完整形式存在于本地。本地工具箱比你在数据库抽象背后实际能重建的要广泛得多。数据库",
-      "text_excerpt_zh_hash": "7df20bb68f89f49b",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2062229784009256960"
     },
     "http://x.com/i/article/2062248271444111360": {
       "cleaner_v": 2,
@@ -6789,24 +6723,6 @@
       "title": "",
       "url": "https://alphasignal.ai/newsletter"
     },
-    "https://animations.dev/vocabulary?ref=sidebar": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "A glossary of common animation patterns, so you know what to ask for.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://animations.dev/vocabulary?ref=sidebar",
-      "frameable": null,
-      "image_urls": [
-        "https://animations.dev/opengraph-image-pwu6ef.png?opengraph-image.8dc3bdbf.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "A glossary of common animation patterns taught in the course. Use these names to describe what you want when prompting an AI.\nHow elements appear and disappear.\n- -\nFade in / Fade out — Element appears or disappears by changing opacity.\n- -\nSlide in — Element enters by sliding in from off-screen (left, right, top, or bottom).\n- -\nScale in — Element grows from smaller to full size as it appears, often paired with a fade.\n- -\nPop in — Element appears with a slight overshoot, like it bounces into place.\n- -\nReveal — Content is uncovered gradually, often by animating a clip-path or mask.\n- -\nEnter / Exit — The animation an element plays when it’s added to or removed from the screen.\nCoordinating multiple elements or moments.\n- -\nKeyframes — Defined points in an animation (0%, 50%, 100%) that the browser fills the gaps between.\n- -\nInterpolation / Tween — Generating all the in-between frames between a start and end value, so motion is continuous.\n- -\nStagger — Animate several items one after another with a small delay between each, creating a cascade.\n- -\nOrchestration — Deliberately timing multiple animations so they feel like one coordinated motion.\n- -\nDelay — Time before an animation starts.\n- -\nDuration — How long an animation takes.\n- -\nFill mode — Whether an element keeps its first or last frame's styles before the animation starts or after it ends (e.g. forwards).\n- -\nStepped animation — An animation that is divided into discrete steps, like a countdown timer.\nChanging an element’s position, size, or angle.\n- -\nTranslate — Move an element along the X or Y axis.\n- -\nScale — Make an element bigger or smaller.\n- -\nRotate — Spin an element around a point.\n- -\nSkew — Slant an element along the X or Y axis, shearing it out of its rectangular shape.\n- -\n3D tilt / Flip — Rotate in 3D space (rotateX / rotateY) to add depth.\n- -\nPerspective — How strong the 3D effect looks — a lower value exaggerates depth, like the viewer is closer.\n- -\nTransform origin — The anchor point a scale or rotation grows or spins from.\n- -\nOrigin-aware animation — An element animates out of its trigger, like a popover growing from the button that opened it instead of from its own center which is the default in CSS.\nConnecting one state, view, or element to another.\n- -\nCrossfade — One element fades out as another fades in, in the same spot.\n- -\nContinuity transition — A change that keeps the user oriented by visually connecting before and after. For example, making the same rectangle bigger and smaller.\n- -\nMorph — One shape smoothly turns into another shape, e.g. Dynamic Island.\n- -\nShared element transition — An element travels and transforms from one position into another, like a thumbnail expanding into a card.\n- -\nLayout animation — When an element’s size or position changes, it animates to the new spot instead of snapping.\n- -\nAccordion / Collapse — A section smoothly expands and collapses its height to show or hide content.\n- -\nDirection-aware transition — Content slides one way going forward and the opposite way going back, so navigation has a sense of direction.\nMotion tied to scrolling or navigating between views.\n- -\nScroll reveal — Elements fade or slide into place as they enter the viewport.\n- -\nScroll-driven animation — An animation whose progress is tied directly to scroll position.\n- -\nParallax — Background and foreground move at different speeds while scrolling, creating depth.\n- -\nPage transition — An animation that plays when navigating from one page or route to another.\n- -\nView transition — The browser morphs between two states or pages, connecting shared elements.\nResponding to the user’s actions.\n- -\nHover effect — Visual change when the cursor moves over an element.\n- -\nPress / Tap feedback — A subtle scale-down when an element is clicked, so it feels physical.\n- -\nHold to confirm — A progress effect that fills up while the user holds a button.\n- -\nDrag — Moving an element by grabbing it, often with momentum when released.\n- -\nDrag",
-      "text_excerpt_zh": "以下是课程中教授的常见动画模式术语表。在向 AI 描述需求时，可使用这些名称。\n\n**元素出现与消失的方式**\n- -\n淡入 / 淡出 — 通过改变透明度使元素出现或消失。\n- -\n滑入 — 元素从屏幕外（左、右、上或下）滑入。\n- -\n缩放进入 — 元素从较小尺寸逐渐放大到完整尺寸，通常与淡入效果搭配。\n- -\n弹入 — 元素出现时带有轻微过冲，仿佛弹跳到位。\n- -\n揭示 — 内容逐渐被揭开，通常通过动画化裁剪路径或遮罩实现。\n- -\n进入 / 退出 — 元素被添加到屏幕或从屏幕移除时播放的动画。\n\n**协调多个元素或时刻**\n- -\n关键帧 — 动画中定义的点（0%、50%、100%），浏览器自动填充中间帧。\n- -\n插值 / 补间 — 在起始值与结束值之间生成所有中间帧，使运动连续。\n- -\n交错 — 多个项目依次动画，每个之间有小延迟，形成级联效果。\n- -\n编排 — 有意安排多个动画的时机，使其感觉像一次协调的运动。\n- -\n延迟 — 动画开始前的等待时间。\n- -\n持续时间 — 动画完成所需的时间。\n- -\n填充模式 — 元素在动画开始前或结束后是否保持其第一帧或最后一帧的样式（例如 forwards）。\n- -\n步进动画 — 动画被划分为离散步骤，例如倒计时器。\n\n**改变元素的位置、大小或角度**\n- -\n平移 — 沿 X 轴或 Y 轴移动元素。\n- -\n缩放 — 放大或缩小元素。\n- -\n旋转 — 绕某一点旋转元素。\n- -\n倾斜 — 沿 X 轴或 Y 轴倾斜元素，使其偏离矩形形状。\n- -\n3D 倾斜 / 翻转 — 在 3D 空间中旋转（rotateX / rotateY）以增加深度感。\n- -\n透视 — 3D 效果的强度——数值越低，深度感越夸张，仿佛观看者更近。\n- -\n变换原点 — 缩放或旋转的锚点，元素从该点放大或旋转。\n- -\n原点感知动画 — 元素从其触发点开始动画，例如弹出框从打开它的按钮处生长，而不是从自身中心（CSS 默认行为）。\n\n**连接一种状态、视图或元素与另一种**\n- -\n交叉淡变 — 一个元素淡出的同时另一个元素在同一位置淡入。\n- -\n连续性过渡 — 通过视觉连接前后状态，使用户保持方向感的变化。例如，使同一个矩形变大或变小。\n- -\n变形 — 一种形状平滑地转变为另一种形状，例如灵动岛。\n- -\n共享元素过渡 — 一个元素从一个位置移动到另一个位置并变换形态，例如缩略图展开为卡片。\n- -\n布局动画 — 当元素的大小或位置改变时，它动画移动到新位置，而不是瞬间跳转。\n- -\n手风琴 / 折叠 — 一个部分通过平滑地展开和折叠其高度来显示或隐藏内容。\n- -\n方向感知过渡 — 内容在前进时向一个方向滑动，后退时向相反方向滑动，使导航具有方向感。\n\n**与滚动或在视图间导航相关的运动**\n- -\n滚动揭示 — 元素进入视口时淡入或滑入到位。\n- -\n滚动驱动动画 — 动画进度直接与滚动位置关联。\n- -\n视差 — 滚动时背景和前景以不同速度移动，产生深度感。\n- -\n页面过渡 — 从一个页面或路由导航到另一个时播放的动画。\n- -\n视图过渡 — 浏览器在两种状态或页面之间变形，连接共享元素。\n\n**响应用户操作**\n- -\n悬停效果 — 光标移到元素上时发生的视觉变化。\n- -\n按下 / 点击反馈 — 点击元素时轻微缩小，使其具有物理感。\n- -\n长按确认 — 用户按住按钮时逐渐填充的进度效果。\n- -\n拖拽 — 通过抓取移动元素，松开时通常带有惯性。\n- -\n拖拽",
-      "text_excerpt_zh_hash": "615d568e111d3d34",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Vocabulary",
-      "url": "https://animations.dev/vocabulary?ref=sidebar"
-    },
     "https://aresluna.org/show-your-hands-honor/?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html",
@@ -7869,6 +7785,20 @@
       "title": "Enterprise Open Source AI Models | Cohere",
       "url": "https://cohere.com/models-overview"
     },
+    "https://cursor.com/ja/lp-team/composer-25-hackathon": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 404: Not Found",
+      "final_url": "https://cursor.com/ja/lp-team/composer-25-hackathon",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "https://cursor.com/ja/lp-team/composer-25-hackathon"
+    },
     "https://cursor.com/origin": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -8283,27 +8213,6 @@
       "text_excerpt_zh": "",
       "title": "Loop-Engineering-IEEE.pdf - Google Drive",
       "url": "https://drive.google.com/file/d/1qzKI4DKnyHRpXK1J3ATPqwaqLc0iNu-M/view?usp=sharing"
-    },
-    "https://duckdb.org/library/duckdb-not-quack-science/": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "DuckDB is an in-process SQL database management system focused on analytical query processing. It is designed to be easy to install and easy to use. DuckDB has no external dependencies. DuckDB has bindings for C/C++, Python, R, Java, Node.js, Go and other languages.",
-      "final_url": "https://duckdb.org/library/duckdb-not-quack-science/",
-      "frameable": null,
-      "image_urls": [
-        "https://duckdb.org/images/sharingduckdb.jpg",
-        "https://duckdb.org/images/logo-dl/DuckDB_Logo-horizontal.svg",
-        "https://duckdb.org/images/blog/authors/gabor_szarnyas.png",
-        "https://duckdb.org/images/library/thumbs/placeholder-duckdb-2.svg",
-        "https://duckdb.org/images/library/thumbs/placeholder-duckdb-1.svg"
-      ],
-      "kind": "article",
-      "text_excerpt": "Documentation Getting Started Installation Quack Remote Protocol Guides Data Import Client APIs SQL Introduction Why DuckDB Resources Blog Library Events Everywhere Webshop Design FAQ GitHub 38.6k Support Support DuckDB: Not Quack Science Gábor Szárnyas 2026-05-27 · 35 min Event Ubuntu Summit 2026 Slides Download YouTube DuckDB: Not Quack Science Abstract DuckDB is an open-source SQL database system, geared towards analytical workloads. DuckDB ships a state-of-the-art database architecture as a single package, that is available both as a command line tool and as an in-process library. Uniquely among databases, DuckDB focuses on user experience and portability, making it easy to set up almost anywhere. In this talk, I give a high-level overview of DuckDB. I explain our “friendly SQL” language, which builds on Postgres’ SQL dialect and makes it more ergonomic while staying backwards-compatible. I also present our “friendly CLI”, a command line interface optimized for productivity. I show case studies on how you can process hundreds of GBs of data on your laptop or tens of terabytes on a single server. Other Library Resources DuckCon #7 Talk 30 min DuckCon #7 – State of the Duck 2026-06-24 Hannes Mühleisen and Mark Raasveldt infoq.com Paper DuckDB Quack: Client/Server Protocol over HTTP for Multi-User Analytics 2026-05-31 Renato Losio (InfoQ) Joe Reis Podcast 70 min Quack w/ Hannes Mühleisen 2026-05-28 Hannes Mühleisen All library resources DuckDB is an open-source project by DuckLabs . Documentation Getting Started Installation Guides Data Import Client APIs SQL Introduction Quack Remote Protocol Why DuckDB Resources Engineering Blog Library Quack Page Events Webshop RSS Feed Status Page FAQ Development Release Calendar Roadmap Building DuckDB GitHub Issues Related Sites DuckLake DuckLabs DuckDB Foundation Commercial Support Community Community Extensions LinkedIn Bluesky X (Twitter) Discord © 2026 DuckDB Foundation, Amsterdam NL Code of Conduct Trademark Use",
-      "text_excerpt_zh": "DuckDB：不是伪科学\n\nGábor Szárnyas  \n2026-05-27 · 35 分钟  \n\n活动  \nUbuntu Summit 2026  \n幻灯片下载  \nYouTube  \n\nDuckDB：不是伪科学  \n\n摘要  \n\nDuckDB 是一个面向分析型工作负载的开源 SQL 数据库系统。DuckDB 将最先进的数据库架构打包成一个独立的软件包，既可以作为命令行工具使用，也可以作为进程内库使用。在数据库领域，DuckDB 独特地专注于用户体验和可移植性，使其几乎可以在任何地方轻松部署。在本次演讲中，我将对 DuckDB 进行高层概述。我将解释我们的“友好 SQL”语言，它基于 Postgres 的 SQL 方言，在保持向后兼容的同时使其更符合人体工程学。我还将介绍我们的“友好 CLI”，一个专为生产力优化的命令行界面。我将通过案例研究展示如何在笔记本电脑上处理数百 GB 的数据，或在单台服务器上处理数十 TB 的数据。\n\n其他库资源  \n\nDuckCon #7 演讲 30 分钟  \nDuckCon #7 – 鸭子现状  \n2026-06-24  \nHannes Mühleisen 和 Mark Raasveldt  \ninfoq.com  \n\n论文  \nDuckDB Quack：基于 HTTP 的客户端/服务器协议，用于多用户分析  \n2026-05-31  \nRenato Losio (InfoQ)  \n\nJoe Reis 播客 70 分钟  \nQuack w/ Hannes Mühleisen  \n2026-05-28  \nHannes Mühleisen  \n\n所有库资源  \n\nDuckDB 是 DuckLabs 的一个开源项目。",
-      "text_excerpt_zh_hash": "09ef95bc02f463e4",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "DuckDB: Not Quack Science – DuckDB",
-      "url": "https://duckdb.org/library/duckdb-not-quack-science/"
     },
     "https://eieio.games/blog/legibility-of-effort/?ref=sidebar": {
       "cleaner_v": 2,
@@ -8951,6 +8860,21 @@
       "title": "GitHub - byoungd/English-level-up-tips: An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语 · GitHub",
       "url": "https://github.com/byoungd/English-level-up-tips"
     },
+    "https://github.com/cloudflare/kumo": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Cloudflare's component library for building modern web applications. - cloudflare/kumo",
+      "final_url": "https://github.com/cloudflare/kumo",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/abfc0790ec7f0b205fc7cabf2197d1eefe76645c8778aa3ce73d4fc38eed884a/cloudflare/kumo",
+        "https://private-user-images.githubusercontent.com/3777243/544002349-032f5a0e-b686-4440-b1ca-6182379479aa.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODMxMzgyNjUsIm5iZiI6MTc4MzEzNzk2NSwicGF0aCI6Ii8zNzc3MjQzLzU0NDAwMjM0OS0wMzJmNWEwZS1iNjg2LTQ0NDAtYjFjYS02MTgyMzc5NDc5YWEucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDcwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA3MDRUMDQwNjA1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ODRiMjZmYWY2OGJiYWJhOTQ3OWI3ZDcxZjNjYTFkNThmNGYwNTAwZjM2NDYyNDcwODFmNDc1MjE4YzQ1OWY5YyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.SzkOiLgXtj4wM7rywdoVlO5cPjnqyTinWDbdIjjMORg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - cloudflare/kumo: Cloudflare's component library for building modern web applications. · GitHub",
+      "url": "https://github.com/cloudflare/kumo"
+    },
     "https://github.com/danielmiessler/Personal_AI_Infrastructure": {
       "content_type": "text/html; charset=utf-8",
       "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities. - danielmiessler/Personal_AI_Infrastructure",
@@ -9302,6 +9226,22 @@
       "text_excerpt_zh": "",
       "title": "GitHub - skeptrunedev/declank: Minimal web UI + Node CLI for removing AI image watermarks (Gemini, Doubao, Jimeng, Samsung), invisible signals, and metadata. Wraps remove-ai-watermarks. · GitHub",
       "url": "https://github.com/skeptrunedev/declank"
+    },
+    "https://github.com/teamchong/pxpipe": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "cut Fable 5 token usage by rendering text context as images - teamchong/pxpipe",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/teamchong/pxpipe",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/2d30b32efa695e82098b04ae9879eb2943cb9d078989e3d070e506380fec8622/teamchong/pxpipe",
+        "https://raw.githubusercontent.com/teamchong/pxpipe/main/docs/assets/example-render.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - teamchong/pxpipe: cut Fable 5 token usage by rendering text context as images · GitHub",
+      "url": "https://github.com/teamchong/pxpipe"
     },
     "https://github.com/tobi/try": {
       "content_type": "text/html; charset=utf-8",
@@ -12044,90 +11984,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ1HCcPX0AEHjMH.jpg"
-    },
-    "https://pbs.twimg.com/media/HJ3wBHzW8AAR0Em.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ3wBHzW8AAR0Em.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ3wBHzW8AAR0Em.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ3wBHzW8AAR0Em.jpg"
-    },
-    "https://pbs.twimg.com/media/HJ58eQlW8AA_B7l.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ58eQlW8AA_B7l.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ58eQlW8AA_B7l.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ58eQlW8AA_B7l.jpg"
-    },
-    "https://pbs.twimg.com/media/HJ5KzlgXYAEx5mM.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ5KzlgXYAEx5mM.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ5KzlgXYAEx5mM.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ5KzlgXYAEx5mM.jpg"
-    },
-    "https://pbs.twimg.com/media/HJ5cMw9WwAARVgk.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ5cMw9WwAARVgk.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ5cMw9WwAARVgk.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ5cMw9WwAARVgk.jpg"
-    },
-    "https://pbs.twimg.com/media/HJ5fTHBbsAElgTp.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ5fTHBbsAElgTp.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ5fTHBbsAElgTp.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ5fTHBbsAElgTp.jpg"
-    },
-    "https://pbs.twimg.com/media/HJ5zxozXYAElHJE.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ5zxozXYAElHJE.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ5zxozXYAElHJE.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ5zxozXYAElHJE.jpg"
     },
     "https://pbs.twimg.com/media/HJ6Q2qNW8AAjtxL.jpg": {
       "cleaner_v": 2,
@@ -15447,6 +15303,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMP47UHaAAApZ8R.jpg"
     },
+    "https://pbs.twimg.com/media/HMPjx8GWcAAHEen.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMPjx8GWcAAHEen.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMPjx8GWcAAHEen.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMPjx8GWcAAHEen.jpg"
+    },
+    "https://pbs.twimg.com/media/HMPlOEvXoAAFd2p.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMPlOEvXoAAFd2p.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMPlOEvXoAAFd2p.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMPlOEvXoAAFd2p.jpg"
+    },
     "https://pbs.twimg.com/media/HMPuklxWsAIpNsq.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -15475,6 +15359,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMPx3_JbMAAsQpr.jpg"
     },
+    "https://pbs.twimg.com/media/HMQbmZwWgAEDZlc.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMQbmZwWgAEDZlc.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMQbmZwWgAEDZlc.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMQbmZwWgAEDZlc.jpg"
+    },
     "https://pbs.twimg.com/media/HMQcDB6XsAAh1co.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15488,20 +15386,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HMQcDB6XsAAh1co.jpg"
-    },
-    "https://pbs.twimg.com/media/HMQrdISaEAEtXG4.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMQrdISaEAEtXG4.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HMQrdISaEAEtXG4.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HMQrdISaEAEtXG4.jpg"
     },
     "https://pbs.twimg.com/media/HMRR8FpaMAAimbR.jpg": {
       "cleaner_v": 2,
@@ -15573,6 +15457,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMTh7Q7WUAAKfYp.jpg"
     },
+    "https://pbs.twimg.com/media/HMTn827XcAAygTI.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMTn827XcAAygTI.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMTn827XcAAygTI.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMTn827XcAAygTI.jpg"
+    },
     "https://pbs.twimg.com/media/HMTqf8lWYAA45hh.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15587,6 +15485,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMTqf8lWYAA45hh.jpg"
     },
+    "https://pbs.twimg.com/media/HMUEAVPXkAArbiP.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMUEAVPXkAArbiP.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMUEAVPXkAArbiP.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMUEAVPXkAArbiP.png"
+    },
+    "https://pbs.twimg.com/media/HMUEH-vXcAAwh8S.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMUEH-vXcAAwh8S.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMUEH-vXcAAwh8S.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMUEH-vXcAAwh8S.png"
+    },
     "https://pbs.twimg.com/media/HMUcKnCWMAAKLqS.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15600,6 +15526,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HMUcKnCWMAAKLqS.jpg"
+    },
+    "https://pbs.twimg.com/media/HMWFuBcWgAAIa70.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMWFuBcWgAAIa70.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMWFuBcWgAAIa70.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMWFuBcWgAAIa70.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -15949,27 +15889,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "How to grow your AEO function (without losing your mind) - PostHog How to grow your AEO function (without losing your mind) - PostHog",
       "url": "https://posthog.com/blog/aeo-advice"
-    },
-    "https://poyo.co/note/20260525T094605/?ref=sidebar": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Intro Chat is still the default LLM interface, and for most cases that's fine. Agentic harnesses are still built around a single linear conversation at...",
-      "extraction_source": "trafilatura",
-      "final_url": "https://poyo.co/note/20260525T094605/?ref=sidebar",
-      "frameable": null,
-      "image_urls": [
-        "https://poyo.co/.attach/c3/7d6d63-4145-4e9c-940e-f5647cf32563/Screenshot 2026-05-26 at 11.24.00 AM.png",
-        "https://poyo.co/.attach/c3/7d6d63-4145-4e9c-940e-f5647cf32563/Screenshot 2026-05-26 at 11.24.33 AM.png",
-        "https://poyo.co/.attach/26/d84e8a-daa6-447e-85df-11f4e5fba67b/Screenshot 2026-05-26 at 11.24.57 AM.png",
-        "https://poyo.co/.attach/26/d84e8a-daa6-447e-85df-11f4e5fba67b/Screenshot 2026-05-26 at 11.25.19 AM.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "Two LLM UI Patterns That Aren't Chat\nIntro\nChat is still the default LLM interface, and for most cases that's fine. Agentic harnesses are still built around a single linear conversation at their core. Some LLM tasks are better represented as structured context than as messages. This post looks at two patterns: comparison as a table, and exploration as a tree.\nI've included my explorations here, along with some live example apps I put together using shelley on [exe.dev](https://exe.dev).\nComparison\n- Link:\n[Comparitable](https://comparitable.exe.xyz/)\nAsking an LLM to compare things in chat quickly becomes tedious. At first you get a decent table, but as you ask follow-up questions, the useful information gets split across multiple answers, or the LLM tries to redraw the table every time. Adding another item makes the regeneration problem worse.\nThe table is already the thing you want, with items as rows, questions as columns, and answers as cells.\nI explored a hybrid chat/table interface where new questions create new columns and added items create new rows. In practice it feels like chatting with a spreadsheet.\nBuilding the Table\nAfter entering a topic, the app searches for relevant items, fetches their pages, and fills the first version of the table. For \"ultralight 1-person tents\" that might look like:\n+----------------------+----------+-------+-------------------+\n| Item | Weight | Price | Wall Type |\n+----------------------+----------+-------+-------------------+\n| Zpacks Plex Solo | 405 g | $599 | Single-wall DCF |\n| Big Agnes Fly Creek | 879 g | $350 | Double-wall |\n| Tarptent ProTrail Li | 425 g | $399 | Single-wall DCF |\n| Nemo Hornet Elite | 765 g | $450 | Double-wall OSMO |\n+----------------------+----------+-------+-------------------+\nThe app currently uses Kagi search to gather items, but the same approach would work well embedded in a shopping site, marketplace, internal product database, recruiting tool, or anywhere else the rows already exist.\nThe initial columns are also generated from the first search results. The app looks at the retrieved items and picks a few useful dimensions automatically, so there is already something on the table before the user asks anything.\nQuestions Become Columns\nOnce the table exists, typing a question adds a new column to it. Each question adds one comparison dimension to the existing structure, and the result has a specific place to land.\nThe model call is ordinary: given these item summaries, answer this question for each row. What changes is that the result lands in the structure you are already building.\nCreating the LLM call as a tool call which specifically returns an answer for each row also fits the current generation of models well.\nPrompting Example\nThe user prompt looks roughly like:\nAnd the tool definition:\n{\n\"name\": \"fill_column\",\n\"description\": \"Answer a comparison question for each item in the table.\",\n\"input_schema\": {\n\"type\": \"object\",\n\"properties\": {\n\"answers\": {\n\"type\": \"array\",\n\"items\": {\n\"type\": \"object\",\n\"properties\": {\n\"row_id\": { \"type\": \"string\" },\n\"value\": { \"type\": \"string\" }\n},\n\"required\": [\"row_id\", \"value\"]\n}\n}\n},\n\"required\": [\"answers\"]\n}\n}\nThe important constraint is simple: return exactly one cell value for each row id. The model fills a specific part of the table.\nNot Just Specs\nBecause a model is filling the cells, the columns can go beyond structured specs.\nTranslation is a natural side effect. If an item's page is in Japanese and I want the table in English, the cell gets filled in English without a separate translation mode.\nUnit normalization is similar. If I ask Weight (g)?\nthe model can usually get everything into the same unit, assuming the source pages have enough information.\nSoft judgement calls also work better than I expected. \"Is this good for a beginner?\" is a useful comparison question even though it has no single correct answer, and most real buying decisions are similar.\nFor questions that need fresher context, the app can sea",
-      "text_excerpt_zh": "# 两种非聊天的LLM界面模式\n\n## 引言\n\n聊天仍然是LLM的默认界面，在大多数情况下这没问题。智能体框架的核心仍然建立在单一线性对话之上。但有些LLM任务更适合用结构化上下文而非消息来表示。本文探讨两种模式：表格形式的对比，以及树形结构的探索。\n\n我在此分享我的探索过程，以及使用shelley在[exe.dev](https://exe.dev)上搭建的一些实时示例应用。\n\n## 对比\n\n- 链接：[Comparitable](https://comparitable.exe.xyz/)\n\n在聊天中让LLM对比事物很快就会变得繁琐。一开始你会得到一个不错的表格，但随着你提出后续问题，有用信息会分散到多个回答中，或者LLM每次都要重新绘制表格。添加另一个项目会让重新生成的问题变得更糟。\n\n表格本身就是你想要的东西：项目作为行，问题作为列，答案作为单元格。\n\n我探索了一种混合聊天/表格界面，其中新问题创建新列，新增项目创建新行。实际使用中感觉就像在跟电子表格对话。\n\n### 构建表格\n\n输入主题后，应用会搜索相关项目，获取它们的页面，并填充表格的第一个版本。对于\"超轻单人帐篷\"，可能看起来像这样：\n\n| 项目 | 重量 | 价格 | 帐篷壁类型 |\n|------|------|------|------------|\n| Zpacks Plex Solo | 405克 | $599 | 单层DCF |\n| Big Agnes Fly Creek | 879克 | $350 | 双层 |\n| Tarptent ProTrail Li | 425克 | $399 | 单层DCF |\n| Nemo Hornet Elite | 765克 | $450 | 双层OSMO |\n\n该应用目前使用Kagi搜索来收集项目，但同样的方法也可以很好地嵌入购物网站、市场平台、内部产品数据库、招聘工具或任何其他已有行的场景中。\n\n初始列也是从第一次搜索结果中生成的。应用会查看检索到的项目，自动选择几个有用的维度，这样用户在提问之前表格上就已经有内容了。\n\n### 问题变成列\n\n表格存在后，输入一个问题就会为其添加一个新列。每个问题都会为现有结构增加一个对比维度，结果也有一个特定的位置来存放。\n\n模型调用是常规的：给定这些项目摘要，为每一行回答这个问题。变化在于结果会落入你正在构建的结构中。\n\n将LLM调用创建为工具调用，专门为每一行返回一个答案，这也符合当前一代模型的特点。\n\n### 提示示例\n\n用户提示大致如下：\n\n工具定义：\n\n```json\n{\n  \"name\": \"fill_column\",\n  \"description\": \"为表格中的每个项目回答一个对比问题。\",\n  \"input_schema\": {\n    \"type\": \"object\",\n    \"properties\": {\n      \"answers\": {\n        \"type\": \"array\",\n        \"items\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"row_id\": { \"type\": \"string\" },\n            \"value\": { \"type\": \"string\" }\n          },\n          \"required\": [\"row_id\", \"value\"]\n        }\n      }\n    },\n    \"required\": [\"answers\"]\n  }\n}\n```\n\n重要的约束很简单：为每个行ID返回一个单元格值。模型填充表格的特定部分。\n\n### 不仅仅是规格参数\n\n因为模型在填充单元格，所以列可以超越结构化规格参数。\n\n翻译是自然的附带效果。如果某个项目的页面是日文的，而我想要英文表格，单元格会直接以英文填充，无需单独的翻译模式。\n\n单位标准化也是如此。如果我问\"重量（克）？\"，模型通常能将所有内容转换为相同单位，前提是源页面有足够的信息。\n\n软性判断也比我想象的效果更好。\"这对初学者友好吗？\"是一个有用的对比问题，尽管它没有唯一正确答案，而大多数真实的购买决策都是类似的。\n\n对于需要更新上下文的问题，应用可以搜索...",
-      "text_excerpt_zh_hash": "74a4a7e056526b98",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Two LLM UI Patterns That Aren't Chat",
-      "url": "https://poyo.co/note/20260525T094605/?ref=sidebar"
     },
     "https://productdesignpsychology.com/?ref=sidebar": {
       "content_type": "text/html; charset=utf-8",
@@ -16405,14 +16324,14 @@
       "title": "When Developing an AI Strategy, Beware the Urgency Trap",
       "url": "https://s.hbr.org/4f9nNu9"
     },
-    "https://s.hbr.org/4sP15vD": {
+    "https://s.hbr.org/4t1Vdze": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
-      "description": "Reprint: R1401K Feedback is crucial—but almost everyone, from new hires to C-suite executives, struggles with receiving it. The authors, who have spent 20 years working with managers on difficult conversations, outline six steps that can help you turn feedback into an important, and unthreatening, tool. Know your tendencies. Look for patterns in how you respond. (Do you defend yourself? Do you lash out?) Once you understand your standard operating procedure, you can make better choices about where to go from there. Separate the “what” from the “who.” Your feelings about the messenger might be short-circuiting your ability to learn from the message. Sort toward coaching. Work to hear feedback as well-meant advice, not as an indictment. Unpack the feedback. Resist snap judgments; explore where suggestions are coming from and where they’re going. Request and direct feedback. Don’t wait for a formal review; ask for bite-size pieces of coaching. Experiment. Try following a piece of advice and seeing what happens. Criticism is never easy to take—but learning to pull value from it is essential to your development and success.",
-      "final_url": "https://hbr.org/2014/01/find-the-coaching-in-criticism?tpcc=orgsocial_edit&utm_campaign=hbr&utm_medium=social&utm_source=facebook,linkedin,twitter",
+      "description": "If you’re not a numbers person, finance is a daunting subject. But understanding concepts like EBITDA and net present value are important no matter where you sit on the org chart. Here are some strategies for boosting your financial acumen. Get acquainted with your company’s income statement. Reproduce the numbers in a spreadsheet then group them into categories of profit and loss. Your goal is to understand how much your company spends and where it makes money. Play with the numbers. Experiment with the figures on the balance sheet by going through a series of “what if” scenarios. What if prices were lower? What if revenue was higher? This exercise helps you internalize how financial models work. Find a financial mentor. Foster a relationship with a senior financial or operations manager who can teach you and answer your questions. This person can also serve as a sounding board for financial decisions you need to make.",
+      "final_url": "https://hbr.org/2017/03/how-to-improve-your-finance-skills-even-if-you-hate-numbers?tpcc=orgsocial_edit&utm_campaign=hbr&utm_medium=social&utm_source=facebook,linkedin,twitter",
       "frameable": null,
       "image_urls": [
-        "https://hbr.org/resources/images/article_assets/2014/01/Jan14_01_-530654111.jpg",
+        "https://hbr.org/resources/images/article_assets/2017/03/mar17-31-512155181.jpg",
         "https://hbr.org/assets-mfe-articles/_next/static/media/Twitter.0swuvvv6x6dv_.svg",
         "https://hbr.org/assets-mfe-articles/_next/static/media/Facebook.04rsuuytjqje5.svg",
         "https://hbr.org/assets-mfe-articles/_next/static/media/LinkedIn.0k9~yd0rlxzso.svg",
@@ -16423,12 +16342,9 @@
         "https://hbr.org/assets-mfe-articles/_next/static/media/close.0e9_5t1w4ast7.svg"
       ],
       "kind": "article",
-      "text_excerpt": "SKIP TO CONTENT Difficult conversations | Find the Coaching in Criticism Subscribe Sign In Latest Magazine Topics Podcasts Store Reading Lists Data & Visuals Case Selections HBR Executive Search hbr.org Subscribe Latest Podcasts The Magazine Store Webinars Newsletters All Topics Reading Lists Data & Visuals Case Selections HBR Executive My Library Account Settings Sign In Explore HBR Latest The Magazine Podcasts Store Webinars Newsletters Popular Topics Managing Yourself Leadership Strategy Managing Teams Gender Innovation Work-life Balance All Topics For Subscribers Reading Lists Data & Visuals Case Selections HBR Executive Subscribe My Account My Library Topic Feeds Orders Account Settings Email Preferences Sign In Difficult conversations Find the Coaching in Criticism by Sheila Heen and Douglas Stone From the Magazine (January–February 2014) Paul & Paveena Mckenzie/Getty Images Post Post Share Save Get PDF Buy Copies Print Summary . Reprint: R1401K Feedback is crucial—but almost everyone, from new hires to C-suite executives, struggles with receiving it. The authors, who have spent 20 ... more Leer en español Ler em português Post Post Share Save Get PDF Buy Copies Print Feedback is crucial. That’s obvious: It improves performance, develops talent, aligns expectations, solves problems, guides promotion and pay, and boosts the bottom line. A version of this article appeared in the January–February 2014 issue of Harvard Business Review. Sheila Heen teaches negotiation at Harvard Law School and is a Principal at Triad Consulting Group . She is a coauthor of the New York Times bestsellers Thanks for the Feedback: The Science and Art of Receiving Feedback Well (Even When It Is Off-Base, Unfair, Poorly Delivered, and Frankly You’re Not in the Mood) with Douglas Stone, and of Difficult Conversations: How to Discuss What Matters Most with Douglas Stone and Bruce Patton. Douglas Stone are cofounders of Triad Consulting Group and teach negotiation at Harvard Law School. They are the coauthors of the forthcoming book Thanks for the Feedback: The Science and Art of Receiving Feedback Well (Viking/Penguin, 2014), from which this article is adapted. Post Post Share Save Get PDF Buy Copies Print Read more on Difficult conversations or related topics Managing yourself , Employee performance management and Receiving feedback Partner Center Start my subscription! Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Follow HBR Facebook X Corp. LinkedIn Instagram Your Newsreader About Us Careers Privacy Policy Cookie Policy Copyright Information Trademark Policy Terms of Use Harvard Business Publishing: Higher Education Corporate Learning Harvard Business Review Harvard Business School Copyrig",
-      "text_excerpt_zh": "# 困难对话 | 在批评中寻找指导\n\n## 订阅 | 登录\n\n---\n\n# 困难对话\n\n## 在批评中寻找指导\n\n作者：Sheila Heen 和 Douglas Stone  \n来自《哈佛商业评论》2014年1-2月刊\n\nPaul & Paveena Mckenzie/Getty Images\n\n**分享** **分享** **保存** **获取PDF** **购买印刷版** **打印**\n\n**摘要**：反馈至关重要——但几乎所有人，从新员工到高管，都在接受反馈方面存在困难。作者们花费了20年时间研究这一课题……\n\n---\n\n反馈至关重要。这一点显而易见：它能提升绩效、培养人才、对齐期望、解决问题、指导晋升和薪酬，并推动利润增长。\n\n本文的一个版本刊登于《哈佛商业评论》2014年1-2月刊。\n\n**Sheila Heen** 在哈佛法学院教授谈判课程，是Triad Consulting Group的负责人。她与Douglas Stone合著了《纽约时报》畅销书《感谢反馈：科学地、艺术地接受反馈（即使它不准确、不公平、表达糟糕，而且坦白说你心情不好）》，并与Douglas Stone和Bruce Patton合著了《困难对话：如何讨论最重要的事》。\n\n**Douglas Stone** 是Triad Consulting Group的联合创始人，在哈佛法学院教授谈判课程。他们是即将出版的《感谢反馈：科学地、艺术地接受反馈》（Viking/Penguin, 2014）一书的合著者，本文改编自该书。\n\n**分享** **分享** **保存** **获取PDF** **购买印刷版** **打印**\n\n---\n\n**阅读更多关于** 困难对话 或相关主题：管理自己、员工绩效管理、接受反馈",
-      "text_excerpt_zh_hash": "279c9271580bcc05",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Find the Coaching in Criticism",
-      "url": "https://s.hbr.org/4sP15vD"
+      "text_excerpt": "SKIP TO CONTENT Managing yourself | How to Improve Your Finance Skills (Even If You Hate Numbers) Subscribe Sign In Latest Magazine Topics Podcasts Store Reading Lists Data & Visuals Case Selections HBR Executive Search hbr.org Subscribe Latest Podcasts The Magazine Store Webinars Newsletters All Topics Reading Lists Data & Visuals Case Selections HBR Executive My Library Account Settings Sign In Explore HBR Latest The Magazine Podcasts Store Webinars Newsletters Popular Topics Managing Yourself Leadership Strategy Managing Teams Gender Innovation Work-life Balance All Topics For Subscribers Reading Lists Data & Visuals Case Selections HBR Executive Subscribe My Account My Library Topic Feeds Orders Account Settings Email Preferences Sign In Managing yourself How to Improve Your Finance Skills (Even If You Hate Numbers) by Rebecca Knight March 31, 2017 Post Post Share Save Get PDF Buy Copies Print Summary . If you’re not a numbers person, finance is a daunting subject. But understanding concepts like EBITDA and net present value are important no matter where you sit on the org chart. Here are ... more Leer en español Ler em português Post Post Share Save Get PDF Buy Copies Print If you’re not a numbers person, finance is daunting. But having a grasp of terms like EBITDA and net present value are important no matter where you sit on the org chart. How can you boost your financial acumen? How do you decide which concepts are most important to understand to your work and your understanding of the business? And who’s in the best position to offer advice? Rebecca Knight is a journalist who writes about all things related to the changing nature of careers and the workplace. Her essays and reported stories have been featured in The Boston Globe, Business Insider, The New York Times, BBC, and The Christian Science Monitor. She was shortlisted as a Reuters Institute Fellow at Oxford University in 2023. Earlier in her career, she spent a decade as an editor and reporter at the Financial Times in New York, London, and Boston. Post Post Share Save Get PDF Buy Copies Print Read more on Managing yourself or related topic Finance and investing Partner Center Start my subscription! Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Follow HBR Facebook X Corp. LinkedIn Instagram Your Newsreader About Us Careers Privacy Policy Cookie Policy Copyright Information Trademark Policy Terms of Use Harvard Business Publishing: Higher Education Corporate Learning Harvard Business Review Harvard Business School Copyright © 2026 Harvard Business School Publishing. All rights reserved. Harvard Business Publishing is an affiliate of Harvard Business School.",
+      "title": "How to Improve Your Finance Skills (Even If You Hate Numbers)",
+      "url": "https://s.hbr.org/4t1Vdze"
     },
     "https://s.hbr.org/4tt3SL3": {
       "cleaner_v": 2,
@@ -17390,20 +17306,6 @@
       "title": "Schedule · AI Engineer World's Fair 2026",
       "url": "https://www.ai.engineer/worldsfair/schedule?day=3&session=asn_slot_2026_07_01_breakout_track_06_1545_2026_06_03t11_33_40_915z"
     },
-    "https://www.aiedgehq.co/": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "Free weekly AI playbooks + unlock the Instagram community for your assets. From Miles Deutscher.",
-      "final_url": "https://www.aiedgehq.co/",
-      "frameable": null,
-      "image_urls": [
-        "https://www.aiedgehq.co/icons/ai%20edge%20icon%20glow.png"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "AI Edge — Stay Ahead of the AI Revolution",
-      "url": "https://www.aiedgehq.co/"
-    },
     "https://www.aihero.dev/s/cGicnb": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -17819,30 +17721,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "C:\\Takes | Coatue",
       "url": "https://www.coatue.com/c/takes"
-    },
-    "https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "The projects that defy clarity and specificity.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar",
-      "frameable": null,
-      "image_urls": [
-        "https://storage.ghost.io/c/d1/ba/d1baee41-d47e-4387-b3f4-1436f65958e0/content/images/size/w1200/2026/06/self-fulfilling-project-1.png",
-        "https://storage.ghost.io/c/d1/ba/d1baee41-d47e-4387-b3f4-1436f65958e0/content/images/size/w30/2023/01/LOGO-SIMPLE-1-2-2.png",
-        "https://storage.ghost.io/c/d1/ba/d1baee41-d47e-4387-b3f4-1436f65958e0/content/images/size/w30/2022/02/Screenshot-2022-02-03-at-22.11.06.png",
-        "https://storage.ghost.io/c/d1/ba/d1baee41-d47e-4387-b3f4-1436f65958e0/content/images/size/w30/2026/06/self-fulfilling-project-1.png",
-        "https://storage.ghost.io/c/d1/ba/d1baee41-d47e-4387-b3f4-1436f65958e0/content/images/2026/06/self-fulfilling-project-2.png",
-        "https://storage.ghost.io/c/d1/ba/d1baee41-d47e-4387-b3f4-1436f65958e0/content/images/2026/06/self-fulfilling-project-pierce-1.png",
-        "https://storage.ghost.io/c/d1/ba/d1baee41-d47e-4387-b3f4-1436f65958e0/content/images/size/w30/2026/05/bsnap-full.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "I'm trying to get a handle on the hard and evergreen problems in product work — the ones that will always emerge and grow, so long as there is growth and change.\n[Last time](https://www.davesresearch.com/playing-the-background/) I laid them out in a simple bulleted list, titled like this:\n- Clarity and specificity\n- Traction and motion\n- Alignment and direction\n- Operational adaptation\n- Anticipation and influence\nThis kind of typology is helpful, perhaps, if you already know what the problem is lacking. The hard problems are hard because they defy simple attempts to to build clarity, or alignment, or change how things work, for example. But there's a unhelpful reduction here, the framing ignores the features of the problem that cause it to defy your efforts to build clarity and specificity, or whatever the situation requires.\nA more interesting frame will help you see the type of problem in terms of what is concrete and present as you encounter it.\nI'm working with \"self-fulfilling projects\" as a primary emblem for situations of the first type: ones that demand real clarity and specificity, but defy it. This one, like a self-fulfilling prophecy that causes itself to be true, is the project that causes itself to be important.\nRooted in a narrative about what is true, these projects feed on the strength of personal authority and protect themself self-sealing logic. The story need not be rooted in reality.\nThat the project itself is harmful is not always the case here. Sometimes they are successful, and create empty learning that will reinforce the same behavior. But when the project is harmful, challenging the narrative is extremely difficult. The higher the position of the primary sponsor, the harder it is to pierce the veil of the project and connect it to the current state of things.\nNot incidentally, a major function of [Wardley Mapping](https://www.davesresearch.com/wardley-mapping/) is to turn narrative into tangible and discussable assertion, something that can be challenged without challenging a leader's authority.\nThe self-fulfilling project primarily references itself and feeds off its own importance. It defies attachment to the existing structure of internal potential and external opportunity, replacing specific awareness with stories about what is there. It does the same for the forces at play in the landscape.\nThis kind of situation is inevitable. It arises because people see what they wish was there, rather than what’s really in play. Recall what Peter Korn said, in [Why We Make Things and Why It Matters](https://www.goodreads.com/book/show/18062640-why-we-make-things-and-why-it-matters) (goodreads link):\nIt would be impossible to overstate the degree to which each of us tailors our mental map to assemble a comforting picture. My saga of becoming a furniture maker was neither more nor less than an extended process of inventing narratives that would provide a sense of belonging, meaning, and so on.\nYet at the same time, those narratives had to be anchored in reality if I was to earn a satisfactory livelihood – which they never quite were.\nI modeled myself on an ideal of the craftsman as a self-employed artisan, working alone, building furniture with integrity to his own technical and aesthetic standards, but I failed to stock my mental inventory with useful stories about how to conduct a business, how to market your work, how to build relationships with customers, how to work efficiently. For twelve years I painstakingly cut every mortise by hand with a mallet and chisels, and wondered why I couldn’t earn a decent living!\nYou can’t argue against a self-fulfilling project with outside facts, because it is not rooted in the background. It is a seductive narrative that changes shape in response to challenge. Holding on to the narrative is a means of reducing energy — it's easier to believe what one believes than to expend the energy to examine it.\nIndividually, you can Wardley Map the situation and recognize concrete",
-      "text_excerpt_zh": "我正在努力把握产品工作中那些棘手且永恒的问题——只要存在增长和变化，这些问题就会不断涌现并加剧。\n\n[上次](https://www.davesresearch.com/playing-the-background/) 我用一个简单的项目符号列表列出了它们，标题如下：\n- 清晰度与具体性\n- 牵引力与进展\n- 对齐与方向\n- 运营适应\n- 预见与影响\n\n如果你已经知道问题缺少什么，这种分类或许有帮助。棘手的问题之所以棘手，是因为它们抵制了建立清晰度、对齐或改变工作方式的简单尝试。但这里存在一种无益的简化：这种框架忽略了问题中那些导致你无法建立清晰度和具体性（或情境所需的其他要素）的特征。\n\n一个更有趣的框架将帮助你根据遇到问题时具体且当下存在的东西来识别问题类型。\n\n我正在使用“自我实现的项目”作为第一种情况的主要象征：那些需要真正的清晰度和具体性，却又抵制它们的情况。就像自我实现的预言导致自身成真一样，这种项目导致自身变得重要。\n\n这些项目植根于关于什么是真实的叙事，依赖个人权威的力量，并以自我封闭的逻辑保护自己。故事不必植根于现实。\n\n项目本身有害并不总是如此。有时它们会成功，并创造出强化相同行为的空洞学习。但当项目有害时，挑战叙事极其困难。主要赞助人的职位越高，就越难揭开项目的面纱并将其与当前状态联系起来。\n\n并非偶然的是，[Wardley Mapping](https://www.davesresearch.com/wardley-mapping/) 的一个主要功能是将叙事转化为可讨论的具体主张——一种可以在不挑战领导者权威的情况下被质疑的东西。\n\n自我实现的项目主要引用自身，并依赖自身的重要性。它抵制与现有内部潜力和外部机会结构的联系，用关于存在什么的故事取代具体的认知。它对景观中发挥作用的力量也是如此。\n\n这种情况是不可避免的。它之所以出现，是因为人们看到他们希望存在的东西，而不是真正在起作用的东西。回想一下 Peter Korn 在《[Why We Make Things and Why It Matters](https://www.goodreads.com/book/show/18062640-why-we-make-things-and-why-it-matters)》（Goodreads 链接）中所说的：\n\n无论怎样强调我们每个人如何调整自己的心理地图以构建一幅令人安慰的画面都不为过。我成为家具制造者的历程，无非是一个漫长的发明叙事的过程，这些叙事提供了归属感、意义等等。\n\n然而与此同时，如果我要获得令人满意的生计，这些叙事必须锚定在现实中——但它们从未完全做到。\n\n我以工匠的理想为榜样，将自己塑造成一个自雇的手艺人，独自工作，以对自己技术和审美标准的诚信来制作家具，但我未能用关于如何经营业务、如何营销作品、如何与客户建立关系、如何高效工作的有用故事来充实我的心理库存。十二年来，我用手工锤子和凿子精心切割每一个榫眼，却纳闷为什么我无法过上体面的生活！\n\n你无法用外部事实来反驳一个自我实现的项目，因为它并不植根于背景。它是一个诱人的叙事，会随着挑战而改变形状。坚持叙事是一种减少能量的手段——相信自己所相信的，比花费精力去审视它更容易。\n\n就个人而言，你可以对这种情况进行 Wardley Mapping，并认识到具体的东西。",
-      "text_excerpt_zh_hash": "9e73eb78abb8cd5c",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Self-Fulfilling Projects",
-      "url": "https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar"
     },
     "https://www.dbreunig.com/2025/01/31/deepseek-as-a-power-object.html": {
       "cleaner_v": 2,
@@ -18660,6 +18538,21 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "How I use LLMs as a staff engineer in 2026",
       "url": "https://www.seangoedecke.com/how-i-use-llms-in-2026"
+    },
+    "https://www.seangoedecke.com/text-tokens-as-image-tokens": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.seangoedecke.com/text-tokens-as-image-tokens/",
+      "frameable": null,
+      "image_urls": [
+        "https://www.seangoedecke.com/og-image.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Should LLMs just treat text content as an image?\nSeveral days ago, DeepSeek released a new [OCR paper](https://github.com/deepseek-ai/DeepSeek-OCR/blob/main/DeepSeek_OCR_paper.pdf). OCR, or “optical character recognition”, is the process of converting an image of text - say, a scanned page of a book - into actual text content. Better OCR is obviously relevant to AI because it unlocks more text data to train language models on[1](https://www.seangoedecke.com#fn-1). But there’s a more subtle reason why really good OCR might have deep implications for AI models.\nOptical compression\nAccording to the DeepSeek paper, you can pull out 10 text tokens from a single image token with near-100% accuracy. In other words, a model’s internal representation of an image is ten times as efficient as its internal representation of text. Does this mean that models shouldn’t consume text at all? When I paste a few paragraphs into ChatGPT, would it be more efficient to convert that into an image of text before sending it to the model? Can we supply 10x or 20x more data to a model at inference time by supplying it as an image of text instead of text itself?\nThis is called “optical compression”. It reminds me of a [funny idea](https://george.mand.is/2025/06/openai-charges-by-the-minute-so-make-the-minutes-shorter/) from June of this year to save money on OpenAI transcriptions: before uploading the audio, run it through ffmpeg to speed it up by 2x. The model is smart enough to still pull out the text, and with one simple trick you’ve cut your inference costs and time by half. Optical compression is the same kind of idea: before uploading a big block of text, take a screenshot of it (and optionally downscale the quality) and upload the screenshot instead.\nSome people are already sort-of doing this with existing multimodal LLMs. There’s a company [selling this as a service](https://www.morphik.ai/blog/stop-parsing-docs), an [open-source](https://github.com/jolibrain/colette) project, and even a [benchmark](https://getomni.ai/blog/ocr-benchmark). It seems to work okay! Bear in mind that this is not an intended use case for existing models, so it’s plausible that it could get a lot better if AI labs start actually focusing on it.\nThe DeepSeek paper suggests an interesting way[2](https://www.seangoedecke.com#fn-2) to use tighter optical compression for long-form text contexts. As the context grows, you could decrease the resolution of the oldest images so they’re cheaper to store, but are also literally blurrier. The paper suggests an analogy between this and human memory, where fresh memories are quite vivid but older ones are vaguer and have less detail.\nWhy would this work?\nOptical compression is pretty unintuitive to many software engineers. Why on earth would an image of text be expressible in fewer tokens than the text itself?\nIn terms of raw information density, an image obviously contains more information than its equivalent text. You can test this for yourself by creating a text file, screenshotting the page, and comparing the size of the image with the size of the text file: the image is about 200x larger. Intuitively, the word “dog” only contains a single word’s worth of information, while an image of the word “dog” contains information about the font, the background and text color, kerning, margins, and so on. How, then, could it be possible that a single image token can contain ten tokens worth of text?\nThe first explanation is that text tokens are discrete while image tokens are continuous. Each model has a finite number of text tokens - say, around 50,000. Each of those tokens corresponds to an embedding of, say, 1000 floating-point numbers. Text tokens thus only occupy a scattering of single points in the space of all possible embeddings. By contrast, the embedding of an image token can be any sequence of those 1000 numbers. So an image token can be far more expressive than a series of text tokens.\nAnother way of looking at the same intuiti",
+      "title": "Should LLMs just treat text content as an image?",
+      "url": "https://www.seangoedecke.com/text-tokens-as-image-tokens"
     },
     "https://www.semafor.com/article/06/16/2026/anthropics-conflict-with-washington-complicates-its-ipo": {
       "cleaner_v": 2,
@@ -19554,26 +19447,6 @@
       "https://x.com/idoubicc/status/2061670587043610688",
       "https://x.com/idoubicc/status/2062129419398086956"
     ],
-    "2062030462613352815": [
-      "https://x.com/colderoshay/status/2062030462613352815"
-    ],
-    "2062070249508295054": [
-      "https://x.com/duckdb/status/2062070249508295054",
-      "https://pbs.twimg.com/media/HJ3wBHzW8AAR0Em.jpg",
-      "https://x.com/duckdb/status/2062070251848638815",
-      "https://duckdb.org/library/duckdb-not-quack-science/"
-    ],
-    "2062099361199263928": [
-      "https://x.com/regent0x_/status/2062099361199263928",
-      "http://x.com/i/article/2062094052170899456"
-    ],
-    "2062163097280979223": [
-      "https://x.com/aiedge_/status/2062163097280979223",
-      "http://x.com/i/article/2061487141285445632",
-      "https://x.com/aiedge_/status/2062190557800362224",
-      "https://www.aiedgehq.co/",
-      "https://pbs.twimg.com/media/HJ5fTHBbsAElgTp.jpg"
-    ],
     "2062163858182328424": [
       "https://x.com/AlphaSignalAI/status/2062163858182328424",
       "http://x.com/i/article/2062125489721102336",
@@ -19581,14 +19454,6 @@
       "https://microsoft.ai/news/introducing-mai-thinking-1/",
       "https://x.com/AlphaSignalAI/status/2062553418460479577",
       "http://x.com/i/article/2062535871379972096"
-    ],
-    "2062167932440817915": [
-      "https://x.com/SidebarIO/status/2062167932440817915",
-      "https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJ5KzlgXYAEx5mM.jpg",
-      "https://x.com/SidebarIO/status/2062262557016989864",
-      "https://meodai.github.io/heerich/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg"
     ],
     "2062185564871295459": [
       "https://x.com/polydao/status/2062185564871295459",
@@ -19602,21 +19467,6 @@
       "https://x.com/polydao/status/2062319504579858823",
       "https://x.com/polydao/status/2062319145262158327"
     ],
-    "2062187947084968106": [
-      "https://x.com/_smontlouis/status/2062187947084968106",
-      "https://x.com/_smontlouis/status/2062261279507505242",
-      "https://x.com/_smontlouis/status/2062265021787201718",
-      "https://x.com/_smontlouis/status/2062214139309650167"
-    ],
-    "2062196598441177376": [
-      "https://x.com/elliotchen100/status/2062196598441177376"
-    ],
-    "2062199026544787576": [
-      "https://x.com/ericzakariasson/status/2062199026544787576",
-      "http://x.com/i/article/2061967596568875008",
-      "https://x.com/ericzakariasson/status/2062201109096357896",
-      "https://x.com/ericzakariasson/status/2062204238596653283"
-    ],
     "2062199316031156709": [
       "https://x.com/zaimiri/status/2062199316031156709",
       "http://x.com/i/article/2062196865714536448",
@@ -19628,27 +19478,10 @@
       "https://x.com/zaimiri/status/2062225157775556996",
       "https://x.com/zaimiri/status/2062523732623831083"
     ],
-    "2062203743387459836": [
-      "https://x.com/delba_oliveira/status/2062203743387459836",
-      "http://x.com/i/article/2060308122531418112"
-    ],
-    "2062212979282608233": [
-      "https://x.com/SidebarIO/status/2062212979282608233",
-      "https://www.itsnicethat.com/articles/pov-friction-breeds-creativity-creative-industry-260526?ref=sidebar",
-      "https://pbs.twimg.com/media/HJ5zxozXYAElHJE.jpg"
-    ],
     "2062221423104704753": [
       "https://x.com/perplexity_ai/status/2062221423104704753",
       "https://www.perplexity.ai/enterprise/use-cases/growing-businesses",
       "https://pbs.twimg.com/amplify_video_thumb/2062221346072051713/img/hs10vv04Q9oB5vDq.jpg"
-    ],
-    "2062222541654003885": [
-      "https://x.com/SidebarIO/status/2062222541654003885",
-      "https://animations.dev/vocabulary?ref=sidebar",
-      "https://pbs.twimg.com/media/HJ58eQlW8AA_B7l.jpg",
-      "https://x.com/SidebarIO/status/2062262557016989864",
-      "https://meodai.github.io/heerich/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg"
     ],
     "2062226357522743484": [
       "https://x.com/hwchase17/status/2062226357522743484"
@@ -19658,12 +19491,6 @@
       "http://x.com/i/article/2062217540411994112",
       "https://x.com/saameeey/status/2062334132466622844"
     ],
-    "2062233330196926720": [
-      "https://x.com/aparnadhinak/status/2062233330196926720",
-      "http://x.com/i/article/2062229784009256960",
-      "https://x.com/aparnadhinak/status/2062255521990852980",
-      "https://x.com/aparnadhinak/status/2062280622937370649"
-    ],
     "2062244953808335343": [
       "https://x.com/PawelHuryn/status/2062244953808335343",
       "https://pbs.twimg.com/media/HJ6Q2qNW8AAjtxL.jpg",
@@ -19671,32 +19498,17 @@
       "https://x.com/PawelHuryn/status/2062247245072998702",
       "https://x.com/PawelHuryn/status/2062330152239919333"
     ],
-    "2062247077833310623": [
-      "https://x.com/CopilotKit/status/2062247077833310623"
-    ],
     "2062255866724884708": [
       "https://x.com/AgnoAgi/status/2062255866724884708",
       "http://x.com/i/article/2062248271444111360",
       "https://x.com/AgnoAgi/status/2061882619210375535",
       "https://pbs.twimg.com/media/HJ1HCcPX0AEHjMH.jpg"
     ],
-    "2062262557016989864": [
-      "https://x.com/SidebarIO/status/2062262557016989864",
-      "https://meodai.github.io/heerich/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg",
-      "https://x.com/SidebarIO/status/2062187058047668541",
-      "https://poyo.co/note/20260525T094605/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJ5cMw9WwAARVgk.jpg"
-    ],
     "2062268757972484292": [
       "https://x.com/0xSero/status/2062268757972484292",
       "https://pbs.twimg.com/media/HJ6mGtEXwAEKwkY.jpg",
       "https://x.com/0xSero/status/2062421357351129595",
       "https://x.com/0xSero/status/2062274868779897050"
-    ],
-    "2062274312363770064": [
-      "https://x.com/ClaudeDevs/status/2062274312363770064",
-      "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude"
     ],
     "2062301065312407891": [
       "https://x.com/DeRonin_/status/2062301065312407891",
@@ -25014,17 +24826,17 @@
     "2072669154050543677": [
       "https://x.com/emre570_/status/2072669154050543677",
       "https://emre570.bearblog.dev/megakernel-decode/",
-      "https://x.com/emre570_/status/2072828466764874016",
-      "https://x.com/emre570_/status/2072814888045437420"
+      "https://x.com/emre570_/status/2072814888045437420",
+      "https://x.com/emre570_/status/2072828466764874016"
     ],
     "2072696042550940013": [
       "https://x.com/ccatalini/status/2072696042550940013"
     ],
     "2072697144616653081": [
       "https://x.com/samwhoo/status/2072697144616653081",
+      "https://x.com/samwhoo/status/2072725022221771130",
       "https://x.com/samwhoo/status/2073122478474358795",
-      "https://x.com/samwhoo/status/2071981968804225296?s=20",
-      "https://x.com/samwhoo/status/2072725022221771130"
+      "https://x.com/samwhoo/status/2071981968804225296?s=20"
     ],
     "2072706964560441430": [
       "https://x.com/JaySahnan/status/2072706964560441430",
@@ -25096,6 +24908,16 @@
       "https://x.com/KSimback/status/2072752017186107866",
       "http://x.com/i/article/2072743970116112385"
     ],
+    "2072752300335194227": [
+      "https://x.com/vozinhapr/status/2072752300335194227",
+      "https://pbs.twimg.com/media/HMPlOEvXoAAFd2p.jpg",
+      "https://x.com/vozinhapr/status/2073036782560518221",
+      "https://pbs.twimg.com/media/HMTn827XcAAygTI.jpg",
+      "https://x.com/vozinhapr/status/2072812100423209000",
+      "https://pbs.twimg.com/media/HMQbmZwWgAEDZlc.jpg",
+      "https://x.com/vozinhapr/status/2072750710760902828",
+      "https://pbs.twimg.com/media/HMPjx8GWcAAHEen.jpg"
+    ],
     "2072755153459916847": [
       "https://x.com/Dipper_pol/status/2072755153459916847",
       "https://pbs.twimg.com/amplify_video_thumb/2072754804292489217/img/P9WyJb1uPenrT-jR.jpg"
@@ -25109,8 +24931,9 @@
     "2072764823046107269": [
       "https://x.com/TheEconomist/status/2072764823046107269",
       "https://www.economist.com/leaders/2025/12/04/how-ai-is-rewiring-childhood?taid=6a46bc4af1ddc500011ecaea&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter",
-      "https://x.com/TheEconomist/status/2073174982440489069",
-      "https://www.economist.com/united-states/2026/07/02/donald-trumps-reflecting-pool-debacle-is-a-gift-to-america?taid=6a483a48f1ddc500011ed4e6&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
+      "https://x.com/TheEconomist/status/2073210235192250781",
+      "http://econ.st/3QOSmft",
+      "https://pbs.twimg.com/media/HMWFuBcWgAAIa70.jpg"
     ],
     "2072766211256119475": [
       "https://x.com/tanayj/status/2072766211256119475",
@@ -25165,8 +24988,8 @@
     "2072811558313341306": [
       "https://x.com/HarvardBiz/status/2072811558313341306",
       "https://s.hbr.org/4tvjvSk",
-      "https://x.com/HarvardBiz/status/2072934869236088996",
-      "https://s.hbr.org/4sP15vD"
+      "https://x.com/HarvardBiz/status/2073001309892984908",
+      "https://s.hbr.org/4t1Vdze"
     ],
     "2072837836999627155": [
       "https://x.com/AlexFinn/status/2072837836999627155",
@@ -25176,10 +24999,31 @@
     "2072851779499569386": [
       "https://x.com/siantgirl/status/2072851779499569386",
       "https://x.com/siantgirl/status/2072916496184156367",
-      "https://x.com/siantgirl/status/2072919026096087124",
+      "https://x.com/siantgirl/status/2073217684234526845",
       "https://x.com/siantgirl/status/2072877638730002939",
+      "https://x.com/siantgirl/status/2072919026096087124",
+      "https://x.com/siantgirl/status/2072855335405248621",
       "https://x.com/siantgirl/status/2072970309784023492",
-      "https://x.com/siantgirl/status/2072855335405248621"
+      "https://x.com/siantgirl/status/2073222601372279262"
+    ],
+    "2072854128142004548": [
+      "https://x.com/shiweidu/status/2072854128142004548",
+      "https://github.com/cloudflare/kumo"
+    ],
+    "2072864750233362875": [
+      "https://x.com/CFchangelog/status/2072864750233362875",
+      "https://developers.cloudflare.com/changelog/post/2026-07-02-vary-for-cache-rules/"
+    ],
+    "2072865314279399452": [
+      "https://x.com/Bioinfo_Kimura/status/2072865314279399452",
+      "https://cursor.com/ja/lp-team/composer-25-hackathon",
+      "https://x.com/Bioinfo_Kimura/status/2072894237616808293",
+      "https://x.com/Bioinfo_Kimura/status/2072971134639943685",
+      "https://x.com/Bioinfo_Kimura/status/2073158783791185957",
+      "https://x.com/Bioinfo_Kimura/status/2073217851876667426",
+      "https://x.com/Bioinfo_Kimura/status/2073157707214004641",
+      "https://x.com/Bioinfo_Kimura/status/2073191416596172955",
+      "https://x.com/Bioinfo_Kimura/status/2073192377414807775"
     ],
     "2072870908948336960": [
       "https://x.com/hiloopai/status/2072870908948336960",
@@ -25223,17 +25067,15 @@
     ],
     "2072998065972420806": [
       "https://x.com/nurijanian/status/2072998065972420806",
-      "http://x.com/i/article/2072984693788782594",
-      "https://x.com/nurijanian/status/2072829515311788425",
-      "https://pbs.twimg.com/media/HMQrdISaEAEtXG4.jpg"
+      "http://x.com/i/article/2072984693788782594"
     ],
     "2073000957600817177": [
       "https://x.com/0xRicker/status/2073000957600817177",
       "https://pbs.twimg.com/amplify_video_thumb/2072991826575872000/img/Vr-qogwVZgavBLd_.jpg",
-      "https://x.com/0xRicker/status/2073006234219778196",
       "https://x.com/0xRicker/status/2073005174625288222",
-      "https://x.com/0xRicker/status/2073005101854138760",
-      "https://x.com/0xRicker/status/2073008724143149260"
+      "https://x.com/0xRicker/status/2073006234219778196",
+      "https://x.com/0xRicker/status/2073008724143149260",
+      "https://x.com/0xRicker/status/2073005101854138760"
     ],
     "2073011248254320989": [
       "https://x.com/ericzakariasson/status/2073011248254320989",
@@ -25256,6 +25098,16 @@
       "https://x.com/CFchangelog/status/2073053560762212633",
       "https://developers.cloudflare.com/changelog/post/2026-07-03-workers-types-v5/"
     ],
+    "2073068605944610898": [
+      "https://x.com/MiTypeScript/status/2073068605944610898",
+      "https://github.com/teamchong/pxpipe",
+      "https://pbs.twimg.com/media/HMUEAVPXkAArbiP.png",
+      "https://pbs.twimg.com/media/HMUEH-vXcAAwh8S.png",
+      "https://x.com/MiTypeScript/status/2073173145922556282",
+      "https://x.com/MiTypeScript/status/2073072738063794598",
+      "https://www.seangoedecke.com/text-tokens-as-image-tokens",
+      "https://x.com/MiTypeScript/status/2073070360988209517"
+    ],
     "2073072670493876737": [
       "https://x.com/posthog/status/2073072670493876737",
       "http://x.com/i/article/2072785635451281408"
@@ -25277,6 +25129,6 @@
       "https://x.com/trq212/status/2073116741782364167"
     ]
   },
-  "updated_at": "2026-07-04T00:16:51Z",
+  "updated_at": "2026-07-04T04:05:28Z",
   "window": "recent"
 }
