@@ -1,15 +1,15 @@
 {
   "categories": [
     {
-      "count": 737,
+      "count": 742,
       "name": "Tools"
     },
     {
-      "count": 461,
+      "count": 463,
       "name": "Development"
     },
     {
-      "count": 353,
+      "count": 354,
       "name": "Design"
     },
     {
@@ -38,8 +38,333 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2443,
+  "item_count": 2450,
   "items": [
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-07-04T17:41:02.898433Z",
+      "article_image_urls": [
+        "https://www.dayflow.so/images/og-image-v2.png",
+        "https://www.dayflow.so/images/apple.png",
+        "https://www.dayflow.so/images/fav-violet.png",
+        "https://www.dayflow.so/images/fav-blue.png",
+        "https://www.dayflow.so/images/fav-youtube.png",
+        "https://www.dayflow.so/images/fav-purple.png",
+        "https://www.dayflow.so/images/fav-cyan.png",
+        "https://www.dayflow.so/images/icon-github.png",
+        "https://www.dayflow.so/images/icon-yc.png",
+        "https://www.dayflow.so/images/meta-word.webp",
+        "https://www.dayflow.so/images/google-word.svg",
+        "https://www.dayflow.so/images/doordash-word.svg"
+      ],
+      "article_title_extracted": "Dayflow - Automatic work journal & AI time tracker for Mac",
+      "category": "Tools",
+      "created_at": "2026-07-04T14:59:25.394252Z",
+      "description": "Dayflow is a free, open-source automatic work journal and AI time tracker for Mac. It privately writes a readable timeline of what you actually accomplished each day - no timers, no tags, 100% local.",
+      "domain": "www.dayflow.so",
+      "embed_type": "",
+      "id": "k175m9259b7zzsn2d0z96rvjp589xxq5",
+      "og_image_url": "https://www.dayflow.so/images/og-image-v2.png",
+      "recommended_at": "2026-07-04T15:00:14.098000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "productivity",
+        "time-tracking",
+        "macos"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-04T15:00:14.098000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Dayflow - Automatic work journal & AI time tracker for Mac",
+      "url": "https://www.dayflow.so/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-07-04T17:41:02.898433Z",
+      "article_image_urls": [
+        "https://www.inflection.io/img/asset/YXNzZXRzL29nLWltYWdlLmpwZw/og-image.jpg?p=seo_pro_og&s=9b3c6546c61f351e9aa068b75b9b58a2",
+        "https://www.inflection.io/img/asset/YXNzZXRzL29nLWltYWdlLmpwZw/og-image.jpg?p=seo_pro_twitter&s=2af067e1a78659923d37200bd5992ee7",
+        "https://www.inflection.io/img/asset/YXNzZXRzLzNkOTg3ZDZkLTViZjUtNDI2NC05NTBjLTU5NjI5ODRkYjNhOC5wbmc/3d987d6d-5bf5-4264-950c-5962984db3a8.png?w=1646&fit=crop&s=767c00b9372ad68e9ddd1b9de31c8cf4",
+        "https://www.inflection.io/img/asset/YXNzZXRzL2JpbGwucG5n/bill.png?w=700&fit=crop&s=0ab6495c7c14951f0dd69e5d946cf9ab",
+        "https://www.inflection.io/img/asset/YXNzZXRzL2ZlZmM3NzM5LWNiZjQtNDQ0Mi04OWIwLTk1YmMyMTE2NzJmOC5wbmc/fefc7739-cbf4-4442-89b0-95bc211672f8.png?w=700&fit=crop&s=9e5fcb36b634a3b92142547077a122c5",
+        "https://www.inflection.io/img/asset/YXNzZXRzL211cmFsLnBuZw/mural.png?w=700&fit=crop&s=5ce0bc2cf64afcce5769b382eba6bd5e",
+        "https://www.inflection.io/img/asset/YXNzZXRzL2JpbGwucG5n/bill.png?w=200&fit=crop&s=28db6ef75b404b5273c7d806a7617cfc",
+        "https://www.inflection.io/img/asset/YXNzZXRzL2RpZ2l0YWxvY2Vhbi5wbmc/digitalocean.png?w=200&fit=crop&s=104f57bbc1f0b7ea49fbd258a86a42b8",
+        "https://www.inflection.io/img/asset/YXNzZXRzL211cmFsLnBuZw/mural.png?w=200&fit=crop&s=c69d46413b09786d9cec84147b7ade47",
+        "https://www.inflection.io/img/asset/YXNzZXRzL3BpdGNoYm9vay0xNzc0NTg3MTcyLnBuZw/pitchbook-1774587172.png?w=200&fit=crop&s=1f9d3e9fe071a3a56a9c25f0d52aaf28",
+        "https://www.inflection.io/img/asset/YXNzZXRzL3NhdWNlbGFicy5wbmc/saucelabs.png?w=200&fit=crop&s=69a4cd713d92537694ee3bdab9a2e1b9",
+        "https://www.inflection.io/img/asset/YXNzZXRzL3NlbmRvc28ucG5n/sendoso.png?w=200&fit=crop&s=fc481999acffcbcccdf1726c16a0a7ca"
+      ],
+      "article_title_extracted": "Inflection.io - AI Marketing Platform",
+      "category": "Tools",
+      "created_at": "2026-07-03T04:25:42.150592Z",
+      "description": "Inflection is a marketing platform designed for the AI-era. Finally, a marketing platform that works for you.",
+      "domain": "www.inflection.io",
+      "embed_type": "",
+      "id": "k176mcsvc5rh7j636zx3xkha4d89v9e0",
+      "og_image_url": "https://www.inflection.io/img/asset/YXNzZXRzL29nLWltYWdlLmpwZw/og-image.jpg?p=seo_pro_og&s=9b3c6546c61f351e9aa068b75b9b58a2",
+      "recommended_at": "2026-07-04T14:57:57.062000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "marketing-automation",
+        "artificial-intelligence",
+        "b2b-marketing"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-04T14:57:57.062000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Inflection.io - AI Marketing Platform",
+      "url": "https://www.inflection.io/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-07-04T17:41:02.898433Z",
+      "article_image_urls": [
+        "https://cdn.prod.website-files.com/6718ab0c5f7e6e98b11c3a7c/67a5d5c6fb7c52b7fd7b0f12_Gemnote-hero.jpg",
+        "https://cdn.prod.website-files.com/6718ab0c5f7e6e98b11c3a7c/698234719cd5a90d4353c931_popup%20background%203.png",
+        "https://cdn.prod.website-files.com/6718ab0c5f7e6e98b11c3a7c/6981020e0c4c3afe02c58780_popup%20close%20icon%20black.svg",
+        "https://cdn.prod.website-files.com/6718ab0c5f7e6e98b11c3a7c/67d31599def9dec7e6c1b67f_Gemnote_Logo_Black%201%20(1).png",
+        "https://cdn.prod.website-files.com/6718ab0c5f7e6e98b11c3a7c/67bc207196fbb6181b1cba64_wishlist-icon.png",
+        "https://cdn.prod.website-files.com/6718ab0c5f7e6e98b11c3a7c/67bc0dcf050c6a78c7a641a9_plus-icon.png",
+        "https://cdn.prod.website-files.com/6718ab0c5f7e6e98b11c3a7c/67bc0e41350e7e883fa3521c_minus-icon.png",
+        "https://cdn.prod.website-files.com/6718ab0c5f7e6e98b11c3a7c/6718c816cf694c9af0d91db8_down-arrow.png",
+        "https://cdn.prod.website-files.com/6718ab0c5f7e6e98b11c3a7c/67a5e1ce82ce93430181968f_nordstrom.png",
+        "https://cdn.prod.website-files.com/6718ab0c5f7e6e98b11c3a7c/67a5e1dd0bcf34bc56c6d1f5_google.png",
+        "https://cdn.prod.website-files.com/6718ab0c5f7e6e98b11c3a7c/67a5e1eee77a71dc59872828_netflix.png",
+        "https://cdn.prod.website-files.com/6718ab0c5f7e6e98b11c3a7c/67a5e1fbe6bbc30a3f217e25_open-AI.png"
+      ],
+      "article_title_extracted": "Custom Merchandise and Packaging - Gemnote",
+      "category": "Tools",
+      "created_at": "2026-07-03T08:08:59.560528Z",
+      "description": "Create custom merchandise that reps your brand with branded merch and custom swag for corporate gifts, events, and more.",
+      "domain": "www.gemnote.com",
+      "embed_type": "",
+      "id": "k17f675ttyfceb8b60m8b1652s89tk60",
+      "og_image_url": "https://cdn.prod.website-files.com/6718ab0c5f7e6e98b11c3a7c/67a5d5c6fb7c52b7fd7b0f12_Gemnote-hero.jpg",
+      "recommended_at": "2026-07-04T14:57:39.392000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "branded-merchandise",
+        "corporate-gifts",
+        "custom-swag"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-04T14:57:39.392000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Custom Merchandise and Packaging - Gemnote",
+      "url": "https://www.gemnote.com/",
+      "x_status_id": null
+    },
+    {
+      "category": "Design",
+      "created_at": "2026-07-03T08:11:43.563193Z",
+      "description": "Helping everyone home.",
+      "domain": "brand.rocket.com",
+      "embed_type": "",
+      "id": "k17837ay89z92gn7xwkcppf4jn89tey2",
+      "og_image_url": "https://brand.rocket.com/assets/static/8dad229e3693f63d.jpg",
+      "recommended_at": "2026-07-04T14:57:36.467000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "branding",
+        "design-systems",
+        "identity-guidelines"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-04T14:57:36.467000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Rocket Brand Guidelines",
+      "url": "https://brand.rocket.com/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://media.performance.dev/cdn-cgi/image/width=1200,height=630,quality=100,fit=cover,format=auto/posts/p_IE23cQZdfRUJ/ZVpQoFJq3Ooo.jpg",
+        "https://performance.dev/avatar-40.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=893,quality=90,format=auto,fit=scale-down/posts/p_IE23cQZdfRUJ/IE67n5ltBXi4.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=920,quality=90,format=auto,fit=scale-down/posts/p_IE23cQZdfRUJ/P1CqwN48xBCT.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=920,quality=90,format=auto,fit=scale-down/posts/p_IE23cQZdfRUJ/sY13-xvXU9fp.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=920,quality=90,format=auto,fit=scale-down/posts/p_IE23cQZdfRUJ/iyBAszFS2JGE.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=680,quality=90,format=auto,fit=scale-down/posts/p_IE23cQZdfRUJ/GtcQ8QJOB9UC.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=680,quality=90,format=auto,fit=scale-down/posts/p_IE23cQZdfRUJ/Jp5rX7RkW42K.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=400,quality=90,format=auto,fit=scale-down/posts/p_IE23cQZdfRUJ/NVJ4_HwuLM7Y.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=400,quality=90,format=auto,fit=scale-down/posts/p_IE23cQZdfRUJ/2XfmngHsBVPK.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=400,quality=90,format=auto,fit=scale-down/posts/p_IE23cQZdfRUJ/QyZ168B9kmUT.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=400,quality=90,format=auto,fit=scale-down/posts/p_IE23cQZdfRUJ/CYaFSlezAG6E.jpg"
+      ],
+      "article_text": "The Conductor Rewrite:\nReverse Engineering ChatGPT Web:\nHow OpenAI Built for a Billion Users\nOpen a new tab, type [chatgpt.com](https://chatgpt.com), and ask it something. No account, no sign in, no spinner. The page is interactive immediately, and the answer starts streaming a moment after you hit enter. That experience is served to roughly 1 billion people, making chatgpt.com a top website on the entire internet and one of the most used web apps in the world. On the surface it seems like a simple interface, but after digging in it's anything but. I spent days reverse engineering their web app by digging through the page source, bundled code, and network requests to understand how it was built.\n[What I'll dig into](https://performance.dev#what-ill-dig-into)\n- Start with the constraints \n- The migration from Next.js to React Router \n- Fastest path to paint \n- CSS at billion-user scale \n- Don't reinvent the wheel with components \n- Every answer is a render problem \n- Can you type yet? \n- Feature flagging everything \n- The fastest path to the first token \n- Letting a billion strangers in \n- The difference between ChatGPT and Claude \nBefore we start: I don't work at OpenAI and I've never seen their source code. What makes this piece different from my [Linear](https://performance.dev/how-is-linear-so-fast-a-technical-breakdown) and [Conductor](https://performance.dev/the-conductor-rewrite) breakdowns is that OpenAI hasn't really published anything about ChatGPT web. This piece is a mixture of history, investigation, and technical insights. The whole story has been assembled from chatgpt.com itself (the HTML, JavaScript, CSS, and network requests) plus random talks, tweets, and their career page.\n[Start with the constraints](https://performance.dev#start-with-the-constraints)\nThe two most important things I consider when architecting a web app are the goal and the constraints. These two factors shape every downstream decision. Who is the customer? How important is the initial load? Do you need an account to use it? Does it need to show up in search engines? What's the budget? How important is the developer experience? Is there existing architecture? And so on...\nFrom the outside, the goal of ChatGPT feels clear to me: be the site the entire world uses to interact with AI. It's incredibly important that the site is accessible to anyone around the world on any device. It should cater to everyone from an Android user on a spotty connection who just discovered ChatGPT, to a power user with a Pro subscription on a MacBook Pro.\nHaving those constraints in place eliminates entire architectures for you. A standard client side rendered app is out, because you'd be staring at a blank page while a bunch of JavaScript downloads before anything meaningful shows up. Apps like Linear get away with CSR because their users log in once and live inside the app all day, but that approach doesn't fit OpenAI's goal.\nServer-side rendering is a better approach in this case, but it doesn't come free. Every request now requires your server to fetch data, render HTML, and send it back, making it more expensive to run than serving static assets. As a developer, it's also a much harder model to reason about. Your app now exists in two environments (the server and the browser) and you're constantly thinking about which APIs are available where. You'll eventually hit hydration mismatches, accidentally reference window on the server, or spend time debugging caching and rendering behavior. It's a more complex architecture with more failure modes. But if your goal is the fastest possible first load, real HTML for search engines, and a great experience for first-time visitors, those are often tradeoffs worth making.\nLet's see what ChatGPT does. The first step is to take a look under the hood to better understand the architecture and technical decisions they've made. From what I can gather, this is roughly the stack as of today:\nFrontend\n  React 19 + react-dom",
+      "article_title_extracted": "Reverse Engineering ChatGPT Web: How OpenAI Built for a Billion Users",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-07-04T08:21:27.077279Z",
+      "description": "A technical deep dive into how OpenAI built ChatGPT's web app: React Router 7, streaming SSR, code splitting, and feature flags at billion-user scale.",
+      "domain": "performance.dev",
+      "embed_type": "",
+      "id": "k17ed1kxaa3f4xd6wef7d1tf2989x0df",
+      "og_image_url": "https://media.performance.dev/cdn-cgi/image/width=1200,height=630,quality=100,fit=cover,format=auto/posts/p_IE23cQZdfRUJ/ZVpQoFJq3Ooo.jpg",
+      "recommended_at": "2026-07-04T14:57:30.943000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "web-performance",
+        "react-router",
+        "software-architecture"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-04T14:57:30.943000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Reverse Engineering ChatGPT Web:\nHow OpenAI Built for a Billion Users",
+      "url": "https://performance.dev/chatgpt",
+      "x_status_id": null
+    },
+    {
+      "category": "Development",
+      "created_at": "2026-07-04T08:21:36.991357Z",
+      "description": "Microsoft Frontier Company embeds engineering teams in your business to turn AI pilots into measurable outcomes at enterprise scale. Learn more.",
+      "domain": "www.microsoft.com",
+      "embed_type": "",
+      "id": "k17cfa4yxwt01hj8qzd9eyharh89xand",
+      "og_image_url": "https://cloud.poche.app/api/storage/0c67adcf-9f62-4c39-831e-34129b488d07",
+      "recommended_at": "2026-07-04T14:57:29.266000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "enterprise-ai",
+        "digital-transformation",
+        "artificial-intelligence"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-04T14:57:29.266000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Microsoft Frontier Company | AI Outcomes at Enterprise Scale",
+      "url": "https://www.microsoft.com/en-us/frontier-company",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-07-04T17:41:02.898433Z",
+      "article_image_urls": [
+        "https://superwhisper.com/api/og",
+        "https://superwhisper.com/icon/Vercel.svg",
+        "https://superwhisper.com/icon/Spotify.svg",
+        "https://superwhisper.com/icon/OpenAI.svg",
+        "https://superwhisper.com/icon/Shopify.svg",
+        "https://superwhisper.com/icon/Meta.svg",
+        "https://superwhisper.com/icon/Applelogo.svg",
+        "https://superwhisper.com/image/whatsinside/offline/background.webp",
+        "https://superwhisper.com/image/whatsinside/offline/icon.svg",
+        "https://superwhisper.com/image/whatsinside/vocabulary/background.webp",
+        "https://superwhisper.com/image/whatsinside/vocabulary/icon.svg",
+        "https://superwhisper.com/image/whatsinside/modes/background.webp"
+      ],
+      "article_title_extracted": "Superwhisper — AI Voice to Text for macOS, Windows & iOS | Superwhisper",
+      "category": "Tools",
+      "created_at": "2026-07-04T08:22:22.557544Z",
+      "description": "AI powered voice to text for macOS, Windows, and iOS. Dictate in any app with offline and cloud speech recognition, 100+ languages, and custom AI modes. SOC 2 Type II certified. HIPAA compliant.",
+      "domain": "superwhisper.com",
+      "embed_type": "",
+      "id": "k179srrmbfve8fgp12r2r9arc589xcnt",
+      "og_image_url": "https://superwhisper.com/api/og",
+      "recommended_at": "2026-07-04T14:57:26.911000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "speech-to-text",
+        "ai-dictation",
+        "productivity"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-04T14:57:26.911000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Superwhisper — AI Voice to Text for macOS, Windows & iOS | Superwhisper",
+      "url": "https://superwhisper.com/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-07-04T17:41:02.898433Z",
+      "article_image_urls": [
+        "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/features/mobile-og-image.jpg",
+        "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Fblog%2Fqr-code-mobile-final.png&w=3840&q=70",
+        "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/wallpapers/cloud-agents-2.webp",
+        "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/avatars/andrew-milich-avatar.png",
+        "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/avatars/jack-pertschuk.jpeg"
+      ],
+      "article_title_extracted": "Cursor · Mobile",
+      "category": "Tools",
+      "created_at": "2026-07-04T10:59:40.787560Z",
+      "description": "Build from anywhere via the Cursor mobile app on iOS. Launch agents when ideas strike, get notified when work is ready for review, and merge PRs on the go.",
+      "domain": "cursor.com",
+      "embed_type": "",
+      "id": "k17eayhz2p5xq18a7bneeq36dh89xdep",
+      "og_image_url": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/features/mobile-og-image.jpg",
+      "recommended_at": "2026-07-04T14:57:23.087000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "cursor",
+        "ai-coding",
+        "mobile-development"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-04T14:57:23.087000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Cursor · Mobile",
+      "url": "https://cursor.com/mobile",
+      "x_status_id": null
+    },
     {
       "article_image_urls": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c6/aa/be/c6aabe0b-8fb0-209e-be1a-4fe7b4f01b0c/Placeholder.mill/1200x630wa.jpg",
@@ -6540,7 +6865,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-27T14:16:03.466397Z",
+      "article_fetch_attempted_at": "2026-07-04T17:41:02.898433Z",
       "article_title_extracted": "WeLM Blog",
       "category": "Articles",
       "created_at": "2026-06-13T03:20:03.421309Z",
@@ -6572,7 +6897,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-27T14:16:03.466397Z",
+      "article_fetch_attempted_at": "2026-07-04T17:41:02.898433Z",
       "article_image_urls": [
         "https://py8fhxnkzwtsqdo9.public.blob.vercel-storage.com/front/import/og.png"
       ],
@@ -6658,7 +6983,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-27T14:16:03.466397Z",
+      "article_fetch_attempted_at": "2026-07-04T17:41:02.898433Z",
       "article_title_extracted": "slot-text — tiny text roll animation",
       "category": "Development",
       "created_at": "2026-06-13T03:05:11.075737Z",
@@ -9069,7 +9394,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-27T14:16:03.466397Z",
+      "article_fetch_attempted_at": "2026-07-04T17:41:02.898433Z",
       "article_title_extracted": "mouseless",
       "category": "Tools",
       "created_at": "2026-06-06T03:58:56.025999Z",
@@ -9103,7 +9428,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-27T14:16:03.466397Z",
+      "article_fetch_attempted_at": "2026-07-04T17:41:02.898433Z",
       "article_image_urls": [
         "https://flueframework.com/og3.jpg",
         "https://svgl.app/library/cloudflare.svg",
@@ -9154,7 +9479,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-27T14:16:03.466397Z",
+      "article_fetch_attempted_at": "2026-07-04T17:41:02.898433Z",
       "article_image_urls": [
         "https://conduit.ai/og-image.jpg",
         "https://www.conduit.ai/figma/conduit-wordmark.svg?dpl=dpl_AJeXAnRt3UoTMxqdsg44sUB9uz9P",
@@ -13656,19 +13981,19 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-27T14:16:03.466397Z",
+      "article_fetch_attempted_at": "2026-07-04T17:41:02.898433Z",
       "article_image_urls": [
-        "https://x.ai/opengraph-image-1j7jya.png?opengraph-image.12t~.8y.z80vm.png?dpl=6894bd9bf9f26dc33e49da4b905237cfd209472b",
+        "https://x.ai/opengraph-image-1j7jya.png?opengraph-image.12t~.8y.z80vm.png?dpl=fa9459bc09500fbb5d795e103d9706eb9c932f09",
         "https://x.ai/images/og/default.png",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-1.jpg&w=3840&q=75&dpl=6894bd9bf9f26dc33e49da4b905237cfd209472b",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-1-night.jpg&w=3840&q=75&dpl=6894bd9bf9f26dc33e49da4b905237cfd209472b",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-7.jpg&w=3840&q=75&dpl=6894bd9bf9f26dc33e49da4b905237cfd209472b",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-8.jpg&w=3840&q=75&dpl=6894bd9bf9f26dc33e49da4b905237cfd209472b",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-8-night.jpg&w=3840&q=75&dpl=6894bd9bf9f26dc33e49da4b905237cfd209472b",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fintroducing-goal-og.webp&w=3840&q=75&dpl=6894bd9bf9f26dc33e49da4b905237cfd209472b",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-ibkr.webp&w=3840&q=75&dpl=6894bd9bf9f26dc33e49da4b905237cfd209472b",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-databricks.webp&w=3840&q=75&dpl=6894bd9bf9f26dc33e49da4b905237cfd209472b",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fintroducing-word-addin-title.webp&w=3840&q=75&dpl=6894bd9bf9f26dc33e49da4b905237cfd209472b"
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-1.jpg&w=3840&q=75&dpl=fa9459bc09500fbb5d795e103d9706eb9c932f09",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-1-night.jpg&w=3840&q=75&dpl=fa9459bc09500fbb5d795e103d9706eb9c932f09",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-7.jpg&w=3840&q=75&dpl=fa9459bc09500fbb5d795e103d9706eb9c932f09",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-8.jpg&w=3840&q=75&dpl=fa9459bc09500fbb5d795e103d9706eb9c932f09",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-8-night.jpg&w=3840&q=75&dpl=fa9459bc09500fbb5d795e103d9706eb9c932f09",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-voice-agent-builder.webp&w=3840&q=75&dpl=fa9459bc09500fbb5d795e103d9706eb9c932f09",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-ibkr.webp&w=3840&q=75&dpl=fa9459bc09500fbb5d795e103d9706eb9c932f09",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fintroducing-goal-og.webp&w=3840&q=75&dpl=fa9459bc09500fbb5d795e103d9706eb9c932f09",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-databricks.webp&w=3840&q=75&dpl=fa9459bc09500fbb5d795e103d9706eb9c932f09"
       ],
       "article_title_extracted": "xAI",
       "category": "Development",
@@ -13751,7 +14076,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-27T14:16:03.466397Z",
+      "article_fetch_attempted_at": "2026-07-04T17:41:02.898433Z",
       "article_image_urls": [
         "https://glimm.dev/opengraph-image?8d081aec229730dd",
         "https://glimm.dev/twitter-image?663440559795821c",
@@ -13793,7 +14118,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-27T14:16:03.466397Z",
+      "article_fetch_attempted_at": "2026-07-04T17:41:02.898433Z",
       "article_image_urls": [
         "https://rag.computer/_next/image?url=%2Fhome%2Fbengaluru-hero.webp&w=3840&q=75&dpl=dpl_Ao6Hw21LMv1pFh5q59itVDCiHdWT"
       ],
@@ -26809,6 +27134,13 @@
           "recommended_at": "2026-04-19T04:54:32.668000Z",
           "recommended_by": "huan",
           "slug": "huan"
+        },
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-03-29T01:20:47.004000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
         }
       ],
       "title": "Stripe Projects | Provision and Manage Services from the CLI",
@@ -34447,58 +34779,6 @@
       "title_zh_hash": "8a6ee504c03d03a9",
       "title_zh_translator_v": 2,
       "url": "https://www.panton.vitra.com/",
-      "x_status_id": null
-    },
-    {
-      "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-07-01T18:29:28.971621Z",
-      "article_image_urls": [
-        "https://projects.dev/assets/images/og/og.jpg",
-        "https://projects.dev/assets/images/og/twitter-large.jpg",
-        "https://projects.dev/img/_-NTWf-bqg-1266.jpeg",
-        "https://projects.dev/aLixJ0SsW_-1280.jpeg",
-        "https://projects.dev/uyyGwunwlH-1280.jpeg",
-        "https://projects.dev/m8j8ArQSLr-1280.jpeg",
-        "https://projects.dev/twOdhUVKbJ-1200.jpeg",
-        "https://projects.dev/YHUAmX5q9i-1280.jpeg",
-        "https://projects.dev/SXrGLRhNIF-1280.jpeg",
-        "https://projects.dev/JFvYz7fgJE-1280.jpeg",
-        "https://projects.dev/vX1hLo_cNP-1280.jpeg",
-        "https://projects.dev/RdlZCOLjoD-1280.jpeg"
-      ],
-      "article_title_extracted": "Stripe Projects | Add any service to your app in one command",
-      "category": "Development",
-      "created_at": "2026-03-29T01:19:37.199660Z",
-      "description": "Enable you or your agents to provision hosting, databases, auth, AI, and more from the CLI. Generate credentials and manage usage and billing in one place.",
-      "description_zh": "让您或您的代理能够通过 CLI 配置托管、数据库、认证、AI 等服务。在一个地方生成凭证并管理使用情况和计费。",
-      "description_zh_hash": "93883db91938aa65",
-      "description_zh_translator_v": 2,
-      "domain": "projects.dev",
-      "embed_type": "",
-      "id": "k17a4rpz6p9f9jj66bcrfxa64583t3rq",
-      "og_image_url": "https://projects.dev/assets/images/og/og.jpg",
-      "recommended_at": "2026-03-29T01:20:47.004000Z",
-      "source": "poche@dine",
-      "source_type": "poche",
-      "tags": [
-        "devops",
-        "cloud-infrastructure",
-        "cli-tools"
-      ],
-      "teams": [
-        {
-          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
-          "name": "Dine",
-          "recommended_at": "2026-03-29T01:20:47.004000Z",
-          "recommended_by": "disinfeqt",
-          "slug": "dine"
-        }
-      ],
-      "title": "Stripe Projects | Provision and Manage Services from the CLI",
-      "title_zh": "Stripe 项目 | 通过 CLI 配置和管理服务",
-      "title_zh_hash": "29446fd5da962d55",
-      "title_zh_translator_v": 2,
-      "url": "https://projects.dev/",
       "x_status_id": null
     },
     {
@@ -108876,7 +109156,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2281,
+      "count": 2289,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -108912,5 +109192,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-07-04T14:12:33.358308Z"
+  "updated_at": "2026-07-04T17:41:21.094047Z"
 }
