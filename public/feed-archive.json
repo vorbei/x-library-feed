@@ -4872,6 +4872,19 @@
       "title": "",
       "url": "http://x.com/i/article/2060561764451008512"
     },
+    "http://x.com/i/article/2060567536543182848": {
+      "cf_fallback_error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2060567536543182848",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2060567536543182848"
+    },
     "http://x.com/i/article/2060705100503379973": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5279,6 +5292,35 @@
       "title": "",
       "url": "http://x.com/i/article/2062094052170899456"
     },
+    "http://x.com/i/article/2062125489721102336": {
+      "cf_fallback_error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2062125489721102336",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2062125489721102336"
+    },
+    "http://x.com/i/article/2062217540411994112": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062217540411994112",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062217540411994112/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ545MEXEAAc0o3?format=jpg&name=900x900)](http://x.com/i/article/2062217540411994112/saameeey/article/2062229308878581772/media/2062218603269656576)\n\nThe AI Integration Layer Is Becoming the New Backend \n\n[![](https://pbs.twimg.com/profile_images/2054193751174598656/2HFrpykx_normal.jpg)](http://x.com/i/article/2062217540411994112/saameeey)\n\n[Samuel Umoren](http://x.com/i/article/2062217540411994112/saameeey)\n\n[@saameeey](http://x.com/i/article/2062217540411994112/saameeey)\n\n·\n\n13h\n\nFollow\n\nClick to Follow saameeey\n\n4\n\n3\n\n25\n\n[2.9K](http://x.com/i/article/2062217540411994112/saameeey/status/2062229308878581772/analytics)\n\nBackend development has always been the part of software where product behavior becomes enforceable.\n\nThe backend manages identity, permissions, data storage, business logic, background jobs, APIs, and third-party integrations. It is where product rules become systems that customers can actually use.\n\nWith AI products, that baseline stays in place.\n\nThe added backend work sits around the LLM and the agent using it.\n\nAn AI product has to retrieve the right customer context, preserve source permissions, decide which tools an agent can use, execute those tool calls safely, route requests across models, track cost, log what happened, and give teams a way to audit the system.\n\nThat sounds like a lot, right? Yes, it is. This work lives between the product, the LLM, the agent, and the customer's business systems. Let's call it the AI integration layer.\n\nYou can describe the underlying architecture in three paths:\n\n[![Image](https://pbs.twimg.com/media/HJ55QySWwAAoEeW?format=png&name=small)](http://x.com/i/article/2062217540411994112/saameeey/article/2062229308878581772/media/2062219008665894912)\n\nThe three paths of the AI integration layer\n\nIn this piece, i'll be referencing \n\n[Merge.dev](http://x.com/i/article/2062217540411994112//Merge.dev)\n\n. \n\n[@merge\\_api](https://x.com/@merge%5Fapi)\n\n builds integration infrastructure for companies that need to connect their products to customer systems. Its recent product direction extends that work into AI infrastructure: \n\n[Unified](https://www.merge.dev/blog/the-new-merge)\n\n handles synced business context, \n\n[Agent Handler ](https://docs.merge.dev/merge-agent-handler/overview)\n\nhandles governed tool execution, and \n\n[Gateway](https://docs.merge.dev/merge-gateway/features/routing-policies/overview)\n\n handles model routing, observability, and control.\n\nPut differently, the integration layer is becoming the backend around the LLM.\n\n[![Image](https://pbs.twimg.com/media/HJ55bpNXoAA5WsW?format=jpg&name=small)](http://x.com/i/article/2062217540411994112/saameeey/article/2062229308878581772/media/2062219195207622656)\n\nTraditional backend responsibilities beside AI backend additions\n\n## \n\nAI products add a second backend surface\n\nA traditional SaaS backend usually has a familiar set of responsibilities:\n\n[![Image](https://pbs.twimg.com/media/HJ6AeN_WwAA57hA?format=jpg&name=small)](http://x.com/i/article/2062217540411994112/saameeey/article/2062229308878581772/media/2062226936022089728)\n\nWhen a product adds AI capabilities, these responsibilities remain.\n\nThen the AI layer introduces another set of runtime responsibilities:\n\n[![Image](https://pbs.twimg.com/media/HJ6AoWyWwAAXabF?format=jpg&name=small)](http://x.com/i/article/2062217540411994112/saameeey/article/2062229308878581772/media/2062227110182174720)\n\nAI products need these responsibilities because they interact with customer systems differently from traditional applications.\n\nA traditional app usually exposes a workflow through screens, forms, buttons, and API calls. The user performs the action, and then the backend validates it, writes data, and records the result.\n\nWith agents, the workflow is compressed because the agent reads context, ch",
+      "text_excerpt_zh": "AI 集成层正在成为新的后端\n\n后端开发一直是软件中产品行为得以强制执行的部分。\n\n后端管理身份认证、权限、数据存储、业务逻辑、后台任务、API 和第三方集成。它是产品规则转化为客户可实际使用的系统的地方。\n\n对于 AI 产品，这一基线保持不变。\n\n新增的后端工作围绕 LLM 和使用它的 agent 展开。\n\n一个 AI 产品必须检索正确的客户上下文、保留源权限、决定 agent 可以使用哪些工具、安全地执行这些工具调用、跨模型路由请求、跟踪成本、记录发生的事件，并为团队提供审计系统的方式。\n\n听起来很多，对吧？是的，确实如此。这项工作存在于产品、LLM、agent 和客户业务系统之间。我们称之为 AI 集成层。\n\n你可以用三条路径来描述底层架构：\n\n[图片]\n\nAI 集成层的三条路径\n\n在这篇文章中，我将引用 Merge.dev。@merge_api 为需要将其产品连接到客户系统的公司构建集成基础设施。其最近的产品方向将这项工作扩展到了 AI 基础设施：Unified 处理同步的业务上下文，Agent Handler 处理受控的工具执行，Gateway 处理模型路由、可观测性和控制。\n\n换句话说，集成层正在成为围绕 LLM 的后端。\n\n[图片]\n\n传统后端职责与 AI 后端新增职责\n\n## AI 产品增加了第二个后端表面\n\n传统的 SaaS 后端通常有一套熟悉的职责：\n\n[图片]\n\n当产品添加 AI 能力时，这些职责仍然存在。\n\n然后 AI 层引入了另一套运行时职责：\n\n[图片]\n\nAI 产品需要这些职责，因为它们与客户系统的交互方式与传统应用不同。\n\n传统应用通常通过屏幕、表单、按钮和 API 调用来暴露工作流。用户执行操作，然后后端验证它、写入数据并记录结果。\n\n对于 agent 来说，工作流被压缩了，因为 agent 读取上下文、进行推理并执行操作，而无需用户手动完成每个步骤。",
+      "text_excerpt_zh_hash": "47ed708c8de54e9d",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2062217540411994112"
+    },
     "http://x.com/i/article/2062229784009256960": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5294,6 +5336,22 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2062229784009256960"
+    },
+    "http://x.com/i/article/2062535871379972096": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062535871379972096",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062535871379972096/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ-dvqUbUAEKgBZ?format=jpg&name=900x900)](http://x.com/i/article/2062535871379972096/AlphaSignalAI/article/2062553418460479577/media/2062540596498354177)\n\nAI Agents Don't Need Bigger Context Windows \n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2014100845189529600/Ff1Xc28-_normal.jpg)](http://x.com/i/article/2062535871379972096/AlphaSignalAI)\n\n[AlphaSignal AI](http://x.com/i/article/2062535871379972096/AlphaSignalAI)\n\n[@AlphaSignalAI](http://x.com/i/article/2062535871379972096/AlphaSignalAI)\n\n·\n\n10h\n\nFollow\n\nClick to Follow AlphaSignalAI\n\n4\n\n2\n\n28\n\n[2.2K](http://x.com/i/article/2062535871379972096/AlphaSignalAI/status/2062553418460479577/analytics)\n\n## \n\nThis repo treats context as a managed resource: compress, cache, retrieve, and share rather than a prompt that just keeps growing.\n\n> In 8 minutes, you'll learn how Headroom cuts agent context by up to 90% without losing access to the original information.\n\nWatch a coding agent debug a production issue.\n\nIt searches the repo. grep returns 1,000 results. It opens the logs. 50,000 tokens. It reads the stack trace. 10,000 tokens.\n\nIt needed 3 files, 1 stack frame, 20 log lines. About 800 tokens of signal.\n\nIt consumed 77,000 to get there.\n\nThis isn't a model problem. The model would do fine with the right 800 tokens. The problem is nobody filtered the noise before it arrived.\n\nContext windows keep getting bigger. But bigger windows don't fix this. They just make it more expensive.\n\nAn agent with a 200K context window that fills 60% of it with irrelevant logs is not a smarter agent. It's a slower, costlier one. Attention diluted across 77,000 tokens finds the right signal less reliably than attention over 800.\n\nThere's an open-source project called Headroom that sits between your agent and the LLM and compresses that noise before it ever arrives. The architecture has one idea in particular worth understanding carefully.\n\n## \n\nMost compression is a one-way door\n\nEvery existing approach to this problem shares the same flaw: once you compress, the original is gone.\n\nSummarize a tool output and discard it, the details are gone. Truncate a log file and the model can't recover what was cut. Provider-native compaction collapses conversation history and that's final.\n\nThis forces an impossible tradeoff. Compress aggressively and risk losing something important. Compress conservatively and leave most of the savings on the table.\n\nHeadroom's core architecture, called CCR (Compress-Cache-Retrieve), eliminates this tradeoff by making compression reversible.\n\nWhen content is compressed, the original is stored in a local cache with a content hash. The model receives the compressed version plus a retrieval tool called headroom\\_retrieve.\n\nIf the model needs the full data, it calls headroom\\_retrieve(hash=abc123) and gets the original back in 1ms.\n\n[![Image](https://pbs.twimg.com/media/HJ-k4eraoAA3zwF?format=jpg&name=small)](http://x.com/i/article/2062535871379972096/AlphaSignalAI/article/2062553418460479577/media/2062548444573769728)\n\nNothing is permanently lost. You're not making a one-way decision anymore. The model decides when it needs more. Headroom just makes sure nothing is gone when it does.\n\n## \n\nThree compressors, one router\n\nHeadroom's ContentRouter classifies every incoming piece of content and sends it to the right compressor.\n\nSmartCrusher handles JSON.\n\nA grep returning 1,000 file paths gets reduced to the 20 most relevant. It's selecting based on task context, not just truncating by position.\n\nCodeCompressor is AST-aware.\n\nIt strips docstrings, collapses function bodies to signatures, removes comment blocks. The structural skeleton stays. The prose the model doesn't need goes.\n\nKompress-base is Headroom's own HuggingFace model, trained specifically on agentic traces rather than",
+      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2062535871379972096/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJ-dvqUbUAEKgBZ?format=jpg&name=900x900)](http://x.com/i/article/2062535871379972096/AlphaSignalAI/article/2062553418460479577/media/2062540596498354177)\n\nAI 智能体不需要更大的上下文窗口\n\n[![方形头像](https://pbs.twimg.com/profile_images/2014100845189529600/Ff1Xc28-_normal.jpg)](http://x.com/i/article/2062535871379972096/AlphaSignalAI)\n\n[AlphaSignal AI](http://x.com/i/article/2062535871379972096/AlphaSignalAI)\n\n[@AlphaSignalAI](http://x.com/i/article/2062535871379972096/AlphaSignalAI)\n\n·\n\n10小时前\n\n关注\n\n点击关注 AlphaSignalAI\n\n4\n\n2\n\n28\n\n[2.2K](http://x.com/i/article/2062535871379972096/AlphaSignalAI/status/2062553418460479577/analytics)\n\n## \n\n这个仓库将上下文视为一种可管理的资源：压缩、缓存、检索和共享，而不是一个不断增长的提示词。\n\n> 在 8 分钟内，你将了解 Headroom 如何在不丢失原始信息访问权限的情况下，将智能体的上下文减少高达 90%。\n\n观察一个编码智能体调试生产问题。\n\n它搜索仓库。grep 返回 1000 个结果。它打开日志。50,000 个 token。它读取堆栈跟踪。10,000 个 token。\n\n它实际需要 3 个文件、1 个堆栈帧、20 行日志。大约 800 个 token 的信号。\n\n它却消耗了 77,000 个 token 才到达那里。\n\n这不是模型的问题。如果给模型正确的 800 个 token，它会做得很好。问题在于没有人能在信息到达之前过滤掉噪声。\n\n上下文窗口在不断变大。但更大的窗口并不能解决这个问题。它们只会让成本更高。\n\n一个拥有 200K 上下文窗口的智能体，如果其中 60% 被无关日志填满，它并不会变得更聪明。它只会变得更慢、更昂贵。注意力分散在 77,000 个 token 上，找到正确信号的可靠性远不如集中在 800 个 token 上。\n\n有一个名为 Headroom 的开源项目，它位于你的智能体和 LLM 之间，在噪声到达之前就将其压缩。这个架构中有一个特别值得仔细理解的想法。\n\n## \n\n大多数压缩是一条单行道\n\n所有现有的解决这个问题的方法都有一个共同的缺陷：一旦压缩，原始信息就消失了。\n\n总结工具输出并丢弃它，细节就没了。截断日志文件，模型就无法恢复被裁剪的部分。提供商原生的压缩会折叠对话历史，而且这是不可逆的。\n\n这迫使人们做出一个不可能的权衡。激进压缩，冒着丢失重要内容的风险。保守压缩，又无法实现大部分节省。\n\nHeadroom 的核心架构，称为 CCR（压缩-缓存-检索），通过使压缩可逆来消除这种权衡。\n\n当内容被压缩时，原始内容会连同内容哈希一起存储在本地缓存中。模型会收到压缩后的版本以及一个名为 `headroom_retrieve` 的检索工具。\n\n如果模型需要完整数据，它会调用 `headroom_retrieve(hash=abc123)`，并在 1 毫秒内取回原始内容。\n\n[![图片](https://pbs.twimg.com/media/HJ-k4eraoAA3zwF?format=jpg&name=small)](http://x.com/i/article/2062535871379972096/AlphaSignalAI/article/2062553418460479577/media/2062548444573769728)\n\n没有任何东西会永久丢失。你不再需要做出单向决策。模型会自行判断何时需要更多信息。Headroom 只是确保当模型需要时，信息不会消失。\n\n## \n\n三个压缩器，一个路由器\n\nHeadroom 的 `ContentRouter` 会对每一条传入的内容进行分类，并将其发送到正确的压缩器。\n\n`SmartCrusher` 处理 JSON。\n\n一个返回 1000 个文件路径的 grep 结果会被缩减为最相关的 20 个。它是基于任务上下文进行选择，而不仅仅是按位置截断。\n\n`CodeCompressor` 是 AST 感知的。\n\n它会剥离文档字符串，将函数体折叠为签名，移除注释块。结构骨架得以保留，而模型不需要的散文内容则被移除。\n\n`Kompress-base` 是 Headroom 自己的 HuggingFace 模型，专门针对智能体轨迹进行训练，而不是",
+      "text_excerpt_zh_hash": "da0da81962fbd23d",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2062535871379972096"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -14431,6 +14489,35 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Reverse-engineering Claude's generative UI - then building it for the terminal",
       "url": "https://michaellivs.com/blog/reverse-engineering-claude-generative-ui/"
+    },
+    "https://microsoft.ai/news/introducing-mai-thinking-1/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "",
+      "extraction_source": "trafilatura",
+      "final_url": "https://microsoft.ai/news/introducing-mai-thinking-1/",
+      "frameable": null,
+      "image_urls": [
+        "https://microsoft.ai/wp-content/themes/wp-base-theme/images/social.jpg",
+        "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png",
+        "https://microsoft.ai/wp-content/uploads/2026/05/thinking-1.png",
+        "https://microsoft.ai/wp-content/uploads/2026/05/code-2.png",
+        "https://microsoft.ai/wp-content/uploads/2026/05/image-5.png",
+        "https://microsoft.ai/wp-content/uploads/2026/05/transcribe-1.png",
+        "https://microsoft.ai/wp-content/uploads/2026/05/HeroCollageBuild3-copy-1-1.jpg",
+        "https://microsoft.ai/wp-content/uploads/2026/05/Frame-2147264168.jpg",
+        "https://microsoft.ai/wp-content/uploads/2026/05/mai-code-1-flash.jpg",
+        "https://microsoft.ai/wp-content/uploads/2026/06/AIME-2025-1.png",
+        "https://microsoft.ai/wp-content/uploads/2026/05/MAI-Thinking-1-metrics-.png",
+        "https://microsoft.ai/wp-content/uploads/2026/06/Thinking01.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Introducing MAI-Thinking-1\nToday we are introducing MAI-Thinking-1, Microsoft AI’s reasoning model. It is a medium-sized model that stands among the strongest models in its weight class. It matches leading models on key software engineering benchmarks, demonstrates advanced mathematical reasoning capabilities, and is preferred to Sonnet 4.6 in our blind human side-by-side evaluations. We trained it from the ground up on enterprise grade, clean and commercially licensed data, without distillation from third-party models.\nMAI-Thinking-1 is a step in our broader work to build towards Humanist Superintelligence: advanced AI capabilities designed to serve people and organizations, not to replace them. The model matters on both axes: what it can do, and how it was built.\nThe Hill-Climbing Machine\nMore than a single model, we are excited to introduce our Hill-Climbing Machine: a co-designed pipeline built to make every component of model development climbable, so capabilities improve continually and reliably over time. The aim is a repeatable system that can absorb better data, stronger rewards, more capable environments, and more compute.\nThree main pillars guide our philosophy.\nFirst, capabilities should be learned, not inherited. Although faster to acquire, inherited intelligence lacks the steerability essential for real world usage: an imitator is fundamentally tied to the design choices of its teacher and struggles to adapt to new situations. MAI-Thinking-1 was trained without distillation from third party models, forcing our model to truly learn the tasks at hand.\nSecond, clean data. MAI-Thinking-1 was trained on clean and appropriately licensed data, with AI-generated content excluded from pre-training. This matters for quality, provenance, and control. If we cannot account for what shaped a model, we cannot fully understand its behavior or credibly improve it.\nThird, self-sufficiency across the entire stack. All the way from co-design of our models with MSFT’s own accelerators through to our reinforcement learning framework, we have focused efforts on in-house training infrastructure. This is a crucial part of building our hill-climbing machine, to ensure we can fully optimize and shape our systems end-to-end to best serve our needs.\nMedium-sized model, with strong software engineering performance\nMAI-Thinking-1 is a 35B-active, ~1T-total parameters, sparse Mixture of Experts model, a smaller inference footprint than much larger models. Despite this, our model is toe-to-toe with Claude Opus 4.6 on SWE-Bench Pro. That matters for developers and enterprises because model size determines where advanced coding assistance can be deployed, how often it can be used, and whether it can move from exceptional tasks into daily workflows.\nWe have invested heavily in the training environments needed for agentic coding. Each verified environment is deterministic, executable, and graded by real test suites. This gives the model practice on the kind of multi-step work developers actually do: reading code, editing files, running tests, observing failures, and recovering from intermediate mistakes.\nAdvanced mathematical reasoning capabilities\nMAI-Thinking-1 reaches 97.0% on AIME 2025, and 94.5% on AIME 2026, showing strong mathematical and scientific reasoning for its weight class. Strong performance here gives us confidence that our training loop can create real reasoning gains – climbing all the way from the ground up – from our own data, rewards, and evaluation process, enabling this intelligence to generalize to other domains over time.\nPreferred in human side-by-sides vs. Sonnet 4.6\nPeople care about whether a model understands the task, follows instructions, uses the right level of detail, writes clearly, and respects their time.\nWe built a blind side by side human evaluation with one of our partners, Surge, using their pool of professional raters to measure various models on these traits. The evaluation spanned 1,276 tasks across a wide",
+      "text_excerpt_zh": "# 介绍 MAI-Thinking-1\n\n今天，我们推出 MAI-Thinking-1，这是微软 AI 的推理模型。它是一个中等规模的模型，在其重量级中属于最强模型之列。它在关键软件工程基准测试上与领先模型持平，展现出先进的数学推理能力，并且在我们进行的盲测人工对比评估中，其表现优于 Sonnet 4.6。我们从零开始，使用企业级、干净且具有商业许可的数据对其进行训练，未从第三方模型进行蒸馏。\n\nMAI-Thinking-1 是我们朝着构建人本主义超级智能这一更广泛工作迈出的一步：即设计服务于人和组织、而非取代他们的先进 AI 能力。该模型在两个维度上都很重要：它能做什么，以及它是如何构建的。\n\n## 爬山机器\n\n我们很高兴推出的不仅仅是一个单一模型，还有我们的爬山机器：一个协同设计的流水线，旨在使模型开发的每个组件都可攀登，从而使能力能够随着时间的推移持续且可靠地提升。目标是建立一个可重复的系统，能够吸收更好的数据、更强的奖励、更强大的环境以及更多的算力。\n\n我们的理念主要基于三大支柱。\n\n首先，能力应该是学习而来的，而非继承的。虽然继承的智能获取速度更快，但它缺乏实际使用中至关重要的可引导性：模仿者从根本上受限于其教师的设计选择，并且难以适应新情况。MAI-Thinking-1 的训练未使用第三方模型的蒸馏技术，迫使我们的模型真正学习手头的任务。\n\n其次，干净的数据。MAI-Thinking-1 使用干净且经过适当许可的数据进行训练，预训练阶段排除了 AI 生成的内容。这对于质量、来源和可控性至关重要。如果我们无法解释是什么塑造了一个模型，我们就无法完全理解其行为，也无法可靠地改进它。\n\n第三，整个技术栈的自给自足。从我们与微软自有加速器协同设计模型，到我们的强化学习框架，我们一直专注于内部训练基础设施。这是构建我们爬山机器的关键部分，以确保我们能够端到端地全面优化和塑造我们的系统，以最好地满足我们的需求。\n\n## 中等规模模型，具备强大的软件工程性能\n\nMAI-Thinking-1 是一个 350 亿活跃参数、约 1 万亿总参数的稀疏混合专家模型，其推理占用空间远小于更大的模型。尽管如此，我们的模型在 SWE-Bench Pro 上与 Claude Opus 4.6 不相上下。这对开发者和企业来说很重要，因为模型大小决定了高级编码辅助功能可以部署在哪里、使用频率如何，以及它能否从特殊任务进入日常工作流程。\n\n我们在智能体编码所需的训练环境上投入了大量资源。每个经过验证的环境都是确定性的、可执行的，并通过真实测试套件进行评分。这使模型能够练习开发者实际执行的多步骤工作：阅读代码、编辑文件、运行测试、观察失败以及从中期错误中恢复。\n\n## 先进的数学推理能力\n\nMAI-Thinking-1 在 AIME 2025 上达到 97.0%，在 AIME 2026 上达到 94.5%，在其重量级中展现出强大的数学和科学推理能力。这里的强劲表现让我们相信，我们的训练循环能够从我们自己的数据、奖励和评估过程中，从零开始创造出真正的推理提升，从而使这种智能能够随着时间的推移泛化到其他领域。\n\n## 在人工对比评估中优于 Sonnet 4.6\n\n人们关心模型是否理解任务、遵循指令、使用适当的详细程度、清晰写作以及尊重他们的时间。\n\n我们与合作伙伴 Surge 共同构建了一项盲测人工对比评估，利用他们的专业评分员池来衡量各种模型在这些特质上的表现。该评估涵盖了 1,276 项广泛任务，横跨",
+      "text_excerpt_zh_hash": "a8f1426e6c5abcd0",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "Introducing MAI-Thinking-1 | Microsoft AI",
+      "url": "https://microsoft.ai/news/introducing-mai-thinking-1/"
     },
     "https://mike.tech/blog/death-of-software-development": {
       "cleaner_v": 2,
@@ -26695,6 +26782,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ6I9dFWIAAOBde.jpg"
     },
+    "https://pbs.twimg.com/media/HJ6Q2qNW8AAjtxL.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ6Q2qNW8AAjtxL.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ6Q2qNW8AAjtxL.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ6Q2qNW8AAjtxL.jpg"
+    },
     "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -26708,6 +26809,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ8HrJJawAAqjH1.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ8HrJJawAAqjH1.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ8HrJJawAAqjH1.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ8HrJJawAAqjH1.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ8NZ4DaQAALPfq.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ8NZ4DaQAALPfq.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ8NZ4DaQAALPfq.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ8NZ4DaQAALPfq.jpg"
     },
     "https://pbs.twimg.com/media/HJExBQ4b0AAl5XH.jpg": {
       "cleaner_v": 2,
@@ -43154,6 +43283,14 @@
       "https://www.aiedgehq.co/",
       "https://pbs.twimg.com/media/HJ5fTHBbsAElgTp.jpg"
     ],
+    "2062163858182328424": [
+      "https://x.com/AlphaSignalAI/status/2062163858182328424",
+      "http://x.com/i/article/2062125489721102336",
+      "https://x.com/AlphaSignalAI/status/2062165107300499690",
+      "https://microsoft.ai/news/introducing-mai-thinking-1/",
+      "https://x.com/AlphaSignalAI/status/2062553418460479577",
+      "http://x.com/i/article/2062535871379972096"
+    ],
     "2062167932440817915": [
       "https://x.com/SidebarIO/status/2062167932440817915",
       "https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar",
@@ -43194,11 +43331,26 @@
       "https://meodai.github.io/heerich/?ref=sidebar",
       "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg"
     ],
+    "2062226357522743484": [
+      "https://x.com/hwchase17/status/2062226357522743484"
+    ],
+    "2062229308878581772": [
+      "https://x.com/saameeey/status/2062229308878581772",
+      "http://x.com/i/article/2062217540411994112",
+      "https://x.com/saameeey/status/2062334132466622844"
+    ],
     "2062233330196926720": [
       "https://x.com/aparnadhinak/status/2062233330196926720",
       "http://x.com/i/article/2062229784009256960",
       "https://x.com/aparnadhinak/status/2062255521990852980",
       "https://x.com/aparnadhinak/status/2062280622937370649"
+    ],
+    "2062244953808335343": [
+      "https://x.com/PawelHuryn/status/2062244953808335343",
+      "https://pbs.twimg.com/media/HJ6Q2qNW8AAjtxL.jpg",
+      "https://x.com/PawelHuryn/status/2062295015653834794",
+      "https://x.com/PawelHuryn/status/2062247245072998702",
+      "https://x.com/PawelHuryn/status/2062330152239919333"
     ],
     "2062247077833310623": [
       "https://x.com/CopilotKit/status/2062247077833310623"
@@ -43214,8 +43366,31 @@
     "2062274312363770064": [
       "https://x.com/ClaudeDevs/status/2062274312363770064",
       "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude"
+    ],
+    "2062345653079224458": [
+      "https://x.com/yanhua1010/status/2062345653079224458",
+      "http://x.com/i/article/2060567536543182848",
+      "https://x.com/yanhua1010/status/2062356971169444241",
+      "https://x.com/yanhua1010/status/2062494496575861099",
+      "https://x.com/yanhua1010/status/2062390639887814754",
+      "https://x.com/yanhua1010/status/2062390692849295424"
+    ],
+    "2062380163338535064": [
+      "https://x.com/libapi_/status/2062380163338535064",
+      "https://pbs.twimg.com/media/HJ8HrJJawAAqjH1.jpg",
+      "https://x.com/libapi_/status/2062388545147548097",
+      "https://x.com/libapi_/status/2062487028378546243",
+      "https://x.com/libapi_/status/2062382239963558020",
+      "https://x.com/libapi_/status/2062552422783033678",
+      "https://x.com/libapi_/status/2062487159588942068",
+      "https://x.com/libapi_/status/2062382058245390445",
+      "https://pbs.twimg.com/media/HJ8NZ4DaQAALPfq.jpg",
+      "https://x.com/libapi_/status/2062488649963594062",
+      "https://x.com/libapi_/status/2062543042175967659",
+      "https://x.com/libapi_/status/2062403411677700336",
+      "https://x.com/libapi_/status/2062382540036739153"
     ]
   },
-  "updated_at": "2026-07-04T04:05:28Z",
+  "updated_at": "2026-07-04T07:14:38Z",
   "window": "archive"
 }
