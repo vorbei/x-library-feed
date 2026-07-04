@@ -2241,16 +2241,16 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
+      "article_fetch_attempted_at": "2026-07-04T21:37:09.487973Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/7b78f1417302e745f0d38ca8265cd9806e90d4f1093bd0dd960123c7b4b7002a/heygen-com/hyperframes",
+        "https://opengraph.githubassets.com/46196b6509964f6e4da1dec9b555863254a73da15d0dc124cb6c65e9f1d58d24/heygen-com/hyperframes",
         "https://github.com/heygen-com/hyperframes/raw/main/docs/logo/light.svg",
         "https://camo.githubusercontent.com/b8643453515dfda8f49c33fd1bdfae98c4c77456d7c08f4c8f91bee2304b2d09/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f68797065726672616d65732e7376673f7374796c653d666c6174",
         "https://camo.githubusercontent.com/eb7798624e2ddb93aefb878000f8002187b81e5fb11e3d4b40db7a9085b359dd/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f646d2f68797065726672616d65732e7376673f7374796c653d666c6174",
         "https://camo.githubusercontent.com/b29de0acdfd19013f1f02689b15c933e4a6c145be9efa718288f88ba3280b1c5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d417061636865253230322e302d626c75652e737667",
         "https://camo.githubusercontent.com/21df03c5ec135a4f3c1cc7b0c236c82f962fb52b8ce79012d54f10dc441c47a4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6e6f64652d25334525334432322d627269676874677265656e",
         "https://camo.githubusercontent.com/397741123d69503a0a224452a3629154669e9a870686f0c21c68527c7d8faa07/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446973636f72642d4a6f696e2d3538363546323f6c6f676f3d646973636f7264266c6f676f436f6c6f723d7768697465",
-        "https://camo.githubusercontent.com/22758b6b513c653d1acbc3d49ca2a3fd17b4fd64a15891bdb0a6d28d41406666/68747470733a2f2f7374617469632e68657967656e2e61692f68797065726672616d65732d6f73732f646f63732f696d616765732f68797065726672616d65732d6c6f676f2d6d6f74696f6e2d313238302e77656270",
+        "https://github.com/heygen-com/hyperframes/raw/main/docs/public/images/hyperframes-logo-motion-1280-trimmed.webp",
         "https://camo.githubusercontent.com/09fcdcc902713f04ab7c80f6af5afccf3d39ecbe04d967ed76b658f35bee31d2/68747470733a2f2f7374617469632e68657967656e2e61692f68797065726672616d65732d6f73732f646f63732f696d616765732f64657369676e2d74656d706c617465732f6269656e6e616c652d79656c6c6f772e706e67",
         "https://camo.githubusercontent.com/906620cd3cff15c383d23af830488ed03c32bfe0d76b80d28ccdfba452f67988/68747470733a2f2f7374617469632e68657967656e2e61692f68797065726672616d65732d6f73732f646f63732f696d616765732f64657369676e2d74656d706c617465732f626c6f636b6672616d652e706e67",
         "https://camo.githubusercontent.com/ed4b0dceb2cdb5e8ae7c83493c5a15bc2d92e0ff685e79852571defd1337f368/68747470733a2f2f7374617469632e68657967656e2e61692f68797065726672616d65732d6f73732f646f63732f696d616765732f64657369676e2d74656d706c617465732f626c75652d70726f66657373696f6e616c2e706e67",
@@ -2349,7 +2349,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
+      "article_fetch_attempted_at": "2026-07-04T21:37:09.487973Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-06-27T04:32:29.909999Z",
@@ -2383,11 +2383,11 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
+      "article_fetch_attempted_at": "2026-07-04T21:37:09.487973Z",
       "article_image_urls": [
-        "http://enoughphone.co/cdn/shop/files/enough_seo_ad43f47f-1885-454d-9c49-c33d1835ecd6.png?v=1778451625",
-        "https://enoughphone.co/cdn/shop/files/enoughprimary_navy-transparent.png?v=1781643180&width=280",
-        "https://enoughphone.co/cdn/shop/files/phone-comparison-v2_e796c447-6e75-4d8b-8e46-a87a056179fd.png?v=1782217214&width=1400"
+        "http://enoughphone.com/cdn/shop/files/enough_seo_ad43f47f-1885-454d-9c49-c33d1835ecd6.png?v=1778451625",
+        "https://enoughphone.com/cdn/shop/files/enoughprimary_navy-transparent.png?v=1781643180&width=280",
+        "https://enoughphone.com/cdn/shop/files/phone-comparison-v2_e796c447-6e75-4d8b-8e46-a87a056179fd.png?v=1782217214&width=1400"
       ],
       "article_title_extracted": "The Small Smartphone is Back The Small Smartphone is Back – Enough",
       "category": "Tools",
@@ -2425,20 +2425,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
+      "article_fetch_attempted_at": "2026-07-04T21:37:09.487973Z",
       "article_image_urls": [
         "https://tomo.ai/opengraph-image.jpg",
         "https://www.tomo.ai/avatars/woman-1.png",
         "https://www.tomo.ai/avatars/woman-2.png",
         "https://www.tomo.ai/avatars/man-1.png",
-        "https://www.tomo.ai/_next/static/media/upscaled-bg-6px-blur.2ospg1lmy1sd1.webp?dpl=dpl_BDAMyPRmeBi74aZz55WT6rCik1j2",
-        "https://www.tomo.ai/_next/static/media/cloud.22e4c5xrhtbek.webp?dpl=dpl_BDAMyPRmeBi74aZz55WT6rCik1j2",
-        "https://www.tomo.ai/_next/static/media/menu-orb.12qkxojyb_npw.webp?dpl=dpl_BDAMyPRmeBi74aZz55WT6rCik1j2",
-        "https://www.tomo.ai/_next/static/media/dark-bg.2i1cs34lx_b8a.webp?dpl=dpl_BDAMyPRmeBi74aZz55WT6rCik1j2",
-        "https://www.tomo.ai/_next/static/media/menu-orb-2.1whc-p_082h_g.webp?dpl=dpl_BDAMyPRmeBi74aZz55WT6rCik1j2",
-        "https://www.tomo.ai/_next/static/media/love-orb.29mni9npgqwc8.webp?dpl=dpl_BDAMyPRmeBi74aZz55WT6rCik1j2",
-        "https://www.tomo.ai/_next/static/media/text-tomo-orb.1m7jl7wm29vbe.webp?dpl=dpl_BDAMyPRmeBi74aZz55WT6rCik1j2",
-        "https://www.tomo.ai/_next/static/media/love-orb-desktop.02t-gvvunjra7.webp?dpl=dpl_BDAMyPRmeBi74aZz55WT6rCik1j2"
+        "https://www.tomo.ai/_next/static/media/upscaled-bg-6px-blur.2ospg1lmy1sd1.webp?dpl=dpl_8kBvcboRHiH6PAtuG1DVHaCJMCFw",
+        "https://www.tomo.ai/_next/static/media/cloud.22e4c5xrhtbek.webp?dpl=dpl_8kBvcboRHiH6PAtuG1DVHaCJMCFw",
+        "https://www.tomo.ai/_next/static/media/menu-orb.12qkxojyb_npw.webp?dpl=dpl_8kBvcboRHiH6PAtuG1DVHaCJMCFw",
+        "https://www.tomo.ai/_next/static/media/dark-bg.2i1cs34lx_b8a.webp?dpl=dpl_8kBvcboRHiH6PAtuG1DVHaCJMCFw",
+        "https://www.tomo.ai/_next/static/media/menu-orb-2.1whc-p_082h_g.webp?dpl=dpl_8kBvcboRHiH6PAtuG1DVHaCJMCFw",
+        "https://www.tomo.ai/_next/static/media/love-orb.29mni9npgqwc8.webp?dpl=dpl_8kBvcboRHiH6PAtuG1DVHaCJMCFw",
+        "https://www.tomo.ai/_next/static/media/text-tomo-orb.1m7jl7wm29vbe.webp?dpl=dpl_8kBvcboRHiH6PAtuG1DVHaCJMCFw",
+        "https://www.tomo.ai/_next/static/media/love-orb-desktop.02t-gvvunjra7.webp?dpl=dpl_8kBvcboRHiH6PAtuG1DVHaCJMCFw"
       ],
       "article_title_extracted": "Tomo - Your Personal AI",
       "category": "Tools",
@@ -2476,9 +2476,10 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
+      "article_fetch_attempted_at": "2026-07-04T21:37:09.487973Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/1d294635d8d9d18cfb83238e4b21871704176e84ce8f1496476b7d71e41f8ed7/AswinTorch/photo-sticker-extract-demo"
+        "https://opengraph.githubassets.com/fbdcb58269bc397d367f3433aa3640c3080973173e9c5c69dadd505301404ac1/AswinTorch/photo-sticker-extract-demo",
+        "https://avatars.githubusercontent.com/u/17790022?s=64&v=4"
       ],
       "article_title_extracted": "GitHub - AswinTorch/photo-sticker-extract-demo: Expo demo: photo → Apple Vision sticker extraction with WebGPU pixel-explosion animation · GitHub",
       "category": "Development",
@@ -2517,7 +2518,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
+      "article_fetch_attempted_at": "2026-07-04T21:37:09.487973Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-06-27T11:43:22.909033Z",
@@ -2552,7 +2553,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
+      "article_fetch_attempted_at": "2026-07-04T21:37:09.487973Z",
       "article_image_urls": [
         "https://shaders.figma.com/_assets/v11/54492717ee5bce65e405b8ac16b94f427f911ab7.png"
       ],
@@ -4528,7 +4529,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
+      "article_fetch_attempted_at": "2026-07-04T21:37:09.487973Z",
       "article_image_urls": [
         "https://isitagentready.com/og-image.png",
         "https://isitagentready.com/logo.svg"
@@ -6778,7 +6779,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
+      "article_fetch_attempted_at": "2026-07-04T21:37:09.487973Z",
       "article_title_extracted": "Fable Refinery",
       "category": "Tools",
       "created_at": "2026-06-13T13:08:35.035370Z",
@@ -6815,7 +6816,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
+      "article_fetch_attempted_at": "2026-07-04T21:37:09.487973Z",
       "article_image_urls": [
         "https://repository-images.githubusercontent.com/993475914/123bf50d-9ae2-48d9-94f7-7a345bf82c15",
         "https://github.com/apple/container/raw/main/assets/Containerization-Logo.png",
@@ -109240,5 +109241,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-07-04T17:41:21.094047Z"
+  "updated_at": "2026-07-04T21:37:34.853854Z"
 }
