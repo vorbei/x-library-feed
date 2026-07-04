@@ -69,6 +69,9 @@
         "bookmark@chumsdock"
       ],
       "text": "stop overcomplicating your stack, just deploy everything to cloudflare\n\n- workers (compute)\n- d1 (sql db) + better auth\n- kv (cache)\n- r2 (object storage)\n- queues (background jobs)\n- hyperdrive (db acceleration)\n- email routing (sending)\n- + waf & ddos built-in\n\nworst case your top bill is $10",
+      "text_zh": "别再过度复杂化你的技术栈了，直接把所有东西部署到 Cloudflare 上就行：\n\n- Workers（计算）\n- D1（SQL 数据库）+ Better Auth\n- KV（缓存）\n- R2（对象存储）\n- Queues（后台任务）\n- Hyperdrive（数据库加速）\n- Email Routing（邮件发送）\n- 再加上内置的 WAF 和 DDoS 防护\n\n最坏情况下，你的最高账单也就 10 美元。",
+      "text_zh_hash": "0b9c4986e39935cc",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ibocodes/status/2073397077598687303"
     },
     {
@@ -110,6 +113,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Instead of over-engineering your prompts (we've all been there last year), go short and predictable with graph-based workflows.",
+      "text_zh": "与其过度设计提示词（去年我们都经历过），不如采用基于图的短小可预测工作流。",
+      "text_zh_hash": "4023fa63153b3b87",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/fhinkel/status/2073396828960403733"
     },
     {
@@ -237,6 +243,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "super inspiring and awakening read~ \nthe part about training ur research taste is quite actionable and quantifiable... (predict the exp result and predict the impact of a paper, basically internal world model for research)\nfeels like one should use this strategy to train our ai agent to do better research?",
+      "text_zh": "非常鼓舞人心且发人深省的文章~\n关于培养研究品味的那部分非常具有可操作性和可量化性……（预测实验结果和预测论文的影响力，本质上就是研究领域的内部世界模型）\n感觉应该用这个策略来训练我们的人工智能代理，让它做更好的研究？",
+      "text_zh_hash": "4e000db3fcc2e2b7",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/WangBinxu/status/2073271131352498539"
     },
     {
@@ -279,6 +288,9 @@
         "bookmark@chumsdock"
       ],
       "text": "\"Is chat the final form of UX for AI?\"\n\nIn the latest episode of the Small Talk podcast, @mschoening and I did a deeeeeep dive:\n\nhttps://youtu.be/3jWnr8EyMX0\n\n&gt; what does \"chat\" mean?\n&gt; when is chat optimal?\n&gt; chat++: artifacts, mini-apps\n&gt; what's the next form factor?",
+      "text_zh": "“聊天是AI用户体验的最终形态吗？”\n\n在最新一期《Small Talk》播客中，@mschoening 和我进行了一次深度探讨：\n\nhttps://youtu.be/3jWnr8EyMX0\n\n> “聊天”意味着什么？\n> 何时聊天是最优解？\n> 聊天增强版：工件、迷你应用\n> 下一个形态是什么？",
+      "text_zh_hash": "01100594aabeefa9",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/geoffreylitt/status/2072755093569523747"
     },
     {
@@ -320,6 +332,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "How might a Lighthouse testing tool work with LLMs and Agent harnesses.\n\nhttps://aifoc.us/how-might-a-modern-lighthouse-work-with-llms/\n\nI had a lot of fun building this, and I think that this is one very useful and practical way web dev, loops and goals will change this year.",
+      "text_zh": "## Lighthouse 测试工具如何与 LLM 及 Agent 框架协同工作\n\nhttps://aifoc.us/how-might-a-modern-lighthouse-work-with-llms/\n\n我在构建这个工具时获得了极大的乐趣，并且我认为这是今年 Web 开发、循环机制与目标设定将发生变革的一种非常实用且有效的方式。",
+      "text_zh_hash": "b94bddcf35f81d95",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Paul_Kinlan/status/2073323219369574497"
     },
     {
@@ -405,6 +420,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "“Three ways to the unverifiable: Rubrics as Rewards, Generative Reward Models, Process Rewards”\n\nCheck out how we instantiate the exact same idea in https://arxiv.org/abs/2605.10899!",
+      "text_zh": "“三种通往不可验证之路：基于评分标准的奖励、生成式奖励模型、过程奖励”\n\n欢迎查看我们如何在 https://arxiv.org/abs/2605.10899 中实例化完全相同的想法！",
+      "text_zh_hash": "69019c007c0ac00c",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/GaotangLi/status/2073072468152221928"
     },
     {
@@ -445,6 +463,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "This essay, by Jack Dorsey, will be one of the most important essays of the decade - and of the technological revolution before us.\nhttps://block.xyz/inside/from-hierarchy-to-intelligence",
+      "text_zh": "这篇由杰克·多西撰写的文章，将成为本十年乃至我们面前这场技术革命中最重要的文章之一。  \nhttps://block.xyz/inside/from-hierarchy-to-intelligence",
+      "text_zh_hash": "9aaf86b257815ae1",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/joeladejola/status/2073237872111739117"
     },
     {
@@ -483,6 +504,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "A permanent block on Chinese AI models would be unworkable. We explain why it would also be undesirable https://www.economist.com/leaders/2026/07/02/america-should-not-imprison-frontier-ai?taid=6a48fa779536b00001bc7a74&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "text_zh": "永久封禁中国AI模型不可行。我们解释为何此举亦不可取。",
+      "text_zh_hash": "9b6888fb4cffe554",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheEconomist/status/2073381340985086251"
     },
     {
@@ -540,6 +564,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Karpathy's prediction about RL is coming true now!\n\nHe called reward functions unreliable and argued that a single reward number is too low-dimensional to teach an agent what \"good\" means for complex tasks. To solve this, Agents need a knowledge-guided review as a higher-dimensional feedback channel.\n\nEvery major AI lab trains models with RL today (OpenAI, Anthropic, DeepSeek).\n\nAnd their key bottleneck has always been the reward functions.\n\nGRPO by DeepSeek worked well for math and code because the environment gave a binary signal.\n\nBut for real agent tasks, someone still has to hand-code the scoring function. That takes days and breaks every time the pipeline changes.\n\nRULER (implemented in OpenPipe ART, 10k+ stars) addresses the exact problem Karpathy identified.\n\nThe reward criteria are defined in plain English, and an LLM evaluates each trajectory against that description to provide feedback for training.\n\nWe trained a Qwen3 1.4B agent that plays 2048 using GRPO with this exact workflow.\n\nIn this case, the agent saw the board, picked a direction, and RULER evaluated the outcome, all from this natural language definition.\n\nYou can see the full implementation on GitHub and try it yourself.\n\nHere's the ART Repo: http://github.com/OpenPipe/ART\n\n(don't forget to star it ⭐ )\n\nJust like RLHF replaced manual rankings and GRPO replaced the critic model, natural language rewards are replacing hand-coded scoring functions.\n\nRL reward engineering is now prompt engineering.\n\nWe wrote a full walkthrough covering RL for LLM agents, from RLHF to GRPO to RULER, in the article below.",
+      "text_zh": "Karpathy 关于强化学习的预测正在成为现实！\n\n他曾指出奖励函数不可靠，认为单一的奖励数值维度太低，无法教会智能体理解复杂任务中\"好\"的含义。要解决这个问题，智能体需要知识引导的审查作为更高维度的反馈通道。\n\n如今所有主流AI实验室都在用RL训练模型（OpenAI、Anthropic、DeepSeek）。\n\n而它们的关键瓶颈始终是奖励函数。\n\nDeepSeek的GRPO在数学和代码领域表现优异，因为环境能提供二元信号。\n\n但对于真实的智能体任务，仍需人工编写评分函数。这不仅耗时数天，而且每次流程变更都需要重写。\n\nRULER（已在OpenPipe ART中实现，获10k+星标）正解决了Karpathy指出的问题。\n\n奖励标准用自然语言定义，LLM根据该描述评估每条轨迹，为训练提供反馈。\n\n我们使用GRPO配合这一工作流，训练了一个能玩2048游戏的Qwen3 1.4B智能体。\n\n在这个案例中，智能体观察棋盘、选择方向，RULER根据自然语言定义评估结果。\n\n完整实现已在GitHub开源，欢迎自行尝试。\n\nART仓库地址：http://github.com/OpenPipe/ART\n\n（别忘了点星标⭐）\n\n正如RLHF取代了人工排序、GRPO取代了评论家模型，自然语言奖励正在取代手工编写的评分函数。\n\nRL奖励工程现在变成了提示工程。\n\n我们在下方文章中撰写了完整指南，涵盖从RLHF到GRPO再到RULER的LLM智能体强化学习全流程。",
+      "text_zh_hash": "3968041a4332261e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/DailyDoseOfDS_/status/2073338583352766673"
     },
     {

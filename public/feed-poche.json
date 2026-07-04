@@ -61,6 +61,9 @@
       "category": "Tools",
       "created_at": "2026-07-04T14:59:25.394252Z",
       "description": "Dayflow is a free, open-source automatic work journal and AI time tracker for Mac. It privately writes a readable timeline of what you actually accomplished each day - no timers, no tags, 100% local.",
+      "description_zh": "Dayflow 是一款免费、开源、适用于 Mac 的自动工作日志与 AI 时间追踪工具。它能私密地生成一份可读的时间线，记录你每天实际完成的工作——无需计时器、无需标签，完全本地运行。",
+      "description_zh_hash": "6250ebe3854d041c",
+      "description_zh_translator_v": 2,
       "domain": "www.dayflow.so",
       "embed_type": "",
       "id": "k175m9259b7zzsn2d0z96rvjp589xxq5",
@@ -83,6 +86,9 @@
         }
       ],
       "title": "Dayflow - Automatic work journal & AI time tracker for Mac",
+      "title_zh": "Dayflow - Mac 上的自动工作日志与 AI 时间追踪工具",
+      "title_zh_hash": "7de6b9d1de41a413",
+      "title_zh_translator_v": 2,
       "url": "https://www.dayflow.so/",
       "x_status_id": null
     },
@@ -106,6 +112,9 @@
       "category": "Tools",
       "created_at": "2026-07-03T04:25:42.150592Z",
       "description": "Inflection is a marketing platform designed for the AI-era. Finally, a marketing platform that works for you.",
+      "description_zh": "Inflection 是一款专为 AI 时代设计的营销平台。终于，有一款营销平台能为你所用。",
+      "description_zh_hash": "83bdf1066bb3cede",
+      "description_zh_translator_v": 2,
       "domain": "www.inflection.io",
       "embed_type": "",
       "id": "k176mcsvc5rh7j636zx3xkha4d89v9e0",
@@ -128,6 +137,9 @@
         }
       ],
       "title": "Inflection.io - AI Marketing Platform",
+      "title_zh": "Inflection.io - AI 营销平台",
+      "title_zh_hash": "868a6616d2a840e9",
+      "title_zh_translator_v": 2,
       "url": "https://www.inflection.io/",
       "x_status_id": null
     },
@@ -151,6 +163,9 @@
       "category": "Tools",
       "created_at": "2026-07-03T08:08:59.560528Z",
       "description": "Create custom merchandise that reps your brand with branded merch and custom swag for corporate gifts, events, and more.",
+      "description_zh": "打造彰显品牌形象的定制商品，包括品牌周边及定制赠品，适用于企业礼品、活动等场景。",
+      "description_zh_hash": "bc04ab3989999bff",
+      "description_zh_translator_v": 2,
       "domain": "www.gemnote.com",
       "embed_type": "",
       "id": "k17f675ttyfceb8b60m8b1652s89tk60",
@@ -173,6 +188,9 @@
         }
       ],
       "title": "Custom Merchandise and Packaging - Gemnote",
+      "title_zh": "定制商品与包装 - Gemnote",
+      "title_zh_hash": "b2b98d2553127435",
+      "title_zh_translator_v": 2,
       "url": "https://www.gemnote.com/",
       "x_status_id": null
     },
@@ -202,6 +220,9 @@
         }
       ],
       "title": "Rocket Brand Guidelines",
+      "title_zh": "# 火箭品牌指南",
+      "title_zh_hash": "04a3a4b027941fa6",
+      "title_zh_translator_v": 2,
       "url": "https://brand.rocket.com/",
       "x_status_id": null
     },
@@ -222,11 +243,17 @@
         "https://media.performance.dev/cdn-cgi/image/width=400,quality=90,format=auto,fit=scale-down/posts/p_IE23cQZdfRUJ/CYaFSlezAG6E.jpg"
       ],
       "article_text": "The Conductor Rewrite:\nReverse Engineering ChatGPT Web:\nHow OpenAI Built for a Billion Users\nOpen a new tab, type [chatgpt.com](https://chatgpt.com), and ask it something. No account, no sign in, no spinner. The page is interactive immediately, and the answer starts streaming a moment after you hit enter. That experience is served to roughly 1 billion people, making chatgpt.com a top website on the entire internet and one of the most used web apps in the world. On the surface it seems like a simple interface, but after digging in it's anything but. I spent days reverse engineering their web app by digging through the page source, bundled code, and network requests to understand how it was built.\n[What I'll dig into](https://performance.dev#what-ill-dig-into)\n- Start with the constraints \n- The migration from Next.js to React Router \n- Fastest path to paint \n- CSS at billion-user scale \n- Don't reinvent the wheel with components \n- Every answer is a render problem \n- Can you type yet? \n- Feature flagging everything \n- The fastest path to the first token \n- Letting a billion strangers in \n- The difference between ChatGPT and Claude \nBefore we start: I don't work at OpenAI and I've never seen their source code. What makes this piece different from my [Linear](https://performance.dev/how-is-linear-so-fast-a-technical-breakdown) and [Conductor](https://performance.dev/the-conductor-rewrite) breakdowns is that OpenAI hasn't really published anything about ChatGPT web. This piece is a mixture of history, investigation, and technical insights. The whole story has been assembled from chatgpt.com itself (the HTML, JavaScript, CSS, and network requests) plus random talks, tweets, and their career page.\n[Start with the constraints](https://performance.dev#start-with-the-constraints)\nThe two most important things I consider when architecting a web app are the goal and the constraints. These two factors shape every downstream decision. Who is the customer? How important is the initial load? Do you need an account to use it? Does it need to show up in search engines? What's the budget? How important is the developer experience? Is there existing architecture? And so on...\nFrom the outside, the goal of ChatGPT feels clear to me: be the site the entire world uses to interact with AI. It's incredibly important that the site is accessible to anyone around the world on any device. It should cater to everyone from an Android user on a spotty connection who just discovered ChatGPT, to a power user with a Pro subscription on a MacBook Pro.\nHaving those constraints in place eliminates entire architectures for you. A standard client side rendered app is out, because you'd be staring at a blank page while a bunch of JavaScript downloads before anything meaningful shows up. Apps like Linear get away with CSR because their users log in once and live inside the app all day, but that approach doesn't fit OpenAI's goal.\nServer-side rendering is a better approach in this case, but it doesn't come free. Every request now requires your server to fetch data, render HTML, and send it back, making it more expensive to run than serving static assets. As a developer, it's also a much harder model to reason about. Your app now exists in two environments (the server and the browser) and you're constantly thinking about which APIs are available where. You'll eventually hit hydration mismatches, accidentally reference window on the server, or spend time debugging caching and rendering behavior. It's a more complex architecture with more failure modes. But if your goal is the fastest possible first load, real HTML for search engines, and a great experience for first-time visitors, those are often tradeoffs worth making.\nLet's see what ChatGPT does. The first step is to take a look under the hood to better understand the architecture and technical decisions they've made. From what I can gather, this is roughly the stack as of today:\nFrontend\n  React 19 + react-dom",
+      "article_text_zh": "# Conductor 重写：  \n# 逆向工程 ChatGPT Web：  \n# OpenAI 如何为十亿用户构建产品\n\n打开一个新标签页，输入 [chatgpt.com](https://chatgpt.com)，然后问它一个问题。无需账户、无需登录、无需等待加载动画。页面立即可以交互，你按下回车后，答案很快就开始流式输出。这个体验服务于大约 10 亿人，使 chatgpt.com 成为整个互联网上的顶级网站，也是世界上使用最广泛的 Web 应用之一。表面上它看起来像一个简单的界面，但深入研究后会发现远非如此。我花了几天时间，通过翻阅页面源码、打包后的代码以及网络请求，逆向工程了他们的 Web 应用，以理解它是如何构建的。\n\n[我将深入探讨的内容](https://performance.dev#what-ill-dig-into)\n\n- 从约束条件开始\n- 从 Next.js 迁移到 React Router\n- 最快路径到首屏绘制\n- 十亿用户规模的 CSS\n- 不要用组件重新发明轮子\n- 每个答案都是一个渲染问题\n- 你能输入了吗？\n- 对所有内容进行功能标记\n- 到达第一个 token 的最快路径\n- 让十亿陌生人进入\n- ChatGPT 与 Claude 的区别\n\n开始之前：我不在 OpenAI 工作，也从未见过他们的源码。这篇文章与我对 [Linear](https://performance.dev/how-is-linear-so-fast-a-technical-breakdown) 和 [Conductor](https://performance.dev/the-conductor-rewrite) 的拆解不同之处在于，OpenAI 并没有真正发布过关于 ChatGPT Web 的任何内容。这篇文章融合了历史、调查和技术洞察。整个故事是通过 chatgpt.com 本身（HTML、JavaScript、CSS 和网络请求）以及零散的演讲、推文和他们的招聘页面拼凑而成的。\n\n[从约束条件开始](https://performance.dev#start-with-the-constraints)\n\n在设计 Web 应用架构时，我考虑的两个最重要因素是目标和约束条件。这两个因素决定了后续的每一个决策。客户是谁？初始加载有多重要？使用它需要账户吗？它需要出现在搜索引擎中吗？预算是多少？开发者体验有多重要？是否存在现有架构？等等……\n\n从外部来看，ChatGPT 的目标对我来说很清晰：成为全世界用来与 AI 交互的网站。让全球任何人在任何设备上都能访问这个网站，这一点极其重要。它应该服务于所有人，从在信号不稳定的连接上、刚发现 ChatGPT 的 Android 用户，到在 MacBook Pro 上使用 Pro 订阅的高级用户。\n\n有了这些约束条件，整个架构方案就会被自动排除。标准的客户端渲染应用行不通，因为你会盯着一个空白页面，等待一堆 JavaScript 下载完成，然后才有有意义的内容显示出来。像 Linear 这样的应用可以接受 CSR，因为它们的用户登录一次后，整天都待在应用里，但这种方法不符合 OpenAI 的目标。\n\n在这种情况下，服务端渲染是更好的方法，但它并非没有代价。现在，每个请求都需要你的服务器获取数据、渲染 HTML 并发送回去，这使得运行成本比提供静态资源更高。作为开发者，这也是一个更难理解的模型。你的应用现在存在于两个环境（服务器和浏览器）中，你需要不断思考哪些 API 在哪个环境中可用。你最终会遇到 hydration 不匹配、在服务器上意外引用 `window`，或者花时间调试缓存和渲染行为的问题。这是一个更复杂的架构，有更多的故障模式。但如果你的目标是实现最快的首次加载、为搜索引擎提供真实的 HTML，以及为首次访问者提供出色的体验，那么这些权衡通常是值得的。\n\n让我们看看 ChatGPT 是怎么做的。第一步是深入了解其架构和技术决策。根据我收集到的信息，这大致是目前的栈：\n\n**前端**\nReact 19 + react-dom",
+      "article_text_zh_hash": "061c39e0b7d8d626",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Reverse Engineering ChatGPT Web: How OpenAI Built for a Billion Users",
       "category": "Development",
       "cleaner_v": 2,
       "created_at": "2026-07-04T08:21:27.077279Z",
       "description": "A technical deep dive into how OpenAI built ChatGPT's web app: React Router 7, streaming SSR, code splitting, and feature flags at billion-user scale.",
+      "description_zh": "OpenAI 构建 ChatGPT 网页应用的技术深度解析：React Router 7、流式服务端渲染、代码拆分以及十亿用户规模下的功能开关。",
+      "description_zh_hash": "644d7d6933f93337",
+      "description_zh_translator_v": 2,
       "domain": "performance.dev",
       "embed_type": "",
       "id": "k17ed1kxaa3f4xd6wef7d1tf2989x0df",
@@ -249,6 +276,9 @@
         }
       ],
       "title": "Reverse Engineering ChatGPT Web:\nHow OpenAI Built for a Billion Users",
+      "title_zh": "逆向工程 ChatGPT 网页版：OpenAI 如何为十亿用户构建",
+      "title_zh_hash": "2967df24f7c34d13",
+      "title_zh_translator_v": 2,
       "url": "https://performance.dev/chatgpt",
       "x_status_id": null
     },
@@ -256,6 +286,9 @@
       "category": "Development",
       "created_at": "2026-07-04T08:21:36.991357Z",
       "description": "Microsoft Frontier Company embeds engineering teams in your business to turn AI pilots into measurable outcomes at enterprise scale. Learn more.",
+      "description_zh": "微软前沿公司将工程团队嵌入您的业务中，将AI试点项目转化为企业级可衡量的成果。了解更多。",
+      "description_zh_hash": "529ad8d5e5963433",
+      "description_zh_translator_v": 2,
       "domain": "www.microsoft.com",
       "embed_type": "",
       "id": "k17cfa4yxwt01hj8qzd9eyharh89xand",
@@ -278,6 +311,9 @@
         }
       ],
       "title": "Microsoft Frontier Company | AI Outcomes at Enterprise Scale",
+      "title_zh": "微软前沿公司 | 企业级AI成果",
+      "title_zh_hash": "cbf4539bec2860a7",
+      "title_zh_translator_v": 2,
       "url": "https://www.microsoft.com/en-us/frontier-company",
       "x_status_id": null
     },
@@ -302,6 +338,9 @@
       "category": "Tools",
       "created_at": "2026-07-04T08:22:22.557544Z",
       "description": "AI powered voice to text for macOS, Windows, and iOS. Dictate in any app with offline and cloud speech recognition, 100+ languages, and custom AI modes. SOC 2 Type II certified. HIPAA compliant.",
+      "description_zh": "AI 驱动的语音转文字工具，支持 macOS、Windows 和 iOS 系统。可在任意应用中听写，具备离线与云端语音识别能力，支持 100 多种语言及自定义 AI 模式。已通过 SOC 2 Type II 认证，符合 HIPAA 标准。",
+      "description_zh_hash": "6ee648ac35df5a67",
+      "description_zh_translator_v": 2,
       "domain": "superwhisper.com",
       "embed_type": "",
       "id": "k179srrmbfve8fgp12r2r9arc589xcnt",
@@ -324,6 +363,9 @@
         }
       ],
       "title": "Superwhisper — AI Voice to Text for macOS, Windows & iOS | Superwhisper",
+      "title_zh": "Superwhisper — 适用于 macOS、Windows 和 iOS 的 AI 语音转文字工具 | Superwhisper",
+      "title_zh_hash": "cc6f7214a82023ab",
+      "title_zh_translator_v": 2,
       "url": "https://superwhisper.com/",
       "x_status_id": null
     },
@@ -340,6 +382,9 @@
       "category": "Tools",
       "created_at": "2026-07-04T10:59:40.787560Z",
       "description": "Build from anywhere via the Cursor mobile app on iOS. Launch agents when ideas strike, get notified when work is ready for review, and merge PRs on the go.",
+      "description_zh": "通过 iOS 上的 Cursor 移动应用，随时随地构建项目。灵感闪现时启动 agent，工作就绪后接收通知，并在移动中合并 PR。",
+      "description_zh_hash": "542cf84df74b2067",
+      "description_zh_translator_v": 2,
       "domain": "cursor.com",
       "embed_type": "",
       "id": "k17eayhz2p5xq18a7bneeq36dh89xdep",
@@ -362,6 +407,9 @@
         }
       ],
       "title": "Cursor · Mobile",
+      "title_zh": "Cursor · 移动端",
+      "title_zh_hash": "14983adeffc9fcdb",
+      "title_zh_translator_v": 2,
       "url": "https://cursor.com/mobile",
       "x_status_id": null
     },
