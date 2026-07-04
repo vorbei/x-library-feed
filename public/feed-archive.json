@@ -5392,6 +5392,22 @@
       "title": "",
       "url": "http://x.com/i/article/2062229784009256960"
     },
+    "http://x.com/i/article/2062248271444111360": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062248271444111360",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062248271444111360/i/keyboard%5Fshortcuts)\n\nDid someone say … cookies?\n\nX and its partners use cookies to provide you with a better, safer and faster service and to support our business. Some cookies are necessary to use our services, improve our services, and make sure they work properly. Show more about your choices.\n\nAccept all cookies\n\nRefuse non-essential cookies\n\n[![Image](https://pbs.twimg.com/media/HJ6VxovWYAA3JlG?format=jpg&name=900x900)](http://x.com/i/article/2062248271444111360/AgnoAgi/article/2062255866724884708/media/2062250359364411392)\n\nCommunity Roundup: May 2026 \n\n[![Square profile picture](https://pbs.twimg.com/profile_images/1984361332624306176/KaNuKvU4_normal.jpg)](http://x.com/i/article/2062248271444111360/AgnoAgi)\n\n[Agno](http://x.com/i/article/2062248271444111360/AgnoAgi)\n\n[@AgnoAgi](http://x.com/i/article/2062248271444111360/AgnoAgi)\n\n·\n\n18h\n\nFollow\n\nClick to Follow AgnoAgi\n\n5\n\n12\n\n[1K](http://x.com/i/article/2062248271444111360/AgnoAgi/status/2062255866724884708/analytics)\n\nWe were announced as \n\n[@GoogleDeepMind](https://x.com/@GoogleDeepMind)\n\n ecosystem partners with at Google I/O. 40,000 GitHub stars. v2.6.0 through v2.6.8\\. Agents earning USDC. Agents living in Matrix rooms. Agents managing someone's grocery inventory from their Apple Watch.\n\nMay was a milestone month. Here's what happened.\n\n40,000 GitHub stars\n\nEasy to wave off as a vanity metric. But behind this number are thousands of people filing bugs, opening PRs, and putting Agno into real projects. That's the part that matters. Thank you.\n\nWhat shipped in v2.6.0 through v2.6.8\n\nContext Providers: the headline of v2.6.0\\. A first-class API for plugging an external source into an agent as a natural-language tool. Filesystem, web, SQL database, Slack, Google Drive, or any MCP server. Attach a provider and the agent reasons over it directly. No hand-rolled retrieval pipelines.\n\nMulti-framework support in AgentOS: AgentOS now runs Claude SDK, LangGraph, and DSPy agents alongside Agno under one operational surface. One runtime. Multiple frameworks. No second stack.\n\nTeam HITL and Approvals: human-in-the-loop graduated to teams in v2.6.0 with a full API layer wired into the AgentOS chat page. Background runs over SSE can now be reconnected and resumed, so a refresh mid-run picks up where you left off.\n\nWorkspace Tools: safe local filesystem access for agents. Read, list, search, write, edit, move, delete, and shell access to a root directory tree. Destructive operations gated behind HITL confirmation by default. The right way to let an agent work on a project on disk.\n\nClaude prompt caching, multi-block: per-block cache and TTL controls, a cache\\_tools flag, and deterministic tool ordering so request prefixes stay stable and caches actually hit.\n\nAlso shipped: WorkspaceContextProvider, Gmail and Calendar context providers, GDrive OAuth support, Slack multi-row approvals, per-user data isolation in AgentOS, Gemini multimodal file search, Gemini Interactions, and first-party Google Antigravity support.\n\nCommunity projects\n\nHarish Kotra built a Secure Playground: an interactive prompt-injection attack and defense simulator with Agno evaluator agents scoring attacks and defenses in real time.\n\nBas Nijholt built MindRoom: AI agents living in Matrix rooms, remembering context, using tools, and working across bridged Discord, Slack, and WhatsApp chats. Multi-agent, multi-user, and federated by design.\n\nAlexandre built AgnoLab: a visual canvas for building and orchestrating Agno agents. Watch workflows run as you build them.\n\nGagan Dasari built a personal life-management agent that reads grocery receipts to update pantry inventory, pulls Apple Watch data to log workouts, and creates custom Notion views to track gym progress and spending.\n\nEliottre built TaskBounty: a marketplace where autonomous agents compete on real tasks and get paid in USDC, ETH,",
+      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2062248271444111360/i/keyboard%5Fshortcuts)\n\n有人提到……Cookie 吗？\n\nX 及其合作伙伴使用 Cookie 为您提供更好、更安全、更快速的服务，并支持我们的业务。部分 Cookie 是使用我们的服务、改进服务并确保其正常运行所必需的。详细了解您的选择。\n\n接受所有 Cookie\n\n拒绝非必要 Cookie\n\n[![图片](https://pbs.twimg.com/media/HJ6VxovWYAA3JlG?format=jpg&name=900x900)](http://x.com/i/article/2062248271444111360/AgnoAgi/article/2062255866724884708/media/2062250359364411392)\n\n社区动态：2026 年 5 月\n\n[![方形头像](https://pbs.twimg.com/profile_images/1984361332624306176/KaNuKvU4_normal.jpg)](http://x.com/i/article/2062248271444111360/AgnoAgi)\n\n[Agno](http://x.com/i/article/2062248271444111360/AgnoAgi)\n\n[@AgnoAgi](http://x.com/i/article/2062248271444111360/AgnoAgi)\n\n·\n\n18 小时前\n\n关注\n\n点击关注 @AgnoAgi\n\n5\n\n12\n\n[1K](http://x.com/i/article/2062248271444111360/AgnoAgi/status/2062255866724884708/analytics)\n\n我们在 Google I/O 上被宣布为 [@GoogleDeepMind](https://x.com/@GoogleDeepMind) 生态系统合作伙伴。GitHub 星标数达到 40,000。v2.6.0 到 v2.6.8 版本发布。Agent 赚取 USDC。Agent 生活在 Matrix 房间中。Agent 通过 Apple Watch 管理某人的食品杂货库存。\n\n五月是一个里程碑式的月份。以下是发生的事情。\n\n**40,000 GitHub 星标**\n\n很容易被当作虚荣指标而忽略。但在这个数字背后，是成千上万提交 bug、发起 PR 以及将 Agno 应用到实际项目中的人。这才是真正重要的部分。谢谢大家。\n\n**v2.6.0 到 v2.6.8 版本发布内容**\n\n- **上下文提供者 (Context Providers)**：v2.6.0 的重头戏。一个一流的 API，用于将外部源作为自然语言工具接入 Agent。支持文件系统、Web、SQL 数据库、Slack、Google Drive 或任何 MCP 服务器。附加一个提供者，Agent 就能直接基于它进行推理。无需手动构建检索管道。\n\n- **AgentOS 中的多框架支持**：AgentOS 现在可以在一个操作界面上，将 Claude SDK、LangGraph 和 DSPy 的 Agent 与 Agno 一起运行。一个运行时。多个框架。无需第二套技术栈。\n\n- **团队 HITL 与审批**：人工介入 (HITL) 在 v2.6.0 中升级为团队功能，并带有完整的 API 层，集成到 AgentOS 聊天页面中。通过 SSE 进行的后台运行现在可以重新连接并恢复，因此中途刷新页面可以从断点处继续。\n\n- **工作区工具 (Workspace Tools)**：为 Agent 提供安全的本地文件系统访问。支持读取、列出、搜索、写入、编辑、移动、删除以及对根目录树的 shell 访问。破坏性操作默认需要 HITL 确认才能执行。这是让 Agent 在磁盘上处理项目的正确方式。\n\n- **Claude 提示缓存，多块支持**：支持按块缓存和 TTL 控制、一个 `cache_tools` 标志，以及确定性的工具排序，以确保请求前缀保持稳定且缓存能够命中。\n\n- **其他已发布内容**：WorkspaceContextProvider、Gmail 和 Calendar 上下文提供者、GDrive OAuth 支持、Slack 多行审批、AgentOS 中的用户数据隔离、Gemini 多模态文件搜索、Gemini Interactions，以及第一方 Google Antigravity 支持。\n\n**社区项目**\n\n- **Harish Kotra** 构建了 **Secure Playground**：一个交互式提示注入攻击与防御模拟器，使用 Agno 评估 Agent 实时对攻击和防御进行评分。\n\n- **Bas Nijholt** 构建了 **MindRoom**：AI Agent 生活在 Matrix 房间中，能记住上下文、使用工具，并在桥接的 Discord、Slack 和 WhatsApp 聊天中工作。设计上支持多 Agent、多用户和联邦化。\n\n- **Alexandre** 构建了 **AgnoLab**：一个用于构建和编排 Agno Agent 的可视化画布。在构建过程中即可观察工作流的运行。\n\n- **Gagan Dasari** 构建了一个个人生活管理 Agent：它能读取购物收据以更新食品储藏室库存，拉取 Apple Watch 数据以记录锻炼，并创建自定义 Notion 视图以跟踪健身进度和支出。\n\n- **Eliottre** 构建了 **TaskBounty**：一个市场，自主 Agent 在其中竞争完成真实任务，并以 USDC、ETH 获得报酬。",
+      "text_excerpt_zh_hash": "fa0b0435eb85104c",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2062248271444111360"
+    },
     "http://x.com/i/article/2062535871379972096": {
       "cleaner_v": 2,
       "content_type": "",
@@ -26733,6 +26749,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ0iciwbQAAQozT.png"
     },
+    "https://pbs.twimg.com/media/HJ1HCcPX0AEHjMH.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ1HCcPX0AEHjMH.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ1HCcPX0AEHjMH.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ1HCcPX0AEHjMH.jpg"
+    },
     "https://pbs.twimg.com/media/HJ1ek7OaAAAaLbx.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -43530,6 +43560,12 @@
     "2062247077833310623": [
       "https://x.com/CopilotKit/status/2062247077833310623"
     ],
+    "2062255866724884708": [
+      "https://x.com/AgnoAgi/status/2062255866724884708",
+      "http://x.com/i/article/2062248271444111360",
+      "https://x.com/AgnoAgi/status/2061882619210375535",
+      "https://pbs.twimg.com/media/HJ1HCcPX0AEHjMH.jpg"
+    ],
     "2062262557016989864": [
       "https://x.com/SidebarIO/status/2062262557016989864",
       "https://meodai.github.io/heerich/?ref=sidebar",
@@ -43598,6 +43634,6 @@
       "http://x.com/i/article/2059705598988701696"
     ]
   },
-  "updated_at": "2026-07-04T13:58:04Z",
+  "updated_at": "2026-07-04T15:31:06Z",
   "window": "archive"
 }

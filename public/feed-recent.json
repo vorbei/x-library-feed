@@ -442,6 +442,32 @@
       "title": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub",
       "url": "http://github.com/"
     },
+    "http://github.com/OpenPipe/ART": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen3.6, GPT-OSS, Llama, and more! - OpenPipe/ART",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/OpenPipe/ART",
+      "frameable": false,
+      "image_urls": [
+        "https://repository-images.githubusercontent.com/946178371/65bbf38b-59ea-4662-832b-2a7aa30ea51c",
+        "https://github.com/openpipe/art/raw/main/assets/ART_logo.png",
+        "https://camo.githubusercontent.com/34333459bb5580902d0eb612e850249dc0418004e857ccd46c5b4aa87f7742f5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5052732d77656c636f6d652d626c75652e737667",
+        "https://camo.githubusercontent.com/bca66bf3bdb251451e6d6b7f9c7c0c51a689ca0ef6162f93668399d862b13e34/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f6f70656e706970652d6172743f636f6c6f723d333634666337",
+        "https://camo.githubusercontent.com/eff96fda6b2e0fff8cdf2978f89d61aa434bb98c00453ae23dd0aab8d1451633/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667",
+        "https://camo.githubusercontent.com/77b5440fc1af388d6f34545521d5b910cf2ab7018dd2f40d60032d30451c0a59/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e253230446973636f72642d3538363546323f7374796c653d706c6173746963266c6f676f3d646973636f7264266c6f676f436f6c6f723d7768697465",
+        "https://camo.githubusercontent.com/597da07062a03c2bbdaf56b2411ed4bb7bd0f30f1335d84ceb6df29e2adb1b84/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f63756d656e746174696f6e2d6f72616e67653f7374796c653d706c6173746963266c6f676f3d676974626f6f6b266c6f676f436f6c6f723d7768697465",
+        "https://github.com/openpipe/art/raw/main/assets/benchmarks/email_agent/accuracy-training-progress.svg",
+        "https://github.com/openpipe/art/raw/main/assets/benchmarks/2048/accuracy-training-progress.svg",
+        "https://github.com/openpipe/art/raw/main/assets/benchmarks/tic-tac-toe-local/accuracy-training-progress.svg",
+        "https://github.com/openpipe/art/raw/main/assets/benchmarks/codenames/win_rate_over_time.png",
+        "https://github.com/openpipe/art/raw/main/assets/ART_E_graphs.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - OpenPipe/ART: Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen3.6, GPT-OSS, Llama, and more! · GitHub",
+      "url": "http://github.com/OpenPipe/ART"
+    },
     "http://github.com/bluewave-labs/checkmate": {
       "content_type": "text/html; charset=utf-8",
       "description": "Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join here: https://discord.com/invite/NAb6H3UTjK :) - bluewave-labs/Checkmate",
@@ -1382,22 +1408,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2062185472387121152"
-    },
-    "http://x.com/i/article/2062248271444111360": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2062248271444111360",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062248271444111360/i/keyboard%5Fshortcuts)\n\nDid someone say … cookies?\n\nX and its partners use cookies to provide you with a better, safer and faster service and to support our business. Some cookies are necessary to use our services, improve our services, and make sure they work properly. Show more about your choices.\n\nAccept all cookies\n\nRefuse non-essential cookies\n\n[![Image](https://pbs.twimg.com/media/HJ6VxovWYAA3JlG?format=jpg&name=900x900)](http://x.com/i/article/2062248271444111360/AgnoAgi/article/2062255866724884708/media/2062250359364411392)\n\nCommunity Roundup: May 2026 \n\n[![Square profile picture](https://pbs.twimg.com/profile_images/1984361332624306176/KaNuKvU4_normal.jpg)](http://x.com/i/article/2062248271444111360/AgnoAgi)\n\n[Agno](http://x.com/i/article/2062248271444111360/AgnoAgi)\n\n[@AgnoAgi](http://x.com/i/article/2062248271444111360/AgnoAgi)\n\n·\n\n18h\n\nFollow\n\nClick to Follow AgnoAgi\n\n5\n\n12\n\n[1K](http://x.com/i/article/2062248271444111360/AgnoAgi/status/2062255866724884708/analytics)\n\nWe were announced as \n\n[@GoogleDeepMind](https://x.com/@GoogleDeepMind)\n\n ecosystem partners with at Google I/O. 40,000 GitHub stars. v2.6.0 through v2.6.8\\. Agents earning USDC. Agents living in Matrix rooms. Agents managing someone's grocery inventory from their Apple Watch.\n\nMay was a milestone month. Here's what happened.\n\n40,000 GitHub stars\n\nEasy to wave off as a vanity metric. But behind this number are thousands of people filing bugs, opening PRs, and putting Agno into real projects. That's the part that matters. Thank you.\n\nWhat shipped in v2.6.0 through v2.6.8\n\nContext Providers: the headline of v2.6.0\\. A first-class API for plugging an external source into an agent as a natural-language tool. Filesystem, web, SQL database, Slack, Google Drive, or any MCP server. Attach a provider and the agent reasons over it directly. No hand-rolled retrieval pipelines.\n\nMulti-framework support in AgentOS: AgentOS now runs Claude SDK, LangGraph, and DSPy agents alongside Agno under one operational surface. One runtime. Multiple frameworks. No second stack.\n\nTeam HITL and Approvals: human-in-the-loop graduated to teams in v2.6.0 with a full API layer wired into the AgentOS chat page. Background runs over SSE can now be reconnected and resumed, so a refresh mid-run picks up where you left off.\n\nWorkspace Tools: safe local filesystem access for agents. Read, list, search, write, edit, move, delete, and shell access to a root directory tree. Destructive operations gated behind HITL confirmation by default. The right way to let an agent work on a project on disk.\n\nClaude prompt caching, multi-block: per-block cache and TTL controls, a cache\\_tools flag, and deterministic tool ordering so request prefixes stay stable and caches actually hit.\n\nAlso shipped: WorkspaceContextProvider, Gmail and Calendar context providers, GDrive OAuth support, Slack multi-row approvals, per-user data isolation in AgentOS, Gemini multimodal file search, Gemini Interactions, and first-party Google Antigravity support.\n\nCommunity projects\n\nHarish Kotra built a Secure Playground: an interactive prompt-injection attack and defense simulator with Agno evaluator agents scoring attacks and defenses in real time.\n\nBas Nijholt built MindRoom: AI agents living in Matrix rooms, remembering context, using tools, and working across bridged Discord, Slack, and WhatsApp chats. Multi-agent, multi-user, and federated by design.\n\nAlexandre built AgnoLab: a visual canvas for building and orchestrating Agno agents. Watch workflows run as you build them.\n\nGagan Dasari built a personal life-management agent that reads grocery receipts to update pantry inventory, pulls Apple Watch data to log workouts, and creates custom Notion views to track gym progress and spending.\n\nEliottre built TaskBounty: a marketplace where autonomous agents compete on real tasks and get paid in USDC, ETH,",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2062248271444111360/i/keyboard%5Fshortcuts)\n\n有人提到……Cookie 吗？\n\nX 及其合作伙伴使用 Cookie 为您提供更好、更安全、更快速的服务，并支持我们的业务。部分 Cookie 是使用我们的服务、改进服务并确保其正常运行所必需的。详细了解您的选择。\n\n接受所有 Cookie\n\n拒绝非必要 Cookie\n\n[![图片](https://pbs.twimg.com/media/HJ6VxovWYAA3JlG?format=jpg&name=900x900)](http://x.com/i/article/2062248271444111360/AgnoAgi/article/2062255866724884708/media/2062250359364411392)\n\n社区动态：2026 年 5 月\n\n[![方形头像](https://pbs.twimg.com/profile_images/1984361332624306176/KaNuKvU4_normal.jpg)](http://x.com/i/article/2062248271444111360/AgnoAgi)\n\n[Agno](http://x.com/i/article/2062248271444111360/AgnoAgi)\n\n[@AgnoAgi](http://x.com/i/article/2062248271444111360/AgnoAgi)\n\n·\n\n18 小时前\n\n关注\n\n点击关注 @AgnoAgi\n\n5\n\n12\n\n[1K](http://x.com/i/article/2062248271444111360/AgnoAgi/status/2062255866724884708/analytics)\n\n我们在 Google I/O 上被宣布为 [@GoogleDeepMind](https://x.com/@GoogleDeepMind) 生态系统合作伙伴。GitHub 星标数达到 40,000。v2.6.0 到 v2.6.8 版本发布。Agent 赚取 USDC。Agent 生活在 Matrix 房间中。Agent 通过 Apple Watch 管理某人的食品杂货库存。\n\n五月是一个里程碑式的月份。以下是发生的事情。\n\n**40,000 GitHub 星标**\n\n很容易被当作虚荣指标而忽略。但在这个数字背后，是成千上万提交 bug、发起 PR 以及将 Agno 应用到实际项目中的人。这才是真正重要的部分。谢谢大家。\n\n**v2.6.0 到 v2.6.8 版本发布内容**\n\n- **上下文提供者 (Context Providers)**：v2.6.0 的重头戏。一个一流的 API，用于将外部源作为自然语言工具接入 Agent。支持文件系统、Web、SQL 数据库、Slack、Google Drive 或任何 MCP 服务器。附加一个提供者，Agent 就能直接基于它进行推理。无需手动构建检索管道。\n\n- **AgentOS 中的多框架支持**：AgentOS 现在可以在一个操作界面上，将 Claude SDK、LangGraph 和 DSPy 的 Agent 与 Agno 一起运行。一个运行时。多个框架。无需第二套技术栈。\n\n- **团队 HITL 与审批**：人工介入 (HITL) 在 v2.6.0 中升级为团队功能，并带有完整的 API 层，集成到 AgentOS 聊天页面中。通过 SSE 进行的后台运行现在可以重新连接并恢复，因此中途刷新页面可以从断点处继续。\n\n- **工作区工具 (Workspace Tools)**：为 Agent 提供安全的本地文件系统访问。支持读取、列出、搜索、写入、编辑、移动、删除以及对根目录树的 shell 访问。破坏性操作默认需要 HITL 确认才能执行。这是让 Agent 在磁盘上处理项目的正确方式。\n\n- **Claude 提示缓存，多块支持**：支持按块缓存和 TTL 控制、一个 `cache_tools` 标志，以及确定性的工具排序，以确保请求前缀保持稳定且缓存能够命中。\n\n- **其他已发布内容**：WorkspaceContextProvider、Gmail 和 Calendar 上下文提供者、GDrive OAuth 支持、Slack 多行审批、AgentOS 中的用户数据隔离、Gemini 多模态文件搜索、Gemini Interactions，以及第一方 Google Antigravity 支持。\n\n**社区项目**\n\n- **Harish Kotra** 构建了 **Secure Playground**：一个交互式提示注入攻击与防御模拟器，使用 Agno 评估 Agent 实时对攻击和防御进行评分。\n\n- **Bas Nijholt** 构建了 **MindRoom**：AI Agent 生活在 Matrix 房间中，能记住上下文、使用工具，并在桥接的 Discord、Slack 和 WhatsApp 聊天中工作。设计上支持多 Agent、多用户和联邦化。\n\n- **Alexandre** 构建了 **AgnoLab**：一个用于构建和编排 Agno Agent 的可视化画布。在构建过程中即可观察工作流的运行。\n\n- **Gagan Dasari** 构建了一个个人生活管理 Agent：它能读取购物收据以更新食品储藏室库存，拉取 Apple Watch 数据以记录锻炼，并创建自定义 Notion 视图以跟踪健身进度和支出。\n\n- **Eliottre** 构建了 **TaskBounty**：一个市场，自主 Agent 在其中竞争完成真实任务，并以 USDC、ETH 获得报酬。",
-      "text_excerpt_zh_hash": "fa0b0435eb85104c",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2062248271444111360"
     },
     "http://x.com/i/article/2062262699703300097": {
       "cleaner_v": 2,
@@ -6342,6 +6352,20 @@
       "title": "",
       "url": "http://x.com/i/article/2072984693788782594"
     },
+    "http://x.com/i/article/2073060810356858880": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2073060810356858880",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HMUIgo0bMAAN7gj?format=jpg&name=900x900)](http://x.com/AlphaSignalAI/article/2073073414391390246/media/2073072560280121344)\n\nByteDance Finds a Scaling Law for Long-Horizon Agents \n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2072152803523575808/xYz2-wkY_normal.jpg)](http://x.com/AlphaSignalAI)\n\n[AlphaSignal](http://x.com/AlphaSignalAI)\n\n[@AlphaSignalAI](http://x.com/AlphaSignalAI)\n\n·\n\n23h\n\nFollow\n\nClick to Follow AlphaSignalAI\n\n2\n\n2\n\n8\n\n[2K](http://x.com/AlphaSignalAI/status/2073073414391390246/analytics)\n\n## \n\nA 38,000-hour benchmark shows agents learn better when they retain experience instead of restarting.\n\n> In 4 minutes, you’ll learn why long-horizon agents need feedback, memory, and time to improve.\n\nByteDance Seed just measured what happens when agents keep working for hours.\n\nEdgeBench gives agents 134 real-world environments, feedback loops, and at least 12 hours per task. After roughly 38,000 hours of runs, one pattern appears: aggregate performance follows a log-sigmoid curve over interaction time.\n\n[![Image](https://pbs.twimg.com/media/HMT-VjnaEAA50J1?format=png&name=900x900)](http://x.com/AlphaSignalAI/article/2073073414391390246/media/2073061374788505600)\n\nIndividual tasks still look messy. Agents plateau, jump, fail, and recover. But across 134 tasks, the average curve becomes clean enough to model.\n\nA new ByteDance Seed paper gives the clearest benchmark-scale evidence yet that long-horizon agent learning follows a precise mathematical law.\n\n## \n\nWhat EdgeBench is measuring\n\nAgent benchmarks have mostly measured fixed-point performance: give an agent a problem, record whether it solves it, move on.\n\nEdgeBench measures how performance changes during a long run.\n\nEach task supports at least 12 hours of agent-environment interaction. Some extend beyond 72 hours. Agents receive real-world feedback throughout and can iterate freely before submitting scored artifacts to a judge.\n\nThe tasks span six capability families: scientific problems and ML, systems and software engineering, combinatorial optimization, professional knowledge work, formal mathematics, and interactive games.\n\n[![Image](https://pbs.twimg.com/media/HMT-ntDaUAAS6rd?format=png&name=small)](http://x.com/AlphaSignalAI/article/2073073414391390246/media/2073061686559526912)\n\nThese aren't toy problems.\n\nDomain experts averaged 57.2 hours of effort per task, reaching 320 hours in the largest cases. Tasks include gravitational-wave detection from LIGO strain data, RISC-V CPU design, vehicle routing, Fermat's Last Theorem (regular case) in Lean 4, and production-grade codebases requiring thousands of lines of change.\n\n51 of 134 tasks are released publicly alongside the full evaluation framework.\n\n## \n\nThe law\n\nFor each model, EdgeBench records learning curves across all 134 tasks.\n\nPer-task curves are jagged: plateaus, sudden jumps, the shape of real problem-solving. But when averaged across tasks, the noise cancels. What emerges is a clean log-sigmoid:\n\nS(t) = S\\_max / (1 + (t\\_mid / t)^β)\n\nWhere S(t) is performance at time t, S\\_max is the asymptotic ceiling, t\\_mid is the time at which half the maximum score is reached, and β controls the steepness of the curve.\n\n![](https://pbs.twimg.com/amplify_video_thumb/2073063151176998913/img/S-O4oFO_qPtmavV7.jpg)\n\nTested across Claude Opus 4.8, GPT-5.5, GPT-5.4, GLM 5.1, and DeepSeek V4 Pro, the fit achieves mean R² = 0.998.\n\nIndividual tasks are messy. Across 134 tasks, the average becomes clean.\n\n## \n\nWhy this shape: the theory\n\nThe log-sigmoid isn't just a curve fit. The paper derives it from first principles.\n\nThe intuition is that a task's total score is built from many small units, i.e., facts learned, tests passed, strategies discovered.\n\nThink of these as nodes in a hidden graph, either unlocked or still locked. Performance at time t",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2073060810356858880"
+    },
     "http://x.com/i/article/2073090223194755072": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6389,6 +6413,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2073151018809110528"
+    },
+    "http://x.com/i/article/2073402070753738752": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2073402070753738752",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HMY1ZDHWcAA2QNT?format=jpg&name=900x900)](http://x.com/omarsar0/article/2073404610501329247/media/2073403382899830784)\n\nMultimodal Prompting for Agents\n\n[![](https://pbs.twimg.com/profile_images/939313677647282181/vZjFWtAn_normal.jpg)](http://x.com/omarsar0)\n\n[elvis](http://x.com/omarsar0)\n\n[@omarsar0](http://x.com/omarsar0)\n\n·\n\n1h\n\nFollow\n\nClick to Follow omarsar0\n\n4\n\n10\n\n34\n\n[11K](http://x.com/omarsar0/status/2073404610501329247/analytics)\n\nMultimodal prompting is clearly the future. \n\nI love experimenting with new ways to interact with agents. \n\nAs a researcher and engineer, I've found that the richer the inputs to the agent and the richer the outputs I consume, the better the overall results of the collaboration. \n\n[![Image](https://pbs.twimg.com/media/HMY13ezWwAA6NYa?format=jpg&name=small)](http://x.com/omarsar0/article/2073404610501329247/media/2073403905728233472)\n\n<https://youtu.be/%5FrIziQa48wQ?si=n6tS%5FuWlmzaO2vJ6>\n\nIn this little walkthrough, I go over what I mean by a multimodal prompt and when you might find it useful. \n\nIt's more than simple text prompting, so I call it a \"task\" for lack of a better word. It helps me record my voice, annotate the screen, click/mouse actions, and more. \n\nThen all of that is preprocessed and passed to the agent to complete the task more efficiently. The agent has the high-level prompt, but it also has the raw transcriptions if needed. So naturally, I am also using this to build out multimodal skills that I reuse in workflows where agents tend to struggle. This has saved me hours of work. And even the older models are pretty great at understanding the tasks more clearly. Some noise is introduced in the process, but it doesn't seem to hurt the performance. I've also found that this new way of prompting has reduced the number of frustrating interactions I have with agents. \n\nThis is something I have been thinking about for some time now because we are going to move more into multimodal AI models. And so the interactions are going to evolve with models being able to handle a variety of modalities natively. Currently, I process all the recorded tasks with another model in the background, but it's not crazy to think that all of it will just be naturally consumed by omnimodel in the future. \n\nAll of these recorded tasks (which you can also think of as rich annotated datasets) are things I mine and recursively improve over time and, in some cases, package as reusable workflows/patterns/skills. \n\nThis process has really elevated how I use coding agents for all kinds of work. I use multimodal prompting in things like web development, designing, artifact creation, prototyping, researching, reading, simulations, AI-assisted writing, and much more. So it's not just about prompting. It's going deeper into understanding and exploring the right level of detail that the agents need to make the right decision and to push/maximize their capabilities.\n\nWant to publish your own Article?\n\n[Upgrade to Premium](http://x.com/i/premium%5Fsign%5Fup)\n\n* [![](https://pbs.twimg.com/profile_images/939313677647282181/vZjFWtAn_normal.jpg)](http://x.com/omarsar0)  \n[elvis](http://x.com/omarsar0)  \n[@omarsar0](http://x.com/omarsar0)  \nFollow  \nClick to Follow omarsar0  \nBuilding self-improving AI  \n[@dair\\_ai](http://x.com/dair%5Fai)  \n • Prev: Meta AI | PhD • Learn about AI Agents for FREE here: [https://academy.dair.ai/courses/elements-of-ai-agents…](https://t.co/P5SA9u54xO)",
+      "title": "",
+      "url": "http://x.com/i/article/2073402070753738752"
     },
     "http://zaro.ai": {
       "content_type": "text/html",
@@ -6519,6 +6556,22 @@
       "title": "JavaScript Runtime - agentOS",
       "url": "https://agentos-sdk.dev/docs/js-runtime/"
     },
+    "https://aifoc.us/how-might-a-modern-lighthouse-work-with-llms/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Lighthouse is one of the most successful developer tools we’ve ever shipped, and I say that as someone who is genuinely proud of the work the team has done on it. But something has gnawed at me for a while. Our ability to help the developer ecosystem with it is ultimately capped by the number of tests we can physically create. Every audit is a hand-written piece of JavaScript. Someone has to sit down, understand a best practice, encode it as a deterministic check, ship it, and maintain it as the platform moves underneath it. A lot of rigor goes into that, and the rigor is a good thing, it is exactly what makes the scores trustworthy. But it is also a serious amount of time, which means you inevitably end up having to pick the highest-value tests to build, and whole categories of “is this any good” stay quietly out of reach because nobody could justify the cost of a check. The tool can only ever test what someone found the time to write a test for.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://aifoc.us/how-might-a-modern-lighthouse-work-with-llms/",
+      "frameable": null,
+      "image_urls": [
+        "https://aifoc.us/images/card.jpeg",
+        "https://aifoc.us/images/paulkinlan.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "how might a modern lighthouse work with large language models?\n[Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) is one of the most successful developer tools we’ve ever shipped, and I say that as someone who is genuinely proud of the work the team has done on it. But something has gnawed at me for a while. Our ability to help the developer ecosystem with it is ultimately capped by the number of tests we can physically create. Every audit is a hand-written piece of JavaScript. Someone has to sit down, understand a best practice, encode it as a deterministic check, ship it, and maintain it as the platform moves underneath it. A lot of rigor goes into that, and the rigor is a good thing, it is exactly what makes the scores trustworthy. But it is also a serious amount of time, which means you inevitably end up having to pick the highest-value tests to build, and whole categories of “is this any good” stay quietly out of reach because nobody could justify the cost of a check. The tool can only ever test what someone found the time to write a test for.\nA few months ago I got obsessed with a simple question: what if the audit was just a sentence? What if you could describe, in plain English, what good looks like, and let a model figure out how to check it? I wrote that down as an idea I called “tests as prompts”. What brought it back to life was a conversation just before Google I/O. I met up with a friend and her partner, and they were deep in this whole area of auto-research, the idea of pointing a model at a goal and letting it run experiments until it gets there. Hearing them talk about it was what got me excited again. I had tests-as-prompts on one side and now this notion of goal-driven loops on the other, and the two of them together were the actual spark. There are so many ways to experiment with that combination right now, and that, honestly, is the fun part. I had the pieces, so I built a thing called [web-uplift](https://github.com/PaulKinlan/web-uplift). The tool is fun, but the shape of it is the part I actually want to talk about.\nThe other strand came from a different direction. The [Chrome DevTools](https://developer.chrome.com/docs/devtools) team shipped a skill called [memory-leak-debugging](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/skills/memory-leak-debugging/SKILL.md) that runs over their [Chrome DevTools MCP server](https://www.npmjs.com/package/chrome-devtools-mcp). It uses Meta’s [Memlab](https://github.com/facebook/memlab) to diff heap snapshots, orchestrates Chrome to take them, works out where memory is leaking, and then, drawing on the DevTools team’s own knowledge, tells you how to fix it. That was the thing that clicked for me. If a model can orchestrate a browser, read a heap, and diagnose a leak, then it can identify a whole category of issues, not just memory. The intelligence is in the reading, not in a check someone hand-wrote.\nI took that shape and built [memory-tracer](https://github.com/PaulKinlan/memory-tracer), a command-line tool that points at a list of sites, say the top thousand, and reports on their memory usage and leaks. Memory was one dimension. The obvious next question was why stop at memory. Why not point the same harness at everything we say makes a modern site good: the dimensions Lighthouse already checks, the hundreds of best practices in [Modern Web Guidance](https://developer.chrome.com/docs/modern-web-guidance/get-started), and Una Kravets’ modern-UX principles. That is what became web-uplift. And once you have a model that can both find the issues and reason about the fixes, the auto-research framing finishes the thought: set a goal, let the model be the judge of whether you have reached it, and loop until it is satisfied.\nLet me start with what it does, because the shape only makes sense once you see the loop.\nYou point web-uplift at a URL. It explores the site, works out which pages and flows actually matter (a homepage, an article t",
+      "title": "how might a modern lighthouse work with large language models? | AI Focus",
+      "url": "https://aifoc.us/how-might-a-modern-lighthouse-work-with-llms/"
+    },
     "https://ailayoffs.rajnandan.com/?ref=sidebar": {
       "content_type": "text/html; charset=utf-8",
       "description": "Interactive simulation of Hemenway Falk & Tsoukalas (2026): competitive firms over-automate because each captures the full cost saving but only 1/N of the demand destruction.",
@@ -6627,6 +6680,18 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://alphasignal.ai/newsletter"
+    },
+    "https://anchor.fm/s/1131bf314/podcast/rss": {
+      "cleaner_v": 2,
+      "content_type": "application/rss+xml; charset=utf-8",
+      "description": "",
+      "final_url": "https://anchor.fm/s/1131bf314/podcast/rss",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "https://podcasters.spotify.com/pod/show/smalltalkwithnotion Anchor Podcasts Sat, 04 Jul 2026 15:31:52 GMT Geoffrey Litt and Max Schoening Calm convos about malleable software in the age of AI episodic Geoffrey Litt and Max Schoening asalyers@makenotion.com false https://podcasters.spotify.com/pod/show/smalltalkwithnotion/episodes/Is-chat-the-final-form-of-UX-for-AI-e3li99h 136a9558-cc79-418b-bfad-48039cdf307e Thu, 02 Jul 2026 08:07:17 GMT <p>In this special in-person edition of Small Talk, Geoffrey and Max dive deep on human interfaces for working with AI. When is chat a good interface for AI? What makes for an HTML artifact that's actually useful vs. just flashy? And what might be some future form factors for working with AI?</p><p><br></p><p>00:00 Intro</p><p>00:02:00 Is Chat the Final Form of AI</p><p>00:04:23 What is the Definition of a Chat</p><p>00:09:30 The right form factor for engineering?</p><p>00:14:00 How Chat Scales with a Team </p><p>00:17:18 Robots and Humans</p><p>00:19:00 Craft in work and play </p><p>00:21:00 Are you reading the book or the summary? </p><p>00:23:00 Does it still matter to understand things? </p><p>00:28:00 Why learning is still important</p><p>00:31:30 The reason personal computers were invented </p><p>00:36:00 Chat as a UX has been in most apps </p><p>00:37:40 If not chat, then what? </p><p>00:43:10 Chatting and Artifacts</p><p>00:46:00 What is the right system for AI to fit in? </p><p>00:48:00 Inline comments with chat</p><p>00:49:00 Computers lacking the ability to point</p><p>00:54:00 Building for varying fidelity of understanding </p><p>00:56:00 The Era of Explorable Explorations</p><p>01:00:00 The UX Possibilites have changed </p><p>01:02:00 Building software for n = 1</p><p>01:04:00 Sharing software through a prompt </p><p>01:06:00 What is better than a prompt? </p><p>01:11:00 What does building at the forefront mean?</p><p><br></p><p><br></p><p>Follow along with Notion:X: https://x.com/NotionHQLinkedIn: https://linkedin.com/company/notionhq/Instagram: https://instagram.com/notionhq/TikTok: https://tiktok.com/@notionhqThreads: https://www.threads.net/@notionhq</p> false 01:12:16 1 3 full https://podcasters.spotify.com/pod/show/smalltalkwithnotion/episodes/Is-Tokenmaxxing-Dead---Using-AI-at-Home-e3kvol9 ff3bc454-62ab-43ea-8c50-b3a605cb1f39 Thu, 18 Jun 2026 18:46:40 GMT <p>Welcome back to Small Talk, in this episode Geoffrey and Max chat about token spend, challenges with integrating AI within companies, how they use Notion AI in their personal life and their challenges with AI writing. </p><p><br></p><p>Follow along with Notion:X: https://x.com/NotionHQLinkedIn: https://linkedin.com/company/notionhq/Instagram: https://instagram.com/notionhq/TikTok: https://tiktok.com/@notionhqThreads: https://www.threads.net/@notionhq</p> false 00:59:19 1 2 full https://podcasters.spotify.com/pod/show/smalltalkwithnotion/episodes/Software-Factories-vs-Labs--HTML-vs-Markdown--and-Instant-Inference-w-Max--Geoffrey-e3k1cb8 d27a4d07-119c-4070-b6a8-33032d50b096 Thu, 28 May 2026 20:15:03 GMT <p>Max Schoening and Geoffrey Litt riff on what it means to build software like a lab versus a factory—exploration vs. scale, prototypes vs. production.</p><p><br /></p><p>They also dig into the HTML-vs-Markdown moment and how different formats can shape (or sometimes mimic) “real work.”</p><p><br /></p><p> The conversation closes with a quick look at what changes if generating things becomes faster and cheaper—more making on the fly, less waiting.</p> false 00:57:05 full",
+      "title": "<![CDATA[Small Talk]]> <![CDATA[Is chat the final form of UX for AI?]]> <![CDATA[Is Tokenmaxxing Dead? + Using AI at Home]]> <![CDATA[Software Factories vs Labs, HTML vs Markdown, and Instant Inference w/ Max & Geoffrey]]>",
+      "url": "https://anchor.fm/s/1131bf314/podcast/rss"
     },
     "https://aresluna.org/show-your-hands-honor/?ref=sidebar": {
       "cleaner_v": 2,
@@ -6752,6 +6817,28 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "[2602.01992] Emergent Analogical Reasoning in Transformers",
       "url": "https://arxiv.org/abs/2602.01992"
+    },
+    "https://arxiv.org/abs/2605.10899": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Abstract page for arXiv paper 2605.10899: RubricEM: Meta-RL with Rubric-guided Policy Decomposition beyond Verifiable Rewards",
+      "final_url": "https://arxiv.org/abs/2605.10899",
+      "frameable": false,
+      "image_urls": [
+        "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+        "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png",
+        "https://arxiv.org/static/base/1.0.1/images/icons/smileybones-small.svg",
+        "https://arxiv.org/static/base/1.0.1/images/arxiv-logo-primary-light.svg",
+        "https://arxiv.org/icons/licenses/by-4.0.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png",
+        "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Skip to main content arXiv is now an independent nonprofit! Learn more × Search Submit Donate Log in Search arXiv Press Enter to search · Advanced search Computer Science > Computation and Language arXiv:2605.10899 (cs) [Submitted on 11 May 2026] Title: RubricEM: Meta-RL with Rubric-guided Policy Decomposition beyond Verifiable Rewards Authors: Gaotang Li , Bhavana Dalvi Mishra , Zifeng Wang , Jun Yan , Yanfei Chen , Chun-Liang Li , Long T. Le , Rujun Han , George Lee , Hanghang Tong , Chen-Yu Lee , Tomas Pfister View a PDF of the paper titled RubricEM: Meta-RL with Rubric-guided Policy Decomposition beyond Verifiable Rewards, by Gaotang Li and 11 other authors View PDF HTML (experimental) Abstract: Training deep research agents, namely systems that plan, search, evaluate evidence, and synthesize long-form reports, pushes reinforcement learning beyond the regime of verifiable rewards. Their outputs lack ground-truth answers, their trajectories span many tool-augmented decisions, and standard post-training offers little mechanism for turning past attempts into reusable experience. In this work, we argue that rubrics should serve not merely as final-answer evaluators, but as the shared interface that structures policy execution, judge feedback, and agent memory. Based on this view, we introduce RubricEM, a rubric-guided reinforcement learning framework that combines stagewise policy decomposition with reflection-based meta-policy evolution. RubricEM first makes research trajectories stage-aware by conditioning planning, evidence gathering, review, and synthesis on self-generated rubrics. It then assigns credit with Stage-Structured GRPO, which uses stagewise rubric judgments to provide denser semantic feedback for long-horizon optimization. In parallel, RubricEM trains a shared-backbone reflection meta-policy that distills judged trajectories into reusable rubric-grounded guidance for future attempts. The resulting RubricEM-8B achieves strong performance across four long-form research benchmarks, outperforming comparable open models and approaching proprietary deep-research systems. Beyond final performance, we perform thorough analyses to understand the key ingredients of RubricEM. Comments: 63 pages, 6 figures Subjects: Computation and Language (cs.CL) ; Machine Learning (cs.LG) Cite as: arXiv:2605.10899 [cs.CL] (or arXiv:2605.10899v1 [cs.CL] for this version) https://doi.org/10.48550/arXiv.2605.10899 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Gaotang Li [ view email ] [v1] Mon, 11 May 2026 17:40:38 UTC (2,225 KB) Full-text links: Access Paper: View a PDF of the paper titled RubricEM: Meta-RL with Rubric-guided Policy Decomposition beyond Verifiable Rewards, by Gaotang Li and 11 other authors View PDF HTML (experimental) TeX Source view license Current browse context: cs.CL < prev | next > new | recent | 2026-05 Change to browse by: cs cs.LG References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation × loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search",
+      "title": "[2605.10899] RubricEM: Meta-RL with Rubric-guided Policy Decomposition beyond Verifiable Rewards",
+      "url": "https://arxiv.org/abs/2605.10899"
     },
     "https://arxiv.org/abs/2605.13850": {
       "cleaner_v": 2,
@@ -6979,6 +7066,22 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "The State of Modern Research 2026: Closing the Listening Gap",
       "url": "https://bit.ly/side-hey1"
+    },
+    "https://block.xyz/inside/from-hierarchy-to-intelligence": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "How Block is using AI to eliminate hierarchical bottlenecks, building the first company organized as intelligence rather than hierarchy.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://block.xyz/inside/from-hierarchy-to-intelligence",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.sanity.io/images/8m3angk4/production/0aede75a69f4e57d1624891cac16c799987523a7-3840x2160.png?auto=format",
+        "https://cdn.sanity.io/images/8m3angk4/production/0aede75a69f4e57d1624891cac16c799987523a7-3840x2160.png?w=420&auto=format"
+      ],
+      "kind": "article",
+      "text_excerpt": "From Hierarchy to Intelligence\nAt Sequoia, we see that speed is the best predictor of start-up success. Most companies are focused on AI as a productivity enhancer. Few are focused on the potential of AI to change how we work together. Block is showing what it looks like to fundamentally rethink organization design, ultimately harnessing AI to increase speed as a compounding competitive advantage.\nTwo thousand years before the first corporate org chart, the Roman Army solved a problem that every large organization still faces: how do you coordinate thousands of people across vast distances with limited communication?\nTheir answer was a nested hierarchy with a consistent span of control at every level. The smallest unit was the contubernium, eight soldiers who shared a tent, equipment, and a mule, led by a decanus. Ten contubernia formed a century of eighty men under a centurion. Six centuries made a cohort. Ten cohorts made a legion of roughly 5,000. At each layer, a named commander held defined authority, aggregated information from below, and relayed decisions from above. The structure (8 → 80 → 480 → 5,000) was an information routing protocol built around a simple human limitation: a leader can effectively manage somewhere between three and eight people. The Romans discovered this through centuries of warfare. Even today, the US Army's hierarchical chain follows a similar pattern. We now call it \"span of control,\" and it remains the governing constraint of every large organization on earth.\nThe next big change came from Prussia. After Napoleon's army destroyed the Prussian forces at the Battle of Jena in 1806, a group of reformers led by Scharnhorst and Gneisenau rebuilt the military around an uncomfortable truth: you cannot depend on individual genius at the top. You need a system. They created the General Staff, a dedicated class of trained officers whose job was not to fight but to plan operations, process information, and coordinate across units. Scharnhorst intended these staff officers to \"support incompetent Generals, providing the talents that might otherwise be wanting among leaders and commanders.\" This was middle management before the term existed. Professionals whose purpose was to route information, pre-compute decisions, and maintain alignment across a complex organization. The military also formalized the distinction between \"line\" and \"staff\" functions. Line advances the core mission. Staff provides specialized support. Every corporation still uses this vocabulary today.\nMilitary hierarchy entered the business world through the American railroads in the 1840s and 1850s. The U.S. Army lent West Point-trained engineers to private railroad companies, and these officers brought military organizational thinking with them. Staff and line hierarchies, divisional structure, bureaucratic systems of reporting and control: all of it was developed in the military before the railroads adopted it. In the mid-1850s, Daniel McCallum of the New York and Erie Railroad created the world's first organizational chart to manage a system stretching over 500 miles with thousands of workers. The informal management styles that worked for smaller railroads were failing. Train collisions were killing people. McCallum's chart formalized the same hierarchical logic the Romans had used: layers of authority, defined reporting lines, structured information flow. It became the blueprint for the modern corporation.\nFrederick Taylor (1856-1915), often called the \"Father of Scientific Management,\" optimized what happened within that hierarchy. Taylor broke work into specialized tasks, assigned them to trained experts, and managed through measurement rather than intuition. This produced the functional pyramid organization - a structure optimized for efficiency within the information routing system that the military had pioneered and the railroads had commercialized.\nThe first real stress test of functional hierarchy came during World War II. Th",
+      "title": "From Hierarchy to Intelligence Block - From Hierarchy to Intelligence",
+      "url": "https://block.xyz/inside/from-hierarchy-to-intelligence"
     },
     "https://blog.damato.design/posts/lawful-design/?ref=sidebar": {
       "cleaner_v": 2,
@@ -8090,6 +8193,45 @@
       "title": "Loop-Engineering-IEEE.pdf - Google Drive",
       "url": "https://drive.google.com/file/d/1qzKI4DKnyHRpXK1J3ATPqwaqLc0iNu-M/view?usp=sharing"
     },
+    "https://edge-bench.org": {
+      "content_type": "text/html",
+      "description": "EdgeBench studies how agents learn from real-world environments across 134 day-long executable tasks.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://edge-bench.org",
+      "frameable": null,
+      "image_urls": [
+        "https://edge-bench.org/assets/taxonomy/ligo-gw.png",
+        "https://edge-bench.org/assets/taxonomy/gravity-inversion.png",
+        "https://edge-bench.org/assets/taxonomy/groundwater.png",
+        "https://edge-bench.org/assets/taxonomy/solar.png",
+        "https://edge-bench.org/assets/taxonomy/battery.png",
+        "https://edge-bench.org/assets/taxonomy/riscv-cpu.png",
+        "https://edge-bench.org/assets/taxonomy/exchange.png",
+        "https://edge-bench.org/assets/taxonomy/regex-repair.png",
+        "https://edge-bench.org/assets/taxonomy/pocketbase.png",
+        "https://edge-bench.org/assets/taxonomy/tls.png",
+        "https://edge-bench.org/assets/taxonomy/vehicle-routing.png",
+        "https://edge-bench.org/assets/taxonomy/sat-smt.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "EdgeBench | Scaling Laws of Environment Learning",
+      "url": "https://edge-bench.org"
+    },
+    "https://edge-bench.org/paper.pdf": {
+      "cf_fallback_error": "empty result",
+      "cleaner_v": 2,
+      "content_type": "application/pdf",
+      "description": "",
+      "final_url": "https://edge-bench.org/paper.pdf",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "unknown",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://edge-bench.org/paper.pdf"
+    },
     "https://eieio.games/blog/legibility-of-effort/?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -8560,6 +8702,45 @@
       "text_excerpt_zh": "",
       "title": "GitHub - AI-Builder-Club/loop-engineer-template: Join the best AI Builder Community · GitHub",
       "url": "https://github.com/AI-Builder-Club/loop-engineer-template"
+    },
+    "https://github.com/ByteDance-Seed/EdgeBench": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "EdgeBench: Unveiling scaling laws of learning from real-world environments - ByteDance-Seed/EdgeBench",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/ByteDance-Seed/EdgeBench",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/fde23c98e27be593a0f78c2775ab98b75e8fad8023d9915088bcff9d81d46a42/ByteDance-Seed/EdgeBench",
+        "https://github.com/ByteDance-Seed/EdgeBench/raw/main/assets/logo.jpg",
+        "https://github.com/ByteDance-Seed/EdgeBench/raw/main/assets/title.svg",
+        "https://camo.githubusercontent.com/254f3e6b969b1c710874cfcf5ff1b6c53c7dc0f43a0fa95b9cbb705d955bff43/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f50726f6a6563742d656467652d2d62656e63682e6f72672d626c7565",
+        "https://camo.githubusercontent.com/f99b25e0cf5cbc2599cf870aa378e422d89fd30237a085550d786997a2ea3d83/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f546563682532305265706f72742d5044462d7265643f6c6f676f3d61646f62656163726f626174726561646572",
+        "https://camo.githubusercontent.com/1c93cc9968ed6c59a13798110448821ab17a7937fb1bb3137f5a5231285405ab/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f25463025394625413425393725323048756767696e67466163652d446174617365742d79656c6c6f77",
+        "https://camo.githubusercontent.com/be66b50711572d801f99761e53e6f7c13d47349382d38d42bb8f5384422b63e9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f63732d53466f7267652532304861726e6573732d707572706c65",
+        "https://camo.githubusercontent.com/de28abebc807f18bfaef6d860fee91aa4a51c022032ce52686c3fc2a8405b8b2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5765436861742d47726f75702d3037433136303f6c6f676f3d776563686174266c6f676f436f6c6f723d7768697465",
+        "https://camo.githubusercontent.com/397741123d69503a0a224452a3629154669e9a870686f0c21c68527c7d8faa07/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446973636f72642d4a6f696e2d3538363546323f6c6f676f3d646973636f7264266c6f676f436f6c6f723d7768697465",
+        "https://github.com/ByteDance-Seed/EdgeBench/raw/main/assets/fig_full_136_curve_fit_side_by_side.png",
+        "https://github.com/ByteDance-Seed/EdgeBench/raw/main/assets/edgebench_taxonomy.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - ByteDance-Seed/EdgeBench: EdgeBench: Unveiling scaling laws of learning from real-world environments · GitHub",
+      "url": "https://github.com/ByteDance-Seed/EdgeBench"
+    },
+    "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/skills/memory-leak-debugging/SKILL.md": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Chrome DevTools for coding agents. Contribute to ChromeDevTools/chrome-devtools-mcp development by creating an account on GitHub.",
+      "final_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/skills/memory-leak-debugging/SKILL.md",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/80338fbdbfd3bd7fc75c0b85c77a511f5504585f1dc566afa798e7693b311eba/ChromeDevTools/chrome-devtools-mcp"
+      ],
+      "kind": "article",
+      "text_excerpt": "Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests... Search Clear Search syntax tips Provide feedback We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use saved searches to filter your results more quickly Name Query To see all available qualifiers, see our documentation . Cancel Create saved search Sign in Sign up Appearance settings Resetting focus You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} Uh oh! There was an error while loading. Please reload this page . ChromeDevTools / chrome-devtools-mcp Public Notifications You must be signed in to change notification settings Fork 3k Star 45.7k Code Issues 63 Pull requests 25 Discussions Actions Security and quality 2 Insights Additional navigation options Code Issues Pull requests Discussions Actions Security and quality Insights Files Expand file tree main Breadcrumbs chrome-devtools-mcp / skills / memory-leak-debugging / SKILL.md Copy path Blame More file actions Blame More file actions Latest commit History History History 50 lines (31 loc) · 2.78 KB main Breadcrumbs chrome-devtools-mcp / skills / memory-leak-debugging / SKILL.md Copy path Top File metadata and controls Preview Code Blame 50 lines (31 loc) · 2.78 KB Raw Copy raw file Download raw file Outline Edit and raw actions name memory-leak-debugging description Diagnoses and resolves memory leaks in JavaScript/Node.js applications. Use when a user reports high memory usage, OOM errors, or wants to analyze heapsnapshots or run memory leak detection tools like memlab. Memory Leak Debugging This skill provides expert guidance and workflows for finding, diagnosing, and fixing memory leaks in JavaScript and Node.js applications. Core Principles Prefer memlab : Do NOT attempt to read raw .heapsnapshot files directly, as they are extremely large and will consume too many tokens. Always recommend and use memlab to process snapshots and identify leak traces. Isolate the Leak: Determine if the leak is in the browser (client-side) or Node.js (server-side). Common Culprits: Look for detached DOM n",
+      "title": "chrome-devtools-mcp/skills/memory-leak-debugging/SKILL.md at main · ChromeDevTools/chrome-devtools-mcp · GitHub",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/skills/memory-leak-debugging/SKILL.md"
     },
     "https://github.com/EveryInc/compound-engineering-plugin": {
       "content_type": "text/html; charset=utf-8",
@@ -9253,6 +9434,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Building a Visualizer for Antigravity Agentic Development Sessions Building a Visualizer for Antigravity Agentic Development Sessions | Guillaume Laforge",
       "url": "https://glaforge.dev/posts/2026/06/11/antigravity-brain-visualizer/"
+    },
+    "https://huggingface.co/datasets/ByteDance-Seed/EdgeBench": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://huggingface.co/datasets/ByteDance-Seed/EdgeBench",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/ByteDance-Seed/EdgeBench.png",
+        "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+        "https://cdn-avatars.huggingface.co/v1/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png",
+        "https://huggingface.co/datasets/ByteDance-Seed/EdgeBench/resolve/main/assets/logo.jpg",
+        "https://huggingface.co/datasets/ByteDance-Seed/EdgeBench/resolve/main/assets/title.svg",
+        "https://img.shields.io/badge/Project-edge--bench.org-blue",
+        "https://img.shields.io/badge/Tech%20Report-PDF-red?logo=adobeacrobatreader",
+        "https://img.shields.io/badge/GitHub-EdgeBench-green?logo=github",
+        "https://img.shields.io/badge/Docs-SForge%20Harness-purple",
+        "https://img.shields.io/badge/WeChat-Group-07C160?logo=wechat&logoColor=white",
+        "https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white",
+        "https://huggingface.co/datasets/ByteDance-Seed/EdgeBench/resolve/main/assets/fig_full_136_curve_fit_side_by_side.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "| task_id  stringlengths 10 39 | name  stringlengths 10 39 | category  stringclasses 6\n\t\t\t\tvalues | description  stringlengths 123 252 | language  stringclasses 6\n\t\t\t\tvalues | metric  stringclasses 4\n\t\t\t\tvalues | internet  bool 2\n\t\t\t\tclasses | \n|---|---|---|---|---|---|---|\n|  bipedalwalker_locomotion_rl |  Bipedalwalker Locomotion Rl |  Scientific Problems & ML |  Train a CPU-only locomotion policy for BipedalWalker and its Hardcore variant. The judge evaluates only the submitted policy checkpoint, not the training process. Pre-trained policies and external RL libraries are prohibited. |  Python |  score (maximize) | false | \n|  borden_source_inversion |  Borden Source Inversion |  Scientific Problems & ML |  Infer a finite-duration rectangular contaminant source from sparse, noisy monitoring-well observations in a 3D hydrogeological scene. The agent must implement its own forward model and inversion optimizer from scratch. |  Python |  score (maximize) | false | \n|  dabic_gravity_inversion |  Dabic Gravity Inversion |  Scientific Problems & ML |  Implement the D-ABIC regularization method for 3D gravity inversion within the SimPEG framework, run on both synthetic and real Vinton salt dome data under L0 and L1 sparse norms, and compare against a Hamiltonian Monte Carlo baseline. |  Python |  score (maximize) | false | \n|  graph_node_classification |  Graph Node Classification |  Scientific Problems & ML |  Implement graph neural networks from scratch using only base PyTorch for semi-supervised node classification on an unseen graph under CPU-only constraints. |  Python |  score (maximize) | false | \n|  ann_vector_search_qps |  Ann Vector Search Qps |  Systems & Software Engineering |  Replace a brute-force NumPy nearest-neighbor baseline with a high-performance approximate nearest-neighbor implementation under a hard recall constraint. Scored by queries per second. |  Python |  score (maximize) | false | \n|  arc_compiler_runtime |  Arc Compiler Runtime |  Systems & Software Engineering |  Implement a complete TypeScript compiler pipeline (lexer, parser, type checker, code generator) for a novel programming language defined by specification documents. |  Python |  score (maximize) | false | \n|  exchange_core_throughput |  Exchange Core Throughput |  Systems & Software Engineering |  Maximize peak throughput of a Java financial matching engine built on the LMAX Disruptor by tuning thread topology, wait strategies, ring-buffer sizing, order-book implementation, and JVM configuration. |  Java |  score (maximize) | false | \n|  ffmpeg_swscale_reimplementation |  Ffmpeg Swscale Reimplementation |  Systems & Software Engineering |  Reimplement FFmpeg's libswscale pixel-format conversion and scaling library in Rust, handling multiple pixel formats and scaling algorithms. A correctness-passing scaffold is provided; the agent must optimize for speed via SIMD. |  C++ |  score (maximize) | false | \n|  git_rewrite_in_zig |  Git Rewrite In Zig |  Systems & Software Engineering |  Reimplement git as a drop-in Zig binary producing identical CLI output, exit codes, and repository state as the C reference implementation. The C source is available for reading but cannot be compiled. |  C++ |  score (maximize) | false | \n|  integer_compression_codec |  Integer Compression Codec |  Systems & Software Engineering |  Improve a C++ integer compression codec for better compression ratio and decode throughput on uint32 datasets via techniques such as delta encoding, bit-packing, and SIMD vectorization. Exact round-trip correctness is mandatory. |  C++ |  score (maximize) | false | \n|  juliet_vulnerability_analyzer |  Juliet Vulnerability Analyzer |  Systems & Software Engineering |  Implement a deterministic static analyzer that processes structured program facts to detect vulnerabilities across six CWE categories (stack/heap overflow, integer overflow, null dereference, use-after-free, command injection). |  Python |  score (maximize) | false | \n|  ru",
+      "title": "ByteDance-Seed/EdgeBench · Datasets at Hugging Face ByteDance-Seed/EdgeBench · Datasets at Hugging Face",
+      "url": "https://huggingface.co/datasets/ByteDance-Seed/EdgeBench"
     },
     "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark": {
       "content_type": "text/html; charset=utf-8",
@@ -10094,6 +10301,28 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "How Will AI Affect Jobs? - Exchanges | Podcast on Spotify",
       "url": "https://open.spotify.com/episode/77vj2r8BQRknKqGy5usB7Z"
+    },
+    "https://open.spotify.com/episode/7uyHl3seHsY5rovbI1akem?si=6uHTSQH9QKqmdDts72Y9Yw": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Listen to this episode from Small Talk on Spotify. In this special in-person edition of Small Talk, Geoffrey and Max dive deep on human interfaces for working with AI. When is chat a good interface for AI? What makes for an HTML artifact that's actually useful vs. just flashy? And what might be some future form factors for working with AI?00:00 Intro00:02:00 Is Chat the Final Form of AI00:04:23 What is the Definition of a Chat00:09:30 The right form factor for engineering?00:14:00 How Chat Scales with a Team 00:17:18 Robots and Humans00:19:00 Craft in work and play 00:21:00 Are you reading the book or the summary? 00:23:00 Does it still matter to understand things? 00:28:00 Why learning is still important00:31:30 The reason personal computers were invented 00:36:00 Chat as a UX has been in most apps 00:37:40 If not chat, then what? 00:43:10 Chatting and Artifacts00:46:00 What is the right system for AI to fit in? 00:48:00 Inline comments with chat00:49:00 Computers lacking the ability to point00:54:00 Building for varying fidelity of understanding 00:56:00 The Era of Explorable Explorations01:00:00 The UX Possibilites have changed 01:02:00 Building software for n = 101:04:00 Sharing software through a prompt 01:06:00 What is better than a prompt? 01:11:00 What does building at the forefront mean?Follow along with Notion:X: https://x.com/NotionHQLinkedIn: https://linkedin.com/company/notionhq/Instagram: https://instagram.com/notionhq/TikTok: https://tiktok.com/@notionhqThreads: https://www.threads.net/@notionhq",
+      "final_url": "https://open.spotify.com/episode/7uyHl3seHsY5rovbI1akem?si=6uHTSQH9QKqmdDts72Y9Yw",
+      "frameable": false,
+      "image_urls": [
+        "https://image-cdn-ak.spotifycdn.com/image/ab6772ab000016927eeef7e38e1178b90909ea20",
+        "https://image-cdn-ak.spotifycdn.com/image/ab6772ab000015be7eeef7e38e1178b90909ea20",
+        "https://i.scdn.co/image/ab67656300005f1ff075eda754e3bd4b2b416ea3",
+        "https://i.scdn.co/image/ab67656300005f1fe260af878cad8c79465d2e46",
+        "https://i.scdn.co/image/ab67656300005f1f326988d6a6d460665e77cfd2",
+        "https://i.scdn.co/image/ab67656300005f1fd6dbf1e8f68f2ac6af2582e9",
+        "https://i.scdn.co/image/ab67656300005f1fda7cc0b0bd99e972ffd79528",
+        "https://i.scdn.co/image/ab67656300005f1f9aa230591229a3a5643320e5",
+        "https://i.scdn.co/image/ab67656300005f1f1ba213a6f6fef5b8550b1518"
+      ],
+      "kind": "article",
+      "text_excerpt": "Is chat the final form of UX for AI? Small Talk Thursday 1 hr 12 min In this special in-person edition of Small Talk, Geoffrey and Max dive deep on human interfaces for working with AI. When is chat a good interface for AI? What makes for an HTML artifact that's actually useful vs. just flashy? And what might be some future form factors for working with AI?00:00 Intro00:02:00 Is Chat the Final Form of AI00:04:23 What is the Definition of a Chat00:09:30 The right form factor for engineering?00:14:00 How Chat Scales with a Team 00:17:18 Robots and Humans00:19:00 Craft in work and play 00:21:00 Are you reading the book or the summary? 00:23:00 Does it still matter to understand things? 00:28:00 Why learning is still important00:31:30 The reason personal computers were invented 00:36:00 Chat as a UX has been in most apps 00:37:40 If not chat, then what? 00:43:10 Chatting and Artifacts00:46:00 What is the right system for AI to fit in? 00:48:00 Inline comments with chat00:49:00 Computers lacking the ability to point00:54:00 Building for varying fidelity of understanding 00:56:00 The Era of Explorable Explorations01:00:00 The UX Possibilites have changed 01:02:00 Building software for n = 101:04:00 Sharing software through a prompt 01:06:00 What is better than a prompt? 01:11:00 What does building at the forefront mean?Follow along with Notion:X: https://x.com/NotionHQLinkedIn: https://linkedin.com/company/notionhq/Instagram: https://instagram.com/notionhq/TikTok: https://tiktok.com/@notionhqThreads: https://www.threads.net/@notionhq See all episodes More episodes like this Developers are emotionally attached to their tools AI Coding Hype Is Starting to Crack Diffusion Gemma Changes Text AI BONUS: How We Would Teach AI From Scratch in 2026 527: Semantics Layer Genie & Data Agents 173: How to Build a TEAM of AI Agent Using Anthropic’s New Tool (Anyone Can Do This) Home Search Your Library Premium ,",
+      "title": "Is chat the final form of UX for AI? - Small Talk | Podcast on Spotify",
+      "url": "https://open.spotify.com/episode/7uyHl3seHsY5rovbI1akem?si=6uHTSQH9QKqmdDts72Y9Yw"
     },
     "https://open.substack.com/pub/airstreet/p/europe-ai-sovereignty": {
       "cleaner_v": 2,
@@ -11662,6 +11891,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2072991826575872000/img/Vr-qogwVZgavBLd_.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2073338531980963840/img/IipoMwNj8obhEYAS.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2073338531980963840/img/IipoMwNj8obhEYAS.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2073338531980963840/img/IipoMwNj8obhEYAS.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2073338531980963840/img/IipoMwNj8obhEYAS.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11787,20 +12030,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg"
-    },
-    "https://pbs.twimg.com/media/HJ1HCcPX0AEHjMH.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ1HCcPX0AEHjMH.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ1HCcPX0AEHjMH.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ1HCcPX0AEHjMH.jpg"
     },
     "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg": {
       "cleaner_v": 2,
@@ -15302,6 +15531,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMUEH-vXcAAwh8S.png"
     },
+    "https://pbs.twimg.com/media/HMUTnj1XcAALDof.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMUTnj1XcAALDof.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMUTnj1XcAALDof.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMUTnj1XcAALDof.jpg"
+    },
     "https://pbs.twimg.com/media/HMUcKnCWMAAKLqS.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15315,6 +15558,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HMUcKnCWMAAKLqS.jpg"
+    },
+    "https://pbs.twimg.com/media/HMYvVX9aUAAkhGE.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMYvVX9aUAAkhGE.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMYvVX9aUAAkhGE.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMYvVX9aUAAkhGE.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -16379,6 +16636,20 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564"
+    },
+    "https://store.epicgames.com/p/i-have-no-mouth-and-i-must-scream-95c5c2": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://store.epicgames.com/p/i-have-no-mouth-and-i-must-scream-95c5c2",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "# One more step\n\nPlease complete a security check to continue\n\n## \n\n## Incompatible browser extension or network configuration\n\nYour browser extensions or network settings have blocked the security verification process required by store.epicgames.com. To resolve this, try the following steps:\n\nTemporarily disable browser extensions:\n\n1. Go to your browser settings.\n2. Locate your browser extensions and temporarily disable them.\n3. Once browser extensions are disabled, [refresh this page](#).\n\nCheck your network settings:\n\n1. Verify if your internet or firewall settings have blocked your device from reaching “challenges.cloudflare.com”. You may need to consult your operating system's help documentation or your network administrator for guidance on adjusting firewall settings.\n2. If you do not have permission to adjust network settings, try connecting to a different network.\n\nIf these steps do not resolve the issue, refer to Cloudflare's [troubleshooting documentation](https://store.epicgames.com/cdn-cgi/challenge-platform/help) for more help. For detailed guidance on how to disable your browser extensions or check your network settings, refer to your browser or device’s documentation.\n\nVerification successful. Waiting for store.epicgames.com to respond\n\n**Session ID**: a15f2dd99b355c6c \n\n**IP Address**: 104.28.153.68",
+      "title": "",
+      "url": "https://store.epicgames.com/p/i-have-no-mouth-and-i-must-scream-95c5c2"
     },
     "https://stratechery.com/2026/an-interview-with-figma-ceo-dylan-field-about-design-and-ai/": {
       "cleaner_v": 2,
@@ -19016,6 +19287,19 @@
       "title": "Stanley — Grow your following",
       "url": "https://x.getstanley.ai/r/pas"
     },
+    "https://youtu.be/3jWnr8EyMX0": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://www.youtube.com/watch?v=3jWnr8EyMX0&feature=youtu.be",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "- YouTube",
+      "url": "https://youtu.be/3jWnr8EyMX0"
+    },
     "https://youtu.be/CEvIs9y1uog?si=ytqFmiQuOqAuA4qm": {
       "content_type": "text/html; charset=utf-8",
       "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
@@ -19273,12 +19557,6 @@
     "2061670587043610688": [
       "https://x.com/idoubicc/status/2061670587043610688",
       "https://x.com/idoubicc/status/2062129419398086956"
-    ],
-    "2062255866724884708": [
-      "https://x.com/AgnoAgi/status/2062255866724884708",
-      "http://x.com/i/article/2062248271444111360",
-      "https://x.com/AgnoAgi/status/2061882619210375535",
-      "https://pbs.twimg.com/media/HJ1HCcPX0AEHjMH.jpg"
     ],
     "2062268757972484292": [
       "https://x.com/0xSero/status/2062268757972484292",
@@ -24639,6 +24917,14 @@
       "https://x.com/vozinhapr/status/2072750710760902828",
       "https://pbs.twimg.com/media/HMPjx8GWcAAHEen.jpg"
     ],
+    "2072755093569523747": [
+      "https://x.com/geoffreylitt/status/2072755093569523747",
+      "https://youtu.be/3jWnr8EyMX0",
+      "https://x.com/geoffreylitt/status/2072755349010915799",
+      "https://open.spotify.com/episode/7uyHl3seHsY5rovbI1akem?si=6uHTSQH9QKqmdDts72Y9Yw",
+      "https://anchor.fm/s/1131bf314/podcast/rss",
+      "https://x.com/geoffreylitt/status/2072763605808799968"
+    ],
     "2072755153459916847": [
       "https://x.com/Dipper_pol/status/2072755153459916847",
       "https://pbs.twimg.com/amplify_video_thumb/2072754804292489217/img/P9WyJb1uPenrT-jR.jpg"
@@ -24728,6 +25014,8 @@
       "https://x.com/shiweidu/status/2072854128142004548",
       "https://github.com/cloudflare/kumo",
       "https://x.com/shiweidu/status/2073291756733685978",
+      "https://x.com/shiweidu/status/2073424799544860733",
+      "https://x.com/shiweidu/status/2073411930057035779",
       "https://x.com/shiweidu/status/2073291306189881635"
     ],
     "2072864750233362875": [
@@ -24741,8 +25029,8 @@
       "https://x.com/Bioinfo_Kimura/status/2072971134639943685",
       "https://x.com/Bioinfo_Kimura/status/2073158783791185957",
       "https://x.com/Bioinfo_Kimura/status/2073217851876667426",
-      "https://x.com/Bioinfo_Kimura/status/2073157707214004641",
       "https://x.com/Bioinfo_Kimura/status/2073191416596172955",
+      "https://x.com/Bioinfo_Kimura/status/2073157707214004641",
       "https://x.com/Bioinfo_Kimura/status/2073192377414807775"
     ],
     "2072870908948336960": [
@@ -24761,11 +25049,17 @@
       "https://x.com/Xudong07452910/status/2073028689818763660"
     ],
     "2072900208254476437": [
-      "https://x.com/realchillben/status/2072900208254476437"
+      "https://x.com/realchillben/status/2072900208254476437",
+      "https://x.com/realchillben/status/2073359805000065205"
     ],
     "2072914247877861833": [
       "https://x.com/cyrilxuq/status/2072914247877861833",
       "https://github.com/xuchonglang/xiaoyinsi-wiki"
+    ],
+    "2072943061597089984": [
+      "https://x.com/FradSer/status/2072943061597089984",
+      "https://store.epicgames.com/p/i-have-no-mouth-and-i-must-scream-95c5c2",
+      "https://x.com/FradSer/status/2072513236205961555"
     ],
     "2072955230862332106": [
       "https://x.com/mitsuhiko/status/2072955230862332106",
@@ -24810,6 +25104,7 @@
     "2073028601516282053": [
       "https://x.com/MapleShadow/status/2073028601516282053",
       "https://justinyan.me/post/6676",
+      "https://x.com/MapleShadow/status/2073416774159303137",
       "https://x.com/MapleShadow/status/2073386763662524526"
     ],
     "2073045719020343705": [
@@ -24840,9 +25135,25 @@
       "https://www.seangoedecke.com/text-tokens-as-image-tokens",
       "https://x.com/MiTypeScript/status/2073070360988209517"
     ],
+    "2073072468152221928": [
+      "https://x.com/GaotangLi/status/2073072468152221928",
+      "https://arxiv.org/abs/2605.10899"
+    ],
     "2073072670493876737": [
       "https://x.com/posthog/status/2073072670493876737",
       "http://x.com/i/article/2072785635451281408"
+    ],
+    "2073073414391390246": [
+      "https://x.com/AlphaSignalAI/status/2073073414391390246",
+      "http://x.com/i/article/2073060810356858880",
+      "https://x.com/AlphaSignalAI/status/2073073648840384676",
+      "https://edge-bench.org",
+      "https://edge-bench.org/paper.pdf",
+      "https://github.com/ByteDance-Seed/EdgeBench",
+      "https://huggingface.co/datasets/ByteDance-Seed/EdgeBench",
+      "https://alphasignal.ai/newsletter",
+      "https://x.com/AlphaSignalAI/status/2073085445005525123",
+      "https://pbs.twimg.com/media/HMUTnj1XcAALDof.jpg"
     ],
     "2073094175415792123": [
       "https://x.com/SidebarIO/status/2073094175415792123",
@@ -24856,8 +25167,8 @@
     "2073100352921215386": [
       "https://x.com/trq212/status/2073100352921215386",
       "http://x.com/i/article/2073090223194755072",
-      "https://x.com/trq212/status/2073101280936092043",
       "https://x.com/trq212/status/2073160633273741473",
+      "https://x.com/trq212/status/2073101280936092043",
       "https://x.com/trq212/status/2073116741782364167"
     ],
     "2073111376516759770": [
@@ -24868,7 +25179,8 @@
       "https://x.com/kieranklaassen/status/2073113543143276978",
       "https://thinkroom.kieranklaassen.com/d/Yxr8tfwAVV",
       "https://x.com/kieranklaassen/status/2073115848047485331",
-      "https://github.com/EveryInc/compound-engineering-plugin"
+      "https://github.com/EveryInc/compound-engineering-plugin",
+      "https://x.com/kieranklaassen/status/2073429416831525353"
     ],
     "2073161354010120679": [
       "https://x.com/jacob_posel/status/2073161354010120679",
@@ -24890,8 +25202,41 @@
     "2073188802139652403": [
       "https://x.com/justinsunyt/status/2073188802139652403",
       "http://x.com/i/article/2073151018809110528"
+    ],
+    "2073237872111739117": [
+      "https://x.com/joeladejola/status/2073237872111739117",
+      "https://block.xyz/inside/from-hierarchy-to-intelligence"
+    ],
+    "2073271131352498539": [
+      "https://x.com/WangBinxu/status/2073271131352498539"
+    ],
+    "2073323219369574497": [
+      "https://x.com/Paul_Kinlan/status/2073323219369574497",
+      "https://aifoc.us/how-might-a-modern-lighthouse-work-with-llms/",
+      "https://x.com/Paul_Kinlan/status/2073118484100235502",
+      "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/skills/memory-leak-debugging/SKILL.md"
+    ],
+    "2073338583352766673": [
+      "https://x.com/DailyDoseOfDS_/status/2073338583352766673",
+      "http://github.com/OpenPipe/ART",
+      "https://pbs.twimg.com/amplify_video_thumb/2073338531980963840/img/IipoMwNj8obhEYAS.jpg"
+    ],
+    "2073381340985086251": [
+      "https://x.com/TheEconomist/status/2073381340985086251",
+      "https://www.economist.com/leaders/2026/07/02/america-should-not-imprison-frontier-ai?taid=6a48fa779536b00001bc7a74&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
+    ],
+    "2073396828960403733": [
+      "https://x.com/fhinkel/status/2073396828960403733"
+    ],
+    "2073397077598687303": [
+      "https://x.com/ibocodes/status/2073397077598687303",
+      "https://pbs.twimg.com/media/HMYvVX9aUAAkhGE.jpg"
+    ],
+    "2073404610501329247": [
+      "https://x.com/omarsar0/status/2073404610501329247",
+      "http://x.com/i/article/2073402070753738752"
     ]
   },
-  "updated_at": "2026-07-04T13:58:04Z",
+  "updated_at": "2026-07-04T15:31:06Z",
   "window": "recent"
 }
