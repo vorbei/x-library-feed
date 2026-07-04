@@ -6730,7 +6730,7 @@
       "x_status_id": "2065091824927043655"
     },
     {
-      "article_fetch_attempted_at": "2026-06-26T21:51:04.595604Z",
+      "article_fetch_attempted_at": "2026-07-04T04:23:39.378348Z",
       "article_image_urls": [
         "https://terminalgraph.com/og-image.png?v=2",
         "https://terminalgraph.com/graphs/hero.svg"
@@ -6771,7 +6771,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-26T21:51:04.595604Z",
+      "article_fetch_attempted_at": "2026-07-04T04:23:39.378348Z",
       "article_image_urls": [
         "https://www.facebook.com/tr?id=974176008946637&ev=PageView&noscript=1"
       ],
@@ -13830,7 +13830,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-26T21:51:04.595604Z",
+      "article_fetch_attempted_at": "2026-07-04T04:23:39.378348Z",
       "article_image_urls": [
         "https://grizz.fyi/assets/Material/OGImage.png",
         "https://grizz.fyi/assets/Material/TwitterImage.png",
@@ -108912,5 +108912,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-07-03T21:43:51.423328Z"
+  "updated_at": "2026-07-04T04:23:41.518760Z"
 }
