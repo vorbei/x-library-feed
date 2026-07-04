@@ -252,6 +252,32 @@
       "title": "BrowserOps: Your browser, fully autonomous.",
       "url": "http://browserops.ai"
     },
+    "http://businessideasdb.com": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Discover business ideas sourced from real Reddit pain points and App Store gaps. Every idea is scored by AI, enriched with keyword data, and backed by proof threads. Stop guessing what to build.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://businessideasdb.com/",
+      "frameable": null,
+      "image_urls": [
+        "https://businessideasdb.com/og-card.jpg",
+        "https://businessideasdb.com/bid2logo.png",
+        "https://businessideasdb.com/hero-demo/hero-demo-image.png",
+        "https://www.google.com/s2/favicons?domain=reddit.com&sz=16",
+        "https://www.google.com/s2/favicons?domain=freshbooks.com&sz=32",
+        "https://www.google.com/s2/favicons?domain=airbnb.com&sz=32",
+        "https://www.google.com/s2/favicons?domain=notion.so&sz=32",
+        "https://www.google.com/s2/favicons?domain=paddle.com&sz=32",
+        "https://cdn.simpleicons.org/reddit/FF4500",
+        "https://cdn.simpleicons.org/appstore/0D96F6",
+        "https://cdn.simpleicons.org/googleplay/414141",
+        "https://cdn.simpleicons.org/stripe/635BFF"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Business Ideas Database | Validated Startup & Side Hustle Ideas from Reddit · Business Ideas DB",
+      "url": "http://businessideasdb.com"
+    },
     "http://cohere.com/careers": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -25014,8 +25040,8 @@
       "https://x.com/shiweidu/status/2072854128142004548",
       "https://github.com/cloudflare/kumo",
       "https://x.com/shiweidu/status/2073291756733685978",
-      "https://x.com/shiweidu/status/2073424799544860733",
       "https://x.com/shiweidu/status/2073411930057035779",
+      "https://x.com/shiweidu/status/2073424799544860733",
       "https://x.com/shiweidu/status/2073291306189881635"
     ],
     "2072864750233362875": [
@@ -25029,8 +25055,8 @@
       "https://x.com/Bioinfo_Kimura/status/2072971134639943685",
       "https://x.com/Bioinfo_Kimura/status/2073158783791185957",
       "https://x.com/Bioinfo_Kimura/status/2073217851876667426",
-      "https://x.com/Bioinfo_Kimura/status/2073191416596172955",
       "https://x.com/Bioinfo_Kimura/status/2073157707214004641",
+      "https://x.com/Bioinfo_Kimura/status/2073191416596172955",
       "https://x.com/Bioinfo_Kimura/status/2073192377414807775"
     ],
     "2072870908948336960": [
@@ -25049,8 +25075,7 @@
       "https://x.com/Xudong07452910/status/2073028689818763660"
     ],
     "2072900208254476437": [
-      "https://x.com/realchillben/status/2072900208254476437",
-      "https://x.com/realchillben/status/2073359805000065205"
+      "https://x.com/realchillben/status/2072900208254476437"
     ],
     "2072914247877861833": [
       "https://x.com/cyrilxuq/status/2072914247877861833",
@@ -25104,8 +25129,8 @@
     "2073028601516282053": [
       "https://x.com/MapleShadow/status/2073028601516282053",
       "https://justinyan.me/post/6676",
-      "https://x.com/MapleShadow/status/2073416774159303137",
-      "https://x.com/MapleShadow/status/2073386763662524526"
+      "https://x.com/MapleShadow/status/2073386763662524526",
+      "https://x.com/MapleShadow/status/2073416774159303137"
     ],
     "2073045719020343705": [
       "https://x.com/EXM7777/status/2073045719020343705",
@@ -25230,13 +25255,15 @@
     ],
     "2073397077598687303": [
       "https://x.com/ibocodes/status/2073397077598687303",
-      "https://pbs.twimg.com/media/HMYvVX9aUAAkhGE.jpg"
+      "https://pbs.twimg.com/media/HMYvVX9aUAAkhGE.jpg",
+      "https://x.com/ibocodes/status/2073454567908675877",
+      "http://businessideasdb.com"
     ],
     "2073404610501329247": [
       "https://x.com/omarsar0/status/2073404610501329247",
       "http://x.com/i/article/2073402070753738752"
     ]
   },
-  "updated_at": "2026-07-04T15:31:06Z",
+  "updated_at": "2026-07-04T17:18:59Z",
   "window": "recent"
 }
