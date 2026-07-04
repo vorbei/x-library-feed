@@ -1258,35 +1258,6 @@
       "title": "",
       "url": "http://x.com/i/article/2059613463731732484"
     },
-    "http://x.com/i/article/2059627968872280065": {
-      "cf_fallback_error": "HTTPError: HTTP Error 500: Internal Server Error",
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "final_url": "http://x.com/i/article/2059627968872280065",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "",
-      "title": "",
-      "url": "http://x.com/i/article/2059627968872280065"
-    },
-    "http://x.com/i/article/2059705598988701696": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2059705598988701696",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059705598988701696/i/keyboard%5Fshortcuts)\n\nDid someone say … cookies?\n\nX and its partners use cookies to provide you with a better, safer and faster service and to support our business. Some cookies are necessary to use our services, improve our services, and make sure they work properly. Show more about your choices.\n\nAccept all cookies\n\nRefuse non-essential cookies\n\n[![Image](https://pbs.twimg.com/media/HJ85U4SawAABewH?format=jpg&name=900x900)](http://x.com/i/article/2059705598988701696/vijayiyengar/article/2062429159545303409/media/2062430185228779520)\n\nCustomer-facing agents are a different beast\n\n[![](https://pbs.twimg.com/profile_images/2047058151942615040/t0bdNbNc_normal.jpg)](http://x.com/i/article/2059705598988701696/vijayiyengar)\n\n[Vijay Iyengar](http://x.com/i/article/2059705598988701696/vijayiyengar)\n\n[@vijayiyengar](http://x.com/i/article/2059705598988701696/vijayiyengar)\n\n·\n\n3h\n\n·\n\nFollow\n\nClick to Follow vijayiyengar\n\n2\n\n7\n\n[598](http://x.com/i/article/2059705598988701696/vijayiyengar/status/2062429159545303409/analytics)\n\nI sometimes get asked \"Why is Sierra building an agent platform? Can't you just use Claude Code or Codex as your agent?\"\n\nThe answer is that Codex and Claude are fantastic coding agents. But what our customers need, and what Sierra is building, is a platform for building customer-facing agents.\n\nLet's dive in.\n\n# \n\nBack-office vs front-office\n\nMost AI agent discourse is focused on the back-office; ie: agents that talk to your employees and perform coding, analytics, finance, and knowledge work tasks. Codex and Claude in particular have taken off for this use case, and are investing heavily here.\n\nBut the front-office, ie: agents that talk to your customers, are arguably more important. As Peter Drucker says in \n\n[The Effective Executive](https://www.amazon.com/Effective-Executive-Definitive-Harperbusiness-Essentials-ebook/dp/B01F1WZGNC)\n\n:\n\n> The single most important thing to remember about any enterprise is that results exist only on the outside. The result of a business is a satisfied customer. ...Inside an enterprise there are only costs.\n\nCustomer-facing agents are the front-office. They help businesses serve their customers. They can pick up on a 1-800 number at all hours of the day, speak any language, and never put you on hold. They can power search and discovery for a travel booking experience (travel agents are back!). They can handle handle complex, multi-step workflows like filing an insurance claim or applying for a mortgage.\n\nThis means a better experience for customers (no being put on hold or re-explaining yourself), better retention, and lower cost for businesses. AI is the obvious enabler of this.\n\n# \n\nWhat makes customer-facing agents hard?\n\nAgents are just \n\n[LLMs calling tools in a loop](https://simonwillison.net/2025/May/22/tools-in-a-loop/)\n\n. Codex and Claude are great agent harnesses. Why not use them to build front-office agents?\n\nLet's unpack what makes customer-facing agents different, and hard.\n\n## \n\nVoice-first, not text-first\n\nMost back-office work happens over text in a computer. This is the modality that Claude and Codex have optimized for (indeed: Anthropic doesn't have a voice model at all yet).\n\nMost customer service happens over the phone, so voice is table stakes. The voice modality brings a number of challenges that coding agents don't have to consider:\n\n1. Turn detection: There's no concept of a discrete turn, so you have to determine when the user is done talking. Does \"um\" mean there's more or is the user done?\n2. Interrupts: Was the user just clearing their throat or did they have more to say? Did them yelling \"don't touch that!\" to their dog mean the agent should stop what it's doing?\n3. Progress: When coding agents take time, they can show you reasoning and tool calls inline. How do you \"show\" progress conversationally over audio in a realistic w",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2059705598988701696/i/keyboard%5Fshortcuts)\n\n有人提到……cookies 吗？\n\nX 及其合作伙伴使用 cookies 为您提供更好、更安全、更快速的服务，并支持我们的业务。某些 cookies 是使用我们的服务、改进服务并确保其正常运行所必需的。详细了解您的选择。\n\n接受所有 cookies\n\n拒绝非必要 cookies\n\n[![图片](https://pbs.twimg.com/media/HJ85U4SawAABewH?format=jpg&name=900x900)](http://x.com/i/article/2059705598988701696/vijayiyengar/article/2062429159545303409/media/2062430185228779520)\n\n面向客户的智能体是另一回事\n\n[![](https://pbs.twimg.com/profile_images/2047058151942615040/t0bdNbNc_normal.jpg)](http://x.com/i/article/2059705598988701696/vijayiyengar)\n\n[Vijay Iyengar](http://x.com/i/article/2059705598988701696/vijayiyengar)\n\n[@vijayiyengar](http://x.com/i/article/2059705598988701696/vijayiyengar)\n\n·\n\n3小时前\n\n·\n\n关注\n\n点击关注 vijayiyengar\n\n2\n\n7\n\n[598](http://x.com/i/article/2059705598988701696/vijayiyengar/status/2062429159545303409/analytics)\n\n我有时会被问到：“为什么 Sierra 要构建一个智能体平台？你不能直接用 Claude Code 或 Codex 作为你的智能体吗？”\n\n答案是，Codex 和 Claude 是出色的编码智能体。但我们的客户需要的是，并且 Sierra 正在构建的，是一个用于构建面向客户智能体的平台。\n\n让我们深入探讨。\n\n# \n\n后台 vs 前台\n\n大多数 AI 智能体的讨论都集中在后台；即：与员工对话并执行编码、分析、财务和知识工作任务的智能体。Codex 和 Claude 尤其在这个用例上取得了成功，并且正在大力投资于此。\n\n但前台，即与客户对话的智能体，可以说更为重要。正如 Peter Drucker 在\n\n[《卓有成效的管理者》](https://www.amazon.com/Effective-Executive-Definitive-Harperbusiness-Essentials-ebook/dp/B01F1WZGNC)\n\n中所说：\n\n> 关于任何企业，最重要的一点是，成果只存在于外部。企业的成果是满意的客户。……企业内部只有成本。\n\n面向客户的智能体就是前台。它们帮助企业服务客户。它们可以全天候接听 1-800 电话，说任何语言，并且永远不会让你等待。它们可以为旅行预订体验提供搜索和发现功能（旅行智能体回来了！）。它们可以处理复杂、多步骤的工作流程，例如提交保险索赔或申请抵押贷款。\n\n这意味着为客户带来更好的体验（无需等待或重复解释），为企业带来更高的留存率和更低的成本。AI 显然是实现这一目标的推动力。\n\n# \n\n是什么让面向客户的智能体变得困难？\n\n智能体只是\n\n[LLM 在循环中调用工具](https://simonwillison.net/2025/May/22/tools-in-a-loop/)\n\n。Codex 和 Claude 是很好的智能体 harness。为什么不直接用它们来构建前台智能体呢？\n\n让我们来剖析一下是什么让面向客户的智能体与众不同且困难重重。\n\n## \n\n语音优先，而非文本优先\n\n大多数后台工作是通过计算机上的文本完成的。这是 Claude 和 Codex 优化的交互方式（事实上：Anthropic 目前还没有语音模型）。\n\n大多数客户服务是通过电话进行的，因此语音是基本要求。语音交互方式带来了许多编码智能体无需考虑的问题：\n\n1. 话轮检测：没有离散话轮的概念，因此你必须判断用户何时说完。“嗯”是表示还有更多内容，还是用户说完了？\n2. 打断：用户只是清嗓子，还是有更多话要说？他们对狗大喊“别碰那个！”是否意味着智能体应该停止正在做的事情？\n3. 进度：当编码智能体需要时间时，它们可以内联显示推理过程和工具调用。你如何以对话方式在音频上“展示”进度，使其听起来真实自然？",
-      "text_excerpt_zh_hash": "cc9a2f9041195678",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2059705598988701696"
-    },
     "http://x.com/i/article/2060109453488455680": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1396,19 +1367,6 @@
       "title": "",
       "url": "http://x.com/i/article/2062152051157782528"
     },
-    "http://x.com/i/article/2062179059736391681": {
-      "cf_fallback_error": "HTTPError: HTTP Error 500: Internal Server Error",
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "final_url": "http://x.com/i/article/2062179059736391681",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "",
-      "title": "",
-      "url": "http://x.com/i/article/2062179059736391681"
-    },
     "http://x.com/i/article/2062185472387121152": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1424,19 +1382,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2062185472387121152"
-    },
-    "http://x.com/i/article/2062196865714536448": {
-      "cf_fallback_error": "TimeoutError: The read operation timed out",
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "final_url": "http://x.com/i/article/2062196865714536448",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "",
-      "title": "",
-      "url": "http://x.com/i/article/2062196865714536448"
     },
     "http://x.com/i/article/2062248271444111360": {
       "cleaner_v": 2,
@@ -7035,35 +6980,6 @@
       "title": "The State of Modern Research 2026: Closing the Listening Gap",
       "url": "https://bit.ly/side-hey1"
     },
-    "https://blog.bytebytego.com/p/how-openai-built-its-data-agent": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "The hardest part of data analysis isn’t writing SQL. It’s finding the right tables to use in the first place and understanding semantically how to use data.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://blog.bytebytego.com/p/how-openai-built-its-data-agent",
-      "frameable": false,
-      "image_urls": [
-        "https://substackcdn.com/image/fetch/$s_!bcMJ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5c12a1d2-c330-4c2f-84c1-186b06a7b200_1585x2048.png",
-        "https://substackcdn.com/image/fetch/$s_!wcEr!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fbytebytego.substack.com%2Fapi%2Fv1%2Fpost_preview%2F200335519%2Ftwitter.jpg%3Fversion%3D4",
-        "https://substackcdn.com/image/fetch/$s_!1eXV!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8a5609ae-1239-4400-9491-6010a15c4d60_504x504.png",
-        "https://substackcdn.com/image/fetch/$s_!U1Ej!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9941c68-e5b7-4b93-be75-df7cc4ffef02_504x540.png",
-        "https://substackcdn.com/image/fetch/$s_!25Oz!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F143f795a-d166-4805-8909-4ccba1c6cccb_2048x1075.png",
-        "https://substackcdn.com/image/fetch/$s_!bcMJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5c12a1d2-c330-4c2f-84c1-186b06a7b200_1585x2048.png",
-        "https://substackcdn.com/image/fetch/$s_!jmI_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F389d1a60-b369-4a66-a1a4-bfda04bc152f_2048x1073.png",
-        "https://substackcdn.com/image/fetch/$s_!n00Y!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3a5b7c2-1fe0-4f5d-aa8e-61d372b1374a_2048x973.png",
-        "https://substackcdn.com/image/fetch/$s_!SojY!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e8b25f8-0471-41d1-b2e1-06f156b6c6b4_2048x1236.png",
-        "https://substackcdn.com/image/fetch/$s_!83WQ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb14361e2-cf6e-46a7-93c9-74fcff90ea30_2048x1058.png",
-        "https://substackcdn.com/image/fetch/$s_!dbZ-!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fef97db-73ac-4015-87b3-4326ea5a86a4_2048x1401.png",
-        "https://substackcdn.com/image/fetch/$s_!BKUw!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4575cb38-5fb8-4847-96e9-018963d8e25f_2048x1212.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "How OpenAI Built Its Data Agent\n[GitLab Transcend is next week. Built for engineers. Free to attend. Don’t miss it. (Sponsored)](https://go.bytebytego.com/GitLab_060326)\nNew research. New announcements. A new chapter for GitLab.\nOn June 10, GitLab Transcend streams live from London — and engineers get a first look at GitLab 19 and Duo Agent Platform advancements before anyone else.\nIncluding a live demo of GitLab Orbit: a knowledge graph across your entire SDLC so your agents know your pipelines, your security backlog, and what shipped last week. Not just your repo.\nVirtual, free, and just days away.\nOpenAI’s data platform stores 1.5 exabytes across 90,000 datasets and serves ~4,000 internal users as of May 2026. The team has scaled the platform through enormous growth in the last two years. At this scale, the hardest part of data analysis isn’t writing SQL. It’s finding the right tables to use in the first place and understanding semantically how to use data. Many tables look similar but mean different things. What’s the grain of each table? How do you join them against other data? Analysts can spend hours figuring out which tables to use and how to use them before writing a single line of code.\nLast year, OpenAI’s data platform team built an in-house agent to fix that. The agent is, in their own words, “pretty vanilla”, yet it works reliably across the entire ecosystem. And the same investment in Codex that powers the agent has let the team do things most companies consider impossible, like migrating thousands of DAGs, 90,000 tables and 600 petabytes between clouds in two months.\nWe spoke with [Emma Tang](https://www.linkedin.com/in/emmaytang/), Head of Data Platform Engineering at OpenAI, about how the agent works, why a simple architecture is enough at this scale due to strong data infrastructure foundations, the lessons for other teams, and where the platform is headed next. Thanks to Emma for taking the time to share the team’s work in detail.\nIn this article, you’ll learn:\nThe architecture behind OpenAI’s data agent, and why “vanilla” is the point.\nThe six layers of context that turn a single LLM into a reliable analyst across 90,000 tables.\nHow a question becomes a verified answer in three steps.\nThree real Codex use cases inside OpenAI: a 10,000 DAG, 90,000-table cross-cloud migration, hands-off open-source patching, and automated support triage.\nFive practical lessons for any team building a domain agent, and where OpenAI’s data platform is headed next.\nHow the Data Agent Works\nTo understand the agent, we will look at three things: what users experience when they ask a question, what architecture supports that experience, and how a request moves through the agent until it returns a verified answer.\nThe User Experience: Ask in Plain English\nImagine an engineer or marketer at OpenAI who needs a quick answer. They open Slack and ask their questions in plain English. Moments later, the agent replies with its answer, the SQL it ran, and the tables it pulled from. That’s OpenAI’s data agent.\nThe agent sits across the entire data platform and answers questions in natural language. A user can ask in Slack, in a web portal, in their IDE, or in the Codex CLI through MCP. The agent figures out which tables are relevant, writes SQL, runs it, checks the result, and returns the answer with its reasoning attached.\nDoing all of this reliably across 90,000 tables sounds like it would need a complex system. The team’s approach is the opposite of what most people expect. The agent itself is simple. The reliability comes from the engineering around it: careful data acquisition that gives the agent the right context before it ever sees a question. The next sections look at how the agent is built to get that context right.\nThe Architecture: Simple by Design\nOpenAI’s architecture is intentionally simple. Before diving deeper into the architecture, it helps to first understand the basic patterns behind agentic systems.\nThe basic pattern beh",
-      "text_excerpt_zh": "# OpenAI 如何构建其数据代理\n\n[下周就是 GitLab Transcend 大会了。专为工程师打造，免费参加，不容错过。（赞助内容）](https://go.bytebytego.com/GitLab_060326)\n\n新研究、新公告、GitLab 的新篇章。\n\n6月10日，GitLab Transcend 将从伦敦现场直播——工程师们将抢先一睹 GitLab 19 和 Duo Agent 平台的最新进展。\n\n其中包括 GitLab Orbit 的现场演示：一个覆盖整个软件开发生命周期的知识图谱，让你的代理了解你的流水线、安全积压事项以及上周发布的内容——而不仅仅是你的代码仓库。\n\n线上免费，就在几天后。\n\n截至2026年5月，OpenAI 的数据平台存储着1.5艾字节的数据，涵盖9万个数据集，服务于约4000名内部用户。该团队在过去两年中随着平台的巨大增长而不断扩展规模。在这样的规模下，数据分析最困难的部分不是编写 SQL，而是首先找到正确的表，并理解如何从语义上使用数据。许多表看起来相似，但含义不同。每张表的粒度是什么？如何将它们与其他数据关联？分析师在编写一行代码之前，可能要花上数小时来弄清楚该用哪些表以及如何使用它们。\n\n去年，OpenAI 的数据平台团队构建了一个内部代理来解决这个问题。用他们自己的话说，这个代理\"相当普通\"，但它能在整个生态系统中可靠地工作。而支撑该代理的 Codex 同一投资，也让团队完成了大多数公司认为不可能的事情，比如在两个月内跨云迁移数千个 DAG、9万张表和600拍字节的数据。\n\n我们采访了 OpenAI 数据平台工程负责人 [Emma Tang](https://www.linkedin.com/in/emmaytang/)，了解了该代理的工作原理、为什么在这种规模下简单的架构就足够了（得益于强大的数据基础设施基础）、对其他团队的启示，以及平台下一步的发展方向。感谢 Emma 花时间详细分享团队的工作。\n\n在本文中，你将了解到：\n\n- OpenAI 数据代理背后的架构，以及为什么\"普通\"恰恰是重点。\n- 将单个 LLM 转变为跨9万张表的可靠分析工具的六个上下文层。\n- 一个问题如何通过三个步骤变成经过验证的答案。\n- OpenAI 内部的三个真实 Codex 用例：包含1万个 DAG、9万张表的跨云迁移、无需人工干预的开源补丁修复，以及自动化支持分类。\n- 任何构建领域代理的团队都可以借鉴的五条实用经验，以及 OpenAI 数据平台的下一步发展方向。\n\n## 数据代理的工作原理\n\n要理解这个代理，我们需要看三个方面：用户提问时的体验、支撑该体验的架构，以及请求如何通过代理最终返回经过验证的答案。\n\n### 用户体验：用自然语言提问\n\n想象一下 OpenAI 的一位工程师或营销人员需要快速获取答案。他们在 Slack 中用自然语言提问。片刻之后，代理回复了答案、它运行的 SQL 以及它查询的表。这就是 OpenAI 的数据代理。\n\n该代理横跨整个数据平台，用自然语言回答问题。用户可以在 Slack、Web 门户、IDE 或通过 MCP 在 Codex CLI 中提问。代理会找出相关的表、编写 SQL、运行它、检查结果，并返回答案及其推理过程。\n\n在9万张表中可靠地完成这一切，听起来需要一个复杂的系统。但该团队的做法与大多数人的预期相反。代理本身很简单。可靠性来自于围绕它的工程工作：在代理看到问题之前，通过仔细的数据采集为其提供正确的上下文。接下来的部分将探讨代理是如何构建以获取正确上下文的。\n\n### 架构：刻意保持简单\n\nOpenAI 的架构是刻意保持简单的。在深入探讨架构之前，先了解代理系统背后的基本模式会有所帮助。\n\n基本模式是...",
-      "text_excerpt_zh_hash": "c87af73d3fda9e61",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "How OpenAI Built Its Data Agent - ByteByteGo Newsletter",
-      "url": "https://blog.bytebytego.com/p/how-openai-built-its-data-agent"
-    },
     "https://blog.damato.design/posts/lawful-design/?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -9338,27 +9254,6 @@
       "title": "Building a Visualizer for Antigravity Agentic Development Sessions Building a Visualizer for Antigravity Agentic Development Sessions | Guillaume Laforge",
       "url": "https://glaforge.dev/posts/2026/06/11/antigravity-brain-visualizer/"
     },
-    "https://hex.tech/blog/hex-in-codex/": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Starting today, you can bring Hex directly into Codex to run analyses, pull in existing work, and spin up new projects.",
-      "final_url": "https://hex.tech/blog/hex-in-codex/",
-      "frameable": false,
-      "image_urls": [
-        "https://cdn.sanity.io/images/e92memrj/production/d6deebc0ece89c69be7ab088e2f5c580c01379fa-2400x1260.jpg?w=1200&auto=format",
-        "https://cdn.sanity.io/images/e92memrj/production/a4cb90eb44baed2538803440badfa7bc4e031f81-1680x1020.jpg?w=1680&auto=format",
-        "https://cdn.sanity.io/images/e92memrj/production/77857a91378bfe250289aab156d07298e7e12bd7-1680x1020.jpg?w=800&auto=format",
-        "https://cdn.sanity.io/images/e92memrj/production/3e41729c8725af079576bef2e5c5d94fa880f0ce-1680x1020.png?w=800&auto=format",
-        "https://cdn.sanity.io/images/e92memrj/production/2aacd093f9cb3648fcde5ad79d85cf60504c6d47-1680x1040.png?w=800&auto=format"
-      ],
-      "kind": "article",
-      "text_excerpt": "Skip to main content 📊 AI analytics use case: how Mercor unlocked $100M in revenue 🪩 Come hang at Club Hex with the sharpest minds in data - this Summit season in SF 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build with just a prompt 📖 State of Data Teams 2026 discover key insights from data leaders 🙏 It's just \"Hex\"! Not \"HEX\" or \"Hex dot tech\" 📊 AI analytics use case: how Mercor unlocked $100M in revenue 🪩 Come hang at Club Hex with the sharpest minds in data - this Summit season in SF 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build with just a prompt 📖 State of Data Teams 2026 discover key insights from data leaders 🙏 It's just \"Hex\"! Not \"HEX\" or \"Hex dot tech\" 📊 AI analytics use case: how Mercor unlocked $100M in revenue 🪩 Come hang at Club Hex with the sharpest minds in data - this Summit season in SF 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build with just a prompt 📖 State of Data Teams 2026 discover key insights from data leaders 🙏 It's just \"Hex\"! Not \"HEX\" or \"Hex dot tech\" 📊 AI analytics use case: how Mercor unlocked $100M in revenue 🪩 Come hang at Club Hex with the sharpest minds in data - this Summit season in SF 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build with just a prompt 📖 State of Data Teams 2026 discover key insights from data leaders 🙏 It's just \"Hex\"! Not \"HEX\" or \"Hex dot tech\" 📊 AI analytics use case: how Mercor unlocked $100M in revenue 🪩 Come hang at Club Hex with the sharpest minds in data - this Summit season in SF 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build with just a prompt 📖 State of Data Teams 2026 discover key insights from data leaders 🙏 It's just \"Hex\"! Not \"HEX\" or \"Hex dot tech\" 📊 AI analytics use case: how Mercor unlocked $100M in revenue 🪩 Come hang at Club Hex with the sharpest minds in data - this Summit season in SF 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build with just a prompt 📖 State of Data Teams 2026 discover key insights from data leaders 🙏 It's just \"Hex\"! Not \"HEX\" or \"Hex dot tech\" Blog Hex is now in Codex You can bring Hex directly into Codex to run analyses, pull in existing work, and spin up new projects. Claire Carroll Product Data June 2, 2026 Share: In this article Hex and Codex, better together What you can do Get started for free A lot of people are asking which tools should be used for AI analytics. There are a lot of them out there! Coding agents, productivity tools, fancy new BI tools. At Hex, we want you to be able to analyze data from wherever you do your job. And we’re working hard on building our leading analytics agents and our unique approach to context into the places our customers are working. Today, we’re excited to be part of Open AI’s launch for Codex plugins . You can bring Hex directly into Codex to run analyses, pull in existing work, and spin up new projects. You can kick off analysis, pull in Hex projects, and even create cells using our new Codex integration There are a few ways you can take advantage of this new integration. Kick off Hex analysis from Codex The most direct path: ask Codex to run an analytics task and Hex handles the execution. Need to understand churn by segment? Dig into pipeline performance? Get a read on product usage trends? Codex can invoke Hex to pull the data, run analysis, and return results without switching tabs. Pull Hex Threads into Codex If you've already done analytical work in Hex, you shouldn't have to redo it just to reference it elsewhere. The MCP connection lets Codex pull in existing Hex threads as context, so when you're doing analysis, writing a report, or prepping for a meeting, your prior work in Hex is right there. Control Hex programmatically using the CLI For more specific, structured tasks - such as creating projects, adding cells, or configuring analysis - the CLI connection gives Codex a more precise in",
-      "text_excerpt_zh": "Blog\n\nHex 现已集成至 Codex\n\n您可以直接将 Hex 引入 Codex，用于运行分析、拉取现有工作以及启动新项目。\n\nClaire Carroll  \n产品数据  \n2026年6月2日  \n分享：\n\n本文内容  \nHex 与 Codex，强强联合  \n您可以做什么  \n免费开始使用\n\n很多人都在问，AI 分析应该使用哪些工具。市面上确实有很多选择！编码代理、生产力工具、炫酷的新型 BI 工具。在 Hex，我们希望您能够从任何工作场所分析数据。我们正致力于将我们领先的分析代理和独特的上下文处理方法，构建到客户工作的各个平台中。\n\n今天，我们很高兴能成为 OpenAI 发布 Codex 插件的一部分。您可以直接将 Hex 引入 Codex，用于运行分析、拉取现有工作以及启动新项目。\n\n您可以通过我们全新的 Codex 集成来启动分析、拉取 Hex 项目，甚至创建单元格。\n\n您可以通过以下几种方式利用这项新集成。\n\n从 Codex 启动 Hex 分析  \n最直接的路径：让 Codex 运行一个分析任务，由 Hex 负责执行。需要了解按细分市场划分的客户流失情况？深入分析管道性能？了解产品使用趋势？Codex 可以调用 Hex 来拉取数据、运行分析并返回结果，无需切换标签页。\n\n将 Hex Threads 拉取到 Codex  \n如果您已经在 Hex 中完成了分析工作，不应为了在其他地方引用而重做一遍。MCP 连接让 Codex 能够将现有的 Hex Threads 作为上下文拉取进来，这样当您进行分析、撰写报告或准备会议时，您在 Hex 中的先前工作就触手可及。\n\n使用 CLI 以编程方式控制 Hex  \n对于更具体、结构化的任务——例如创建项目、添加单元格或配置分析——CLI 连接为 Codex 提供了更精确的集成方式。",
-      "text_excerpt_zh_hash": "c7ea29d11d50721c",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Hex is now in Codex | Hex",
-      "url": "https://hex.tech/blog/hex-in-codex/"
-    },
     "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark": {
       "content_type": "text/html; charset=utf-8",
       "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
@@ -10394,34 +10289,6 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843118"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2062221346072051713/img/hs10vv04Q9oB5vDq.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2062221346072051713/img/hs10vv04Q9oB5vDq.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2062221346072051713/img/hs10vv04Q9oB5vDq.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2062221346072051713/img/hs10vv04Q9oB5vDq.jpg"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2062415276306546688/img/5RvN7n6zmTvIT56e.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2062415276306546688/img/5RvN7n6zmTvIT56e.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2062415276306546688/img/5RvN7n6zmTvIT56e.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2062415276306546688/img/5RvN7n6zmTvIT56e.jpg"
     },
     "https://pbs.twimg.com/amplify_video_thumb/2062463771969290240/img/FkZgIjNg_u56k-q2.jpg": {
       "cleaner_v": 2,
@@ -15211,20 +15078,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMP47UHaAAApZ8R.jpg"
     },
-    "https://pbs.twimg.com/media/HMPjx8GWcAAHEen.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMPjx8GWcAAHEen.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HMPjx8GWcAAHEen.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HMPjx8GWcAAHEen.jpg"
-    },
     "https://pbs.twimg.com/media/HMPlOEvXoAAFd2p.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15337,6 +15190,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMRsslLbEAAldrP.jpg"
     },
+    "https://pbs.twimg.com/media/HMT75jwWYAAIpMt.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMT75jwWYAAIpMt.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMT75jwWYAAIpMt.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMT75jwWYAAIpMt.jpg"
+    },
     "https://pbs.twimg.com/media/HMTAkdIaoAAGQKZ.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15434,6 +15301,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HMUcKnCWMAAKLqS.jpg"
+    },
+    "https://pbs.twimg.com/media/HMYLrNlWIAA6Hgd.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMYLrNlWIAA6Hgd.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMYLrNlWIAA6Hgd.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMYLrNlWIAA6Hgd.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -17780,6 +17661,30 @@
       "title": "Config 2026: New Materials, New Tools and a More Expressive Canvas | Figma Blog",
       "url": "https://www.figma.com/blog/config-2026-recap/?ref=sidebar"
     },
+    "https://www.figma.com/blog/principles-in-motion/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "When you’re designing motion, you’re designing with time. Understanding the mechanics turns movement into meaning.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.figma.com/blog/principles-in-motion/?ref=sidebar",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.sanity.io/images/599r6htc/regionalized/6df8f3511a02117aa9abeac52e3236c6e13f5111-4000x2250.jpg?w=1200&q=70&fit=max&auto=format",
+        "https://cdn.sanity.io/images/599r6htc/regionalized/9410fa0df527e2edce281266fa77a45313885dc1-3265x1399.png?rect=1,0,3264,1399&w=616&h=264&q=75&fit=max&auto=format",
+        "https://cdn.sanity.io/images/599r6htc/regionalized/94a257614468eb378d2a2dacc4e0c12da8bf4b0b-2560x1440.png?rect=0,172,2560,1097&w=616&h=264&q=75&fit=max&auto=format",
+        "https://cdn.sanity.io/images/599r6htc/regionalized/bb6cdc4d94a6010e38625945bf6fdf1aed48c40f-1425x1425.jpg?w=1425&h=1425&q=75&fit=max&auto=format",
+        "https://cdn.sanity.io/images/599r6htc/regionalized/82292b406ad7e129363f074a0fcd8876ce2d48b6-500x500.jpg?w=500&h=500&q=75&fit=max&auto=format",
+        "https://cdn.sanity.io/images/599r6htc/regionalized/0e87662673b1385e3c9a175bb7ac6d1b8989662b-1333x1333.jpg?w=1333&h=1333&q=75&fit=max&auto=format",
+        "https://cdn.sanity.io/images/599r6htc/regionalized/807a1635fc533688a0db903ba9b448658ab63b2b-1485x1485.png?w=1485&h=1485&q=75&fit=max&auto=format",
+        "https://cdn.sanity.io/images/599r6htc/regionalized/d96b95e411f60dcee12f9f759ccffc8a8f9162f3-2615x1102.jpg?w=2615&h=1102&q=75&fit=max&auto=format",
+        "https://cdn.sanity.io/images/599r6htc/regionalized/2670d8aecebd5569ba4de4fd8a8f32568a436b60-3264x1836.png?w=528&h=297&q=75&fit=max&auto=format",
+        "https://cdn.sanity.io/images/599r6htc/regionalized/773023b2a8eb65844282245c27a2612b3e9908c6-4000x2250.jpg?w=528&h=297&q=75&fit=max&auto=format"
+      ],
+      "kind": "article",
+      "text_excerpt": "Principles in motion\nWhen you’re designing motion, you’re designing with time. Understanding the mechanics turns movement into meaning.\nShare Principles in motion\nIllustrations by Matija Medved\nAcross marketing pages, social assets, brand videos, and presentations, motion is how ideas come to life. It lets design unfold over time, using rhythm, sound, and sequencing to direct attention and shape meaning.\nWe asked three Figma motion designers—Chad Colby, Ben Hill, and Gilles Desmadrille—to explain the principles of motion, how to expand the possibilities for storytelling, and how AI is changing their craft.\nWhat’s the biggest difference between graphic design and motion design?\nIn graphic design, everything’s communicated through frozen moments in time. Motion removes that constraint, introducing rhythm, pacing, transformation, and character. The foundations remain the same, with clarity and intent at the core.\nWe think more in multiple frames. Instead of trying to condense every element of the story into a single image, we break it up—first this, then that—so it’s easier to digest.\nIt’s really about how you use that element of time in motion to tell a story or communicate an idea. How do you use easing and timing to evoke a feeling or get across what you’re trying to say? There’s a deep connection to the way it syncs up with sound, too. When you think about music, the way beats are structured—it’s all timing, just like motion.\nI’m always in awe of how well sound and image come together to create something bigger than the sum of its parts. Your brain makes connections you couldn’t have planned out. That is pretty foundational in the way that I approach things: leaving some things to chance and being open to those happy accidents.\nWhere do you find references to determine how something should move?\nI think the foundational thing is understanding physics. Motion is rooted in how things move in the real world. Let’s say you’re trying to animate or prompt a bouncing ball. It starts really fast, springs back up, then slows as it reaches the top. Then it falls again, and each bounce gets lower. Being able to capture that feeling is really important.\nIf you’re finding your inspiration solely from other motion work, then you’ll likely fall into the expected trends (bouncy balls and rectangles only go so far). If you’re drawing from movement in nature, the storytelling devices and editing tricks from film, or even gestural forms in art and design, that will set you apart.\nAt the end of the day, people will recognize when motion is “good,” even if they can’t explain why. Design is more subjective. Motion’s relationship to the real world makes that distinction.\nMini motion glossary: Core principles\nEase in/ease out: How motion accelerates and decelerates over time\nAnticipation: A preparatory movement that signals what’s about to happen\nOvershoot: Moving slightly past the final position before settling back\nFollow-through: Secondary motion that continues after the main movement stops\nHold: A pause that gives the viewer time to register what just happened\nSettle: The final, subtle motion as something comes to rest\nHow do you translate what you see in the real world into how motion should feel?\nI think the big one is easing, which is how we describe timing and how things settle into place. Another one is match cut, where you go from one shot to another but connect them through the same movement. You might go from slow, to fast, to slow again, and do a hard cut at the fastest point, and it ends up feeling like a seamless transition. Transitions are a big part of how we think about motion. They are key to connecting the different beats of a story, helping everything feel cohesive and unified. For example, many of our launch videos showcase multiple use cases for a feature, but they still need to feel like one continuous experience, so we use transitions and well placed cuts to maintain momentum and rhythm, keeping the viewer engaged throughout",
+      "title": "Principles in Motion | Figma Blog",
+      "url": "https://www.figma.com/blog/principles-in-motion/?ref=sidebar"
+    },
     "https://www.foreignaffairs.com/guest-pass/redeem/zDWmVXl_BT8": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -18224,20 +18129,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Paying Attention: A Case for Contemplative Autonomy - Panoptica featuring Epsilon Theory",
       "url": "https://www.panoptica.com/paying-attention-a-case-for-contemplative-autonomy/"
-    },
-    "https://www.perplexity.ai/enterprise/use-cases/growing-businesses": {
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "fetch_error": "HTTP Error 403: Forbidden",
-      "final_url": "https://www.perplexity.ai/enterprise/use-cases/growing-businesses",
-      "frameable": null,
-      "image_urls": [],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "",
-      "url": "https://www.perplexity.ai/enterprise/use-cases/growing-businesses"
     },
     "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519": {
       "cleaner_v": 2,
@@ -19385,34 +19276,6 @@
       "https://x.com/idoubicc/status/2061670587043610688",
       "https://x.com/idoubicc/status/2062129419398086956"
     ],
-    "2062185564871295459": [
-      "https://x.com/polydao/status/2062185564871295459",
-      "http://x.com/i/article/2062179059736391681",
-      "https://x.com/polydao/status/2062319550444499167",
-      "https://x.com/polydao/status/2062319316347801923",
-      "https://x.com/polydao/status/2062319377811124480",
-      "https://x.com/polydao/status/2062188839976706474",
-      "https://x.com/polydao/status/2062319433939406875",
-      "https://x.com/polydao/status/2062319236421230722",
-      "https://x.com/polydao/status/2062319504579858823",
-      "https://x.com/polydao/status/2062319145262158327"
-    ],
-    "2062199316031156709": [
-      "https://x.com/zaimiri/status/2062199316031156709",
-      "http://x.com/i/article/2062196865714536448",
-      "https://x.com/zaimiri/status/2062523909241774470",
-      "https://x.com/zaimiri/status/2062523861267370269",
-      "https://x.com/zaimiri/status/2062523820477681966",
-      "https://x.com/zaimiri/status/2062523769277866246",
-      "https://x.com/zaimiri/status/2062523790471635193",
-      "https://x.com/zaimiri/status/2062225157775556996",
-      "https://x.com/zaimiri/status/2062523732623831083"
-    ],
-    "2062221423104704753": [
-      "https://x.com/perplexity_ai/status/2062221423104704753",
-      "https://www.perplexity.ai/enterprise/use-cases/growing-businesses",
-      "https://pbs.twimg.com/amplify_video_thumb/2062221346072051713/img/hs10vv04Q9oB5vDq.jpg"
-    ],
     "2062255866724884708": [
       "https://x.com/AgnoAgi/status/2062255866724884708",
       "http://x.com/i/article/2062248271444111360",
@@ -19425,45 +19288,13 @@
       "https://x.com/0xSero/status/2062421357351129595",
       "https://x.com/0xSero/status/2062274868779897050"
     ],
-    "2062301065312407891": [
-      "https://x.com/DeRonin_/status/2062301065312407891",
-      "http://x.com/i/article/2059627968872280065",
-      "https://x.com/DeRonin_/status/2062598746425184599",
-      "https://x.com/DeRonin_/status/2062302332474335385",
-      "https://x.com/DeRonin_/status/2062438584917836167"
-    ],
-    "2062337332309839985": [
-      "https://x.com/jxnlco/status/2062337332309839985",
-      "https://blog.bytebytego.com/p/how-openai-built-its-data-agent",
-      "https://x.com/jxnlco/status/2062398710827597927",
-      "https://hex.tech/blog/hex-in-codex/"
-    ],
     "2062414047073448262": [
       "https://x.com/Potatoloogs/status/2062414047073448262",
       "https://claude.com/blog/running-an-ai-native-engineering-org"
     ],
-    "2062418054831554666": [
-      "https://x.com/IBuzovskyi/status/2062418054831554666",
-      "https://pbs.twimg.com/amplify_video_thumb/2062415276306546688/img/5RvN7n6zmTvIT56e.jpg",
-      "https://x.com/IBuzovskyi/status/2062427739659895262",
-      "https://x.com/IBuzovskyi/status/2062443797171118534",
-      "https://x.com/IBuzovskyi/status/2062468232728965377",
-      "https://x.com/IBuzovskyi/status/2062533992281248111",
-      "https://x.com/IBuzovskyi/status/2062470043997245699",
-      "https://x.com/IBuzovskyi/status/2062477205951676692",
-      "https://x.com/IBuzovskyi/status/2062571983548633101",
-      "https://x.com/IBuzovskyi/status/2062430940949799189",
-      "https://x.com/IBuzovskyi/status/2062583604316958753",
-      "https://x.com/IBuzovskyi/status/2062548402018160685",
-      "https://x.com/IBuzovskyi/status/2062509027351781425"
-    ],
     "2062428035559616604": [
       "https://x.com/_vmlops/status/2062428035559616604",
       "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills"
-    ],
-    "2062429159545303409": [
-      "https://x.com/vijayiyengar/status/2062429159545303409",
-      "http://x.com/i/article/2059705598988701696"
     ],
     "2062435013484814400": [
       "https://x.com/AdamBartas/status/2062435013484814400",
@@ -24718,8 +24549,8 @@
     "2072669154050543677": [
       "https://x.com/emre570_/status/2072669154050543677",
       "https://emre570.bearblog.dev/megakernel-decode/",
-      "https://x.com/emre570_/status/2072828466764874016",
-      "https://x.com/emre570_/status/2072814888045437420"
+      "https://x.com/emre570_/status/2072814888045437420",
+      "https://x.com/emre570_/status/2072828466764874016"
     ],
     "2072696042550940013": [
       "https://x.com/ccatalini/status/2072696042550940013"
@@ -24803,12 +24634,12 @@
     "2072752300335194227": [
       "https://x.com/vozinhapr/status/2072752300335194227",
       "https://pbs.twimg.com/media/HMPlOEvXoAAFd2p.jpg",
+      "https://x.com/vozinhapr/status/2073357561596653642",
+      "https://pbs.twimg.com/media/HMYLrNlWIAA6Hgd.jpg",
       "https://x.com/vozinhapr/status/2073036782560518221",
       "https://pbs.twimg.com/media/HMTn827XcAAygTI.jpg",
       "https://x.com/vozinhapr/status/2072812100423209000",
-      "https://pbs.twimg.com/media/HMQbmZwWgAEDZlc.jpg",
-      "https://x.com/vozinhapr/status/2072750710760902828",
-      "https://pbs.twimg.com/media/HMPjx8GWcAAHEen.jpg"
+      "https://pbs.twimg.com/media/HMQbmZwWgAEDZlc.jpg"
     ],
     "2072755153459916847": [
       "https://x.com/Dipper_pol/status/2072755153459916847",
@@ -24912,8 +24743,8 @@
       "https://x.com/Bioinfo_Kimura/status/2072971134639943685",
       "https://x.com/Bioinfo_Kimura/status/2073158783791185957",
       "https://x.com/Bioinfo_Kimura/status/2073217851876667426",
-      "https://x.com/Bioinfo_Kimura/status/2073191416596172955",
       "https://x.com/Bioinfo_Kimura/status/2073157707214004641",
+      "https://x.com/Bioinfo_Kimura/status/2073191416596172955",
       "https://x.com/Bioinfo_Kimura/status/2073192377414807775"
     ],
     "2072870908948336960": [
@@ -24924,11 +24755,11 @@
       "https://x.com/Xudong07452910/status/2072898125027516832",
       "https://quesma.com/blog/qwen-36-is-awesome/",
       "https://pbs.twimg.com/media/HMQcDB6XsAAh1co.jpg",
-      "https://x.com/Xudong07452910/status/2073332672152195187",
       "https://x.com/Xudong07452910/status/2073311755418112286",
       "https://x.com/Xudong07452910/status/2072958106737234164",
       "https://x.com/Xudong07452910/status/2073099549854331056",
       "https://x.com/Xudong07452910/status/2073311849093693662",
+      "https://x.com/Xudong07452910/status/2073332672152195187",
       "https://x.com/Xudong07452910/status/2073028689818763660"
     ],
     "2072900208254476437": [
@@ -24992,6 +24823,14 @@
       "https://x.com/CFchangelog/status/2073053560762212633",
       "https://developers.cloudflare.com/changelog/post/2026-07-03-workers-types-v5/"
     ],
+    "2073058698142896311": [
+      "https://x.com/SidebarIO/status/2073058698142896311",
+      "https://www.figma.com/blog/principles-in-motion/?ref=sidebar",
+      "https://pbs.twimg.com/media/HMT75jwWYAAIpMt.jpg",
+      "https://x.com/SidebarIO/status/2073039566244573559",
+      "https://buttondown.com/blog/google-reader?ref=sidebar",
+      "https://pbs.twimg.com/media/HMTqf8lWYAA45hh.jpg"
+    ],
     "2073068605944610898": [
       "https://x.com/MiTypeScript/status/2073068605944610898",
       "https://github.com/teamchong/pxpipe",
@@ -25041,8 +24880,8 @@
       "https://x.com/vasuman/status/2073163436935307329",
       "https://x.com/vasuman/status/2073215133778956476",
       "https://x.com/vasuman/status/2073215291228864829",
-      "https://x.com/vasuman/status/2073215160869884298",
       "https://x.com/vasuman/status/2073215392349302813",
+      "https://x.com/vasuman/status/2073215160869884298",
       "https://x.com/vasuman/status/2073196545470787906"
     ],
     "2073162161179033868": [
@@ -25054,6 +24893,6 @@
       "http://x.com/i/article/2073151018809110528"
     ]
   },
-  "updated_at": "2026-07-04T09:31:47Z",
+  "updated_at": "2026-07-04T11:45:57Z",
   "window": "recent"
 }
