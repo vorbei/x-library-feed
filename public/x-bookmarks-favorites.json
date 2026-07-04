@@ -97,6 +97,9 @@
         "bookmark@chumsdock"
       ],
       "text": "The cancer-Alzheimer's paradox, an inverse correlation, with an unexplained mechanism\n\"The risk of Alzheimer’s disease in patients with cancer is significantly reduced, and the risk of cancer in patients with Alzheimer’s disease is halved.\"\nhttps://www.nature.com/articles/s41514-026-00442-1",
+      "text_zh": "癌症与阿尔茨海默病的悖论：一种机制未明的负相关关系  \n“癌症患者罹患阿尔茨海默病的风险显著降低，而阿尔茨海默病患者罹患癌症的风险则减半。”  \nhttps://www.nature.com/articles/s41514-026-00442-1",
+      "text_zh_hash": "d9d12db46560238f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/EricTopol/status/2072710798418362437"
     },
     {
@@ -258,6 +261,9 @@
         "bookmark@chumsdock"
       ],
       "text": "We just released @cloudflare/workers-types v5. It simplifies the package to expose only the latest stable and experimental runtime types.\nhttps://developers.cloudflare.com/changelog/post/2026-07-03-workers-types-v5/",
+      "text_zh": "我们刚刚发布了 @cloudflare/workers-types v5。该版本简化了包结构，仅暴露最新的稳定版和实验性运行时类型。\n\nhttps://developers.cloudflare.com/changelog/post/2026-07-03-workers-types-v5/",
+      "text_zh_hash": "ba88d4cdfa32a213",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/CFchangelog/status/2073053560762212633"
     },
     {
@@ -314,6 +320,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Legibility of Effort · http://eieio.games https://eieio.games/blog/legibility-of-effort/?ref=sidebar https://t.co/X8vDqUorNc",
+      "text_zh": "努力的可见性 · http://eieio.games https://eieio.games/blog/legibility-of-effort/?ref=sidebar https://t.co/X8vDqUorNc",
+      "text_zh_hash": "b4279b5ac5e66a71",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/SidebarIO/status/2073094175415792123"
     },
     {
