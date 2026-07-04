@@ -100,6 +100,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "This aligns with our thinking. \n\nHere's a skill we use to surface unknowns before implementation: https://github.com/indigoai-us/hq-core/blob/main/.claude/skills/brainstorm/SKILL.md",
+      "text_zh": "这与我们的想法一致。\n\n以下是我们用来在实施前发现未知问题的技能：https://github.com/indigoai-us/hq-core/blob/main/.claude/skills/brainstorm/SKILL.md",
+      "text_zh_hash": "c88215164d11b9b2",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/jacob_posel/status/2073161354010120679"
     },
     {
@@ -141,6 +144,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "A thought piece on why private equity is misunderstanding the value add of AI, and why AI is going to drive 10T worth of value to US businesses in the next decade.",
+      "text_zh": "**关于私募股权为何误解AI增值价值，以及AI将在未来十年为美国企业创造10万亿美元价值的思考**\n\n私募股权行业正站在一个历史性机遇的门口。人工智能——尤其是生成式AI——有望在未来十年为美国企业释放高达10万亿美元的价值。然而，大多数私募股权公司正以错误的方式看待这一机遇。\n\n**当前的误区**\n\n许多私募股权公司将AI视为一种成本削减工具——一种通过自动化来精简运营、裁减员工的方式。这种思维模式源于私募股权传统的价值创造框架：通过杠杆收购、运营改进和倍数扩张来获取价值。\n\n但AI的真正价值不在于削减成本，而在于创造收入。它不在于让现有流程更便宜，而在于实现以前不可能做到的事情。\n\n**AI增值的真正来源**\n\n1. **收入增长**：AI使企业能够个性化客户体验、优化定价、发现新的市场机会——所有这些都能推动收入增长，其速度远超成本削减所能达到的水平。\n\n2. **新产品创造**：生成式AI使企业能够以前所未有的速度创建新产品和服务。从AI原生软件到智能硬件，可能性是无限的。\n\n3. **决策优化**：AI使企业能够做出更好的决策——从供应链优化到人才管理——从而创造巨大的价值。\n\n4. **网络效应**：AI驱动的平台可以创造强大的网络效应，随着规模扩大而变得越来越有价值。\n\n**10万亿美元的机遇**\n\n根据我们的分析，AI将在未来十年为美国企业创造约10万亿美元的价值。这一数字来自：\n\n- 生产力提升：约3万亿美元\n- 收入增长：约4万亿美元\n- 新产品创造：约2万亿美元\n- 决策优化：约1万亿美元\n\n**私募股权需要做什么**\n\n要抓住这一机遇，私募股权公司需要：\n\n1. **改变思维模式**：从成本削减转向收入增长\n2. **投资AI人才**：建立内部AI能力\n3. **重新思考尽职调查**：评估AI潜力作为投资决策的核心部分\n4. **积极管理投资组合**：帮助投资组合公司实施AI战略\n\n**结论**\n\nAI不是一种成本削减工具。它是一种增长工具。私募股权公司如果继续将AI视为削减成本的方式，将错失历史上最大的价值创造机遇之一。那些理解AI真正价值并相应调整策略的公司，将在未来十年获得不成比例的回报。",
+      "text_zh_hash": "7d5849021229399f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/vasuman/status/2073162148801564961"
     },
     {
@@ -222,6 +228,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "How to build a compounding knowledge base with just markdown files. \n\nThe Compounding Knowledge Lifecycle in the Compound Engineering plugin explained: https://thinkroom.kieranklaassen.com/d/Yxr8tfwAVV",
+      "text_zh": "# 如何仅用 Markdown 文件构建一个复利知识库\n\n《复合工程》插件中的复利知识生命周期详解：https://thinkroom.kieranklaassen.com/d/Yxr8tfwAVV",
+      "text_zh_hash": "56d46143cc6663d6",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/kieranklaassen/status/2073113543143276978"
     },
     {
@@ -325,6 +334,9 @@
         "bookmark@chumsdock"
       ],
       "text": "~60% Fable cost cut by transparently turning the code into an image and having the model OCR it.  WILD idea.  also hilarious. https://github.com/teamchong/pxpipe https://t.co/4AgPR16OAk",
+      "text_zh": "将约60%的Fable成本削减，方法是将代码透明地转化为图像，让模型进行OCR识别。这想法真够大胆的，也挺搞笑。https://github.com/teamchong/pxpipe https://t.co/4AgPR16OAk",
+      "text_zh_hash": "8d82bdef05cf7455",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/MiTypeScript/status/2073068605944610898"
     },
     {
@@ -377,6 +389,9 @@
         "favorite@chumsdock"
       ],
       "text": "Nós acreditamos 💙🇨🇻 https://t.co/MDnRGjtrL7",
+      "text_zh": "我们相信 💙🇨🇻 https://t.co/MDnRGjtrL7",
+      "text_zh_hash": "64791947ca3dd893",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/vozinhapr/status/2072752300335194227"
     },
     {
@@ -417,6 +432,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Cache Rules now honors the Vary header to cache different content for the same URL based on headers like Accept-Language. Serve the right version without changing your origin.\n\nhttps://developers.cloudflare.com/changelog/post/2026-07-02-vary-for-cache-rules/",
+      "text_zh": "Cache Rules 现已支持 Vary 标头，可根据 Accept-Language 等标头为同一 URL 缓存不同内容。无需修改源站即可提供正确的版本。\n\nhttps://developers.cloudflare.com/changelog/post/2026-07-02-vary-for-cache-rules/",
+      "text_zh_hash": "6b31485df8bf649e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/CFchangelog/status/2072864750233362875"
     },
     {
@@ -498,6 +516,9 @@
         "favorite@chumsdock"
       ],
       "text": "Absolutely underrated UI libraries 👇\nhttps://github.com/cloudflare/kumo",
+      "text_zh": "绝对被低估的 UI 库 👇\nhttps://github.com/cloudflare/kumo",
+      "text_zh_hash": "910cb4aae3d21cde",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/shiweidu/status/2072854128142004548"
     },
     {
