@@ -5501,6 +5501,22 @@
       "title": "",
       "url": "http://x.com/i/article/2062535871379972096"
     },
+    "http://x.com/i/article/2062577089501601793": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062577089501601793",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062577089501601793/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ_ArvRaYAACL-y?format=jpg&name=900x900)](http://x.com/i/article/2062577089501601793/FullStackML/article/2062587219156832718/media/2062579012015382528)\n\nOpenAI vs Anthropic: two internal data agents - same lessons, different builds\n\n[![](https://pbs.twimg.com/profile_images/1119846563012943875/Hbs3rDoO_normal.png)](http://x.com/i/article/2062577089501601793/FullStackML)\n\n[Dmitry Petrov](http://x.com/i/article/2062577089501601793/FullStackML)\n\n[@FullStackML](http://x.com/i/article/2062577089501601793/FullStackML)\n\n·\n\n13h\n\nFollow\n\nClick to Follow FullStackML\n\n4\n\n3\n\n35\n\n[64K](http://x.com/i/article/2062577089501601793/FullStackML/status/2062587219156832718/analytics)\n\nYesterday Anthropic published how they built their internal \"data agent\": \n\n[How Anthropic enables self-service data analytics with Claude](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude)\n\nOpenAI published their \"in-house data agent\" post five months ago: I\n\n[nside OpenAI’s in-house data agent](https://openai.com/index/inside-our-in-house-data-agent/)\n\nI read both - here's the result.\n\n## \n\nWhere they agree\n\n* The hard part is not writing SQL. It's finding the right table and understanding how to use it properly. Both repeat this.\n* The model a commodity (they didn't say that directly but...) - the context around it is the product. Anthropic went from 21% to 95% accuracy just by adding a skill which has access to context - a knowledge base.\n* (surprise, not surprise) More context doesn't necessary help. Anthropic's accuracy increased less than 1% after they gave access to all thousands of past queries (I can only imagine how much their token consumption went up 🙂).\n\n## \n\nHow they differ\n\n* OpenAI built a standalone agent. Codex and internal ChatGPT uses the agent via MCP or user can directly chat with it via web or Slack. While Anthropic built just a skill that has access to data context via some knowledge base (md files based).\n* OpenAI has context in an \"index\" that is populated daily by a pipeline jobs while Anthropic commits the knowledge base as md files in the same repo as data model, updated in the same PR.\n\n## \n\nMy take (after building a \"data agent\" for unstructured data, not SQL)\n\nAnthropic's approach with skills is more \"harness-native\" so, it fits better to the existing toolset. I believe the whole developer experience, data context as well as the whole data platform will move under the harnesses (the best academic paper in this direction - \n\n[Code as Agent Harness](https://code-as-harness.github.io/code-as-harness-webpage/)\n\n). OpenAI's approach seems more scalable and mature (5 months ahead?) - with a dedicated data agents, 600Tb of data and scheduled pipelines for updating the context. We will see hot it evolves.\n\n## \n\nQuestion for the data folks here\n\nHow far along are you on any of these agentic workflows? My understanding is that most teams are still hand-writing SQL and copy-past \"context\" piece by piece into Claude Code/Copilot/Codex and share knowledge in Slack. Full side-by-side comparison table with more details and numbers in our blog post - link in comments 👇\n\n* [![](https://pbs.twimg.com/profile_images/1119846563012943875/Hbs3rDoO_normal.png)](http://x.com/i/article/2062577089501601793/FullStackML)  \n[Dmitry Petrov](http://x.com/i/article/2062577089501601793/FullStackML)  \n[@FullStackML](http://x.com/i/article/2062577089501601793/FullStackML)  \nFollow  \nClick to Follow FullStackML  \n![🛠️](https://abs.twimg.com/emoji/v2/svg/1f6e0.svg) Building data infra for AI/ML. Ex-Data Scientist  \n[@Microsoft](http://x.com/i/article/2062577089501601793/Microsoft)  \n. Created DVC, now DataChain. PhD in CS. Serious about data. Less serious about everything else.",
+      "text_excerpt_zh": "## OpenAI vs Anthropic：两个内部数据智能体——相同的经验，不同的构建方式\n\n昨天，Anthropic 发布了他们如何构建内部“数据智能体”的文章：\n\n[Anthropic 如何利用 Claude 实现自助式数据分析](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude)\n\nOpenAI 则在五个月前发布了他们的“内部数据智能体”文章：\n\n[OpenAI 内部数据智能体揭秘](https://openai.com/index/inside-our-in-house-data-agent/)\n\n我两篇都读了——以下是总结。\n\n## 他们的共识\n\n*   难点不在于写 SQL，而在于找到正确的表并理解如何正确使用它。两家公司都反复强调这一点。\n*   模型是商品（他们没有直接这么说，但意思如此）——围绕模型的上下文才是产品。Anthropic 仅通过添加一个能访问上下文（知识库）的技能，就将准确率从 21% 提升到了 95%。\n*   （意料之中，又在意料之外）更多的上下文并不一定有帮助。Anthropic 在允许访问所有数千条历史查询后，准确率提升不到 1%（我只能想象他们的 token 消耗增加了多少 🙂）。\n\n## 他们的差异\n\n*   OpenAI 构建了一个独立的智能体。Codex 和内部 ChatGPT 通过 MCP 使用该智能体，用户也可以通过网页或 Slack 直接与它对话。而 Anthropic 仅构建了一个技能，通过某种知识库（基于 md 文件）访问数据上下文。\n*   OpenAI 的上下文存储在一个“索引”中，该索引由流水线作业每日更新；而 Anthropic 则将知识库作为 md 文件提交到与数据模型相同的仓库中，并在同一个 PR 中更新。\n\n## 我的看法（在为非结构化数据而非 SQL 构建“数据智能体”之后）\n\nAnthropic 的技能方法更“原生于 harness”，因此更适合现有工具集。我相信整个开发者体验、数据上下文以及整个数据平台都将迁移到 harness 之下（这方面最好的学术论文是——[Code as Agent Harness](https://code-as-harness.github.io/code-as-harness-webpage/)）。OpenAI 的方法似乎更具可扩展性和成熟度（领先 5 个月？）——拥有专用的数据智能体、600TB 的数据以及用于更新上下文的定时流水线。我们将拭目以待其发展。\n\n## 向数据从业者提问\n\n你们在这些智能体工作流方面进展如何？据我所知，大多数团队仍在手动编写 SQL，并将“上下文”逐段复制粘贴到 Claude Code/Copilot/Codex 中，并通过 Slack 分享知识。更详细的完整对比表格及数据，请参见我们的博客文章——链接在评论区 👇",
+      "text_excerpt_zh_hash": "bd37778cb5a20736",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2062577089501601793"
+    },
     "http://x.com/i/article/2062582346872918016": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5564,6 +5580,22 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2062645394719547392"
+    },
+    "http://x.com/i/article/2062661069458620416": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062661069458620416",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062661069458620416/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKALodMbYAA81vW?format=jpg&name=900x900)](http://x.com/i/article/2062661069458620416/startupideaspod/article/2062662633472622784/media/2062661418995113984)\n\nOpenAI Codex: Build Apps That Work For You 24/7\n\n[![](https://pbs.twimg.com/profile_images/1955709395553124352/b_NlfUL__normal.jpg)](http://x.com/i/article/2062661069458620416/startupideaspod)\n\n[The Startup Ideas Podcast (SIP) ![🧃](https://abs.twimg.com/emoji/v2/svg/1f9c3.svg)](http://x.com/i/article/2062661069458620416/startupideaspod)\n\n[@startupideaspod](http://x.com/i/article/2062661069458620416/startupideaspod)\n\n·\n\n8h\n\n·\n\nFollow\n\nClick to Follow startupideaspod\n\n2\n\n3\n\n53\n\n[6.9K](http://x.com/i/article/2062661069458620416/startupideaspod/status/2062662633472622784/analytics)\n\nCodex shipped Sites.\n\n[![Image](https://pbs.twimg.com/media/HKAMInnasAAApP7?format=jpg&name=small)](http://x.com/i/article/2062661069458620416/startupideaspod/article/2062662633472622784/media/2062661971548483584)\n\nI assumed it was a clunky Replit clone.\n\nSix prompts later, I had a startup board that updates itself.\n\nI used to run a web design agency. Back then I told clients one thing on repeat: a website is a living, breathing thing. You ship it, then it needs care every week.\n\nMy own site proves the point. 158,000 people read my newsletter. When that climbs to 160,000, I open the file and edit it by hand.\n\nIn 2026, an agent can carry that for me.\n\nThe real difference\n\n[![Image](https://pbs.twimg.com/media/HKAMFUXaMAAjmUF?format=jpg&name=small)](http://x.com/i/article/2062661069458620416/startupideaspod/article/2062662633472622784/media/2062661914841460736)\n\nReplit and Lovable give you everything in one box. Editor, database, server, hosting, even a domain. Perfect when you want to type one prompt and walk away.\n\nCodex Sites asks more of you. It assumes you live in Codex and keep your context there. In return, it does something rare. It keeps building the app on its own.\n\nI built a Startup Ideas OS in six prompts\n\n[![Image](https://pbs.twimg.com/media/HKAMMCebQAAWgIi?format=jpg&name=small)](http://x.com/i/article/2062661069458620416/startupideaspod/article/2062662633472622784/media/2062662030298136576)\n\nThe goal: a live board with five columns. Inbox, researching, validating, building, killed. Each card holds an idea, the buyer, the pain, proof, a next step, and a score.\n\nAn internal tool I would actually use.\n\nPrompt 1\\. Build the shell.Invoke it with \n\n[@sites](https://x.com/@sites)\n\n. It runs as a plugin. Ask for realistic sample data. Then add the five words that change everything: save for review, do not deploy. Left alone, it rushes to ship. That one line keeps the work in product mode.\n\n[![Image](https://pbs.twimg.com/media/HKAMW_kasAAnSdi?format=jpg&name=small)](http://x.com/i/article/2062661069458620416/startupideaspod/article/2062662633472622784/media/2062662218496520192)\n\nPrompt 2\\. Add memory.Codex Sites starts fresh each visit. Ask it to add persistent storage so ideas save between visits. The trick: tell it to show you the data model first, before it writes code. It came back with Cloudflare D1 as the store, one record type called ideas, and a clean list of actions. List, add, update, move, score, archive. Memory turns a demo into real software.\n\nPrompt 3\\. Add safe actions.This is the part people sleep on. A safe action is an approved button. The agent calls named moves like add idea or update idea, and only those. Why it matters: I can sit in any Codex chat, spitball a startup idea, say add idea, and it lands on the live board through the one approved path.\n\n[![Image](https://pbs.twimg.com/media/HKAMbU1aUAAVwto?format=jpg&name=small)](http://x.com/i/article/2062661069458620416/startupideaspod/article/2062662633472622784/media/2062662292924420096)\n\nPrompt 4\\. Create a skill.Ask Codex to build a skil",
+      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2062661069458620416/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HKALodMbYAA81vW?format=jpg&name=900x900)](http://x.com/i/article/2062661069458620416/startupideaspod/article/2062662633472622784/media/2062661418995113984)\n\nOpenAI Codex：构建全天候为你工作的应用\n\n[![](https://pbs.twimg.com/profile_images/1955709395553124352/b_NlfUL__normal.jpg)](http://x.com/i/article/2062661069458620416/startupideaspod)\n\n[The Startup Ideas Podcast (SIP) ![🧃](https://abs.twimg.com/emoji/v2/svg/1f9c3.svg)](http://x.com/i/article/2062661069458620416/startupideaspod)\n\n[@startupideaspod](http://x.com/i/article/2062661069458620416/startupideaspod)\n\n·\n\n8小时前\n\n·\n\n关注\n\n点击关注 startupideaspod\n\n2\n\n3\n\n53\n\n[6.9K](http://x.com/i/article/2062661069458620416/startupideaspod/status/2062662633472622784/analytics)\n\nCodex 发布了 Sites。\n\n[![图片](https://pbs.twimg.com/media/HKAMInnasAAApP7?format=jpg&name=small)](http://x.com/i/article/2062661069458620416/startupideaspod/article/2062662633472622784/media/2062661971548483584)\n\n我原以为它只是个笨拙的 Replit 克隆版。\n\n六个提示之后，我得到了一个自动更新的创业看板。\n\n我以前经营一家网页设计公司。那时我反复告诉客户一件事：网站是一个活生生的、不断变化的东西。你发布它，然后它每周都需要维护。\n\n我自己的网站就证明了这一点。15.8 万人阅读我的通讯。当这个数字涨到 16 万时，我得打开文件手动编辑。\n\n到了 2026 年，一个 agent 可以替我完成这件事。\n\n真正的区别\n\n[![图片](https://pbs.twimg.com/media/HKAMFUXaMAAjmUF?format=jpg&name=small)](http://x.com/i/article/2062661069458620416/startupideaspod/article/2062662633472622784/media/2062661914841460736)\n\nReplit 和 Lovable 把所有东西都放在一个盒子里。编辑器、数据库、服务器、托管，甚至域名。当你只想输入一个提示然后走开时，这很完美。\n\nCodex Sites 对你的要求更高。它假设你生活在 Codex 中，并把你的上下文保留在那里。作为回报，它做了一件罕见的事：它会自己持续构建应用。\n\n我用六个提示构建了一个 Startup Ideas OS\n\n[![图片](https://pbs.twimg.com/media/HKAMMCebQAAWgIi?format=jpg&name=small)](http://x.com/i/article/2062661069458620416/startupideaspod/article/2062662633472622784/media/2062662030298136576)\n\n目标：一个包含五列的实时看板。收件箱、调研中、验证中、构建中、已放弃。每张卡片包含一个想法、买家、痛点、证据、下一步行动和评分。\n\n一个我真正会用的内部工具。\n\n提示 1. 构建外壳。用 [@sites](https://x.com/@sites) 调用它。它作为一个插件运行。要求提供逼真的示例数据。然后添加五个改变一切的字：保存待审，不要部署。如果放任不管，它会急于发布。这一行代码让工作保持在产品模式。\n\n[![图片](https://pbs.twimg.com/media/HKAMW_kasAAnSdi?format=jpg&name=small)](http://x.com/i/article/2062661069458620416/startupideaspod/article/2062662633472622784/media/2062662218496520192)\n\n提示 2. 添加记忆。Codex Sites 每次访问都从头开始。要求它添加持久化存储，以便想法在访问之间保存。诀窍：在它写代码之前，先让它向你展示数据模型。它返回了 Cloudflare D1 作为存储，一种名为 ideas 的记录类型，以及一系列清晰的操作。列表、添加、更新、移动、评分、归档。记忆把演示变成了真正的软件。\n\n提示 3. 添加安全操作。这是人们容易忽略的部分。安全操作是一个已批准的按钮。agent 只调用像 add idea 或 update idea 这样的命名动作。为什么重要：我可以坐在任何 Codex 聊天中，随口说出一个创业想法，说 add idea，它就会通过唯一批准的路径落到实时看板上。\n\n[![图片](https://pbs.twimg.com/media/HKAMbU1aUAAVwto?format=jpg&name=small)](http://x.com/i/article/2062661069458620416/startupideaspod/article/2062662633472622784/media/2062662292924420096)\n\n提示 4. 创建一个技能。让 Codex 构建一个技能",
+      "text_excerpt_zh_hash": "d3be6d31b430b51d",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2062661069458620416"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -7594,6 +7626,26 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "The Speed of Prototyping in the Age of AI",
       "url": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar"
+    },
+    "https://datachain.ai/blog/openai-anthropic-data-agents": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "In January OpenAI published how it built an internal data agent. Last week Anthropic published how it built one too. Two frontier labs, the same problem, five months apart. Here is the honest side-by-side: what they agree on, where they diverge, and the one assumption they both quietly depend on.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://datachain.ai/blog/openai-anthropic-data-agents",
+      "frameable": false,
+      "image_urls": [
+        "https://datachain.ai/blog/images/2026-06-04/openai-vs-anthropic.png",
+        "https://datachain.ai/static/77b5dd3dd92976d1bfd5b3f8a8c6fa01/8ccd8/dmitry_petrov.png",
+        "https://datachain.ai/static/62051a8c79ee9ce271623ec50116e00c/78327/openai-vs-anthropic.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "We read OpenAI's and Anthropic's data-agent posts so you don't have to\nOpenAI and Anthropic each shipped a writeup on the internal data agent they run in production. Read together, they show two frontier labs solving the same problem independently, and agreeing on most of it: the hard part is finding the right data, not writing SQL, and the agent stays simple while the context around it does the work. They differ on how context is delivered and how much they verify. The short version of both posts.\nTwo frontier labs, the same problem: how to make an agent reliable over real company data.\nIn January, [OpenAI](https://openai.com/index/inside-our-in-house-data-agent/)\npublished how it built an internal data agent that thousands of employees now\nuse to ask questions of company data in plain English. Yesterday,\n[Anthropic](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude)\npublished how it built one too. Two frontier labs, the same problem, five months\napart.\nWe build the unstructured-data side of this, so we read both closely. Both posts are worth reading in full. But if you only have ten minutes, here is the honest digest: what they agree on, where they diverge, and the one assumption they share.\nSide by side[\n](https://datachain.ai#side-by-side)\n| OpenAI | Anthropic | |\n|---|---|---|\n| Post | \"Inside our in-house data agent\" (Jan 2026) | \"How Anthropic enables self-service data analytics with Claude\" (Jun 2026) |\n| Scale | 600+ PB, 70,000 datasets, thousands of users; built by 2 engineers in 3 months, ~70% AI-written | Powers 95% of business analytics queries at ~95% accuracy |\n| Stated core problem | \"isn't writing SQL - it's finding the right tables … and understanding … how to use data\" | \"map a user's question to specific and up-to-date entities in our data model\" |\n| Architecture | Simple agent (one LLM + runtime + ~13 curated tools) over 6 context layers | 4-layer stack: data foundations, sources of truth, skills, validation |\n| How context is delivered | Six layers assembled offline, retrieved at runtime | Markdown skills the agent reads on demand: a \"knowledge\" router + an \"unbook\" workflow |\n| Form factor | Standalone agent (Slack bot, own runtime + tools) | Skills loaded into Claude Code (no new agent) |\n| Context kept fresh by | Scheduled jobs rebuild an index (nightly Codex code crawl) | Markdown committed in the same PR as the data model |\n| Context sources | usage metadata, human annotations, Codex code analysis, institutional knowledge, memory, live warehouse queries | semantic layer (consulted first), lineage graph, query corpus, business context |\n| Headline number | ~100 fixes/day; ran months autonomously; no accuracy figure given | 21% → 95%+ accuracy once skills were added |\n| Sharpest finding | fewer tools win (40 → 13); rank queries by trust, don't embed them all | raw query access added <1 point (\"structure, not access\"); skills rot 95% → 65% in a month if unmaintained |\n| Verification | data foundations, tool curation, a memory of past corrections | semantic-layer-first, offline evals, adversarial review, a provenance footer on every answer |\n| Built on | a warehouse: schema, lineage, query surface for free | the same, plus a curated semantic layer |\nWhat they agree on[\n](https://datachain.ai#what-they-agree-on)\nThe bottleneck is discovery, not SQL. Both lead with the same point. OpenAI: the hard part \"isn't writing SQL - it's finding the right tables to use in the first place.\" Anthropic: the central problem is the \"ability to map a user's question to specific and up-to-date entities in our data model.\" Generating the query was never the hard part.\nKeep the agent simple; spend the effort on context. OpenAI's agent is a single model with a small set of curated tools; the reliability comes from the engineering around it. Anthropic's accuracy jumped from 21% to over 95% not from a better model but from adding context (skills). In both cases the model was already good enou",
+      "text_excerpt_zh": "我们替你读完了OpenAI和Anthropic的数据智能体文章\n\nOpenAI和Anthropic各自发布了一篇关于其生产环境中内部数据智能体的文章。放在一起看，这两篇文章展示了两个前沿实验室独立解决同一个问题，并且在大多数方面达成一致：难点在于找到正确的数据，而不是编写SQL；智能体本身保持简单，而围绕它的上下文才是关键。它们在上下文的传递方式以及验证程度上有所不同。以下是两篇文章的精华摘要。\n\n两个前沿实验室，同一个问题：如何让智能体在真实公司数据上变得可靠。\n\n今年1月，[OpenAI](https://openai.com/index/inside-our-in-house-data-agent/) 发布了其内部数据智能体的构建过程，如今已有数千名员工使用它通过自然语言查询公司数据。昨天，[Anthropic](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude) 也发布了类似的构建过程。两个前沿实验室，同一个问题，相隔五个月。\n\n我们专注于构建非结构化数据这一侧，因此仔细阅读了这两篇文章。两篇文章都值得全文阅读。但如果你只有十分钟时间，以下是诚实的摘要：它们的共识、分歧，以及一个共同的假设。\n\n并列对比[\n](https://datachain.ai#side-by-side)\n| OpenAI | Anthropic | |\n|---|---|---|\n| 文章 | \"内部数据智能体揭秘\"（2026年1月） | \"Anthropic如何借助Claude实现自助式数据分析\"（2026年6月） |\n| 规模 | 600+ PB，70,000个数据集，数千名用户；由2名工程师在3个月内构建，约70%由AI编写 | 支撑95%的业务分析查询，准确率约95% |\n| 明确的核心问题 | \"不是编写SQL——而是找到正确的表……并理解……如何使用数据\" | \"将用户的问题映射到数据模型中具体且最新的实体\" |\n| 架构 | 简单智能体（一个LLM + 运行时 + 约13个精选工具），基于6层上下文 | 4层堆栈：数据基础、事实来源、技能、验证 |\n| 上下文传递方式 | 六层离线组装，运行时检索 | 智能体按需读取的Markdown技能：一个\"知识\"路由器 + 一个\"非手册\"工作流 |\n| 形态 | 独立智能体（Slack机器人，自有运行时 + 工具） | 技能加载到Claude Code中（无新智能体） |\n| 上下文更新方式 | 定时任务重建索引（夜间Codex代码爬取） | Markdown与数据模型在同一PR中提交 |\n| 上下文来源 | 使用元数据、人工标注、Codex代码分析、机构知识、记忆、实时仓库查询 | 语义层（优先查询）、血缘图谱、查询语料库、业务上下文 |\n| 关键数字 | 每天约100次修复；自主运行数月；未给出准确率 | 21% → 95%+准确率（添加技能后） |\n| 最尖锐的发现 | 更少的工具胜出（40 → 13）；按信任度对查询排序，不要全部嵌入 | 原始查询访问贡献不到1个百分点（\"结构，而非访问\"）；技能若未维护，一个月内准确率从95%降至65% |\n| 验证方式 | 数据基础、工具精选、过往修正记忆 | 语义层优先、离线评估、对抗性审查、每个答案附来源脚注 |\n| 构建基础 | 数据仓库：免费提供模式、血缘、查询接口 | 同上，外加一个精选语义层 |\n\n它们的共识[\n](https://datachain.ai#what-they-agree-on)\n瓶颈在于发现，而非SQL。两者都以同一个观点开篇。OpenAI：难点\"不是编写SQL——而是首先找到正确的表。\"Anthropic：核心问题是\"将用户的问题映射到数据模型中具体且最新的实体。\"生成查询从来都不是难点。\n\n保持智能体简单；将精力投入上下文。OpenAI的智能体是一个单一模型，配有一小组精选工具；可靠性来自围绕它的工程。Anthropic的准确率从21%跃升至超过95%，并非因为更好的模型，而是因为添加了上下文（技能）。在这两种情况下，模型本身已经足够好。",
+      "text_excerpt_zh_hash": "ef409220ab5f37e0",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "We read OpenAI's and Anthropic's data-agent posts so you don't have to We read OpenAI's and Anthropic's data-agent posts so you don't have to",
+      "url": "https://datachain.ai/blog/openai-anthropic-data-agents"
     },
     "https://delete-images-button.vercel.app/": {
       "content_type": "text/html; charset=utf-8",
@@ -44170,6 +44222,10 @@
       "https://x.com/ai_Kyros/status/2062513692747682129",
       "https://x.com/ai_Kyros/status/2062966143447650322"
     ],
+    "2062515658420572271": [
+      "https://x.com/tayloramurphy/status/2062515658420572271",
+      "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude"
+    ],
     "2062526843564233040": [
       "https://x.com/akshay_pachaar/status/2062526843564233040",
       "http://x.com/i/article/2062152051157782528"
@@ -44227,10 +44283,24 @@
       "https://outcomeschool.com/blog/ai-agent-memory",
       "https://pbs.twimg.com/media/HJ--M9_aYAELs9O.jpg"
     ],
+    "2062582362194460698": [
+      "https://x.com/emollick/status/2062582362194460698",
+      "https://www.anthropic.com/institute/recursive-self-improvement"
+    ],
     "2062582596190498864": [
       "https://x.com/ArtemXTech/status/2062582596190498864",
       "http://x.com/i/article/2062582346872918016",
       "https://x.com/ArtemXTech/status/2062863043155911159"
+    ],
+    "2062587219156832718": [
+      "https://x.com/FullStackML/status/2062587219156832718",
+      "http://x.com/i/article/2062577089501601793",
+      "https://x.com/FullStackML/status/2062588660504281091",
+      "https://datachain.ai/blog/openai-anthropic-data-agents",
+      "https://x.com/FullStackML/status/2062595467410866450",
+      "https://x.com/FullStackML/status/2062785090082742504",
+      "https://x.com/FullStackML/status/2062741198054494422",
+      "https://x.com/FullStackML/status/2062912258452382204"
     ],
     "2062595534381326421": [
       "https://x.com/posthog/status/2062595534381326421",
@@ -44259,8 +44329,12 @@
     "2062650378089594955": [
       "https://x.com/dkundel/status/2062650378089594955",
       "http://x.com/i/article/2062645394719547392"
+    ],
+    "2062662633472622784": [
+      "https://x.com/startupideaspod/status/2062662633472622784",
+      "http://x.com/i/article/2062661069458620416"
     ]
   },
-  "updated_at": "2026-07-05T04:30:05Z",
+  "updated_at": "2026-07-05T08:17:35Z",
   "window": "archive"
 }
