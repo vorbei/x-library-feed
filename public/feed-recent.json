@@ -8764,6 +8764,23 @@
       "title": "GitHub - byoungd/English-level-up-tips: An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语 · GitHub",
       "url": "https://github.com/byoungd/English-level-up-tips"
     },
+    "https://github.com/cloudflare/agentic-inbox": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "A self-hosted email client with an AI agent, running entirely on Cloudflare Workers - cloudflare/agentic-inbox",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/cloudflare/agentic-inbox",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/47f6928d05ba87fa504f56aaa7b5859d00f9f20beaf82df1c94efa2a7bea3147/cloudflare/agentic-inbox",
+        "https://github.com/cloudflare/agentic-inbox/raw/main/demo_app.png",
+        "https://camo.githubusercontent.com/aa3de9a0130879a84691a2286f5302105d5f3554c5d0af4e3f2f24174eeeea25/68747470733a2f2f6465706c6f792e776f726b6572732e636c6f7564666c6172652e636f6d2f627574746f6e"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - cloudflare/agentic-inbox: A self-hosted email client with an AI agent, running entirely on Cloudflare Workers · GitHub",
+      "url": "https://github.com/cloudflare/agentic-inbox"
+    },
     "https://github.com/cloudflare/kumo": {
       "content_type": "text/html; charset=utf-8",
       "description": "Cloudflare's component library for building modern web applications. - cloudflare/kumo",
@@ -11745,20 +11762,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2073338531980963840/img/IipoMwNj8obhEYAS.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2073538005004910592/img/I6nsqtCaVTJW1H6_.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2073538005004910592/img/I6nsqtCaVTJW1H6_.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2073538005004910592/img/I6nsqtCaVTJW1H6_.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2073538005004910592/img/I6nsqtCaVTJW1H6_.jpg"
-    },
     "https://pbs.twimg.com/amplify_video_thumb/2073558834719633409/img/8XYZ9l6sGnu0CT9L.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11772,6 +11775,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2073558834719633409/img/8XYZ9l6sGnu0CT9L.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2073654563375046656/img/H-BH9AjCHwxq_pFn.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2073654563375046656/img/H-BH9AjCHwxq_pFn.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2073654563375046656/img/H-BH9AjCHwxq_pFn.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2073654563375046656/img/H-BH9AjCHwxq_pFn.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg": {
       "cleaner_v": 2,
@@ -15371,6 +15388,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMabHx6bIAAzmaL.jpg"
     },
+    "https://pbs.twimg.com/media/HMaphYOXQAAGtj4.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMaphYOXQAAGtj4.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMaphYOXQAAGtj4.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMaphYOXQAAGtj4.jpg"
+    },
     "https://pbs.twimg.com/media/HMbtw-aXsAAeX1P.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15384,6 +15415,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HMbtw-aXsAAeX1P.jpg"
+    },
+    "https://pbs.twimg.com/media/HMc33H_XwAAPFps.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMc33H_XwAAPFps.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMc33H_XwAAPFps.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMc33H_XwAAPFps.jpg"
+    },
+    "https://pbs.twimg.com/media/HMcDcm5XQAAHGqM.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMcDcm5XQAAHGqM.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMcDcm5XQAAHGqM.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMcDcm5XQAAHGqM.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -24526,7 +24585,13 @@
     ],
     "2072752300335194227": [
       "https://x.com/vozinhapr/status/2072752300335194227",
-      "https://pbs.twimg.com/media/HMPlOEvXoAAFd2p.jpg"
+      "https://pbs.twimg.com/media/HMPlOEvXoAAFd2p.jpg",
+      "https://x.com/vozinhapr/status/2073687590528487619",
+      "https://pbs.twimg.com/media/HMc33H_XwAAPFps.jpg",
+      "https://x.com/vozinhapr/status/2073629955410325569",
+      "https://pbs.twimg.com/media/HMcDcm5XQAAHGqM.jpg",
+      "https://x.com/vozinhapr/status/2073531080548974942",
+      "https://pbs.twimg.com/media/HMaphYOXQAAGtj4.jpg"
     ],
     "2072755093569523747": [
       "https://x.com/geoffreylitt/status/2072755093569523747",
@@ -24624,8 +24689,8 @@
     "2072854128142004548": [
       "https://x.com/shiweidu/status/2072854128142004548",
       "https://github.com/cloudflare/kumo",
-      "https://x.com/shiweidu/status/2073291756733685978",
       "https://x.com/shiweidu/status/2073411930057035779",
+      "https://x.com/shiweidu/status/2073291756733685978",
       "https://x.com/shiweidu/status/2073424799544860733",
       "https://x.com/shiweidu/status/2073291306189881635"
     ],
@@ -24751,7 +24816,8 @@
     ],
     "2073072468152221928": [
       "https://x.com/GaotangLi/status/2073072468152221928",
-      "https://arxiv.org/abs/2605.10899"
+      "https://arxiv.org/abs/2605.10899",
+      "https://x.com/GaotangLi/status/2073690285192745451"
     ],
     "2073072670493876737": [
       "https://x.com/posthog/status/2073072670493876737",
@@ -24781,10 +24847,10 @@
     "2073100352921215386": [
       "https://x.com/trq212/status/2073100352921215386",
       "http://x.com/i/article/2073090223194755072",
-      "https://x.com/trq212/status/2073101280936092043",
       "https://x.com/trq212/status/2073160633273741473",
-      "https://x.com/trq212/status/2073116741782364167",
-      "https://x.com/trq212/status/2073502791130345771"
+      "https://x.com/trq212/status/2073101280936092043",
+      "https://x.com/trq212/status/2073502791130345771",
+      "https://x.com/trq212/status/2073116741782364167"
     ],
     "2073111376516759770": [
       "https://x.com/mattrickard/status/2073111376516759770",
@@ -24884,14 +24950,18 @@
     "2073464510774468612": [
       "https://x.com/nocontextfooty/status/2073464510774468612",
       "https://pbs.twimg.com/media/HMZs-zbWcAA08Jq.jpg",
+      "https://x.com/nocontextfooty/status/2073720991541284962",
+      "https://pbs.twimg.com/amplify_video_thumb/2073654563375046656/img/H-BH9AjCHwxq_pFn.jpg",
       "https://x.com/nocontextfooty/status/2073606515475279875",
       "https://pbs.twimg.com/amplify_video_thumb/2073558834719633409/img/8XYZ9l6sGnu0CT9L.jpg",
       "https://x.com/nocontextfooty/status/2073606112251687390",
-      "https://pbs.twimg.com/media/HMbtw-aXsAAeX1P.jpg",
-      "https://x.com/nocontextfooty/status/2073547316548506083",
-      "https://pbs.twimg.com/amplify_video_thumb/2073538005004910592/img/I6nsqtCaVTJW1H6_.jpg"
+      "https://pbs.twimg.com/media/HMbtw-aXsAAeX1P.jpg"
+    ],
+    "2073672533388468608": [
+      "https://x.com/vikingmute/status/2073672533388468608",
+      "https://github.com/cloudflare/agentic-inbox"
     ]
   },
-  "updated_at": "2026-07-05T08:17:35Z",
+  "updated_at": "2026-07-05T11:12:58Z",
   "window": "recent"
 }
