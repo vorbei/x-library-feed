@@ -6592,7 +6592,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-28T10:53:25.326069Z",
+      "article_fetch_attempted_at": "2026-07-05T14:19:47.458478Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-06-14T04:28:15.692204Z",
@@ -6728,7 +6728,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-28T10:53:25.326069Z",
+      "article_fetch_attempted_at": "2026-07-05T14:19:47.458478Z",
       "article_image_urls": [
         "https://omnigent.ai/images/omnigent-social-card.png",
         "https://omnigent.ai/images/logo.svg",
@@ -6737,11 +6737,11 @@
         "https://omnigent.ai/images/hero-logo-dark.svg",
         "https://omnigent.ai/images/hero-demo.webp",
         "https://omnigent.ai/images/composability-icon.png",
-        "https://omnigent.ai/_next/image?url=%2Fimages%2Fcomposition.png&w=3840&q=75&dpl=dpl_CMjx2Q9NtdRs3ghwDYY21AKVwCxG",
-        "https://omnigent.ai/_next/image?url=%2Fimages%2Fcomposition-dark.png&w=3840&q=75&dpl=dpl_CMjx2Q9NtdRs3ghwDYY21AKVwCxG",
+        "https://omnigent.ai/_next/image?url=%2Fimages%2Fcomposition.png&w=3840&q=75&dpl=dpl_47iZHr5B2dktLe3uitVcHiqLvzQz",
+        "https://omnigent.ai/_next/image?url=%2Fimages%2Fcomposition-dark.png&w=3840&q=75&dpl=dpl_47iZHr5B2dktLe3uitVcHiqLvzQz",
         "https://omnigent.ai/images/sandbox.png",
-        "https://omnigent.ai/_next/image?url=%2Fimages%2Fcontrol.png&w=3840&q=75&dpl=dpl_CMjx2Q9NtdRs3ghwDYY21AKVwCxG",
-        "https://omnigent.ai/_next/image?url=%2Fimages%2Fcontrol-dark.png&w=3840&q=75&dpl=dpl_CMjx2Q9NtdRs3ghwDYY21AKVwCxG"
+        "https://omnigent.ai/_next/image?url=%2Fimages%2Fcontrol.png&w=3840&q=75&dpl=dpl_47iZHr5B2dktLe3uitVcHiqLvzQz",
+        "https://omnigent.ai/_next/image?url=%2Fimages%2Fcontrol-dark.png&w=3840&q=75&dpl=dpl_47iZHr5B2dktLe3uitVcHiqLvzQz"
       ],
       "article_title_extracted": "Omnigent — a meta-harness for building and running AI agents",
       "category": "Development",
@@ -9305,7 +9305,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-28T10:53:25.326069Z",
+      "article_fetch_attempted_at": "2026-07-05T14:19:47.458478Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/68ca92ea67ef60d728ed80d0_opengraph-topazlabs-r.jpg",
         "https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/652d36e4bdb4c58ae007a00a_vai4-menu-close.svg",
@@ -11415,18 +11415,18 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-28T10:53:25.326069Z",
+      "article_fetch_attempted_at": "2026-07-05T14:19:47.458478Z",
       "article_image_urls": [
         "https://shiftapp.nyc/og_preview.png",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fshift-logo.png&w=256&q=75&dpl=dpl_7WAvCdRxHtcrNTWN7GU73tifdpsJ",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fshift-logo.png&w=128&q=75&dpl=dpl_7WAvCdRxHtcrNTWN7GU73tifdpsJ",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fleft.png&w=1920&q=75&dpl=dpl_7WAvCdRxHtcrNTWN7GU73tifdpsJ",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fright.png&w=1920&q=75&dpl=dpl_7WAvCdRxHtcrNTWN7GU73tifdpsJ",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fcleaning.jpg&w=1920&q=75&dpl=dpl_7WAvCdRxHtcrNTWN7GU73tifdpsJ",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-book-4.png&w=640&q=75&dpl=dpl_7WAvCdRxHtcrNTWN7GU73tifdpsJ",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-clean-2.png&w=640&q=75&dpl=dpl_7WAvCdRxHtcrNTWN7GU73tifdpsJ",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-clean-3b.jpg&w=640&q=75&dpl=dpl_7WAvCdRxHtcrNTWN7GU73tifdpsJ",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-share-2b.jpg&w=640&q=75&dpl=dpl_7WAvCdRxHtcrNTWN7GU73tifdpsJ"
+        "https://www.shiftapp.nyc/_next/image?url=%2Fshift-logo.png&w=256&q=75&dpl=dpl_4Z9JsjY7aUzFpAMx6q9nTVPYnSv4",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fshift-logo.png&w=128&q=75&dpl=dpl_4Z9JsjY7aUzFpAMx6q9nTVPYnSv4",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fleft.png&w=1920&q=75&dpl=dpl_4Z9JsjY7aUzFpAMx6q9nTVPYnSv4",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fright.png&w=1920&q=75&dpl=dpl_4Z9JsjY7aUzFpAMx6q9nTVPYnSv4",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fcleaning.jpg&w=1920&q=75&dpl=dpl_4Z9JsjY7aUzFpAMx6q9nTVPYnSv4",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-book-4.png&w=640&q=75&dpl=dpl_4Z9JsjY7aUzFpAMx6q9nTVPYnSv4",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-clean-2.png&w=640&q=75&dpl=dpl_4Z9JsjY7aUzFpAMx6q9nTVPYnSv4",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-clean-3b.jpg&w=640&q=75&dpl=dpl_4Z9JsjY7aUzFpAMx6q9nTVPYnSv4",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-share-2b.jpg&w=640&q=75&dpl=dpl_4Z9JsjY7aUzFpAMx6q9nTVPYnSv4"
       ],
       "article_title_extracted": "shift: Free Home Cleaning in NYC",
       "category": "Tools",
@@ -11550,7 +11550,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-28T10:53:25.326069Z",
+      "article_fetch_attempted_at": "2026-07-05T14:19:47.458478Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/ESyZLqSP6cNslPTuKtImn0QKTw.png",
         "https://framerusercontent.com/images/4XPyOmPW1ekC3IaHitkXiBMm6TY.webp?width=1440&height=900",
@@ -11726,7 +11726,7 @@
       "x_status_id": "2060338585539088867"
     },
     {
-      "article_fetch_attempted_at": "2026-06-28T10:53:25.326069Z",
+      "article_fetch_attempted_at": "2026-07-05T14:19:47.458478Z",
       "article_image_urls": [
         "https://un.ms/assets/og4.png",
         "https://un.ms/build/assets/office-of-unms-2-ZsTPerh3.png",
@@ -13804,7 +13804,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-28T10:53:25.326069Z",
+      "article_fetch_attempted_at": "2026-07-05T14:19:47.458478Z",
       "article_title_extracted": "Orion PDA — Pocket computer minimal Orion PDA — pocket computer minimal",
       "category": "Tools",
       "created_at": "2026-05-24T02:34:11.071500Z",
@@ -13896,7 +13896,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-28T10:53:25.326069Z",
+      "article_fetch_attempted_at": "2026-07-05T14:19:47.458478Z",
       "article_image_urls": [
         "https://simplecss.org/assets/images/simple-css-feature.webp"
       ],
@@ -109241,5 +109241,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-07-05T10:49:57.868220Z"
+  "updated_at": "2026-07-05T14:20:14.063625Z"
 }
