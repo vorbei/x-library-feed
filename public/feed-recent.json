@@ -7511,35 +7511,6 @@
       "title": "How Anthropic enables self-service data analytics with Claude | Claude",
       "url": "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude"
     },
-    "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "What we learned building and scaling hundreds of skills internally at Anthropic.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills",
-      "frameable": false,
-      "image_urls": [
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a2058f7af91f02cff0a6187_og-lessons-from-building-claude-code.jpg",
-        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg",
-        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f026439c_b7942952.png",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f02643a2_6f109d87.png",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f026439f_0e0f23c0.png",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f02643ae_3c108f2c.png",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f02643a8_d5e89124.png",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f0264399_a60f7943.png",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f02643b1_9159a9b1.png",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f02643ab_00319576.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "Lessons from building Claude Code: How we use skills\nWhat we learned building and scaling hundreds of skills internally at Anthropic.\nWhat we learned building and scaling hundreds of skills internally at Anthropic.\n- June 3, 2026\n- 5min\nSkills have become one of the most used extension points in Claude Code. They’re flexible, easy to make, and easy to distribute.\nBut this flexibility also makes it hard to know what works best. What type of skills are worth making? How do you structure a skill? When do you share them with others?\nWe've been using skills in Claude Code extensively at Anthropic with hundreds of them in active use. These are the lessons we've learned about using skills to accelerate our development.\nSkills are folders of instructions, scripts, and resources that agents can discover and use to do things more accurately and efficiently. This blog post assumes familiarity with skills basics; if you’re new, start with our [Introduction to agent skills course on Skilljar](https://anthropic.skilljar.com/introduction-to-agent-skills).\nA common misconception we hear about skills is that they are “just markdown files.” They’re actually folders that can include scripts, assets, data, etc. that the agent can discover, explore and manipulate.\nIn Claude Code, skills also have a [wide variety of configuration options](https://code.claude.com/docs/en/skills#frontmatter-reference) including registering dynamic hooks.\nWe’ve found that some of the most effective skills in Claude Code use these configuration options and folder structure effectively.\nOr read the [documentation](https://code.claude.com/docs/en/overview)\nAfter cataloging all of our internal skills at Anthropic, we noticed they cluster into nine categories. The best skills fit cleanly into one; the ones that try to do too much straddle several and confuse the agent. This isn't a definitive list, but it is a useful framework for identifying gaps in your own skills library.\nThese are skills that explain how to correctly use a library, CLI, or SDKs. They could be both for internal libraries or common libraries that Claude Code sometimes struggles to handle. These skills often included a folder of reference code snippets and a list of gotchas for Claude to avoid when writing a script.\nExamples include:\nbilling-lib\n— your internal billing library: edge cases, footguns, etc.internal-platform-cli\n— every subcommand of your internal CLI wrapper with examples on when to use them.sandbox-proxy\n— configuring your org's egress gateway for dev work: which hosts are reachable, how to debug \"connection refused\" errors, how to add an allowlist entry.\nThese are skills that describe how to test or verify that your code is working. They are often paired with playwright, tmux, or other external tools for verification.\nVerification skills have had the most measurable impact on Claude’s output quality internally. It can be worth having an engineer spend a week just making your verification skills excellent.\nConsider techniques like having Claude record a video of its output so you can see exactly what it tested, or enforcing programmatic assertions on state at each step. These are often done by including a variety of scripts in the skill.\nExamples include:\nsignup-flow-driver\n— runs through signup → email verify → onboarding in a headless browser, with hooks for asserting state at each stepcheckout-verifier\n— drives the checkout UI with Stripe test cards, verifies the invoice actually lands in the right statetmux-cli-driver\n— for interactive CLI testing where the thing you're verifying needs a TTY\nThese are skills that connect to your data and monitoring stacks. These skills might include libraries to fetch your data with credentials, specific dashboard ids, etc., as well as instructions on common workflows or ways to get data.\nExamples include:\nfunnel-query\n— \"which events do I join to see signup → activation → paid\" plus the table that actually has the canonical user_idcohort-compare\n— comp",
-      "text_excerpt_zh": "# 构建 Claude Code 的经验教训：我们如何使用技能\n\n在 Anthropic 内部构建和扩展数百个技能的经验总结。\n\n- 2026年6月3日\n- 5分钟阅读\n\n技能已成为 Claude Code 中使用最广泛的扩展点之一。它们灵活、易于创建，也易于分发。\n\n但这种灵活性也让人难以判断什么做法最有效。什么样的技能值得制作？如何构建一个技能？何时与他人分享？\n\n在 Anthropic，我们在 Claude Code 中广泛使用技能，目前有数百个技能处于活跃使用状态。以下是我们关于如何使用技能加速开发的经验总结。\n\n技能是包含指令、脚本和资源的文件夹，智能体可以发现并使用它们来更准确、更高效地完成任务。这篇博文假设您已熟悉技能基础知识；如果您是新手，请从我们的 [Skilljar 上的智能体技能入门课程](https://anthropic.skilljar.com/introduction-to-agent-skills)开始。\n\n我们经常听到一个关于技能的误解，认为它们\"只是 Markdown 文件\"。实际上，它们是文件夹，可以包含脚本、资源、数据等内容，智能体可以发现、探索和操作这些内容。\n\n在 Claude Code 中，技能还拥有[多种配置选项](https://code.claude.com/docs/en/skills#frontmatter-reference)，包括注册动态钩子。\n\n我们发现，Claude Code 中一些最有效的技能正是充分利用了这些配置选项和文件夹结构。\n\n或阅读[文档](https://code.claude.com/docs/en/overview)\n\n在整理了 Anthropic 内部所有技能后，我们发现它们可以归为九大类别。最好的技能能清晰地归入其中一类；而那些试图面面俱到的技能往往横跨多个类别，反而让智能体感到困惑。这并非一份定论列表，但它是一个有用的框架，可以帮助您发现自己的技能库中存在的空白。\n\n## 库/CLI/SDK 技能\n\n这类技能解释如何正确使用某个库、CLI 或 SDK。它们既可以针对内部库，也可以针对 Claude Code 有时难以处理的常见库。这些技能通常包含一个参考代码片段文件夹，以及一份 Claude 在编写脚本时应避免的陷阱清单。\n\n示例包括：\n\n- `billing-lib` — 您的内部计费库：边界情况、易错点等。\n- `internal-platform-cli` — 内部 CLI 封装工具的每个子命令，附带使用场景示例。\n- `sandbox-proxy` — 配置您组织的开发用出口网关：哪些主机可访问，如何调试\"连接被拒绝\"错误，如何添加白名单条目。\n\n## 验证技能\n\n这类技能描述如何测试或验证代码是否正常工作。它们通常与 Playwright、tmux 或其他外部工具配合使用进行验证。\n\n验证技能对 Claude 内部输出质量的影响最为显著。值得让一位工程师花一周时间专门打磨您的验证技能。\n\n可以考虑让 Claude 录制其输出的视频，这样您可以确切看到它测试了什么，或者在每一步强制进行程序化状态断言。这些通常通过在技能中包含各种脚本来实现。\n\n示例包括：\n\n- `signup-flow-driver` — 在无头浏览器中执行注册→邮箱验证→新手引导流程，每一步都带有状态断言钩子。\n- `checkout-verifier` — 使用 Stripe 测试卡驱动结账 UI，验证发票确实落入正确的状态。\n- `tmux-cli-driver` — 用于交互式 CLI 测试，当您要验证的内容需要 TTY 时使用。\n\n## 数据/监控技能\n\n这类技能连接到您的数据和监控栈。这些技能可能包含用于获取数据的库及凭证、特定的仪表板 ID 等，以及常见工作流或数据获取方式的说明。\n\n示例包括：\n\n- `funnel-query` — \"我需要关联哪些事件才能看到注册→激活→付费的转化漏斗\"，以及实际包含规范 user_id 的表。\n- `cohort-compare` — 比较",
-      "text_excerpt_zh_hash": "5f7d46560239e0ff",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Lessons from building Claude Code: How we use skills | Claude",
-      "url": "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills"
-    },
     "https://claude.com/blog/running-an-ai-native-engineering-org": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -8474,6 +8445,21 @@
       "text_excerpt": "#93 Paper (Alpha) 体验\n祝顺利\nPaper 是一款处于 Alpha 阶段的设计工具，基于网页，属于 Figma 的直接竞品，有一些自己的思考。我对 Paper 的期望是一款不局限于设计的工具，一款通过 AI 让设计和开发更加进紧密的产品。而非一味跟随 Figma 的迭代脚步——虽然有时候 Figma 的产品设计确实经过了数年验证。\n本文便简单介绍下 Paper 的一些感想片段。\n封面使用 Paper 制作 → [链接](https://app.paper.design/file/01K5GR58G9QC0RNEKG9RC7H1X3?ref=fenx.work)。\nTL;DR\n以防你会先使用 AI 进行总结，这里有个人工版：本文从设计和开发对接角度，简单介绍了新型设计工具 Paper 的使用感想。Paper 的特色和优点包括布局、读取本地字体、良好的 AI 图片编辑体验、各式 shader 以及细节改进。虽然目前 alpha 版本有很多功能缺失但值得期待。\n文末作者展望了一下对设计工具而言 AI 还能做什么，但大都是作者个人浅显的想法，并未深入细聊。\n祖宗之法布局\n属性面板大体上类似，与 Sketch 相同，但是没想像 Figma 一样倒行逆施，UI3 的改版让宽高调整原理了坐标调整，而是保持了 XYWH 的邻近。\n这样连续按下 Tab 键位，便可直接输入 XYWH 而不是要额外点击一下。Figma 的做法也是可以理解，但是像 Paper 一样不强硬区分 position 和 layout，放到 layout 下面不也挺好吗？\n网页版直接读取本地字体\n[@runchenn](https://x.com/runchenn?ref=fenx.work) 告诉我，Paper 可在浏览器环境直接调用本地字体，只需要打开一项网页权限。\nFigma 网页的做法依然是要额外安装一个 font installer，在本地通过 Figma Agent 开启本地 HTTP/HTTPS 服务来监听字体。我遇到第一次使用 Figma 的同事基本都找不到这个额外安装器，优点是兼容性强。\nPaper 使用的是 Local Font Access API，安全简单，但目前仅支持 Chrome 等 Chromium-based 浏览器，Safari 和 Firefox 未来一段时间仅支持浏览。\nRecraft 的 AI 图片编辑体验\nRecraft 先于 Figma 一步做了画布型 AI 图片编辑体验，获得了一定的市场。而迄今为止 Figma 的 edit image 功能也非常初级，Paper 则直接取其精华以自用。\n更新：撰写本文时，也就是 Paper 公开测试几天后，Figma 更新了 edit 功能，比如[这个](https://x.com/figma/status/1967940789125910823?ref=fenx.work)以及[这个](https://x.com/figma/status/1968427770058306031?ref=fenx.work)。\nPaper 的 AI 编辑图片包括：\n- AI 生成图片会带有生成模型以及 prompt 的元数据，方便复用；\n- 多种模型之间可以一次请求来对比生成结果；\n- 生成图片时有更多模型选择；\n- 矢量化、提取颜色和移除背景，都是 Recraft 的功能，且大概率就是 Recraft 的 API；\nMore Shaders\nPaper 提供了比较丰富的 shader 效果：\n每个 shader 都提供了比较详细的定制：\nSpeed 设置为 0 时则是静态版本。Shader 的主体类似 frame，可赋予 multiply、color dodge 等叠加属性。Figma 的 [Noise & Texture](https://www.figma.com/community/plugin/1138854718618193875?ref=fenx.work) 插件也有一些不错的效果，但集成到产品中更方便一些。\nShader 可以导出为 React 代码：\n/** @paper-design/[[email protected]](https://fenx.work/cdn-cgi/l/email-protection) */\nimport { Heatmap } from '@paper-design/shaders-react';\n/**\n * Code exported from Paper\n * https://app.paper.design/file/{{file_token}}&node=01K4YGSE4C5S4RW96BG10BT36J\n * on Sep 18, 2025 at 5:04 PM.\n */\nexport default function GeneratedComponent() {\n  return <Heatmap colors={['#11206A', '#1F3BA2', '#2F63E7', '#6BD7FF', '#FFE679', '#FF991E', '#FF4C00']} colorBack=\"#00000000\" speed={1.06} contour={0.5} angle={30.9} noise={0.26} innerGlow={0.5} outerGlow={0.5} scale={0.75} image=\"https://workers.paper.design/file-assets/{{file_token}}/avatar.png\" frame={12209498.772993403} style={{ backgroundColor: '#000000', height: '1031px', width: '664px' }} />;\n}\n依赖的 [@paper-design/shaders-react](https://www.npmjs.com/package/@paper-design/shaders-react?ref=fenx.work) 大小为 335 kB，注释中有定位设计出处，都是不错的细节。\n细节带来 QOL 提升\nmacOS 中选中一些文件后，仅需右键就可以看到选中了多少文件，不用上下左右寻找资源管理器角落的说明文本。很高兴 Paper 也把这个功能带到了右键，Figma 的右键菜单一直缺少这个功能，只能多次点击右下角 Export 来查看计数。\nPaper 的取色器也有较大的不同。\n- Paper 添加了前后颜色对比。只要窗口不关闭，previous 颜色就不会改变，类似 Adobe；\n- 直接展示出了常见的颜色格式，并加入了「复制」按钮，这对于开发来说太方便了。Figma 只能使用 OkColor 这样的插件来解决；\n- 在拖动滑块更改 Hue 时，Paper 有三种算法来辅助优化颜色，效果如下图所示。如果是精准输入 H 的数值则不会触发算法影响 S 和 L 的数值；\n- 不过取色器没有文档颜色来快捷取色，Selection Color 也不支持批量更改，这点倒是挺亟需的。\nNudge 数值默认为 8，Figma 则是 10。懂的都懂，为什么 8 这个数值更好一些。\n有一点我不知道该不该放到这里，Paper 的图层顺序和 Figma 等一众软件是相反的：\n左边图层，红色矩形在最下方，但实际画布效果却在最上方。如果选择红色矩形图层复制，则会在下方出现一个图层，该图层位于新图层上方。\n我回忆了下 Figma 中实际设计的场景，原地复制图层大部分场景确实是想让图层出现在上面。Paper 的右键菜单还加入了 \"Paste on top\"，感觉应该不是产品设计失误而是 feature？不过这样还是有些反直觉，莫非大家都没有研究出复制粘贴后图层出现在上方层级的功能吗，Paper 才有此下策？\n其他较为好用的功能缺失\nPaper 依然有很多功能缺失，和我觉得有异议的地方。这里简单整理一下：\n- 工具面板放到了图层面板附近。用 Figma 这几年我觉得左侧区域明显没有右侧关注频率高，且信息有所重叠，不如放在上方或下方；\n- Paper 图层填充属性为 Background，这个文案更改很奇妙，因为产品中找不到对应的 Foreground；\n- Paper 图片图层区分与普通填充图层，没有 Background 属性；\n- 多图层属性无法上下调整层级；\n- 取色器看不到当前文档所有颜色；\n- Shader 的图片滤镜无法对当前画布元素生效；\n- 不支持复制和编辑矢量信息，仅可展示，矢量图层的图标和普通图片相同，无法区分；\n- 描边依然不支持多描边效果（Figma 始终没突破的底层代码）；\n- 没有背景模糊等高级 effect；\n- 没有 Selection Colors 批量修改；\n- 没有 Copy as PNG 和 Copy as SVG；\n- 输入不支持中文（包括 CJK 文字）；\n- 没有 Component；\n- 没有蒙版；\n- 图片无法调整参数；\n- 没有等比例缩放；\n- 离线同步；\n- 有少许性能问题；\nAI 加持下的设计工具展望\n产品迁移中的生态问题算是老生常谈了。能兼容最好，就像如今做新浏览，除非你有很强的（某方面的）决心，否则 Chromium-based 浏览器依然是首选。以 Figma 的插件系统，如果能有个一键转换到 Paper 这边的 API 然后直接 build 成可用插件的功能，那会方便不少",
       "title": "#93 Paper (Alpha) 体验",
       "url": "https://fenx.work/paper-design-alpha/"
+    },
+    "https://fffuel.co": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "A fun collection of free SVG generators for gradients, patterns, shapes, textures & cool backgrounds. Plus, some more color tools for web designers.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.fffuel.co/",
+      "frameable": null,
+      "image_urls": [
+        "https://fffuel.co/images/cover.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Free SVG generators, color tools & web design tools",
+      "url": "https://fffuel.co"
     },
     "https://flf.org/epistack/": {
       "cleaner_v": 2,
@@ -9481,6 +9467,20 @@
       "title": "Building a Visualizer for Antigravity Agentic Development Sessions Building a Visualizer for Antigravity Agentic Development Sessions | Guillaume Laforge",
       "url": "https://glaforge.dev/posts/2026/06/11/antigravity-brain-visualizer/"
     },
+    "https://heropatterns.com": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Zondicons",
+      "final_url": "https://heropatterns.com",
+      "frameable": null,
+      "image_urls": [
+        "http://www.heropatterns.com/img/twitter-preview.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Hero Patterns Hero Patterns | Free repeatable SVG background patterns for your web projects",
+      "url": "https://heropatterns.com"
+    },
     "https://huggingface.co/datasets/ByteDance-Seed/EdgeBench": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -9928,6 +9928,31 @@
       "title": "Communities of Not | Armin Ronacher's Thoughts and Writings",
       "url": "https://lucumr.pocoo.org/2026/6/6/communities-of-not/"
     },
+    "https://magicpattern.design": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Create beautiful background patterns, gradients, blobs and more with a toolbox of 30+ online design tools. Export as SVG, CSS, PNG or JPG. Used by 100,000+ designers & developers.",
+      "final_url": "https://www.magicpattern.design/",
+      "frameable": false,
+      "image_urls": [
+        "https://storage.googleapis.com/brandflow-bucket/magipattern/og-images/og-image.jpg",
+        "https://storage.googleapis.com/brandflow-bucket/magipattern/cookie.png",
+        "https://storage.googleapis.com/brandflow-bucket/magipattern/branding/magicpattern-icon.webp",
+        "https://www.magicpattern.design/static/images/magicpattern-logo-2.png",
+        "https://storage.googleapis.com/brandflow-bucket/magipattern/hero-patterns-lg.png",
+        "https://storage.googleapis.com/brandflow-bucket/magipattern/mockups/seamless-patterns.jpg",
+        "https://storage.googleapis.com/brandflow-bucket/magipattern/features/organize-assets.webp",
+        "https://storage.googleapis.com/brandflow-bucket/magipattern/features/geometric-patterns-export.webp",
+        "https://storage.googleapis.com/brandflow-bucket/magipattern/features/geometric-patterns-import.webp",
+        "https://storage.googleapis.com/brandflow-bucket/magipattern/testimonials/hannah.jpeg",
+        "https://storage.googleapis.com/brandflow-bucket/magipattern/testimonials/Kilian.jpeg",
+        "https://storage.googleapis.com/brandflow-bucket/magipattern/testimonials/steven.jpg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "MagicPattern - Beautiful backgrounds, patterns, gradients with 30+ Tools",
+      "url": "https://magicpattern.design"
+    },
     "https://magnus919.com/2026/06/the-architecture-of-focus/?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html",
@@ -10012,25 +10037,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "AI Eval Flashcards | Hamel Husain & Shreya Shankar on Maven",
       "url": "https://maven.com/parlance-labs/o/540bd8"
-    },
-    "https://meodai.github.io/heerich/?ref=sidebar": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "A tiny engine for 3D voxel scenes rendered to SVG. Boolean ops, oblique/perspective cameras, zero dependencies. Inspired by the geometric cardboard sculptures of Erwin Heerich.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://meodai.github.io/heerich/?ref=sidebar",
-      "frameable": null,
-      "image_urls": [
-        "https://meodai.github.io/heerich/social.png",
-        "https://storage.ko-fi.com/cdn/brandasset/kofi_s_logo_nolabel.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "heerich.js A tiny engine for 3D voxel scenes rendered to SVG\nheerich.js is a minimalist JavaScript engine that constructs 3D voxel compositions and distills them into pristine SVG. By extruding volumes, carving negative space, and applying boolean operations, you wield a programmatic chisel—projecting complex spatial arrangements into a flat, resolution-independent vector canvas.\nWhile SVG trades raw frame-rates for architectural elegance, its integration with the DOM is profound. The resulting geometry sits natively within the browser, inviting manipulation through CSS and uncompromised infinite scaling. The output is not an ephemeral pixel buffer, but semantic, stylable, and enduring markup.\nThe visual language draws deep inspiration from the geometric rigor\nof\n[Erwin Heerich](https://de.wikipedia.org/wiki/Erwin_Heerich)†\n(1922–2004) — exploring stacked topologies, deliberate subtractions,\nand the quiet tension that exists between solid mass and absolute\nvoid.\nThis page serves as both a technical manual and an interactive gallery. Engage with the examples below to comprehend the mechanics of the engine one primitive at a time.\nCreating an engine\nA Heerich\ninstance holds a 3D grid of voxels and knows\nhow to project them into 2D SVG. You initialize one by providing grid\ndimensions, a rendering tile size in pixels, and an optional baseline\nstyle applied universally across the active sequence.\nimport { Heerich } from './src/heerich.js'\nconst heerich = new Heerich({\ncamera: { type: 'oblique', angle: 315, distance: 25 },\nstyle: { fill: '#ddd', stroke: '#333', strokeWidth: 0.5 },\ngap: 0.05 // uniform spacing between voxels (0–0.5)\n})\nAll parameters are optional — new Heerich()\nworks with\nsensible defaults. Call heerich.toSVG()\nto get an SVG\nstring you can drop into the DOM.\nThe SVG is automatically centered — the engine computes the exact\nbounding box of all visible geometry and sets the\nviewBox\nto fit it, with optional padding. No manual\npositioning needed, even when shapes extend into negative coordinates.\n// Auto-centered with padding\ndocument.body.innerHTML = heerich.toSVG({ padding: 30 })\n// Access raw bounds if you need them\nconst { x, y, w, h } = heerich.getBounds()\nBoxes\nThe most fundamental primitive is a box — a rectangular volume\nanchored by a corner position\nand dimensions. You can\nalso use center\ninstead — the engine offsets by half\nthe size automatically.\nheerich.applyGeometry({\ntype: 'box',\nposition: [0, 0, 0],\nsize: [6, 4, 3]\n})\nDrag the sliders below — the engine clears and rebuilds the scene on\nevery frame. Because getFaces()\nutilizes a dirty-flag\ncache, calculating rapid structural changes remains highly\nefficient.\nSpheres\napplyGeometry({ type: 'sphere' })\nplots a rounded\nvolume using an internal distance check. You can use\nposition\n(bounding-box corner) instead of\ncenter\n, and size\ninstead of\nradius\n. Fractional offsets like .5\nfor\nboth radius and center (e.g., center: 4\n, radius:\n4\n) tend to produce the cleanest symmetrical forms on\ninteger grids.\nheerich.applyGeometry({\ntype: 'sphere',\ncenter: [4.5, 4.5, 4.5],\nradius: 4.5\n})\nConversely, removeGeometry({ type: 'sphere' })\ncarves a\nhollow void using the exact same parameters. Layer a sphere\nsubtraction into a solid box to effortlessly create arched doorways\nor dome cutouts.\nLines\napplyGeometry({ type: 'line' })\nplots a continuous\nvoxelized path between two spatial coordinates. Lines are the only\nshape that uses from\n/to\ninstead of the\nusual position\n/center\n+ size\n.\nYou can thicken the stroke via radius\n, and alter its\njoint geometry via shape\n— choosing either\n'rounded'\n(a sequence of overlapping spheres) or\n'square'\n(overlapping cubes).\nheerich.applyGeometry({\ntype: 'line', from: [0, 0, 0], to: [8, 8, 8],\nradius: 1.5, shape: 'rounded'\n})\nCustom shapes\napplyGeometry({ type: 'fill' })\nis the engine's\narchitectural bedrock — allowing you to define arbitrary\ngeometry as an evaluation function over\n(x, y, z)\ncoordinates. You can specify the area with bounds\n, or\nus",
-      "text_excerpt_zh": "heerich.js — 一个用于生成 SVG 的 3D 体素场景微型引擎\n\nheerich.js 是一个极简的 JavaScript 引擎，用于构建 3D 体素组合并将其提炼为纯净的 SVG。通过拉伸体积、雕刻负空间以及应用布尔运算，你便掌握了一把程序化的刻刀——将复杂的空间布局投射到扁平的、与分辨率无关的矢量画布上。\n\n虽然 SVG 以原始帧率为代价换取了架构上的优雅，但它与 DOM 的集成却极为深刻。生成的几何图形原生地存在于浏览器中，可通过 CSS 进行操作，并支持无与伦比的无限缩放。其输出并非转瞬即逝的像素缓冲区，而是具有语义、可样式化且持久耐用的标记语言。\n\n其视觉语言深受 [Erwin Heerich](https://de.wikipedia.org/wiki/Erwin_Heerich)†（1922–2004）几何严谨性的启发——探索堆叠拓扑、有意的减法，以及实体质量与绝对虚空之间那种静谧的张力。\n\n此页面既是一份技术手册，也是一个交互式画廊。请尝试以下示例，逐一理解引擎的运作机制。\n\n**创建引擎**\n\n一个 `Heerich` 实例持有一个 3D 体素网格，并知道如何将其投影为 2D SVG。初始化时，你需要提供网格尺寸、以像素为单位的渲染图块大小，以及一个可选的、应用于整个活动序列的基准样式。\n\n```javascript\nimport { Heerich } from './src/heerich.js'\n\nconst heerich = new Heerich({\n  camera: { type: 'oblique', angle: 315, distance: 25 },\n  style: { fill: '#ddd', stroke: '#333', strokeWidth: 0.5 },\n  gap: 0.05 // 体素之间的统一间距 (0–0.5)\n})\n```\n\n所有参数都是可选的——`new Heerich()` 会使用合理的默认值。调用 `heerich.toSVG()` 即可获得一个可插入 DOM 的 SVG 字符串。\n\nSVG 会自动居中——引擎会计算所有可见几何图形的精确边界框，并设置 `viewBox` 以适应它，同时提供可选的边距。即使形状延伸到负坐标区域，也无需手动定位。\n\n```javascript\n// 自动居中并带边距\ndocument.body.innerHTML = heerich.toSVG({ padding: 30 })\n\n// 如果需要，可以访问原始边界\nconst { x, y, w, h } = heerich.getBounds()\n```\n\n**盒子**\n\n最基本的图元是盒子——一个由角点位置和尺寸锚定的矩形体积。你也可以使用 `center` 代替——引擎会自动偏移一半尺寸。\n\n```javascript\nheerich.applyGeometry({\n  type: 'box',\n  position: [0, 0, 0],\n  size: [6, 4, 3]\n})\n```\n\n拖动下方的滑块——引擎会在每一帧清除并重建场景。由于 `getFaces()` 使用了脏标记缓存，计算快速的结构变化仍然非常高效。\n\n**球体**\n\n`applyGeometry({ type: 'sphere' })` 使用内部距离检查绘制一个圆角体积。你可以使用 `position`（边界框角点）代替 `center`，使用 `size` 代替 `radius`。在整数网格上，像 `.5` 这样的小数偏移量（例如 `center: 4`，`radius: 4.5`）往往能产生最清晰的对称形状。\n\n```javascript\nheerich.applyGeometry({\n  type: 'sphere',\n  center: [4.5, 4.5, 4.5],\n  radius: 4.5\n})\n```\n\n相反，`removeGeometry({ type: 'sphere' })` 使用完全相同的参数雕刻出一个空心空洞。将球体减法层叠到实心盒子中，可以轻松创建拱形门道或圆顶切口。\n\n**线条**\n\n`applyGeometry({ type: 'line' })` 在两个空间坐标之间绘制一条连续的体素化路径。线条是唯一使用 `from`/`to` 而非通常的 `position`/`center` + `size` 的形状。你可以通过 `radius` 加粗描边，并通过 `shape` 改变其关节几何形状——选择 `'rounded'`（一系列重叠的球体）或 `'square'`（重叠的立方体）。\n\n```javascript\nheerich.applyGeometry({\n  type: 'line', from: [0, 0, 0], to: [8, 8, 8],\n  radius: 1.5, shape: 'rounded'\n})\n```\n\n**自定义形状**\n\n`applyGeometry({ type: 'fill' })` 是引擎的建筑基石——允许你将任意几何图形定义为基于 `(x, y, z)` 坐标的评估函数。你可以使用 `bounds` 指定区域，或者使用...",
-      "text_excerpt_zh_hash": "416de898bb618d3b",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "heerich.js — Interactive Guide",
-      "url": "https://meodai.github.io/heerich/?ref=sidebar"
     },
     "https://microsoft.design/articles/haptics-design-and-implementation/?ref=sidebar": {
       "cleaner_v": 2,
@@ -10305,6 +10311,22 @@
       "title": "毒親育ちはなぜ「ADHDのような症状」が出るのか～脳科学と心理学が明かす、傷ついた脳の真実～｜龍汰(リュウタ)",
       "url": "https://note.com/rkpb_r/n/n9036d76cc1f3?sub_rt=share_b"
     },
+    "https://nucleoapp.com/svg-patterns": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Create and customize seamless SVG patterns for websites and interfaces. Adjust colors and opacity, combine patterns, and export clean, production-ready code.",
+      "final_url": "https://nucleoapp.com/svg-patterns/",
+      "frameable": null,
+      "image_urls": [
+        "https://nucleoapp.com/svg-patterns/assets/img/open-graph-svg-patterns.png",
+        "https://nucleoapp.com/svg-patterns/assets/img/twitter-card-svg-patterns.png",
+        "https://nucleoapp.com/svg-patterns/assets/img/pixel.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "v1.0 40,000 icons X/Twitter SVG Pattern Generator Create and customize seamless SVG patterns for websites and interfaces. Adjust colors and opacity, combine patterns, and export production-ready code. 2,500+ Pixel Icons → Select Customize Clear Opacity Background Opacity Preview Copy SVG Copied ← Select patterns How It Works Select one or more patterns from the library: choose from grids, dots, lines, crosses, and other repeatable SVG patterns. Customize colors and opacity: adjust the appearance of each pattern to match your website, app, or design system. Combine multiple patterns: layer, mix, and reorder patterns to create unique backgrounds and visual textures. Preview the result in real time: see how your SVG pattern looks instantly before exporting it. Copy the SVG code: use the generated SVG directly in your website, app, UI, CSS background, or design project. Frequently Asked Questions Can I customize the generated patterns? Yes. You can adjust colors, opacity, layering, and pattern order to create your own custom SVG backgrounds. Can I use these SVG patterns in CSS? Yes. You can copy the generated SVG code and use it directly in CSS, HTML, React, or any modern web project. Are the generated SVG patterns seamless? Yes. All patterns are designed to repeat seamlessly, making them ideal for infinite backgrounds and responsive layouts. Can I use these SVG patterns in commercial projects? Yes. You can use the exported SVG patterns in personal and commercial design projects. Are there any usage limitations? You may not redistribute the SVG patterns, resell them, or use them to create a competing library, generator, or similar product. Can I combine multiple patterns together? Yes. You can layer, mix and reorder multiple SVG patterns to create more complex and unique background designs.",
+      "title": "SVG Pattern Generator | Nucleo SVG Patterns | Nucleo",
+      "url": "https://nucleoapp.com/svg-patterns"
+    },
     "https://on.wsj.com/4uXL1rZ": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -10570,6 +10592,21 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843118"
+    },
+    "https://pattern.monster": {
+      "content_type": "text/html",
+      "description": "A simple online pattern generator to create repeatable SVG patterns. Perfect for website backgrounds, apparel, branding, packaging design and more.",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://pattern.monster",
+      "frameable": null,
+      "image_urls": [
+        "https://pattern.monster/images/TwitterBG.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Pattern Monster - SVG Pattern Generator",
+      "url": "https://pattern.monster"
     },
     "https://pbs.twimg.com/amplify_video_thumb/2062463771969290240/img/FkZgIjNg_u56k-q2.jpg": {
       "cleaner_v": 2,
@@ -11943,6 +11980,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2072991826575872000/img/Vr-qogwVZgavBLd_.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2073074506319667200/img/mMomvdMVcaMBcBR_.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2073074506319667200/img/mMomvdMVcaMBcBR_.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2073074506319667200/img/mMomvdMVcaMBcBR_.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2073074506319667200/img/mMomvdMVcaMBcBR_.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2073338531980963840/img/IipoMwNj8obhEYAS.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11956,6 +12007,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2073338531980963840/img/IipoMwNj8obhEYAS.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2073538005004910592/img/I6nsqtCaVTJW1H6_.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2073538005004910592/img/I6nsqtCaVTJW1H6_.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2073538005004910592/img/I6nsqtCaVTJW1H6_.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2073538005004910592/img/I6nsqtCaVTJW1H6_.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2073544208955199488/img/tsfywmHjwIDlwc42.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2073544208955199488/img/tsfywmHjwIDlwc42.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2073544208955199488/img/tsfywmHjwIDlwc42.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2073544208955199488/img/tsfywmHjwIDlwc42.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg": {
       "cleaner_v": 2,
@@ -12083,20 +12162,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg"
     },
-    "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg"
-    },
     "https://pbs.twimg.com/media/HJ6mGtEXwAEKwkY.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -12110,62 +12175,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ6mGtEXwAEKwkY.jpg"
-    },
-    "https://pbs.twimg.com/media/HJ9Fs62XYAAKhVK.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ9Fs62XYAAKhVK.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ9Fs62XYAAKhVK.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ9Fs62XYAAKhVK.jpg"
-    },
-    "https://pbs.twimg.com/media/HJ9Fs7BWAAAX6MF.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ9Fs7BWAAAX6MF.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ9Fs7BWAAAX6MF.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ9Fs7BWAAAX6MF.jpg"
-    },
-    "https://pbs.twimg.com/media/HJ9Fs7BWEAANPWU.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ9Fs7BWEAANPWU.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ9Fs7BWEAANPWU.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ9Fs7BWEAANPWU.jpg"
-    },
-    "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg"
     },
     "https://pbs.twimg.com/media/HJ_YiFvaIAANnSr.png": {
       "cleaner_v": 2,
@@ -15359,20 +15368,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMP47UHaAAApZ8R.jpg"
     },
-    "https://pbs.twimg.com/media/HMPjx8GWcAAHEen.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMPjx8GWcAAHEen.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HMPjx8GWcAAHEen.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HMPjx8GWcAAHEen.jpg"
-    },
     "https://pbs.twimg.com/media/HMPlOEvXoAAFd2p.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15414,20 +15409,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HMPx3_JbMAAsQpr.jpg"
-    },
-    "https://pbs.twimg.com/media/HMQbmZwWgAEDZlc.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMQbmZwWgAEDZlc.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HMQbmZwWgAEDZlc.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HMQbmZwWgAEDZlc.jpg"
     },
     "https://pbs.twimg.com/media/HMQcDB6XsAAh1co.jpg": {
       "cleaner_v": 2,
@@ -15527,20 +15508,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMTh7Q7WUAAKfYp.jpg"
     },
-    "https://pbs.twimg.com/media/HMTn827XcAAygTI.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMTn827XcAAygTI.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HMTn827XcAAygTI.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HMTn827XcAAygTI.jpg"
-    },
     "https://pbs.twimg.com/media/HMTqf8lWYAA45hh.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15583,20 +15550,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMUEH-vXcAAwh8S.png"
     },
-    "https://pbs.twimg.com/media/HMUTnj1XcAALDof.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMUTnj1XcAALDof.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HMUTnj1XcAALDof.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HMUTnj1XcAALDof.jpg"
-    },
     "https://pbs.twimg.com/media/HMUcKnCWMAAKLqS.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15611,6 +15564,62 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMUcKnCWMAAKLqS.jpg"
     },
+    "https://pbs.twimg.com/media/HMY2nrjWIAAIA4v.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMY2nrjWIAAIA4v.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMY2nrjWIAAIA4v.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMY2nrjWIAAIA4v.jpg"
+    },
+    "https://pbs.twimg.com/media/HMY2nspXYAAFsHl.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMY2nspXYAAFsHl.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMY2nspXYAAFsHl.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMY2nspXYAAFsHl.jpg"
+    },
+    "https://pbs.twimg.com/media/HMY2nsyWsAAW9SY.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMY2nsyWsAAW9SY.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMY2nsyWsAAW9SY.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMY2nsyWsAAW9SY.png"
+    },
+    "https://pbs.twimg.com/media/HMY2nuHXQAAHbU0.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMY2nuHXQAAHbU0.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMY2nuHXQAAHbU0.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMY2nuHXQAAHbU0.jpg"
+    },
     "https://pbs.twimg.com/media/HMYvVX9aUAAkhGE.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15624,6 +15633,62 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HMYvVX9aUAAkhGE.jpg"
+    },
+    "https://pbs.twimg.com/media/HMZ-vgRWIAA-ZWa.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMZ-vgRWIAA-ZWa.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMZ-vgRWIAA-ZWa.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMZ-vgRWIAA-ZWa.jpg"
+    },
+    "https://pbs.twimg.com/media/HMZqq1MWYAAOrTg.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMZqq1MWYAAOrTg.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMZqq1MWYAAOrTg.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMZqq1MWYAAOrTg.jpg"
+    },
+    "https://pbs.twimg.com/media/HMZs-zbWcAA08Jq.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMZs-zbWcAA08Jq.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMZs-zbWcAA08Jq.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMZs-zbWcAA08Jq.jpg"
+    },
+    "https://pbs.twimg.com/media/HMa1oTsWsAAewXx.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMa1oTsWsAAewXx.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMa1oTsWsAAewXx.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMa1oTsWsAAewXx.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -16871,6 +16936,31 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "never waste a token • Solving the decision problem",
       "url": "https://sunilpai.dev/posts/never-waste-a-token/"
+    },
+    "https://svgbackgrounds.com": {
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Copy-and-paste backgrounds, patterns, icons, and other website graphics directly into projects. All customizable, tiny in file size, and licensed for multi-use.",
+      "final_url": "https://www.svgbackgrounds.com/",
+      "frameable": null,
+      "image_urls": [
+        "https://www.svgbackgrounds.com/img/svg-backgrounds-preview.png",
+        "https://www.svgbackgrounds.com/wp-content/uploads/2021/05/liquid-cheese-yellow-background.png",
+        "https://www.svgbackgrounds.com/img/matt-visiwig-portrait.jpg",
+        "https://www.svgbackgrounds.com/wp-content/uploads/2021/07/pixel-blender-overlapping-square-grid-warm-gradient.jpg",
+        "https://www.svgbackgrounds.com/wp-content/uploads/2021/07/global-blob-globe-illustration-map-background.png",
+        "https://www.svgbackgrounds.com/wp-content/uploads/2021/07/different-strokes-vector-dabs-and-dots.png",
+        "https://www.svgbackgrounds.com/wp-content/uploads/2021/06/crosshatch-cubes-yellow-3d-pattern.jpg",
+        "https://www.svgbackgrounds.com/wp-content/uploads/2023/07/dotted-spinner-preloader.jpg",
+        "https://www.svgbackgrounds.com/wp-content/uploads/2023/07/inifinite-snake-preloader.jpg",
+        "https://www.svgbackgrounds.com/wp-content/uploads/2023/07/motion-blur-preloader.jpg",
+        "https://www.svgbackgrounds.com/wp-content/uploads/2023/07/spinning-gears-preloader.jpg",
+        "https://www.svgbackgrounds.com/wp-content/uploads/2023/07/trailblazer-spinner-preloader.jpg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "SVG backgrounds, icons, and other website graphics | SVG Backgrounds",
+      "url": "https://svgbackgrounds.com"
     },
     "https://t.me/+jZymbSIspfRiZjBk": {
       "cleaner_v": 2,
@@ -19626,10 +19716,6 @@
       "https://x.com/Potatoloogs/status/2062414047073448262",
       "https://claude.com/blog/running-an-ai-native-engineering-org"
     ],
-    "2062428035559616604": [
-      "https://x.com/_vmlops/status/2062428035559616604",
-      "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills"
-    ],
     "2062435013484814400": [
       "https://x.com/AdamBartas/status/2062435013484814400",
       "http://x.com/i/article/2059613463731732484",
@@ -19640,14 +19726,6 @@
       "https://x.com/AdamBartas/status/2062600236393267462",
       "https://x.com/AdamBartas/status/2062600341326352455",
       "https://x.com/AdamBartas/status/2062789057705390579"
-    ],
-    "2062443798647517197": [
-      "https://x.com/hooeem/status/2062443798647517197",
-      "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg",
-      "https://pbs.twimg.com/media/HJ9Fs7BWEAANPWU.jpg",
-      "https://pbs.twimg.com/media/HJ9Fs7BWAAAX6MF.jpg",
-      "https://pbs.twimg.com/media/HJ9Fs62XYAAKhVK.jpg",
-      "https://x.com/hooeem/status/2062447490104783100"
     ],
     "2062464183409545224": [
       "https://x.com/0xCodez/status/2062464183409545224",
@@ -19681,14 +19759,6 @@
     "2062526843564233040": [
       "https://x.com/akshay_pachaar/status/2062526843564233040",
       "http://x.com/i/article/2062152051157782528"
-    ],
-    "2062549448274628846": [
-      "https://x.com/SidebarIO/status/2062549448274628846",
-      "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar",
-      "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg",
-      "https://x.com/SidebarIO/status/2062262557016989864",
-      "https://meodai.github.io/heerich/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg"
     ],
     "2062561213532471707": [
       "https://x.com/Av1dlive/status/2062561213532471707",
@@ -24967,13 +25037,7 @@
     ],
     "2072752300335194227": [
       "https://x.com/vozinhapr/status/2072752300335194227",
-      "https://pbs.twimg.com/media/HMPlOEvXoAAFd2p.jpg",
-      "https://x.com/vozinhapr/status/2073036782560518221",
-      "https://pbs.twimg.com/media/HMTn827XcAAygTI.jpg",
-      "https://x.com/vozinhapr/status/2072812100423209000",
-      "https://pbs.twimg.com/media/HMQbmZwWgAEDZlc.jpg",
-      "https://x.com/vozinhapr/status/2072750710760902828",
-      "https://pbs.twimg.com/media/HMPjx8GWcAAHEen.jpg"
+      "https://pbs.twimg.com/media/HMPlOEvXoAAFd2p.jpg"
     ],
     "2072755093569523747": [
       "https://x.com/geoffreylitt/status/2072755093569523747",
@@ -25087,8 +25151,8 @@
       "https://x.com/Bioinfo_Kimura/status/2072971134639943685",
       "https://x.com/Bioinfo_Kimura/status/2073158783791185957",
       "https://x.com/Bioinfo_Kimura/status/2073217851876667426",
-      "https://x.com/Bioinfo_Kimura/status/2073157707214004641",
       "https://x.com/Bioinfo_Kimura/status/2073191416596172955",
+      "https://x.com/Bioinfo_Kimura/status/2073157707214004641",
       "https://x.com/Bioinfo_Kimura/status/2073192377414807775"
     ],
     "2072870908948336960": [
@@ -25209,8 +25273,8 @@
       "https://github.com/ByteDance-Seed/EdgeBench",
       "https://huggingface.co/datasets/ByteDance-Seed/EdgeBench",
       "https://alphasignal.ai/newsletter",
-      "https://x.com/AlphaSignalAI/status/2073085445005525123",
-      "https://pbs.twimg.com/media/HMUTnj1XcAALDof.jpg"
+      "https://x.com/AlphaSignalAI/status/2073301281800872139",
+      "https://pbs.twimg.com/amplify_video_thumb/2073074506319667200/img/mMomvdMVcaMBcBR_.jpg"
     ],
     "2073094175415792123": [
       "https://x.com/SidebarIO/status/2073094175415792123",
@@ -25224,9 +25288,10 @@
     "2073100352921215386": [
       "https://x.com/trq212/status/2073100352921215386",
       "http://x.com/i/article/2073090223194755072",
-      "https://x.com/trq212/status/2073160633273741473",
       "https://x.com/trq212/status/2073101280936092043",
-      "https://x.com/trq212/status/2073116741782364167"
+      "https://x.com/trq212/status/2073160633273741473",
+      "https://x.com/trq212/status/2073116741782364167",
+      "https://x.com/trq212/status/2073502791130345771"
     ],
     "2073111376516759770": [
       "https://x.com/mattrickard/status/2073111376516759770",
@@ -25247,9 +25312,9 @@
       "https://x.com/vasuman/status/2073162148801564961",
       "https://x.com/vasuman/status/2073163436935307329",
       "https://x.com/vasuman/status/2073215133778956476",
-      "https://x.com/vasuman/status/2073215291228864829",
-      "https://x.com/vasuman/status/2073215392349302813",
       "https://x.com/vasuman/status/2073215160869884298",
+      "https://x.com/vasuman/status/2073215392349302813",
+      "https://x.com/vasuman/status/2073215291228864829",
       "https://x.com/vasuman/status/2073196545470787906"
     ],
     "2073162161179033868": [
@@ -25283,19 +25348,55 @@
       "https://www.economist.com/leaders/2026/07/02/america-should-not-imprison-frontier-ai?taid=6a48fa779536b00001bc7a74&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
     ],
     "2073396828960403733": [
-      "https://x.com/fhinkel/status/2073396828960403733"
+      "https://x.com/fhinkel/status/2073396828960403733",
+      "https://x.com/fhinkel/status/2073530891888922657"
     ],
     "2073397077598687303": [
       "https://x.com/ibocodes/status/2073397077598687303",
       "https://pbs.twimg.com/media/HMYvVX9aUAAkhGE.jpg",
       "https://x.com/ibocodes/status/2073454567908675877",
-      "http://businessideasdb.com"
+      "http://businessideasdb.com",
+      "https://x.com/ibocodes/status/2073546938134450235"
     ],
     "2073404610501329247": [
       "https://x.com/omarsar0/status/2073404610501329247",
-      "http://x.com/i/article/2073402070753738752"
+      "http://x.com/i/article/2073402070753738752",
+      "https://x.com/omarsar0/status/2073514896436723882"
+    ],
+    "2073404809160413393": [
+      "https://x.com/noahelhadedy/status/2073404809160413393",
+      "https://fffuel.co",
+      "https://thenounproject.com/browse/icons/term/seamless-pattern",
+      "https://nucleoapp.com/svg-patterns",
+      "https://magicpattern.design",
+      "https://svgbackgrounds.com",
+      "https://heropatterns.com",
+      "https://pattern.monster",
+      "https://pbs.twimg.com/media/HMY2nsyWsAAW9SY.png",
+      "https://pbs.twimg.com/media/HMY2nrjWIAAIA4v.jpg",
+      "https://pbs.twimg.com/media/HMY2nuHXQAAHbU0.jpg",
+      "https://pbs.twimg.com/media/HMY2nspXYAAFsHl.jpg"
+    ],
+    "2073459627744698608": [
+      "https://x.com/Number10cat/status/2073459627744698608",
+      "https://x.com/Number10cat/status/2073461967226880423",
+      "https://pbs.twimg.com/media/HMZqq1MWYAAOrTg.jpg",
+      "https://x.com/Number10cat/status/2073513167406186673",
+      "https://x.com/Number10cat/status/2073502620262502774",
+      "https://x.com/Number10cat/status/2073484038220750866",
+      "https://pbs.twimg.com/media/HMZ-vgRWIAA-ZWa.jpg"
+    ],
+    "2073464510774468612": [
+      "https://x.com/nocontextfooty/status/2073464510774468612",
+      "https://pbs.twimg.com/media/HMZs-zbWcAA08Jq.jpg",
+      "https://x.com/nocontextfooty/status/2073547316548506083",
+      "https://pbs.twimg.com/amplify_video_thumb/2073538005004910592/img/I6nsqtCaVTJW1H6_.jpg",
+      "https://x.com/nocontextfooty/status/2073547204699054244",
+      "https://pbs.twimg.com/amplify_video_thumb/2073544208955199488/img/tsfywmHjwIDlwc42.jpg",
+      "https://x.com/nocontextfooty/status/2073544390593642872",
+      "https://pbs.twimg.com/media/HMa1oTsWsAAewXx.jpg"
     ]
   },
-  "updated_at": "2026-07-04T17:18:59Z",
+  "updated_at": "2026-07-05T00:12:58Z",
   "window": "recent"
 }

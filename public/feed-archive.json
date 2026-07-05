@@ -7046,6 +7046,35 @@
       "title": "Introducing dynamic workflows | Claude",
       "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code"
     },
+    "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "What we learned building and scaling hundreds of skills internally at Anthropic.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a2058f7af91f02cff0a6187_og-lessons-from-building-claude-code.jpg",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f026439c_b7942952.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f02643a2_6f109d87.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f026439f_0e0f23c0.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f02643ae_3c108f2c.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f02643a8_d5e89124.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f0264399_a60f7943.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f02643b1_9159a9b1.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f02643ab_00319576.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Lessons from building Claude Code: How we use skills\nWhat we learned building and scaling hundreds of skills internally at Anthropic.\nWhat we learned building and scaling hundreds of skills internally at Anthropic.\n- June 3, 2026\n- 5min\nSkills have become one of the most used extension points in Claude Code. They’re flexible, easy to make, and easy to distribute.\nBut this flexibility also makes it hard to know what works best. What type of skills are worth making? How do you structure a skill? When do you share them with others?\nWe've been using skills in Claude Code extensively at Anthropic with hundreds of them in active use. These are the lessons we've learned about using skills to accelerate our development.\nSkills are folders of instructions, scripts, and resources that agents can discover and use to do things more accurately and efficiently. This blog post assumes familiarity with skills basics; if you’re new, start with our [Introduction to agent skills course on Skilljar](https://anthropic.skilljar.com/introduction-to-agent-skills).\nA common misconception we hear about skills is that they are “just markdown files.” They’re actually folders that can include scripts, assets, data, etc. that the agent can discover, explore and manipulate.\nIn Claude Code, skills also have a [wide variety of configuration options](https://code.claude.com/docs/en/skills#frontmatter-reference) including registering dynamic hooks.\nWe’ve found that some of the most effective skills in Claude Code use these configuration options and folder structure effectively.\nOr read the [documentation](https://code.claude.com/docs/en/overview)\nAfter cataloging all of our internal skills at Anthropic, we noticed they cluster into nine categories. The best skills fit cleanly into one; the ones that try to do too much straddle several and confuse the agent. This isn't a definitive list, but it is a useful framework for identifying gaps in your own skills library.\nThese are skills that explain how to correctly use a library, CLI, or SDKs. They could be both for internal libraries or common libraries that Claude Code sometimes struggles to handle. These skills often included a folder of reference code snippets and a list of gotchas for Claude to avoid when writing a script.\nExamples include:\nbilling-lib\n— your internal billing library: edge cases, footguns, etc.internal-platform-cli\n— every subcommand of your internal CLI wrapper with examples on when to use them.sandbox-proxy\n— configuring your org's egress gateway for dev work: which hosts are reachable, how to debug \"connection refused\" errors, how to add an allowlist entry.\nThese are skills that describe how to test or verify that your code is working. They are often paired with playwright, tmux, or other external tools for verification.\nVerification skills have had the most measurable impact on Claude’s output quality internally. It can be worth having an engineer spend a week just making your verification skills excellent.\nConsider techniques like having Claude record a video of its output so you can see exactly what it tested, or enforcing programmatic assertions on state at each step. These are often done by including a variety of scripts in the skill.\nExamples include:\nsignup-flow-driver\n— runs through signup → email verify → onboarding in a headless browser, with hooks for asserting state at each stepcheckout-verifier\n— drives the checkout UI with Stripe test cards, verifies the invoice actually lands in the right statetmux-cli-driver\n— for interactive CLI testing where the thing you're verifying needs a TTY\nThese are skills that connect to your data and monitoring stacks. These skills might include libraries to fetch your data with credentials, specific dashboard ids, etc., as well as instructions on common workflows or ways to get data.\nExamples include:\nfunnel-query\n— \"which events do I join to see signup → activation → paid\" plus the table that actually has the canonical user_idcohort-compare\n— comp",
+      "text_excerpt_zh": "# 构建 Claude Code 的经验教训：我们如何使用技能\n\n在 Anthropic 内部构建和扩展数百个技能的经验总结。\n\n- 2026年6月3日\n- 5分钟阅读\n\n技能已成为 Claude Code 中使用最广泛的扩展点之一。它们灵活、易于创建，也易于分发。\n\n但这种灵活性也让人难以判断什么做法最有效。什么样的技能值得制作？如何构建一个技能？何时与他人分享？\n\n在 Anthropic，我们在 Claude Code 中广泛使用技能，目前有数百个技能处于活跃使用状态。以下是我们关于如何使用技能加速开发的经验总结。\n\n技能是包含指令、脚本和资源的文件夹，智能体可以发现并使用它们来更准确、更高效地完成任务。这篇博文假设您已熟悉技能基础知识；如果您是新手，请从我们的 [Skilljar 上的智能体技能入门课程](https://anthropic.skilljar.com/introduction-to-agent-skills)开始。\n\n我们经常听到一个关于技能的误解，认为它们\"只是 Markdown 文件\"。实际上，它们是文件夹，可以包含脚本、资源、数据等内容，智能体可以发现、探索和操作这些内容。\n\n在 Claude Code 中，技能还拥有[多种配置选项](https://code.claude.com/docs/en/skills#frontmatter-reference)，包括注册动态钩子。\n\n我们发现，Claude Code 中一些最有效的技能正是充分利用了这些配置选项和文件夹结构。\n\n或阅读[文档](https://code.claude.com/docs/en/overview)\n\n在整理了 Anthropic 内部所有技能后，我们发现它们可以归为九大类别。最好的技能能清晰地归入其中一类；而那些试图面面俱到的技能往往横跨多个类别，反而让智能体感到困惑。这并非一份定论列表，但它是一个有用的框架，可以帮助您发现自己的技能库中存在的空白。\n\n## 库/CLI/SDK 技能\n\n这类技能解释如何正确使用某个库、CLI 或 SDK。它们既可以针对内部库，也可以针对 Claude Code 有时难以处理的常见库。这些技能通常包含一个参考代码片段文件夹，以及一份 Claude 在编写脚本时应避免的陷阱清单。\n\n示例包括：\n\n- `billing-lib` — 您的内部计费库：边界情况、易错点等。\n- `internal-platform-cli` — 内部 CLI 封装工具的每个子命令，附带使用场景示例。\n- `sandbox-proxy` — 配置您组织的开发用出口网关：哪些主机可访问，如何调试\"连接被拒绝\"错误，如何添加白名单条目。\n\n## 验证技能\n\n这类技能描述如何测试或验证代码是否正常工作。它们通常与 Playwright、tmux 或其他外部工具配合使用进行验证。\n\n验证技能对 Claude 内部输出质量的影响最为显著。值得让一位工程师花一周时间专门打磨您的验证技能。\n\n可以考虑让 Claude 录制其输出的视频，这样您可以确切看到它测试了什么，或者在每一步强制进行程序化状态断言。这些通常通过在技能中包含各种脚本来实现。\n\n示例包括：\n\n- `signup-flow-driver` — 在无头浏览器中执行注册→邮箱验证→新手引导流程，每一步都带有状态断言钩子。\n- `checkout-verifier` — 使用 Stripe 测试卡驱动结账 UI，验证发票确实落入正确的状态。\n- `tmux-cli-driver` — 用于交互式 CLI 测试，当您要验证的内容需要 TTY 时使用。\n\n## 数据/监控技能\n\n这类技能连接到您的数据和监控栈。这些技能可能包含用于获取数据的库及凭证、特定的仪表板 ID 等，以及常见工作流或数据获取方式的说明。\n\n示例包括：\n\n- `funnel-query` — \"我需要关联哪些事件才能看到注册→激活→付费的转化漏斗\"，以及实际包含规范 user_id 的表。\n- `cohort-compare` — 比较",
+      "text_excerpt_zh_hash": "5f7d46560239e0ff",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "Lessons from building Claude Code: How we use skills | Claude",
+      "url": "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills"
+    },
     "https://claude.com/blog/the-founders-playbook": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -7376,6 +7405,29 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Cursor Team Kit | Cursor Plugins",
       "url": "https://cursor.com/marketplace/cursor/cursor-team-kit"
+    },
+    "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "How AI has changed the way I prototype, plan, and ship; and what I'm doing to keep my hands dirty.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://darylcecile.net/og?slug=speed-of-prototyping-age-of-ai",
+        "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://github.com&size=32",
+        "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://mikemcquaid.com&size=32",
+        "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cassidoo.co&size=32",
+        "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://simonwillison.net&size=32",
+        "https://darylcecile.net/icon.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Note: These are personal reflections on how my workflow has shifted over the past year, not a pitch for any tool. Your mileage will (and probably should) vary.\nA few years back I wrote about my love of [throwaway prototypes](/notes/throwaway-prototypes); those little proof-of-concepts that exist purely to get an idea out of your head and into something tangible. At the time, my biggest bottleneck was me; the time it took to scaffold a project, wire up the boring bits, and get to a place where the interesting parts could actually be tested. Fast forward to now, and that bottleneck has all but vanished.\nI've been a little hesitant to write about this. I've already shared some [cautious thoughts on AI](/notes/github-copilot-agent-actually-useful-ai) and where it fits into my workflow, and I stand by all of it. I still think the industry is figuring things out in real time, and I still think it pays to be careful. But cautious doesn't mean blind, and the honest truth is that AI has changed how quickly I can go from \"I wonder if…\" to \"oh, it works\".\nIf you've looked at my [GitHub](https://github.com/darylcecile) recently, you'll have noticed a stream of new repos showing up. [Sakoa](/projects/sakoa), a progressive systems language I've been designing from scratch, complete with an effect system, three memory modes, and a MIR with multiple backends. [Kato](/projects/kato), a notation language meant to sit somewhere between JSON, TOML, and YAML, but explicitly designed to be friendly to both humans and agents. [Seal](/projects/seal), a tiny CLI that quietly kills the .env file by stashing secrets in OS-native credential stores. [Karabiner](/projects/karabiner-app), an iOS-first agent-native messaging app. [Plim](/projects/plim), a Notion-inspired, embeddable block editor for the web with a framework-agnostic core and React bindings. And a few more knocking around that aren't ready for the spotlight yet.\nA few years ago, that list would have been three repos with READMEs, two abandoned branches, and one working prototype I'd be quietly proud of. Now? The prototypes exist. They run. Some of them have tests. A couple are starting to look like real projects. And while not all of them will turn into anything serious (and that's [kind of the point](/notes/throwaway-prototypes)), there is something really satisfying about being able to actually try an idea, rather than just talk about it.\nThe thing nobody really warned me about is how much AI changes the shape of engineering work, not just the speed of it. When I'm not the one typing every line, I'm forced to think differently. I'm thinking about boundaries, contracts, and how the pieces fit together. I'm writing prompts and specs that describe the system holistically, before the system exists.\nThat shift sounds small but it's been quietly transformative. I'm planning at a more abstracted level, framing problems before I solve them, and I've gotten noticeably better at delegating; both to agents and to people. Turns out that the skill of \"describing exactly what success looks like, in a way that a junior engineer (or a model) can act on without you in the room\" is the same skill in both directions. Sharing vision, breaking work down, anticipating where things might go wrong; these are muscles I've been forced to exercise much more deliberately, and I'm better for it.\nI've been tracking this loosely for a while, mostly out of curiosity. Based on my own day-to-day engineering tasks (measured roughly by time-to-PR for typical pieces of work), I'm averaging about 4x faster than I was before agents became a meaningful part of my workflow. Some days it's more, some days it's less, and some days the agent does something delightfully strange that costs me an hour to undo (which I'll happily count against the average).\nBut that number understates the more interesting effect: the kind of work I can take on has changed. Things I would have previously parked under \"nice idea, no time\" now slot into an",
+      "text_excerpt_zh": "**注意：** 以下是我个人对过去一年工作流程变化的反思，并非对任何工具的推销。你的情况可能（而且很可能应该）有所不同。\n\n几年前，我曾写过我对[一次性原型](/notes/throwaway-prototypes)的热爱；那些纯粹为了将想法从脑海中提取出来并转化为有形之物而存在的小型概念验证。当时，我最大的瓶颈是我自己：搭建项目框架、连接那些枯燥的部分、以及真正到达可以测试有趣部分的地方所需的时间。快进到现在，那个瓶颈几乎消失了。\n\n我一直有点犹豫是否要写这个。我已经分享过一些关于AI的[谨慎思考](/notes/github-copilot-agent-actually-useful-ai)以及它如何融入我的工作流程，我仍然坚持所有这些观点。我依然认为整个行业是在实时摸索，也依然认为保持谨慎是有好处的。但谨慎不等于盲目，老实说，AI已经改变了我从“我想知道如果……”到“哦，它居然能工作”的速度。\n\n如果你最近看过我的[GitHub](https://github.com/darylcecile)，你会注意到一系列新的仓库出现。[Sakoa](/projects/sakoa)，一种我从头设计的渐进式系统语言，包含效果系统、三种内存模式以及一个带有多个后端的MIR。[Kato](/projects/kato)，一种标记语言，旨在介于JSON、TOML和YAML之间，但明确设计为对人和AI代理都友好。[Seal](/projects/seal)，一个微小的CLI工具，通过将秘密存储在操作系统原生的凭据存储中来悄无声息地消灭.env文件。[Karabiner](/projects/karabiner-app)，一个以iOS为先、面向AI代理的原生消息应用。[Plim](/projects/plim)，一个受Notion启发的、可嵌入的Web块编辑器，具有框架无关的核心和React绑定。还有几个正在打磨中，尚未准备好亮相。\n\n几年前，这个列表会是三个带有README的仓库，两个被遗弃的分支，以及一个我会暗自引以为豪的工作原型。现在呢？原型存在了。它们能运行。其中一些还有测试。有几个开始看起来像真正的项目了。虽然并非所有项目都会变成严肃的东西（而这正是[关键所在](/notes/throwaway-prototypes)），但能够真正尝试一个想法，而不仅仅是谈论它，这确实令人非常满足。\n\n没有人真正警告过我的是，AI不仅改变了工程工作的速度，更改变了它的形态。当我不再是逐行输入代码的那个人时，我被迫以不同的方式思考。我在思考边界、契约以及各个部分如何组合在一起。我在编写提示和规范，在系统存在之前就从整体上描述它。\n\n这种转变听起来很小，但它已经悄然带来了变革。我在更抽象的层面上进行规划，在解决问题之前先构建问题框架，而且我在委派任务方面——无论是给AI代理还是给人——都明显变得更好了。事实证明，“精确地描述成功的样子，让一个初级工程师（或一个模型）可以在没有你在场的情况下据此行动”这项技能，在两个方向上都是相通的。分享愿景、分解工作、预判可能出现问题的地方——这些都是我被迫更刻意地锻炼的能力，而我因此变得更好。\n\n我断断续续地追踪这个情况有一段时间了，主要是出于好奇。根据我自己的日常工程任务（大致按典型工作项的PR时间衡量），我现在的平均速度大约是AI代理成为我工作流程中有意义的一部分之前的4倍。有些天更快，有些天更慢，还有些天AI代理会做出一些令人愉悦的奇怪举动，让我花一个小时去撤销（我很乐意把这算进平均值里）。\n\n但这个数字低估了更有趣的影响：我能承担的工作类型已经改变了。那些我以前会搁置在“好主意，没时间”类别里的事情，现在可以……",
+      "text_excerpt_zh_hash": "f23825547e447475",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "The Speed of Prototyping in the Age of AI",
+      "url": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar"
     },
     "https://delete-images-button.vercel.app/": {
       "content_type": "text/html; charset=utf-8",
@@ -26609,6 +26661,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HIztu4HbMAA-qwm.jpg"
     },
+    "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg"
+    },
     "https://pbs.twimg.com/media/HJ0-VU0XAAAKhMt.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -27000,6 +27066,62 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ8NZ4DaQAALPfq.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ9Fs62XYAAKhVK.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ9Fs62XYAAKhVK.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ9Fs62XYAAKhVK.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ9Fs62XYAAKhVK.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ9Fs7BWAAAX6MF.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ9Fs7BWAAAX6MF.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ9Fs7BWAAAX6MF.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ9Fs7BWAAAX6MF.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ9Fs7BWEAANPWU.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ9Fs7BWEAANPWU.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ9Fs7BWEAANPWU.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ9Fs7BWEAANPWU.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg"
     },
     "https://pbs.twimg.com/media/HJExBQ4b0AAl5XH.jpg": {
       "cleaner_v": 2,
@@ -43629,11 +43751,31 @@
       "https://x.com/IBuzovskyi/status/2062548402018160685",
       "https://x.com/IBuzovskyi/status/2062509027351781425"
     ],
+    "2062428035559616604": [
+      "https://x.com/_vmlops/status/2062428035559616604",
+      "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills"
+    ],
     "2062429159545303409": [
       "https://x.com/vijayiyengar/status/2062429159545303409",
       "http://x.com/i/article/2059705598988701696"
+    ],
+    "2062443798647517197": [
+      "https://x.com/hooeem/status/2062443798647517197",
+      "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg",
+      "https://pbs.twimg.com/media/HJ9Fs7BWEAANPWU.jpg",
+      "https://pbs.twimg.com/media/HJ9Fs7BWAAAX6MF.jpg",
+      "https://pbs.twimg.com/media/HJ9Fs62XYAAKhVK.jpg",
+      "https://x.com/hooeem/status/2062447490104783100"
+    ],
+    "2062549448274628846": [
+      "https://x.com/SidebarIO/status/2062549448274628846",
+      "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar",
+      "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg",
+      "https://x.com/SidebarIO/status/2062262557016989864",
+      "https://meodai.github.io/heerich/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg"
     ]
   },
-  "updated_at": "2026-07-04T17:18:59Z",
+  "updated_at": "2026-07-05T00:12:58Z",
   "window": "archive"
 }
