@@ -52,6 +52,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "America must acknowledge that it will share its third century with China, writes Rush Doshi in a guest essay. Register for free to learn why he argues its strategy must be built on two pillars https://www.economist.com/by-invitation/2026/07/01/americas-third-century-will-be-shared-with-china?taid=6a493c1a63792900018a3fc3&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "text_zh": "Rush Doshi在客座文章中写道，美国必须认识到，其第三个世纪将与中国共享。免费注册，了解他为何主张美国的战略应建立在两大支柱之上。https://www.economist.com/by-invitation/2026/07/01/americas-third-century-will-be-shared-with-china?taid=6a493c1a63792900018a3fc3&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "text_zh_hash": "300cd7e590c16fec",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheEconomist/status/2073451818726674500"
     },
     {
@@ -107,6 +110,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "There are layers of working with AI. Prompt engineering. Context engineering. Harness engineering. Loop engineering.\n\nLayer 1 is prompt engineering. What you type into the chat window. How you word the instruction, what you ask for, what you tell it to avoid. This is where everyone starts. It matters, but few people go further.\n\nLayer 2 is context engineering. Everything the model sees before your prompt. System instructions, reference files, conversation history, examples of good output. A mediocre prompt with great context beats a great prompt with no context every time.\n\nLayer 3 is harness engineering. The code around the model. Tool routing, verification steps, retry logic, structured outputs. This is what makes AI reliable instead of just impressive. When the model checks its own work before returning it to you, that's the harness.\n\nLayer 4 is loop engineering. The system runs itself. You set a goal and a stop condition. The loop prompts the model, checks the output, adjusts, and repeats without you. This is where you stop being the bottleneck entirely.\n\nEach layer wraps the one before it. Better prompts help, but without context the model guesses. Context helps, but without a harness the output is inconsistent. A harness helps, but without a loop you're still manually triggering every run.\n\nFull setup guide for all 4 layers using Fable 5 below.",
+      "text_zh": "与AI协作有多个层次：提示工程、上下文工程、框架工程、循环工程。\n\n第一层是提示工程。你在聊天窗口输入的内容，指令的措辞方式，你要求什么、避免什么。这是每个人的起点。它很重要，但很少有人深入探索。\n\n第二层是上下文工程。模型在你提示之前看到的一切：系统指令、参考文件、对话历史、优质输出的示例。一个平庸的提示配上优秀的上下文，永远胜过优秀的提示配上零上下文。\n\n第三层是框架工程。模型周围的代码：工具路由、验证步骤、重试逻辑、结构化输出。这才是让AI变得可靠而非仅仅令人惊叹的关键。当模型在返回结果前自行检查工作时，这就是框架的作用。\n\n第四层是循环工程。系统自主运行。你设定目标和停止条件。循环会提示模型、检查输出、调整参数并重复执行，无需你介入。到了这一层，你就不再是瓶颈。\n\n每一层都包裹着前一层。更好的提示有帮助，但没有上下文模型就会猜测。上下文有帮助，但没有框架输出就不稳定。框架有帮助，但没有循环你仍然需要手动触发每次运行。\n\n以下是使用Fable 5实现全部四层的完整配置指南。",
+      "text_zh_hash": "79d8096a6114f2ed",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/alex_prompter/status/2073462823179731032"
     },
     {
@@ -148,6 +154,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "my PyTorch cheat sheet did surprisingly well. shall i explain data cleanup and feature engineering next???",
+      "text_zh": "我的 PyTorch 速查表反响出奇地好。接下来要不要讲讲数据清洗和特征工程？",
+      "text_zh_hash": "a23df0af5ee00386",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0xkozue/status/2073405932290408647"
     },
     {
@@ -202,6 +211,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Godfather of AI: \"If you sleep well tonight, you may not have understood this lecture.\"\n\nThis 47-minute lecture is the best thing I've seen about AI in the last few months.\n\nHinton built the neural networks behind every AI alive, then quit Google to warn us it's already ahead of us on most cognitive tasks.\n\nDespite that, most people open Claude, type one thing, close the tab and think they're using AI, but they're using maybe 10%.\n\nI turned his talk into 17 Claude features 99% of users never find.\n\nWatch the lecture, then read the article below.",
+      "text_zh": "AI之父：“如果你今晚睡得着，说明你没听懂这场讲座。”\n\n这场47分钟的讲座，是我近几个月来看到的最精彩的AI内容。\n\n辛顿构建了当今所有AI背后的神经网络，随后从谷歌离职，警告我们AI在大多数认知任务上已经领先人类。\n\n尽管如此，大多数人打开Claude，输入一句话，关掉标签页，就以为自己在用AI——实际上只用了10%的功能。\n\n我把他的演讲提炼成17个Claude功能，99%的用户从未发现。\n\n先看讲座，再读下面的文章。",
+      "text_zh_hash": "609f929f9a8c112a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/AnatoliKopadze/status/2073470949572452668"
     },
     {
@@ -242,6 +254,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I like to make up my own rules but this seriously will make prompting and the next gen of models easier for you. Changing a bunch about my setup as we speak\n\nhttps://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5",
+      "text_zh": "我喜欢制定自己的规则，但这确实能让你更轻松地进行提示和开发下一代模型。我现在正在大幅调整我的配置。\n\nhttps://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5",
+      "text_zh_hash": "019a74bdd47e7249",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/elliotarledge/status/2073691590946894212"
     },
     {
@@ -296,6 +311,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "ANTHROPIC JUST LEAKED AN INTERNAL DOCUMENT WORTH $2.6M - IT CHANGES HOW YOU SHOULD BUILD AI SYSTEMS\n\nmost AI systems fail not because the model is weak - but because it lacks the right information at the right moment\n\nSearch → Compress → Memory → Routing → Verification\n\nfive layers, one system, always has the right context\n\nfirst generation engineers picked better models - second wrote better prompts - third builds better infrastructure around the model\n\ncontext became the operating system - not the input\n\nbetter context reduces hallucinations, cuts latency and improves task execution quality - strong context systems outperform larger models in real scenarios\n\nthe systems that win won't have the largest context windows - they will have the highest quality context\n\nContext Engineering is not a feature - it's the foundation",
+      "text_zh": "ANTHROPIC 刚刚泄露了一份价值260万美元的内部文档——它将改变你构建AI系统的方式\n\n大多数AI系统失败的原因并非模型本身不够强大，而是因为在关键时刻缺乏正确的信息\n\n搜索 → 压缩 → 记忆 → 路由 → 验证\n\n五个层级，一个系统，始终拥有正确的上下文\n\n第一代工程师选择更好的模型——第二代编写更好的提示词——第三代围绕模型构建更好的基础设施\n\n上下文成为了操作系统——而非输入\n\n更好的上下文能减少幻觉、降低延迟并提升任务执行质量——在真实场景中，强上下文系统的表现优于更大的模型\n\n最终胜出的系统不会拥有最大的上下文窗口——而是拥有最高质量的上下文\n\n上下文工程不是一个功能——它是根基",
+      "text_zh_hash": "9311d28e7c6804e8",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Sprytixl/status/2073399056181649763"
     },
     {
@@ -338,6 +356,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Maybe you should learn something https://www.marginalia.nu/log/a_135_learn/ (https://news.ycombinator.com/item?id=48782435)",
+      "text_zh": "也许你该学点新东西  \nhttps://www.marginalia.nu/log/a_135_learn/  \n（https://news.ycombinator.com/item?id=48782435）",
+      "text_zh_hash": "666d6c28e12e5ca1",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/betterhn300/status/2073467160895140313"
     },
     {
@@ -595,6 +616,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "here's how you can scrape unlimited leads using Claude Code: https://t.co/DwRoBwBUJ4",
+      "text_zh": "以下是如何使用 Claude Code 无限抓取潜在客户的方法：https://t.co/DwRoBwBUJ4",
+      "text_zh_hash": "0a163d57199c0b56",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/itsalexvacca/status/2073442798909706705"
     },
     {
@@ -650,6 +674,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic just dropped a manual on building AI agents. A friend read it once and deleted half his agent stack.\n\nAnthropic published a full playbook on building effective AI agents. Real customers, real numbers, no theory.\n\nOne page lists the companies running agents in production right now, with resolution rates near the top of Chapter 2 that are worth screenshotting.\n\nA section on architecture patterns quietly explains why most agent builds get slower and pricier as they scale. Most teams are making that mistake without knowing it.\n\nThe starting-simple rule on the Chapter 3 page is the whole report compressed to a single line.\n\nWorth reading twice. Second time with your own architecture open beside it.\n\nMost people are stacking agents. Anthropic just showed which ones to delete.",
+      "text_zh": "Anthropic 刚刚发布了一份关于构建 AI Agent 的操作手册。一位朋友读了一遍，直接删掉了一半的 Agent 技术栈。\n\nAnthropic 发布了一份关于构建高效 AI Agent 的完整实战手册。真实客户、真实数据，没有空谈。\n\n其中一页列出了当前在生产环境中运行 Agent 的公司，第二章开头附近的解决率数据值得截图保存。\n\n某个关于架构模式的部分，不动声色地解释了为什么大多数 Agent 构建在扩展时会变得又慢又贵。大多数团队正在犯这个错误，却浑然不知。\n\n第三章页面上的“从简开始”原则，是整个报告浓缩成的一句话。\n\n值得读两遍。第二遍时，把你自己的架构图放在旁边对照着看。\n\n大多数人都在堆叠 Agent。Anthropic 刚刚指明了哪些应该删掉。",
+      "text_zh_hash": "8b4a578d9affcebc",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0xMoysei/status/2073543771887727067"
     },
     {
@@ -690,6 +717,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Francis Fukuyama: The problem of equality https://ft.trib.al/yELAJDZ",
+      "text_zh": "弗朗西斯·福山：平等问题 https://ft.trib.al/yELAJDZ",
+      "text_zh_hash": "a682f2242e10c12e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/FT/status/2073450667818029361"
     },
     {
@@ -774,6 +804,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Claude Code changed when I stopped treating it like a chatbot.\n\nThe unlock was not a better prompt.\n\nIt was a better loop:\n\nsmall task\nbounded context\ntool access\nverification\nrecovery path\nstop condition\n\nThat is where the developer job is moving.\n\nNot prompting.\n\nOperating.",
+      "text_zh": "Claude Code 的改变，始于我不再把它当作聊天机器人。\n\n突破的关键并非更好的提示词，\n而是更优的工作循环：\n\n小任务\n有限上下文\n工具访问\n验证\n恢复路径\n终止条件\n\n这才是开发者工作的演进方向。\n\n不是提示工程，\n而是操作驾驭。",
+      "text_zh_hash": "0a48018767b447d7",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/nyk_builderz/status/2073777040332104107"
     },
     {
@@ -855,6 +888,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The scenarios keeping AI bosses awake at night are no longer purely hypothetical https://www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a4a3941c097b900019dd03c&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter",
+      "text_zh": "让AI高管们夜不能寐的场景已不再是纯粹的假设\n\nhttps://www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a4a3941c097b900019dd03c&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter",
+      "text_zh_hash": "fb3525d58df72e33",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheEconomist/status/2073723637346050215"
     },
     {
@@ -909,6 +945,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "ANTHROPIC JUST LEAKED AN INTERNAL ENGINEERING DOCUMENT - AND IT SAVES SOLO DEVELOPERS $300,000 A YEAR\n\nthe highest-leverage AI systems are no longer prompt-driven - they are loop-driven - and that one shift changes everything\n\nGenerate → Evaluate → Remember → Schedule → Optimize → Recurse\n\nsix layers, one loop, improves itself without a human\n\nGeneration: the system produces its own solutions - no human writes the brief\nEvaluation: a second layer measures quality - the thing that can say no\nMemory: every execution retains useful discoveries - the loop gets smarter each cycle\nScheduling: the system decides what happens next - nobody manages the queue\n\nOptimization: behavior updates based on what worked - static prompts eventually hit diminishing returns\n\nRecursion: remove any single layer - and system performance drops significantly\n\nthe role of the human shifts from operator to architect - and AI transforms from a prediction engine into an adaptive production system\n\nthe future of AI engineering is recursive",
+      "text_zh": "ANTHROPIC 刚刚泄露了一份内部工程文档——它能为独立开发者每年节省30万美元\n\n最高杠杆率的AI系统已不再由提示词驱动——而是由循环驱动——这一转变改变了一切\n\n生成 → 评估 → 记忆 → 调度 → 优化 → 递归\n\n六个层级，一个循环，无需人类即可自我改进\n\n生成：系统自行产出解决方案——无需人类撰写需求\n评估：第二层衡量质量——那个能说\"不\"的机制\n记忆：每次执行保留有用发现——循环每轮都变得更智能\n调度：系统自主决定下一步做什么——无人管理队列\n优化：行为基于有效结果更新——静态提示词终将遭遇收益递减\n递归：移除任意一个层级——系统性能都会显著下降\n\n人类的角色从操作者转变为架构师——AI从预测引擎蜕变为自适应生产系统\n\nAI工程的未来是递归的",
+      "text_zh_hash": "0817299041cb2e07",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Sprytixl/status/2073101741604679714"
     },
     {
