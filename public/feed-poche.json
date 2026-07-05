@@ -9186,7 +9186,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-28T14:25:44.611044Z",
+      "article_fetch_attempted_at": "2026-07-05T17:42:58.861800Z",
       "article_title_extracted": "Lakebed",
       "category": "Development",
       "created_at": "2026-06-07T07:30:40.944415Z",
@@ -11323,7 +11323,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-28T14:25:44.611044Z",
+      "article_fetch_attempted_at": "2026-07-05T17:42:58.861800Z",
       "article_image_urls": [
         "https://app.bitrig.com/og?title=The+best+way+to+build+native+Swift+apps+with+AI.&description=Describe+what+you+want+to+build%2C+and+Bitrig+turns+it+into+real+Swift+code+you+can+ship+to+the+App+Store.&type=default",
         "https://bitrig.com/assets/logos/nav_icon.png",
@@ -11372,7 +11372,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-28T14:25:44.611044Z",
+      "article_fetch_attempted_at": "2026-07-05T17:42:58.861800Z",
       "article_image_urls": [
         "https://deepswe.datacurve.ai/og/deepswe-card.webp",
         "https://deepswe.datacurve.ai/icons/Anthropic.svg",
@@ -109241,5 +109241,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-07-05T14:20:14.063625Z"
+  "updated_at": "2026-07-05T17:43:03.989398Z"
 }
