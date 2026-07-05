@@ -352,6 +352,21 @@
       "title": "Build production-ready documentation from Markdown in seconds",
       "url": "http://docmd.io"
     },
+    "http://draw.io": {
+      "content_type": "text/html",
+      "description": "draw.io is free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams",
+      "extraction_source": "trafilatura",
+      "final_url": "https://app.diagrams.net/",
+      "frameable": false,
+      "image_urls": [
+        "https://app.diagrams.net/images/spin.gif"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Flowchart Maker & Online Diagram Software",
+      "url": "http://draw.io"
+    },
     "http://eieio.games": {
       "content_type": "text/html; charset=utf-8",
       "description": "games, writing, and nonsense from nolen royalty",
@@ -1045,6 +1060,20 @@
       "text_excerpt_zh": "",
       "title": "The Agent Skills Directory",
       "url": "http://skills.sh"
+    },
+    "http://store.Store": {
+      "cf_fallback_error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "content_type": "",
+      "description": "",
+      "fetch_error": "<urlopen error [Errno -2] Name or service not known>",
+      "final_url": "http://store.Store",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://store.Store"
     },
     "http://varchive.ai/apps": {
       "cleaner_v": 2,
@@ -6237,6 +6266,47 @@
       "title": "",
       "url": "http://x.com/i/article/2073402070753738752"
     },
+    "http://x.com/i/article/2073459403743764480": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2073459403743764480",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HMZvd-DWMAEJPpT?format=jpg&name=900x900)](http://x.com/Michaelzsguo/article/2073475469928804394/media/2073467239114616833)\n\nAI Sovereignty, Open Models, and Alex Karp\n\n[![](https://pbs.twimg.com/profile_images/1484637162108825608/755rQsty_normal.jpg)](http://x.com/Michaelzsguo)\n\n[Michael Guo](http://x.com/Michaelzsguo)\n\n[@Michaelzsguo](http://x.com/Michaelzsguo)\n\n·\n\n21h\n\nFollow\n\nClick to Follow Michaelzsguo\n\n2\n\n1\n\n4\n\n[1.4K](http://x.com/Michaelzsguo/status/2073475469928804394/analytics)\n\n> Frontier AI labs are not just selling you intelligence, they are absorbing your moat. Here is why enterprises are waking up, and what the options actually look like.\n\n## \n\n0 — TL;DR\n\nFrontier AI labs are not just selling you a service, they are studying your workflows, ingesting your proprietary data, and using that intelligence to build competing products. This is not speculation. It happened in February 2026 when Anthropic's Cowork plugins wiped $285 billion in software market cap overnight, and it happened again in April when Anthropic's own CPO resigned from Figma's board three days before launching a direct Figma competitor.\n\nOpen-source models are the most obvious escape route. GLM-5.2 from Zhipu AI is now the top-ranked open-weight model globally, frontier-adjacent on most agentic benchmarks at one-sixth the cost. But open source is not a single thing: calling a Chinese vendor's cloud API trades one sovereignty problem for another. And even self-hosting Chinese weights carries documented security risks that enterprises in regulated industries cannot ignore.\n\nThe real enterprise moat in the AI era is not which model you choose. It is how well you encapsulate your data, workflows, and domain knowledge so they cannot be extracted by whoever sits at the layer beneath you.\n\n## \n\nKarp's Rage — \"That Is Effing Insane\"\n\nOn July 1, 2026, Palantir CEO Alex Karp appeared on CNBC's Squawk Box nominally to discuss a new partnership with Nvidia. What followed was something else entirely.\n\nKarp's opening target was the frontier model providers — OpenAI and Anthropic by name. His core argument, delivered with escalating intensity, was that enterprise leaders had been sold a proposition that fundamentally did not deliver: you pay for tokens, you generate no measurable value, and the model provider gets your intellectual property. As he put it: \"The basic view among enterprises in this country is: I'm going to chillax and waste my time with tokens, I'm gonna get no value, and they're gonna get my IP.\"\n\nWhen anchor Becky Quick said \"you sound pretty angry,\" Karp pushed back without hesitation: \"No. This is the voice of American business that is being channeled through me.\" He invited anyone skeptical to call two or three CEOs privately and ask them what they actually thought of their frontier AI investments.\n\n> Karp's three charges against frontier labs:1\\. No value for tokens: Enterprises are \"paying for tokens that create no value\" — the AI charges by volume but delivers no measurable business outcome. 2\\. IP extraction: Every query routes proprietary workflows and operational data through external infrastructure. The provider learns from it. \"They're stealing your weights and alpha.\" 3\\. Loss of sovereignty: In regulated, defense, and critical infrastructure contexts, relying on an external black-box model is not a vendor risk — it is a national security failure. \"Are we really going to outsource the battlefield of this country to the consensus view in Silicon Valley? That is effing insane.\"\n\nThe financial markets were unbothered by the outburst. Palantir shares rose more than nine percent that day, driven by the Nvidia partnership announcement, which enables sovereign AI deployments where customers retain control over compute, model weights, and data. The market read the partnership and the rant",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2073459403743764480"
+    },
+    "http://x.com/i/article/2073491212477378560": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2073491212477378560",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HMaFWv3a0AA5sZ7?format=jpg&name=900x900)](http://x.com/aparnadhinak/article/2073492320159510869/media/2073491304303218688)\n\nWhat the hell is a loop, anyway?\n\n[![](https://pbs.twimg.com/profile_images/1258117513872728064/c5A0LbF5_normal.jpg)](http://x.com/aparnadhinak)\n\n[Aparna Dhinakaran![](https://pbs.twimg.com/profile_images/2051433378692640768/Ph-ysq0G_bigger.jpg)](http://x.com/aparnadhinak)\n\n[@aparnadhinak](http://x.com/aparnadhinak)\n\n·\n\n20h\n\nFollow\n\nClick to Follow aparnadhinak\n\n8\n\n40\n\n265\n\n[18K](http://x.com/aparnadhinak/status/2073492320159510869/analytics)\n\nThe AI engineering world adopted a new favorite word this month, and it means at least four different things: the loop.\n\nWe're currently at the peak of the hype cycle. On June 7, Peter Steinberger posted that you shouldn't be prompting coding agents anymore, you should be designing loops that prompt your agents. That same week, Boris Cherny of Anthropic said on stage that he doesn't prompt Claude anymore: \"I write loops, the loops do the work.\" Addy Osmani published an essay called \n\n[Loop Engineering](https://addyosmani.com/blog/loop-engineering/)\n\n on June 7, swyx published \n\n[Loopcraft: The Art of Stacking Loops](https://www.latent.space/p/ainews-loopcraft-the-art-of-stacking)\n\n on June 12, and LangChain published \n\n[The Art of Loop Engineering](https://www.langchain.com/blog/the-art-of-loop-engineering)\n\n on June 16\\. Then came the AI Engineer World's Fair, where the word \n\n[dominated the main stage](https://www.latent.space/p/aiewf-daily-dispatch-loops)\n\n. Swyx's keynote was about Loopcraft, an entire track was devoted to software factories, speaker after speaker reached for the same word, and the conference closed on July 2 with an hour-long debate about whether the hype behind loops has outrun what works in practice.\n\nThe problem is that people talking about loops are not discussing the same thing. I counted at least four distinct architectures hiding behind that one word. So this post is an attempt to map out what everyone means.\n\n## \n\n1\\. The execution loop: the agent's own act-observe cycle\n\nThis is the loop most people picture when they say \"agent\": call a tool, read the result, decide the next action, repeat until there are no more tool calls to make. It's what Addy calls the inner execution loop, the part agents can now run largely on their own, and it's the innermost loop you can engineer (swyx's stack has a token loop, but nobody designs the token loop, it’s just part of the model).\n\n[![Image](https://pbs.twimg.com/media/HMaFufaawAAe7Ez?format=jpg&name=small)](http://x.com/aparnadhinak/article/2073492320159510869/media/2073491712203472896)\n\nSwyx's Loopcraft diagram\n\nThe execution loop iterates on steps within one task. It ends on environment feedback: the test output, the API response, the file contents. Humans are usually absent mid-loop and appear at the boundaries, approving plans or reviewing results. It also ends whenever the agent decides it's done, whether or not it actually is. The first fix the field found for that was to wrap this loop in another one that doesn't take the agent's word for it.\n\n## \n\n2\\. The task loop: restart the agent until the spec is satisfied\n\nThis was the first loop to get a name and it’s Geoffrey Huntley's Ralph Loop, which got name-checked from the AI Engineer World's Fair main stage when Allie Howe of Keycard introduced the software factories track by citing his article \n\n[everything is a ralph loop](https://ghuntley.com/loop/)\n\n. A Ralph loop restarts a coding agent against the same specification over and over, allocating a completely fresh context window every iteration and doing exactly one task per loop. The apparent waste is the point: re-feeding the full spec each time prevents the context rot and compaction events that quietly degrade long-running sessions.",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2073491212477378560"
+    },
+    "http://x.com/i/article/2073558530506805248": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2073558530506805248",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HMbLQdhWMAAVIpV?format=jpg&name=900x900)](http://x.com/cobi%5Fbean/article/2073568222213718486/media/2073568162113531904)\n\nHermes as your app’s backend\n\n[![](https://pbs.twimg.com/profile_images/2066272058778988544/hkHZKaNs_normal.jpg)](http://x.com/cobi%5Fbean)\n\n[cobi](http://x.com/cobi%5Fbean)\n\n[@cobi\\_bean](http://x.com/cobi%5Fbean)\n\n·\n\n15h\n\nFollow\n\nClick to Follow cobi\\_bean\n\n5\n\n3\n\n34\n\n[7K](http://x.com/cobi%5Fbean/status/2073568222213718486/analytics)\n\ni’ve been wiring Hermes into a small app i’m building. the surprising part is how much agent infrastructure i didn’t have to rebuild. \n\ni just built an API and gave my Hermes agent access to it.\n\nthat sounds almost too simple, but it changes the shape of the product.\n\nmost people first meet Hermes through the obvious surfaces: > terminal sessions > Telegram, Desktop > scheduled jobs > coding loops > little agents running around your machine.\n\nthose are useful. those are my favorite. and i use them every day.\n\nthe more interesting use-case for app builders is starting to look like this:\n\n> your app owns the product experience, and your Hermes agent does specific backend work over an API.\n\nyour user clicks the clean product button. your app sends the right context. your agent calls the right tool, follows the workflow, uses its memory/skills, and hands the result back.\n\nthe user does not need to know Hermes exists. your product can still feel like normal software.\n\n## \n\nthe pattern\n\nif you are building an AI app, you probably hit the same annoying pile of agent plumbing pretty fast:\n\n\\> where does the agent get context? > which tools can it call? > how does it remember project-specific preferences? > how do you keep reusable workflows from living only in one prompt? > how do you schedule checks? > how do you review anything user-facing before it goes live? > how do you keep logs and receipts for what happened?\n\n[![Image](https://pbs.twimg.com/media/HMbGOCqW8AAXW2N?format=jpg&name=small)](http://x.com/cobi%5Fbean/article/2073568222213718486/media/2073562622985695232)\n\nyou can rebuild all of that inside your app.\n\nsometimes you should. product-critical flows deserve real engineering.\n\nbut a lot of early product workflows do not need a whole custom agent platform yet. they need a sharp API contract and a Hermes profile that knows what to do with it.\n\n> build the app experience. expose the API. give Hermes the tool. let the agent run the workflow.\n\nthat is the part i think is slept on.\n\n## \n\ntesting with ChopChecker\n\nthe app i’m testing this with is ChopChecker.\n\nthe basic idea: paste a startup idea, and ChopChecker checks whether the space already looks cooked using Product Hunt launch evidence. the output is supposed to be blunt, useful, and receipt-backed: verdict, score, comparable launches, wedge, next move.\n\nthe normal product flow is simple. a builder has an idea, pastes it in, and gets a check before burning a weekend on the broad version.\n\nbut the app also creates a bunch of adjacent workflows:\n\n\\> turn a checked idea into a cleaner content note > summarize what the Product Hunt evidence says > pull out the wedge that would make the idea less generic > draft internal launch notes > review whether a claim is too strong > keep the product voice consistent when the app talks publicly\n\nthat is exactly the kind of messy workflow Quasimoto already exists for.\n\nso instead of building a brand new content/research agent from scratch inside ChopChecker, i can expose the app over an API and let my Hermes agent work with it.\n\nthe app stays focused on the user problem. the agent handles the weird operating layer around it.\n\n## \n\nwhy the API part matters\n\nthe API is the boundary that makes this sane.\n\nwithout a boundary, you end up with a vague agent that can “help with the app.” that gets messy fast.\n\nwith an API, your Hermes agen",
+      "title": "",
+      "url": "http://x.com/i/article/2073558530506805248"
+    },
     "http://zaro.ai": {
       "content_type": "text/html",
       "description": "Stop using tools, start running a system. Zaro builds the agents and apps your company runs on - generated from your existing data, just by describing what you need.",
@@ -8392,6 +8462,20 @@
       "title": "",
       "url": "https://ft.trib.al/s1xKc6c"
     },
+    "https://ft.trib.al/yELAJDZ": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://ft.trib.al/yELAJDZ",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "https://ft.trib.al/yELAJDZ"
+    },
     "https://gerireid.com/blog/organising-documentation-for-humans-and-ai/?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -9422,6 +9506,21 @@
       "title": "为什么我用mattpocock/skills替代了superpowers",
       "url": "https://justinyan.me/post/6676"
     },
+    "https://jxnl.co/writing/2026/06/28/two-kinds-of-scheduled-work-in-codex/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "A simple rule for choosing between Scheduled Tasks and Scheduled Messages in Codex.",
+      "final_url": "https://jxnl.co/writing/2026/06/28/two-kinds-of-scheduled-work-in-codex/",
+      "frameable": null,
+      "image_urls": [
+        "https://jxnl.co/assets/images/social/writing/2026/06/28/two-kinds-of-scheduled-work-in-codex.png",
+        "https://avatars.githubusercontent.com/u/4852235?v=4"
+      ],
+      "kind": "article",
+      "text_excerpt": "Skip to content Jason Liu Two kinds of scheduled work in Codex Initializing search blog Home Writing Jason Liu blog Home Writing Table of contents Use a Scheduled Task when every run can start fresh Use a Scheduled Message when the next check needs the thread The decision rule is context Make your own loop skill Back to index Jason Liu Creator Metadata 2026/06/28 in Applied AI , Personal 3 min read Two kinds of scheduled work in Codex ¶ Most automation language is more complicated than the job. You want Codex to do something later, or keep checking something until it changes. That sounds like one feature. It is actually two different kinds of work, and the difference is simple: Scheduled Tasks create a new thread every time they run. Scheduled Messages use the same existing thread every time they run. That is the whole model. Use a Scheduled Task when every run can start fresh ¶ A Scheduled Task is best when the job makes sense without the conversation that created it. For example: Every morning at 9 AM, summarize what I need to catch up on from my email, calendar, and team messages. Tomorrow's summary does not need to remember today's summary. It needs the same instructions, current information, and a fresh place to report the result. This is also useful when one task should run across several projects, or when you want each run to appear separately in Triage. Each run is its own thread. The schedule is the thing that connects them. Use a Scheduled Message when the next check needs the thread ¶ A Scheduled Message, sometimes called a thread automation, returns to the same existing thread each time it runs. For example: Check this PR every 30 minutes. If there are comments, address them and keep CI green. Stop when the PR merges. The next check depends on the work that already happened. The thread knows which PR you mean, which comments were addressed, what failed in CI, and what has changed since the last check. This is the right shape for: polling for updates checking for a status change ongoing research or triage work with a clear stopping condition The thread is the thing that connects the runs. The decision rule is context ¶ Ask one question: If this ran tomorrow, would it need the earlier conversation? If no, use a Scheduled Task. Give it a durable prompt and let each run start clean. If yes, use a Scheduled Message. Keep the work in one thread so each check can build on the decisions and results that came before it. The schedule matters, but it is not the main decision. The main decision is where the useful context should live. Make your own loop skill ¶ I do not want to remember the setup questions every time, so I would make a small skill that turns a rough request into the right scheduled workflow. Give Codex this prompt: Create a reusable loop skill for scheduled work. When I give it a request, first decide whether each run can start fresh or whether the next check needs the current thread's context. If each run can start fresh, help me create a Scheduled Task. If the next check needs the current thread, help me create a Scheduled Message. Infer what you can from the conversation. Ask only the missing questions that materially change the workflow: - What should Codex do each time? - How often should it run? - What change is important enough to report? - When should it stop? - When should it ask me for input? Then create the scheduled workflow with a short, durable prompt that will still make sense on a later run. The best automations do not start with a complicated system. They start with knowing whether the next run needs a clean slate or the same thread. Comments Back to top Previous Three Ways Codex Can Use a Computer Copyright © 2026 Jason Liu Made with Material for MkDocs",
+      "title": "Two kinds of scheduled work in Codex - Jason Liu",
+      "url": "https://jxnl.co/writing/2026/06/28/two-kinds-of-scheduled-work-in-codex/"
+    },
     "https://karlkoch.me/writing/falling-in-love-with-the-build?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -9563,6 +9662,23 @@
       "text_excerpt_zh": "",
       "title": "Linear Status",
       "url": "https://linearstatus.com/"
+    },
+    "https://linktr.ee/alex_prompter": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Hey friend, it's Alex Prompter!\n\n🔑 @godofprompt (co-founder)",
+      "final_url": "https://linktr.ee/alex_prompter",
+      "frameable": false,
+      "image_urls": [
+        "https://linktr.ee/og/image/alex_prompter.jpg",
+        "https://ugc.production.linktr.ee/e3b7839f-eae9-46a2-978c-ebb4f502bdd5_gD78SJmP-400x400.jpeg?io=true&size=avatar-v3_0",
+        "https://assets.production.linktr.ee/static/avatars/blank-avatar.svg?io=true&size=avatar-v3_0",
+        "https://ugc.production.linktr.ee/e3b7839f-eae9-46a2-978c-ebb4f502bdd5_gD78SJmP-400x400.jpeg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Human + AI = Superpowers Hey friend, it's Alex Prompter! 🔑 @godofprompt (co-founder) Human + AI = Superpowers X GET MY 20+ CLAUDE SKILLS 1 file • €49 🤝 LET'S COLLAB Email · partnerships@av5.ai AI-NATIVE ENGINEERING @ALEX_PROMPTER ON X @ALEX_VEREM - MY PERSONAL X @FREE_AI_GUIDES ON X Cookie Preferences • Report • Privacy • Explore • About this account • More from Linktree Explore other Linktrees Heather Traska @heathertraska Alyson Stoner @alysonstoner padmalakshmi @padmalakshmi Mykel @dont.chase.your.d Spanx @spanx Kent Rollins @cowboykentrollins myfavoritemurder @myfavoritemurder Cali Water @caliwater edsheeran @edsheeran nicolebyerwastaken @nicolebyerwastaken previous next Discover more See all @hypeviberecords @mizieskikauani @kratuibenz @curreecollectibles @365.physiquept @fenetigeremew @stefanmiguel @Goddess.moonxiz @josemocny @Atheneas.fashion.usa @geeni_us @inagamjanov @77oliwier @ndalomilano @dkkaua @dinarrovy @bradgoeringfree @teexcv @s.c.getrich @nataliasinbrief @alpa.knitwear @gabrielmarinhovendeor @Oliver.cases_ @kosiolivia15 @starrlyn.paige @neuro72 @RagtagMusicalTheatreKids @homefindswithsid @kedaikainimport @jokiapexmelon.id @listwithnattie_ @castlerealestatemarketing @schspto @inspireconfidenceteam @riley.liz @dapper_merch @pojokbacamamila @SophianAlk @mohamedyaser17 @Teamblazin757 @7okesh @diskbeerconvenienciad @thejungteam @brenda.albuquerque @Joao.diorgenes About this account alex_prompter To help keep our community authentic, we're showing information about accounts on Linktree. Joined May 2026 Human + AI = Superpowers has been a member of Linktree for 1 month and joined in May 2026. The social media accounts linked to from Human + AI = Superpowers are: X. Besides social media accounts, alex_prompter has populated their site with 🤝 LET'S COLLAB, AI-NATIVE ENGINEERING, @ALEX_PROMPTER ON X, @ALEX_VEREM - MY PERSONAL X, @FREE_AI_GUIDES ON X. More from Linktree Products Link in bio + tools Manage your social media Grow and engage your audience Monetize your following Measure your success Templates Marketplace Learn Resources How to use Linktree Pricing Link in bio + tools Link in bio Customize your Linktree Link shortener Create trackable, shareable short links QR code generator Turn links into scannable QR codes Canva Background Editor Import your custom designs from Canva into your profile Linktree for every social platform Grow and engage your audience everywhere Manage your social media Schedule and auto-post Hands-free, hassle-free social media planning Instagram auto reply Automated replies and DMs triggered by comments AI content & caption generator Instant AI-powered post ideas and captions Hashtag generator Trending hashtag suggestions for better reach Social integration for every social platform Plan, auto post, and share across all platforms Grow and engage your audience Collect leads with contact forms Turn visitors into subscribers Manage and activate your audience Organize, tag, and track contacts Send contacts to email tools Sync with Mailchimp, Klaviyo, Kit & more Monetize your following Earn with a Linktree Shop Sell products and earn commission Sell an online course Create and sell your expertise easily Host digital products Sell digital products and build your email list Earn by hosting sponsored links Share brand offers and earn for every sign-up or sale Get rewarded for growing your Linktree Earn points, level up and unlock cash bonuses Booked and paid, easily Offer sessions and earn from your expertise Measure your success Social + link analytics Track clicks, engagement and audience insights Resources Read our blog All the latest tips, tricks and growth strategies Success Stories Real people, real results on Linktree How to use Linktree Linktree Help Centre Get answers, guides and support",
+      "title": "Alex Prompter | Linktree Alex Prompter | Linktree",
+      "url": "https://linktr.ee/alex_prompter"
     },
     "https://longform.asmartbear.com/confidence": {
       "cleaner_v": 2,
@@ -9943,6 +10059,22 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "The Token Compression Illusion: Why I'm Skeptical of RTK - Przemek Mroczek",
       "url": "https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/"
+    },
+    "https://news.ycombinator.com/item?id=48782435": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "",
+      "extraction_source": "trafilatura",
+      "final_url": "https://news.ycombinator.com/item?id=48782435",
+      "frameable": false,
+      "image_urls": [
+        "https://news.ycombinator.com/y18.svg",
+        "https://news.ycombinator.com/s.gif"
+      ],
+      "kind": "article",
+      "text_excerpt": "It's a very common thing to blame the lack of time and \"finding\" the extra time by suggesting to give up phone or some other form of procrastination. But in my experience, time is almost never a problem. It's usually:\n- energy: learning requires much more than the other \"bad\" activities like phone\n- correct psychological state: procrastination is typically triggered as a response to anxiety for me, so any learning I do instead of the phone will also have this poisonous quality of guilt and fear.\n- uninterrupted time\nI have a problem that I take any learning way too seriously, such that it would require deliberate focused practice. Sometimes it kills all the fun, and sometimes I give up just because it takes too much energy.\nStill, it's extremely rewarding for me to learn stuff, even at this age when intelligence is becoming less useful, or at least harder to monetize.\nFor energy, it both requires and pays dividends. It's a bit like working out in that sense.\nI think my intended takeaway was that you really don't need to have make the thing you're studying take a lot of time, that daily consistency matters more than pouring hours into practice and obsessing about it.\nThough in general, I do still think it's the phones and media diet that is the problem with the sense of lacking time.\nFew years ago I had a full time job I felt like I had no time. Then I had a part time job, and I still had no time. Now I'm self employed, with nobody to answer to, and I still often feel like I have no time. Like damn, to get more time than I actually already have I'd need to move in next door to a black hole. Though when I unplug, then holy crap do I suddenly end up with a lot of time.\nOverall, I agree, especially the unplugging part. It's just optimizing for time doesn't really apply in my case. I can carve some time in the evening, but if I spent energy at work, I can hardly learn much.\nBut, some things like doomscrolling and procrastination are both huge energy sinks as well as timesinks. However, targeting them is very hard (again, for me), as it is usually not the root problem but a symptom of anxiety and uncertainty, which I often cannot deal with. If the root of the problem is boredom, it should be much easier to unplug and occupy the brain with something more wholesome.\nAnother thing is obsessive optimization, \"am I studying/practicing the best way possible?\". \"Is it worth it with so little progress?\". I keep falling to such traps. Writing this, I found that I feel that I lack an example of people doing stuff in a suboptimal, slacky, yolo way, deriving fun and still achieving some results in the end.\nYeah I think reaching for the phone can very easily be a soothing mechanism. Like I've noticed sometimes when something a bit socially uncomfortable has happened, like half the people in the room immediately grab their phones. If you pay attention to when people grab their phones, you start to see it a lot.\nThough I think that insight is also probably the first step toward working on the issue. The phone habit masks the problem, but when you take the phone away it can also reveal the truth of how bad it's gotten. Like why are you having these anxiety issues? Is it a lack of sleep, too much caffeine, something to see a therapist about, maybe go on meds? Questions worth asking at least. Self-medicating with doom scrolling isn't going to make things better that's for damn sure.\nI understand exactly what you are talking about because I had both realizations myself: thinking that I have no time because of work and chores, and realizing that the phone is addictive because it gives an exit for my anxiety. I'm still trying to solve both problems, though.\nSo probably the thing you need to start practicing and learning is how to deal with anxiety. Conveniently those sessions can fit right into the time slots you're currently spending procrastinating because of selfsame anxiety. See how long you can sit with it and reassure yourself, before reaching for",
+      "title": "Maybe you should learn something | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48782435"
     },
     "https://newsjack.sh/": {
       "content_type": "text/html; charset=utf-8",
@@ -11677,6 +11809,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2073424460921602048/img/n1_JenpPNURK_HIY.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2073442349494276096/img/RANImEe3Xtoz12-o.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2073442349494276096/img/RANImEe3Xtoz12-o.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2073442349494276096/img/RANImEe3Xtoz12-o.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2073442349494276096/img/RANImEe3Xtoz12-o.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2073464441245454336/img/dVHD_mwhhAvBW_wl.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2073464441245454336/img/dVHD_mwhhAvBW_wl.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2073464441245454336/img/dVHD_mwhhAvBW_wl.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2073464441245454336/img/dVHD_mwhhAvBW_wl.jpg"
     },
     "https://pbs.twimg.com/amplify_video_thumb/2073545589002731521/img/b4EWYjvKnt7kBRHb.jpg": {
       "cleaner_v": 2,
@@ -15136,6 +15296,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMUcKnCWMAAKLqS.jpg"
     },
+    "https://pbs.twimg.com/media/HMUimlAXAAAM95T.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMUimlAXAAAM95T.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMUimlAXAAAM95T.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMUimlAXAAAM95T.jpg"
+    },
     "https://pbs.twimg.com/media/HMY2nrjWIAAIA4v.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15206,6 +15380,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMYvVX9aUAAkhGE.jpg"
     },
+    "https://pbs.twimg.com/media/HMYwDoXWYAAwYz1.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMYwDoXWYAAwYz1.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMYwDoXWYAAwYz1.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMYwDoXWYAAwYz1.jpg"
+    },
     "https://pbs.twimg.com/media/HMZ-vgRWIAA-ZWa.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15233,6 +15421,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HMZqq1MWYAAOrTg.jpg"
+    },
+    "https://pbs.twimg.com/media/HMZrct2aoAAtaTs.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMZrct2aoAAtaTs.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMZrct2aoAAtaTs.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMZrct2aoAAtaTs.jpg"
     },
     "https://pbs.twimg.com/media/HMZs-zbWcAA08Jq.jpg": {
       "cleaner_v": 2,
@@ -15262,6 +15464,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMabHx6bIAAzmaL.jpg"
     },
+    "https://pbs.twimg.com/media/HMayMTMWMAAfvnz.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMayMTMWMAAfvnz.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMayMTMWMAAfvnz.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMayMTMWMAAfvnz.jpg"
+    },
     "https://pbs.twimg.com/media/HMd0FKVWUAAN_Si.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15275,6 +15491,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HMd0FKVWUAAN_Si.jpg"
+    },
+    "https://pbs.twimg.com/media/HMeNtaOWYAAy3YV.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMeNtaOWYAAy3YV.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMeNtaOWYAAy3YV.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMeNtaOWYAAy3YV.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HKHP6PlbQAAmUmx.jpg": {
       "cleaner_v": 2,
@@ -15773,6 +16003,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Designing, Refining, and Maintaining Agent Skills at Perplexity",
       "url": "https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity"
+    },
+    "https://resources.anthropic.com/hubfs/Building%20Effective%20AI%20Agents-%20Architecture%20Patterns%20and%20Implementation%20Frameworks.pdf?hsLang=en": {
+      "cf_fallback_error": "empty result",
+      "cleaner_v": 2,
+      "content_type": "application/pdf",
+      "description": "",
+      "final_url": "https://resources.anthropic.com/hubfs/Building%20Effective%20AI%20Agents-%20Architecture%20Patterns%20and%20Implementation%20Frameworks.pdf?hsLang=en",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://resources.anthropic.com/hubfs/Building%20Effective%20AI%20Agents-%20Architecture%20Patterns%20and%20Implementation%20Frameworks.pdf?hsLang=en"
     },
     "https://restofworld.org/2026/china-tech-layoffs-alibaba-baidu-ai-pivot/?utm_campaign=row-social": {
       "cleaner_v": 2,
@@ -17798,6 +18041,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Designing AI Agents - Jia Huang",
       "url": "https://www.manning.com/books/designing-ai-agents"
+    },
+    "https://www.marginalia.nu/log/a_135_learn/": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "You can learn new things. Pixel art, touch typing, 3d modelling, music, calligraphy, wood working, knitting, a language. Whatever is practical and calls to you, you can learn.\nIn the long term, learning new things is fun and makes life richer in ways you can’t even imagine, and it’s a time investment that will pay dividends for life as these skills never really go away. There are even social aspects, as you’ll quite literally become a more interesting person to talk to.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.marginalia.nu/log/a_135_learn/",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "You can learn new things. Pixel art, touch typing, 3d modelling, music, calligraphy, wood working, knitting, a language. Whatever is practical and calls to you, you can learn.\nIn the long term, learning new things is fun and makes life richer in ways you can’t even imagine, and it’s a time investment that will pay dividends for life as these skills never really go away. There are even social aspects, as you’ll quite literally become a more interesting person to talk to.\nIt requires some time, usually up to an hour a day. That’s genuinely too much for some people, and if you work 80 hour weeks and/or have infants ricocheting around your home like screaming DVD logos, then you may want to put this ambition aside for now and deal with that instead. If on the other hand you spend any amount of time each day scrolling your phone while Netflix plays something you’re half-watching on a screen across the room, you do have time!\nThere’s many (bordering on too many) learning resources out there for almost anything, on youtube, on reddit, on wikis, in books. You’ll want to avoid overloading on information when starting out, just find some starting point that doesn’t look like a sales funnel and go from there, at your own pace.\nMany adults haven’t done this in a while, and many haven’t ever done self-directed study, so it’s time for some expectation management:\nWhile you practice the thing you want to learn, you will not feel good, especially not starting out. This honestly is a bit of an understatement, it really sucks and depending on the task, odds are you may want to lie down for a bit when you’re done with your first practice session. You’ll also almost certainly perform significantly worse toward the end of the session. All this is your brain and muscles getting tired. It’s a good meta-skill to learn to self-assess and pick up on this.\nLearning something completely new from scratch is really awful, and at this point most people are very disheartened and want to give up, which is unfortunate, because if they got back to it the next day, they’d find it’s actually gotten tangibly easier.\nPractice is when you gather data for the brain to process overnight. Sleep is when improvements happen. You should go in with this expectation. During the practice sessions you’ll either see no improvements or a slow degradation.\nYour improvements will plateau after a while, and you will have climbed Mt. Awful and arrived on the long logarithmic plateau of being a mediocre intermediate. At this point you’ll be good enough to actually have some practical use of your skills, so from here on it’s easier to pick up incidental practice and progress without having to grind. How to climb past this stage is beyond the scope of this article, most people honestly never even make it this far.\nHow long to practice each day varies with the task, but usually something like 30-45 minutes unless the thing requires a lot of long breaks, then longer. Practicing longer than that just makes you tired and sloppy and then you’ll ingrain all the mistakes you make. Stopping when you start making a lot of mistakes is a good cue.\nWhat practice looks like is a lot dependent on the skill, if you picked 3D modelling you may be following along with some video tutorial in Blender, and if you picked touch typing maybe you’re grinding away at keybr. You’ll want to pace yourself, daily deliberate practice is what makes you better. Focus on the basics when you’re a beginner, if applicable, practicing stuff you aren’t ready for isn’t helpful, neither is mainlining reddit threads about really advanced topics. Learning something new is a long journey, and you really don’t get there quicker by rushing advanced concepts.\nLearning anything is a long term project, and long term projects are necessary for building a sense of control over your circumstances. Almost nothing can be deliberately and meaningfully changed within the scope of a day, but in months, certainly years, a lot of things can",
+      "title": "Maybe you should learn something Maybe you should learn something | marginalia.nu",
+      "url": "https://www.marginalia.nu/log/a_135_learn/"
     },
     "https://www.mcsweeneys.net/articles/ai-economics-for-dummies?ref=sidebar": {
       "cleaner_v": 2,
@@ -24591,6 +24847,10 @@
       "https://x.com/trq212/status/2073116741782364167",
       "https://x.com/trq212/status/2073502791130345771"
     ],
+    "2073101741604679714": [
+      "https://x.com/Sprytixl/status/2073101741604679714",
+      "https://pbs.twimg.com/media/HMUimlAXAAAM95T.jpg"
+    ],
     "2073111376516759770": [
       "https://x.com/mattrickard/status/2073111376516759770",
       "http://x.com/i/article/2073102695821688833"
@@ -24610,9 +24870,9 @@
       "https://x.com/vasuman/status/2073162148801564961",
       "https://x.com/vasuman/status/2073163436935307329",
       "https://x.com/vasuman/status/2073215133778956476",
-      "https://x.com/vasuman/status/2073215160869884298",
       "https://x.com/vasuman/status/2073215291228864829",
       "https://x.com/vasuman/status/2073215392349302813",
+      "https://x.com/vasuman/status/2073215160869884298",
       "https://x.com/vasuman/status/2073196545470787906"
     ],
     "2073162161179033868": [
@@ -24658,6 +24918,12 @@
       "https://x.com/ibocodes/status/2073546938134450235",
       "https://x.com/ibocodes/status/2073743654083330511"
     ],
+    "2073399056181649763": [
+      "https://x.com/Sprytixl/status/2073399056181649763",
+      "https://pbs.twimg.com/media/HMYwDoXWYAAwYz1.jpg",
+      "https://x.com/Sprytixl/status/2073101741604679714",
+      "https://pbs.twimg.com/media/HMUimlAXAAAM95T.jpg"
+    ],
     "2073404610501329247": [
       "https://x.com/omarsar0/status/2073404610501329247",
       "http://x.com/i/article/2073402070753738752",
@@ -24678,6 +24944,26 @@
       "https://pbs.twimg.com/media/HMY2nspXYAAFsHl.jpg",
       "https://x.com/noahelhadedy/status/2073666543968231812"
     ],
+    "2073405932290408647": [
+      "https://x.com/0xkozue/status/2073405932290408647",
+      "https://x.com/0xkozue/status/2073459825099616594",
+      "https://x.com/0xkozue/status/2073414043822686602"
+    ],
+    "2073442798909706705": [
+      "https://x.com/itsalexvacca/status/2073442798909706705",
+      "https://pbs.twimg.com/amplify_video_thumb/2073442349494276096/img/RANImEe3Xtoz12-o.jpg"
+    ],
+    "2073449976638914856": [
+      "https://x.com/brahma_4u/status/2073449976638914856"
+    ],
+    "2073450667818029361": [
+      "https://x.com/FT/status/2073450667818029361",
+      "https://ft.trib.al/yELAJDZ"
+    ],
+    "2073451818726674500": [
+      "https://x.com/TheEconomist/status/2073451818726674500",
+      "https://www.economist.com/by-invitation/2026/07/01/americas-third-century-will-be-shared-with-china?taid=6a493c1a63792900018a3fc3&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
+    ],
     "2073459627744698608": [
       "https://x.com/Number10cat/status/2073459627744698608",
       "https://x.com/Number10cat/status/2073461967226880423",
@@ -24686,6 +24972,13 @@
       "https://x.com/Number10cat/status/2073502620262502774",
       "https://x.com/Number10cat/status/2073484038220750866",
       "https://pbs.twimg.com/media/HMZ-vgRWIAA-ZWa.jpg"
+    ],
+    "2073462823179731032": [
+      "https://x.com/alex_prompter/status/2073462823179731032",
+      "https://pbs.twimg.com/media/HMZrct2aoAAtaTs.jpg",
+      "https://x.com/alex_prompter/status/2073462836094013885",
+      "https://x.com/alex_prompter/status/2073462848202915961",
+      "https://linktr.ee/alex_prompter"
     ],
     "2073464510774468612": [
       "https://x.com/nocontextfooty/status/2073464510774468612",
@@ -24697,11 +24990,73 @@
       "https://x.com/nocontextfooty/status/2073753794362433818",
       "https://pbs.twimg.com/media/HMd0FKVWUAAN_Si.jpg"
     ],
+    "2073467160895140313": [
+      "https://x.com/betterhn300/status/2073467160895140313",
+      "https://www.marginalia.nu/log/a_135_learn/",
+      "https://news.ycombinator.com/item?id=48782435"
+    ],
+    "2073470949572452668": [
+      "https://x.com/AnatoliKopadze/status/2073470949572452668",
+      "https://pbs.twimg.com/amplify_video_thumb/2073464441245454336/img/dVHD_mwhhAvBW_wl.jpg"
+    ],
+    "2073475469928804394": [
+      "https://x.com/Michaelzsguo/status/2073475469928804394",
+      "http://x.com/i/article/2073459403743764480",
+      "https://x.com/Michaelzsguo/status/2073783586017144883",
+      "https://pbs.twimg.com/media/HMeNtaOWYAAy3YV.jpg"
+    ],
+    "2073492320159510869": [
+      "https://x.com/aparnadhinak/status/2073492320159510869",
+      "http://x.com/i/article/2073491212477378560"
+    ],
+    "2073543771887727067": [
+      "https://x.com/0xMoysei/status/2073543771887727067",
+      "https://pbs.twimg.com/media/HMayMTMWMAAfvnz.jpg",
+      "https://x.com/0xMoysei/status/2073543775977128261",
+      "https://resources.anthropic.com/hubfs/Building%20Effective%20AI%20Agents-%20Architecture%20Patterns%20and%20Implementation%20Frameworks.pdf?hsLang=en"
+    ],
+    "2073548168835276820": [
+      "https://x.com/Xudong07452910/status/2073548168835276820"
+    ],
+    "2073562522469413240": [
+      "https://x.com/McGrady8898/status/2073562522469413240",
+      "https://x.com/McGrady8898/status/2073793717253890078",
+      "https://x.com/McGrady8898/status/2073792488184414616",
+      "https://x.com/McGrady8898/status/2073764378852442294",
+      "https://x.com/McGrady8898/status/2073792565405774164",
+      "https://x.com/McGrady8898/status/2073688532896657828"
+    ],
+    "2073568222213718486": [
+      "https://x.com/cobi_bean/status/2073568222213718486",
+      "http://x.com/i/article/2073558530506805248",
+      "https://x.com/cobi_bean/status/2073786565051011404",
+      "https://x.com/cobi_bean/status/2073787790651703506"
+    ],
+    "2073651831151186073": [
+      "https://x.com/yibie/status/2073651831151186073",
+      "https://jxnl.co/writing/2026/06/28/two-kinds-of-scheduled-work-in-codex/",
+      "https://x.com/yibie/status/2073747719932547505",
+      "http://draw.io",
+      "http://store.Store",
+      "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/"
+    ],
     "2073672533388468608": [
       "https://x.com/vikingmute/status/2073672533388468608",
       "https://github.com/cloudflare/agentic-inbox"
+    ],
+    "2073691590946894212": [
+      "https://x.com/elliotarledge/status/2073691590946894212",
+      "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5",
+      "https://x.com/elliotarledge/status/2073323502837670091"
+    ],
+    "2073723637346050215": [
+      "https://x.com/TheEconomist/status/2073723637346050215",
+      "https://www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a4a3941c097b900019dd03c&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter"
+    ],
+    "2073777040332104107": [
+      "https://x.com/nyk_builderz/status/2073777040332104107"
     ]
   },
-  "updated_at": "2026-07-05T14:52:32Z",
+  "updated_at": "2026-07-05T16:18:24Z",
   "window": "recent"
 }
