@@ -68,6 +68,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Head of Engineering Shopify: \n\n\"AI writes the code, AI reviews the code. Your job is just to write the loops around it.\"\n\n26 minutes on how AI changed the way 3,000 engineers work inside a single company.\n\nIgnoring it while everyone else uses AI to do more is the fastest way to fall behind.\n\nWatch it, then read the step by step guide on loops below.",
+      "text_zh": "Shopify 工程负责人：\n\n\"AI 写代码，AI 审代码。你的工作只是围绕它编写循环。\"\n\n26 分钟详解 AI 如何改变一家公司内 3000 名工程师的工作方式。\n\n当所有人都在用 AI 做更多事时，忽视它才是掉队最快的方式。\n\n先看视频，再阅读下方关于循环的分步指南。",
+      "text_zh_hash": "2ee95168daf07b2b",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/AnatoliKopadze/status/2073815216702242950"
     },
     {
@@ -108,6 +111,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I'm betting my company on proactive agents\n\nagents that sift through 100x more data than anyone, decide what's the most critical thing to work on, and just do it\n\nI wrote down my thoughts\n\nhttps://polylane.com/blog/proactive-agents/",
+      "text_zh": "我把公司的未来押注在主动型智能体上\n\n这些智能体能筛选比人类多100倍的数据，自主判断最关键的待办事项，然后直接执行\n\n我记录下了这些思考\n\nhttps://polylane.com/blog/proactive-agents/",
+      "text_zh_hash": "16644ecbae0d2f36",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/boristane/status/2073820562028446088"
     },
     {
@@ -162,6 +168,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic Managed Agents Lead:\n\n\"Agents were once prompting loops. Now they're long-running actors we set on tasks overnight.\"\n\nIn 40 min, Jess Yan reveals the workflow behind Anthropic's 10,000x internal claim.\n\nOvernight backlog runs + separate-context grading + the API review Claude\n\nThe edge isn't a smarter model. It's the harness that runs it overnight.\n\nWatch it, then read the Fable 5 playbook below.",
+      "text_zh": "Anthropic 托管代理负责人：\n\n\"代理曾经只是提示循环。现在它们是我们可以整夜执行任务的长期运行角色。\"\n\n在40分钟内，Jess Yan 将揭示 Anthropic 内部声称的 10,000 倍效率提升背后的工作流程。\n\n夜间积压任务运行 + 独立上下文评分 + API 审查 Claude\n\n优势不在于更智能的模型，而在于让它整夜运行的框架。\n\n先观看，然后阅读下面的 Fable 5 操作手册。",
+      "text_zh_hash": "3014747fd3311409",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0xLoopz/status/2073794758183411987"
     },
     {
@@ -202,6 +211,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "China welcomes deeper cooperation with Swedish and European businesses, Foreign Minister Wang Yi said in a meeting with Investor Chairman Jacob Wallenberg in Stockholm https://www.bloomberg.com/news/articles/2026-07-05/wang-yi-says-china-welcomes-stronger-european-business-relations?taid=6a49d392c097b900019dcf24&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter",
+      "text_zh": "中国外交部长王毅在斯德哥尔摩与Investor董事长雅各布·瓦伦堡会面时表示，中国欢迎与瑞典及欧洲企业深化合作。https://www.bloomberg.com/news/articles/2026-07-05/wang-yi-says-china-welcomes-stronger-european-business-relations?taid=6a49d392c097b900019dcf24&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter",
+      "text_zh_hash": "5b7a47e6461ae968",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/business/status/2073614453245968592"
     },
     {
@@ -240,6 +252,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Its Dutch manufacturer is fighting to rebut American claims https://www.economist.com/china/2026/07/05/has-china-obtained-the-worlds-most-important-machine?taid=6a4a85657177c90001d8f0c0&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "text_zh": "其荷兰制造商正竭力反驳美国的指控。",
+      "text_zh_hash": "f45fb4d3fc3f48ed",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheEconomist/status/2073805390978982038"
     },
     {
@@ -294,6 +309,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "this is f*cking insane, this is public?\n\nsteve kaliski, engineering lead at stripe, on stage:\n\n\"if an agent tries to spend a thousand dollars on a coffee, that's probably wrong.\"\n\nlive demo. his coding agent broke into a repo, picked stripe, wired API keys, spun up checkout. all in one coffee sip.\n\nthen his card started buying. supabase pro. cursor pro. three books on ebay. audible. a domain.\n\nno human clicked a single time.\n\nengineers building this already pick which merchants your agent finds. everyone else wakes up next to a receipt they didn't sign.",
+      "text_zh": "这他妈也太疯狂了，这玩意儿是公开的？\n\nStripe 工程负责人 Steve Kaliski 在台上说：\n\n\"如果某个智能体试图花一千美元买杯咖啡，那八成是出错了。\"\n\n现场演示。他的编码智能体直接黑进一个仓库，选中 Stripe，接入 API 密钥，启动结账流程。全在一口咖啡的功夫里完成。\n\n然后他的卡就开始自动下单了。Supabase Pro、Cursor Pro、eBay 上三本书、Audible、一个域名。\n\n全程没有人类点过一次鼠标。\n\n已经在构建这套系统的工程师们，会提前选好你的智能体该找哪些商家。而其他所有人，醒来时只会看到一张自己从未签过名的账单。",
+      "text_zh_hash": "14ebaf53feb35415",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/zostaff/status/2073789384608944512"
     },
     {
@@ -335,6 +353,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "\"Small actions spread: the science of the ripple effect\".\nby Andi Roberts\nhttps://andiroberts.com/citizenship/prosocial-behaviour-contagion-citizenship-leadership",
+      "text_zh": "\"小行动扩散：涟漪效应的科学\"\n作者：安迪·罗伯茨\nhttps://andiroberts.com/citizenship/prosocial-behaviour-contagion-citizenship-leadership",
+      "text_zh_hash": "9c49d3530f96391b",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/VKazulkin/status/2073813405798916244"
     },
     {
@@ -413,6 +434,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The management consultant’s guide to love and sex https://www.economist.com/1843/2020/02/20/between-the-spreadsheets?taid=6a49e02963792900018a426f&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter",
+      "text_zh": "管理咨询师的爱情与性爱指南 https://www.economist.com/1843/2020/02/20/between-the-spreadsheets?taid=6a49e02963792900018a426f&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter",
+      "text_zh_hash": "a8a8f2d0a1147a97",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheEconomist/status/2073627972616008053"
     },
     {
@@ -454,6 +478,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "great writeup from @PaulSolt about how to setup some looping, I've also converged to a similar flow, give it a try.",
+      "text_zh": "来自 @PaulSolt 的一篇关于如何设置循环的优秀文章，我也得出了类似的流程，不妨试试看。",
+      "text_zh_hash": "27dc2770bec9aaab",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/mattlam_/status/2073786837789720664"
     },
     {
@@ -494,6 +521,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Being cheap isn't a strategy. It's a race to the bottom.\n\n“Cheap,” by itself.\n\nWhen lower prices result from business structure, cost advantages, and strategic trade-offs that competitors can't match - that's how you win.\n\nhttps://longform.asmartbear.com/never-compete-on-price/?utm_source=twitter&utm_campaign=asmartbear_twitter&utm_medium=social",
+      "text_zh": "便宜本身不是策略，而是奔向底层的竞赛。\n\n“便宜”二字，仅此而已。\n\n当更低的价格源于竞争对手无法复制的商业模式、成本优势与战略取舍时——那才是制胜之道。\n\nhttps://longform.asmartbear.com/never-compete-on-price/?utm_source=twitter&utm_campaign=asmartbear_twitter&utm_medium=social",
+      "text_zh_hash": "95966ea804fbeca4",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/asmartbear/status/2073771130691727700"
     },
     {
@@ -574,6 +604,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "\"Using My Fu**** Brain\".\nAI should make us think better. It should help us hold more context, see more possibilities, and get unstuck when our brain is tired.\nIt should never become a comfortable place to hide from the work.\nhttps://terriblesoftware.org/2026/05/27/using-my-fucking-brain",
+      "text_zh": "\"用我他妈的脑子\"。\n\nAI应当帮助我们更好地思考。它应当帮助我们掌握更多上下文，看到更多可能性，并在我们大脑疲惫时帮我们摆脱困境。\n\n它绝不应成为逃避工作的舒适区。\n\nhttps://terriblesoftware.org/2026/05/27/using-my-fucking-brain",
+      "text_zh_hash": "95f5529cc9a46936",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/VKazulkin/status/2073813909187043649"
     },
     {
@@ -655,6 +688,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "&gt; Skip reading AI-generated code\nCorrect. At this point, it's incompetence. Here's what to do instead and why it's critical to document the intent:",
+      "text_zh": "> 跳过阅读AI生成的代码\n没错。到了这一步，这已经是能力不足的表现。以下是你应该做的，以及为什么记录意图至关重要：",
+      "text_zh_hash": "ddaf91fc05ee9d1b",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/PawelHuryn/status/2073796946167263742"
     },
     {
@@ -776,6 +812,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Some of the most coherent and thought-provoking predictions I've read in a long time",
+      "text_zh": "这是我很久以来读到的最连贯、最发人深省的一些预测。",
+      "text_zh_hash": "8ccbf2f503f2aab3",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/nrmehta/status/2073860421061161065"
     },
     {
