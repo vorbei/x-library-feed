@@ -6266,6 +6266,71 @@
       "title": "",
       "url": "http://x.com/i/article/2073558530506805248"
     },
+    "http://x.com/i/article/2073720584702246912": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2073720584702246912",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HMdXir4XUAAJWmG?format=jpg&name=900x900)](http://x.com/Vladic%5FETH/article/2073723103629222127/media/2073722406833704960)\n\nWHY CLAUDE AUTOMATIONS DIE IN WEEK TWO\n\n[![](https://pbs.twimg.com/profile_images/2049779752345403393/wRfz_eeD_normal.jpg)](http://x.com/Vladic%5FETH)\n\n[Vladic](http://x.com/Vladic%5FETH)\n\n[@Vladic\\_ETH](http://x.com/Vladic%5FETH)\n\n·\n\n13h\n\nFollow\n\nClick to Follow Vladic\\_ETH\n\n8\n\n1\n\n21\n\n[1K](http://x.com/Vladic%5FETH/status/2073723103629222127/analytics)\n\nEvery week another list drops. 60 Claude workflows that make money while you sleep. Or 100\\. Or 200\\. You run one. It works for four days. Then it breaks quietly at 2am Thursday, ships garbage on Friday that nobody catches, and never gets fixed.\n\nThe lists aren't wrong. The problem is the part they skip. And it's the exact part that decides whether the system survives past week two.\n\n## \n\nSilent Degradation\n\nAgentic systems don't crash. They degrade.\n\nClaude writes a newsletter draft off the wrong RSS feed. The competitor monitor tags a product launch as irrelevant. The invoice drafter pulls last month's scope instead of this one.\n\nEvery output looks like it ran. The file is there. The task is marked done. Not one line in the logs says failure.\n\nThree failure modes show up in almost every broken system:\n\n* Context drift. Over a long multi-step run, Claude loses the original constraint and starts optimizing a slightly different goal.\n* Tool assumption failure. The agent calls a tool, it returns an unexpected format (an API added a field, a site changed its HTML), and Claude fills the gap with a plausible but wrong value.\n* Accumulating errors. Step 3 outputs something slightly off, step 6 treats it as ground truth, by step 10 the output is confidently wrong.\n\n## \n\nModel Honesty Is Not Pipeline Correctness\n\nOn the 4.8 release Anthropic poured work into the model's own honesty. Opus 4.8 is the first Claude to score 0% on uncritically reporting flawed results. It fails to raise important events to the user only 3.7% of the time. It's over 10x less likely to overrate itself than 4.7\\. Anthropic's CTO put it at the center: the improvement he keeps coming back to is honesty.\n\nGood. But that's the model second-guessing its own output.\n\nIt doesn't check whether your RSS feed went stale. It doesn't check whether the API added a field. It doesn't check whether step 3 fed step 6 garbage.\n\nFeed it a dead feed URL and it will honestly, cleanly, with zero uncritical reporting, summarize the wrong feed.\n\nModel honesty and pipeline correctness are different problems. 3.7% of the time it still won't flag the thing that matters. And that's the number for the model that's best at it.\n\n## \n\nWhat Real Verification Is\n\nThe structure of any agentic workflow is trigger, agent, verification. Builders get stuck on the first two. The third either never gets built or collapses into \"I'll check it manually,\" which lasts about a week.\n\nVerification is not \"looks fine.\" It has four properties:\n\n1. It is automated, not a promise to review later.\n2. It checks the output against a specific constraint, not \"does this look okay.\"\n3. It tells a plausible-but-wrong output from a correct one. That's the hard part.\n4. It escalates to a human with full context when it fails, instead of aborting silently.\n\nFor a newsletter draft: verify it references at least N sources from your feed list, contains no URLs returning 404, and lands within 20% of your usual word count. Any check fails, the draft gets flagged and held. Not sent.\n\nFor code: run the full test suite, diff against the previous run for regressions, block the PR if anything new broke.\n\nThese checks take an hour to write. They save you from discovering a six-week drift in your competitor monitor three months later.\n\n## \n\nMy Verification Layer\n\nFor me this isn't theory. It's boring cron j",
+      "title": "",
+      "url": "http://x.com/i/article/2073720584702246912"
+    },
+    "http://x.com/i/article/2073723134432182272": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2073723134432182272",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HMdcQi2WwAAoqOp?format=jpg&name=small)](http://x.com/KellehEyad/article/2073728292671127842/media/2073727592729853952)\n\nHow the Cursor iOS App Changed the Way I Build Software\n\n[![](https://pbs.twimg.com/profile_images/2050474545480429568/hJxCU6LL_normal.jpg)](http://x.com/KellehEyad)\n\n[Eyad Kelleh](http://x.com/KellehEyad)\n\n[@KellehEyad](http://x.com/KellehEyad)\n\n·\n\n12h\n\nFollow\n\nClick to Follow KellehEyad\n\n6\n\n7\n\n113\n\n[127K](http://x.com/KellehEyad/status/2073728292671127842/analytics)\n\nI never thought I'd say this out loud, but some of my best development sessions lately have happened on my phone. No desk, no big screen, no mechanical keyboard. Just me, my iPhone, and an agent that actually knows what it's doing.\n\nIt sounds a bit crazy. But let me explain.\n\nI stopped babysitting my agents\n\nFor the longest time, mobile dev tools felt like a joke. Sure, you could check things. Maybe leave a comment on a PR. But actually building something? No chance. That was always a desktop thing.\n\nThen the Cursor iOS app clicked for me and I mean really clicked.\n\nThe biggest thing that changed is that I'm not constantly hovering over my agents anymore. Cursor just handles it. I tell it what I want, point it at the right GitHub issues, and it gets to work. Meanwhile I go live my life. That's it. That's the shift.\n\nMy phone is now part of my development setup\n\nThe way I work looks completely different now. The app connects to GitHub, so I can see all my issues, track which ticket is being picked up, follow the progress, and jump in when something needs redirecting. The cloud agents are making changes, writing code, opening pull requests and I'm watching it all happen from my phone like I'm reviewing someone else's work.\n\nWhich, in a way, I am. And it's wild.\n\n![](https://pbs.twimg.com/amplify_video_thumb/2073723808641433600/img/lK4Utj4k4DS6nqkC.jpg)\n\n  \nWe're busy people. That's just the truth.\n\nHere's the thing nobody really talks about. We have families. We have lives. We can't always be at a desk for eight hours straight just to make progress on a project.\n\nBut ideas don't stop coming just because you stepped away from your screen.\n\nWhat the Cursor iOS app gave me is something I didn't even know I needed the ability to keep building without it taking over my whole day. I can have dinner with my family, be present, and still glance at my phone to see what the agent finished. I can review a pull request while waiting for the bus. I can redirect the whole build direction in two minutes between meetings.\n\nThis isn't about working more. It's actually the opposite. It's about working in a way that fits around your life instead of demanding your whole life fits around it.\n\nSo where does this leave the desktop?\n\nStill very much in the picture. There are sessions where you need the big screen, the full focus, the proper setup. That's not going away.\n\nBut those deep focus sessions are no longer the only time you can make real progress. And that changes everything.\n\nI've built features on my commute. I've shipped fixes from my couch. I've woken up to pull requests that were opened while I was asleep — because the agent kept going after I put my phone down.\n\nWriting software in 2026 doesn't look like what it used to. But let me be honest the iOS app doesn't replace my laptop.\n\nWhen I need to go deep, focus for hours, and really get into the details of a complex problem I'm still at my desk. That's not changing.\n\nWhat the iOS app does is fill in all the gaps in between. The moments where I would have just stopped. The commute, the waiting room, the quiet evening where I still want to check in on what's being built.\n\nIt's not a replacement. It's an add-on. A really good one.\n\nWant to publish your own Article?\n\n[Upgrade to Premium](http://x.com/i/premium%5Fsign%5Fup)\n\n* [![](https://pbs.twimg.com/profi",
+      "title": "",
+      "url": "http://x.com/i/article/2073723134432182272"
+    },
+    "http://x.com/i/article/2073805892584157184": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2073805892584157184",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HMejeBzXAAAvhwS?format=jpg&name=900x900)](http://x.com/DruRly/article/2073808336231813273/media/2073805889702658048)\n\nI Run Every Business Idea Through These 11 Filters\n\n[![](https://pbs.twimg.com/profile_images/1956074168601972737/h-2eFg4A_normal.jpg)](http://x.com/DruRly)\n\n[Dru Riley](http://x.com/DruRly)\n\n[@DruRly](http://x.com/DruRly)\n\n·\n\n7h\n\nFollow\n\nClick to Follow DruRly\n\n2\n\n39\n\n[3.7K](http://x.com/DruRly/status/2073808336231813273/analytics)\n\nI run each business idea through 11 filters before I commit.\n\nThese filters sharpened over years of building, killing and pivoting my own projects. I call the process Ideacide. Kill bad ideas before they cost you years.\n\n> [HeadsUp](https://headsup.bot/)\n> \n> , \n> \n> [Multi](https://makemulti.com/)\n> \n> and Charm survived the filters.\n\n## \n\nThe 11 Filters\n\n1\\. Personal use. \n\nWill I use it? I have to be my own first customer. \n\n2\\. Daily or more use. \n\nThe more I use it, the faster it develops and improves. Daily use forces empathy. It compresses feedback loops.\n\n3\\. Platform potential. \n\nHamilton Helmer's Seven Powers maps how companies build durable advantages:\n\n* Scale economies\n* Network effects\n* Counter-positioning\n* Switching costs\n* Branding\n* Cornered resource\n* Process power\n\nI look for at least one. If someone could replicate months of accumulated work in a weekend, one of these powers is missing.\n\n4\\. Counter-positioning. \n\nThis is one of the Seven Powers and it's important enough to be its own filter. \n\nCan I build something the incumbents can't copy? \n\nCounter-positioning means your business model would hurt an incumbent's existing revenue stream if they adopted it. \n\nNetflix streaming vs. Blockbuster stores. Being different is good. If you're entering a market with 50 direct competitors doing the same thing, it fails this test.\n\n5\\. Mutually reinforcing with my portfolio. \n\nDoes it feed what I'm already building? \n\nEach product should make the others stronger. A win in one compounds across others. \n\nReal estate would be a distraction. It doesn't return value back to the things I'm already building. The right idea strengthens everything else.\n\n6\\. Gives me energy to build it. \n\nI have to feel the pull. This is founder-nature fit. \n\nThe ideas that survive the other 10 filters but drain me are the most dangerous because the logic says yes but my body says no.\n\n7\\. High-to-medium revenue proximity or urgency. \n\nIt's close to the money or it solves a very urgent, painful problem. Products that are \"nice-to-have\" sit in the backlog forever. \n\nProducts that eliminate pain or unlock revenue get bought.\n\n8\\. Low marginal costs. \n\nCan it scale without costs scaling with it? \n\nSoftware and digital products cost almost nothing per additional customer. Physical goods, service hours and per-unit fulfillment grow linearly. \n\nLow marginal costs mean I can serve 10x more customers without 10x more spend. \n\nAnd if revenue dips, I'm not bleeding on fulfillment or stuck with inventory.\n\n9\\. Market size. \n\nIt can help at least 10,000 businesses or at least 10 million people. If the addressable market is too small, the ceiling constrains everything else.\n\n10\\. Passive value delivery. \n\nCan it run in the background? The best products deliver value without requiring the customer to do anything.\n\n11\\. Evidence of demand. \n\nIs there signal?\n\n* Keyword research\n* Community conversations\n* App Store reviews\n* Reddit threads\n* Competitor traction\n\nI look for people already searching, asking or paying for something adjacent. \n\nSometimes being your own first customer (filter 1) is all the evidence you need. Demand has to exist before I build for it.\n\n🚦\n\nHow many of your ideas would pass all \n\n[11 filters](https://druriley.com/11-filters/)\n\n?\n\nI write an essay daily. Get them free: \n\n<https://druriley.com/>\n\nWant to publish your own Article?\n\n[U",
+      "title": "",
+      "url": "http://x.com/i/article/2073805892584157184"
+    },
+    "http://x.com/i/article/2073813350526631936": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2073813350526631936",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HMeqWyHWsAEqH98?format=jpg&name=900x900)](http://x.com/dair%5Fai/article/2073814128888549810/media/2073813461813866497)\n\n![🥇](https://abs.twimg.com/emoji/v2/svg/1f947.svg)Top AI Papers of the Week \n\n[![](https://pbs.twimg.com/profile_images/1643277398522187778/31dedbLo_normal.jpg)](http://x.com/dair%5Fai)\n\n[DAIR.AI](http://x.com/dair%5Fai)\n\n[@dair\\_ai](http://x.com/dair%5Fai)\n\n·\n\n7h\n\n1\n\n10\n\n66\n\n[25K](http://x.com/dair%5Fai/status/2073814128888549810/analytics)\n\nThe Top AI Papers of the Week (June 28 - July 5)\n\n## \n\n1\\. Red Queen Gödel Machine\n\n[![Image](https://pbs.twimg.com/media/HMeqdP3XwAAmAyn?format=jpg&name=small)](http://x.com/dair%5Fai/article/2073814128888549810/media/2073813572879106048)\n\nSelf-improving agents are only as strong as the evaluator scoring them, and most systems freeze that evaluator in place, so improvement stalls the moment the judge stops getting harder. The Red Queen Gödel Machine makes the evaluator part of the search itself, letting agents and the criteria that judge them co-evolve.\n\n* The stationary-evaluator trap: Classic self-improvement loops assume a fixed evaluation criterion, so once an agent saturates it, the reward signal goes flat and progress plateaus no matter how much compute you add.\n* Controlled utility evolution: The framework lets the utility function update at epoch boundaries, turning evaluation into a moving target that continually re-opens headroom for the agent to climb.\n* Evolving evaluators and adversarial objectives: By opening the search to evolving evaluators, the method can discover things like a reviewer that stays equally stringent on AI and human work, imposing a curriculum-like pressure on the task agent.\n* Why it matters: Framing self-improvement as a Red Queen race between agents and evaluators offers a principled route past the plateaus that limit today’s agentic loops, pointing toward open-ended systems that keep improving instead of settling.\n\n[Paper](https://arxiv.org/abs/2606.26294)\n\n | \n\n[Tweet](https://x.com/omarsar0/status/2071285506630160761)\n\n## \n\nMessage From Our Sponsor\n\n[![Image](https://pbs.twimg.com/media/HMeqfSqXQAAIzBQ?format=jpg&name=small)](http://x.com/dair%5Fai/article/2073814128888549810/media/2073813607989592064)\n\nWeekend project: an agent that calls your dentist, texts your customers, or answers a real phone line. \n\n[Dial](https://getdial.ai/?utm%5Fsource=elvis&utm%5Fmedium=newsletter&utm%5Fcampaign=WeekendProject)\n\n gives your agent a live number in minutes - voice, SMS, iMessage, WhatsApp\\* - via REST, SDK, CLI, or MCP, plugging straight into Claude, Codex, Cursor, Hermes or n8n.\n\nBacked by a16/SR - \n\n[Dial](https://getdial.ai/?utm%5Fsource=elvis&utm%5Fmedium=newsletter&utm%5Fcampaign=WeekendProject)\n\n is already replacing months of CPaaS work for builders shipping agents into production. No telecom knowledge required, and you can be sending your first message before your coffee’s done.\n\n[Grab a Number](https://getdial.ai/?utm%5Fsource=elvis&utm%5Fmedium=newsletter&utm%5Fcampaign=WeekendProject)\n\n## \n\n2\\. MCP Server Patterns\n\n[![Image](https://pbs.twimg.com/media/HMeqhb_WwAAyaxW?format=jpg&name=small)](http://x.com/dair%5Fai/article/2073814128888549810/media/2073813644853297152)\n\nAs teams rush to wrap tools and data behind the Model Context Protocol, they keep rebuilding the same server shapes without shared names for them. This industry experience paper catalogs the recurring architectures so builders can reason about MCP servers the way software engineers reason about design patterns.\n\n* Five recurring server patterns: Across fifteen independently developed servers, the authors identify Resource Gateway, Tool Orchestrator, Stateful Session Server, Proxy Aggregator, and Domain-Specific Adapter, each documented in the classic context, problem, solution, and consequences form.\n* Grounded",
+      "title": "",
+      "url": "http://x.com/i/article/2073813350526631936"
+    },
+    "http://x.com/i/article/2073817721075331072": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2073817721075331072",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HMeuaLnb0AA9JYr?format=jpg&name=360x360)](http://x.com/jxnlco/article/2073819508729684462/media/2073817918245425152)\n\nIf You Want Taste, You're Gonna Have to Eat\n\n[![](https://pbs.twimg.com/profile_images/2057561784047816704/5Su5xy1d_normal.jpg)](http://x.com/jxnlco)\n\n[jason](http://x.com/jxnlco)\n\n[@jxnlco](http://x.com/jxnlco)\n\n·\n\n6h\n\nFollow\n\nClick to Follow jxnlco\n\n12\n\n14\n\n199\n\n[20K](http://x.com/jxnlco/status/2073819508729684462/analytics)\n\nThere are songs that make me cry that you'll never hear about. There are poems I read while my mother lay dying in front of me, and unless I tell you, you'll never know which ones. My taste in music, in food, in art, all of it is private by default. You'd have to eat with me to know I'd happily live on fried chicken. Nobody reads my diary unless I show them. Nobody comes into my home unless I invite them in.\n\nBut the moment I step outside, they're looking at you. Before I speak, before you know what I do, before you know anything about how I think, you've already seen my taste. Personal style is the most front-loaded expression of taste there is. Every other form you get to keep to yourself. This one you have to subject everyone to. Some days I feel terrible and I put on a fucking blazer. Some days I want to wrap myself up and hide in the shadows, and some days I want to command the room. The clothes go out ahead of me.\n\nSo style is where I want to start, because it's the honest lab. But this essay is really about taste, and why I think it's become the thing most people are missing.\n\n## \n\nBottlenecks\n\nAs AI has allowed more and more people to create things, the biggest differentiation, the biggest skill people are lacking, is taste itself.\n\nWhat does that mean? Taste is a little bit of aesthetic judgment, knowing what's beautiful. But I think taste is really your ability to model out what people will like. It's curation versus consumption. And with AI there's so much more volume of work now that it's really easy to regress to the mean. In which case it's not really taste. Taste is a kind of risk-taking. You're choosing to deviate from the safe average.\n\n## \n\nArt School\n\nI felt the old version of this in art school. My taste exceeded my ability. I could see what good work looked like, I just couldn't make it yet, and I didn't have the words to describe what was going on.\n\nNow AI flips that. Ability is basically free, so for most people, ability exceeds taste. You can make anything, and you don't know what's worth making.\n\n## \n\nEating\n\nIf you want to be a good chef, you have to eat at people's restaurants. You can't just look at the menu.\n\nSame with clothes. So many people I know refuse to try things on because they're not going to buy them. This is exactly the wrong way to approach it. Go into the store. Try on a bunch of shoes. Try on the weird jacket. Move around in it. Some days you learn something and buy nothing, and that's a fine day.\n\n## \n\nVocabulary\n\nIn art school I didn't have the words. This is how you get them.\n\nAs you eat, start asking why you like what you like. Do I like the way this touches my skin, or the way it drapes over my skin? Those are different things. I rarely think about items of clothing in isolation. I'm thinking about materials and draping first, structure and form first. Then lines. Color, for me, is simple: gray, blue, black, red. That's it. Your hierarchy will be different. You only find it by putting things on your body and paying attention.\n\nThat's the whole method, honestly. Eat widely, notice what you notice, and keep a record of why.\n\n## \n\nTranscribing\n\nWalter Benjamin talked about mechanical reproduction stripping the aura from art. I think AI does something worse. It gives you the destination without the hours of noticing that used to get you there.\n\nIn music, transcribing a solo forces you to lis",
+      "title": "",
+      "url": "http://x.com/i/article/2073817721075331072"
+    },
     "http://zaro.ai": {
       "content_type": "text/html",
       "description": "Stop using tools, start running a system. Zaro builds the agents and apps your company runs on - generated from your existing data, just by describing what you need.",
@@ -6537,6 +6602,22 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "<![CDATA[Small Talk]]> <![CDATA[Is chat the final form of UX for AI?]]> <![CDATA[Is Tokenmaxxing Dead? + Using AI at Home]]> <![CDATA[Software Factories vs Labs, HTML vs Markdown, and Instant Inference w/ Max & Geoffrey]]>",
       "url": "https://anchor.fm/s/1131bf314/podcast/rss"
+    },
+    "https://andiroberts.com/citizenship/prosocial-behaviour-contagion-citizenship-leadership": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Discover the \"three degrees of influence.\" Learn the science behind why your small acts of generosity and leadership trigger ripples of change in others.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://andiroberts.com/citizenship/prosocial-behaviour-contagion-citizenship-leadership",
+      "frameable": null,
+      "image_urls": [
+        "https://i0.wp.com/andiroberts.com/wp-content/uploads/2026/05/prosocial-contagion-behavioural-science-citizenship.png?fit=1080%2C1350&ssl=1",
+        "https://secure.gravatar.com/avatar/63901e783f78308bef40558955107f6d6cccf0ff7a15f1af4fe156bcf55cf86e?s=72&d=mm&r=g"
+      ],
+      "kind": "article",
+      "text_excerpt": "The ripple effect: why small actions spread\nWe often underestimate the impact of our individual contributions because we cannot see the immediate, systemic result. We assume that unless an action is “big” or “scalable,” it is essentially invisible. However, behavioural science tells a different story. Research into prosocial contagion, the spread of helping behaviour, reveals that citizenship is not a top-down instruction, but a lateral infection. When you choose to act helpfully, you are not just improving a moment; you are shifting the probability that others will do the same.\nThe three degrees of influence\nA landmark study published in the Proceedings of the National Academy of Sciences by researchers at the University of California, San Diego, and Harvard University, provides a startling statistic: cooperative behaviour spreads across social networks up to three degrees of separation. The researchers, [James Fowler and Nicholas Christakis](https://www.pnas.org/doi/full/10.1073/pnas.0913149107), demonstrated that when one person acts generously, it triggers a cascade of cooperation. This “upstream reciprocity” means that if you act helpfully toward person A, they are more likely to help person B, who in turn is more likely to help person C. Specifically, the research showed that the initial act of cooperation can be tripled as it ripples through the network. This proves that citizenship does not require a mandate or a memo; it requires a model. One person choosing to step towards a conversation or do the next helpful thing creates a visible alternative to the standard culture of apathy or avoidance.\nModelling over instruction\nMost of our organisations and communities attempt to drive change through instruction. We write codes of conduct, publish mission statements, and hold training sessions on “values.” While these have their place, they rarely change behaviour. Human beings are biologically wired to mimic what they see, not what they are told. This is why a leader who uses their voice constructively has a thousand times more impact than a leader who merely emails a policy about transparency.\nWhen you model citizenship in the “room you are in,” you are providing a blueprint for others. People are often waiting for “social proof” that it is safe to care, safe to speak, or safe to participate. By being the first to move, you lower the social cost for everyone else. You are not just being helpful; you are granting permission. This is how a toxic workplace begins to heal or a quiet street begins to wake up. It starts with the infectious power of a single, visible act of agency.\nThe architecture of a movement\nThis contagion effect is why “one small step” is never truly small. In a connected system, every action is a signal. When we choose to participate rather than consume, we are sending a message to the network that ownership is the new norm. This creates a feedback loop. As more people witness and mimic constructive civic action, the “temperature” of the community changes. What was once a radical act of initiative eventually becomes the expected standard of behaviour.\nCitizenship is the willingness to be the first domino. We do not need to wait for a majority to agree with us before we begin to act. We only need to understand that our presence and our choices are being watched and recorded by the social ecosystem around us. By consistently choosing to be a person of contribution, you are participating in a quiet, unstoppable revolution. The future is not just created by those who participate; it is created by the ripple effect of their participation.\nQuestions for reflection\nWho in my life has modelled citizenship so clearly that I found myself wanting to act similarly?\nIf I knew my next action would be mirrored by three other people, would I change what I am about to do?\nIn what way am I currently waiting for “social proof” from others before I choose to be helpful?\nHow can I make my “small steps” more visible to others so",
+      "title": "Small actions spread: the science of the ripple effect | Andi Roberts – Executive Coach | Leadership Trainer | Facilitator",
+      "url": "https://andiroberts.com/citizenship/prosocial-behaviour-contagion-citizenship-leadership"
     },
     "https://aresluna.org/show-your-hands-honor/?ref=sidebar": {
       "cleaner_v": 2,
@@ -9703,6 +9784,32 @@
       "title": "Lost confidence",
       "url": "https://longform.asmartbear.com/confidence/?utm_source=twitter&utm_campaign=asmartbear_twitter&utm_medium=social"
     },
+    "https://longform.asmartbear.com/never-compete-on-price/?utm_source=twitter&utm_campaign=asmartbear_twitter&utm_medium=social": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "The difference between \"low prices\" as a race to the bottom or as a success story (like Amazon, Costco, IKEA, Vanguard) is in leveraging intentional weaknesses.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://longform.asmartbear.com/never-compete-on-price/?utm_source=twitter&utm_campaign=asmartbear_twitter&utm_medium=social",
+      "frameable": false,
+      "image_urls": [
+        "https://longform.asmartbear.com/never-compete-on-price/thumbnail-1200w.jpg",
+        "https://longform.asmartbear.com/svg/bear-big.svg",
+        "https://longform.asmartbear.com/images/kindle.png",
+        "https://longform.asmartbear.com/images/pdf-64.png",
+        "https://longform.asmartbear.com/never-compete-on-price/l-due-recent-economic-conditions-picture-worth-dropped-an-time-low-842-words-754w.jpg",
+        "https://longform.asmartbear.com/never-compete-on-price/due-recent-economic-conditions-picture-worth-dropped-an-time-low-842-words-2243w.jpg",
+        "https://longform.asmartbear.com/never-compete-on-price/l-bear-with-loss-379w.png",
+        "https://longform.asmartbear.com/never-compete-on-price/bear-with-loss-914w.png",
+        "https://longform.asmartbear.com/never-compete-on-price/l-costco-logo-434w.png",
+        "https://longform.asmartbear.com/never-compete-on-price/costco-logo-2383w.png",
+        "https://longform.asmartbear.com/never-compete-on-price/l-southwest-logo-432w.png",
+        "https://longform.asmartbear.com/never-compete-on-price/southwest-logo-2560w.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Sometimes never compete on price\n“Never compete on price.”\nSo we are told. But customers want low prices, and it worked for Costco, Southwest Airlines, Vanguard, IKEA, Amazon, Walmart, McDonald’s, H&M, Dollar General, TJ Maxx, and many others. So why are we told not to use a low-prices to win?\nWhen two products are fundamentally different—in features, integrations, complexity—customers often have no real choice between them. A large enterprise must use software with single-sign-on, security controls, compliance features, and the ability to scale to tens of thousands of users with roles and permissions and integrations with corporate systems.\nFor a small business, those features make the software harder to use. And no one wants to pay for things they don’t need. So, Enterprise- and SMB-targeted products differentiate on capabilities and user-experience, not on price.\nBut consider two products that solve the same problem for the same customer segment in largely the same way, with largely the same features. The sales team highlights minor differences that matter to maybe 10% of users. Each founder is certain that theirs is the Only True Way, but everyone else has a hard time distinguishing them. Price, then, is the last remaining thing they can compete on. They are two gas stations across the street from one another; the main difference is the number on the big sign.\nSo, one company drops its price by 20%, and starts winning market share. The other, having no other way to compete, does the same. This continues through “special offers” and permanent cuts and “branding” and kick-backs to influencers until there’s no profit left. Both companies end up poor, and in case your response is “Good! Companies are evil and don’t deserve profits!”, remember this also means they’re unable to invest in product development or customer service; thus the products and companies stagnate and then deteriorate, which in turn ruins the customers’ experience. Low price comes at a price, to consumer and company alike.\nThe math is even worse. A 20% price cut needs a 25% increase in number-of-customers to maintain the same amount revenue.1 It’s worse again with profit; even a seemingly-minor 10% price reduction can easily mean a 50% profit reduction2—terrible!\n1 Charging 80% of the price at 120% purchase volume multiplies to 96% of the revenue you had. Percentage losses always require even-larger-percentage gains just to get back to where you were. This asymmetric effect also appears in[the math of becoming more productive](https://longform.asmartbear.com/double-your-productivity/).\n2 Suppose the company charges $100 for a product and makes $20 profit after all costs. Reducing the price to $90 (a 10% price reduction) reduces profit to $10 (a 50% reduction from $20). This is exactly why[established companies cannot compete on price](https://longform.asmartbear.com/compete-on-profit/)on their main product, and thus is an Achilles’ heel for[startups to exploit](https://longform.asmartbear.com/startup-beats-incumbent/).\nThis math is why pundits (including me) constantly admonish bootstrapped founders to “raise your prices.” Low prices leave room for neither reinvestment nor profit. New founders price their products low for the wrong reason: They don’t know how to set prices, and they know their initial product isn’t very good, so instead of making it [simple and lovable](https://longform.asmartbear.com/slc/) and winning a reasonable price from their [ideal customers](https://longform.asmartbear.com/icp-ideal-customer-persona/) who would be [happy to pay it](https://longform.asmartbear.com/willingness-to-pay/), they sheepishly charge a low price, attracting the worst kinds of customers (the ones who can’t afford a proper solution, but occupy the greatest amount of time in tech support), and dramatically increasing the number of customers they must accumulate before they can quit their day job, all with no extra money for marketing or sales or design or product",
+      "title": "Sometimes never compete on price",
+      "url": "https://longform.asmartbear.com/never-compete-on-price/?utm_source=twitter&utm_campaign=asmartbear_twitter&utm_medium=social"
+    },
     "https://lore.org/": {
       "content_type": "text/html; charset=utf-8",
       "description": "Lore is designed for unprecedented scalability of both data and teams. It’s optimized for projects that combine code with large binary assets.",
@@ -10110,6 +10217,27 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "The Cost YAGNI Was Never About - by Kent Beck",
       "url": "https://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about"
+    },
+    "https://newsletter.manager.dev/p/the-un-hateable-engineering-managers": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "The un-hateable engineering managers",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.manager.dev/newsletter/the-un-hateable-engineering-managers",
+      "frameable": null,
+      "image_urls": [
+        "https://manager.dev/newsletter/the-un-hateable-engineering-managers/opengraph-image-2tlwqw?c84712a3cec82ff5",
+        "https://manager.dev/newsletter/the-un-hateable-engineering-managers/twitter-image-2tlwqw?c84712a3cec82ff5",
+        "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/2d3df2f7-c006-481a-8484-c0e4db6ea7c3/image.png?t=1779100545",
+        "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/685457ee-2bdc-41bd-bdc7-654d9b2dca94/image.png?t=1779101100",
+        "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/3f8a7e8f-2f54-4b02-bd2d-42f38384b4e1/ChatGPT_Image_Apr_7__2026__02_05_00_PM.png?t=1775560116",
+        "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/91ef78f3-21e5-4564-a394-7cce85429025/image.png?t=1778326785",
+        "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/d684fe7b-e928-4302-bcdb-6ccf1b421d74/Frame-74__1_.gif?t=1776337812"
+      ],
+      "kind": "article",
+      "text_excerpt": "The lie of Radical Candor and ruining an engineer's day\nAnton Zaides·\nteam leadershipfeedbackhiringcommunicationcareer growth\n You hired an engineer 3 months ago, he's clearly not a good fit, but he's a father of 4 and was unemployed for a year. What do you do? ([I asked this question on LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7436280419425247232/?utm_source=newsletter.manager.dev&utm_medium=referral&utm_campaign=the-un-hateable-engineering-managers), got some great comments) \nDid you squirm inside a bit?\nHere’s my version of it:\nA few years ago, I had a remote developer from Ukraine who was clearly underperforming. Not answering Slack messages, barely making progress on tasks. I gave him clear feedback and expectations. He improved for a couple of weeks, then went right back.\nI planned to let him go (really!). Then the war with Russia broke out.\nIn the first month, we didn't expect any work from him and gave him full pay. He escaped to Prague, found a place, and slowly got back to work. And then the same behavior repeated itself.\nI gave him some leeway - this guy was a refugee in a different country, of course he couldn't work the same. But after a few months, it was really dragging the team down.\nI still couldn't do it. My manager ended up forcing the decision.\nAfterward, I felt pure relief. Thank god someone made the call for me.\nEvery engineering manager has a version of this thought running in their head:\n- Someone requests a vacation at the worst possible time, and you think: \"Don't they see it's bad timing? Why make me decide?\" \n- Someone asks for a promotion they're not ready for, and you think, \"Can't they see how far they still have to go?\" \n- Someone's doing the bare minimum, and you think, \"Don't they know I can see it? Why not just leave?\" \n- Someone asks to work from home when the company is strict about office days. You think, \"Don't they see I can't allow it? Why put me in this spot?\" \nIn all of these cases, you're hoping reality will do your job for you, that the situation will somehow resolve itself. That people will magically improve (or magically quit), that they will just make the right choices themselves.\nWith my developer in Ukraine, I was hoping the same. That he'd improve, or that he'd just leave - anything but me being the one to make that decision.\nMe dragging my feet had a price.\nMy team carried the frustration for months. They depended on this guy and he wasn't delivering, and they saw I was delaying. I've seen this pattern play out dozens of times across my career: when a manager finally lets someone go, the team is almost never surprised. I don't remember a single case where the team was angry at the manager for the decision, or didn't understand where it came from.\nWhat the manager feels, the team almost always feels stronger.\n Kim Scott’s [Radical Candor](https://www.goodreads.com/en/book/show/29939161-radical-candor?utm_source=newsletter.manager.dev&utm_medium=referral&utm_campaign=the-un-hateable-engineering-managers) is one of the most famous leadership books. The TLDR is simple: a 2x2 matrix. The X axis is how direct you are. Do you give tough feedback, do you let people go when needed, do you say no to requests. The Y axis is how much you care. \nOn the bottom left you have the manipulators, who never tell you anything to your face and don't care about you. On the bottom right you have direct and cold managers who will tell you exactly what you do wrong, but won't give a shit about your feelings. On the top left you have the most common trap: Ruinous Empathy. Managers who really care about their people and don't want to hurt them, but end up hurting their careers because they don't provide any tough feedback.\nAnd on the top right, the goal: care personally and challenge directly. Sounds amazing, right? I can be kind AND do the right thing!\nThe problem is that the framework describes YOUR intent, not the other person's experience.\nYou can be in the Radical Candor quadrant",
+      "title": "The un-hateable engineering managers - Manager.dev",
+      "url": "https://newsletter.manager.dev/p/the-un-hateable-engineering-managers"
     },
     "https://note.com/pn_yamaken/n/nd3ae714ce54a": {
       "cleaner_v": 2,
@@ -11805,6 +11933,48 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2073581255187103744/img/_-hjPZ8yLWusdAgx.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2073788995763322880/img/bYzYlYSJ7Sy-30xd.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2073788995763322880/img/bYzYlYSJ7Sy-30xd.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2073788995763322880/img/bYzYlYSJ7Sy-30xd.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2073788995763322880/img/bYzYlYSJ7Sy-30xd.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2073793314596311040/img/6NKNe7h3O3m1emaC.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2073793314596311040/img/6NKNe7h3O3m1emaC.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2073793314596311040/img/6NKNe7h3O3m1emaC.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2073793314596311040/img/6NKNe7h3O3m1emaC.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2073813909878738944/img/LrXnF63Eu1tpH1U0.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2073813909878738944/img/LrXnF63Eu1tpH1U0.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2073813909878738944/img/LrXnF63Eu1tpH1U0.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2073813909878738944/img/LrXnF63Eu1tpH1U0.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg": {
       "cleaner_v": 2,
@@ -15390,20 +15560,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMayMTMWMAAfvnz.jpg"
     },
-    "https://pbs.twimg.com/media/HMe57b4bsAA8rea.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMe57b4bsAA8rea.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HMe57b4bsAA8rea.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HMe57b4bsAA8rea.jpg"
-    },
     "https://pbs.twimg.com/media/HMe8HmYWIAA-2Oi.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15446,19 +15602,33 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMe8WIaXIAAiDaA.jpg"
     },
-    "https://pbs.twimg.com/media/HMeh5hRXYAEVtqH.jpg": {
+    "https://pbs.twimg.com/media/HMgE_NrW0AAbMix.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HMeh5hRXYAEVtqH.jpg",
+      "final_url": "https://pbs.twimg.com/media/HMgE_NrW0AAbMix.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HMeh5hRXYAEVtqH.jpg"
+        "https://pbs.twimg.com/media/HMgE_NrW0AAbMix.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HMeh5hRXYAEVtqH.jpg"
+      "url": "https://pbs.twimg.com/media/HMgE_NrW0AAbMix.jpg"
+    },
+    "https://pbs.twimg.com/media/HMgGHKWXQAA0mLB.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMgGHKWXQAA0mLB.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMgGHKWXQAA0mLB.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMgGHKWXQAA0mLB.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HKHP6PlbQAAmUmx.jpg": {
       "cleaner_v": 2,
@@ -15719,6 +15889,32 @@
       "text_excerpt": "Polish — free AI grammar check and text rewriter Polish (简润) is a free, single-screen text-polishing tool. Paste up to 1500 characters and it returns a grammar diagnosis plus three rewrites — light, recommended, and refined — each kept in your original language. It works in ten languages: English, Spanish, Chinese, French, German, Japanese, Korean, Arabic, Portuguese, and Hindi. No sign-up. The “1500” shown on the page is the per-passage character limit, not a credit or quota; “Polish” means refining text, not the Polish language or photo editing. Polish Many voices. One answer. English QUESTION 喜欢让工作时间，业余项目占满自己全部时间，包括晚上和休息日，这是什么心理现象，有多大危害性，以及如何缓解 综合答案：关于“用工作与业余项目填满全部时间”的心理现象、危害与缓解 心理本质：工作成瘾与生产力强迫倾向 你所描述的现象，在心理学上被归为 工作成瘾（Workaholism） ，更准确地说是 生产力强迫倾向 与 自我价值外部化 的复合心理模式。其核心机制包括： 自我价值感完全绑定在产出上 ——潜意识相信“只有不停做事，我才有存在的意义和安全感”。一旦闲下来，就会产生强烈的空虚、焦虑或自责感。 逃避型应对机制 ——用高强度忙碌来回避内心的负面情绪（如存在性焦虑、对不被需要的恐惧、未处理的人际冲突）。工作成了最安全的“麻醉剂”。 多巴胺成瘾回路 ——完成任务、获得认可、看到进度推进都会带来多巴胺奖励，形成正反馈循环，类似于行为成瘾的神经机制。这与普通努力工作的本质区别在于：普通努力是为了目标，而工作成瘾是为了 缓解内在的不安 。 完美主义与控制欲 ——认为“停下来”意味着失控或暴露自身不足，对未完成事项产生强迫性控制。 社会文化强化 ——过度努力在某些环境中被美化为敬业或成功的标签，使患者更难意识到问题的存在。 危害性评估：高且隐蔽 短期危害（1-3年）： 慢性睡眠剥夺、皮质醇持续升高，导致注意力碎片化、情绪稳定性下降 决策能力下降（哈佛商学院研究显示可达30%） 免疫力下降，消化系统问题频发 长期危害（3年以上，极高风险）： Burnout（职业倦怠）几乎必然发生 ——世界卫生组织已将其列为职业现象 心血管疾病风险升高（多项追踪研究显示工作狂心梗风险高出1.5-2倍） 人际关系严重受损 ——伴侣、孩子常感到被“工作第三者”替代，亲密关系破裂率提升约40% 创造力与战略性思维退化 ——大脑长期处于交感神经主导状态，难以进入默认模式网络（创造力所需的状态） 抑郁与焦虑共病率极高 ——一旦工作受挫，容易陷入自我认同崩溃 最危险之处在于社会对过度工作的赞美，让患者很难意识到自己在慢性自杀。 如何有效缓解：分阶段实操方案 第一阶段：觉察与止损（1-4周） 设置不可谈判的硬边界 ： 建立“数字宵禁”：晚上10点后工作设备关机或放另一房间 每周固定至少半天完全脱离工作环境（不处理任何任务） 初期目标不是减量，而是建立“暂停”的物理习惯 引入“无聊时间” ： 每天强制30-60分钟什么都不做（散步时不听播客、不刷手机） 这是打破多巴胺成瘾的关键第一步。大多数人会极度难受——这正是需要持续的证据 记录时间分布 ： 标记“强制性忙碌”与“自主选择忙碌”的比例 将记录公开给至少一个人（制造外部监督） 第二阶段：认知重构（1-3个月） 重构价值信念 ： 反复练习：“我值得被爱，即使我今天什么都没做” 建立多维自我评价体系（人际关系、健康、兴趣发展等） 引入非功利性活动 ： 选择纯粹为了享受、没有任何“产出”意义的活动（画画、乐器、运动、纯社交） 这是治疗的核心：把满足感从“完成任务”转移到“深度体验”和“人际连接” 使用CBT技术 ： 系统性质疑核心信念：“如果我不工作，我就会变成没价值的人”——寻找反证 第三阶段：长期重塑（3个月以上） 建立节奏感 而非效率感： 采用“忙季+恢复季”的年度工作节奏 运用“时间块协议”：60分钟专注块 + 20分钟强制空白块 神经可塑性训练 ： 研究显示，持续8周的刻意休息训练可使前额叶皮层灰质密度提升约12% 将“休息”转化为可执行的微观行为（如每天固定时段做无目的散步） 专业支持 ： 如症状严重（闲下来就严重焦虑、失眠、自我攻击），建议寻找对工作成瘾有经验的心理咨询师 关键认知 ：这不是“不够努力”的问题，而是一种可调整的强迫性行为模式。真正可持续的高绩效者，都是严格保护休息和无用时间的人——这不是鸡汤，而是大量研究所证实的事实。你需要的是从“永动机模式”转向“有边界、可持续产出”的身份认同。渐进式减量比骤然刹车有效，同步建立新的价值锚点比单纯压缩工作时间更重要。 SYNTHESIZED BY deepseek-v4-flash Copy answer Save image Ask again Council perspectives · 3 models deepseek-v3.2 grok-4.2-fast qwen3-14b 这种现象通常被称为“工作狂”（Workaholism）或“过度工作倾向”，属于一种强迫性行为模式。其核心心理机制可能涉及以下几点： 逃避型应对 ：用忙碌填充时间，避免面对内心的空虚、焦虑或其他负面情绪。 自我价值绑定 ：将个人价值完全等同于工作成就，通过持续产出获得短暂认可。 完美主义与控制欲 ：认为“停下来”意味着失去对目标的掌控或暴露自身不足。 社会文化强化 ：在某些环境中，“过度努力”被美化为敬业或成功标签。 危害性 ： 身心健康 ：长期睡眠不足、压力激素升高，增加心血管疾病、抑郁、 burnout（倦怠）风险。 人际关系疏离 ：家庭与社交时间被压缩，导致支持系统脆弱化。 创造力下降 ：缺乏放松与随机联想的机会，反而降低长期效率与创新可能。 风险依赖 ：一旦工作出现挫折（如项目失败、职业变动），容易陷入自我认同崩溃。 缓解思路 ： 认知重构 ： 明确“休息是生产力的必要组成部分”，而非懒惰。 设定自我价值的多维评价标准（如人际关系、健康、兴趣发展）。 行为调整 ： 强制规划“无生产力时间”：例如每天保留1小时完全脱离工作的活动，每周设定半日休息。 采用“时间阻断法”（Time Blocking），为工作、休息、业余项目划定明确边界。 情绪觉察练习 ： 通过正念或日记记录，识别触发过度工作的情绪信号（例如焦虑时是否更倾向埋头工作）。 外部支持 ： 与亲友约定监督机制，或寻求职业心理咨询，探索行为背后的深层动机。 系统调整 ： 如果是环境压力所致（如职场文化、经济负担），需评估是否需调整职业路径或生活方式。 关键点在于：将“持续忙碌”视为一种可调整的行为策略，而非不可改变的自我特质，逐步建立可持续的工作生活节奏。 Peer evaluations deepseek-v3.2 grok-4.2-fast 对每个回应的单独评估： deepseek-v3.2 优点： 对心理现象（工作狂）的机制概括全面，分点清晰易懂，涵盖了逃避型应对、自我价值绑定等核心因素。 危害性分析分层合理，从身心、人际、创造力等多角度说明，语言平实但准确。 缓解方案具体且具操作性，如认知重构、行为调整、外部支持等，步骤逻辑连贯，结尾强调“可持续节奏”的观点很有启发性。 缺点： 部分内容略显概括，例如危害性未明确区分短期与长期影响，数据或研究引用较少，权威性稍弱。 缓解方案中“系统调整”部分较简略，对环境压力的讨论不够深入。 grok-4.2-fast 优点： 对心理机制的剖析非常深入，尤其是“多巴胺成瘾回路”“自我价值外部化”等解释，兼具神经科学与行为心理学视角。 危害性分析高度系统化，分短期与长期，并强调社会文化美化的隐蔽风险，警示性强。 缓解方案极具结构性，分三阶段（觉察、认知重构、长期重塑），步骤细致实用（如“无聊时间”“非功利性活动”），并指出戒断反应和渐进调整的重要性，体现了临床思维。 语言富有感染力，结尾“用意义感替代生命感”等表述能引发深度共鸣。 缺点： 部分表述稍显绝对（如“Burnout几乎必然发生”），可能略欠严谨；内容较长，信息密度高，可能对部分读者造成阅读负担。 qwen3-14b 优点： 结构简洁紧凑，从心理动因到危害、缓解方案逻辑清晰，术语使用专业（如“过度补偿型时间管理”）。 危害性分层明确（生理、心理、社会），并引用了具体数据（如决策能力衰减30%），增强了说服力。 缓解方案注重“结构化”，提出“数字宵禁”“空窗期训练”“时间块协议”等具体方法，且引用神经科学研究（前额叶皮层变化），提升了科学性与新颖性。 缺点： 心理动因分析较简略，缺乏对内在动机（如逃避、价值绑定）的深入展开。 缓解方案部分偏向技术性控制，对认知重构与情感支持层面的讨论相对薄弱。 总体评价： 三者均准确识别了“工作成瘾”现象，并提供了有价值的分析与建议。",
       "title": "喜欢让工作时间，业余项目占满自己全部时间，包括晚上和休息日…｜查看 3 个模型共识答案 · Polish Council",
       "url": "https://polishme.app/council/c/b3b66aff-d3fc-4711-8288-bda14a29365d"
+    },
+    "https://polylane.com/blog/proactive-agents/": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Agents can do almost anything you ask. That's the problem, you still have to ask. The next evolution is agents that figure out the job to be done. I started with operations, because nobody should be on-call in 2026.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://polylane.com/blog/proactive-agents/",
+      "frameable": null,
+      "image_urls": [
+        "https://polylane.com/og/blog-proactive-agents.png",
+        "https://polylane.com/logos/cloudflare.svg",
+        "https://polylane.com/logos/aws.svg",
+        "https://polylane.com/logos/aws-light.svg",
+        "https://polylane.com/logos/vercel.svg",
+        "https://polylane.com/logos/render.svg",
+        "https://polylane.com/logos/fly.svg",
+        "https://polylane.com/logos/kubernetes.svg",
+        "https://polylane.com/boris.jpg",
+        "https://polylane.com/diagrams/1a98d6cb.svg",
+        "https://polylane.com/diagrams/b6e95276.svg",
+        "https://polylane.com/diagrams/ff5bb4b7.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "[Boris Tane](https://x.com/boristane)\nI'm Betting My Company on Proactive Agents\nAgents can do almost anything you ask them to, and that’s the problem: you still have to ask.\nI keep hearing people call agents “digital coworkers”. That framing is wrong. A coworker who sits in silence until you hand them a perfectly-scoped task, completes it, then goes back to waiting, is not a coworker. Every agent you’ve ever used works exactly like this. The models got smarter, the harnesses got better, the runs got longer, but the interface never changed: you bring the work, the agent brings the labour.\nAnd most people haven’t noticed, because the prompt box has quietly become what AI is in our heads.\nEvery interface is still a prompt box\nThe input box is how this whole era started. ChatGPT put one on top of a model and became the fastest-growing product in history, and we all copied it. Every AI product since has been a variation on the same interaction: human types, machine responds, machine waits.\nClaude Code was the next evolution. The agent moved into your terminal, picked up your files, your shell, and your git history, and started doing real work instead of talking about it. It changed what agents could do, but not how they start: you type, it works, it stops, and it waits for you to type again.\nThen agents moved to the cloud. Codex, Devin, Claude Code on the web. They run for hours instead of minutes, spin up sub-agents to parallelise the work, and don’t die when you close your laptop. You hand one a task before lunch and come back to a pull request.\nThe prompt even stopped being a keyboard-only thing. Background agents can be kicked off by an alert or a webhook, and most agent platforms now offer automations: when this event fires, or this cron ticks, run an agent with these instructions.\nBut what is an automation? It’s a prompt you wrote in advance. You predicted the failure mode, picked the event, and wrote down what to do about it. The trigger fires the agent, but the judgement inside it is yours, frozen at setup time. An automation catches exactly what you anticipated, and nothing else.\nYou are the scheduler\nStrip away the tooling and the division of labour hasn’t moved in three years. The agent does the work. Deciding what the work is remains your job.\nYou read the dashboards, you listen to the users, you figure out what matters, and you compress everything you’ve learned into a prompt, either live at the keyboard or ahead of time in a trigger. The agent executes brilliantly, but every piece of judgement in the system originates with you.\nThe next evolution: agents that find the work\nI’m betting the next evolution is agents figuring out the job to be done. No prompt, no trigger to configure, no instructions written in advance. You connect your stack, and the agent finds the work by itself: it watches the same signals you watch, notices what’s off, decides whether it matters, and starts working on it autonomously.\nThis is easy to say, and brutally hard to build, because proactivity is three problems stacked on top of each other, and skipping any one of them gives you something worse than the agent behind an input box.\nContext. Obviously, the agent needs a live model of the world it operates in, not a snapshot you pasted into the context window at prompt time. A reactive agent with bad context gives you a bad answer. A proactive agent with bad context drops your prod database because it thought it was staging.\nJudgement. This is what has been giving me the hardest time. At any given moment, thousands of things in a production system are slightly off. An agent that flags all of them is a noise machine, noise machines get muted, and muted agents are dead agents. The entire value of proactivity lives in the gap between “something changed” and “something matters”:\n[\n  {\n    \"signal\": \"memory up 3% on checkout-edge\",\n    \"verdict\": \"no anomaly\",\n    \"reasoning\": \"within the seasonal range for this hour on this worker\"\n  },\n  {\n    \"si",
+      "title": "I'm Betting My Company on Proactive Agents · Polylane",
+      "url": "https://polylane.com/blog/proactive-agents/"
     },
     "https://postgresapp.com/extensions/": {
       "cleaner_v": 2,
@@ -16744,6 +16940,26 @@
       "title": "The US government's Anthropic models ban was never about an AI jailbreak | TechCrunch",
       "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/?utm_source=dlvr.it&utm_medium=twitter"
     },
+    "https://terriblesoftware.org/2026/05/27/using-my-fucking-brain": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "AI is great when it extends your brain. It gets dangerous when it quietly replaces the part that was supposed to think.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://terriblesoftware.org/2026/05/27/using-my-fucking-brain/",
+      "frameable": null,
+      "image_urls": [
+        "https://i0.wp.com/terriblesoftware.org/wp-content/uploads/2026/05/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHg4NjA4NjktaW1hZ2Uta3d2dXc0MnYuanBn.webp?fit=1024%2C683&ssl=1",
+        "https://i0.wp.com/terriblesoftware.org/wp-content/uploads/2026/05/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHg4NjA4NjktaW1hZ2Uta3d2dXc0MnYuanBn.webp?fit=1024%2C683&ssl=1&w=640",
+        "https://terriblesoftware.org/wp-content/uploads/2026/05/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHg4NjA4NjktaW1hZ2Uta3d2dXc0MnYuanBn.webp",
+        "https://i0.wp.com/terriblesoftware.org/wp-content/uploads/2025/12/chjpdmf0zs9sci9pbwfnzxmvd2vic2l0zs8ymdiylta0l3vwd2s2mtc5nzyync13awtpbwvkawetaw1hz2uta293ctv0bheuanbn.webp?fit=1024%2C678&ssl=1&resize=350%2C200",
+        "https://i0.wp.com/terriblesoftware.org/wp-content/uploads/2025/04/chjpdmf0zs9sci9pbwfnzxmvd2vic2l0zs8ymdiylta1l3b1mjmzmtm2my1pbwfnzs1rd3z3a3nvdi5qcgc.webp?fit=1024%2C727&ssl=1&resize=350%2C200",
+        "https://i0.wp.com/terriblesoftware.org/wp-content/uploads/2025/12/cznmcy1wcml2yxrll3jhd3bpegvsx2ltywdlcy93zwjzaxrlx2nvbnrlbnqvbhivchgxmzyynzawlwltywdllwt3dnh4owljlmpwzw.webp?fit=1024%2C724&ssl=1&resize=350%2C200"
+      ],
+      "kind": "article",
+      "text_excerpt": "I’m angry right now. Not at Dario. Not at Sam. Definitely not at you, reader. I’m angry at myself.\nA few days ago, there was a new Sentry issue. I copied the link, pasted it into a Claude Skill I built, and asked Claude to investigate it. Then I asked Claude to create a PR. The PR got reviewed. It got approved. I merged it.\nHere is the part that feels gross to write down: I never opened the Sentry issue myself. I never looked at the code Claude wrote. I never checked whether the fix made sense. I did the software engineering equivalent of forwarding an email with “thoughts?” and then going to lunch.\nAfter I realized what I had done, I went back and did the investigation myself. I opened Sentry. I read the stack trace. I looked at the relevant code. I traced the bug from symptom to cause to fix.\nSame answer as Claude’s. Great, I guess?\nIf Claude had been wrong, this post would be easier to write. I could talk about hallucinations, tell everyone to be careful, say something serious about production software, and we could all nod along together.\nBut Claude was right. The scary part is that the workflow would have looked exactly the same if it had been wrong.\nI mean, I love these tools. I use Claude Code all the time. I write Skills for repetitive work. I ask models to explain code, find bugs, suggest fixes, summarize long threads, draft tedious things. I’m not writing this from outside the AI cave with a torch and a warning sign. I’m very much inside the cave, laptop open, asking a model to do things for me right this very second while I write this.\nI wrote before that [AI can write your code, but it can’t do your job](https://terriblesoftware.org/2025/12/11/ai-can-write-your-code-it-cant-do-your-job/). I still believe that, probably more than before. The job was never about typing code. The job is noticing when the reported bug is only a symptom. The job is reading the weird line in the stack trace twice. The job is knowing when a fix is technically correct and still too narrow.\nThe job is the part where your fucking brain has to be in the room.\nThere is a way of using AI that feels like getting a second brain. You open the issue, read the error, form a rough theory, and then ask the model to challenge it. You have it search the codebase. You ask what else could explain the symptom. You ask it to write the boring first draft of the fix. Then you read the patch, poke at the edges, and decide.\nThat’s great and might be the dream, honestly. The model makes you sharper, and it helps you keep more of the problem in view. It catches things you missed. It turns a slow loop into a fast one.\nThen… there’s the thing I did.\nYou paste the issue into the machine before reading it. You accept the explanation before forming your own. You create a PR before even understanding what the problem you’re fixing is (!). You request a PR review before reading the diff. You merge because the checks passed and the reviewer approved it and the whole thing smells like progress.\nAnd then, if you’re lucky, a few minutes later your stomach drops. Because wait. What did I just ship again?\nAnd I don’t think I’m special here. I think a lot of us are quietly building workflows where the model sees the issue, the model reads the code, the model writes the patch, and we show up at the end to approve the shape of the answer.\nBut if we’re not careful, we’re [training ourselves out of the reps](https://terriblesoftware.org/2026/03/27/good-taste-is-just-experience/) that made us useful in the first place.\nAnd to be clear, I don’t care whether you typed the code yourself. I care whether you understood it before you shipped it. I care whether you can explain why the bug happened, why this fix is the right fix, what the model might have missed, and what would make you roll it back.\nSo, with all that said, here’s the new hard rule I’m following after this “incident”: if I still can’t explain the change, I can’t ship it. No exceptions.\nThis post is mostly for me. I wish it",
+      "title": "Using My Fucking Brain – Terrible Software",
+      "url": "https://terriblesoftware.org/2026/05/27/using-my-fucking-brain"
+    },
     "https://testflight.apple.com/join/ZtGfhNkH": {
       "cleaner_v": 2,
       "content_type": "text/html;charset=utf-8",
@@ -17531,6 +17747,21 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "https://www.bloomberg.com/news/articles/2026-06-29/ai-notetaker-tools-recording-zoom-meetings-threaten-privacy-etiquette?taid=6a425f00553211000137feca&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter"
+    },
+    "https://www.bloomberg.com/news/articles/2026-07-05/wang-yi-says-china-welcomes-stronger-european-business-relations?taid=6a49d392c097b900019dcf24&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "China welcomes deeper cooperation with Swedish and European businesses, which will benefit all parties involved, Foreign Minister Wang Yi said in a meeting with Investor AB Chairman Jacob Wallenberg in Stockholm on July 4, according to a statement from the ministry on Sunday.",
+      "final_url": "https://www.bloomberg.com/news/articles/2026-07-05/wang-yi-says-china-welcomes-stronger-european-business-relations?taid=6a49d392c097b900019dcf24&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter",
+      "frameable": false,
+      "image_urls": [
+        "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ize7CBKjjITg/v0/1200x800.jpg",
+        "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ize7CBKjjITg/v0/-1x-1.webp"
+      ],
+      "kind": "article",
+      "text_excerpt": "Skip to content Bloomberg the Company & Its Products The Company & its Products Bloomberg Terminal Demo Request Bloomberg Anywhere Remote Login Bloomberg Anywhere Login Bloomberg Customer Support Customer Support Bloomberg Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world For Customers Bloomberg Anywhere Remote Login Software Updates Manage Products and Account Information Support Americas +1 212 318 2000 EMEA +44 20 7330 7500 Asia Pacific +65 6212 1000 Company About Careers Inclusion at Bloomberg Tech at Bloomberg Philanthropy Sustainability Bloomberg Beta Communications Press Announcements Press Contacts Follow Facebook Instagram LinkedIn YouTube Products Bloomberg Professional Services Bloomberg Terminal Data Trading Risk Compliance Indices Industry Products Bloomberg Law Bloomberg Tax Bloomberg Government BloombergNEF Media Bloomberg Markets Bloomberg Technology Bloomberg Pursuits Bloomberg Politics Bloomberg Opinion Bloomberg Businessweek Bloomberg Live Conferences Bloomberg Radio Bloomberg Television News Bureaus Media Services Bloomberg Media Distribution Advertising Company About Careers Inclusion at Bloomberg Tech at Bloomberg Philanthropy Sustainability Bloomberg Beta Communications Press Announcements Press Contacts Follow Facebook Instagram LinkedIn YouTube Products Bloomberg Professional Services Bloomberg Terminal Data Trading Risk Compliance Indices Industry Products Bloomberg Law Bloomberg Tax Bloomberg Government BloombergNEF Media Bloomberg Markets Bloomberg Technology Bloomberg Pursuits Bloomberg Politics Bloomberg Opinion Bloomberg Businessweek Bloomberg Live Conferences Bloomberg Radio Bloomberg Television News Bureaus Media Services Bloomberg Media Distribution Advertising Bloomberg Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world For Customers Bloomberg Anywhere Remote Login Software Updates Manage Contracts and Orders Support Americas +1 212 318 2000 EMEA +44 20 7330 7500 Asia Pacific +65 6212 1000 Sign In Subscribe Live TV Markets Finance Economics Industries Tech Politics Businessweek Opinion Video More US Edition Subscribe Markets Wang Yi Says China Welcomes Stronger European Business Relations Wang Yi Photographer: Lam Yik/Bloomberg Gift this article Contact us: Provide news feedback or report an error Confidential tip? Send a tip to our reporters Site feedback: Take our Survey By Bloomberg News July 5, 2026 at 2:43 AM UTC Save China welcomes deeper cooperation with Swedish and European businesses, which will benefit all parties involved, Foreign Minister Wang Yi said in a meeting with Investor AB Chairman Jacob Wallenberg in Stockholm on July 4, according to a statement from the ministry on Sunday. Wang said the Wallenbergs were among the first of the European groups to enter the Chinese market after the nation’s reform and opening-up, and the Swedish firm had made a unique contribution to relations between the two countries. Home BTV+ Market Data Opinion Audio Originals Magazine Events News Markets Economics Technology Politics Green Crypto AI Work & Life Wealth Pursuits Businessweek CityLab Sports Equality Management & Work Market Data Stocks Commodities Rates & Bonds Currencies Futures Sectors Economic Calendar Explore Newsletters Explainers Pointed News Quiz Alphadots Game The Big Take Graphics Submit a Tip About Us Terms of Service Do Not Sell or Share My Personal Information Trademarks Privacy Policy Careers Advertise Ad Choices Help ©2026 Bloomberg L.P. All Rights Reserved.",
+      "title": "China Welcomes Deeper European Business Ties, Wang Yi Says in Stockholm - Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/wang-yi-says-china-welcomes-stronger-european-business-relations?taid=6a49d392c097b900019dcf24&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter"
     },
     "https://www.bloomberg.com/news/newsletters/2026-06-17/anthropic-us-divide-poised-to-give-tech-firms-a-road-map?taid=6a330829bdc781000183c7b7&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
@@ -24925,8 +25156,8 @@
     "2073475469928804394": [
       "https://x.com/Michaelzsguo/status/2073475469928804394",
       "http://x.com/i/article/2073459403743764480",
-      "https://x.com/Michaelzsguo/status/2073804801884684511",
-      "https://pbs.twimg.com/media/HMeh5hRXYAEVtqH.jpg"
+      "https://x.com/Michaelzsguo/status/2073915350014460409",
+      "https://pbs.twimg.com/media/HMgGHKWXQAA0mLB.jpg"
     ],
     "2073492320159510869": [
       "https://x.com/aparnadhinak/status/2073492320159510869",
@@ -24945,16 +25176,28 @@
     "2073562522469413240": [
       "https://x.com/McGrady8898/status/2073562522469413240",
       "https://x.com/McGrady8898/status/2073793717253890078",
-      "https://x.com/McGrady8898/status/2073792565405774164",
       "https://x.com/McGrady8898/status/2073792488184414616",
       "https://x.com/McGrady8898/status/2073764378852442294",
-      "https://x.com/McGrady8898/status/2073688532896657828"
+      "https://x.com/McGrady8898/status/2073792565405774164",
+      "https://x.com/McGrady8898/status/2073688532896657828",
+      "https://x.com/McGrady8898/status/2073842571890282526"
     ],
     "2073568222213718486": [
       "https://x.com/cobi_bean/status/2073568222213718486",
       "http://x.com/i/article/2073558530506805248",
-      "https://x.com/cobi_bean/status/2073787790651703506",
-      "https://x.com/cobi_bean/status/2073786565051011404"
+      "https://x.com/cobi_bean/status/2073913115528343708",
+      "https://pbs.twimg.com/media/HMgE_NrW0AAbMix.jpg",
+      "https://x.com/cobi_bean/status/2073916525220659517",
+      "https://x.com/cobi_bean/status/2073786565051011404",
+      "https://x.com/cobi_bean/status/2073787790651703506"
+    ],
+    "2073614453245968592": [
+      "https://x.com/business/status/2073614453245968592",
+      "https://www.bloomberg.com/news/articles/2026-07-05/wang-yi-says-china-welcomes-stronger-european-business-relations?taid=6a49d392c097b900019dcf24&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter"
+    ],
+    "2073627972616008053": [
+      "https://x.com/TheEconomist/status/2073627972616008053",
+      "https://www.economist.com/1843/2020/02/20/between-the-spreadsheets?taid=6a49e02963792900018a426f&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter"
     ],
     "2073651831151186073": [
       "https://x.com/yibie/status/2073651831151186073",
@@ -24970,19 +25213,93 @@
     ],
     "2073691590946894212": [
       "https://x.com/elliotarledge/status/2073691590946894212",
-      "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5",
-      "https://x.com/elliotarledge/status/2073323502837670091"
+      "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5"
+    ],
+    "2073723103629222127": [
+      "https://x.com/Vladic_ETH/status/2073723103629222127",
+      "http://x.com/i/article/2073720584702246912",
+      "https://x.com/Vladic_ETH/status/2073821624894181725",
+      "https://x.com/Vladic_ETH/status/2073821442437738677",
+      "https://x.com/Vladic_ETH/status/2073729314797887982"
     ],
     "2073723637346050215": [
       "https://x.com/TheEconomist/status/2073723637346050215",
       "https://www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a4a3941c097b900019dd03c&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter"
     ],
+    "2073728292671127842": [
+      "https://x.com/KellehEyad/status/2073728292671127842",
+      "http://x.com/i/article/2073723134432182272"
+    ],
+    "2073771130691727700": [
+      "https://x.com/asmartbear/status/2073771130691727700",
+      "https://longform.asmartbear.com/never-compete-on-price/?utm_source=twitter&utm_campaign=asmartbear_twitter&utm_medium=social",
+      "https://x.com/asmartbear/status/2073863239637647409"
+    ],
     "2073777040332104107": [
-      "https://x.com/nyk_builderz/status/2073777040332104107",
-      "https://x.com/nyk_builderz/status/2073830593843126294",
-      "https://pbs.twimg.com/media/HMe57b4bsAA8rea.jpg"
+      "https://x.com/nyk_builderz/status/2073777040332104107"
+    ],
+    "2073786837789720664": [
+      "https://x.com/mattlam_/status/2073786837789720664"
+    ],
+    "2073789384608944512": [
+      "https://x.com/zostaff/status/2073789384608944512",
+      "https://pbs.twimg.com/amplify_video_thumb/2073788995763322880/img/bYzYlYSJ7Sy-30xd.jpg"
+    ],
+    "2073794758183411987": [
+      "https://x.com/0xLoopz/status/2073794758183411987",
+      "https://pbs.twimg.com/amplify_video_thumb/2073793314596311040/img/6NKNe7h3O3m1emaC.jpg",
+      "https://x.com/0xLoopz/status/2073830248232230946",
+      "https://x.com/0xLoopz/status/2073830474175148460",
+      "https://x.com/0xLoopz/status/2073829900973232584"
+    ],
+    "2073796946167263742": [
+      "https://x.com/PawelHuryn/status/2073796946167263742"
+    ],
+    "2073805390978982038": [
+      "https://x.com/TheEconomist/status/2073805390978982038",
+      "https://www.economist.com/china/2026/07/05/has-china-obtained-the-worlds-most-important-machine?taid=6a4a85657177c90001d8f0c0&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
+    ],
+    "2073808336231813273": [
+      "https://x.com/DruRly/status/2073808336231813273",
+      "http://x.com/i/article/2073805892584157184"
+    ],
+    "2073813405798916244": [
+      "https://x.com/VKazulkin/status/2073813405798916244",
+      "https://andiroberts.com/citizenship/prosocial-behaviour-contagion-citizenship-leadership",
+      "https://x.com/VKazulkin/status/2073449759650812035",
+      "https://newsletter.manager.dev/p/the-un-hateable-engineering-managers"
+    ],
+    "2073813909187043649": [
+      "https://x.com/VKazulkin/status/2073813909187043649",
+      "https://terriblesoftware.org/2026/05/27/using-my-fucking-brain"
+    ],
+    "2073814128888549810": [
+      "https://x.com/dair_ai/status/2073814128888549810",
+      "http://x.com/i/article/2073813350526631936"
+    ],
+    "2073815216702242950": [
+      "https://x.com/AnatoliKopadze/status/2073815216702242950",
+      "https://pbs.twimg.com/amplify_video_thumb/2073813909878738944/img/LrXnF63Eu1tpH1U0.jpg"
+    ],
+    "2073819508729684462": [
+      "https://x.com/jxnlco/status/2073819508729684462",
+      "http://x.com/i/article/2073817721075331072",
+      "https://x.com/jxnlco/status/2073822050037440601",
+      "https://x.com/jxnlco/status/2073615101467447665?s=20",
+      "https://x.com/jxnlco/status/2073821827688988880"
+    ],
+    "2073820562028446088": [
+      "https://x.com/boristane/status/2073820562028446088",
+      "https://polylane.com/blog/proactive-agents/",
+      "https://x.com/boristane/status/2073826571300020421",
+      "https://x.com/boristane/status/2073841211455279505",
+      "https://x.com/boristane/status/2073853789409591617",
+      "https://x.com/boristane/status/2073826080876798258"
+    ],
+    "2073860421061161065": [
+      "https://x.com/nrmehta/status/2073860421061161065"
     ]
   },
-  "updated_at": "2026-07-05T18:15:51Z",
+  "updated_at": "2026-07-06T00:16:01Z",
   "window": "recent"
 }
