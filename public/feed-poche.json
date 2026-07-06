@@ -5,11 +5,11 @@
       "name": "Tools"
     },
     {
-      "count": 463,
+      "count": 467,
       "name": "Development"
     },
     {
-      "count": 354,
+      "count": 355,
       "name": "Design"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Social"
     },
     {
-      "count": 152,
+      "count": 151,
       "name": "Media"
     },
     {
@@ -38,8 +38,212 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2450,
+  "item_count": 2454,
   "items": [
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-07-06T04:57:40.170157Z",
+      "article_image_urls": [
+        "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
+        "https://avatars.githubusercontent.com/u/114095055?s=64&v=4"
+      ],
+      "article_title_extracted": "The supposedly leaked Andrej Karpathy CLAUDE.md going around on X. The original G-Drive link has copying disabled, so here is the raw, downloadable file. · GitHub",
+      "category": "Development",
+      "created_at": "2026-07-05T04:04:19.691006Z",
+      "description": "The supposedly leaked Andrej Karpathy CLAUDE.md going around on X. The original G-Drive link has copying disabled, so here is the raw, downloadable file. - CLAUDE.md",
+      "domain": "gist.github.com",
+      "embed_type": "",
+      "id": "k17azp906b3hrh2a63yhxymrp989zbtf",
+      "og_image_url": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
+      "recommended_at": "2026-07-06T04:50:25.496000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-prompting",
+        "claude-ai",
+        "llm-configuration"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-06T04:50:25.496000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "The supposedly leaked Andrej Karpathy CLAUDE.md going around on X. The original G-Drive link has copying disabled, so here is the raw, downloadable file. · GitHub",
+      "url": "https://gist.github.com/itsbsiddharth/863d382206db62cc3999b8f2def88771",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-07-06T04:57:40.170157Z",
+      "article_image_urls": [
+        "https://framerusercontent.com/images/pJETaP63Xc3HPB8ydiWYbmPKuE.png",
+        "https://framerusercontent.com/images/3JJD6i3GAfYrpliisqfmsOxw.gif?width=800&height=800",
+        "https://framerusercontent.com/images/6HlaKPDMGdtjoLb9yUyXZDAmW1Q.gif?width=800&height=596",
+        "https://framerusercontent.com/images/iojagbTVMSwNGueIz642qeQPqEk.webp?width=600&height=600",
+        "https://framerusercontent.com/images/J8CBEc2tlB2mMsOYDnYnBMQ.png?width=2626&height=2210",
+        "https://framerusercontent.com/images/7GPiqKceie9J9lGopwapL9T1uk.webp?width=1830&height=2000",
+        "https://framerusercontent.com/images/x6MTHEcLcpZwREigYpG7thLnopU.png?width=890&height=972",
+        "https://framerusercontent.com/images/2QBVxATq2VWrmsPvQ76jsgZpQM.png?width=654&height=929",
+        "https://framerusercontent.com/images/BagJFSBMKont0KBBKqsOLOyyYtE.png?width=3200&height=3200",
+        "https://framerusercontent.com/images/Bq05HPHpLyYAMFN5zklWTn9KQm8.png?width=2700&height=3740",
+        "https://framerusercontent.com/images/L0ZIPk2zKu73jcYXdvr6Zqdk.png?width=2700&height=2700",
+        "https://framerusercontent.com/images/lIdIAvHkLWOgWtk6pIClz9Au7OA.gif?width=1500&height=1500"
+      ],
+      "article_title_extracted": "MEK.txt",
+      "category": "Design",
+      "created_at": "2026-07-05T02:19:21.738692Z",
+      "description": "MEK.txt (Michael Alexander, b.1990). Pixel Artist, Designer, and Developer.",
+      "domain": "www.mek.gallery",
+      "embed_type": "",
+      "id": "k178j7nzhzc7cdwxer2efm5xnx89z2a8",
+      "og_image_url": "https://framerusercontent.com/images/pJETaP63Xc3HPB8ydiWYbmPKuE.png",
+      "recommended_at": "2026-07-06T04:50:18.093000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "pixel-art",
+        "digital-art",
+        "portfolio"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-06T04:50:18.093000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "MEK.txt",
+      "url": "https://www.mek.gallery/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-07-06T04:57:40.170157Z",
+      "article_image_urls": [
+        "https://www.onorca.dev/og-image.png",
+        "https://www.onorca.dev/logo.svg",
+        "https://www.onorca.dev/y-combinator.svg",
+        "https://www.onorca.dev/logos/linear.svg",
+        "https://www.onorca.dev/logos/uber.svg",
+        "https://www.onorca.dev/logos/vercel.svg",
+        "https://www.onorca.dev/logos/stripe.svg",
+        "https://www.onorca.dev/logos/airbnb.svg",
+        "https://www.onorca.dev/logos/perplexity.svg",
+        "https://www.onorca.dev/logos/coinbase.svg",
+        "https://www.onorca.dev/logos/yc.svg",
+        "https://www.onorca.dev/logos/instacart.svg"
+      ],
+      "article_title_extracted": "Orca — The most powerful Agent Development Environment (ADE)",
+      "category": "Development",
+      "created_at": "2026-07-05T03:03:30.657316Z",
+      "description": "Orca is the Agent Development Environment (ADE) for shipping with coding agents. Run Claude Code, Codex, Gemini, Cursor CLI, and every other CLI agent in parallel across isolated worktrees. Get work done dramatically faster than any IDE. New features shipped every day. Free, open source, cross-platform.",
+      "domain": "www.onorca.dev",
+      "embed_type": "",
+      "id": "k17725gbtybzbq2hxqfmx61cy589zhpr",
+      "og_image_url": "https://www.onorca.dev/og-image.png",
+      "recommended_at": "2026-07-06T04:50:15.265000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-agents",
+        "developer-tools",
+        "coding-automation"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-06T04:50:15.265000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Orca — The most powerful Agent Development Environment (ADE)",
+      "url": "https://www.onorca.dev/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-07-06T04:57:40.170157Z",
+      "article_image_urls": [
+        "https://repository-images.githubusercontent.com/729058610/2d4c8a5e-f6a2-4cf6-a674-690580ef05ec",
+        "https://github.com/schoero/eslint-plugin-better-tailwindcss/raw/main/assets/eslint-plugin-better-tailwindcss-logo.svg",
+        "https://camo.githubusercontent.com/35e40ebd1d8d3a2a53bad83619e3661946488ba3980e22aa7978b3b02364f183/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f7363686f65726f2f65736c696e742d706c7567696e2d6265747465722d7461696c77696e646373733f7374796c653d666c61742d737175617265266c6162656c436f6c6f723d45424545463226636f6c6f723d303030303030",
+        "https://camo.githubusercontent.com/9451944e57d3c9aaba7891c1d12b754476a05f63c5a6349105fea366ac88d257/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f65736c696e742d706c7567696e2d6265747465722d7461696c77696e646373733f7374796c653d666c61742d737175617265266c6162656c436f6c6f723d45424545463226636f6c6f723d303030303030",
+        "https://camo.githubusercontent.com/6e70773fbbb8b27605679b4a759589c9b155cd0ae53803a63e616cda265f6c6e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f7363686f65726f2f65736c696e742d706c7567696e2d6265747465722d7461696c77696e646373733f7374796c653d666c61742d737175617265266c6162656c436f6c6f723d45424545463226636f6c6f723d303030303030",
+        "https://camo.githubusercontent.com/b2a9c485acbc296dc434243096e589a270117bd778461ea770eeba6e64b51b25/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f64742f65736c696e742d706c7567696e2d6265747465722d7461696c77696e646373733f7374796c653d666c61742d737175617265266c6162656c436f6c6f723d45424545463226636f6c6f723d303030303030",
+        "https://camo.githubusercontent.com/a38f895f80fbb04d695d4e75f33abd503eec0d0143c26b03470ade2aadd86b2d/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f7363686f65726f2f65736c696e742d706c7567696e2d6265747465722d7461696c77696e646373733f7374796c653d666c61742d737175617265266c6162656c436f6c6f723d45424545463226636f6c6f723d303030303030",
+        "https://camo.githubusercontent.com/f80e940ae4573d68bdd55ad40d5a046e0c1b20da7776c6e42ea50022d1f59539/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73706f6e736f72732f7363686f65726f3f7374796c653d666c61742d737175617265266c6162656c436f6c6f723d45424545463226636f6c6f723d303030303030",
+        "https://github.com/schoero/eslint-plugin-better-tailwindcss/raw/main/assets/eslint-plugin-better-tailwindcss-demo.png",
+        "https://github.com/schoero/eslint-plugin-better-tailwindcss/raw/main/assets/sponsor-light.svg"
+      ],
+      "article_title_extracted": "GitHub - schoero/eslint-plugin-better-tailwindcss: ESLint/Oxlint plugin to help you write better tailwindcss by improving readability with formatting rules and enforcing best practices with linting rules. · GitHub",
+      "category": "Development",
+      "created_at": "2026-07-06T04:43:23.047183Z",
+      "description": "ESLint/Oxlint plugin to help you write better tailwindcss by improving readability with formatting rules and enforcing best practices with linting rules. - schoero/eslint-plugin-better-tailwindcss",
+      "domain": "github.com",
+      "embed_type": "",
+      "id": "k177y5xgyspe3re71fk87r7s6h8a124x",
+      "og_image_url": "https://repository-images.githubusercontent.com/729058610/2d4c8a5e-f6a2-4cf6-a674-690580ef05ec",
+      "recommended_at": "2026-07-06T04:50:09.145000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "tailwindcss",
+        "eslint",
+        "web-development"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-06T04:50:09.145000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "eslint-plugin-better-tailwindcss",
+      "url": "https://github.com/schoero/eslint-plugin-better-tailwindcss",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_text": "wrec docs\nThe most efficient screen recorder for mac.\n    Wrec records displays or windows with a native ScreenCaptureKit pipeline,\n    writes hardware-encoded .mov files, and gives you both a small GPUI\n    app and a JSON-friendly wrec CLI built for scripts and coding agents.\n  \n    Automating wrec? The [agent docs](https://www.wrec.app/docs/agents) are the operating contract.\n    Curious how it works? See\n    [architecture](https://www.wrec.app/docs/architecture) and\n    [configuration](https://www.wrec.app/docs/configuration).\n  \nThe flow\n- \n      Pick a target — wrec targets --jsonlists displays and windows. The app shows the same list.\n- Submit a job — the app or CLI sends the recording job to a local daemon over a Unix socket. One job records at a time; extras queue.\n- \n      Capture — the daemon spawns a native capture engine (ScreenCaptureKit\n      → AVAssetWriter) that writes a hardware-encoded\n      .mov.\n- Control the job — pause, resume, stop, or cancel from either client. Every state change streams as a JSON job event.\n- \n      Collect the file — recordings land in\n      ~/Movies/<app name>. History and metrics go to SQLite, kept separate from the media files.\nInstall\nBoth the app and the CLI are on Homebrew:\nbrew install shivamhwp/tap/wrec-cli     # CLI for terminals, scripts, agents\nbrew install --cask shivamhwp/tap/wrec  # the appThe standalone CLI can also be installed with:\ncurl -fsSL https://wrec.app/install | sh\n    The app is also downloadable from\n    [GitHub Releases](https://github.com/shivamhwp/wrec/releases). Release builds are not notarized yet, so macOS blocks the first launch of\n    the app. Clear the quarantine recursively and reopen:\n  \nxattr -dr com.apple.quarantine /Applications/Wrec.appRequirements\n- macOS 15+ — Apple Silicon is the primary target.\n- Screen Recording permission — for the app, or for the terminal running the CLI.\n- Audio Recording permission — only when system audio capture is enabled.\nRun it from source\ncargo build -p daemon --bin daemon   # optional, makes first start faster\ncargo run -p app                     # the GPUI app\ncargo run -p cli -- targets --json   # the CLI\n    Requires full Xcode (for GPUI shader compilation and the Swift capture\n    engine). See\n    [CONTRIBUTING.md](https://github.com/shivamhwp/wrec/blob/main/CONTRIBUTING.md) for the full development setup.",
+      "article_title_extracted": "wrec docs",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-07-06T04:49:24.891410Z",
+      "description": "Wrec is an efficient screen recorder for macOS that uses a native ScreenCaptureKit pipeline to record displays or windows. It outputs hardware-encoded `.mov` files and provides both a GPUI app and a JSON-friendly CLI for automation. \n\n**Key Points:**\n1. **Recording Flow:** Users pick a target display or window, submit a recording job through the app or CLI, and control the job (pause, resume, stop, or cancel). All events are streamed as JSON.\n2. **Installation:** Available via Homebrew for both the app and CLI, or can be installed from GitHub Releases. Additional steps are required for first-time launch due to macOS security measures.\n3. **Requirements:** Requires macOS 15 or later, with permissions for screen and audio recording depending on the mode used.\n4. **Source Build:** Users can run Wrec from source with certain prerequisites, including full Xcode for development.",
+      "domain": "www.wrec.app",
+      "embed_type": "",
+      "id": "k17fnkzdvd9200a6nk3jm1av118a098p",
+      "og_image_url": "https://cloud.poche.app/api/storage/e8a99f64-2172-407f-b016-14a329f38f1e",
+      "recommended_at": "2026-07-06T04:49:39.578000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "macos",
+        "screen-recording",
+        "automation"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-07-06T04:49:39.578000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "wrec docs",
+      "url": "https://www.wrec.app/docs",
+      "x_status_id": null
+    },
     {
       "article_extraction": "trafilatura",
       "article_fetch_attempted_at": "2026-07-04T17:41:02.898433Z",
@@ -1278,41 +1482,6 @@
       "title_zh_translator_v": 2,
       "url": "https://x.com/OfficialLoganK/status/2071988351083921690",
       "x_status_id": "2071988351083921690"
-    },
-    {
-      "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-07-01T05:10:28.265190Z",
-      "article_title_extracted": "- YouTube",
-      "category": "Media",
-      "created_at": "2026-06-30T17:51:36.251270Z",
-      "description": "TechLead • YouTube",
-      "domain": "youtu.be",
-      "embed_type": "youtube",
-      "id": "k17d0vjrmq7rs924ceg21gq01989m7ez",
-      "og_image_url": "https://i.ytimg.com/vi/VZVTjg85JwA/maxresdefault.jpg",
-      "recommended_at": "2026-07-01T02:32:43.830000Z",
-      "source": "poche@dine",
-      "source_type": "poche",
-      "tags": [
-        "bitcoin",
-        "cryptocurrency",
-        "investing"
-      ],
-      "teams": [
-        {
-          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
-          "name": "Dine",
-          "recommended_at": "2026-07-01T02:32:43.830000Z",
-          "recommended_by": "disinfeqt",
-          "slug": "dine"
-        }
-      ],
-      "title": "Why I Sold All My Bitcoin... it's over.",
-      "title_zh": "我为何清仓了所有比特币……一切都结束了。",
-      "title_zh_hash": "eb3486b7580169ec",
-      "title_zh_translator_v": 2,
-      "url": "https://youtu.be/VZVTjg85JwA?is=vDOKUCJGF6QtFsLW",
-      "x_status_id": null
     },
     {
       "article_extraction": "trafilatura",
@@ -4315,7 +4484,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-28T21:44:34.068944Z",
+      "article_fetch_attempted_at": "2026-07-06T04:57:40.170157Z",
       "article_image_urls": [
         "https://auditkit.dev/og-image.svg"
       ],
@@ -4356,7 +4525,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-28T21:44:34.068944Z",
+      "article_fetch_attempted_at": "2026-07-06T04:57:40.170157Z",
       "article_image_urls": [
         "https://resources.jetbrains.com/storage/products/junie/img/meta/preview.png"
       ],
@@ -4396,7 +4565,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-28T21:44:34.068944Z",
+      "article_fetch_attempted_at": "2026-07-06T04:57:40.170157Z",
       "article_image_urls": [
         "https://otty.sh/screenshots/screenshot-1.png",
         "https://otty.sh/otty-face.svg",
@@ -13707,7 +13876,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-28T21:44:34.068944Z",
+      "article_fetch_attempted_at": "2026-07-06T04:57:40.170157Z",
       "article_image_urls": [
         "https://slim.tools/og-image.png"
       ],
@@ -109205,7 +109374,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2289,
+      "count": 2293,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -109241,5 +109410,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-07-05T21:38:45.509235Z"
+  "updated_at": "2026-07-06T04:58:17.116478Z"
 }
