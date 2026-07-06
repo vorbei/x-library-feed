@@ -367,6 +367,20 @@
       "title": "Flowchart Maker & Online Diagram Software",
       "url": "http://draw.io"
     },
+    "http://drydock.org": {
+      "content_type": "text/html",
+      "description": "Drydock lets npm and PyPI maintainers review the exact package artifact before a staged publish or gated release goes live.",
+      "final_url": "https://drydock.org/",
+      "frameable": false,
+      "image_urls": [
+        "https://drydock.org/og-image.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Drydock: pre-publish package review",
+      "url": "http://drydock.org"
+    },
     "http://eieio.games": {
       "content_type": "text/html; charset=utf-8",
       "description": "games, writing, and nonsense from nolen royalty",
@@ -991,6 +1005,21 @@
       "title": "prodmgmt.world | AI PM OS",
       "url": "http://prodmgmt.world"
     },
+    "http://productcompass.pm": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "The #1 AI & PM newsletter. Actionable tips, resources, and step-by-step playbooks to learn by doing. Improve product sense and AI intuition. Click to read The Product Compass, by Paweł Huryn, a Substack publication with hundreds of thousands of subscribers.",
+      "final_url": "https://www.productcompass.pm/",
+      "frameable": false,
+      "image_urls": [
+        "https://substackcdn.com/image/fetch/$s_!bW9m!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fhuryn.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-185903227%26version%3D9",
+        "https://substackcdn.com/image/fetch/$s_!7wdr!,w_1360,c_limit,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fefb5485f-0b74-4a3b-ae6c-b2559dbdfa93_1280x853.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "The Product Compass | Paweł Huryn | Substack",
+      "url": "http://productcompass.pm"
+    },
     "http://sevalla.com": {
       "content_type": "text/html",
       "description": "Ship production apps without infrastructure overhead. Run applications, databases, storage, and static sites on one platform.",
@@ -1480,22 +1509,6 @@
       "title": "",
       "url": "http://x.com/i/article/2062498852481925120"
     },
-    "http://x.com/i/article/2062555781736902656": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2062555781736902656",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062555781736902656/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKD_vwQaQAE285A?format=jpg&name=900x900)](http://x.com/i/article/2062555781736902656/neural%5Favb/article/2062930609861976454/media/2062929825208352769)\n\nEconomy of Minds: Multi-Agent Prompt Optimization explained\n\n[![](https://pbs.twimg.com/profile_images/2015375309147611136/WKvfQ-oV_normal.jpg)](http://x.com/i/article/2062555781736902656/neural%5Favb)\n\n[AVB](http://x.com/i/article/2062555781736902656/neural%5Favb)\n\n[@neural\\_avb](http://x.com/i/article/2062555781736902656/neural%5Favb)\n\n·\n\n8h\n\nFollow\n\nClick to Follow neural\\_avb\n\n14\n\n145\n\n[7.6K](http://x.com/i/article/2062555781736902656/neural%5Favb/status/2062930609861976454/analytics)\n\nWake up babe there's a new paper from Harvard: Economy of Minds (EOM). They've made a decentralized multi-agent system where agents coordinate and improve over time using market-like mechanisms (auctions, payments, wealth accumulation).\n\nThey are reporting that such an environment has led to emergent multi-step reasoning and strong performance on several agentic tasks!\n\nNote: This article was written by AVB using GPT-5.2 inside the Paper Breakdown harness\n\n[![](https://pbs.twimg.com/profile_images/1978164240549564417/eReMGiC1_normal.jpg)](http://x.com/i/article/2062555781736902656/ZhentingQi)\n\nZhenting Qi\n\n@ZhentingQi\n\n·\n\n[Jun 4](http://x.com/i/article/2062555781736902656/ZhentingQi/status/2062557667361792039)\n\nImagine a population of machine agents. Each might be strong on certain tasks but fundamentally limited: partial tools, partial observations, finite context, bounded compute. How can these agents self-orchestrate and self-evolve into stronger collective intelligence to solve\n\nShow more\n\n![](https://pbs.twimg.com/amplify_video_thumb/2062552575078195200/img/tsbNNbDtB_L0mEOA.jpg)\n\n3\n\n29\n\n139\n\n[225K](http://x.com/i/article/2062555781736902656/ZhentingQi/status/2062557667361792039/analytics)\n\n## \n\nWhy should I care about whatever this is?\n\nIf you are building multi-agent systems to accomplish specific tasks - this is for you. Most multi-agent stacks still rely on a lot of hand-designed orchestration \\- you (the developer) go write explicit prompts and state machine graphs to manually define \"who does what and when\".\n\nLong tasks require different role switches according to the state and progress of the task. And it is almost always best to design systems that can switch up your system prompts optimally so tasks always make forward progress.\n\n> The goal of this paper is do exactly this. Given a task, how do you generate an optimized population of multi-agents, each with specific instructions on how to act AND when to act.And they did it in a really unique and fun way - simulating a market system that externally controls how agents evolve.\n\nThe end result of this optimization is a group of specialized agents and a intelligent routing mechanism to select how they solve a task.\n\nWhen we put simple agents with a basic action space in a complex multi-agent scenario, what do you think happens? Complex behaviours emerge automatically because those simple agents begin to optimize their life around the uncertainties posed by other agents in the scenario. That's the best part about all of this.\n\nBy the way, this theory of \"behaviours organically emerging from multi-agent scenario\" is not a new concept. Even some older pre-LLM multi-agent works have indicated this, such as the famous OpenAI Hide and Seek paper.\n\n<https://openai.com/index/emergent-tool-use/>\n\n![](https://pbs.twimg.com/amplify_video_thumb/2062917645364776960/img/iAZqXNQhzubCDSP6.jpg)\n\nWhile this paper reminded me some ideas from those older multi-agent papers, there are a few caveats. It is important to note the following:\n\n* This paper is NOT training agents to be financially independent or perform trades or auctions!\n* In fact, this is a new algorithm",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2062555781736902656/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HKD_vwQaQAE285A?format=jpg&name=900x900)](http://x.com/i/article/2062555781736902656/neural%5Favb/article/2062930609861976454/media/2062929825208352769)\n\n思维经济：多智能体提示优化详解\n\n[![](https://pbs.twimg.com/profile_images/2015375309147611136/WKvfQ-oV_normal.jpg)](http://x.com/i/article/2062555781736902656/neural%5Favb)\n\n[AVB](http://x.com/i/article/2062555781736902656/neural%5Favb)\n\n[@neural\\_avb](http://x.com/i/article/2062555781736902656/neural%5Favb)\n\n·\n\n8小时前\n\n关注\n\n点击关注 @neural\\_avb\n\n14\n\n145\n\n[7.6K](http://x.com/i/article/2062555781736902656/neural%5Favb/status/2062930609861976454/analytics)\n\n醒醒吧宝贝，哈佛大学又出新论文了：思维经济（EOM）。他们构建了一个去中心化的多智能体系统，其中智能体通过类似市场的机制（拍卖、支付、财富积累）进行协调并随时间自我改进。\n\n他们报告称，这种环境催生了涌现性的多步推理能力，并在多个智能体任务上表现出色！\n\n注意：本文由 AVB 使用 GPT-5.2 在 Paper Breakdown harness 中撰写\n\n[![](https://pbs.twimg.com/profile_images/1978164240549564417/eReMGiC1_normal.jpg)](http://x.com/i/article/2062555781736902656/ZhentingQi)\n\nZhenting Qi\n\n@ZhentingQi\n\n·\n\n[6月4日](http://x.com/i/article/2062555781736902656/ZhentingQi/status/2062557667361792039)\n\n想象一群机器智能体。每个智能体可能在特定任务上表现强劲，但本质上都有局限：部分工具、部分观测、有限上下文、有限计算。这些智能体如何自我编排、自我进化，形成更强大的集体智能来解决\n\n显示更多\n\n![](https://pbs.twimg.com/amplify_video_thumb/2062552575078195200/img/tsbNNbDtB_L0mEOA.jpg)\n\n3\n\n29\n\n139\n\n[225K](http://x.com/i/article/2062555781736902656/ZhentingQi/status/2062557667361792039/analytics)\n\n## \n\n我为什么要在乎这个？\n\n如果你正在构建多智能体系统来完成特定任务——这就是为你准备的。大多数多智能体框架仍然依赖大量手工设计的编排——你（开发者）需要编写显式的提示词和状态机图，手动定义\"谁在什么时候做什么\"。\n\n长任务需要根据任务的状态和进展进行不同的角色切换。而设计能够最优地切换系统提示词、确保任务始终向前推进的系统，几乎总是最佳方案。\n\n> 这篇论文的目标正是如此：给定一个任务，如何生成一个优化后的多智能体群体，每个智能体都带有关于如何行动以及何时行动的特定指令。他们用一种非常独特且有趣的方式实现了这一点——模拟一个外部控制智能体进化方式的市场系统。\n\n这种优化的最终结果是一组专门的智能体，以及一个智能路由机制，用于选择它们如何解决任务。\n\n当我们把具有基本动作空间的简单智能体放入复杂的多智能体场景中时，你认为会发生什么？复杂行为会自动涌现，因为这些简单智能体开始围绕场景中其他智能体带来的不确定性来优化自己的生存方式。这就是这一切最精彩的部分。\n\n顺便说一句，这种\"行为从多智能体场景中有机涌现\"的理论并非新概念。甚至一些较早的、LLM 出现之前的多智能体研究也指出了这一点，例如著名的 OpenAI 捉迷藏论文。\n\n<https://openai.com/index/emergent-tool-use/>\n\n![](https://pbs.twimg.com/amplify_video_thumb/2062917645364776960/img/iAZqXNQhzubCDSP6.jpg)\n\n虽然这篇论文让我想起了那些较早的多智能体论文中的一些想法，但有几个注意事项。需要指出以下几点：\n\n* 这篇论文并非训练智能体实现财务独立或进行交易或拍卖！\n* 实际上，这是一种新算法",
-      "text_excerpt_zh_hash": "d0a0e4d17df124fe",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2062555781736902656"
-    },
     "http://x.com/i/article/2062609696079675392": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1511,22 +1524,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2062609696079675392"
-    },
-    "http://x.com/i/article/2062891077359595520": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2062891077359595520",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062891077359595520/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKDchtSXMAAqQZU?format=jpg&name=900x900)](http://x.com/i/article/2062891077359595520/Voxyz%5Fai/article/2062928213605543938/media/2062891100986093568)\n\nStart with Repetitive, High-Judgment Work: Building Your First Skill Library\n\n[![](https://pbs.twimg.com/profile_images/1998303259279138816/5bqsxKJS_normal.jpg)](http://x.com/i/article/2062891077359595520/Voxyz%5Fai)\n\n[Vox](http://x.com/i/article/2062891077359595520/Voxyz%5Fai)\n\n[@Voxyz\\_ai](http://x.com/i/article/2062891077359595520/Voxyz%5Fai)\n\n·\n\n8h\n\nFollow\n\nClick to Follow Voxyz\\_ai\n\n2\n\n13\n\n92\n\n[5.3K](http://x.com/i/article/2062891077359595520/Voxyz%5Fai/status/2062928213605543938/analytics)\n\nThe first step in building a skill library is the easiest to get wrong.\n\nMany people start with prompts. They organize common prompts into folders, name them, and write brief instructions. It looks neat at first, but ultimately becomes an abandoned warehouse nobody ever opens.\n\nThe reason is simple: these tasks are too \"light.\"\n\n\"Rewrite this weekly report,\" \"Summarize these meeting minutes,\" \"Categorize these emails,\" \"Polish this paragraph\", sure, you can organize these. But today's agents can already produce a decent first pass out of the box. Building dedicated \"skills\" for them just leaves you with a glorified prompt collection.\n\nYour first skill library should start with \"heavier\" work.\n\nBy \"heavy,\" I mean judgment-heavy: risk, context, owner calls, and stop rules.\n\nSome tasks happen every week. The steps seem identical, but at critical junctures, they require an experienced pair of eyes to sign off.\n\nFor example:\n\n* PRD reviews\n* Launch QA\n* Support escalations\n* Code reviews\n* Brand voice reviews\n* Sales call prep\n* Content ideation\n* Customer feedback handling\n\nOn the surface, these tasks follow a process. What's truly valuable are the forks in the road within that process.\n\n* Should we push forward with this issue, or stop and ask a human?\n* Should this document trust the CRM, or the latest Slack message?\n* Is this feedback just a minor tweak, or has the direction drifted entirely?\n* Is this customer just using a harsh tone, or are they an actual churn risk?\n* Can the agent directly revise this output, or must a human make the final call?\n\nIf these judgments only live in someone's head, the company will keep paying the price.\n\nA senior goes on PTO, and review quality drops a tier. A project pauses for two weeks, and the agent starts referencing outdated statuses. A prompt is copy-pasted, and the old project's preferences pollute the new one. Feedback is taken too literally, resulting in three rounds of useless revisions.\n\nSo, your first question shouldn't be: \"What prompts can I organize?\"\n\nAsk instead: \"What task has recurred frequently lately, where I still feel the need to personally double-check it for peace of mind?\"\n\nStart there.\n\n[![Image](https://pbs.twimg.com/media/HKD4TdaWkAAZ-WC?format=jpg&name=small)](http://x.com/i/article/2062891077359595520/Voxyz%5Fai/article/2062928213605543938/media/2062921642532048896)\n\n## \n\nA Skill Library Captures the Sequence of Judgment\n\nThe basic format for a single skill does not need to feel mysterious. Official docs already make the package clear: a directory, a \n\n[SKILL.md](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)\n\n, and optional instructions, references, scripts, and assets.\n\n[OpenAI Codex Skills](https://developers.openai.com/codex/skills)\n\n describe the same pattern from another angle: a skill packages instructions, resources, and optional scripts so an agent can follow a workflow reliably. This article is about the layer after that: how to choose and organize the skills that deserve to exist.\n\nThe hard part is the library.\n\nA library isn't just dumping 20 skills into a folder. A library needs to",
-      "text_excerpt_zh": "## 从重复性、高判断力的工作开始：构建你的第一个技能库\n\n构建技能库的第一步最容易出错。\n\n许多人从提示词开始。他们把常用提示词整理到文件夹里，命名并写上简短说明。一开始看起来很整洁，但最终会变成一个无人问津的废弃仓库。\n\n原因很简单：这些任务太\"轻\"了。\n\n\"重写这份周报\"、\"总结这些会议纪要\"、\"分类这些邮件\"、\"润色这段文字\"——没错，你可以整理这些。但如今的智能体开箱就能产出不错的第一版草稿。为它们构建专门的\"技能\"，最终只会让你得到一个被美化的提示词集合。\n\n你的第一个技能库应该从\"更重\"的工作开始。\n\n这里说的\"重\"，指的是判断力密集：涉及风险、上下文、负责人决策和停止规则。\n\n有些任务每周都会发生。步骤看似相同，但在关键节点上，需要一双有经验的眼睛来把关。\n\n例如：\n\n*   PRD 评审\n*   上线质量检查\n*   客服升级处理\n*   代码审查\n*   品牌语调审查\n*   销售通话准备\n*   内容创意构思\n*   客户反馈处理\n\n表面上看，这些任务遵循流程。真正有价值的是流程中的分岔路口。\n\n*   这个问题应该继续推进，还是停下来询问人类？\n*   这份文档应该信任 CRM，还是最新的 Slack 消息？\n*   这个反馈只是小调整，还是方向已经完全偏离？\n*   这位客户只是语气严厉，还是真的有流失风险？\n*   智能体可以直接修改这个输出，还是必须由人类做最终决定？\n\n如果这些判断只存在于某人的脑子里，公司就会持续付出代价。\n\n资深员工休假，评审质量就下降一个档次。项目暂停两周，智能体就开始引用过时的状态。提示词被复制粘贴，旧项目的偏好污染了新项目。反馈被过于字面地理解，导致三轮无用的修改。\n\n所以，你的第一个问题不应该是：\"我能整理哪些提示词？\"\n\n而应该是：\"最近哪个任务频繁出现，而我仍然觉得需要亲自复核一遍才能放心？\"\n\n从那里开始。\n\n## 技能库捕捉判断的序列\n\n单个技能的基本格式并不需要显得神秘。官方文档已经明确了其结构：一个目录，一个 [SKILL.md](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) 文件，以及可选的指令、参考资料、脚本和资源。[OpenAI Codex Skills](https://developers.openai.com/codex/skills) 从另一个角度描述了相同的模式：一个技能将指令、资源和可选脚本打包，以便智能体能够可靠地遵循工作流程。本文讨论的是这之后的一层：如何选择和组织那些值得存在的技能。\n\n难点在于库本身。\n\n一个库不仅仅是把 20 个技能丢进一个文件夹。一个库需要",
-      "text_excerpt_zh_hash": "0565be67a970a5ae",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2062891077359595520"
     },
     "http://x.com/i/article/2062903712209600512": {
       "cleaner_v": 2,
@@ -1592,22 +1589,6 @@
       "title": "",
       "url": "http://x.com/i/article/2062943721902235648"
     },
-    "http://x.com/i/article/2062947397635043328": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2062947397635043328",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062947397635043328/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKERF1MbsAAOYGW?format=jpg&name=900x900)](http://x.com/i/article/2062947397635043328/jhleath/article/2062948931886334020/media/2062948896188641280)\n\nWho will build Vercel for agents?\n\n[![](https://pbs.twimg.com/profile_images/1725510925610840064/z9JLeyDz_normal.jpg)](http://x.com/i/article/2062947397635043328/jhleath)\n\n[Hunter Leath](http://x.com/i/article/2062947397635043328/jhleath)\n\n[@jhleath](http://x.com/i/article/2062947397635043328/jhleath)\n\n·\n\n6h\n\n·\n\nFollow\n\nClick to Follow jhleath\n\n8\n\n2\n\n64\n\n[10K](http://x.com/i/article/2062947397635043328/jhleath/status/2062948931886334020/analytics)\n\nThis isn't surprising to you, but I believe there's a reason why none of the \"vercel for agents\" companies have won yet: none of these technologies have innovated in how to manage stateful applications.\n\n[![Image](https://pbs.twimg.com/media/HKERVSebUAAgaPN?format=jpg&name=900x900)](http://x.com/i/article/2062947397635043328/jhleath/article/2062948931886334020/media/2062949161746780160)\n\n\\[tweet: \n\n<https://x.com/utpalnadiger/status/2062702881019744474>\n\n\\]\n\nFundamentally, AI agents are \\*a very different shape\\* than what we used to deploy in the cloud.\n\nPreviously, a \"cloud application\" would be an API wrapped around a database and S3\\. It would only need to access its own data, and the \\*server\\* didn't need to contain any state at all, so they were super simple to spin up/replace -- the \"kubernetes\" model of deployment.\n\nIf you look out at the \"agent deployment\" options, everyone is sort of competing on what the \\*thing\\* is that will allow them to satisfy this new shape of application.\n\nThe sandbox companies believe that the fundamental problem is compute. If you can spin up compute fast enough and flexibly enough, then you can serve agents. I don't find this very inspiring, but it also doesn't \\*help\\*. Spinning up a server quickly is helpful, but it's not enough for making agents simple -- you've just replicated what people were doing prior to Vercel for websites.\n\n\\[side note: it's funny to me that Vercel themselves haven't seemed to release anything yet to recognize this, but it's early days\\]\n\nI think the next most-inspired option is a company that believes that \\*networking\\* is the fundamental thing that needs to change in order to serve agents well. This is the category where I put \n\n[@ssh\\_exe\\_dev](https://x.com/@ssh%5Fexe%5Fdev)\n\n. They're betting on the fact that having servers that are super easy to address (ssh \n\n[exe.dev](http://x.com/i/article/2062947397635043328//exe.dev)\n\n) and spin up copies of themselves is the fundamental primitive required to serve agents well.\n\nThis seems to mostly be working, for select parts of the agent stack. We most commonly see people want to use \n\n[exe.dev](http://x.com/i/article/2062947397635043328//exe.dev)\n\n for the \"agent loop\" portion of the problem (where do you run the harness), but it doesn't necessarily solve the ability for that agent loop to call untrusted code or manipulate their context window.\n\nInstead, I \\[of course\\] believe that the real DX advancement that needs to happen to solve for incredibly simple agent deployment and management is \\*storage\\*.\n\nThe reason for this is simple: agents are stateful in a way that no previous application was, so you need to figure out how to handle state differently than \"configure a Kubernetes ProvisionedVolume if you want\".\n\nAgents are actually made up of two different parts: the agent loop (the \"trusted\" code which contains the pieces that connect the LLM to the tools) and the sandbox (the \"untrusted\" code that runs to manipulate context). The agent loop needs to be addressable via a URI (for example, in order to set up a webhook that triggers the agent) and the sandbox needs to be cheap to spin up in large quantities.\n\nThese two separate pieces nee",
-      "text_excerpt_zh": "## \n\n要查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2062947397635043328/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HKERF1MbsAAOYGW?format=jpg&name=900x900)](http://x.com/i/article/2062947397635043328/jhleath/article/2062948931886334020/media/2062948896188641280)\n\n谁将为智能体打造 Vercel？\n\n[![](https://pbs.twimg.com/profile_images/1725510925610840064/z9JLeyDz_normal.jpg)](http://x.com/i/article/2062947397635043328/jhleath)\n\n[Hunter Leath](http://x.com/i/article/2062947397635043328/jhleath)\n\n[@jhleath](http://x.com/i/article/2062947397635043328/jhleath)\n\n·\n\n6小时前\n\n·\n\n关注\n\n点击关注 @jhleath\n\n8\n\n2\n\n64\n\n[10K](http://x.com/i/article/2062947397635043328/jhleath/status/2062948931886334020/analytics)\n\n这对你来说可能不意外，但我认为那些\"面向智能体的 Vercel\"公司至今未能胜出的原因在于：这些技术都没有在如何管理有状态应用方面进行创新。\n\n[![图片](https://pbs.twimg.com/media/HKERVSebUAAgaPN?format=jpg&name=900x900)](http://x.com/i/article/2062947397635043328/jhleath/article/2062948931886334020/media/2062949161746780160)\n\n\\[推文：\n\n<https://x.com/utpalnadiger/status/2062702881019744474>\n\n\\]\n\n从根本上说，AI 智能体的形态与我们过去在云端部署的应用截然不同。\n\n过去，\"云应用\"是一个围绕数据库和 S3 构建的 API。它只需要访问自身数据，而且*服务器*本身完全不需要包含任何状态，因此启动或替换起来非常简单——这就是\"kubernetes\"式的部署模式。\n\n如果你看看现有的\"智能体部署\"方案，会发现大家都在竞争，试图找到能够满足这种新应用形态的*核心要素*。\n\n沙盒公司认为根本问题是计算能力。如果你能足够快速且灵活地启动计算资源，就能服务于智能体。我觉得这并不令人振奋，而且实际上也*没什么帮助*。快速启动服务器固然有用，但远不足以让智能体变得简单——你只是复制了人们在 Vercel 出现之前为网站做的事情。\n\n\\[旁注：有趣的是，Vercel 自己似乎还没有发布任何东西来应对这一变化，不过现在还为时过早\\]\n\n我认为下一个最有启发的选项是那些认为*网络*是服务好智能体所需根本变革的公司。我把\n\n[@ssh\\_exe\\_dev](https://x.com/@ssh%5Fexe%5Fdev)\n\n归入这一类。他们押注于这样一个事实：拥有极易寻址（ssh \n\n[exe.dev](http://x.com/i/article/2062947397635043328//exe.dev)\n\n）并能快速自我复制的服务器，是良好服务智能体的基本原语。\n\n这在智能体栈的某些部分似乎基本可行。我们最常见到人们希望将\n\n[exe.dev](http://x.com/i/article/2062947397635043328//exe.dev)\n\n用于\"智能体循环\"部分（即在哪里运行 harness），但它不一定能解决该智能体循环调用不可信代码或操作其上下文窗口的能力。\n\n相反，我\\[当然\\]认为，要实现极其简单的智能体部署和管理，真正需要的 DX 进步在于*存储*。\n\n原因很简单：智能体的有状态程度是此前任何应用都无法比拟的，因此你需要找到一种不同于\"如果想用就配置一个 Kubernetes ProvisionedVolume\"的方式来处理状态。\n\n智能体实际上由两个不同部分组成：智能体循环（\"可信\"代码，包含连接 LLM 与工具的组件）和沙盒（用于操作上下文的\"不可信\"代码）。智能体循环需要通过 URI 可寻址（例如，为了设置触发智能体的 webhook），而沙盒则需要能够廉价地大量启动。\n\n这两个独立的部分需要",
-      "text_excerpt_zh_hash": "6c0675994a177b20",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2062947397635043328"
-    },
     "http://x.com/i/article/2062949527317864448": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1623,22 +1604,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2062949527317864448"
-    },
-    "http://x.com/i/article/2062990693061005312": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2062990693061005312",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062990693061005312/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKE3IbrWgAA1Inn?format=jpg&name=900x900)](http://x.com/i/article/2062990693061005312/tanmaye%5Fbhatia/article/2062992045803745540/media/2062990722320465920)\n\nThe Queryable Firm. \n\n[![](https://pbs.twimg.com/profile_images/1847301896102375424/gZroWOKm_normal.jpg)](http://x.com/i/article/2062990693061005312/tanmaye%5Fbhatia)\n\n[tanmaye](http://x.com/i/article/2062990693061005312/tanmaye%5Fbhatia)\n\n[@tanmaye\\_bhatia](http://x.com/i/article/2062990693061005312/tanmaye%5Fbhatia)\n\n·\n\n4h\n\n·\n\nFollow\n\nClick to Follow tanmaye\\_bhatia\n\n2\n\n11\n\n[1.4K](http://x.com/i/article/2062990693061005312/tanmaye%5Fbhatia/status/2062992045803745540/analytics)\n\nNotes on AI in venture. Part one is about board decks\n\nA firm only knows what it can query.\n\nMy work involves building intelligence at my firm. The longer I work on that, the more the phrase means something simple. Intelligence is downstream of access. A firm gets smarter exactly as fast as it can reach its own data. So, I spent time exploring one data source.\n\n## \n\nThe deck is a database\n\nFinance runs on documents. Banks have filings, hedge funds have transcripts and tear sheets, and early-stage venture has a messy pile of recurring artifacts. One of the richest sources is the inscrutable quarterly board deck. It is the best periodic signal you get on a company you have backed, and most of the time it dies in a partner’s inbox.\n\nA board deck is a database that has been laid out for the human eye and ruined for every other reader. A deck usually has metrics ranging from the nearly-universal (ARR, burn, runway, net new logos), to domain-specific numbers, to sometimes, entirely novel ones. It usually spans the company’s narrative, asks, and risks. Stack these decks over quarters and years and you have enough data to be a better-prepared partner to founders. Think board members who walk into the meeting already knowing your business, we don’t need constant repetition, and track progress against your asks.\n\nOnly if you could parse it. The trouble is what a deck is. Let’s zoom in on KPI extraction. The problem is not storage and it is not intelligence.\n\n[![Image](https://pbs.twimg.com/media/HKE3auaWEAEEehx?format=jpg&name=small)](http://x.com/i/article/2062990693061005312/tanmaye%5Fbhatia/article/2062992045803745540/media/2062991036587053057)\n\nPortCo, Inc. is invented. Every name, number, and metric on this slide is synthetic.\n\nOn one slide, ARR shows up as a tile, as a bar in a chart, and again in a footnote. Six numbers, one per quarter, and one of them a projection you can tell apart only by its dashed outline. Take the same slide across eight quarters and you have forty-eight ARR values, historical and forecast tangled together. Reading 4.2 is trivial. The work is binding 4.2 to ARR, to Q3 2025, and to actual.\n\n> The bottleneck is not computation. It’s representation.\n\nThe decks are 38 pages long and 72,000 tokens on average. A quarter of them arrived as images, the numbers baked into pixels. Several carried metrics not seen at any other company. Unlike term sheets and cap tables, board decks have no standardized format. There is no schema to inherit. You have to manufacture one.\n\n## \n\nThe graded tuple\n\nOne approach is to stop extracting numbers and start extracting records. Every metric becomes a tuple.\n\n* the metric\n* the value and its unit\n* the period it describes\n* the date it is measured from, or as of\n* the grain: point-in-time, quarterly, annual\n* the status: actual, projected, estimated\n* the citation: the exact page it came from\n\nI expected the larger models to win this on raw retrieval. They barely moved the needle. The gain came from promoting period, grain, and status to first-class fields with a defined way to derive each one. Make the representation honest and the retrieval mostly takes care of itsel",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2062990693061005312/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HKE3IbrWgAA1Inn?format=jpg&name=900x900)](http://x.com/i/article/2062990693061005312/tanmaye%5Fbhatia/article/2062992045803745540/media/2062990722320465920)\n\n可查询的公司。\n\n[![](https://pbs.twimg.com/profile_images/1847301896102375424/gZroWOKm_normal.jpg)](http://x.com/i/article/2062990693061005312/tanmaye%5Fbhatia)\n\n[tanmaye](http://x.com/i/article/2062990693061005312/tanmaye%5Fbhatia)\n\n[@tanmaye\\_bhatia](http://x.com/i/article/2062990693061005312/tanmaye%5Fbhatia)\n\n·\n\n4小时前\n\n·\n\n关注\n\n点击关注 tanmaye\\_bhatia\n\n2\n\n11\n\n[1.4K](http://x.com/i/article/2062990693061005312/tanmaye%5Fbhatia/status/2062992045803745540/analytics)\n\n关于AI在风投中的笔记。第一部分是关于董事会报告。\n\n一家公司只知道它能查询到的东西。\n\n我的工作是为我所在的公司构建智能。我在这方面工作得越久，就越明白这句话的简单含义。智能取决于数据的可访问性。一家公司变聪明的速度，恰好等于它触及自身数据的速度。因此，我花时间探索了一个数据源。\n\n## \n\n报告就是数据库\n\n金融行业依赖文档运转。银行有申报文件，对冲基金有会议记录和概览表，而早期风投则有一堆杂乱无章的周期性产物。其中一个最丰富的来源就是那晦涩难懂的季度董事会报告。这是你从已投资公司获得的最佳周期性信号，而大多数时候，它都死在合伙人的收件箱里。\n\n一份董事会报告是一个为人类眼睛排版、却对其他读者毫无用处的数据库。报告通常包含从近乎通用的指标（ARR、烧钱率、跑道、新增客户数）到特定领域的数字，有时甚至是全新的指标。它通常涵盖公司的叙事、诉求和风险。将这些报告按季度和年份堆叠起来，你就拥有了足够的数据，成为一位准备更充分的合伙人，更好地服务创始人。想象一下，董事会成员走进会议室时已经了解你的业务，我们不需要不断重复，并能追踪你诉求的进展。\n\n前提是你能解析它。问题在于报告的本质。让我们聚焦于KPI提取。问题不在于存储，也不在于智能。\n\n[![图片](https://pbs.twimg.com/media/HKE3auaWEAEEehx?format=jpg&name=small)](http://x.com/i/article/2062990693061005312/tanmaye%5Fbhatia/article/2062992045803745540/media/2062991036587053057)\n\nPortCo, Inc. 是虚构的。这张幻灯片上的每个名字、数字和指标都是合成的。\n\n在一张幻灯片上，ARR以图块形式出现，在图表中作为条形图出现，又在脚注中出现。六个数字，每个季度一个，其中一个是投影，只能通过其虚线轮廓来区分。将同一张幻灯片跨越八个季度，你就得到了四十八个ARR值，历史和预测混杂在一起。读取4.2很简单。难点在于将4.2绑定到ARR、2025年第三季度以及实际值。\n\n> 瓶颈不是计算。而是表示。\n\n这些报告平均有38页长，72000个token。其中四分之一以图片形式到达，数字嵌入像素中。有几份报告包含在其他任何公司都未见过的指标。与条款清单和股权结构表不同，董事会报告没有标准化格式。没有可继承的模式。你必须自己制造一个。\n\n## \n\n分级元组\n\n一种方法是停止提取数字，开始提取记录。每个指标都变成一个元组。\n\n* 指标\n* 数值及其单位\n* 它描述的时期\n* 测量日期或截止日期\n* 粒度：时间点、季度、年度\n* 状态：实际、预测、估计\n* 引用：它来自的确切页面\n\n我原本期望更大的模型在原始检索上胜出。但它们几乎没什么进展。提升来自于将时期、粒度和状态提升为一级字段，并为每个字段定义推导方式。让表示变得诚实，检索就基本能自行解决。",
-      "text_excerpt_zh_hash": "67379a5ac3692639",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2062990693061005312"
     },
     "http://x.com/i/article/2063175884312301568": {
       "cleaner_v": 2,
@@ -7142,30 +7107,6 @@
       "title": "Consistency, But in Excellence Not Appearance - Jim Nielsen’s Blog",
       "url": "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar"
     },
-    "https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/?ref=sidebar": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Reopening every decision you left implicit, and settling it without you",
-      "extraction_source": "trafilatura",
-      "final_url": "https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/?ref=sidebar",
-      "frameable": null,
-      "image_urls": [
-        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/size/w1200/2026/06/0_0.jpg",
-        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/2026/03/mtlogo2-1.svg",
-        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/size/w300/2026/03/48Ekqgdx_400x400-copy.png",
-        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/size/w300/2026/05/0_2--1-.jpeg",
-        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/size/w600/2026/03/fc384b8f-d07e-40c0-bf56-c7fbe4b0df08_1456x816-jpeg.jpg",
-        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/size/w600/2026/03/bc5e27c9-618a-4445-884c-c16acc95c8d7_1456x816-jpeg-1.jpg",
-        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/size/w600/2026/03/2f66bbe9-b6e7-47a9-9a62-2ece78ac49a9_1456x816-jpeg.jpg"
-      ],
-      "kind": "article",
-      "text_excerpt": "A year ago I wrote a piece called [your next design system user is an agent](https://blog.murphytrueman.com/p/your-next-design-system-user). The case was that you should treat your components like an API, give them clear contracts, names that mean something, so an agent can read them. I still think that's right. What I didn't sit with for long enough is how much of an agent's time is spent past the edge of what you wrote down, and how much rides on what it finds out there.\nAn agent doesn't stop at that edge. It can't. It runs into something you left open, a prop you never added, a state nobody designed, a spacing value that shows up in three components and never got a name, and it just keeps going. It has to put something there. And what it picks won't be what you meant, because what you meant was never written down anywhere it could find. So it uses the average instead. Your Card\nends up looking like whatever the most common Card\non the internet looks like, because once your definition runs out, that's all that's left to copy.\nPeople want to call this drift. It isn't. Drift is when your system says two different things and the agent faithfully builds both, and I've written about that, it's real and it's a mess. But drift means the answer is in there somewhere, just arguing with itself. This is different. There was nothing in the gap at all. The agent didn't copy your inconsistency, it made up a consistency you never agreed to, and it did it without a second of hesitation.\nA designer in that spot knows they're guessing. They'll ask in Slack, or go find whoever built the thing, or leave a comment saying they weren't sure. Everyone downstream can see it was a guess. An agent doesn't do that. Its guess comes back as finished code that looks exactly like the parts it got right, and nothing tells you which is which. Read it back a week later and you won't be able to say what came from your documentation and what came from the agent's best impression of a date picker.\nSo the empty spaces in your system start to cost you, when they used to be the cheapest thing in it. An undocumented prop was just a question someone would eventually ask, and the whole cost of it was one Slack message and an afternoon. Now that gap gets filled on every single run, always from the same outside default, and not one of those answers ever shows up as a decision a person made. You find out months later, if you find out at all, when something looks slightly off in review and you trace it back to a behaviour nobody on the team ever chose, sitting there in every screen.\nHere's the kind of thing I mean. Say your team builds a confirmation dialog for the destructive stuff, deleting an account, wiping a dataset, the things you can't take back. A lot of dialogs put keyboard focus straight on the confirm button when they open, and plenty of libraries ship it that way, so that's what an agent reaches for too. Your team did the opposite and focused the cancel button. As it happens, that's also what [the W3C suggests](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/?ref=blog.murphytrueman.com) for anything you can't undo. But you didn't do it because of a spec. You did it because you once watched someone hammer enter the second the dialog appeared, delete the thing, and then go very still in the way people do when they know it's gone for good. So you moved focus to cancel and made people travel to confirm. That decision was never in a style guide. It came out of watching it go wrong.\nNow hand that system to an agent and ask for a new confirmation flow. Your ConfirmDialog\nsays nothing about focus, because the behaviour sits down in the code and the reason for it only exists in the heads of the people who were there. So the agent does what everyone else does and focuses confirm. What it builds looks like yours, imports your component, gets through review without a second look. And it has walked the exact problem your team built the thing to avoid straight back in",
-      "text_excerpt_zh": "一年前，我写过一篇文章，题为[你的下一个设计系统用户是智能体](https://blog.murphytrueman.com/p/your-next-design-system-user)。当时的观点是：你应该把组件当作API来对待，为它们设定清晰的契约、有意义的命名，这样智能体才能读懂它们。我仍然认为这个观点是对的。但我当时没有深入思考的是，智能体有多少时间花在了你书面定义之外的地方，以及它在那些地方发现的东西会带来多大的影响。\n\n智能体不会止步于那个边界。它做不到。它会撞上你留下的开放接口、你从未添加的属性、没人设计过的状态、一个出现在三个组件里却从未被命名的间距值——然后它继续前进。它必须在那里放点什么。而它选择的东西不会是你原本的意思，因为你原本的意思从未写在它能够找到的任何地方。于是它使用了平均值。你的`Card`组件最终看起来就像互联网上最常见的`Card`组件一样，因为一旦你的定义用尽，剩下的就只有复制了。\n\n人们想把这称为“漂移”。其实不是。漂移是你的系统说了两件不同的事，而智能体忠实地把两者都构建了出来——我写过这个，它是真实存在的，也是一团乱麻。但漂移意味着答案就在系统里某处，只是自相矛盾。这次不同。那个空隙里根本什么都没有。智能体没有复制你的不一致，而是创造了一个你从未同意过的一致性，而且它毫不犹豫地就这么做了。\n\n一个设计师处在那个位置时，知道自己是在猜测。他们会在Slack里问，或者去找当初构建那个东西的人，或者留下一条评论说他们不确定。下游的每个人都能看出那是个猜测。智能体不会这样。它的猜测以完成的代码形式返回，看起来和它做对的部分一模一样，而且没有任何东西告诉你哪个是哪个。一周后再读这段代码，你将无法分辨哪些来自你的文档，哪些来自智能体对日期选择器的最佳模仿。\n\n于是，你系统中的空白开始让你付出代价——而过去它们曾是系统里最便宜的东西。一个未文档化的属性，不过是一个迟早会有人问的问题，它的全部成本就是一条Slack消息和一个下午。现在，那个空白在每次运行时都会被填充，总是来自同一个外部默认值，而这些答案中没有一个会表现为一个由人做出的决定。你几个月后才会发现——如果你真的能发现的话——当你在审查中觉得某个地方有点不对劲，追溯到一个团队里没人选择过的行为，它静静地躺在每一个屏幕里。\n\n我指的是这类事情。假设你的团队为破坏性操作——删除账户、清除数据集、那些无法撤销的事情——构建了一个确认对话框。很多对话框在打开时会把键盘焦点直接放在确认按钮上，许多库也是这么实现的，所以智能体也会这么做。你的团队做了相反的事，把焦点放在了取消按钮上。碰巧，这也是[W3C的建议](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/?ref=blog.murphytrueman.com)针对任何不可撤销操作的做法。但你这么做不是因为规范。你这么做是因为你曾经亲眼看着某人在对话框出现的瞬间猛敲回车，删掉了东西，然后整个人僵在那里——那种人们知道自己永远失去了某样东西时的样子。于是你把焦点移到了取消按钮上，让人们必须主动移动到确认按钮。那个决定从未出现在任何样式指南里。它来自亲眼目睹事情搞砸的那一刻。\n\n现在，把这个系统交给一个智能体，让它创建一个新的确认流程。你的`ConfirmDialog`对焦点只字未提，因为那个行为深埋在代码里，而它背后的理由只存在于当时在场的人们的脑海中。于是智能体做了和其他人一样的事，把焦点放在了确认按钮上。它构建出来的东西看起来和你的一样，导入了你的组件，在审查中顺利通过，没人多看一眼。而它就这样把你团队当初构建这个组件所要避免的那个问题，原封不动地又带了回来。",
-      "text_excerpt_zh_hash": "d91b58381bfdc7d8",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "The parts of your system you never wrote down",
-      "url": "https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/?ref=sidebar"
-    },
     "https://blog.murphytrueman.com/your-design-systems-newest-author-is-an-agent/?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -7389,6 +7330,29 @@
       "text_excerpt": "",
       "title": "Claude Claude",
       "url": "https://claude.ai/share/2cc2a252-0ece-4675-a4c7-de99a10872d9"
+    },
+    "https://claude.com/blog/getting-started-with-loops": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Practical guidance on progressing from turn-based to goal-based, time-based, and proactive loops.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://claude.com/blog/getting-started-with-loops",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229e73ca2d0d73d78f7_682ac293884c9d4ee4ebe2355a2f6c4ecfdd9c1b-1000x1000.svg",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a43eb603762e725a739d98c_8ace2295.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a43eb603762e725a739d98f_c6fa9ae5.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a43eb603762e725a739d989_eb9e496a.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Getting started with loops\nLearn how the Claude Code team defines agentic loops, with practical guidance on progressing from turn-based to goal-based, time-based, and proactive loops—and when to use each.\nLearn how the Claude Code team defines agentic loops, with practical guidance on progressing from turn-based to goal-based, time-based, and proactive loops—and when to use each.\n- June 30, 2026\n- 5min\nThere’s a lot of talk right now about \"designing loops\" instead of prompting your coding agent. If you spend some time on X trying to pin down what a loop actually is, you'll come across multiple different answers.\nOn the Claude Code team, we define loops as agents repeating cycles of work until a stop condition is met. We categorize a few different types of loops based on:\n- How they are triggered\n- How they are stopped\n- What Claude Code primitive is used\n- What type of task is most appropriate for each.\nWe’ll cover the main loop types, when to use each, and how to maintain code quality while managing token usage. Not all tasks require complex loops; start with the simplest solution and use these patterns selectively.\nOr read the [documentation](https://code.claude.com/docs/en/overview)\n- Triggered by: A user prompt.\n- Stop criteria: Claude judges it has completed the task or needs additional context.\n- Best used for: Shorter tasks that are not part of a regular process or schedule.\n- Managed usage by: Write specific prompts and improve verification using skills to reduce the number of turns.\nEvery prompt you send starts a manual loop with you directing each turn. Claude gathers context, takes action, checks its work, repeats if needed, and responds. We call this the agentic loop.\nFor example, ask Claude to create a like button. It reads your code, makes the edit, runs the tests, and hands back something it believes works. You then manually check the work, and write the next prompt.\nYou can improve the verification step by encoding your manual steps as a SKILL.md so Claude can check more of its own work, end-to-end. This should include tools or connectors to allow Claude to see, measure or interact with the result. The more quantitative the checks are, the easier it is for Claude to self-verify.\nFor example, in your SKILL.md file you may specify:\n--- \nname: verify-frontend-change \ndescription: Verify any UI change end-to-end before declaring it done. \n--- \n# Verifying frontend changes \nNever report a UI change as complete based on a successful edit alone. Verify it the way a human reviewer would: \n1. Start the dev server and open the edited page in the browser. \n2. Interact with the change directly. For a new control (button, input, toggle): click it, confirm the expected state change, and screenshot before/after. \n3. Check the browser console: zero new errors or warnings. \n4. Use the Chrome Devtools MCP, run a performance trace and audit Core Web Vitals.\nIf any step fails, fix the issue and rerun from step 1 — do not hand back partially verified work.\n- Triggered by: A manual prompt in real-time.\n- Stop criteria: Goal achieved OR maximum number of turns reached.\n- Best used for: Tasks that have verifiable exit criteria.\n- Managed usage by: Setting a specific completion criteria and explicit turn caps, “stop after 5 tries.”\nSometimes, a single turn is not enough, especially for more complex tasks. Agents do better when they can iterate. You can extend how long Claude keeps iterating by defining what done looks like with /goal.\nWhen you define the success criteria, Claude doesn’t have to make a determination on what is “good enough” and end the loop early. Each time Claude tries to stop, an evaluator model checks your condition and sends it back to work until the goal is met or a number of turns you define is reached.\nThis is why deterministic criteria, such as number of tests passed or clearing a certain score threshold, are so effective.\nFor example:\n/goal get the homepage Lighthouse score to 90 or above, stop after 5 tries.-",
+      "title": "Getting started with loops | Claude by Anthropic",
+      "url": "https://claude.com/blog/getting-started-with-loops"
     },
     "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude": {
       "cleaner_v": 2,
@@ -7708,29 +7672,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Cursor · Origin",
       "url": "https://cursor.com/origin"
-    },
-    "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "How AI has changed the way I prototype, plan, and ship; and what I'm doing to keep my hands dirty.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar",
-      "frameable": null,
-      "image_urls": [
-        "https://darylcecile.net/og?slug=speed-of-prototyping-age-of-ai",
-        "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://github.com&size=32",
-        "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://mikemcquaid.com&size=32",
-        "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cassidoo.co&size=32",
-        "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://simonwillison.net&size=32",
-        "https://darylcecile.net/icon.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "Note: These are personal reflections on how my workflow has shifted over the past year, not a pitch for any tool. Your mileage will (and probably should) vary.\nA few years back I wrote about my love of [throwaway prototypes](/notes/throwaway-prototypes); those little proof-of-concepts that exist purely to get an idea out of your head and into something tangible. At the time, my biggest bottleneck was me; the time it took to scaffold a project, wire up the boring bits, and get to a place where the interesting parts could actually be tested. Fast forward to now, and that bottleneck has all but vanished.\nI've been a little hesitant to write about this. I've already shared some [cautious thoughts on AI](/notes/github-copilot-agent-actually-useful-ai) and where it fits into my workflow, and I stand by all of it. I still think the industry is figuring things out in real time, and I still think it pays to be careful. But cautious doesn't mean blind, and the honest truth is that AI has changed how quickly I can go from \"I wonder if…\" to \"oh, it works\".\nIf you've looked at my [GitHub](https://github.com/darylcecile) recently, you'll have noticed a stream of new repos showing up. [Sakoa](/projects/sakoa), a progressive systems language I've been designing from scratch, complete with an effect system, three memory modes, and a MIR with multiple backends. [Kato](/projects/kato), a notation language meant to sit somewhere between JSON, TOML, and YAML, but explicitly designed to be friendly to both humans and agents. [Seal](/projects/seal), a tiny CLI that quietly kills the .env file by stashing secrets in OS-native credential stores. [Karabiner](/projects/karabiner-app), an iOS-first agent-native messaging app. [Plim](/projects/plim), a Notion-inspired, embeddable block editor for the web with a framework-agnostic core and React bindings. And a few more knocking around that aren't ready for the spotlight yet.\nA few years ago, that list would have been three repos with READMEs, two abandoned branches, and one working prototype I'd be quietly proud of. Now? The prototypes exist. They run. Some of them have tests. A couple are starting to look like real projects. And while not all of them will turn into anything serious (and that's [kind of the point](/notes/throwaway-prototypes)), there is something really satisfying about being able to actually try an idea, rather than just talk about it.\nThe thing nobody really warned me about is how much AI changes the shape of engineering work, not just the speed of it. When I'm not the one typing every line, I'm forced to think differently. I'm thinking about boundaries, contracts, and how the pieces fit together. I'm writing prompts and specs that describe the system holistically, before the system exists.\nThat shift sounds small but it's been quietly transformative. I'm planning at a more abstracted level, framing problems before I solve them, and I've gotten noticeably better at delegating; both to agents and to people. Turns out that the skill of \"describing exactly what success looks like, in a way that a junior engineer (or a model) can act on without you in the room\" is the same skill in both directions. Sharing vision, breaking work down, anticipating where things might go wrong; these are muscles I've been forced to exercise much more deliberately, and I'm better for it.\nI've been tracking this loosely for a while, mostly out of curiosity. Based on my own day-to-day engineering tasks (measured roughly by time-to-PR for typical pieces of work), I'm averaging about 4x faster than I was before agents became a meaningful part of my workflow. Some days it's more, some days it's less, and some days the agent does something delightfully strange that costs me an hour to undo (which I'll happily count against the average).\nBut that number understates the more interesting effect: the kind of work I can take on has changed. Things I would have previously parked under \"nice idea, no time\" now slot into an",
-      "text_excerpt_zh": "**注意：** 以下是我个人对过去一年工作流程变化的反思，并非对任何工具的推销。你的情况可能（而且很可能应该）有所不同。\n\n几年前，我曾写过我对[一次性原型](/notes/throwaway-prototypes)的热爱；那些纯粹为了将想法从脑海中提取出来并转化为有形之物而存在的小型概念验证。当时，我最大的瓶颈是我自己：搭建项目框架、连接那些枯燥的部分、以及真正到达可以测试有趣部分的地方所需的时间。快进到现在，那个瓶颈几乎消失了。\n\n我一直有点犹豫是否要写这个。我已经分享过一些关于AI的[谨慎思考](/notes/github-copilot-agent-actually-useful-ai)以及它如何融入我的工作流程，我仍然坚持所有这些观点。我依然认为整个行业是在实时摸索，也依然认为保持谨慎是有好处的。但谨慎不等于盲目，老实说，AI已经改变了我从“我想知道如果……”到“哦，它居然能工作”的速度。\n\n如果你最近看过我的[GitHub](https://github.com/darylcecile)，你会注意到一系列新的仓库出现。[Sakoa](/projects/sakoa)，一种我从头设计的渐进式系统语言，包含效果系统、三种内存模式以及一个带有多个后端的MIR。[Kato](/projects/kato)，一种标记语言，旨在介于JSON、TOML和YAML之间，但明确设计为对人和AI代理都友好。[Seal](/projects/seal)，一个微小的CLI工具，通过将秘密存储在操作系统原生的凭据存储中来悄无声息地消灭.env文件。[Karabiner](/projects/karabiner-app)，一个以iOS为先、面向AI代理的原生消息应用。[Plim](/projects/plim)，一个受Notion启发的、可嵌入的Web块编辑器，具有框架无关的核心和React绑定。还有几个正在打磨中，尚未准备好亮相。\n\n几年前，这个列表会是三个带有README的仓库，两个被遗弃的分支，以及一个我会暗自引以为豪的工作原型。现在呢？原型存在了。它们能运行。其中一些还有测试。有几个开始看起来像真正的项目了。虽然并非所有项目都会变成严肃的东西（而这正是[关键所在](/notes/throwaway-prototypes)），但能够真正尝试一个想法，而不仅仅是谈论它，这确实令人非常满足。\n\n没有人真正警告过我的是，AI不仅改变了工程工作的速度，更改变了它的形态。当我不再是逐行输入代码的那个人时，我被迫以不同的方式思考。我在思考边界、契约以及各个部分如何组合在一起。我在编写提示和规范，在系统存在之前就从整体上描述它。\n\n这种转变听起来很小，但它已经悄然带来了变革。我在更抽象的层面上进行规划，在解决问题之前先构建问题框架，而且我在委派任务方面——无论是给AI代理还是给人——都明显变得更好了。事实证明，“精确地描述成功的样子，让一个初级工程师（或一个模型）可以在没有你在场的情况下据此行动”这项技能，在两个方向上都是相通的。分享愿景、分解工作、预判可能出现问题的地方——这些都是我被迫更刻意地锻炼的能力，而我因此变得更好。\n\n我断断续续地追踪这个情况有一段时间了，主要是出于好奇。根据我自己的日常工程任务（大致按典型工作项的PR时间衡量），我现在的平均速度大约是AI代理成为我工作流程中有意义的一部分之前的4倍。有些天更快，有些天更慢，还有些天AI代理会做出一些令人愉悦的奇怪举动，让我花一个小时去撤销（我很乐意把这算进平均值里）。\n\n但这个数字低估了更有趣的影响：我能承担的工作类型已经改变了。那些我以前会搁置在“好主意，没时间”类别里的事情，现在可以……",
-      "text_excerpt_zh_hash": "f23825547e447475",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "The Speed of Prototyping in the Age of AI",
-      "url": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar"
     },
     "https://declank.skeptrune.com/": {
       "content_type": "text/html; charset=UTF-8",
@@ -9887,6 +9828,22 @@
       "title": "Communities of Not | Armin Ronacher's Thoughts and Writings",
       "url": "https://lucumr.pocoo.org/2026/6/6/communities-of-not/"
     },
+    "https://luma.com/ai-builders-paris": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "An event dedicated to exploring all things AI Engineering!\nAn official side event of Raise Summit.\nAgenda\n🕒 6:30 pm – 6:35 pm\nWelcome and Opening Remarks\n🎤…",
+      "extraction_source": "trafilatura",
+      "final_url": "https://luma.com/ai-builders-paris",
+      "frameable": false,
+      "image_urls": [
+        "https://og.luma.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event?calendar_avatar=https%3A%2F%2Fcdn.lu.ma%2Favatars-default%2Fcommunity_avatar_2.png&color0=%230a0a0a&color1=%23ffffff&color2=%23878787&host_avatar=https%3A%2F%2Fimages.lumacdn.com%2Favatars%2Fw4%2Ffe2c0e78-5c95-40ab-ada2-0254f8497b7c&host_name=Daytona&img=https%3A%2F%2Fimages.lumacdn.com%2Fuploads%2Fv0%2F69ae3a58-9163-4421-aef6-ddff162494be.png&name=Daytona%20AI%20Builders%20-%20Paris%2C%20July%202026&palette_neutral=%230a0a0a%3A94.66%2C%23ffffff%3A2.95%2C%23878787%3A0.79",
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/uploads/v0/69ae3a58-9163-4421-aef6-ddff162494be.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "[Featured in RAISE Week](https://luma.com/raisesummit?k=c)\nDaytona AI Builders - Paris, July 2026\nAn event dedicated to exploring all things AI Engineering!\nAn official side event of [Raise Summit](https://www.raisesummit.com/?utm_source=luma).\nAgenda\n🕒 6:30 pm – 6:35 pm\nWelcome and Opening Remarks\n🎤 [Marijan Cipcic](https://www.linkedin.com/in/marijan-cipcic-9bab3049/?utm_source=luma), Principal Events Manager at Daytona\n🕒 6:35 pm – 6:50 pm\nTalk \"One Agent, Three Different Chips\"\n🎤 [Kwasi Ankomah](https://www.linkedin.com/in/kwasi-ankomah-96614115/?utm_source=luma), Director AI Solutions Engineering at SambaNova\nOutline:\nA single agent run does three very different jobs: prefilling input, decoding output token by token, and calling tools. No single chip is good at all three, so when you force one to do everything, you pay for it in latency. And latency is the whole game here: agents chain dozens of steps back to back, so every slow action compounds, and a workflow that crawls is one of the most frustrating AI experiences. In this talk, Kwasi makes the case for splitting the work up — GPUs for prefill, Reconfigurable Dataflow Units (RDUs) for fast decoding, and CPUs for the orchestration and tool-calling glue that holds an agent together.\n🕒 6:50 pm – 7:05 pm\nTalk \"Kubernetes Is Not Your Sandbox\"\n🎤 [Ivan Burazin](https://www.linkedin.com/in/ivanburazin/?utm_source=luma), Co-Founder & CEO of Daytona\nOutline:\nTeams are reaching for Kubernetes to run agent sandboxes, and it's the wrong tool. Kubernetes is built to keep things alive and hold them in a steady state. A sandbox is born, forked, and killed before any of that machinery catches up.\nThe mismatch compounds because the sandbox keeps gaining requirements without shedding any. In eighteen months it went from a fast code-snippet runner, to a stateful box for long-running agents, to ten thousand ephemeral environments that fork for RL rollouts and die in under a second. It has to be all of those at once, a contradiction set no orchestrator was designed to hold.\nThe cost shows up the moment you measure it. We ran the same 50-action bug-fix trajectory across five stacks and got a 12x spread: 12.9s on the fastest, 161.5s on the slowest. The gap isn't compute, it's lifecycle overhead per action. We name every stack and explain the mechanism behind each number.\n🕒 7:05 pm – 7:20 pm\nTalk \"Code Security in the Age of AI Agents\"\n🎤 [Simon Van Oudenhove](https://www.linkedin.com/in/simon-van-oudenhove-9bba9612a/?utm_source=luma), AI Pentest Team at Aikido Security\nOutline:\nAI has dramatically accelerated software development, but security still operates on yesterday's schedule. Most teams ship code continuously while relying on scans or penetration tests that run weeks or months apart.\nThis session explains why application security needs to become continuous, how AI-driven security testing validates every release, and what self-securing software looks like in practice.\n🕒 7:20 pm – 7:35 pm\nTalk \"Building with Parallel Agents\"\n🎤 [Raouf Chebri](https://www.linkedin.com/in/raoufchebri/?utm_source=luma), Developer Relations Engineer at Replit\nOutline:\nIn this talk, we will cover what building with parallel is and how to get the most of your agents.\n🕒 7:35 pm – 7:45 pm\nTalk \"Headless SaaS Interfaces\"\n🎤 [Charles Sonigo](https://www.linkedin.com/in/charles-sonigo-135a4340/?utm_source=luma), Co-founder at Alpic\nOutline:\nSaaS didn't die, it just lost its head. The dashboard is no longer the default interface for your users, because your users now include agents. Coding assistants, autonomous workflows, and general-purpose AI systems are becoming first-class consumers of SaaS products, and they work nothing like humans do. This talk breaks down the interface landscape that has emerged since late 2024: MCP, MCP Apps, CLIs, Skills, and Plugins, and gives you a practical framework for deciding which ones to build, when each one shines, and where each one falls short.\n🕒 7:45 pm – 7:55 pm\nTalk \"TBA\"\n🎤 [S",
+      "title": "Daytona AI Builders - Paris, July 2026 · Luma",
+      "url": "https://luma.com/ai-builders-paris"
+    },
     "https://magicpattern.design": {
       "content_type": "text/html; charset=utf-8",
       "description": "Create beautiful background patterns, gradients, blobs and more with a toolbox of 30+ online design tools. Export as SVG, CSS, PNG or JPG. Used by 100,000+ designers & developers.",
@@ -11958,6 +11915,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2073581255187103744/img/_-hjPZ8yLWusdAgx.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2073763242090942464/img/7B4whl7m2dp_LZ0N.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2073763242090942464/img/7B4whl7m2dp_LZ0N.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2073763242090942464/img/7B4whl7m2dp_LZ0N.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2073763242090942464/img/7B4whl7m2dp_LZ0N.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2073788995763322880/img/bYzYlYSJ7Sy-30xd.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -12000,6 +11971,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2073813909878738944/img/LrXnF63Eu1tpH1U0.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2073878471214850048/img/cXMO7xxhmlHEoDK9.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2073878471214850048/img/cXMO7xxhmlHEoDK9.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2073878471214850048/img/cXMO7xxhmlHEoDK9.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2073878471214850048/img/cXMO7xxhmlHEoDK9.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -12041,20 +12026,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/ext_tw_video_thumb/2072349518301937664/pu/img/MGS76zJ33bzxb9fh.jpg"
-    },
-    "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg"
     },
     "https://pbs.twimg.com/media/HK03ucdbMAANq9h.jpg": {
       "cleaner_v": 2,
@@ -12419,20 +12390,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HKEPe4ubYAAwq_l.jpg"
-    },
-    "https://pbs.twimg.com/media/HKEPpsoXcAAuXcl.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKEPpsoXcAAuXcl.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HKEPpsoXcAAuXcl.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HKEPpsoXcAAuXcl.jpg"
     },
     "https://pbs.twimg.com/media/HKEXRzmXoAEeQNk.jpg": {
       "cleaner_v": 2,
@@ -15514,6 +15471,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HMYwDoXWYAAwYz1.jpg"
     },
+    "https://pbs.twimg.com/media/HMZINmoXwAAqc0f.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMZINmoXwAAqc0f.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMZINmoXwAAqc0f.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMZINmoXwAAqc0f.png"
+    },
     "https://pbs.twimg.com/media/HMZqq1MWYAAOrTg.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15583,6 +15554,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HMayMTMWMAAfvnz.jpg"
+    },
+    "https://pbs.twimg.com/media/HMdlR82WAAAJUcU.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMdlR82WAAAJUcU.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMdlR82WAAAJUcU.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMdlR82WAAAJUcU.jpg"
+    },
+    "https://pbs.twimg.com/media/HMe1qVUWoAELdPL.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HMe1qVUWoAELdPL.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMe1qVUWoAELdPL.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HMe1qVUWoAELdPL.jpg"
     },
     "https://pbs.twimg.com/media/HMe8HmYWIAA-2Oi.jpg": {
       "cleaner_v": 2,
@@ -17919,6 +17918,23 @@
       "title": "C:\\Takes | Coatue",
       "url": "https://www.coatue.com/c/takes"
     },
+    "https://www.daytona.io/dotfiles/daytona-for-ai-research": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Daytona sandboxes can support academic AI research workflows across three practical areas.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.daytona.io/dotfiles/daytona-for-ai-research",
+      "frameable": false,
+      "image_urls": [
+        "https://www.datocms-assets.com/103916/1782589460-daytona-for-ai-research.png?auto=compress%2Cformat&fit=crop&h=1260&w=2520",
+        "https://www.datocms-assets.com/103916/1782398018-shashwat-mahalanobis.jpeg?auto=compress%2Cformat&crop=faces&facepad=2.5&fit=facearea&h=256&mask=ellipse&w=256",
+        "https://www.datocms-assets.com/103916/1782589444-daytona-for-ai-research-light.png?auto=compress%2Cformat&fit=crop&h=1260&w=2520"
+      ],
+      "kind": "article",
+      "text_excerpt": "AI research labs at universities run into infrastructure problems that have nothing to do with the research itself.\nShared compute clusters where one student's dependency update breaks another's experiment. Conda environments that drift silently over weeks. Hyperparameter sweeps that run sequentially because managing parallel environments on shared hardware is fragile.\nThese aren't edge cases. They're the daily reality in most academic ML labs, and they cost real time. Time spent debugging environments is time not spent on research.\nDaytona provides isolated sandbox environments (full computers with dedicated kernels, filesystems, and network stacks) that spin up in under 90 milliseconds. Researchers interact with sandboxes through a Python SDK, so infrastructure management fits directly into existing experiment scripts. The Laude Institute, in collaboration with Stanford University, used Daytona to scale their Terminal Bench AI agent benchmark from 4–6 local Docker containers to 37,000 sandboxes in a single week.\nThis three-part series walks through three research workflows where Daytona solves concrete problems academic labs face today. Each part covers the problem, the solution, and working code.\nNote\nThe examples in this series use the Python SDK. Daytona also provides SDKs for TypeScript, Go, Ruby, and Java, as well as a CLI and REST API.\nOverview\n- Part 1: Reusable research environments — defining environments as code, creating named snapshots, and launching clean sandboxes from them. \n- Part 2: Parallel experiment runs — running hyperparameter sweeps and benchmark evaluations concurrently without shared-state contamination. \n- Part 3: Isolated environments for agent and RL research — safe execution of AI-generated code, network-restricted evaluation, and fast rollout environments. \nTL;DR\nThis series shows how Daytona sandboxes can support academic AI research workflows across three practical areas: reusable research environments, parallel experiment runs, and isolated execution environments for agent and RL research.\nYou'll see how to use Daytona to:\n- Create named, reusable research environments with snapshots and declarative images \n- Launch clean sandboxes for experiments, evaluations, and benchmark tasks \n- Run parallel configurations without shared filesystem or process-state contamination \n- Execute AI-generated code safely inside isolated environments before trusting its output \n- Create fast, disposable rollout environments for agent and RL-style experimentation \n- Keep research workflows programmable through Daytona's SDK, filesystem, process, network, and sandbox APIs \nPrerequisites\nYou'll need a Daytona account (sign up at [app.daytona.io](ttps://app.daytona.io)), an API key from the Dashboard, and Python 3.9+.\nInstall the SDK:\n1pip install daytona\nSet your credentials:\n1export DAYTONA_API_KEY=\"your-api-key-here\"2export DAYTONA_TARGET=\"us\"\nInitialize the client:\n1from daytona import Daytona2daytona = Daytona()\nPart 1: Reusable Research Environments\nThe problem: dependency drift\nA paper gets submitted. Six months later, a reviewer requests an additional ablation. The researcher opens the project, runs pip install -r requirements.txt, and immediately hits version conflicts. Dependencies have released breaking updates since the code was last touched. What should be a thirty-minute experiment becomes a two-day environment debugging session.\nA requirements.txt captures package names and versions, but not the complete system state. In practice, most researchers don't pin every transitive dependency, so builds aren't deterministic across time.\nHow Daytona helps: named snapshots\nDaytona snapshots give research teams a way to name and reuse a known environment configuration. A snapshot is a sandbox template built from a Docker/OCI image or a declarative image definition. Daytona processes it and stores it in its internal registry. Once a snapshot exists, new sandboxes can be launched from it whenever the same environm",
+      "title": "Daytona for AI Research",
+      "url": "https://www.daytona.io/dotfiles/daytona-for-ai-research"
+    },
     "https://www.dbreunig.com/2025/01/31/deepseek-as-a-power-object.html": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -19683,43 +19699,15 @@
       "https://x.com/sairahul1/status/2062820796620550157",
       "https://x.com/sairahul1/status/2062912674556748224"
     ],
-    "2062928213605543938": [
-      "https://x.com/Voxyz_ai/status/2062928213605543938",
-      "http://x.com/i/article/2062891077359595520"
-    ],
-    "2062930609861976454": [
-      "https://x.com/neural_avb/status/2062930609861976454",
-      "http://x.com/i/article/2062555781736902656"
-    ],
     "2062947242030567797": [
       "https://x.com/lucamrtl/status/2062947242030567797",
       "https://www.kaelio.com/blog/open-source-anthropic-internal-data-analytics-engine",
       "https://github.com/Kaelio/ktx",
       "https://pbs.twimg.com/media/HKEPe4ubYAAwq_l.jpg"
     ],
-    "2062947317011878002": [
-      "https://x.com/SidebarIO/status/2062947317011878002",
-      "https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/?ref=sidebar",
-      "https://pbs.twimg.com/media/HKEPpsoXcAAuXcl.jpg",
-      "https://x.com/SidebarIO/status/2062549448274628846",
-      "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar",
-      "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg"
-    ],
-    "2062948931886334020": [
-      "https://x.com/jhleath/status/2062948931886334020",
-      "http://x.com/i/article/2062947397635043328",
-      "https://x.com/jhleath/status/2062966990839706049",
-      "https://x.com/jhleath/status/2062973044197605875"
-    ],
     "2062956203664175124": [
       "https://x.com/RianSweetDoris/status/2062956203664175124",
       "http://x.com/i/article/2062949527317864448"
-    ],
-    "2062992045803745540": [
-      "https://x.com/tanmaye_bhatia/status/2062992045803745540",
-      "http://x.com/i/article/2062990693061005312",
-      "https://x.com/tanmaye_bhatia/status/2063029754865828339",
-      "https://x.com/tanmaye_bhatia/status/2063301353829449818"
     ],
     "2063019732912251146": [
       "https://x.com/VoidAsuka/status/2063019732912251146",
@@ -25209,20 +25197,22 @@
     "2073562522469413240": [
       "https://x.com/McGrady8898/status/2073562522469413240",
       "https://x.com/McGrady8898/status/2073793717253890078",
+      "https://x.com/McGrady8898/status/2073990303166710262",
       "https://x.com/McGrady8898/status/2073792488184414616",
-      "https://x.com/McGrady8898/status/2073764378852442294",
+      "https://x.com/McGrady8898/status/2073934459750285642",
       "https://x.com/McGrady8898/status/2073792565405774164",
-      "https://x.com/McGrady8898/status/2073688532896657828",
-      "https://x.com/McGrady8898/status/2073842571890282526"
+      "https://x.com/McGrady8898/status/2073842571890282526",
+      "https://x.com/McGrady8898/status/2073764378852442294",
+      "https://x.com/McGrady8898/status/2073688532896657828"
     ],
     "2073568222213718486": [
       "https://x.com/cobi_bean/status/2073568222213718486",
       "http://x.com/i/article/2073558530506805248",
       "https://x.com/cobi_bean/status/2073913115528343708",
       "https://pbs.twimg.com/media/HMgE_NrW0AAbMix.jpg",
-      "https://x.com/cobi_bean/status/2073916525220659517",
+      "https://x.com/cobi_bean/status/2073787790651703506",
       "https://x.com/cobi_bean/status/2073786565051011404",
-      "https://x.com/cobi_bean/status/2073787790651703506"
+      "https://x.com/cobi_bean/status/2073916525220659517"
     ],
     "2073614453245968592": [
       "https://x.com/business/status/2073614453245968592",
@@ -25259,14 +25249,30 @@
       "https://x.com/TheEconomist/status/2073723637346050215",
       "https://www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a4a3941c097b900019dd03c&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter"
     ],
+    "2073723969325158406": [
+      "https://x.com/Vladic_ETH/status/2073723969325158406",
+      "https://x.com/Vladic_ETH/status/2073821368500490631",
+      "https://x.com/Vladic_ETH/status/2073733760407712182",
+      "https://x.com/Vladic_ETH/status/2073820852420817204",
+      "https://x.com/Vladic_ETH/status/2073825978330280424",
+      "https://pbs.twimg.com/media/HMe1qVUWoAELdPL.jpg"
+    ],
     "2073728292671127842": [
       "https://x.com/KellehEyad/status/2073728292671127842",
       "http://x.com/i/article/2073723134432182272"
     ],
+    "2073740162681454959": [
+      "https://x.com/daytonaio/status/2073740162681454959",
+      "https://www.daytona.io/dotfiles/daytona-for-ai-research",
+      "https://pbs.twimg.com/media/HMdlR82WAAAJUcU.jpg",
+      "https://x.com/daytonaio/status/2073424794813395100",
+      "https://luma.com/ai-builders-paris",
+      "https://pbs.twimg.com/media/HMZINmoXwAAqc0f.png"
+    ],
     "2073771130691727700": [
       "https://x.com/asmartbear/status/2073771130691727700",
       "https://longform.asmartbear.com/never-compete-on-price/?utm_source=twitter&utm_campaign=asmartbear_twitter&utm_medium=social",
-      "https://x.com/asmartbear/status/2073863239637647409"
+      "https://x.com/asmartbear/status/2073985292017484082"
     ],
     "2073777040332104107": [
       "https://x.com/nyk_builderz/status/2073777040332104107"
@@ -25286,11 +25292,18 @@
       "https://x.com/0xLoopz/status/2073829900973232584"
     ],
     "2073796946167263742": [
-      "https://x.com/PawelHuryn/status/2073796946167263742"
+      "https://x.com/PawelHuryn/status/2073796946167263742",
+      "https://x.com/PawelHuryn/status/2073979718831890523",
+      "http://productcompass.pm"
     ],
     "2073805390978982038": [
       "https://x.com/TheEconomist/status/2073805390978982038",
       "https://www.economist.com/china/2026/07/05/has-china-obtained-the-worlds-most-important-machine?taid=6a4a85657177c90001d8f0c0&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
+    ],
+    "2073805837374533831": [
+      "https://x.com/JoviDeC/status/2073805837374533831",
+      "http://drydock.org",
+      "https://x.com/JoviDeC/status/2073805839085830429"
     ],
     "2073808336231813273": [
       "https://x.com/DruRly/status/2073808336231813273",
@@ -25329,10 +25342,30 @@
       "https://x.com/boristane/status/2073853789409591617",
       "https://x.com/boristane/status/2073826080876798258"
     ],
+    "2073832527727395164": [
+      "https://x.com/gakonst/status/2073832527727395164"
+    ],
+    "2073859460288954424": [
+      "https://x.com/shmidtqq/status/2073859460288954424",
+      "https://pbs.twimg.com/amplify_video_thumb/2073763242090942464/img/7B4whl7m2dp_LZ0N.jpg",
+      "https://x.com/shmidtqq/status/2073878819652456871",
+      "https://claude.com/blog/getting-started-with-loops"
+    ],
     "2073860421061161065": [
       "https://x.com/nrmehta/status/2073860421061161065"
+    ],
+    "2073885043815059830": [
+      "https://x.com/helicerat0x/status/2073885043815059830",
+      "https://pbs.twimg.com/amplify_video_thumb/2073878471214850048/img/cXMO7xxhmlHEoDK9.jpg",
+      "https://x.com/helicerat0x/status/2073901489173516649",
+      "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+      "https://x.com/helicerat0x/status/2073901863565476224"
+    ],
+    "2073924926080192714": [
+      "https://x.com/TheEconomist/status/2073924926080192714",
+      "https://www.economist.com/leaders/2026/07/02/america-is-anxious-and-awesomely-powerful?taid=6a4af4b868410d0001194570&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
     ]
   },
-  "updated_at": "2026-07-06T00:16:01Z",
+  "updated_at": "2026-07-06T04:43:35Z",
   "window": "recent"
 }
